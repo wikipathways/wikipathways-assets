@@ -1,0 +1,587 @@
+{
+  "entitiesById": {
+    "ae28c": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 10,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 59,
+      "id": "ae28c",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "reactomeId": "5400401",
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Homologues of NAD\ndependent\nepimerase/dehydratase\nfamily domain\ncontaining protein\n(LOC_OS04G52730.1)",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Reactome:5400401",
+        "Protein"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 137,
+      "wpType": "Protein",
+      "x": 115,
+      "xrefDataSource": "Reactome",
+      "xrefIdentifier": "5400401",
+      "y": 107,
+      "zIndex": 32768
+    },
+    "b2a1b": {
+      "drawAs": "none",
+      "fill": "transparent",
+      "fontFamily": "Arial",
+      "fontSize": 10,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "Label",
+      "height": 33,
+      "id": "b2a1b",
+      "isPartOf": "c80f5",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#000000",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "textContent": "cytosol",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "Label",
+        "SingleFreeNode"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 64,
+      "x": 114.5,
+      "y": 22.5,
+      "zIndex": 28672
+    },
+    "c20c2": {
+      "burrs": [
+        "e99ee",
+        "fd576",
+        "e2783"
+      ],
+      "comments": [
+        {
+          "content": "This event has been computationally inferred from an event that has been demonstrated in another species.<p>The inference is based on Ensembl Compara orthology projection. Briefly, reactions for which all involved PhysicalEntities (in input, output and catalyst) have a mapped ortholog or paralog are inferred to the other species. High-level events are also inferred for these events to allow for easier navigation.<p>Details of projection methods and parameters may be found <a href=\"/projection.html\">here.</a><p>",
+          "source": "Reactome"
+        }
+      ],
+      "drawAs": "SegmentedLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "c20c2",
+      "kaavioType": "Edge",
+      "points": [
+        {
+          "x": 80,
+          "y": 91
+        },
+        {
+          "x": 80,
+          "y": 186
+        }
+      ],
+      "reactomeId": "5400487",
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "Reactome:5400487"
+      ],
+      "xrefDataSource": "Reactome",
+      "xrefIdentifier": "5400487",
+      "zIndex": 12288
+    },
+    "c80f5": {
+      "contains": [
+        "fae70",
+        "b2a1b"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 285,
+      "id": "c80f5",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 296,
+      "x": -5.5,
+      "y": -5.5,
+      "zIndex": 16384
+    },
+    "d3d33": {
+      "drawAs": "SegmentedLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "d3d33",
+      "isAttachedTo": [
+        "ae28c",
+        "c20c2"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "MimCatalysis",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0,
+              0.4915254237288136
+            ]
+          },
+          "isAttachedTo": "ae28c",
+          "orientation": [
+            -1,
+            0
+          ],
+          "x": 115,
+          "y": 136
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [],
+            "position": [
+              0.5,
+              0
+            ],
+            "relativeOffset": [
+              0,
+              23.25
+            ]
+          },
+          "isAttachedTo": "e2783",
+          "orientation": [],
+          "x": 80,
+          "y": 186
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "Reactome:5400487"
+      ],
+      "xrefDataSource": "Reactome",
+      "xrefIdentifier": "5400487",
+      "zIndex": 12288
+    },
+    "d55c9": {
+      "drawAs": "SegmentedLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "d55c9",
+      "isAttachedTo": [
+        "e1945",
+        "c20c2"
+      ],
+      "kaavioType": "Edge",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.49230769230769234,
+              1
+            ]
+          },
+          "isAttachedTo": "e1945",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 80,
+          "y": 88
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [],
+            "position": [
+              0,
+              0
+            ],
+            "relativeOffset": [
+              0,
+              0
+            ]
+          },
+          "isAttachedTo": "e99ee",
+          "orientation": [],
+          "x": 80,
+          "y": 91
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "Reactome:5400487"
+      ],
+      "xrefDataSource": "Reactome",
+      "xrefIdentifier": "5400487",
+      "zIndex": 12288
+    },
+    "e1945": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 10,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 30,
+      "id": "e1945",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "reactomeId": "742353",
+      "stroke": "#0000ff",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "UDP-Xyl",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "ChEBI:CHEBI:16082",
+        "Metabolite",
+        "ChEBI:16082",
+        "P683:16082",
+        "P683:CHEBI:16082",
+        "HMDB:HMDB0001013",
+        "HMDB:HMDB0001018",
+        "HMDB:HMDB01018",
+        "HMDB:HMDB01013",
+        "P2057:HMDB0001013",
+        "P2057:HMDB0001018",
+        "P2057:HMDB01018",
+        "P2057:HMDB01013",
+        "Wikidata:Q27089069"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 65,
+      "wpType": "Metabolite",
+      "x": 48,
+      "xrefDataSource": "ChEBI",
+      "xrefIdentifier": "CHEBI:16082",
+      "y": 58,
+      "zIndex": 32768
+    },
+    "e2783": {
+      "attachmentDisplay": {
+        "offset": [
+          0,
+          0
+        ],
+        "position": [
+          0.5,
+          0
+        ]
+      },
+      "drawAs": "none",
+      "gpmlElementName": "Anchor",
+      "height": 0,
+      "id": "e2783",
+      "isAttachedTo": "c20c2",
+      "kaavioType": "Burr",
+      "strokeWidth": 0,
+      "type": [
+        "Anchor",
+        "Burr"
+      ],
+      "width": 0,
+      "zIndex": 12288
+    },
+    "e99ee": {
+      "attachmentDisplay": {
+        "offset": [
+          0,
+          0
+        ],
+        "position": [
+          0,
+          0
+        ]
+      },
+      "drawAs": "none",
+      "gpmlElementName": "Anchor",
+      "height": 0,
+      "id": "e99ee",
+      "isAttachedTo": "c20c2",
+      "kaavioType": "Burr",
+      "strokeWidth": 0,
+      "type": [
+        "Anchor",
+        "Burr"
+      ],
+      "width": 0,
+      "zIndex": 12288
+    },
+    "ee2ca": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 10,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 31,
+      "id": "ee2ca",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "reactomeId": "1131157",
+      "stroke": "#0000ff",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "UDP-L-arabinose",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "ChEBI:CHEBI:17983",
+        "Metabolite",
+        "ChEBI:17983",
+        "P683:CHEBI:17983",
+        "P683:17983",
+        "Wikidata:Q27102745"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 101,
+      "wpType": "Metabolite",
+      "x": 31,
+      "xrefDataSource": "ChEBI",
+      "xrefIdentifier": "CHEBI:17983",
+      "y": 189,
+      "zIndex": 32768
+    },
+    "fae70": {
+      "drawAs": "rect",
+      "fill": "transparent",
+      "fontFamily": "Arial",
+      "fontSize": 10,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "Shape",
+      "height": 269,
+      "id": "fae70",
+      "isPartOf": "c80f5",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rotation": 0,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#c0c0c0",
+      "strokeStyle": "double",
+      "strokeWidth": 3,
+      "textAlign": "center",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "Shape",
+        "SingleFreeNode"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 280,
+      "x": 8,
+      "y": 8,
+      "zIndex": 16384
+    },
+    "fd576": {
+      "attachmentDisplay": {
+        "offset": [
+          0,
+          0
+        ],
+        "position": [
+          0.99,
+          0
+        ]
+      },
+      "drawAs": "none",
+      "gpmlElementName": "Anchor",
+      "height": 0,
+      "id": "fd576",
+      "isAttachedTo": "c20c2",
+      "kaavioType": "Burr",
+      "strokeWidth": 0,
+      "type": [
+        "Anchor",
+        "Burr"
+      ],
+      "width": 0,
+      "zIndex": 12288
+    },
+    "fecd5": {
+      "drawAs": "SegmentedLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "fecd5",
+      "isAttachedTo": [
+        "c20c2",
+        "ee2ca"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [],
+            "position": [
+              0.99,
+              0
+            ],
+            "relativeOffset": [
+              0,
+              0
+            ]
+          },
+          "isAttachedTo": "fd576",
+          "orientation": [],
+          "x": 80,
+          "y": 186
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.49504950495049505,
+              0
+            ]
+          },
+          "isAttachedTo": "ee2ca",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 81,
+          "y": 189
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "Reactome:5400487",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "xrefDataSource": "Reactome",
+      "xrefIdentifier": "5400487",
+      "zIndex": 12288
+    },
+    "http://identifiers.org/pw/PW:0000147": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000147",
+      "ontology": "Pathway Ontology",
+      "term": "metabolic pathway of secondary metabolites",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000147"
+    }
+  },
+  "pathway": {
+    "@context": [
+      "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
+      {
+        "@base": "WP3015/"
+      }
+    ],
+    "author": "[Anwesha, Eweitz]",
+    "comments": [
+      {
+        "content": "This event has been computationally inferred from an event that has been demonstrated in another species.<p>The inference is based on Ensembl Compara orthology projection. Briefly, reactions for which all involved PhysicalEntities (in input, output and catalyst) have a mapped ortholog or paralog are inferred to the other species. High-level events are also inferred for these events to allow for easier navigation.<p>Details of projection methods and parameters may be found <a href=\"/projection.html\">here.</a><p>\n\nSource:[http://plantreactome.gramene.org/ Plant Reactome].",
+        "source": "WikiPathways-description"
+      }
+    ],
+    "contains": [
+      "c20c2",
+      "d3d33",
+      "d55c9",
+      "fecd5",
+      "c80f5",
+      "ae28c",
+      "e1945",
+      "ee2ca"
+    ],
+    "dataSourceVersion": "WP3015_r118606",
+    "displayName": "UDP-L-arabinose biosynthesis I from UDP-xylose",
+    "drawAs": "rect",
+    "fill": "white",
+    "fontSize": 12,
+    "fontWeight": "bold",
+    "gpmlElementName": "Pathway",
+    "height": 300,
+    "id": "WP3015",
+    "kaavioType": "Group",
+    "name": "UDP-L-arabinose biosynthesis I from UDP-xylose",
+    "organism": "Arabidopsis thaliana",
+    "padding": 5,
+    "pathwayVersion": "WP3015",
+    "standardName": "UDP-L-arabinose biosynthesis I from UDP-xylose",
+    "stroke": "black",
+    "strokeWidth": 0,
+    "textAlign": "left",
+    "textContent": "Name: UDP-L-arabinose biosynthesis I from UDP-xylose\nOrganism: Arabidopsis thaliana",
+    "type": [
+      "Pathway",
+      "http://identifiers.org/pw/PW:0000147"
+    ],
+    "verticalAlign": "top",
+    "width": 311,
+    "x": 0,
+    "y": 0,
+    "zIndex": 0
+  }
+}
