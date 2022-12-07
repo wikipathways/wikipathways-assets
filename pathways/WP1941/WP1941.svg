@@ -4,10 +4,11 @@
 ]]></style>
   <defs>
     <g id="jit-defs">
-      <filter id="kaaviodoubletrue3filter" width="200%" height="200%" x="-50%" y="-50%">
-        <feMorphology in="SourceGraphic" result="in2Double" operator="dilate" radius="3"/>
-        <feMorphology in="SourceGraphic" result="inDouble" operator="erode" radius="3"/>
-        <feComposite in="inDouble" in2="in2Double" operator="atop" result="doubleResult"/>
+      <filter id="kaaviodoublefalse3filter" width="200%" height="200%" x="-50%" y="-50%">
+        <feComposite in="SourceGraphic" in2="SourceGraphic" operator="over" result="doubleDark"/>
+        <feMorphology in="doubleDark" result="in2Double" operator="dilate" radius="0.16666666666666666"/>
+        <feMorphology in="SourceGraphic" result="inDouble" operator="dilate" radius="3"/>
+        <feComposite in="inDouble" in2="in2Double" operator="out" result="doubleResult"/>
       </filter>
       <filter x="0" y="0" height="488.10627890530867" width="882.4646681896188" id="kaaviowhitetofffffffilter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -1                  0  1  0 0 -1                  0  0  1 0 -1                  0  0  0 1 0"/>
@@ -534,7 +535,7 @@
       </g>
     </g>
     <g id="e79bf" class="SingleFreeNode Shape PhysicalEntity CellularComponent Organelle" color="#c0c0c0" name="Peroxisome" transform="translate(14.939048630444006,39.52108472195124) rotate(359.575013961716,419.5128097795874,210.04259709167872)">
-      <g filter="url(#kaaviodoubletrue3filter)" fill="#c0c0c0" stroke="#c0c0c0" stroke-width="3" fill-opacity="1">
+      <g filter="url(#kaaviodoublefalse3filter)" fill="transparent" fill-opacity="0" stroke="#c0c0c0" stroke-width="3">
         <rect style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" height="420.08519418335743px" id="e79bf-icon" rx="15" ry="15" width="839.0256195591749px" x="0" y="0" transform="matrix(0.9858993669236233, 0, 0, 0.9722276991631708, 5.915396201541739, 5.833366194979021)" class="Icon"/>
       </g>
       <text id="e79bf-text" class="Text" direction="ltr" fill="#c0c0c0" font-family="'Liberation Sans', Arial, sans-serif" font-size="14px" font-style="normal" font-weight="normal" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(translate(419.5128097795874,210.04259709167872) rotate(-359.575013961716,      0,      0),)">
