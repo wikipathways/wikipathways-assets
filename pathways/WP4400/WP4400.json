@@ -1,5 +1,27 @@
 {
   "entitiesById": {
+    "324319": {
+      "__HighlandStream__": true,
+      "_can_drain": false,
+      "_consume_waiting_for_next": false,
+      "_consumers": [],
+      "_delegate": null,
+      "_destructors": [],
+      "_events": {},
+      "_eventsCount": 2,
+      "_in_consume_cb": false,
+      "_incoming": [],
+      "_is_observer": false,
+      "_nil_pushed": false,
+      "_observers": [],
+      "_outgoing": [],
+      "_repeat_resume": false,
+      "_send_events": false,
+      "id": "324319",
+      "paused": true,
+      "source": null,
+      "writable": true
+    },
     "a95a4": {
       "drawAs": "rect",
       "fill": "transparent",
@@ -10,7 +32,7 @@
       "gpmlElementName": "Shape",
       "height": 71,
       "id": "a95a4",
-      "isPartOf": "pvjsgeneratedidecf0b",
+      "isPartOf": "c0227",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -43,7 +65,7 @@
       "gpmlElementName": "Label",
       "height": 25,
       "id": "aa4b7",
-      "isPartOf": "pvjsgeneratedidecf0b",
+      "isPartOf": "c0227",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -70,14 +92,16 @@
       "fill": "none",
       "gpmlElementName": "GraphicalLine",
       "id": "aa89a",
-      "isPartOf": "pvjsgeneratedidecf0b",
+      "isPartOf": "c0227",
       "kaavioType": "Edge",
       "points": [
         {
+          "id": "e0a4e",
           "x": 64,
           "y": 50
         },
         {
+          "id": "ec94d",
           "x": 21,
           "y": 50.25
         }
@@ -96,7 +120,7 @@
       "gpmlElementName": "Interaction",
       "id": "aec65",
       "isAttachedTo": [
-        "be356",
+        "b76a3",
         "cce25"
       ],
       "kaavioType": "Edge",
@@ -113,7 +137,8 @@
               0.5
             ]
           },
-          "isAttachedTo": "be356",
+          "id": "a2014",
+          "isAttachedTo": "b76a3",
           "orientation": [
             -1,
             0
@@ -132,6 +157,7 @@
               0.75
             ]
           },
+          "id": "aa765",
           "isAttachedTo": "cce25",
           "orientation": [
             -1,
@@ -151,7 +177,7 @@
     },
     "af894": {
       "cellularComponent": "Cell",
-      "drawAs": "Ellipse",
+      "drawAs": "rect",
       "fill": "transparent",
       "fontFamily": "Arial",
       "fontSize": 12,
@@ -165,6 +191,8 @@
       "overflow": "hidden",
       "padding": 8,
       "rotation": 0,
+      "rx": 15,
+      "ry": 15,
       "stroke": "#c0c0c0",
       "strokeStyle": "double",
       "strokeWidth": 3,
@@ -186,6 +214,96 @@
       "y": 143.5,
       "zIndex": 16384
     },
+    "b3a49": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "b3a49",
+      "isAttachedTo": [
+        "ecf0a",
+        "d26ef"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "MimInhibition",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "id": "d6ae3",
+          "isAttachedTo": "ecf0a",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 293.5,
+          "y": 96.5
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "id": "fad04",
+          "isAttachedTo": "d26ef",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 293.5,
+          "y": 220.5
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
+      "zIndex": 12288
+    },
+    "b76a3": {
+      "contains": [
+        "c62ae",
+        "bb40a"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 91,
+      "id": "b76a3",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 106,
+      "x": 516.5,
+      "y": 318,
+      "zIndex": 32770
+    },
     "bb40a": {
       "drawAs": "none",
       "fill": "transparent",
@@ -196,7 +314,7 @@
       "gpmlElementName": "Label",
       "height": 25,
       "id": "bb40a",
-      "isPartOf": "be356",
+      "isPartOf": "b76a3",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -218,10 +336,11 @@
       "y": 37.5,
       "zIndex": 32771
     },
-    "be356": {
+    "c0227": {
       "contains": [
-        "c62ae",
-        "bb40a"
+        "a95a4",
+        "aa4b7",
+        "aa89a"
       ],
       "drawAs": "none",
       "fill": "transparent",
@@ -229,8 +348,8 @@
       "fontSize": 1,
       "fontWeight": "bold",
       "gpmlElementName": "Group",
-      "height": 91,
-      "id": "be356",
+      "height": 87,
+      "id": "c0227",
       "kaavioType": "Group",
       "padding": 8,
       "stroke": "#808080",
@@ -242,10 +361,71 @@
         "GroupGroup"
       ],
       "verticalAlign": "middle",
-      "width": 106,
-      "x": 516.5,
-      "y": 318,
-      "zIndex": 32770
+      "width": 271,
+      "x": 530,
+      "y": 25,
+      "zIndex": 16384
+    },
+    "c0459": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "c0459",
+      "isAttachedTo": [
+        "d26ef",
+        "cce25"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "MimInhibition",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "id": "a8737",
+          "isAttachedTo": "d26ef",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 293.5,
+          "y": 245.5
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "id": "c8271",
+          "isAttachedTo": "cce25",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 293.5,
+          "y": 345.5
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
+      "zIndex": 12288
     },
     "c62ae": {
       "cellularComponent": "Vesicle",
@@ -258,7 +438,7 @@
       "gpmlElementName": "Shape",
       "height": 75,
       "id": "c62ae",
-      "isPartOf": "be356",
+      "isPartOf": "b76a3",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -337,7 +517,7 @@
       "gpmlElementName": "Shape",
       "height": 75,
       "id": "ce409",
-      "isPartOf": "d9a66",
+      "isPartOf": "cfc14",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -360,6 +540,35 @@
       "width": 75,
       "x": 15.5,
       "y": 8,
+      "zIndex": 16384
+    },
+    "cfc14": {
+      "contains": [
+        "ce409",
+        "eab5f"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 91,
+      "id": "cfc14",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 106,
+      "x": 516.5,
+      "y": 187,
       "zIndex": 16384
     },
     "d26ef": {
@@ -386,7 +595,7 @@
         "DataNode",
         "SingleFreeNode",
         "Ensembl:ENSG00000199107",
-        "Rna",
+        "RNA",
         "P594:ENSG00000199107",
         "Entrez Gene:574413",
         "P351:574413",
@@ -398,41 +607,135 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 64,
-      "wpType": "Rna",
+      "wpType": "RNA",
       "x": 261.5,
       "xrefDataSource": "Ensembl",
       "xrefIdentifier": "ENSG00000199107",
       "y": 220.5,
       "zIndex": 32768
     },
-    "d9a66": {
-      "contains": [
-        "ce409",
-        "eab5f"
+    "d3d71": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "d3d71",
+      "isAttachedTo": [
+        "cce25",
+        "ddb85"
       ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 91,
-      "id": "d9a66",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
+      "kaavioType": "Edge",
+      "markerEnd": "MimConversion",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "id": "bfeb1",
+          "isAttachedTo": "cce25",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 293.5,
+          "y": 370.5
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "id": "f3d86",
+          "isAttachedTo": "ddb85",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 294,
+          "y": 496.5
+        }
+      ],
+      "stroke": "#000000",
       "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
+      "strokeWidth": 1,
       "type": [
-        "Group",
-        "GroupGroup"
+        "Interaction",
+        "Edge"
       ],
-      "verticalAlign": "middle",
-      "width": 106,
-      "x": 516.5,
-      "y": 187,
-      "zIndex": 16384
+      "zIndex": 12288
+    },
+    "d62f4": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "d62f4",
+      "isAttachedTo": [
+        "cfc14",
+        "cce25"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "MimInhibition",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0,
+              0.5
+            ]
+          },
+          "id": "a949e",
+          "isAttachedTo": "cfc14",
+          "orientation": [
+            -1,
+            0
+          ],
+          "x": 516.5,
+          "y": 232.5
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              1,
+              0.25
+            ]
+          },
+          "id": "b880f",
+          "isAttachedTo": "cce25",
+          "orientation": [
+            -1,
+            0
+          ],
+          "x": 325,
+          "y": 351.75
+        }
+      ],
+      "stroke": "#ff0066",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
+      "zIndex": 12288
     },
     "ddb85": {
       "drawAs": "none",
@@ -475,7 +778,7 @@
       "gpmlElementName": "Label",
       "height": 25,
       "id": "eab5f",
-      "isPartOf": "d9a66",
+      "isPartOf": "cfc14",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -528,16 +831,6 @@
       "y": 71.5,
       "zIndex": 28672
     },
-    "http://identifiers.org/doid/DOID:2394": {
-      "gpmlElementName": "openControlledVocabulary",
-      "id": "http://identifiers.org/doid/DOID:2394",
-      "ontology": "Disease",
-      "term": "ovarian cancer",
-      "type": [
-        "openControlledVocabulary"
-      ],
-      "xrefIdentifier": "DOID:2394"
-    },
     "http://identifiers.org/pw/PW:0000605": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000605",
@@ -557,243 +850,6 @@
         "openControlledVocabulary"
       ],
       "xrefIdentifier": "PW:0000808"
-    },
-    "id374425a1": {
-      "drawAs": "StraightLine",
-      "fill": "none",
-      "gpmlElementName": "Interaction",
-      "id": "id374425a1",
-      "isAttachedTo": [
-        "d9a66",
-        "cce25"
-      ],
-      "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
-      "points": [
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0,
-              0.5
-            ]
-          },
-          "isAttachedTo": "d9a66",
-          "orientation": [
-            -1,
-            0
-          ],
-          "x": 516.5,
-          "y": 232.5
-        },
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              1,
-              0.25
-            ]
-          },
-          "isAttachedTo": "cce25",
-          "orientation": [
-            -1,
-            0
-          ],
-          "x": 325,
-          "y": 351.75
-        }
-      ],
-      "stroke": "#ff0066",
-      "strokeWidth": 1,
-      "type": [
-        "Interaction",
-        "Edge"
-      ],
-      "zIndex": 12288
-    },
-    "id8bef8d3e": {
-      "drawAs": "StraightLine",
-      "fill": "none",
-      "gpmlElementName": "Interaction",
-      "id": "id8bef8d3e",
-      "isAttachedTo": [
-        "ecf0a",
-        "d26ef"
-      ],
-      "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
-      "points": [
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0.5,
-              1
-            ]
-          },
-          "isAttachedTo": "ecf0a",
-          "orientation": [
-            0,
-            1
-          ],
-          "x": 293.5,
-          "y": 96.5
-        },
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0.5,
-              0
-            ]
-          },
-          "isAttachedTo": "d26ef",
-          "orientation": [
-            0,
-            1
-          ],
-          "x": 293.5,
-          "y": 220.5
-        }
-      ],
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "type": [
-        "Interaction",
-        "Edge"
-      ],
-      "zIndex": 12288
-    },
-    "id9d7db212": {
-      "drawAs": "StraightLine",
-      "fill": "none",
-      "gpmlElementName": "Interaction",
-      "id": "id9d7db212",
-      "isAttachedTo": [
-        "d26ef",
-        "cce25"
-      ],
-      "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
-      "points": [
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0.5,
-              1
-            ]
-          },
-          "isAttachedTo": "d26ef",
-          "orientation": [
-            0,
-            1
-          ],
-          "x": 293.5,
-          "y": 245.5
-        },
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0.5,
-              0
-            ]
-          },
-          "isAttachedTo": "cce25",
-          "orientation": [
-            0,
-            1
-          ],
-          "x": 293.5,
-          "y": 345.5
-        }
-      ],
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "type": [
-        "Interaction",
-        "Edge"
-      ],
-      "zIndex": 12288
-    },
-    "ida26f0a21": {
-      "drawAs": "StraightLine",
-      "fill": "none",
-      "gpmlElementName": "Interaction",
-      "id": "ida26f0a21",
-      "isAttachedTo": [
-        "cce25",
-        "ddb85"
-      ],
-      "kaavioType": "Edge",
-      "markerEnd": "MimConversion",
-      "points": [
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0.5,
-              1
-            ]
-          },
-          "isAttachedTo": "cce25",
-          "orientation": [
-            0,
-            1
-          ],
-          "x": 293.5,
-          "y": 370.5
-        },
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0.5,
-              0
-            ]
-          },
-          "isAttachedTo": "ddb85",
-          "orientation": [
-            0,
-            1
-          ],
-          "x": 294,
-          "y": 496.5
-        }
-      ],
-      "stroke": "#000000",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 1,
-      "type": [
-        "Interaction",
-        "Edge"
-      ],
-      "zIndex": 12288
     },
     "publicationXrefcf7": {
       "authors": [
@@ -839,36 +895,6 @@
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "30050129",
       "year": 2018
-    },
-    "pvjsgeneratedidecf0b": {
-      "contains": [
-        "a95a4",
-        "aa4b7",
-        "aa89a"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 87,
-      "id": "pvjsgeneratedidecf0b",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 271,
-      "x": 530,
-      "y": 25,
-      "zIndex": 16384
     }
   },
   "pathway": {
@@ -881,23 +907,23 @@
     "author": "[Khanspers, Fehrhart]",
     "comments": [
       {
-        "content": "Regulation of FABP4 in ovarian cancer. FABP4 (fatty acid binding protein) can substantially increase metastatic potential of ovarian cancer cells, and leads to more aggressive disease. Mir-409-3p negatively regulates FABP4 in ovarian cancer cells, and mir-409-3p is decreased in hypoxic conditions. Pink arrows indicates potential therapuetic therapeutic stratgeies; in Gharpure et al, DOPC nanoliposomes containing either miR-409-3p mimic or FABP4 siRNA was shown to inhibit tumor progression. \nDescription was adapted from Gharpure et al.",
+        "content": "Regulation of FABP4 in ovarian cancer. FABP4 (fatty acid binding protein) can substantially increase metastatic potential of ovarian cancer cells, and leads to more aggressive disease. Mir-409-3p negatively regulates FABP4 in ovarian cancer cells, and mir-409-3p is decreased in hypoxic conditions. Pink arrows indicates potential therapuetic therapeutic stratgeies; in Gharpure et al, DOPC nanoliposomes containing either miR-409-3p mimic or FABP4 siRNA was shown to inhibit tumor progression. \r\nDescription was adapted from Gharpure et al.",
         "source": "WikiPathways-description"
       }
     ],
     "contains": [
-      "id8bef8d3e",
-      "id9d7db212",
-      "ida26f0a21",
-      "id374425a1",
+      "c0459",
+      "b3a49",
+      "d3d71",
+      "d62f4",
       "af894",
-      "pvjsgeneratedidecf0b",
-      "d9a66",
+      "c0227",
+      "cfc14",
       "ddb85",
       "ecf0a",
       "cce25",
       "d26ef",
-      "be356",
+      "b76a3",
       "aec65"
     ],
     "dataSourceVersion": "WP4400_r108112",
@@ -910,6 +936,7 @@
     "height": 551.5,
     "id": "WP4400",
     "kaavioType": "Group",
+    "lastModified": "20191129101931",
     "name": "FABP4 in ovarian cancer",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -918,14 +945,14 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: FABP4 in ovarian cancer\nOrganism: Homo sapiens",
+    "textContent": "Name: FABP4 in ovarian cancer\nLast Modified: 20191129101931\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0000605",
-      "http://identifiers.org/pw/PW:0000808"
+      "http://identifiers.org/pw/PW:0000808",
+      "http://identifiers.org/pw/PW:0000605"
     ],
     "verticalAlign": "top",
-    "width": 823,
+    "width": 907,
     "x": 0,
     "y": 0,
     "zIndex": 0

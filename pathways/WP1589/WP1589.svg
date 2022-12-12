@@ -10,6 +10,12 @@
         <feMorphology in="SourceGraphic" result="inDouble" operator="dilate" radius="3"/>
         <feComposite in="inDouble" in2="in2Double" operator="out" result="doubleResult"/>
       </filter>
+      <filter x="0" y="0" height="581.470588235294" width="820.1596638655462" id="kaaviowhitetofffffffilter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -1                  0  1  0 0 -1                  0  0  1 0 -1                  0  0  0 1 0"/>
+      </filter>
+      <filter x="0" y="0" height="581.470588235294" width="820.1596638655462" id="kaavioblacktofffffffilter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 1                   0  -1   0 0 1                   0   0  -1 0 1                   0   0   0 1 0"/>
+      </filter>
       <filter x="0" y="0" height="581.470588235294" width="820.1596638655462" id="kaaviowhiteto14961efilter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0.0784313725490196                  0  1  0 0 -0.5882352941176471                  0  0  1 0 -0.11764705882352941                  0  0  0 1 0"/>
       </filter>
@@ -21,12 +27,6 @@
       </filter>
       <filter x="0" y="0" height="581.470588235294" width="820.1596638655462" id="kaavioblackto000000filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0                   0  -1   0 0 0                   0   0  -1 0 0                   0   0   0 1 0"/>
-      </filter>
-      <filter x="0" y="0" height="581.470588235294" width="820.1596638655462" id="kaaviowhitetofffffffilter" filterUnits="userSpaceOnUse">
-        <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -1                  0  1  0 0 -1                  0  0  1 0 -1                  0  0  0 1 0"/>
-      </filter>
-      <filter x="0" y="0" height="581.470588235294" width="820.1596638655462" id="kaavioblacktofffffffilter" filterUnits="userSpaceOnUse">
-        <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 1                   0  -1   0 0 1                   0   0  -1 0 1                   0   0   0 1 0"/>
       </filter>
       <filter x="0" y="0" height="581.470588235294" width="820.1596638655462" id="kaaviowhitetoc0c0c0filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0.7529411764705882                  0  1  0 0 -0.7529411764705882                  0  0  1 0 -0.7529411764705882                  0  0  0 1 0"/>
@@ -466,7 +466,7 @@
       </symbol>
     </g>
   </defs>
-  <g id="WP1589" class="Viewport" color="black" name="Name: Folate-alcohol and cancer pathway hypotheses Organism: Homo sapiens">
+  <g id="WP1589" class="Viewport" color="black" name="Name: Folate-alcohol and cancer pathway hypotheses Last Modified: 20220527101413 Organism: Homo sapiens">
     <rect fill="white" stroke="black" stroke-width="0" fill-opacity="1" height="581.470588235294px" id="WP1589-icon" width="820.1596638655462px" x="0" y="0" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
     <g id="id229f4726" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="0, 5.8, 40.49580267401579, 5.8" stroke-width="1">
@@ -568,9 +568,9 @@
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id81a9fef-path" d="M217.40985450441497,418.1769586237407L198.1598545044154,456.1769586237407" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
-    <g id="id88e0cc2d" class="Edge Interaction SBO_0000169 Inhibition" color="#000000">
+    <g id="id88e0cc2d" class="Edge Interaction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="46.96929238602277, 7" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id88e0cc2d-path" d="M530.1197478991598,287.16806722689114L530.5406339751084,341.13571842239054" marker-end="url(#markerEndTBar)" class="EdgeBody"/>
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id88e0cc2d-path" d="M530.1197478991598,287.16806722689114L530.5406339751084,341.13571842239054" marker-end="url(#markerEndMimInhibition)" class="EdgeBody"/>
       </g>
     </g>
     <g id="id9c4dab53" class="Edge Interaction" color="#000000">
@@ -682,7 +682,7 @@
       </text>
     </g>
     <a id="a9be0" class="SingleFreeNode DataNode WikiPathways_WP404 Pathway Wikidata_Q30230914" color="#14961e" name="Nucleotide Synthesis" transform="translate(109.04201680672288,109.98319327731093)" xlink:href="https://tools.wmflabs.org/scholia/Q30230914" target="_blank">
-      <use fill="transparent" fill-opacity="0" stroke="#14961e" stroke-width="0" height="20px" id="a9be0-icon" width="137.68907563025218px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <rect fill="#ffffff" stroke="#14961e" stroke-width="1" fill-opacity="1" height="20px" id="a9be0-icon" rx="15" ry="15" width="137.68907563025218px" x="0" y="0" transform="matrix(0.9927896267571498, 0, 0, 0.9523809523809523, 0.49639481337857205, 0.4761904761904763)" class="Icon"/>
       <text id="a9be0-text" class="Text" direction="ltr" fill="#14961e" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(68.84453781512609,14)">
         <tspan x="0" y="0">Nucleotide Synthesis</tspan>
       </text>
@@ -837,9 +837,10 @@
         <tspan x="0" y="0">CBS</tspan>
       </text>
     </a>
-    <text id="WP1589-text" class="Text" direction="ltr" dominant-baseline="central" fill="black" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" overflow="visible" stroke="white" stroke-width="0px" text-anchor="start" transform="translate(5,27)">
-      <tspan x="0" y="-9">Name: Folate-alcohol and cancer pathway hypotheses</tspan>
-      <tspan x="0" y="9">Organism: Homo sapiens</tspan>
+    <text id="WP1589-text" class="Text" direction="ltr" dominant-baseline="central" fill="black" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" overflow="visible" stroke="white" stroke-width="0px" text-anchor="start" transform="translate(5,36)">
+      <tspan x="0" y="-18">Name: Folate-alcohol and cancer pathway hypotheses</tspan>
+      <tspan x="0" y="0">Last Modified: 20220527101413</tspan>
+      <tspan x="0" y="18">Organism: Homo sapiens</tspan>
     </text>
   </g>
 </svg>

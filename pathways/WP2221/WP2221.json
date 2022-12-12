@@ -13,7 +13,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a94ec",
-      "isPartOf": "e8738",
+      "isPartOf": "e46f2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -53,7 +53,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "b0a3f",
-      "isPartOf": "e8738",
+      "isPartOf": "e46f2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -93,7 +93,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "b987a",
-      "isPartOf": "f263a",
+      "isPartOf": "d8e13",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -281,7 +281,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "c63f0",
-      "isPartOf": "f263a",
+      "isPartOf": "d8e13",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -307,35 +307,6 @@
       "xrefIdentifier": "T28F12.3",
       "y": 32.81000481000481,
       "zIndex": 32771
-    },
-    "c92df": {
-      "contains": [
-        "f78e4",
-        "d1775"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 65,
-      "id": "c92df",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 96,
-      "x": 583,
-      "y": 154,
-      "zIndex": 32776
     },
     "cd04f": {
       "drawAs": "none",
@@ -381,7 +352,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "ce80d",
-      "isPartOf": "e8738",
+      "isPartOf": "e46f2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -421,7 +392,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "d1775",
-      "isPartOf": "c92df",
+      "isPartOf": "eef21",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -447,6 +418,35 @@
       "xrefIdentifier": "C37F5.1",
       "y": 37,
       "zIndex": 32777
+    },
+    "d8e13": {
+      "contains": [
+        "b987a",
+        "c63f0"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 60.81000481000481,
+      "id": "d8e13",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 96,
+      "x": 261,
+      "y": 184,
+      "zIndex": 32770
     },
     "da2de": {
       "drawAs": "none",
@@ -555,10 +555,10 @@
       "gpmlElementName": "Interaction",
       "id": "df82e",
       "isAttachedTo": [
-        "c92df"
+        "eef21"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "TBar",
+      "markerEnd": "MimInhibition",
       "points": [
         {
           "attachmentDisplay": {
@@ -571,7 +571,8 @@
               0.5
             ]
           },
-          "isAttachedTo": "c92df",
+          "id": "b1c06",
+          "isAttachedTo": "eef21",
           "orientation": [
             1,
             0
@@ -580,6 +581,7 @@
           "y": 186.5
         },
         {
+          "id": "ee692",
           "x": 741,
           "y": 186
         }
@@ -588,9 +590,7 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge",
-        "SBO:0000169",
-        "Inhibition"
+        "Edge"
       ],
       "zIndex": 32778
     },
@@ -625,7 +625,7 @@
       "y": 59,
       "zIndex": 32783
     },
-    "e8738": {
+    "e46f2": {
       "contains": [
         "ce80d",
         "a94ec",
@@ -638,7 +638,7 @@
       "fontWeight": "bold",
       "gpmlElementName": "Group",
       "height": 93,
-      "id": "e8738",
+      "id": "e46f2",
       "kaavioType": "Group",
       "padding": 8,
       "stroke": "#808080",
@@ -694,10 +694,10 @@
       "y": 161,
       "zIndex": 32779
     },
-    "f263a": {
+    "eef21": {
       "contains": [
-        "b987a",
-        "c63f0"
+        "f78e4",
+        "d1775"
       ],
       "drawAs": "none",
       "fill": "transparent",
@@ -705,8 +705,8 @@
       "fontSize": 1,
       "fontWeight": "bold",
       "gpmlElementName": "Group",
-      "height": 60.81000481000481,
-      "id": "f263a",
+      "height": 65,
+      "id": "eef21",
       "kaavioType": "Group",
       "padding": 8,
       "stroke": "#808080",
@@ -719,9 +719,9 @@
       ],
       "verticalAlign": "middle",
       "width": 96,
-      "x": 261,
-      "y": 184,
-      "zIndex": 32770
+      "x": 583,
+      "y": 154,
+      "zIndex": 32776
     },
     "f78e4": {
       "citations": [
@@ -736,7 +736,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "f78e4",
-      "isPartOf": "c92df",
+      "isPartOf": "eef21",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -767,7 +767,7 @@
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000170",
       "ontology": "Pathway Ontology",
-      "term": "epidermal growth factor/neuregulin signaling pathway",
+      "term": "EGF/neuregulin signaling pathway",
       "type": [
         "openControlledVocabulary"
       ],
@@ -789,10 +789,10 @@
       "gpmlElementName": "Interaction",
       "id": "id1d33157b",
       "isAttachedTo": [
-        "e8738"
+        "e46f2"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "TBar",
+      "markerEnd": "MimInhibition",
       "points": [
         {
           "attachmentDisplay": {
@@ -805,7 +805,8 @@
               0.75
             ]
           },
-          "isAttachedTo": "e8738",
+          "id": "aa829",
+          "isAttachedTo": "e46f2",
           "orientation": [
             1,
             0
@@ -814,6 +815,7 @@
           "y": 184.75
         },
         {
+          "id": "ee4d4",
           "x": 590,
           "y": 186
         }
@@ -822,9 +824,7 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge",
-        "SBO:0000169",
-        "Inhibition"
+        "Edge"
       ],
       "zIndex": 12288
     },
@@ -851,6 +851,7 @@
               0.5
             ]
           },
+          "id": "b271a",
           "isAttachedTo": "dc6fe",
           "orientation": [
             1,
@@ -870,6 +871,7 @@
               0.5
             ]
           },
+          "id": "b7389",
           "isAttachedTo": "ba08b",
           "orientation": [
             1,
@@ -914,6 +916,7 @@
               0.5
             ]
           },
+          "id": "ac683",
           "isAttachedTo": "ba08b",
           "orientation": [
             1,
@@ -933,6 +936,7 @@
               0.5
             ]
           },
+          "id": "e1be1",
           "isAttachedTo": "b987a",
           "orientation": [
             1,
@@ -966,6 +970,7 @@
       "markerEnd": "Arrow",
       "points": [
         {
+          "id": "ab049",
           "x": 412,
           "y": 134
         },
@@ -980,6 +985,7 @@
               0.5
             ]
           },
+          "id": "c0f65",
           "isAttachedTo": "ce80d",
           "orientation": [
             1,
@@ -1007,7 +1013,7 @@
       "gpmlElementName": "Interaction",
       "id": "idfdabb89f",
       "isAttachedTo": [
-        "f263a",
+        "d8e13",
         "bccf2"
       ],
       "kaavioType": "Edge",
@@ -1024,7 +1030,8 @@
               0.5
             ]
           },
-          "isAttachedTo": "f263a",
+          "id": "ab60e",
+          "isAttachedTo": "d8e13",
           "orientation": [
             1,
             0
@@ -1043,6 +1050,7 @@
               1
             ]
           },
+          "id": "d3208",
           "isAttachedTo": "bccf2",
           "orientation": [
             0,
@@ -1105,10 +1113,10 @@
       "db89a",
       "dc6fe",
       "ba08b",
-      "f263a",
+      "d8e13",
       "bccf2",
-      "e8738",
-      "c92df",
+      "e46f2",
+      "eef21",
       "df82e",
       "ea2bc",
       "c0873",
@@ -1124,9 +1132,10 @@
     "fontSize": 12,
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
-    "height": 266.8100048100048,
+    "height": 274.8100048100048,
     "id": "WP2221",
     "kaavioType": "Group",
+    "lastModified": "20210527134752",
     "name": "EGF signaling in vulval development",
     "organism": "Caenorhabditis elegans",
     "padding": 5,
@@ -1135,11 +1144,11 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: EGF signaling in vulval development\nOrganism: Caenorhabditis elegans",
+    "textContent": "Name: EGF signaling in vulval development\nLast Modified: 20210527134752\nOrganism: Caenorhabditis elegans",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0000525",
       "http://identifiers.org/pw/PW:0000170",
+      "http://identifiers.org/pw/PW:0000525",
       "http://identifiers.org/pw/PW:0000170"
     ],
     "verticalAlign": "top",

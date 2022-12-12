@@ -1,5 +1,49 @@
 {
   "entitiesById": {
+    "254567": {
+      "__HighlandStream__": true,
+      "_can_drain": false,
+      "_consume_waiting_for_next": false,
+      "_consumers": [],
+      "_delegate": null,
+      "_destructors": [],
+      "_events": {},
+      "_eventsCount": 2,
+      "_in_consume_cb": false,
+      "_incoming": [],
+      "_is_observer": false,
+      "_nil_pushed": false,
+      "_observers": [],
+      "_outgoing": [],
+      "_repeat_resume": false,
+      "_send_events": false,
+      "id": "254567",
+      "paused": true,
+      "source": null,
+      "writable": true
+    },
+    "306629": {
+      "__HighlandStream__": true,
+      "_can_drain": false,
+      "_consume_waiting_for_next": false,
+      "_consumers": [],
+      "_delegate": null,
+      "_destructors": [],
+      "_events": {},
+      "_eventsCount": 2,
+      "_in_consume_cb": false,
+      "_incoming": [],
+      "_is_observer": false,
+      "_nil_pushed": false,
+      "_observers": [],
+      "_outgoing": [],
+      "_repeat_resume": false,
+      "_send_events": false,
+      "id": "306629",
+      "paused": true,
+      "source": null,
+      "writable": true
+    },
     "AS160": {
       "drawAs": "Ellipse",
       "fill": "#ffffff",
@@ -69,7 +113,7 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "pato:PATO:0002220",
+        "PATO:PATO:0002220",
         "GeneProduct"
       ],
       "verticalAlign": "middle",
@@ -77,7 +121,7 @@
       "width": 76,
       "wpType": "GeneProduct",
       "x": 688.3537094065398,
-      "xrefDataSource": "pato",
+      "xrefDataSource": "PATO",
       "xrefIdentifier": "PATO:0002220",
       "y": 1008.6891670718455,
       "zIndex": 32768
@@ -2722,26 +2766,6 @@
       "width": 0,
       "zIndex": 12288
     },
-    "http://identifiers.org/cl/CL:0000136": {
-      "gpmlElementName": "openControlledVocabulary",
-      "id": "http://identifiers.org/cl/CL:0000136",
-      "ontology": "Cell Type",
-      "term": "fat cell",
-      "type": [
-        "openControlledVocabulary"
-      ],
-      "xrefIdentifier": "CL:0000136"
-    },
-    "http://identifiers.org/doid/DOID:9351": {
-      "gpmlElementName": "openControlledVocabulary",
-      "id": "http://identifiers.org/doid/DOID:9351",
-      "ontology": "Disease",
-      "term": "diabetes mellitus",
-      "type": [
-        "openControlledVocabulary"
-      ],
-      "xrefIdentifier": "DOID:9351"
-    },
     "http://identifiers.org/pw/PW:0000143": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000143",
@@ -2762,6 +2786,7 @@
         "mTORC1"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -2775,6 +2800,7 @@
               0
             ]
           },
+          "id": "b386c",
           "isAttachedTo": "f28aa",
           "orientation": [],
           "x": 492.9468444829588,
@@ -2791,6 +2817,7 @@
               0.5
             ]
           },
+          "id": "c4445",
           "isAttachedTo": "mTORC1",
           "orientation": [
             1,
@@ -2827,6 +2854,7 @@
         "v1r"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -2839,6 +2867,7 @@
               0
             ]
           },
+          "id": "b85a6",
           "isAttachedTo": "IRi",
           "orientation": [
             0,
@@ -2858,6 +2887,7 @@
               0.5
             ]
           },
+          "id": "c3d8d",
           "isAttachedTo": "v1r",
           "orientation": [
             -1,
@@ -2894,6 +2924,7 @@
         "v2c"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -2906,6 +2937,7 @@
               1
             ]
           },
+          "id": "a953e",
           "isAttachedTo": "IRS1p",
           "orientation": [
             0,
@@ -2925,6 +2957,7 @@
               0.5
             ]
           },
+          "id": "f14a8",
           "isAttachedTo": "v2c",
           "orientation": [
             -1,
@@ -2961,6 +2994,7 @@
         "v3a"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -2973,6 +3007,7 @@
               0
             ]
           },
+          "id": "b971e",
           "isAttachedTo": "IRS1p",
           "orientation": [
             0,
@@ -2992,6 +3027,7 @@
               0.5
             ]
           },
+          "id": "f11fd",
           "isAttachedTo": "v3a",
           "orientation": [
             -1,
@@ -3028,6 +3064,7 @@
         "v2d"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -3040,6 +3077,7 @@
               0
             ]
           },
+          "id": "d967e",
           "isAttachedTo": "IRS1p307",
           "orientation": [
             0,
@@ -3059,6 +3097,7 @@
               0.5
             ]
           },
+          "id": "c045f",
           "isAttachedTo": "v2d",
           "orientation": [
             1,
@@ -3111,6 +3150,7 @@
               0.5
             ]
           },
+          "id": "f4cde",
           "isAttachedTo": "v1g",
           "orientation": [
             1,
@@ -3130,6 +3170,7 @@
               0.5
             ]
           },
+          "id": "eed05",
           "isAttachedTo": "v1g",
           "orientation": [
             -1,
@@ -3157,6 +3198,7 @@
         "v3a"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -3169,6 +3211,7 @@
               0
             ]
           },
+          "id": "b3296",
           "isAttachedTo": "X",
           "orientation": [
             0,
@@ -3188,6 +3231,7 @@
               0.5
             ]
           },
+          "id": "da38f",
           "isAttachedTo": "v3a",
           "orientation": [
             1,
@@ -3238,6 +3282,7 @@
               1
             ]
           },
+          "id": "a13bd",
           "isAttachedTo": "v2g",
           "orientation": [
             0,
@@ -3257,6 +3302,7 @@
               1
             ]
           },
+          "id": "d5357",
           "isAttachedTo": "v2g",
           "orientation": [
             0,
@@ -3300,6 +3346,7 @@
               1
             ]
           },
+          "id": "a96ea",
           "isAttachedTo": "v3b",
           "orientation": [
             0,
@@ -3319,6 +3366,7 @@
               1
             ]
           },
+          "id": "fdaf9",
           "isAttachedTo": "v3b",
           "orientation": [
             0,
@@ -3346,6 +3394,7 @@
         "v2f"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -3358,6 +3407,7 @@
               1
             ]
           },
+          "id": "c4dc8",
           "isAttachedTo": "IRS1p307",
           "orientation": [
             0,
@@ -3367,6 +3417,7 @@
           "y": 705.996757223489
         },
         {
+          "id": "dad25",
           "x": 449.2861579799055,
           "y": 750.3692762186115
         },
@@ -3381,6 +3432,7 @@
               1
             ]
           },
+          "id": "c5b51",
           "isAttachedTo": "v2f",
           "orientation": [
             0,
@@ -3417,6 +3469,7 @@
         "PKB308p473p"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -3430,6 +3483,7 @@
               0
             ]
           },
+          "id": "f6b0b",
           "isAttachedTo": "e4e19",
           "orientation": [],
           "x": 981.4359170911071,
@@ -3446,6 +3500,7 @@
               0.25
             ]
           },
+          "id": "e539c",
           "isAttachedTo": "PKB308p473p",
           "orientation": [
             -1,
@@ -3498,6 +3553,7 @@
               0.5
             ]
           },
+          "id": "d3028",
           "isAttachedTo": "v1c",
           "orientation": [
             -1,
@@ -3517,6 +3573,7 @@
               0.5
             ]
           },
+          "id": "df186",
           "isAttachedTo": "v1c",
           "orientation": [
             1,
@@ -3544,6 +3601,7 @@
         "mTORC2"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -3557,6 +3615,7 @@
               0
             ]
           },
+          "id": "a1def",
           "isAttachedTo": "c6614",
           "orientation": [],
           "x": 782.4970173749839,
@@ -3573,6 +3632,7 @@
               0.5
             ]
           },
+          "id": "e9721",
           "isAttachedTo": "mTORC2",
           "orientation": [
             -1,
@@ -3609,6 +3669,7 @@
         "IRS1307"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -3622,6 +3683,7 @@
               0
             ]
           },
+          "id": "ae577",
           "isAttachedTo": "bca10",
           "orientation": [],
           "x": 369.85360332551073,
@@ -3638,6 +3700,7 @@
               0.5
             ]
           },
+          "id": "cdb83",
           "isAttachedTo": "IRS1307",
           "orientation": [
             1,
@@ -3690,6 +3753,7 @@
               1
             ]
           },
+          "id": "e8634",
           "isAttachedTo": "v4h",
           "orientation": [
             0,
@@ -3709,6 +3773,7 @@
               1
             ]
           },
+          "id": "faa81",
           "isAttachedTo": "v4h",
           "orientation": [
             0,
@@ -3736,6 +3801,7 @@
         "v2b"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -3748,6 +3814,7 @@
               0.5
             ]
           },
+          "id": "f8cbf",
           "isAttachedTo": "IRS1p",
           "orientation": [
             -1,
@@ -3767,6 +3834,7 @@
               0
             ]
           },
+          "id": "af741",
           "isAttachedTo": "v2b",
           "orientation": [
             0,
@@ -3803,6 +3871,7 @@
         "v4h"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -3815,6 +3884,7 @@
               0
             ]
           },
+          "id": "e5d3d",
           "isAttachedTo": "PKB473p",
           "orientation": [
             0,
@@ -3834,6 +3904,7 @@
               0.5
             ]
           },
+          "id": "f4545",
           "isAttachedTo": "v4h",
           "orientation": [
             -1,
@@ -3870,6 +3941,7 @@
         "v4c"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -3882,6 +3954,7 @@
               1
             ]
           },
+          "id": "c1d06",
           "isAttachedTo": "PKB308p",
           "orientation": [
             0,
@@ -3901,6 +3974,7 @@
               0.5
             ]
           },
+          "id": "a1c06",
           "isAttachedTo": "v4c",
           "orientation": [
             1,
@@ -3937,6 +4011,7 @@
         "v6f1"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -3949,6 +4024,7 @@
               1
             ]
           },
+          "id": "d15a1",
           "isAttachedTo": "PKB308p473p",
           "orientation": [
             0,
@@ -3968,6 +4044,7 @@
               0.5
             ]
           },
+          "id": "ff77f",
           "isAttachedTo": "v6f1",
           "orientation": [
             -1,
@@ -4004,6 +4081,7 @@
         "v9f2"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -4016,6 +4094,7 @@
               0.5
             ]
           },
+          "id": "b87a6",
           "isAttachedTo": "S6Kp",
           "orientation": [
             -1,
@@ -4035,6 +4114,7 @@
               0.5
             ]
           },
+          "id": "fa97a",
           "isAttachedTo": "v9f2",
           "orientation": [
             -1,
@@ -4071,6 +4151,7 @@
         "AS160p"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -4084,6 +4165,7 @@
               0
             ]
           },
+          "id": "bc57d",
           "isAttachedTo": "e30c9",
           "orientation": [],
           "x": 785.201401220478,
@@ -4100,6 +4182,7 @@
               0.25
             ]
           },
+          "id": "a8750",
           "isAttachedTo": "AS160p",
           "orientation": [
             -1,
@@ -4114,9 +4197,9 @@
       "type": [
         "Interaction",
         "Edge",
-        "pato:PATO:0002220"
+        "PATO:PATO:0002220"
       ],
-      "xrefDataSource": "pato",
+      "xrefDataSource": "PATO",
       "xrefIdentifier": "PATO:0002220",
       "zIndex": 12288
     },
@@ -4130,6 +4213,7 @@
         "v2a"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -4142,6 +4226,7 @@
               0.25
             ]
           },
+          "id": "c72ef",
           "isAttachedTo": "IRS1",
           "orientation": [
             1,
@@ -4161,6 +4246,7 @@
               1
             ]
           },
+          "id": "e0fce",
           "isAttachedTo": "v2a",
           "orientation": [
             0,
@@ -4197,6 +4283,7 @@
         "v9b2"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -4209,6 +4296,7 @@
               0
             ]
           },
+          "id": "e8660",
           "isAttachedTo": "S6p",
           "orientation": [
             0,
@@ -4228,6 +4316,7 @@
               0.5
             ]
           },
+          "id": "d1d8e",
           "isAttachedTo": "v9b2",
           "orientation": [
             -1,
@@ -4280,6 +4369,7 @@
               0.5
             ]
           },
+          "id": "f75f7",
           "isAttachedTo": "v2f",
           "orientation": [
             1,
@@ -4299,6 +4389,7 @@
               0.5
             ]
           },
+          "id": "c23b8",
           "isAttachedTo": "v2f",
           "orientation": [
             -1,
@@ -4338,6 +4429,7 @@
               0.5
             ]
           },
+          "id": "e1852",
           "isAttachedTo": "Xp",
           "orientation": [
             -1,
@@ -4358,6 +4450,7 @@
               0
             ]
           },
+          "id": "ff222",
           "isAttachedTo": "e71ad",
           "orientation": [],
           "x": 193.81042712028915,
@@ -4402,6 +4495,7 @@
               0.5
             ]
           },
+          "id": "ee50c",
           "isAttachedTo": "v4b",
           "orientation": [
             1,
@@ -4421,6 +4515,7 @@
               0.5
             ]
           },
+          "id": "c571d",
           "isAttachedTo": "v4b",
           "orientation": [
             -1,
@@ -4464,6 +4559,7 @@
               0.5
             ]
           },
+          "id": "d993f",
           "isAttachedTo": "v4e",
           "orientation": [
             -1,
@@ -4483,6 +4579,7 @@
               0.5
             ]
           },
+          "id": "d10d9",
           "isAttachedTo": "v4e",
           "orientation": [
             1,
@@ -4526,6 +4623,7 @@
               0.5
             ]
           },
+          "id": "ec58e",
           "isAttachedTo": "v4f",
           "orientation": [
             1,
@@ -4545,6 +4643,7 @@
               0.5
             ]
           },
+          "id": "ac54f",
           "isAttachedTo": "v4f",
           "orientation": [
             -1,
@@ -4572,6 +4671,7 @@
         "v1g"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -4584,6 +4684,7 @@
               0
             ]
           },
+          "id": "a6019",
           "isAttachedTo": "IRp",
           "orientation": [
             0,
@@ -4607,6 +4708,7 @@
               1
             ]
           },
+          "id": "d4f29",
           "isAttachedTo": "v1g",
           "orientation": [
             0,
@@ -4643,6 +4745,7 @@
         "GLUT4"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -4656,6 +4759,7 @@
               0
             ]
           },
+          "id": "e8f9b",
           "isAttachedTo": "c2087",
           "orientation": [],
           "x": 806.7188957953091,
@@ -4672,6 +4776,7 @@
               0.75
             ]
           },
+          "id": "bba0e",
           "isAttachedTo": "GLUT4",
           "orientation": [
             1,
@@ -4708,6 +4813,7 @@
         "v9f1"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -4720,6 +4826,7 @@
               1
             ]
           },
+          "id": "ba633",
           "isAttachedTo": "mTORC1a",
           "orientation": [
             0,
@@ -4739,6 +4846,7 @@
               0.5
             ]
           },
+          "id": "d00b4",
           "isAttachedTo": "v9f1",
           "orientation": [
             -1,
@@ -4791,6 +4899,7 @@
               0.5
             ]
           },
+          "id": "bd72f",
           "isAttachedTo": "v4b",
           "orientation": [
             -1,
@@ -4810,6 +4919,7 @@
               0.5
             ]
           },
+          "id": "aa1dc",
           "isAttachedTo": "v4b",
           "orientation": [
             1,
@@ -4853,6 +4963,7 @@
               0.5
             ]
           },
+          "id": "f2c96",
           "isAttachedTo": "v4e",
           "orientation": [
             1,
@@ -4872,6 +4983,7 @@
               0.5
             ]
           },
+          "id": "dcec9",
           "isAttachedTo": "v4e",
           "orientation": [
             -1,
@@ -4915,6 +5027,7 @@
               0.5
             ]
           },
+          "id": "f376f",
           "isAttachedTo": "v4f",
           "orientation": [
             -1,
@@ -4934,6 +5047,7 @@
               0.5
             ]
           },
+          "id": "f5248",
           "isAttachedTo": "v4f",
           "orientation": [
             1,
@@ -4961,6 +5075,7 @@
         "v3b"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -4973,6 +5088,7 @@
               1
             ]
           },
+          "id": "bff32",
           "isAttachedTo": "Xp",
           "orientation": [
             0,
@@ -4992,6 +5108,7 @@
               0.5
             ]
           },
+          "id": "dd9c5",
           "isAttachedTo": "v3b",
           "orientation": [
             -1,
@@ -5039,6 +5156,7 @@
               0
             ]
           },
+          "id": "f7bd9",
           "isAttachedTo": "v9f2",
           "orientation": [
             0,
@@ -5058,6 +5176,7 @@
               0
             ]
           },
+          "id": "e0293",
           "isAttachedTo": "v9f2",
           "orientation": [
             0,
@@ -5085,6 +5204,7 @@
         "v4b"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -5097,6 +5217,7 @@
               0.75
             ]
           },
+          "id": "c0502",
           "isAttachedTo": "PKB308p",
           "orientation": [
             -1,
@@ -5116,6 +5237,7 @@
               0
             ]
           },
+          "id": "ae027",
           "isAttachedTo": "v4b",
           "orientation": [
             0,
@@ -5152,6 +5274,7 @@
         "v4f"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -5164,6 +5287,7 @@
               0.75
             ]
           },
+          "id": "a7983",
           "isAttachedTo": "PKB308p473p",
           "orientation": [
             -1,
@@ -5183,6 +5307,7 @@
               0
             ]
           },
+          "id": "cd354",
           "isAttachedTo": "v4f",
           "orientation": [
             0,
@@ -5235,6 +5360,7 @@
               1
             ]
           },
+          "id": "f7972",
           "isAttachedTo": "v5b",
           "orientation": [
             0,
@@ -5254,6 +5380,7 @@
               1
             ]
           },
+          "id": "f7cdb",
           "isAttachedTo": "v5b",
           "orientation": [
             0,
@@ -5281,6 +5408,7 @@
         "IRS1"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -5294,6 +5422,7 @@
               0
             ]
           },
+          "id": "ae31f",
           "isAttachedTo": "aa357",
           "orientation": [],
           "x": 192.45003843855653,
@@ -5310,6 +5439,7 @@
               0.5
             ]
           },
+          "id": "f0257",
           "isAttachedTo": "IRS1",
           "orientation": [
             1,
@@ -5358,6 +5488,7 @@
               1
             ]
           },
+          "id": "fabd8",
           "isAttachedTo": "IRip",
           "orientation": [
             0,
@@ -5367,6 +5498,7 @@
           "y": 264.8392068241261
         },
         {
+          "id": "a8c98",
           "x": 326.6590556489383,
           "y": 289.5238095238095
         },
@@ -5382,6 +5514,7 @@
               0
             ]
           },
+          "id": "a8275",
           "isAttachedTo": "afcee",
           "orientation": [
             0,
@@ -5418,6 +5551,7 @@
         "IRS1p307"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -5431,6 +5565,7 @@
               0
             ]
           },
+          "id": "c205c",
           "isAttachedTo": "bcb2a",
           "orientation": [],
           "x": 439.88106363604766,
@@ -5447,6 +5582,7 @@
               0.5
             ]
           },
+          "id": "a15e3",
           "isAttachedTo": "IRS1p307",
           "orientation": [
             1,
@@ -5499,6 +5635,7 @@
               0.5
             ]
           },
+          "id": "bf4c1",
           "isAttachedTo": "v4a",
           "orientation": [
             -1,
@@ -5518,6 +5655,7 @@
               0.5
             ]
           },
+          "id": "a1ea7",
           "isAttachedTo": "v4a",
           "orientation": [
             1,
@@ -5545,6 +5683,7 @@
         "v1a"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -5557,6 +5696,7 @@
               0
             ]
           },
+          "id": "c9636",
           "isAttachedTo": "IR",
           "orientation": [
             0,
@@ -5580,6 +5720,7 @@
               0
             ]
           },
+          "id": "c7ac9",
           "isAttachedTo": "v1a",
           "orientation": [
             0,
@@ -5616,6 +5757,7 @@
         "v9b1"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -5628,6 +5770,7 @@
               0
             ]
           },
+          "id": "c00d7",
           "isAttachedTo": "S6Kp",
           "orientation": [
             0,
@@ -5647,6 +5790,7 @@
               0.5
             ]
           },
+          "id": "d3508",
           "isAttachedTo": "v9b1",
           "orientation": [
             -1,
@@ -5699,6 +5843,7 @@
               0.5
             ]
           },
+          "id": "aebf2",
           "isAttachedTo": "v1c",
           "orientation": [
             1,
@@ -5718,6 +5863,7 @@
               0.5
             ]
           },
+          "id": "bb940",
           "isAttachedTo": "v1c",
           "orientation": [
             -1,
@@ -5745,6 +5891,7 @@
         "v2basal"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -5757,6 +5904,7 @@
               1
             ]
           },
+          "id": "d936e",
           "isAttachedTo": "IRS1",
           "orientation": [
             0,
@@ -5776,6 +5924,7 @@
               0.5
             ]
           },
+          "id": "eefb7",
           "isAttachedTo": "v2basal",
           "orientation": [
             1,
@@ -5812,6 +5961,7 @@
         "v9f1"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -5824,6 +5974,7 @@
               1
             ]
           },
+          "id": "f0b82",
           "isAttachedTo": "S6K",
           "orientation": [
             0,
@@ -5843,6 +5994,7 @@
               0.5
             ]
           },
+          "id": "d972d",
           "isAttachedTo": "v9f1",
           "orientation": [
             1,
@@ -5891,6 +6043,7 @@
               1
             ]
           },
+          "id": "b97d2",
           "isAttachedTo": "IRp",
           "orientation": [
             0,
@@ -5911,6 +6064,7 @@
               0
             ]
           },
+          "id": "e6704",
           "isAttachedTo": "babda",
           "orientation": [
             -1,
@@ -5963,6 +6117,7 @@
               0.5
             ]
           },
+          "id": "fc747",
           "isAttachedTo": "v1e",
           "orientation": [
             -1,
@@ -5982,6 +6137,7 @@
               0.5
             ]
           },
+          "id": "cfdab",
           "isAttachedTo": "v1e",
           "orientation": [
             1,
@@ -6009,6 +6165,7 @@
         "v2g"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -6021,6 +6178,7 @@
               0
             ]
           },
+          "id": "e5659",
           "isAttachedTo": "IRS1307",
           "orientation": [
             0,
@@ -6040,6 +6198,7 @@
               0.5
             ]
           },
+          "id": "b23d4",
           "isAttachedTo": "v2g",
           "orientation": [
             -1,
@@ -6092,6 +6251,7 @@
               0
             ]
           },
+          "id": "e6353",
           "isAttachedTo": "v5b",
           "orientation": [
             0,
@@ -6111,6 +6271,7 @@
               0
             ]
           },
+          "id": "e2e00",
           "isAttachedTo": "v5b",
           "orientation": [
             0,
@@ -6154,6 +6315,7 @@
               0
             ]
           },
+          "id": "c1d0e",
           "isAttachedTo": "v9f1",
           "orientation": [
             0,
@@ -6173,6 +6335,7 @@
               0
             ]
           },
+          "id": "a244d",
           "isAttachedTo": "v9f1",
           "orientation": [
             0,
@@ -6200,6 +6363,7 @@
         "v5c"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -6212,6 +6376,7 @@
               0.5
             ]
           },
+          "id": "b19a9",
           "isAttachedTo": "IRip",
           "orientation": [
             1,
@@ -6231,6 +6396,7 @@
               0.5
             ]
           },
+          "id": "e1343",
           "isAttachedTo": "v5c",
           "orientation": [
             1,
@@ -6267,6 +6433,7 @@
         "Xp"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -6280,6 +6447,7 @@
               0
             ]
           },
+          "id": "c2b26",
           "isAttachedTo": "fc212",
           "orientation": [],
           "x": 350.9649367960048,
@@ -6296,6 +6464,7 @@
               0.5
             ]
           },
+          "id": "f6597",
           "isAttachedTo": "Xp",
           "orientation": [
             -1,
@@ -6327,6 +6496,7 @@
         "v5c"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -6339,6 +6509,7 @@
               1
             ]
           },
+          "id": "b8bab",
           "isAttachedTo": "mTORC2",
           "orientation": [
             0,
@@ -6358,6 +6529,7 @@
               0.5
             ]
           },
+          "id": "a64d3",
           "isAttachedTo": "v5c",
           "orientation": [
             -1,
@@ -6410,6 +6582,7 @@
               0
             ]
           },
+          "id": "c6508",
           "isAttachedTo": "v5c",
           "orientation": [
             0,
@@ -6429,6 +6602,7 @@
               0
             ]
           },
+          "id": "de1e8",
           "isAttachedTo": "v5c",
           "orientation": [
             0,
@@ -6468,6 +6642,7 @@
               0
             ]
           },
+          "id": "f8d56",
           "isAttachedTo": "IRp",
           "orientation": [
             0,
@@ -6477,6 +6652,7 @@
           "y": 110.8493233301266
         },
         {
+          "id": "cc999",
           "x": 386.1885529489855,
           "y": 41.18616144975289
         },
@@ -6492,6 +6668,7 @@
               0
             ]
           },
+          "id": "ccde5",
           "isAttachedTo": "c0aaf",
           "orientation": [
             0,
@@ -6528,6 +6705,7 @@
         "v2a"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -6540,6 +6718,7 @@
               1
             ]
           },
+          "id": "cbf74",
           "isAttachedTo": "IRip",
           "orientation": [
             0,
@@ -6559,6 +6738,7 @@
               0.5
             ]
           },
+          "id": "f0283",
           "isAttachedTo": "v2a",
           "orientation": [
             0,
@@ -6595,6 +6775,7 @@
         "v2a"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -6607,6 +6788,7 @@
               1
             ]
           },
+          "id": "c3858",
           "isAttachedTo": "IRip",
           "orientation": [
             0,
@@ -6626,6 +6808,7 @@
               0.5
             ]
           },
+          "id": "fbca2",
           "isAttachedTo": "v2a",
           "orientation": [
             0,
@@ -6674,6 +6857,7 @@
               1
             ]
           },
+          "id": "cab0e",
           "isAttachedTo": "PKB308p",
           "orientation": [
             0,
@@ -6694,6 +6878,7 @@
               0
             ]
           },
+          "id": "f4966",
           "isAttachedTo": "e763f",
           "orientation": [],
           "x": 841.250082453879,
@@ -6739,6 +6924,7 @@
               0
             ]
           },
+          "id": "ab016",
           "isAttachedTo": "PKB473p",
           "orientation": [
             0,
@@ -6759,6 +6945,7 @@
               0
             ]
           },
+          "id": "db06d",
           "isAttachedTo": "dd964",
           "orientation": [],
           "x": 801.250082453879,
@@ -6804,6 +6991,7 @@
               1
             ]
           },
+          "id": "cbb35",
           "isAttachedTo": "PKB308p473p",
           "orientation": [
             0,
@@ -6824,6 +7012,7 @@
               0
             ]
           },
+          "id": "dc9a3",
           "isAttachedTo": "a14f1",
           "orientation": [],
           "x": 841.2500824538793,
@@ -6857,6 +7046,7 @@
         "v5b"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -6869,6 +7059,7 @@
               0
             ]
           },
+          "id": "e58d9",
           "isAttachedTo": "mTORC1a",
           "orientation": [
             0,
@@ -6888,6 +7079,7 @@
               0.5
             ]
           },
+          "id": "d9e6d",
           "isAttachedTo": "v5b",
           "orientation": [
             -1,
@@ -6940,6 +7132,7 @@
               0.5
             ]
           },
+          "id": "ad66f",
           "isAttachedTo": "v1a",
           "orientation": [
             -1,
@@ -6959,6 +7152,7 @@
               0.5
             ]
           },
+          "id": "a544f",
           "isAttachedTo": "v1a",
           "orientation": [
             1,
@@ -6986,6 +7180,7 @@
         "v7b"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Inhibition",
       "points": [
         {
           "attachmentDisplay": {
@@ -6998,6 +7193,7 @@
               1
             ]
           },
+          "id": "d48d6",
           "isAttachedTo": "AS160p",
           "orientation": [
             0,
@@ -7017,6 +7213,7 @@
               0.5
             ]
           },
+          "id": "cab55",
           "isAttachedTo": "v7b",
           "orientation": [
             1,
@@ -7031,9 +7228,9 @@
       "type": [
         "Interaction",
         "Edge",
-        "pato:PATO:0002220"
+        "PATO:PATO:0002220"
       ],
-      "xrefDataSource": "pato",
+      "xrefDataSource": "PATO",
       "xrefIdentifier": "PATO:0002220",
       "zIndex": 12288
     },
@@ -7063,6 +7260,7 @@
               1
             ]
           },
+          "id": "c66c3",
           "isAttachedTo": "v9f1",
           "orientation": [
             0,
@@ -7082,6 +7280,7 @@
               1
             ]
           },
+          "id": "ef88f",
           "isAttachedTo": "v9f1",
           "orientation": [
             0,
@@ -7109,6 +7308,7 @@
         "v4e"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -7121,6 +7321,7 @@
               0.5
             ]
           },
+          "id": "a20cc",
           "isAttachedTo": "IRS1p307",
           "orientation": [
             1,
@@ -7130,10 +7331,12 @@
           "y": 687.996757223489
         },
         {
+          "id": "f45b1",
           "x": 625,
           "y": 671.2406983068
         },
         {
+          "id": "a336d",
           "x": 723.1250412269395,
           "y": 654.484639390111
         },
@@ -7148,6 +7351,7 @@
               0
             ]
           },
+          "id": "ef7ad",
           "isAttachedTo": "v4e",
           "orientation": [
             0,
@@ -7184,6 +7388,7 @@
         "v7b"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -7196,6 +7401,7 @@
               0
             ]
           },
+          "id": "f78e4",
           "isAttachedTo": "GLUT4m",
           "orientation": [
             0,
@@ -7215,6 +7421,7 @@
               0.5
             ]
           },
+          "id": "d4fa1",
           "isAttachedTo": "v7b",
           "orientation": [
             -1,
@@ -7267,6 +7474,7 @@
               0
             ]
           },
+          "id": "e6ac8",
           "isAttachedTo": "v2basal",
           "orientation": [
             0,
@@ -7286,6 +7494,7 @@
               0
             ]
           },
+          "id": "a37b2",
           "isAttachedTo": "v2basal",
           "orientation": [
             0,
@@ -7313,6 +7522,7 @@
         "v4a"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -7325,6 +7535,7 @@
               0
             ]
           },
+          "id": "dafa2",
           "isAttachedTo": "IRS1p",
           "orientation": [
             0,
@@ -7334,6 +7545,7 @@
           "y": 567.8720962817354
         },
         {
+          "id": "d4af5",
           "x": 674.4843975440898,
           "y": 464.9956784788245
         },
@@ -7348,6 +7560,7 @@
               0
             ]
           },
+          "id": "bb0a7",
           "isAttachedTo": "v4a",
           "orientation": [
             0,
@@ -7400,6 +7613,7 @@
               0
             ]
           },
+          "id": "a8292",
           "isAttachedTo": "v7f",
           "orientation": [
             0,
@@ -7419,6 +7633,7 @@
               0
             ]
           },
+          "id": "a2d8d",
           "isAttachedTo": "v7f",
           "orientation": [
             0,
@@ -7446,6 +7661,7 @@
         "v7f"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -7458,6 +7674,7 @@
               1
             ]
           },
+          "id": "a2306",
           "isAttachedTo": "GLUT4",
           "orientation": [
             0,
@@ -7477,6 +7694,7 @@
               0.5
             ]
           },
+          "id": "b9765",
           "isAttachedTo": "v7f",
           "orientation": [
             1,
@@ -7513,6 +7731,7 @@
         "PKB308p"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -7526,6 +7745,7 @@
               0
             ]
           },
+          "id": "a3fe7",
           "isAttachedTo": "bdb05",
           "orientation": [],
           "x": 841.2500824538793,
@@ -7542,6 +7762,7 @@
               0
             ]
           },
+          "id": "fbe4f",
           "isAttachedTo": "PKB308p",
           "orientation": [
             0,
@@ -7594,6 +7815,7 @@
               0
             ]
           },
+          "id": "b1732",
           "isAttachedTo": "v5a",
           "orientation": [
             0,
@@ -7613,6 +7835,7 @@
               0
             ]
           },
+          "id": "ce538",
           "isAttachedTo": "v5a",
           "orientation": [
             0,
@@ -7640,6 +7863,7 @@
         "v4c"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -7652,6 +7876,7 @@
               0.75
             ]
           },
+          "id": "d69da",
           "isAttachedTo": "mTORC2a",
           "orientation": [
             1,
@@ -7661,6 +7886,7 @@
           "y": 391.31767821402474
         },
         {
+          "id": "e9234",
           "x": 1046.218487394958,
           "y": 509.3404290335477
         },
@@ -7675,6 +7901,7 @@
               0.5
             ]
           },
+          "id": "bff55",
           "isAttachedTo": "v4c",
           "orientation": [
             -1,
@@ -7711,6 +7938,7 @@
         "S6p"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -7724,6 +7952,7 @@
               0
             ]
           },
+          "id": "f838e",
           "isAttachedTo": "ef8ab",
           "orientation": [],
           "x": 214.12507581621594,
@@ -7740,6 +7969,7 @@
               0.25
             ]
           },
+          "id": "f52d0",
           "isAttachedTo": "S6p",
           "orientation": [
             -1,
@@ -7788,6 +8018,7 @@
               0.5
             ]
           },
+          "id": "e143e",
           "isAttachedTo": "mTORC1a",
           "orientation": [
             -1,
@@ -7808,6 +8039,7 @@
               0
             ]
           },
+          "id": "c03bb",
           "isAttachedTo": "d32a7",
           "orientation": [],
           "x": 492.9468444829588,
@@ -7841,6 +8073,7 @@
         "IR"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -7854,6 +8087,7 @@
               0
             ]
           },
+          "id": "b6c2b",
           "isAttachedTo": "d5bd7",
           "orientation": [],
           "x": 73.10385351703943,
@@ -7870,6 +8104,7 @@
               1
             ]
           },
+          "id": "a6032",
           "isAttachedTo": "IR",
           "orientation": [
             0,
@@ -7906,6 +8141,7 @@
         "X"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -7919,6 +8155,7 @@
               0
             ]
           },
+          "id": "c0af5",
           "isAttachedTo": "bd2a6",
           "orientation": [],
           "x": 193.81042712028915,
@@ -7935,6 +8172,7 @@
               0.5
             ]
           },
+          "id": "d768f",
           "isAttachedTo": "X",
           "orientation": [
             1,
@@ -7985,6 +8223,7 @@
               0
             ]
           },
+          "id": "c0d3d",
           "isAttachedTo": "v5d",
           "orientation": [
             0,
@@ -8004,6 +8243,7 @@
               0
             ]
           },
+          "id": "d6583",
           "isAttachedTo": "v5d",
           "orientation": [
             0,
@@ -8047,6 +8287,7 @@
               1
             ]
           },
+          "id": "d7be4",
           "isAttachedTo": "v7f",
           "orientation": [
             0,
@@ -8066,6 +8307,7 @@
               1
             ]
           },
+          "id": "a5f36",
           "isAttachedTo": "v7f",
           "orientation": [
             0,
@@ -8109,6 +8351,7 @@
               0
             ]
           },
+          "id": "d494d",
           "isAttachedTo": "v1d",
           "orientation": [
             0,
@@ -8128,6 +8371,7 @@
               0
             ]
           },
+          "id": "a5dbd",
           "isAttachedTo": "v1d",
           "orientation": [
             0,
@@ -8171,6 +8415,7 @@
               1
             ]
           },
+          "id": "d9d5f",
           "isAttachedTo": "v9b2",
           "orientation": [
             0,
@@ -8190,6 +8435,7 @@
               1
             ]
           },
+          "id": "f1de4",
           "isAttachedTo": "v9b2",
           "orientation": [
             0,
@@ -8217,6 +8463,7 @@
         "IR"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -8230,6 +8477,7 @@
               0
             ]
           },
+          "id": "d310e",
           "isAttachedTo": "aca43",
           "orientation": [
             0,
@@ -8239,6 +8487,7 @@
           "y": 39.23235680396891
         },
         {
+          "id": "c627a",
           "x": 163.56286227763087,
           "y": 42.00542005420054
         },
@@ -8253,6 +8502,7 @@
               0
             ]
           },
+          "id": "c6db4",
           "isAttachedTo": "IR",
           "orientation": [
             0,
@@ -8305,6 +8555,7 @@
               0
             ]
           },
+          "id": "b56e8",
           "isAttachedTo": "v4c",
           "orientation": [
             0,
@@ -8324,6 +8575,7 @@
               0
             ]
           },
+          "id": "b05b1",
           "isAttachedTo": "v4c",
           "orientation": [
             0,
@@ -8367,6 +8619,7 @@
               0
             ]
           },
+          "id": "a3d5e",
           "isAttachedTo": "v6f1",
           "orientation": [
             0,
@@ -8386,6 +8639,7 @@
               0
             ]
           },
+          "id": "c5c03",
           "isAttachedTo": "v6f1",
           "orientation": [
             0,
@@ -8429,6 +8683,7 @@
               1
             ]
           },
+          "id": "ad21c",
           "isAttachedTo": "v5a",
           "orientation": [
             0,
@@ -8448,6 +8703,7 @@
               1
             ]
           },
+          "id": "ca022",
           "isAttachedTo": "v5a",
           "orientation": [
             0,
@@ -8475,6 +8731,7 @@
         "IRip"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -8488,6 +8745,7 @@
               0
             ]
           },
+          "id": "cc6e8",
           "isAttachedTo": "d0f40",
           "orientation": [
             1,
@@ -8497,6 +8755,7 @@
           "y": 219.29268746166207
         },
         {
+          "id": "c7121",
           "x": 496.62369551872314,
           "y": 228.5659471428941
         },
@@ -8511,6 +8770,7 @@
               0.25
             ]
           },
+          "id": "d21fa",
           "isAttachedTo": "IRip",
           "orientation": [
             -1,
@@ -8563,6 +8823,7 @@
               0
             ]
           },
+          "id": "e9816",
           "isAttachedTo": "v2c",
           "orientation": [
             0,
@@ -8582,6 +8843,7 @@
               0
             ]
           },
+          "id": "a20be",
           "isAttachedTo": "v2c",
           "orientation": [
             0,
@@ -8625,6 +8887,7 @@
               1
             ]
           },
+          "id": "c6b09",
           "isAttachedTo": "v3a",
           "orientation": [
             0,
@@ -8644,6 +8907,7 @@
               1
             ]
           },
+          "id": "bc752",
           "isAttachedTo": "v3a",
           "orientation": [
             0,
@@ -8671,6 +8935,7 @@
         "v6b1"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -8683,6 +8948,7 @@
               0
             ]
           },
+          "id": "fe18d",
           "isAttachedTo": "AS160p",
           "orientation": [
             0,
@@ -8702,6 +8968,7 @@
               0.5
             ]
           },
+          "id": "ebba7",
           "isAttachedTo": "v6b1",
           "orientation": [
             -1,
@@ -8716,9 +8983,9 @@
       "type": [
         "Interaction",
         "Edge",
-        "pato:PATO:0002220"
+        "PATO:PATO:0002220"
       ],
-      "xrefDataSource": "pato",
+      "xrefDataSource": "PATO",
       "xrefIdentifier": "PATO:0002220",
       "zIndex": 12288
     },
@@ -8744,6 +9011,7 @@
               0.5
             ]
           },
+          "id": "b51ce",
           "isAttachedTo": "S6K",
           "orientation": [
             1,
@@ -8764,6 +9032,7 @@
               0
             ]
           },
+          "id": "dec4d",
           "isAttachedTo": "e1623",
           "orientation": [],
           "x": 390.4515003105082,
@@ -8813,6 +9082,7 @@
               0.5
             ]
           },
+          "id": "a1457",
           "isAttachedTo": "v2f",
           "orientation": [
             -1,
@@ -8832,6 +9102,7 @@
               0.5
             ]
           },
+          "id": "c4283",
           "isAttachedTo": "v2f",
           "orientation": [
             1,
@@ -8875,6 +9146,7 @@
               0.5
             ]
           },
+          "id": "f23a4",
           "isAttachedTo": "v1g",
           "orientation": [
             -1,
@@ -8894,6 +9166,7 @@
               0.5
             ]
           },
+          "id": "fac51",
           "isAttachedTo": "v1g",
           "orientation": [
             1,
@@ -8921,6 +9194,7 @@
         "v6f1"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -8933,6 +9207,7 @@
               1
             ]
           },
+          "id": "e3c1d",
           "isAttachedTo": "AS160",
           "orientation": [
             0,
@@ -8952,6 +9227,7 @@
               0.5
             ]
           },
+          "id": "d3e2c",
           "isAttachedTo": "v6f1",
           "orientation": [
             1,
@@ -9004,6 +9280,7 @@
               0
             ]
           },
+          "id": "bf9fb",
           "isAttachedTo": "v2g",
           "orientation": [
             0,
@@ -9023,6 +9300,7 @@
               0
             ]
           },
+          "id": "efb51",
           "isAttachedTo": "v2g",
           "orientation": [
             0,
@@ -9066,6 +9344,7 @@
               1
             ]
           },
+          "id": "ec073",
           "isAttachedTo": "v4c",
           "orientation": [
             0,
@@ -9085,6 +9364,7 @@
               1
             ]
           },
+          "id": "f9749",
           "isAttachedTo": "v4c",
           "orientation": [
             0,
@@ -9128,6 +9408,7 @@
               1
             ]
           },
+          "id": "d7e48",
           "isAttachedTo": "v6f1",
           "orientation": [
             0,
@@ -9147,6 +9428,7 @@
               1
             ]
           },
+          "id": "ad2dc",
           "isAttachedTo": "v6f1",
           "orientation": [
             0,
@@ -9190,6 +9472,7 @@
               1
             ]
           },
+          "id": "dcfe2",
           "isAttachedTo": "v9b1",
           "orientation": [
             0,
@@ -9209,6 +9492,7 @@
               1
             ]
           },
+          "id": "ade54",
           "isAttachedTo": "v9b1",
           "orientation": [
             0,
@@ -9236,6 +9520,7 @@
         "AS160"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -9249,6 +9534,7 @@
               0
             ]
           },
+          "id": "d422c",
           "isAttachedTo": "ddb72",
           "orientation": [],
           "x": 664.5858705197752,
@@ -9265,6 +9551,7 @@
               0.5
             ]
           },
+          "id": "a6c5a",
           "isAttachedTo": "AS160",
           "orientation": [
             1,
@@ -9301,6 +9588,7 @@
         "IRS1p"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -9314,6 +9602,7 @@
               0
             ]
           },
+          "id": "ff385",
           "isAttachedTo": "a2e2b",
           "orientation": [],
           "x": 402.1991252351174,
@@ -9330,6 +9619,7 @@
               0
             ]
           },
+          "id": "b80db",
           "isAttachedTo": "IRS1p",
           "orientation": [
             0,
@@ -9382,6 +9672,7 @@
               1
             ]
           },
+          "id": "aeb6d",
           "isAttachedTo": "v2c",
           "orientation": [
             0,
@@ -9401,6 +9692,7 @@
               1
             ]
           },
+          "id": "a5f30",
           "isAttachedTo": "v2c",
           "orientation": [
             0,
@@ -9444,6 +9736,7 @@
               0
             ]
           },
+          "id": "b253d",
           "isAttachedTo": "v3a",
           "orientation": [
             0,
@@ -9463,6 +9756,7 @@
               0
             ]
           },
+          "id": "a6c5c",
           "isAttachedTo": "v3a",
           "orientation": [
             0,
@@ -9502,6 +9796,7 @@
               0.5
             ]
           },
+          "id": "afc6d",
           "isAttachedTo": "S6p",
           "orientation": [
             -1,
@@ -9522,6 +9817,7 @@
               0
             ]
           },
+          "id": "c26f4",
           "isAttachedTo": "aab4b",
           "orientation": [],
           "x": 55.70857921535696,
@@ -9571,6 +9867,7 @@
               1
             ]
           },
+          "id": "a87d7",
           "isAttachedTo": "v5d",
           "orientation": [
             0,
@@ -9590,6 +9887,7 @@
               1
             ]
           },
+          "id": "b724c",
           "isAttachedTo": "v5d",
           "orientation": [
             0,
@@ -9633,6 +9931,7 @@
               1
             ]
           },
+          "id": "d4e45",
           "isAttachedTo": "v1r",
           "orientation": [
             0,
@@ -9652,6 +9951,7 @@
               1
             ]
           },
+          "id": "f9935",
           "isAttachedTo": "v1r",
           "orientation": [
             0,
@@ -9695,6 +9995,7 @@
               0.5
             ]
           },
+          "id": "c345e",
           "isAttachedTo": "v2a",
           "orientation": [
             -1,
@@ -9714,6 +10015,7 @@
               0.5
             ]
           },
+          "id": "a8f65",
           "isAttachedTo": "v2a",
           "orientation": [
             1,
@@ -9753,6 +10055,7 @@
               0.75
             ]
           },
+          "id": "ec441",
           "isAttachedTo": "GLUT4",
           "orientation": [
             1,
@@ -9773,6 +10076,7 @@
               0
             ]
           },
+          "id": "b5491",
           "isAttachedTo": "af519",
           "orientation": [],
           "x": 928.8265860462865,
@@ -9822,6 +10126,7 @@
               0
             ]
           },
+          "id": "c2f21",
           "isAttachedTo": "v4h",
           "orientation": [
             0,
@@ -9841,6 +10146,7 @@
               0
             ]
           },
+          "id": "faeaa",
           "isAttachedTo": "v4h",
           "orientation": [
             0,
@@ -9884,6 +10190,7 @@
               0.5
             ]
           },
+          "id": "c0f8d",
           "isAttachedTo": "v1basal",
           "orientation": [
             -1,
@@ -9903,6 +10210,7 @@
               0.5
             ]
           },
+          "id": "eb2a5",
           "isAttachedTo": "v1basal",
           "orientation": [
             1,
@@ -9930,6 +10238,7 @@
         "IRS1307"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -9943,6 +10252,7 @@
               0
             ]
           },
+          "id": "c7c72",
           "isAttachedTo": "c64f0",
           "orientation": [],
           "x": 319.076366188159,
@@ -9959,6 +10269,7 @@
               0.5
             ]
           },
+          "id": "ad15c",
           "isAttachedTo": "IRS1307",
           "orientation": [
             -1,
@@ -10011,6 +10322,7 @@
               0
             ]
           },
+          "id": "c69f7",
           "isAttachedTo": "v9b1",
           "orientation": [
             0,
@@ -10030,6 +10342,7 @@
               0
             ]
           },
+          "id": "fd7d8",
           "isAttachedTo": "v9b1",
           "orientation": [
             0,
@@ -10069,6 +10382,7 @@
               0.5
             ]
           },
+          "id": "e2add",
           "isAttachedTo": "mTORC1",
           "orientation": [
             1,
@@ -10089,6 +10403,7 @@
               0
             ]
           },
+          "id": "dc060",
           "isAttachedTo": "fb626",
           "orientation": [],
           "x": 661.1646610073572,
@@ -10122,6 +10437,7 @@
         "S6Kp"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -10135,6 +10451,7 @@
               0
             ]
           },
+          "id": "b9f45",
           "isAttachedTo": "af0ac",
           "orientation": [],
           "x": 390.4515003105082,
@@ -10151,6 +10468,7 @@
               0.5
             ]
           },
+          "id": "d35b3",
           "isAttachedTo": "S6Kp",
           "orientation": [
             -1,
@@ -10203,6 +10521,7 @@
               0.5
             ]
           },
+          "id": "eca7c",
           "isAttachedTo": "v4a",
           "orientation": [
             1,
@@ -10222,6 +10541,7 @@
               0.5
             ]
           },
+          "id": "b4263",
           "isAttachedTo": "v4a",
           "orientation": [
             -1,
@@ -10265,6 +10585,7 @@
               1
             ]
           },
+          "id": "f34e2",
           "isAttachedTo": "v7b",
           "orientation": [
             0,
@@ -10284,6 +10605,7 @@
               1
             ]
           },
+          "id": "db6cd",
           "isAttachedTo": "v7b",
           "orientation": [
             0,
@@ -10311,6 +10633,7 @@
         "PKB"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -10324,6 +10647,7 @@
               0
             ]
           },
+          "id": "ce129",
           "isAttachedTo": "e91ac",
           "orientation": [],
           "x": 654.451334936781,
@@ -10340,6 +10664,7 @@
               0.75
             ]
           },
+          "id": "c5869",
           "isAttachedTo": "PKB",
           "orientation": [
             1,
@@ -10388,6 +10713,7 @@
               0.5
             ]
           },
+          "id": "f2761",
           "isAttachedTo": "IRi",
           "orientation": [
             -1,
@@ -10397,6 +10723,7 @@
           "y": 250.64873063365008
         },
         {
+          "id": "a42a8",
           "x": 73.31136738056013,
           "y": 238.56477157178182
         },
@@ -10412,6 +10739,7 @@
               0
             ]
           },
+          "id": "e660f",
           "isAttachedTo": "a4409",
           "orientation": [
             -1,
@@ -10464,6 +10792,7 @@
               0
             ]
           },
+          "id": "cad63",
           "isAttachedTo": "v1r",
           "orientation": [
             0,
@@ -10483,6 +10812,7 @@
               0
             ]
           },
+          "id": "e5301",
           "isAttachedTo": "v1r",
           "orientation": [
             0,
@@ -10526,6 +10856,7 @@
               0.5
             ]
           },
+          "id": "a0c2e",
           "isAttachedTo": "v2a",
           "orientation": [
             1,
@@ -10545,6 +10876,7 @@
               0.5
             ]
           },
+          "id": "ef5a2",
           "isAttachedTo": "v2a",
           "orientation": [
             -1,
@@ -10584,6 +10916,7 @@
               0.25
             ]
           },
+          "id": "fd3e3",
           "isAttachedTo": "S6Kp",
           "orientation": [
             -1,
@@ -10604,6 +10937,7 @@
               0
             ]
           },
+          "id": "ba177",
           "isAttachedTo": "cf517",
           "orientation": [],
           "x": 240.87881153880525,
@@ -10637,6 +10971,7 @@
         "v4a"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -10649,6 +10984,7 @@
               0.25
             ]
           },
+          "id": "b4323",
           "isAttachedTo": "PKB",
           "orientation": [
             1,
@@ -10668,6 +11004,7 @@
               1
             ]
           },
+          "id": "b89e5",
           "isAttachedTo": "v4a",
           "orientation": [
             0,
@@ -10720,6 +11057,7 @@
               0
             ]
           },
+          "id": "bd74f",
           "isAttachedTo": "v3b",
           "orientation": [
             0,
@@ -10739,6 +11077,7 @@
               0
             ]
           },
+          "id": "c57f8",
           "isAttachedTo": "v3b",
           "orientation": [
             0,
@@ -10778,6 +11117,7 @@
               0.5
             ]
           },
+          "id": "e0e2e",
           "isAttachedTo": "AS160",
           "orientation": [
             1,
@@ -10798,6 +11138,7 @@
               0
             ]
           },
+          "id": "ef987",
           "isAttachedTo": "d4586",
           "orientation": [],
           "x": 785.201401220478,
@@ -10843,6 +11184,7 @@
               0.5
             ]
           },
+          "id": "cff9a",
           "isAttachedTo": "mTORC2a",
           "orientation": [
             1,
@@ -10863,6 +11205,7 @@
               0
             ]
           },
+          "id": "ed2ce",
           "isAttachedTo": "becfd",
           "orientation": [],
           "x": 782.4970173749839,
@@ -10912,6 +11255,7 @@
               0
             ]
           },
+          "id": "ff64d",
           "isAttachedTo": "v7b",
           "orientation": [
             0,
@@ -10931,6 +11275,7 @@
               0
             ]
           },
+          "id": "a36d2",
           "isAttachedTo": "v7b",
           "orientation": [
             0,
@@ -10958,6 +11303,7 @@
         "v1d"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -10970,6 +11316,7 @@
               0.5
             ]
           },
+          "id": "fa4a7",
           "isAttachedTo": "IRp",
           "orientation": [
             1,
@@ -10993,6 +11340,7 @@
               0.5
             ]
           },
+          "id": "bbf83",
           "isAttachedTo": "v1d",
           "orientation": [
             -1,
@@ -11041,6 +11389,7 @@
               0.5
             ]
           },
+          "id": "f8295",
           "isAttachedTo": "X",
           "orientation": [
             1,
@@ -11061,6 +11410,7 @@
               0
             ]
           },
+          "id": "c3588",
           "isAttachedTo": "ba30c",
           "orientation": [],
           "x": 350.9649367960048,
@@ -11108,6 +11458,7 @@
               1
             ]
           },
+          "id": "b30b1",
           "isAttachedTo": "v6b1",
           "orientation": [
             0,
@@ -11127,6 +11478,7 @@
               1
             ]
           },
+          "id": "d5a0e",
           "isAttachedTo": "v6b1",
           "orientation": [
             0,
@@ -11154,6 +11506,7 @@
         "IRS1p"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -11167,6 +11520,7 @@
               0
             ]
           },
+          "id": "dee07",
           "isAttachedTo": "f3ef7",
           "orientation": [],
           "x": 578.6825839700598,
@@ -11183,6 +11537,7 @@
               0.5
             ]
           },
+          "id": "cb2cd",
           "isAttachedTo": "IRS1p",
           "orientation": [
             1,
@@ -11219,6 +11574,7 @@
         "v9f2"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -11231,6 +11587,7 @@
               1
             ]
           },
+          "id": "da1bb",
           "isAttachedTo": "S6",
           "orientation": [
             0,
@@ -11250,6 +11607,7 @@
               0.5
             ]
           },
+          "id": "b6911",
           "isAttachedTo": "v9f2",
           "orientation": [
             1,
@@ -11302,6 +11660,7 @@
               0.5
             ]
           },
+          "id": "e764c",
           "isAttachedTo": "v1a",
           "orientation": [
             1,
@@ -11321,6 +11680,7 @@
               0.5
             ]
           },
+          "id": "d074a",
           "isAttachedTo": "v1a",
           "orientation": [
             -1,
@@ -11360,6 +11720,7 @@
               0.25
             ]
           },
+          "id": "b3a76",
           "isAttachedTo": "GLUT4m",
           "orientation": [
             -1,
@@ -11380,6 +11741,7 @@
               0
             ]
           },
+          "id": "ddf74",
           "isAttachedTo": "c9331",
           "orientation": [],
           "x": 806.7188957953091,
@@ -11429,6 +11791,7 @@
               1
             ]
           },
+          "id": "e4d81",
           "isAttachedTo": "v2d",
           "orientation": [
             0,
@@ -11448,6 +11811,7 @@
               1
             ]
           },
+          "id": "e0af0",
           "isAttachedTo": "v2d",
           "orientation": [
             0,
@@ -11487,6 +11851,7 @@
               1
             ]
           },
+          "id": "c2db7",
           "isAttachedTo": "IR",
           "orientation": [
             0,
@@ -11496,6 +11861,7 @@
           "y": 146.8493233301266
         },
         {
+          "id": "e1b03",
           "x": 164.39295419367036,
           "y": 193.7669376693767
         },
@@ -11511,6 +11877,7 @@
               0
             ]
           },
+          "id": "a4966",
           "isAttachedTo": "b9ad4",
           "orientation": [
             0,
@@ -11559,6 +11926,7 @@
               1
             ]
           },
+          "id": "ad4bc",
           "isAttachedTo": "IRS1p",
           "orientation": [
             0,
@@ -11579,6 +11947,7 @@
               0
             ]
           },
+          "id": "d008f",
           "isAttachedTo": "a80fb",
           "orientation": [],
           "x": 439.88106363604766,
@@ -11628,6 +11997,7 @@
               1
             ]
           },
+          "id": "a61ba",
           "isAttachedTo": "v9f2",
           "orientation": [
             0,
@@ -11647,6 +12017,7 @@
               1
             ]
           },
+          "id": "ca54d",
           "isAttachedTo": "v9f2",
           "orientation": [
             0,
@@ -11690,6 +12061,7 @@
               1
             ]
           },
+          "id": "ac5c7",
           "isAttachedTo": "v2basal",
           "orientation": [
             0,
@@ -11709,6 +12081,7 @@
               1
             ]
           },
+          "id": "b3b23",
           "isAttachedTo": "v2basal",
           "orientation": [
             0,
@@ -11736,6 +12109,7 @@
         "v1basal"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -11748,6 +12122,7 @@
               1
             ]
           },
+          "id": "d78ae",
           "isAttachedTo": "IR",
           "orientation": [
             0,
@@ -11757,6 +12132,7 @@
           "y": 146.8493233301266
         },
         {
+          "id": "fa9df",
           "x": 183.8929541936704,
           "y": 150.21231422505306
         },
@@ -11771,6 +12147,7 @@
               0
             ]
           },
+          "id": "a6ddf",
           "isAttachedTo": "v1basal",
           "orientation": [
             0,
@@ -11823,6 +12200,7 @@
               0
             ]
           },
+          "id": "a45ec",
           "isAttachedTo": "v6b1",
           "orientation": [
             0,
@@ -11842,6 +12220,7 @@
               0
             ]
           },
+          "id": "f8f0a",
           "isAttachedTo": "v6b1",
           "orientation": [
             0,
@@ -11881,6 +12260,7 @@
               0
             ]
           },
+          "id": "b697a",
           "isAttachedTo": "IRS1",
           "orientation": [
             0,
@@ -11901,6 +12281,7 @@
               0
             ]
           },
+          "id": "d2ec3",
           "isAttachedTo": "b1607",
           "orientation": [],
           "x": 362.1991252351174,
@@ -11934,6 +12315,7 @@
         "v6f1"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -11946,6 +12328,7 @@
               1
             ]
           },
+          "id": "cedd3",
           "isAttachedTo": "PKB473p",
           "orientation": [
             0,
@@ -11955,10 +12338,12 @@
           "y": 738.6547186152616
         },
         {
+          "id": "e2db4",
           "x": 816.7701716175562,
           "y": 836.1344537815125
         },
         {
+          "id": "a11f1",
           "x": 906.5126050420167,
           "y": 904.3305281207788
         },
@@ -11973,6 +12358,7 @@
               0.5
             ]
           },
+          "id": "aa94e",
           "isAttachedTo": "v6f1",
           "orientation": [
             -1,
@@ -12021,6 +12407,7 @@
               0.5
             ]
           },
+          "id": "f68d9",
           "isAttachedTo": "PKB308p",
           "orientation": [
             1,
@@ -12041,6 +12428,7 @@
               0
             ]
           },
+          "id": "a917f",
           "isAttachedTo": "ff352",
           "orientation": [],
           "x": 981.4359170911071,
@@ -12074,6 +12462,7 @@
         "S6"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -12087,6 +12476,7 @@
               0
             ]
           },
+          "id": "ef269",
           "isAttachedTo": "e42d3",
           "orientation": [],
           "x": 55.70857921535696,
@@ -12103,6 +12493,7 @@
               0.5
             ]
           },
+          "id": "a5043",
           "isAttachedTo": "S6",
           "orientation": [
             1,
@@ -12151,6 +12542,7 @@
               0.5
             ]
           },
+          "id": "fce77",
           "isAttachedTo": "IRS1p307",
           "orientation": [
             1,
@@ -12171,6 +12563,7 @@
               0
             ]
           },
+          "id": "ea520",
           "isAttachedTo": "cebd2",
           "orientation": [],
           "x": 409.85360332551073,
@@ -12220,6 +12613,7 @@
               0
             ]
           },
+          "id": "a2c78",
           "isAttachedTo": "v2d",
           "orientation": [
             0,
@@ -12239,6 +12633,7 @@
               0
             ]
           },
+          "id": "ece45",
           "isAttachedTo": "v2d",
           "orientation": [
             0,
@@ -12278,6 +12673,7 @@
               0.5
             ]
           },
+          "id": "edd6e",
           "isAttachedTo": "AS160p",
           "orientation": [
             -1,
@@ -12298,6 +12694,7 @@
               0
             ]
           },
+          "id": "ac089",
           "isAttachedTo": "df7dd",
           "orientation": [],
           "x": 664.5858705197752,
@@ -12309,9 +12706,9 @@
       "type": [
         "Interaction",
         "Edge",
-        "pato:PATO:0002220"
+        "PATO:PATO:0002220"
       ],
-      "xrefDataSource": "pato",
+      "xrefDataSource": "PATO",
       "xrefIdentifier": "PATO:0002220",
       "zIndex": 12288
     },
@@ -12341,6 +12738,7 @@
               0.5
             ]
           },
+          "id": "b95d0",
           "isAttachedTo": "v2b",
           "orientation": [
             1,
@@ -12360,6 +12758,7 @@
               0.5
             ]
           },
+          "id": "b0b6f",
           "isAttachedTo": "v2b",
           "orientation": [
             -1,
@@ -12387,6 +12786,7 @@
         "PKB"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -12400,6 +12800,7 @@
               0
             ]
           },
+          "id": "c2c27",
           "isAttachedTo": "eafd4",
           "orientation": [],
           "x": 801.250082453879,
@@ -12416,6 +12817,7 @@
               1
             ]
           },
+          "id": "a3512",
           "isAttachedTo": "PKB",
           "orientation": [
             0,
@@ -12464,6 +12866,7 @@
               0.5
             ]
           },
+          "id": "e9d7a",
           "isAttachedTo": "IRS1p307",
           "orientation": [
             1,
@@ -12484,6 +12887,7 @@
               0
             ]
           },
+          "id": "bbc13",
           "isAttachedTo": "c6390",
           "orientation": [],
           "x": 578.6825839700598,
@@ -12533,6 +12937,7 @@
               1
             ]
           },
+          "id": "f513f",
           "isAttachedTo": "v5c",
           "orientation": [
             0,
@@ -12552,6 +12957,7 @@
               1
             ]
           },
+          "id": "ae4fd",
           "isAttachedTo": "v5c",
           "orientation": [
             0,
@@ -12579,6 +12985,7 @@
         "v1e"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -12591,6 +12998,7 @@
               0
             ]
           },
+          "id": "ed934",
           "isAttachedTo": "Xp",
           "orientation": [
             0,
@@ -12610,6 +13018,7 @@
               1
             ]
           },
+          "id": "a95ec",
           "isAttachedTo": "v1e",
           "orientation": [
             0,
@@ -12641,6 +13050,7 @@
         "mTORC2a"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -12654,6 +13064,7 @@
               0
             ]
           },
+          "id": "d85e5",
           "isAttachedTo": "e8fdb",
           "orientation": [],
           "x": 569.2583095938153,
@@ -12670,6 +13081,7 @@
               0.5
             ]
           },
+          "id": "eec21",
           "isAttachedTo": "mTORC2a",
           "orientation": [
             1,
@@ -12706,6 +13118,7 @@
         "IRp"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -12719,6 +13132,7 @@
               0
             ]
           },
+          "id": "e3c96",
           "isAttachedTo": "be184",
           "orientation": [],
           "x": 404.3670162059102,
@@ -12735,6 +13149,7 @@
               0.5
             ]
           },
+          "id": "cdae6",
           "isAttachedTo": "IRp",
           "orientation": [
             1,
@@ -12771,6 +13186,7 @@
         "v5a"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -12783,6 +13199,7 @@
               0.5
             ]
           },
+          "id": "ff531",
           "isAttachedTo": "PKB308p473p",
           "orientation": [
             1,
@@ -12792,6 +13209,7 @@
           "y": 722.2470753031596
         },
         {
+          "id": "f8ba6",
           "x": 1045.1680672268906,
           "y": 779.3351171781029
         },
@@ -12806,6 +13224,7 @@
               0.5
             ]
           },
+          "id": "a466c",
           "isAttachedTo": "v5a",
           "orientation": [
             -1,
@@ -12842,6 +13261,7 @@
         "v5a"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -12854,6 +13274,7 @@
               0.5
             ]
           },
+          "id": "ba7ac",
           "isAttachedTo": "PKB308p",
           "orientation": [
             1,
@@ -12863,6 +13284,7 @@
           "y": 566.2223921165562
         },
         {
+          "id": "ab0e9",
           "x": 1045.1680672268906,
           "y": 701.3227755848012
         },
@@ -12877,6 +13299,7 @@
               0.5
             ]
           },
+          "id": "d3440",
           "isAttachedTo": "v5a",
           "orientation": [
             -1,
@@ -12913,6 +13336,7 @@
         "PKB308p473p"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -12926,6 +13350,7 @@
               0
             ]
           },
+          "id": "e9ef0",
           "isAttachedTo": "f4be7",
           "orientation": [],
           "x": 841.250082453879,
@@ -12942,6 +13367,7 @@
               0
             ]
           },
+          "id": "bf04a",
           "isAttachedTo": "PKB308p473p",
           "orientation": [
             0,
@@ -12978,6 +13404,7 @@
         "IRi"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -12991,6 +13418,7 @@
               0
             ]
           },
+          "id": "e51cd",
           "isAttachedTo": "f1bba",
           "orientation": [
             0,
@@ -13000,6 +13428,7 @@
           "y": 292.1258335294581
         },
         {
+          "id": "c5752",
           "x": 215.68337512973835,
           "y": 291.4285714285714
         },
@@ -13014,6 +13443,7 @@
               1
             ]
           },
+          "id": "ed995",
           "isAttachedTo": "IRi",
           "orientation": [
             0,
@@ -13062,6 +13492,7 @@
               0.5
             ]
           },
+          "id": "a5d40",
           "isAttachedTo": "S6",
           "orientation": [
             1,
@@ -13082,6 +13513,7 @@
               0
             ]
           },
+          "id": "f30ac",
           "isAttachedTo": "dd89f",
           "orientation": [],
           "x": 214.12507581621594,
@@ -13115,6 +13547,7 @@
         "PKB473p"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -13128,6 +13561,7 @@
               0
             ]
           },
+          "id": "fe8d0",
           "isAttachedTo": "e7549",
           "orientation": [],
           "x": 801.2500824538793,
@@ -13144,6 +13578,7 @@
               1
             ]
           },
+          "id": "a8af5",
           "isAttachedTo": "PKB473p",
           "orientation": [
             0,
@@ -13196,6 +13631,7 @@
               0.5
             ]
           },
+          "id": "e91f1",
           "isAttachedTo": "v2b",
           "orientation": [
             -1,
@@ -13215,6 +13651,7 @@
               0.5
             ]
           },
+          "id": "e2bde",
           "isAttachedTo": "v2b",
           "orientation": [
             1,
@@ -13254,6 +13691,7 @@
               1
             ]
           },
+          "id": "ed0c3",
           "isAttachedTo": "IRS1",
           "orientation": [
             0,
@@ -13274,6 +13712,7 @@
               0
             ]
           },
+          "id": "b5aee",
           "isAttachedTo": "d5360",
           "orientation": [],
           "x": 319.076366188159,
@@ -13307,6 +13746,7 @@
         "v4e"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -13319,6 +13759,7 @@
               0.25
             ]
           },
+          "id": "e06a3",
           "isAttachedTo": "PKB473p",
           "orientation": [
             1,
@@ -13338,6 +13779,7 @@
               1
             ]
           },
+          "id": "e636b",
           "isAttachedTo": "v4e",
           "orientation": [
             0,
@@ -13374,6 +13816,7 @@
         "v5d"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -13386,6 +13829,7 @@
               0
             ]
           },
+          "id": "b43d8",
           "isAttachedTo": "mTORC2a",
           "orientation": [
             0,
@@ -13405,6 +13849,7 @@
               0.5
             ]
           },
+          "id": "ac015",
           "isAttachedTo": "v5d",
           "orientation": [
             1,
@@ -13453,6 +13898,7 @@
               0
             ]
           },
+          "id": "ca7dd",
           "isAttachedTo": "PKB",
           "orientation": [
             0,
@@ -13473,6 +13919,7 @@
               0
             ]
           },
+          "id": "b7f65",
           "isAttachedTo": "e0296",
           "orientation": [],
           "x": 801.2500824538793,
@@ -13506,6 +13953,7 @@
         "IRins"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -13519,6 +13967,7 @@
               0
             ]
           },
+          "id": "ca41e",
           "isAttachedTo": "a3f05",
           "orientation": [],
           "x": 199.56696343736797,
@@ -13535,6 +13984,7 @@
               0.5
             ]
           },
+          "id": "ad217",
           "isAttachedTo": "IRins",
           "orientation": [
             1,
@@ -13583,6 +14033,7 @@
               0.75
             ]
           },
+          "id": "ee9ed",
           "isAttachedTo": "IRS1p",
           "orientation": [
             -1,
@@ -13603,6 +14054,7 @@
               0
             ]
           },
+          "id": "bdaa9",
           "isAttachedTo": "bf2a3",
           "orientation": [],
           "x": 402.1991252351174,
@@ -13652,6 +14104,7 @@
               0.5
             ]
           },
+          "id": "e6182",
           "isAttachedTo": "v1e",
           "orientation": [
             1,
@@ -13671,6 +14124,7 @@
               0.5
             ]
           },
+          "id": "ffddf",
           "isAttachedTo": "v1e",
           "orientation": [
             -1,
@@ -13698,6 +14152,7 @@
         "v1e"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -13710,6 +14165,7 @@
               0.5
             ]
           },
+          "id": "bfb6f",
           "isAttachedTo": "IRip",
           "orientation": [
             -1,
@@ -13729,6 +14185,7 @@
               0
             ]
           },
+          "id": "b38bd",
           "isAttachedTo": "v1e",
           "orientation": [
             0,
@@ -13765,6 +14222,7 @@
         "v1c"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -13777,6 +14235,7 @@
               1
             ]
           },
+          "id": "d6ae4",
           "isAttachedTo": "IRins",
           "orientation": [
             0,
@@ -13800,6 +14259,7 @@
               1
             ]
           },
+          "id": "c74b8",
           "isAttachedTo": "v1c",
           "orientation": [
             0,
@@ -13852,6 +14312,7 @@
               0.5
             ]
           },
+          "id": "d9988",
           "isAttachedTo": "v1basal",
           "orientation": [
             1,
@@ -13871,6 +14332,7 @@
               0.5
             ]
           },
+          "id": "cbbff",
           "isAttachedTo": "v1basal",
           "orientation": [
             -1,
@@ -13898,6 +14360,7 @@
         "IRS1"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -13911,6 +14374,7 @@
               0
             ]
           },
+          "id": "c50a2",
           "isAttachedTo": "a8027",
           "orientation": [],
           "x": 362.1991252351174,
@@ -13927,6 +14391,7 @@
               0.75
             ]
           },
+          "id": "e18a3",
           "isAttachedTo": "IRS1",
           "orientation": [
             -1,
@@ -13963,6 +14428,7 @@
         "mTORC1a"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -13976,6 +14442,7 @@
               0
             ]
           },
+          "id": "c05de",
           "isAttachedTo": "c6848",
           "orientation": [],
           "x": 661.1646610073572,
@@ -13992,6 +14459,7 @@
               0.5
             ]
           },
+          "id": "e3ea0",
           "isAttachedTo": "mTORC1a",
           "orientation": [
             -1,
@@ -14044,6 +14512,7 @@
               1
             ]
           },
+          "id": "d84a5",
           "isAttachedTo": "v1d",
           "orientation": [
             0,
@@ -14063,6 +14532,7 @@
               1
             ]
           },
+          "id": "d4d4a",
           "isAttachedTo": "v1d",
           "orientation": [
             0,
@@ -14106,6 +14576,7 @@
               0
             ]
           },
+          "id": "dcb72",
           "isAttachedTo": "v9b2",
           "orientation": [
             0,
@@ -14125,6 +14596,7 @@
               0
             ]
           },
+          "id": "a9299",
           "isAttachedTo": "v9b2",
           "orientation": [
             0,
@@ -14152,6 +14624,7 @@
         "IRp"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -14165,6 +14638,7 @@
               0
             ]
           },
+          "id": "b7644",
           "isAttachedTo": "affa9",
           "orientation": [
             0,
@@ -14174,6 +14648,7 @@
           "y": 194.4430998712205
         },
         {
+          "id": "ad142",
           "x": 368.01864486502507,
           "y": 190.30079803560466
         },
@@ -14188,6 +14663,7 @@
               1
             ]
           },
+          "id": "bde91",
           "isAttachedTo": "IRp",
           "orientation": [
             0,
@@ -14224,6 +14700,7 @@
         "S6K"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -14237,6 +14714,7 @@
               0
             ]
           },
+          "id": "acdb6",
           "isAttachedTo": "f557d",
           "orientation": [],
           "x": 240.87881153880525,
@@ -14253,6 +14731,7 @@
               0.5
             ]
           },
+          "id": "c9496",
           "isAttachedTo": "S6K",
           "orientation": [
             1,
@@ -14301,6 +14780,7 @@
               0.25
             ]
           },
+          "id": "e5f6f",
           "isAttachedTo": "PKB473p",
           "orientation": [
             -1,
@@ -14321,6 +14801,7 @@
               0
             ]
           },
+          "id": "fca88",
           "isAttachedTo": "ee1ec",
           "orientation": [],
           "x": 654.451334936781,
@@ -14366,6 +14847,7 @@
               0.5
             ]
           },
+          "id": "eb80c",
           "isAttachedTo": "mTORC2",
           "orientation": [
             -1,
@@ -14386,6 +14868,7 @@
               0
             ]
           },
+          "id": "a90f0",
           "isAttachedTo": "d352e",
           "orientation": [],
           "x": 569.2583095938153,
@@ -14419,6 +14902,7 @@
         "GLUT4m"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Production",
       "points": [
         {
           "attachmentDisplay": {
@@ -14432,6 +14916,7 @@
               0
             ]
           },
+          "id": "c89ea",
           "isAttachedTo": "d3b8f",
           "orientation": [],
           "x": 928.8265860462865,
@@ -14448,6 +14933,7 @@
               0.25
             ]
           },
+          "id": "f03ec",
           "isAttachedTo": "GLUT4m",
           "orientation": [
             -1,
@@ -14484,6 +14970,7 @@
         "v2c"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -14496,6 +14983,7 @@
               0.75
             ]
           },
+          "id": "f9fdf",
           "isAttachedTo": "mTORC1a",
           "orientation": [
             -1,
@@ -14515,6 +15003,7 @@
               1
             ]
           },
+          "id": "af0bb",
           "isAttachedTo": "v2c",
           "orientation": [
             0,
@@ -14563,6 +15052,7 @@
               0.5
             ]
           },
+          "id": "b290c",
           "isAttachedTo": "IRS1307",
           "orientation": [
             -1,
@@ -14583,6 +15073,7 @@
               0
             ]
           },
+          "id": "b9b4c",
           "isAttachedTo": "e89de",
           "orientation": [],
           "x": 192.45003843855653,
@@ -14628,6 +15119,7 @@
               0.5
             ]
           },
+          "id": "b4f29",
           "isAttachedTo": "IR",
           "orientation": [
             1,
@@ -14648,6 +15140,7 @@
               0
             ]
           },
+          "id": "e2a54",
           "isAttachedTo": "dd8e9",
           "orientation": [],
           "x": 159.56696343736797,
@@ -14693,6 +15186,7 @@
               0.5
             ]
           },
+          "id": "ccf53",
           "isAttachedTo": "IRins",
           "orientation": [
             1,
@@ -14713,6 +15207,7 @@
               0
             ]
           },
+          "id": "f789b",
           "isAttachedTo": "d6121",
           "orientation": [],
           "x": 364.3670162059102,
@@ -14746,6 +15241,7 @@
         "v5a"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "SBGN-Catalysis",
       "points": [
         {
           "attachmentDisplay": {
@@ -14758,6 +15254,7 @@
               1
             ]
           },
+          "id": "daffe",
           "isAttachedTo": "mTORC1",
           "orientation": [
             0,
@@ -14777,6 +15274,7 @@
               0.5
             ]
           },
+          "id": "cb4b1",
           "isAttachedTo": "v5a",
           "orientation": [
             1,
@@ -16074,197 +16572,197 @@
     "author": "[Anwesha, Khanspers, AMTan, Egonw, Eweitz]",
     "comments": [
       {
-        "content": "The paper describes insulin signaling in human adipocytes under normal and diabetic states using mathematical models based on experimental data. This model corresponds to insulin signaling under diabetic condition. Insulin signaling under normal condition is represented in WP3634.\nThe model has been converted to GPML using the PathSBML plugin from PathVisio, importing the model BIOMD0000000449 from the BioModels Database directly. The layout has been improved manually.",
+        "content": "The paper describes insulin signaling in human adipocytes under normal and diabetic states using mathematical models based on experimental data. This model corresponds to insulin signaling under diabetic condition. Insulin signaling under normal condition is represented in WP3634.\r\nThe model has been converted to GPML using the PathSBML plugin from PathVisio, importing the model BIOMD0000000449 from the BioModels Database directly. The layout has been improved manually.",
         "source": "WikiPathways-description"
       }
     ],
     "contains": [
-      "id11094c1",
-      "id1202621b",
-      "id1202621d",
-      "id143c67f9",
-      "id183f61a1",
-      "id19cc4be3",
-      "id1b50ce1f",
-      "id1cbb6ab5",
-      "id1e15d7",
-      "id22e7871",
-      "id2866c3dd",
-      "id2f9ab075",
-      "id30120221",
-      "id325de7dc",
-      "id325de7dd",
-      "id33106da2",
-      "id352a945f",
-      "id354a737f",
-      "id38a856a7",
-      "id3a723759",
-      "id3a72375a",
-      "id3a72375b",
-      "id3e18fba2",
-      "id459b8b5f",
-      "id48c777d8",
-      "id48c777d9",
-      "id48c777da",
-      "id48f7c4e5",
-      "id4ab3ca23",
-      "id4b704a9d",
-      "id4b704a9e",
-      "id4c7daad5",
-      "id5059d4a9",
-      "id5088dcdb",
-      "id50a8bbfb",
-      "id530b7c5a",
-      "id541c39f7",
-      "id56389fe5",
-      "id56b9eefd",
-      "id586da1e3",
-      "id5ad2eb54",
-      "id10605c4a",
-      "id5cbf3d9f",
-      "id5cdd44e1",
-      "id60240340",
-      "id62654825",
-      "id64387b5e",
-      "id64fde9da",
-      "id64fde9db",
-      "id659c011b",
-      "id659c011c",
-      "id659c011d",
-      "id66ce9319",
       "id680b52ab",
-      "id69ccfe9a",
-      "id6b147e1e",
-      "id6b2395fb",
-      "id6c070477",
-      "id6c10c85f",
-      "id6d6f7bb6",
-      "id6ecab11b",
-      "id7196e861",
-      "id7470bba1",
-      "id7615103e",
-      "id77a77497",
-      "id7a515ef1",
-      "id7b0b8f1",
-      "id240ebe4f",
-      "id7d1ff19a",
-      "id7e1c3bdb",
-      "id56a63c9b",
-      "id7e1c3bdc",
-      "id80d62497",
-      "id80d62498",
-      "id82c5fc20",
-      "id867c2f1d",
-      "id867c2f1e",
-      "id87654cf3",
-      "id87e90761",
-      "id89855a90",
-      "id25d0d56f",
-      "id8a2260b5",
-      "id8073575",
-      "id8cf530dd",
-      "id8d33cd33",
-      "id4f684274",
-      "id8f2b6516",
-      "id216f9411",
-      "id8f2b6517",
-      "id33dd1b29",
-      "id9027af57",
-      "id94d16f9c",
-      "id501374ee",
-      "id94d16f9d",
-      "id5ed963aa",
-      "id9527b37b",
-      "id95cdb9dd",
-      "id9887a299",
-      "id9887a29a",
-      "id99f47add",
-      "id9a49c2f1",
-      "id9b73c463",
-      "id9e7cefd6",
-      "id9f9a8563",
-      "ida131a12c",
-      "ida136d892",
-      "id7333b253",
-      "ida23322d3",
-      "ida329a498",
-      "ida4e81f3d",
-      "ida6dce318",
-      "id780602ae",
-      "ida6dce319",
-      "id925427e7",
-      "ida73326f7",
-      "ida8537959",
-      "idaad86ba1",
-      "id398ff3f8",
-      "idabffee59",
-      "idacd9317d",
-      "idb0886352",
-      "id40f87d4e",
-      "idb188149f",
-      "idb1a5f8df",
-      "idb43e964f",
-      "idb7ee9fbe",
       "idb8e85694",
-      "idb93e9a73",
-      "idb9e4a0d5",
-      "idb9f3355e",
-      "idbb1ff517",
-      "idbc96c937",
-      "id763b9c73",
-      "idbcedcc48",
-      "id9c4bcc93",
-      "idc0c0f437",
-      "idc293d6ce",
-      "id91634452",
-      "idc3b16c5b",
-      "idc45fd65f",
-      "idc512511a",
-      "idc75fdefe",
-      "idc839e154",
-      "idb70b00c9",
-      "idcb4a0def",
-      "idcbf01451",
-      "idcf79008f",
-      "idd0f01875",
-      "idd4484739",
-      "idd478488a",
-      "idd4b2a931",
-      "idd6476c2c",
-      "idd6f0ce42",
-      "idd6f0ce44",
-      "idd7599eb0",
-      "idd8853eed",
-      "idd96b527a",
-      "idda0c4d2c",
-      "idda4554d0",
-      "iddbd6ab1e",
-      "iddd72391f",
-      "iddd7fd701",
-      "iddf115d00",
       "ide2beeeeb",
-      "ide2fb8bf1",
-      "ide4d6efe9",
-      "id4fc1af3e",
-      "idea1ad782",
-      "idea3d8043",
+      "idf6c2db02",
+      "id5088dcdb",
+      "id9b73c463",
       "idec50c84c",
-      "idefda5110",
-      "idefedd54e",
+      "idf004ba33",
+      "idb9f3355e",
+      "idc0c0f437",
+      "id22e7871",
+      "id530b7c5a",
+      "idd6476c2c",
+      "idfce1206a",
+      "idea3d8043",
+      "id7e1c3bdb",
       "idefff3aef",
       "id838167bb",
+      "id56a63c9b",
+      "idb188149f",
+      "ide4d6efe9",
+      "id56b9eefd",
+      "idd8853eed",
+      "id4fc1af3e",
+      "idea1ad782",
+      "idd478488a",
+      "id183f61a1",
+      "id8a2260b5",
+      "id8073575",
+      "id64387b5e",
+      "id3e18fba2",
+      "id9887a299",
+      "ida6dce318",
+      "id780602ae",
+      "ida4e81f3d",
+      "id11094c1",
+      "id9887a29a",
+      "ida6dce319",
+      "id925427e7",
+      "idc3b16c5b",
+      "id64fde9da",
+      "id352a945f",
+      "id64fde9db",
+      "idcbf01451",
+      "idda4554d0",
+      "idefda5110",
+      "ide2fb8bf1",
+      "id2f9ab075",
+      "id867c2f1d",
+      "id94d16f9c",
+      "id501374ee",
+      "idbb1ff517",
+      "idf24f16bd",
+      "id1202621b",
+      "idb9e4a0d5",
+      "idc839e154",
+      "idb70b00c9",
+      "idd0f01875",
+      "id143c67f9",
+      "id38a856a7",
+      "id89855a90",
+      "id25d0d56f",
+      "idc75fdefe",
+      "id1e15d7",
+      "id6c10c85f",
+      "idbcedcc48",
+      "id9c4bcc93",
+      "iddbd6ab1e",
+      "id541c39f7",
+      "id1b50ce1f",
+      "id8d33cd33",
+      "id4f684274",
+      "idf3dacedf",
+      "id586da1e3",
+      "id867c2f1e",
+      "id94d16f9d",
+      "id5ed963aa",
+      "idb1a5f8df",
+      "id19cc4be3",
+      "id1202621d",
+      "idaad86ba1",
+      "id1cbb6ab5",
+      "id7a515ef1",
+      "id398ff3f8",
+      "id48f7c4e5",
+      "id7470bba1",
+      "id82c5fc20",
+      "idefedd54e",
+      "id9f9a8563",
+      "idd6f0ce42",
+      "idfe6e0367",
+      "idd6f0ce44",
+      "id4c7daad5",
+      "id5ad2eb54",
+      "id10605c4a",
+      "id77a77497",
+      "id66ce9319",
+      "id62654825",
+      "idd4484739",
+      "idd4b2a931",
+      "idf11cd07c",
+      "id60240340",
+      "id5cdd44e1",
+      "id95cdb9dd",
+      "id7b0b8f1",
+      "id240ebe4f",
+      "idacd9317d",
+      "iddd7fd701",
+      "id5059d4a9",
+      "ida136d892",
+      "id7333b253",
+      "iddf115d00",
+      "id6d6f7bb6",
+      "ida8537959",
+      "id3a723759",
+      "id48c777d8",
+      "idcf79008f",
+      "id659c011b",
+      "id4b704a9d",
+      "id80d62497",
+      "id8f2b6516",
+      "id216f9411",
+      "idc512511a",
+      "id7615103e",
+      "id325de7dc",
+      "id3a72375a",
+      "id48c777d9",
+      "idd7599eb0",
+      "id659c011c",
+      "id6b2395fb",
+      "iddd72391f",
+      "id3a72375b",
+      "id48c777da",
+      "idda0c4d2c",
+      "id659c011d",
+      "id4b704a9e",
+      "id2866c3dd",
+      "id9a49c2f1",
+      "ida329a498",
+      "idf0c49d",
+      "id30120221",
+      "id80d62498",
+      "id8f2b6517",
+      "id33dd1b29",
+      "idabffee59",
+      "id325de7dd",
+      "id8cf530dd",
+      "idc45fd65f",
+      "idb43e964f",
+      "idc293d6ce",
+      "id91634452",
+      "idcb4a0def",
+      "id87654cf3",
+      "id6ecab11b",
+      "id7d1ff19a",
+      "idf19c6830",
+      "id99f47add",
+      "id7196e861",
+      "id69ccfe9a",
+      "ida23322d3",
+      "idb0886352",
+      "id40f87d4e",
+      "idb93e9a73",
+      "id6c070477",
+      "id5cbf3d9f",
+      "id6b147e1e",
+      "ida131a12c",
+      "id87e90761",
+      "id56389fe5",
+      "id459b8b5f",
+      "id9027af57",
+      "id9e7cefd6",
+      "idf08db64a",
+      "ida73326f7",
+      "id50a8bbfb",
+      "id4ab3ca23",
+      "idbc96c937",
+      "id763b9c73",
+      "idd96b527a",
+      "idb7ee9fbe",
+      "id33106da2",
+      "id7e1c3bdc",
       "idefff3af0",
       "idc597b191",
-      "idf004ba33",
-      "idf08db64a",
-      "idf0c49d",
-      "idf11cd07c",
-      "idf19c6830",
-      "idf24f16bd",
-      "idf3dacedf",
-      "idf6c2db02",
-      "idfce1206a",
-      "idfe6e0367",
+      "id9527b37b",
+      "id354a737f",
       "v1a",
       "v1basal",
       "v1c",
@@ -16274,58 +16772,58 @@
       "v1r",
       "v2a",
       "v2b",
-      "v2basal",
       "v2c",
       "v2d",
       "v2f",
+      "v2basal",
       "v2g",
       "v3a",
       "v3b",
+      "v5a",
+      "v5b",
+      "v5c",
+      "v5d",
       "v4a",
       "v4b",
       "v4c",
       "v4e",
       "v4f",
       "v4h",
-      "v5a",
-      "v5b",
-      "v5c",
-      "v5d",
-      "v6b1",
       "v6f1",
-      "v7b",
+      "v6b1",
       "v7f",
-      "v9b1",
-      "v9b2",
+      "v7b",
       "v9f1",
+      "v9b1",
       "v9f2",
-      "AS160",
-      "AS160p",
-      "GLUT4",
-      "GLUT4m",
-      "IR",
-      "IRS1",
-      "IRS1307",
-      "IRS1p",
-      "IRS1p307",
-      "IRi",
+      "v9b2",
       "IRins",
-      "IRip",
+      "IR",
       "IRp",
-      "PKB",
+      "IRip",
+      "IRi",
+      "Xp",
+      "IRS1p",
+      "IRS1",
+      "IRS1p307",
+      "mTORC1a",
+      "IRS1307",
+      "X",
+      "mTORC1",
       "PKB308p",
       "PKB308p473p",
-      "PKB473p",
-      "S6",
-      "S6K",
-      "S6Kp",
-      "S6p",
-      "X",
-      "Xp",
-      "mTORC1",
-      "mTORC1a",
+      "mTORC2a",
       "mTORC2",
-      "mTORC2a"
+      "PKB",
+      "PKB473p",
+      "AS160p",
+      "AS160",
+      "GLUT4m",
+      "GLUT4",
+      "S6Kp",
+      "S6K",
+      "S6p",
+      "S6"
     ],
     "dataSourceVersion": "WP3635_r116600",
     "displayName": "diabetic condition",
@@ -16337,6 +16835,7 @@
     "height": 1169.5976354514116,
     "id": "WP3635",
     "kaavioType": "Group",
+    "lastModified": "20210509092728",
     "name": "Insulin signaling in adipocytes (diabetic condition)",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -16345,7 +16844,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Insulin signaling in adipocytes (diabetic condition)\nOrganism: Homo sapiens",
+    "textContent": "Name: Insulin signaling in adipocytes (diabetic condition)\nLast Modified: 20210509092728\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000143"

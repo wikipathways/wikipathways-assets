@@ -1,5 +1,27 @@
 {
   "entitiesById": {
+    "377780": {
+      "__HighlandStream__": true,
+      "_can_drain": false,
+      "_consume_waiting_for_next": false,
+      "_consumers": [],
+      "_delegate": null,
+      "_destructors": [],
+      "_events": {},
+      "_eventsCount": 2,
+      "_in_consume_cb": false,
+      "_incoming": [],
+      "_is_observer": false,
+      "_nil_pushed": false,
+      "_observers": [],
+      "_outgoing": [],
+      "_repeat_resume": false,
+      "_send_events": false,
+      "id": "377780",
+      "paused": true,
+      "source": null,
+      "writable": true
+    },
     "a5af2": {
       "cellularComponent": "Mitochondria",
       "drawAs": "Mitochondria",
@@ -59,7 +81,7 @@
         "DataNode",
         "SingleFreeNode",
         "Ensembl:ENSG00000125538",
-        "Rna",
+        "RNA",
         "P594:ENSG00000125538",
         "Entrez Gene:3553",
         "P351:3553",
@@ -71,7 +93,7 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 55,
-      "wpType": "Rna",
+      "wpType": "RNA",
       "x": 149.89066303168147,
       "xrefDataSource": "Ensembl",
       "xrefIdentifier": "ENSG00000125538",
@@ -88,7 +110,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "b120d",
-      "isPartOf": "e6b97",
+      "isPartOf": "d1033",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -445,6 +467,36 @@
       "y": 502.546296296297,
       "zIndex": 28672
     },
+    "d1033": {
+      "contains": [
+        "b120d",
+        "f75d5",
+        "fbb21"
+      ],
+      "drawAs": "Octagon",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 99.00000000000017,
+      "id": "d1033",
+      "kaavioType": "Group",
+      "padding": 11,
+      "stroke": "#808080",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "Complex",
+        "GroupComplex"
+      ],
+      "verticalAlign": "middle",
+      "width": 86.73222696880362,
+      "x": 379.3381674833031,
+      "y": 336.4030042116348,
+      "zIndex": 32768
+    },
     "d9043": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -526,36 +578,6 @@
       "xrefDataSource": "Ensembl",
       "xrefIdentifier": "ENSG00000136869",
       "y": 138.71906727002911,
-      "zIndex": 32768
-    },
-    "e6b97": {
-      "contains": [
-        "b120d",
-        "f75d5",
-        "fbb21"
-      ],
-      "drawAs": "Octagon",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 99.00000000000017,
-      "id": "e6b97",
-      "kaavioType": "Group",
-      "padding": 11,
-      "stroke": "#808080",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "Complex",
-        "GroupComplex"
-      ],
-      "verticalAlign": "middle",
-      "width": 86.73222696880362,
-      "x": 379.3381674833031,
-      "y": 336.4030042116348,
       "zIndex": 32768
     },
     "e7d9a": {
@@ -700,7 +722,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "f75d5",
-      "isPartOf": "e6b97",
+      "isPartOf": "d1033",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -780,7 +802,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "fbb21",
-      "isPartOf": "e6b97",
+      "isPartOf": "d1033",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -933,16 +955,6 @@
       "y": 52.819403231125015,
       "zIndex": 28672
     },
-    "http://identifiers.org/cl/CL:0000235": {
-      "gpmlElementName": "openControlledVocabulary",
-      "id": "http://identifiers.org/cl/CL:0000235",
-      "ontology": "Cell Type",
-      "term": "macrophage",
-      "type": [
-        "openControlledVocabulary"
-      ],
-      "xrefIdentifier": "CL:0000235"
-    },
     "http://identifiers.org/pw/PW:0000004": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000004",
@@ -1006,6 +1018,7 @@
               1
             ]
           },
+          "id": "ed75f",
           "isAttachedTo": "a5af2",
           "orientation": [
             0,
@@ -1025,6 +1038,7 @@
               0
             ]
           },
+          "id": "ca73e",
           "isAttachedTo": "d9043",
           "orientation": [
             0,
@@ -1069,6 +1083,7 @@
               1
             ]
           },
+          "id": "c4816",
           "isAttachedTo": "f6aef",
           "orientation": [
             0,
@@ -1088,6 +1103,7 @@
               0
             ]
           },
+          "id": "d3d34",
           "isAttachedTo": "e7d9a",
           "orientation": [
             0,
@@ -1128,6 +1144,7 @@
               1
             ]
           },
+          "id": "e5338",
           "isAttachedTo": "e1177",
           "orientation": [
             0,
@@ -1147,6 +1164,7 @@
               0
             ]
           },
+          "id": "b6291",
           "isAttachedTo": "c947b",
           "orientation": [
             0,
@@ -1175,7 +1193,7 @@
       "id": "id5fed56b9",
       "isAttachedTo": [
         "c947b",
-        "e6b97"
+        "d1033"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -1191,6 +1209,7 @@
               0.5
             ]
           },
+          "id": "dea2b",
           "isAttachedTo": "c947b",
           "orientation": [
             1,
@@ -1210,7 +1229,8 @@
               0.5
             ]
           },
-          "isAttachedTo": "e6b97",
+          "id": "d18d2",
+          "isAttachedTo": "d1033",
           "orientation": [
             1,
             0
@@ -1254,13 +1274,14 @@
               1
             ]
           },
+          "id": "e708c",
           "isAttachedTo": "fdfa9",
           "orientation": [
             0,
             1
           ],
-          "x": 174.990098134971,
-          "y": 231.8650200564129
+          "x": 174.99009813497102,
+          "y": 231.86502005641287
         },
         {
           "attachmentDisplay": {
@@ -1273,6 +1294,7 @@
               0.5
             ]
           },
+          "id": "ceb48",
           "isAttachedTo": "d9043",
           "orientation": [
             1,
@@ -1317,6 +1339,7 @@
               1
             ]
           },
+          "id": "a272e",
           "isAttachedTo": "fcf99",
           "orientation": [
             0,
@@ -1336,6 +1359,7 @@
               0
             ]
           },
+          "id": "fd278",
           "isAttachedTo": "d9043",
           "orientation": [
             0,
@@ -1380,6 +1404,7 @@
               0.5
             ]
           },
+          "id": "c1a6e",
           "isAttachedTo": "c038a",
           "orientation": [
             1,
@@ -1399,6 +1424,7 @@
               0.5
             ]
           },
+          "id": "eb1dd",
           "isAttachedTo": "a5af2",
           "orientation": [
             1,
@@ -1443,6 +1469,7 @@
               0.5
             ]
           },
+          "id": "ceaa2",
           "isAttachedTo": "ad754",
           "orientation": [
             1,
@@ -1462,6 +1489,7 @@
               0.5
             ]
           },
+          "id": "c0c78",
           "isAttachedTo": "c27c4",
           "orientation": [
             1,
@@ -1506,6 +1534,7 @@
               1
             ]
           },
+          "id": "b1b71",
           "isAttachedTo": "c947b",
           "orientation": [
             0,
@@ -1525,6 +1554,7 @@
               0.5
             ]
           },
+          "id": "be244",
           "isAttachedTo": "ad754",
           "orientation": [
             1,
@@ -1565,6 +1595,7 @@
               1
             ]
           },
+          "id": "d5a99",
           "isAttachedTo": "fec77",
           "orientation": [
             0,
@@ -1584,6 +1615,7 @@
               0
             ]
           },
+          "id": "eaa4a",
           "isAttachedTo": "fcf99",
           "orientation": [
             0,
@@ -1627,6 +1659,7 @@
               0.5
             ]
           },
+          "id": "d7b00",
           "isAttachedTo": "c27c4",
           "orientation": [
             1,
@@ -1646,6 +1679,7 @@
               0.5
             ]
           },
+          "id": "ea0a7",
           "isAttachedTo": "c904c",
           "orientation": [
             1,
@@ -1686,6 +1720,7 @@
               1
             ]
           },
+          "id": "e0a9e",
           "isAttachedTo": "c87a0",
           "orientation": [
             0,
@@ -1705,6 +1740,7 @@
               0
             ]
           },
+          "id": "fd3d3",
           "isAttachedTo": "e1177",
           "orientation": [
             0,
@@ -1745,12 +1781,13 @@
               0.5
             ]
           },
+          "id": "b2a1c",
           "isAttachedTo": "fdfa9",
           "orientation": [
             1,
             0
           ],
-          "x": 196.7885835176676,
+          "x": 196.78858351766763,
           "y": 197.91675585641525
         },
         {
@@ -1764,6 +1801,7 @@
               0.5
             ]
           },
+          "id": "a5f02",
           "isAttachedTo": "c038a",
           "orientation": [
             1,
@@ -1792,7 +1830,7 @@
       "id": "iddb8a1656",
       "isAttachedTo": [
         "d9043",
-        "e6b97"
+        "d1033"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -1808,6 +1846,7 @@
               1
             ]
           },
+          "id": "f8e1e",
           "isAttachedTo": "d9043",
           "orientation": [
             0,
@@ -1827,7 +1866,8 @@
               0
             ]
           },
-          "isAttachedTo": "e6b97",
+          "id": "ebe3c",
+          "isAttachedTo": "d1033",
           "orientation": [
             0,
             1
@@ -1855,7 +1895,7 @@
       "id": "idedb77a59",
       "isAttachedTo": [
         "e7d9a",
-        "e6b97"
+        "d1033"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -1871,6 +1911,7 @@
               1
             ]
           },
+          "id": "c44fd",
           "isAttachedTo": "e7d9a",
           "orientation": [
             0,
@@ -1890,7 +1931,8 @@
               0.25
             ]
           },
-          "isAttachedTo": "e6b97",
+          "id": "d290e",
+          "isAttachedTo": "d1033",
           "orientation": [
             -1,
             0
@@ -1934,6 +1976,7 @@
               1
             ]
           },
+          "id": "be0cb",
           "isAttachedTo": "fec77",
           "orientation": [
             0,
@@ -1953,13 +1996,14 @@
               0
             ]
           },
+          "id": "a8bdf",
           "isAttachedTo": "fdfa9",
           "orientation": [
             0,
             1
           ],
-          "x": 174.990098134971,
-          "y": 163.9684916564176
+          "x": 174.99009813497102,
+          "y": 163.96849165641763
         }
       ],
       "stroke": "#000000",
@@ -1993,6 +2037,7 @@
               1
             ]
           },
+          "id": "ffc2b",
           "isAttachedTo": "f1d2c",
           "orientation": [
             0,
@@ -2013,6 +2058,7 @@
               0
             ]
           },
+          "id": "cfebd",
           "isAttachedTo": "b886f",
           "orientation": [],
           "x": 529.7933689427609,
@@ -2050,6 +2096,7 @@
               0.5
             ]
           },
+          "id": "a8df8",
           "isAttachedTo": "f75d5",
           "orientation": [
             1,
@@ -2069,6 +2116,7 @@
               0.5
             ]
           },
+          "id": "d084c",
           "isAttachedTo": "f1d2c",
           "orientation": [
             1,
@@ -2138,10 +2186,10 @@
         "@base": "WP3890/"
       }
     ],
-    "author": "[Torresandon, Egonw, Khanspers, Mkutmon, MaintBot, AlexanderPico, Eweitz]",
+    "author": "[Torresandon, Egonw, Khanspers, Mkutmon, MaintBot, AlexanderPico, Eweitz, JPM van Rijn]",
     "comments": [
       {
-        "content": "This is a schematic diagram illustrating putative pathways for NAMP (nanomaterial-associated molecular patters)-induced NLRP3 inflammasome activation. Pathogen-associated molecular patterns (PAMPs) eg. lipopolysaccharides (LPS) are recognized by Toll-like receptors (TLRs) on the cell membrane, which leads to NF-κB activation and upregulation of pro-interleukin (IL)-1β and NLRP3 expression. High aspect radio nanomaterials (i.e. long multiwalled carbon nanotubes) are thought to trigger “frustrated phagocytosis” in macrophages, leading to NADPH oxidase activation, reactive oxygen species (ROS) generation and inflammasome activation. Smaller nanomaterials (i.e. short carbon nanotubes or silver nanoparticles of 28 nm), on the other hand, could be phagocytosed and once inside the cell induce lysosomal damage leading to release of cathepsins which cause mitochondrial damage and ROS production. In both cases, interaction of phagocytes with NAMPs induces an overproduction of ROS which results in assembly of NLRP3, ASC (apoptosis-associated speck-like protein containing a CARD), and pro-caspase-1 into the multimeric inflammasome complex, resulting in activation of caspase-1, and release of mature IL-1β, a key pro-inflammatory mediator.",
+        "content": "This is a schematic diagram illustrating putative pathways for NAMP (nanomaterial-associated molecular patters)-induced NLRP3 inflammasome activation. Pathogen-associated molecular patterns (PAMPs) eg. lipopolysaccharides (LPS) are recognized by Toll-like receptors (TLRs) on the cell membrane, which leads to NF-κB activation and upregulation of pro-interleukin (IL)-1β and NLRP3 expression. High aspect radio nanomaterials (i.e. long multiwalled carbon nanotubes) are thought to trigger “frustrated phagocytosis” in macrophages, leading to NADPH oxidase (NOX1) activation, reactive oxygen species (ROS) generation and inflammasome activation. Smaller nanomaterials (i.e. short carbon nanotubes or silver nanoparticles of 28 nm), on the other hand, could be phagocytosed and once inside the cell induce lysosomal damage leading to release of cathepsins which cause mitochondrial damage and ROS production. In both cases, interaction of phagocytes with NAMPs induces an overproduction of ROS which results in assembly of NLRP3, ASC (apoptosis-associated speck-like protein containing a CARD), and pro-caspase-1 into the multimeric inflammasome complex, resulting in activation of caspase-1, and release of mature IL-1β, a key pro-inflammatory mediator.",
         "source": "WikiPathways-description"
       }
     ],
@@ -2182,19 +2230,20 @@
       "e7d9a",
       "f1d2c",
       "fcf99",
-      "e6b97",
+      "d1033",
       "f6aef"
     ],
-    "dataSourceVersion": "WP3890_r116457",
+    "dataSourceVersion": "WP3890_r124504",
     "displayName": "Nanomaterial-induced inflammasome activation",
     "drawAs": "rect",
     "fill": "white",
     "fontSize": 12,
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
-    "height": 585.5555555555559,
+    "height": 822.0195982736805,
     "id": "WP3890",
     "kaavioType": "Group",
+    "lastModified": "20221103084114",
     "name": "Nanomaterial-induced inflammasome activation",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -2203,16 +2252,16 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Nanomaterial-induced inflammasome activation\nOrganism: Homo sapiens",
+    "textContent": "Name: Nanomaterial-induced inflammasome activation\nLast Modified: 20221103084114\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0000234",
       "http://identifiers.org/pw/PW:0001229",
       "http://identifiers.org/pw/PW:0000004",
-      "http://identifiers.org/pw/PW:0001435"
+      "http://identifiers.org/pw/PW:0001435",
+      "http://identifiers.org/pw/PW:0000234"
     ],
     "verticalAlign": "top",
-    "width": 697.824074074075,
+    "width": 1260.9145890732102,
     "x": 0,
     "y": 0,
     "zIndex": 0

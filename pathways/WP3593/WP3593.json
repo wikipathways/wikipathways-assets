@@ -1,5 +1,27 @@
 {
   "entitiesById": {
+    "518189": {
+      "__HighlandStream__": true,
+      "_can_drain": false,
+      "_consume_waiting_for_next": false,
+      "_consumers": [],
+      "_delegate": null,
+      "_destructors": [],
+      "_events": {},
+      "_eventsCount": 2,
+      "_in_consume_cb": false,
+      "_incoming": [],
+      "_is_observer": false,
+      "_nil_pushed": false,
+      "_observers": [],
+      "_outgoing": [],
+      "_repeat_resume": false,
+      "_send_events": false,
+      "id": "518189",
+      "paused": true,
+      "source": null,
+      "writable": true
+    },
     "a1278": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -10,7 +32,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a1278",
-      "isPartOf": "b7592",
+      "isPartOf": "a2f54",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -44,6 +66,35 @@
       "y": 8,
       "zIndex": 32768
     },
+    "a2f54": {
+      "contains": [
+        "a1278",
+        "c3813"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 56,
+      "id": "a2f54",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 96,
+      "x": 481.5126050420148,
+      "y": 399.9747899159658,
+      "zIndex": 32768
+    },
     "a5c7d": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -54,7 +105,7 @@
       "gpmlElementName": "DataNode",
       "height": 19.999999999999986,
       "id": "a5c7d",
-      "isPartOf": "d315c",
+      "isPartOf": "b8e35",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -99,7 +150,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a9e99",
-      "isPartOf": "f5d7d",
+      "isPartOf": "ede45",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -143,7 +194,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a9fc2",
-      "isPartOf": "d8648",
+      "isPartOf": "dd341",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -183,8 +234,8 @@
       "gpmlElementName": "Interaction",
       "id": "b02a9",
       "isAttachedTo": [
-        "f5d7d",
-        "b7592"
+        "ede45",
+        "a2f54"
       ],
       "kaavioType": "Edge",
       "markerEnd": "MimTranscriptionTranslation",
@@ -200,7 +251,8 @@
               1
             ]
           },
-          "isAttachedTo": "f5d7d",
+          "id": "d1f4a",
+          "isAttachedTo": "ede45",
           "orientation": [
             0,
             1
@@ -219,7 +271,8 @@
               0.5
             ]
           },
-          "isAttachedTo": "b7592",
+          "id": "c8473",
+          "isAttachedTo": "a2f54",
           "orientation": [
             1,
             0
@@ -246,7 +299,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "b3047",
-      "isPartOf": "d8648",
+      "isPartOf": "dd341",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -323,10 +376,10 @@
       "y": 227.30252100840335,
       "zIndex": 32768
     },
-    "b7592": {
+    "b8e35": {
       "contains": [
-        "a1278",
-        "c3813"
+        "a5c7d",
+        "be13d"
       ],
       "drawAs": "none",
       "fill": "transparent",
@@ -335,7 +388,7 @@
       "fontWeight": "bold",
       "gpmlElementName": "Group",
       "height": 56,
-      "id": "b7592",
+      "id": "b8e35",
       "kaavioType": "Group",
       "padding": 8,
       "stroke": "#808080",
@@ -347,9 +400,9 @@
         "GroupGroup"
       ],
       "verticalAlign": "middle",
-      "width": 96,
-      "x": 481.5126050420148,
-      "y": 399.9747899159658,
+      "width": 72.80672268907551,
+      "x": 228.50000000000006,
+      "y": 83.79831932773106,
       "zIndex": 32768
     },
     "bcc50": {
@@ -358,7 +411,7 @@
       "gpmlElementName": "Interaction",
       "id": "bcc50",
       "isAttachedTo": [
-        "b7592",
+        "a2f54",
         "e06bc"
       ],
       "kaavioType": "Edge",
@@ -375,7 +428,8 @@
               1
             ]
           },
-          "isAttachedTo": "b7592",
+          "id": "dcc47",
+          "isAttachedTo": "a2f54",
           "orientation": [
             0,
             1
@@ -394,6 +448,7 @@
               0
             ]
           },
+          "id": "de384",
           "isAttachedTo": "e06bc",
           "orientation": [
             0,
@@ -425,7 +480,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "bd27c",
-      "isPartOf": "d8648",
+      "isPartOf": "dd341",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -469,7 +524,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "be13d",
-      "isPartOf": "d315c",
+      "isPartOf": "b8e35",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -484,7 +539,7 @@
         "DataNode",
         "SingleFreeNode",
         "miRBase Sequence:MI0000253",
-        "Rna",
+        "RNA",
         "Ensembl:ENSG00000199085",
         "P594:ENSG00000199085",
         "Entrez Gene:406940",
@@ -497,7 +552,7 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 56.806722689075514,
-      "wpType": "Rna",
+      "wpType": "RNA",
       "x": 8,
       "xrefDataSource": "miRBase Sequence",
       "xrefIdentifier": "MI0000253",
@@ -557,7 +612,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "c3813",
-      "isPartOf": "b7592",
+      "isPartOf": "a2f54",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -591,34 +646,70 @@
       "y": 28,
       "zIndex": 32768
     },
-    "d315c": {
-      "contains": [
-        "a5c7d",
-        "be13d"
+    "d358a": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "d358a",
+      "isAttachedTo": [
+        "dd341",
+        "e06bc"
       ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 56,
-      "id": "d315c",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "id": "a78e2",
+          "isAttachedTo": "dd341",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 226.9915966386559,
+          "y": 467.57142857142856
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.25,
+              0
+            ]
+          },
+          "id": "dd363",
+          "isAttachedTo": "e06bc",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 336.25,
+          "y": 531.5
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
       "type": [
-        "Group",
-        "GroupGroup"
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
       ],
-      "verticalAlign": "middle",
-      "width": 72.80672268907551,
-      "x": 228.50000000000006,
-      "y": 83.79831932773106,
-      "zIndex": 32768
+      "zIndex": 12288
     },
     "d704d": {
       "drawAs": "none",
@@ -651,7 +742,7 @@
       "y": 215,
       "zIndex": 28672
     },
-    "d8648": {
+    "dd341": {
       "contains": [
         "a9fc2",
         "b3047",
@@ -664,7 +755,7 @@
       "fontWeight": "bold",
       "gpmlElementName": "Group",
       "height": 76,
-      "id": "d8648",
+      "id": "dd341",
       "kaavioType": "Group",
       "padding": 8,
       "stroke": "#808080",
@@ -691,7 +782,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "de258",
-      "isPartOf": "f5d7d",
+      "isPartOf": "ede45",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -744,7 +835,7 @@
       "y": 531.5,
       "zIndex": 28672
     },
-    "f5d7d": {
+    "ede45": {
       "contains": [
         "a9e99",
         "de258"
@@ -756,7 +847,7 @@
       "fontWeight": "bold",
       "gpmlElementName": "Group",
       "height": 60.8487394957985,
-      "id": "f5d7d",
+      "id": "ede45",
       "kaavioType": "Group",
       "padding": 8,
       "stroke": "#808080",
@@ -772,16 +863,6 @@
       "x": 367,
       "y": 207,
       "zIndex": 32772
-    },
-    "http://identifiers.org/doid/DOID:3068": {
-      "gpmlElementName": "openControlledVocabulary",
-      "id": "http://identifiers.org/doid/DOID:3068",
-      "ontology": "Disease",
-      "term": "glioblastoma",
-      "type": [
-        "openControlledVocabulary"
-      ],
-      "xrefIdentifier": "DOID:3068"
     },
     "http://identifiers.org/pw/PW:0000711": {
       "gpmlElementName": "openControlledVocabulary",
@@ -810,7 +891,7 @@
       "id": "id4c607dd0",
       "isAttachedTo": [
         "c1945",
-        "d8648"
+        "dd341"
       ],
       "kaavioType": "Edge",
       "markerEnd": "MimTranscriptionTranslation",
@@ -826,6 +907,7 @@
               1
             ]
           },
+          "id": "add55",
           "isAttachedTo": "c1945",
           "orientation": [
             0,
@@ -845,7 +927,8 @@
               0.5
             ]
           },
-          "isAttachedTo": "d8648",
+          "id": "f2027",
+          "isAttachedTo": "dd341",
           "orientation": [
             1,
             0
@@ -885,6 +968,7 @@
               0.5
             ]
           },
+          "id": "f00fc",
           "isAttachedTo": "b4193",
           "orientation": [
             -1,
@@ -904,6 +988,7 @@
               0.5
             ]
           },
+          "id": "dc691",
           "isAttachedTo": "c1945",
           "orientation": [
             -1,
@@ -921,69 +1006,6 @@
       ],
       "zIndex": 12288
     },
-    "id74addfdd": {
-      "drawAs": "StraightLine",
-      "fill": "none",
-      "gpmlElementName": "Interaction",
-      "id": "id74addfdd",
-      "isAttachedTo": [
-        "d8648",
-        "e06bc"
-      ],
-      "kaavioType": "Edge",
-      "markerEnd": "Arrow",
-      "points": [
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0.5,
-              1
-            ]
-          },
-          "isAttachedTo": "d8648",
-          "orientation": [
-            0,
-            1
-          ],
-          "x": 226.9915966386559,
-          "y": 467.57142857142856
-        },
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0.25,
-              0
-            ]
-          },
-          "isAttachedTo": "e06bc",
-          "orientation": [
-            0,
-            1
-          ],
-          "x": 336.25,
-          "y": 531.5
-        }
-      ],
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "type": [
-        "Interaction",
-        "Edge",
-        "SBO:0000167",
-        "SBO:0000393",
-        "SBO:0000394",
-        "DirectedInteraction"
-      ],
-      "zIndex": 12288
-    },
     "id79dc72a3": {
       "drawAs": "StraightLine",
       "fill": "none",
@@ -991,7 +1013,7 @@
       "id": "id79dc72a3",
       "isAttachedTo": [
         "b4193",
-        "f5d7d"
+        "ede45"
       ],
       "kaavioType": "Edge",
       "markerEnd": "MimInhibition",
@@ -1007,6 +1029,7 @@
               0.5
             ]
           },
+          "id": "ad00c",
           "isAttachedTo": "b4193",
           "orientation": [
             1,
@@ -1026,7 +1049,8 @@
               0.5
             ]
           },
-          "isAttachedTo": "f5d7d",
+          "id": "d1c9c",
+          "isAttachedTo": "ede45",
           "orientation": [
             1,
             0
@@ -1049,7 +1073,7 @@
       "gpmlElementName": "Interaction",
       "id": "ide662591b",
       "isAttachedTo": [
-        "d315c",
+        "b8e35",
         "b4193"
       ],
       "kaavioType": "Edge",
@@ -1066,7 +1090,8 @@
               1
             ]
           },
-          "isAttachedTo": "d315c",
+          "id": "b8a54",
+          "isAttachedTo": "b8e35",
           "orientation": [
             0,
             1
@@ -1085,6 +1110,7 @@
               0
             ]
           },
+          "id": "bcc96",
           "isAttachedTo": "b4193",
           "orientation": [
             0,
@@ -1152,17 +1178,17 @@
     "contains": [
       "id4f6bb02a",
       "ide662591b",
+      "d358a",
       "id4c607dd0",
-      "id74addfdd",
       "id79dc72a3",
       "d704d",
       "e06bc",
       "b4193",
-      "b7592",
-      "d315c",
-      "d8648",
+      "a2f54",
+      "b8e35",
+      "dd341",
       "c1945",
-      "f5d7d",
+      "ede45",
       "b02a9",
       "bcc50"
     ],
@@ -1173,9 +1199,10 @@
     "fontSize": 12,
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
-    "height": 627,
+    "height": 723,
     "id": "WP3593",
     "kaavioType": "Group",
+    "lastModified": "20210522140349",
     "name": "MicroRNA for targeting cancer growth and vascularization in glioblastoma",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -1184,14 +1211,14 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: MicroRNA for targeting cancer growth and vascularization in glioblastoma\nOrganism: Homo sapiens",
+    "textContent": "Name: MicroRNA for targeting cancer growth and vascularization in glioblastoma\nLast Modified: 20210522140349\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000711",
       "http://identifiers.org/pw/PW:0000808"
     ],
     "verticalAlign": "top",
-    "width": 599.5126050420148,
+    "width": 724.7004608294931,
     "x": 0,
     "y": 0,
     "zIndex": 0

@@ -10,6 +10,12 @@
         <feMorphology in="SourceGraphic" result="inDouble" operator="dilate" radius="3"/>
         <feComposite in="inDouble" in2="in2Double" operator="out" result="doubleResult"/>
       </filter>
+      <filter x="0" y="0" height="811.5140845070423" width="1204" id="kaaviowhitetofffffffilter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -1                  0  1  0 0 -1                  0  0  1 0 -1                  0  0  0 1 0"/>
+      </filter>
+      <filter x="0" y="0" height="811.5140845070423" width="1204" id="kaavioblacktofffffffilter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 1                   0  -1   0 0 1                   0   0  -1 0 1                   0   0   0 1 0"/>
+      </filter>
       <filter x="0" y="0" height="811.5140845070423" width="1204" id="kaaviowhiteto14961efilter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0.0784313725490196                  0  1  0 0 -0.5882352941176471                  0  0  1 0 -0.11764705882352941                  0  0  0 1 0"/>
       </filter>
@@ -27,12 +33,6 @@
       </filter>
       <filter x="0" y="0" height="811.5140845070423" width="1204" id="kaavioblackto000000filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0                   0  -1   0 0 0                   0   0  -1 0 0                   0   0   0 1 0"/>
-      </filter>
-      <filter x="0" y="0" height="811.5140845070423" width="1204" id="kaaviowhitetofffffffilter" filterUnits="userSpaceOnUse">
-        <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -1                  0  1  0 0 -1                  0  0  1 0 -1                  0  0  0 1 0"/>
-      </filter>
-      <filter x="0" y="0" height="811.5140845070423" width="1204" id="kaavioblacktofffffffilter" filterUnits="userSpaceOnUse">
-        <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 1                   0  -1   0 0 1                   0   0  -1 0 1                   0   0   0 1 0"/>
       </filter>
       <filter x="0" y="0" height="811.5140845070423" width="1204" id="kaaviowhitetoff0033filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -1                  0  1  0 0 -0                  0  0  1 0 -0.2                  0  0  0 1 0"/>
@@ -466,7 +466,7 @@
       </symbol>
     </g>
   </defs>
-  <g id="WP4918" class="Viewport" color="black" name="Name: Cellular proteostasis Organism: Homo sapiens">
+  <g id="WP4918" class="Viewport" color="black" name="Name: Cellular proteostasis Last Modified: 20220726061255 Organism: Homo sapiens">
     <rect fill="white" stroke="black" stroke-width="0" fill-opacity="1" height="811.5140845070423px" id="WP4918-icon" width="1204px" x="0" y="0" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
     <g id="id14d72d9" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="228.78806792970147, 5.8" stroke-width="1">
@@ -692,8 +692,8 @@
         <tspan x="0" y="0">Stress signaling</tspan>
       </text>
     </g>
-    <g id="d4a94" class="Group GroupGroup" color="#808080" transform="translate(1004,550.5)">
-      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="92px" id="d4a94-icon" width="109px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+    <g id="d55a7" class="Group GroupGroup" color="#808080" transform="translate(1004,550.5)">
+      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="92px" id="d55a7-icon" width="109px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
       <g id="a6307" class="SingleFreeNode Label" color="#000000" name="Stress response" transform="translate(8,8)">
         <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="25px" id="a6307-icon" width="93px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
         <text id="a6307-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(46.5,16.5)">
@@ -707,20 +707,20 @@
         </text>
       </g>
       <g id="ce03e" class="SingleFreeNode DataNode WikiPathways_WP1939 Pathway" color="#14961e" name="UPR" transform="translate(11,59)">
-        <use fill="transparent" fill-opacity="0" stroke="#14961e" stroke-width="0" height="25px" id="ce03e-icon" width="90px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+        <rect fill="#ffffff" stroke="#14961e" stroke-width="1" fill-opacity="1" height="25px" id="ce03e-icon" rx="15" ry="15" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
         <text id="ce03e-text" class="Text" direction="ltr" fill="#14961e" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
           <tspan x="0" y="0">UPR</tspan>
         </text>
       </g>
     </g>
     <a id="a1c57" class="SingleFreeNode DataNode WikiPathways_WP4923 Pathway Wikidata_Q94664472" color="#14961e" name="Degredation via Autophagy" transform="translate(631,259.5)" xlink:href="https://tools.wmflabs.org/scholia/Q94664472" target="_blank">
-      <use fill="transparent" fill-opacity="0" stroke="#14961e" stroke-width="0" height="25px" id="a1c57-icon" width="227px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <rect fill="#ffffff" stroke="#14961e" stroke-width="1" fill-opacity="1" height="25px" id="a1c57-icon" rx="15" ry="15" width="227px" x="0" y="0" transform="matrix(0.9956140350877193, 0, 0, 0.9615384615384616, 0.49780701754386314, 0.48076923076922995)" class="Icon"/>
       <text id="a1c57-text" class="Text" direction="ltr" fill="#14961e" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(113.5,16.5)">
         <tspan x="0" y="0">Degredation via Autophagy</tspan>
       </text>
     </a>
     <a id="b2121" class="SingleFreeNode DataNode WikiPathways_WP183 Pathway Wikidata_Q30231027" color="#14961e" name="Degredation via UPS" transform="translate(239.14084697777116,756.5140845070423)" xlink:href="https://tools.wmflabs.org/scholia/Q30231027" target="_blank">
-      <use fill="transparent" fill-opacity="0" stroke="#14961e" stroke-width="0" height="25px" id="b2121-icon" width="119.71830985915497px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <rect fill="#ffffff" stroke="#14961e" stroke-width="1" fill-opacity="1" height="25px" id="b2121-icon" rx="15" ry="15" width="119.71830985915497px" x="0" y="0" transform="matrix(0.9917162524792906, 0, 0, 0.9615384615384616, 0.4958581262396464, 0.48076923076922995)" class="Icon"/>
       <text id="b2121-text" class="Text" direction="ltr" fill="#14961e" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(59.859154929577485,16.5)">
         <tspan x="0" y="0">Degredation via UPS</tspan>
       </text>
@@ -737,8 +737,8 @@
         <tspan x="0" y="0">CHIP</tspan>
       </text>
     </g>
-    <g id="c6cab" class="Group GroupGroup" color="#808080" transform="translate(352,153.5)">
-      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="66px" id="c6cab-icon" width="106px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+    <g id="e7824" class="Group GroupGroup" color="#808080" transform="translate(352,153.5)">
+      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="66px" id="e7824-icon" width="106px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
       <a id="bc6d8" class="SingleFreeNode DataNode Ensembl_ENSG00000213946 GeneProduct P594_ENSG00000213946 HGNC_DNAJB1P1 DNAJB1P1 P353_DNAJB1P1 Wikidata_Q18052996" color="#000000" name="Hsp40" transform="translate(8,8)" xlink:href="https://tools.wmflabs.org/scholia/Q18052996" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="25px" id="bc6d8-icon" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
         <text id="bc6d8-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
@@ -752,8 +752,8 @@
         </text>
       </a>
     </g>
-    <g id="ee40c" class="Group GroupGroup" color="#808080" transform="translate(354,388.5)">
-      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="91px" id="ee40c-icon" width="106px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+    <g id="ca73c" class="Group GroupGroup" color="#808080" transform="translate(354,388.5)">
+      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="91px" id="ca73c-icon" width="106px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
       <g id="ba1c6" class="SingleFreeNode DataNode Ensembl_ENST00000629751 GeneProduct" color="#000000" name="Hsp110" transform="translate(8,58)">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="25px" id="ba1c6-icon" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
         <text id="ba1c6-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
@@ -773,8 +773,8 @@
         </text>
       </a>
     </g>
-    <g id="f4c2e" class="Group Complex GroupComplex" color="#808080" transform="translate(144,71.5)">
-      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="174px" id="f4c2e-icon" width="114px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.991304347826087, 0, 0, 0.9942857142857143, 0.4956521739130437, 0.49714285714284756)" class="Icon"/>
+    <g id="d378c" class="Group Complex GroupComplex" color="#808080" transform="translate(144,71.5)">
+      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="174px" id="d378c-icon" width="114px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.991304347826087, 0, 0, 0.9942857142857143, 0.4956521739130437, 0.49714285714284756)" class="Icon"/>
       <a id="a2cbd" class="SingleFreeNode DataNode Ensembl_ENSG00000155959 GeneProduct P594_ENSG00000155959 Entrez_Gene_7411 P351_7411 HGNC_VBP1 VBP1 P353_VBP1 Wikidata_Q18032317" color="#000000" name="PFDN3" transform="translate(12,62)" xlink:href="https://tools.wmflabs.org/scholia/Q18032317" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="25px" id="a2cbd-icon" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
         <text id="a2cbd-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
@@ -830,8 +830,8 @@
         <tspan x="0" y="0">Mutations</tspan>
       </text>
     </g>
-    <g id="b55df" class="Group GroupGroup" color="#808080" transform="translate(81,245.5)">
-      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="66px" id="b55df-icon" width="106px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+    <g id="ff21a" class="Group GroupGroup" color="#808080" transform="translate(81,245.5)">
+      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="66px" id="ff21a-icon" width="106px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
       <a id="ce2a8" class="SingleFreeNode DataNode Ensembl_ENSG00000213946 GeneProduct P594_ENSG00000213946 HGNC_DNAJB1P1 DNAJB1P1 P353_DNAJB1P1 Wikidata_Q18052996" color="#000000" name="Hsp40" transform="translate(8,8)" xlink:href="https://tools.wmflabs.org/scholia/Q18052996" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="25px" id="ce2a8-icon" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
         <text id="ce2a8-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
@@ -845,8 +845,8 @@
         </text>
       </a>
     </g>
-    <g id="d71b0" class="Group GroupGroup" color="#808080" transform="translate(355,621.5)">
-      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="91px" id="d71b0-icon" width="106px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+    <g id="ce884" class="Group GroupGroup" color="#808080" transform="translate(355,621.5)">
+      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="91px" id="ce884-icon" width="106px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
       <g id="b400a" class="SingleFreeNode DataNode Ensembl_ENST00000629751 GeneProduct" color="#000000" name="Hsp110" transform="translate(8,58)">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="25px" id="b400a-icon" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
         <text id="b400a-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
@@ -896,9 +896,10 @@
         <tspan x="0" y="0">CHIP</tspan>
       </text>
     </g>
-    <text id="WP4918-text" class="Text" direction="ltr" dominant-baseline="central" fill="black" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" overflow="visible" stroke="white" stroke-width="0px" text-anchor="start" transform="translate(5,27)">
-      <tspan x="0" y="-9">Name: Cellular proteostasis</tspan>
-      <tspan x="0" y="9">Organism: Homo sapiens</tspan>
+    <text id="WP4918-text" class="Text" direction="ltr" dominant-baseline="central" fill="black" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" overflow="visible" stroke="white" stroke-width="0px" text-anchor="start" transform="translate(5,36)">
+      <tspan x="0" y="-18">Name: Cellular proteostasis</tspan>
+      <tspan x="0" y="0">Last Modified: 20220726061255</tspan>
+      <tspan x="0" y="18">Organism: Homo sapiens</tspan>
     </text>
   </g>
 </svg>

@@ -1,5 +1,27 @@
 {
   "entitiesById": {
+    "734689": {
+      "__HighlandStream__": true,
+      "_can_drain": false,
+      "_consume_waiting_for_next": false,
+      "_consumers": [],
+      "_delegate": null,
+      "_destructors": [],
+      "_events": {},
+      "_eventsCount": 2,
+      "_in_consume_cb": false,
+      "_incoming": [],
+      "_is_observer": false,
+      "_nil_pushed": false,
+      "_observers": [],
+      "_outgoing": [],
+      "_repeat_resume": false,
+      "_send_events": false,
+      "id": "734689",
+      "paused": true,
+      "source": null,
+      "writable": true
+    },
     "a0028": {
       "drawAs": "none",
       "fill": "transparent",
@@ -54,15 +76,22 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "NCBI Protein:2688",
-        "GeneProduct"
+        "Entrez Gene:2688",
+        "GeneProduct",
+        "Ensembl:ENSG00000259384",
+        "P594:ENSG00000259384",
+        "P351:2688",
+        "HGNC:GH1",
+        "GH1",
+        "P353:GH1",
+        "Wikidata:Q18025887"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 90,
       "wpType": "GeneProduct",
       "x": 578.4392014519019,
-      "xrefDataSource": "NCBI Protein",
+      "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "2688",
       "y": 159.35117967332133,
       "zIndex": 32771
@@ -84,21 +113,28 @@
       "stroke": "#000000",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "IGF-1",
+      "textContent": "IGF1",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "NCBI Protein:3479",
-        "GeneProduct"
+        "Entrez Gene:3479",
+        "GeneProduct",
+        "Ensembl:ENSG00000017427",
+        "P594:ENSG00000017427",
+        "P351:3479",
+        "HGNC:IGF1",
+        "IGF1",
+        "P353:IGF1",
+        "Wikidata:Q12791246"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 90,
       "wpType": "GeneProduct",
       "x": 578.4392014519019,
-      "xrefDataSource": "NCBI Protein",
+      "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "3479",
       "y": 264.46042337080047,
       "zIndex": 32775
@@ -156,21 +192,21 @@
       "stroke": "#000000",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "GRH",
+      "textContent": "GHRH",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Entrez Gene:2796",
+        "Entrez Gene:2691",
         "GeneProduct",
-        "Ensembl:ENSG00000147437",
-        "P594:ENSG00000147437",
-        "P351:2796",
-        "HGNC:GNRH1",
-        "GNRH1",
-        "P353:GNRH1",
-        "Wikidata:Q14864006"
+        "Ensembl:ENSG00000118702",
+        "P594:ENSG00000118702",
+        "P351:2691",
+        "HGNC:GHRH",
+        "GHRH",
+        "P353:GHRH",
+        "Wikidata:Q18025909"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -178,7 +214,7 @@
       "wpType": "GeneProduct",
       "x": 426.66459896524503,
       "xrefDataSource": "Entrez Gene",
-      "xrefIdentifier": "2796",
+      "xrefIdentifier": "2691",
       "y": 65.94174770430945,
       "zIndex": 32769
     },
@@ -261,21 +297,28 @@
       "stroke": "#000000",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "IGF-1",
+      "textContent": "IGF1",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "NCBI Protein:3479",
-        "GeneProduct"
+        "Entrez Gene:3479",
+        "GeneProduct",
+        "Ensembl:ENSG00000017427",
+        "P594:ENSG00000017427",
+        "P351:3479",
+        "HGNC:IGF1",
+        "IGF1",
+        "P353:IGF1",
+        "Wikidata:Q12791246"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 90,
       "wpType": "GeneProduct",
       "x": 325.29596303131103,
-      "xrefDataSource": "NCBI Protein",
+      "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "3479",
       "y": 402.90653357531755,
       "zIndex": 32768
@@ -619,7 +662,7 @@
       "stroke": "#000000",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "SRIF",
+      "textContent": "SST",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -971,16 +1014,6 @@
       "y": 199.4437386569874,
       "zIndex": 32791
     },
-    "http://identifiers.org/doid/DOID:6255": {
-      "gpmlElementName": "openControlledVocabulary",
-      "id": "http://identifiers.org/doid/DOID:6255",
-      "ontology": "Disease",
-      "term": "growth hormone secreting pituitary adenoma",
-      "type": [
-        "openControlledVocabulary"
-      ],
-      "xrefIdentifier": "DOID:6255"
-    },
     "http://identifiers.org/pw/PW:0000168": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000168",
@@ -1029,6 +1062,7 @@
               1
             ]
           },
+          "id": "d7325",
           "isAttachedTo": "e6ee0",
           "orientation": [
             0,
@@ -1052,6 +1086,7 @@
               0
             ]
           },
+          "id": "d9e02",
           "isAttachedTo": "f3e2e",
           "orientation": [
             0,
@@ -1097,6 +1132,7 @@
               1
             ]
           },
+          "id": "b13c1",
           "isAttachedTo": "a4244",
           "orientation": [
             0,
@@ -1116,6 +1152,7 @@
               0
             ]
           },
+          "id": "d7491",
           "isAttachedTo": "ec9ee",
           "orientation": [
             0,
@@ -1161,6 +1198,7 @@
               1
             ]
           },
+          "id": "bebb1",
           "isAttachedTo": "e0ed5",
           "orientation": [
             0,
@@ -1180,6 +1218,7 @@
               0
             ]
           },
+          "id": "e21b3",
           "isAttachedTo": "a2306",
           "orientation": [
             0,
@@ -1225,6 +1264,7 @@
               1
             ]
           },
+          "id": "b50b9",
           "isAttachedTo": "a2306",
           "orientation": [
             0,
@@ -1244,6 +1284,7 @@
               0
             ]
           },
+          "id": "aad29",
           "isAttachedTo": "a4244",
           "orientation": [
             0,
@@ -1289,6 +1330,7 @@
               1
             ]
           },
+          "id": "ddf06",
           "isAttachedTo": "a505b",
           "orientation": [
             0,
@@ -1312,6 +1354,7 @@
               0
             ]
           },
+          "id": "b4e5c",
           "isAttachedTo": "f3e2e",
           "orientation": [
             0,
@@ -1357,6 +1400,7 @@
               0
             ]
           },
+          "id": "eb921",
           "isAttachedTo": "f3e2e",
           "orientation": [
             0,
@@ -1380,6 +1424,7 @@
               1
             ]
           },
+          "id": "fdd5d",
           "isAttachedTo": "a62a8",
           "orientation": [
             0,
@@ -1425,6 +1470,7 @@
               1
             ]
           },
+          "id": "bbd69",
           "isAttachedTo": "d3d80",
           "orientation": [
             0,
@@ -1444,6 +1490,7 @@
               0
             ]
           },
+          "id": "fa8b8",
           "isAttachedTo": "e6ee0",
           "orientation": [
             0,
@@ -1489,6 +1536,7 @@
               0
             ]
           },
+          "id": "de4d0",
           "isAttachedTo": "c6b73",
           "orientation": [
             0,
@@ -1508,6 +1556,7 @@
               1
             ]
           },
+          "id": "e6c0b",
           "isAttachedTo": "d1862",
           "orientation": [
             0,
@@ -1553,6 +1602,7 @@
               0.5
             ]
           },
+          "id": "d0d57",
           "isAttachedTo": "f3e2e",
           "orientation": [
             1,
@@ -1572,6 +1622,7 @@
               1
             ]
           },
+          "id": "f43b6",
           "isAttachedTo": "a2306",
           "orientation": [
             0,
@@ -1617,6 +1668,7 @@
               1
             ]
           },
+          "id": "b4420",
           "isAttachedTo": "a2306",
           "orientation": [
             0,
@@ -1626,6 +1678,7 @@
           "y": 184.35117967332133
         },
         {
+          "id": "f15ba",
           "x": 535.1867059891105,
           "y": 260.21252421113644
         },
@@ -1640,6 +1693,7 @@
               0
             ]
           },
+          "id": "aa806",
           "isAttachedTo": "ec9ee",
           "orientation": [
             0,
@@ -1685,6 +1739,7 @@
               1
             ]
           },
+          "id": "ffcdb",
           "isAttachedTo": "d3d80",
           "orientation": [
             0,
@@ -1704,6 +1759,7 @@
               0
             ]
           },
+          "id": "ccb40",
           "isAttachedTo": "a505b",
           "orientation": [
             0,
@@ -1749,6 +1805,7 @@
               0.25
             ]
           },
+          "id": "ab3e5",
           "isAttachedTo": "a62a8",
           "orientation": [
             1,
@@ -1768,6 +1825,7 @@
               0
             ]
           },
+          "id": "a5616",
           "isAttachedTo": "a2306",
           "orientation": [
             0,
@@ -1813,6 +1871,7 @@
               1
             ]
           },
+          "id": "c7212",
           "isAttachedTo": "f3e2e",
           "orientation": [
             0,
@@ -1832,6 +1891,7 @@
               0
             ]
           },
+          "id": "fdff7",
           "isAttachedTo": "ec9ee",
           "orientation": [
             0,
@@ -1872,6 +1932,7 @@
               1
             ]
           },
+          "id": "ec43a",
           "isAttachedTo": "d1862",
           "orientation": [
             0,
@@ -1891,6 +1952,7 @@
               0
             ]
           },
+          "id": "e0c7b",
           "isAttachedTo": "c6b73",
           "orientation": [
             0,
@@ -1951,7 +2013,7 @@
         "@base": "WP4194/"
       }
     ],
-    "author": "[DeSl, Eweitz, Finterly]",
+    "author": "[DeSl, Eweitz, Finterly, Marvin M2]",
     "comments": [
       {
         "content": "This pathway shows the regulation and action of the GH-IGF-1 axis. Chondrogenesis in the growth plate is the biological process that drives height gain. The Growth hormone (GH) insulin-like growth factor 1 (IGF-1) axis is one of many regulatory systems that control chondrogenesis. Other hormones (estrogens, androgens), paracrine factors, extracellular matrix molecules and intracellular proteins regulate the activity of growth plate chondrocytes as well. Estrogen is critical for epiphyseal fusion in both young women, as well as men. This pathway describes how the growth plate lengthens until the epypheseal plate closure occurs. GH is released by the anterior pituitary gland due to the GRH. This activates IGF-1 in muscles and bones, and promotes lengthening of the growth plate. Also, GnRH in the hypothalamus stimulates LH and FSH in the anterior pituitary which stimulate gonads to produce sex hormones, such as estrogen.",
@@ -2003,7 +2065,7 @@
       "dddb5",
       "febf9"
     ],
-    "dataSourceVersion": "WP4194_r119287",
+    "dataSourceVersion": "WP4194_r124538",
     "displayName": "Hormonal control of pubertal growth spurt",
     "drawAs": "rect",
     "fill": "white",
@@ -2013,6 +2075,7 @@
     "height": 482.8511796733213,
     "id": "WP4194",
     "kaavioType": "Group",
+    "lastModified": "20221107125811",
     "name": "Hormonal control of pubertal growth spurt",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -2021,7 +2084,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Hormonal control of pubertal growth spurt\nOrganism: Homo sapiens",
+    "textContent": "Name: Hormonal control of pubertal growth spurt\nLast Modified: 20221107125811\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000168",

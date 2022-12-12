@@ -37,6 +37,35 @@
       "y": 107,
       "zIndex": 32768
     },
+    "b0320": {
+      "contains": [
+        "fae70",
+        "b2a1b"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 285,
+      "id": "b0320",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 296,
+      "x": -5.5,
+      "y": -5.5,
+      "zIndex": 16384
+    },
     "b2a1b": {
       "drawAs": "none",
       "fill": "transparent",
@@ -47,7 +76,7 @@
       "gpmlElementName": "Label",
       "height": 33,
       "id": "b2a1b",
-      "isPartOf": "c80f5",
+      "isPartOf": "b0320",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -88,10 +117,12 @@
       "kaavioType": "Edge",
       "points": [
         {
+          "id": "ef0d0",
           "x": 80,
           "y": 91
         },
         {
+          "id": "c551d",
           "x": 80,
           "y": 186
         }
@@ -107,35 +138,6 @@
       "xrefDataSource": "Reactome",
       "xrefIdentifier": "5400487",
       "zIndex": 12288
-    },
-    "c80f5": {
-      "contains": [
-        "fae70",
-        "b2a1b"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 285,
-      "id": "c80f5",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 296,
-      "x": -5.5,
-      "y": -5.5,
-      "zIndex": 16384
     },
     "d3d33": {
       "drawAs": "SegmentedLine",
@@ -160,6 +162,7 @@
               0.4915254237288136
             ]
           },
+          "id": "fe598",
           "isAttachedTo": "ae28c",
           "orientation": [
             -1,
@@ -180,6 +183,7 @@
               23.25
             ]
           },
+          "id": "b90d7",
           "isAttachedTo": "e2783",
           "orientation": [],
           "x": 80,
@@ -219,6 +223,7 @@
               1
             ]
           },
+          "id": "bce0e",
           "isAttachedTo": "e1945",
           "orientation": [
             0,
@@ -239,6 +244,7 @@
               0
             ]
           },
+          "id": "f7750",
           "isAttachedTo": "e99ee",
           "orientation": [],
           "x": 80,
@@ -406,7 +412,7 @@
       "gpmlElementName": "Shape",
       "height": 269,
       "id": "fae70",
-      "isPartOf": "c80f5",
+      "isPartOf": "b0320",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -480,6 +486,7 @@
               0
             ]
           },
+          "id": "a29d6",
           "isAttachedTo": "fd576",
           "orientation": [],
           "x": 80,
@@ -496,6 +503,7 @@
               0
             ]
           },
+          "id": "d9a06",
           "isAttachedTo": "ee2ca",
           "orientation": [
             0,
@@ -541,19 +549,19 @@
     "author": "[Anwesha, Eweitz]",
     "comments": [
       {
-        "content": "This event has been computationally inferred from an event that has been demonstrated in another species.<p>The inference is based on Ensembl Compara orthology projection. Briefly, reactions for which all involved PhysicalEntities (in input, output and catalyst) have a mapped ortholog or paralog are inferred to the other species. High-level events are also inferred for these events to allow for easier navigation.<p>Details of projection methods and parameters may be found <a href=\"/projection.html\">here.</a><p>\n\nSource:[http://plantreactome.gramene.org/ Plant Reactome].",
+        "content": "This event has been computationally inferred from an event that has been demonstrated in another species.<p>The inference is based on Ensembl Compara orthology projection. Briefly, reactions for which all involved PhysicalEntities (in input, output and catalyst) have a mapped ortholog or paralog are inferred to the other species. High-level events are also inferred for these events to allow for easier navigation.<p>Details of projection methods and parameters may be found <a href=\"/projection.html\">here.</a><p>\r\n\r\nSource:[http://plantreactome.gramene.org/ Plant Reactome].",
         "source": "WikiPathways-description"
       }
     ],
     "contains": [
       "c20c2",
-      "d3d33",
       "d55c9",
       "fecd5",
-      "c80f5",
-      "ae28c",
+      "d3d33",
+      "b0320",
       "e1945",
-      "ee2ca"
+      "ee2ca",
+      "ae28c"
     ],
     "dataSourceVersion": "WP3015_r118606",
     "displayName": "UDP-L-arabinose biosynthesis I from UDP-xylose",
@@ -562,9 +570,10 @@
     "fontSize": 12,
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
-    "height": 300,
+    "height": 308,
     "id": "WP3015",
     "kaavioType": "Group",
+    "lastModified": "20210528164235",
     "name": "UDP-L-arabinose biosynthesis I from UDP-xylose",
     "organism": "Arabidopsis thaliana",
     "padding": 5,
@@ -573,13 +582,13 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: UDP-L-arabinose biosynthesis I from UDP-xylose\nOrganism: Arabidopsis thaliana",
+    "textContent": "Name: UDP-L-arabinose biosynthesis I from UDP-xylose\nLast Modified: 20210528164235\nOrganism: Arabidopsis thaliana",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000147"
     ],
     "verticalAlign": "top",
-    "width": 311,
+    "width": 319,
     "x": 0,
     "y": 0,
     "zIndex": 0

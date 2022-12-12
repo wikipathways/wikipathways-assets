@@ -81,37 +81,6 @@
       "y": 458.98496240601503,
       "zIndex": 32768
     },
-    "a934d": {
-      "contains": [
-        "a9793",
-        "b4c5d",
-        "d2bc4",
-        "f9419"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 56.676691729323124,
-      "id": "a934d",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 181.52631578947353,
-      "x": 276.24812030075185,
-      "y": 458.5037593984964,
-      "zIndex": 32768
-    },
     "a9793": {
       "citations": [
         "publicationXreff67",
@@ -126,7 +95,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a9793",
-      "isPartOf": "a934d",
+      "isPartOf": "e0876",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -178,7 +147,9 @@
         "SingleFreeNode",
         "Ensembl:Solyc05g013320.1",
         "GeneProduct",
-        "P594:Solyc05g013320.1"
+        "P594:Solyc05g013320.1",
+        "Entrez Gene:101268866",
+        "P351:101268866"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -315,7 +286,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "b4c5d",
-      "isPartOf": "a934d",
+      "isPartOf": "e0876",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -508,8 +479,7 @@
         "DataNode",
         "SingleFreeNode",
         "Ensembl:Solyc12g098980.1",
-        "GeneProduct",
-        "P594:Solyc12g098980.1"
+        "GeneProduct"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -590,7 +560,9 @@
         "SingleFreeNode",
         "Ensembl:Solyc05g013290.1",
         "GeneProduct",
-        "P594:Solyc05g013290.1"
+        "P594:Solyc05g013290.1",
+        "Entrez Gene:101263706",
+        "P351:101263706"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -646,7 +618,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "d2bc4",
-      "isPartOf": "a934d",
+      "isPartOf": "e0876",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -716,6 +688,37 @@
       "xrefDataSource": "Chemspider",
       "xrefIdentifier": "763",
       "y": 564.2481203007515,
+      "zIndex": 32768
+    },
+    "e0876": {
+      "contains": [
+        "f9419",
+        "a9793",
+        "b4c5d",
+        "d2bc4"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 56.676691729323124,
+      "id": "e0876",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 181.52631578947353,
+      "x": 276.24812030075185,
+      "y": 458.5037593984964,
       "zIndex": 32768
     },
     "e105d": {
@@ -1017,7 +1020,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "f9419",
-      "isPartOf": "a934d",
+      "isPartOf": "e0876",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1032,8 +1035,7 @@
         "DataNode",
         "SingleFreeNode",
         "Ensembl:Solyc03g117980.2",
-        "GeneProduct",
-        "P594:Solyc03g117980.2"
+        "GeneProduct"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1078,6 +1080,7 @@
               1
             ]
           },
+          "id": "d8294",
           "isAttachedTo": "f4818",
           "orientation": [
             0,
@@ -1097,6 +1100,7 @@
               0
             ]
           },
+          "id": "c091a",
           "isAttachedTo": "a47a4",
           "orientation": [
             0,
@@ -1125,7 +1129,7 @@
       "id": "id2ea53ff6",
       "isAttachedTo": [
         "e105d",
-        "a934d"
+        "e0876"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -1141,6 +1145,7 @@
               1
             ]
           },
+          "id": "a50be",
           "isAttachedTo": "e105d",
           "orientation": [
             0,
@@ -1160,7 +1165,8 @@
               0
             ]
           },
-          "isAttachedTo": "a934d",
+          "id": "aeb77",
+          "isAttachedTo": "e0876",
           "orientation": [
             0,
             1
@@ -1204,6 +1210,7 @@
               1
             ]
           },
+          "id": "defc1",
           "isAttachedTo": "a47a4",
           "orientation": [
             0,
@@ -1223,6 +1230,7 @@
               0
             ]
           },
+          "id": "a8c35",
           "isAttachedTo": "d2a05",
           "orientation": [
             0,
@@ -1267,6 +1275,7 @@
               1
             ]
           },
+          "id": "ccba3",
           "isAttachedTo": "ad981",
           "orientation": [
             0,
@@ -1286,6 +1295,7 @@
               0
             ]
           },
+          "id": "e1b16",
           "isAttachedTo": "d1e35",
           "orientation": [
             0,
@@ -1330,6 +1340,7 @@
               0.5
             ]
           },
+          "id": "f11e3",
           "isAttachedTo": "c5630",
           "orientation": [
             1,
@@ -1349,6 +1360,7 @@
               0.5
             ]
           },
+          "id": "dcf80",
           "isAttachedTo": "dde86",
           "orientation": [
             1,
@@ -1396,6 +1408,7 @@
               1
             ]
           },
+          "id": "a02a3",
           "isAttachedTo": "e17ca",
           "orientation": [
             0,
@@ -1415,6 +1428,7 @@
               0
             ]
           },
+          "id": "f6980",
           "isAttachedTo": "a7ac6",
           "orientation": [
             0,
@@ -1458,6 +1472,7 @@
               0.5
             ]
           },
+          "id": "d0b2b",
           "isAttachedTo": "b4163",
           "orientation": [
             1,
@@ -1477,6 +1492,7 @@
               0.5
             ]
           },
+          "id": "c4d99",
           "isAttachedTo": "c5630",
           "orientation": [
             1,
@@ -1517,6 +1533,7 @@
               0.5
             ]
           },
+          "id": "adaaa",
           "isAttachedTo": "d2a05",
           "orientation": [
             1,
@@ -1536,6 +1553,7 @@
               0.5
             ]
           },
+          "id": "a408b",
           "isAttachedTo": "e105d",
           "orientation": [
             1,
@@ -1580,6 +1598,7 @@
               1
             ]
           },
+          "id": "a9394",
           "isAttachedTo": "c6417",
           "orientation": [
             0,
@@ -1599,6 +1618,7 @@
               0
             ]
           },
+          "id": "fd5f0",
           "isAttachedTo": "e105d",
           "orientation": [
             0,
@@ -1639,6 +1659,7 @@
               1
             ]
           },
+          "id": "e27b9",
           "isAttachedTo": "addbe",
           "orientation": [
             0,
@@ -1658,6 +1679,7 @@
               0
             ]
           },
+          "id": "b0f4d",
           "isAttachedTo": "e105d",
           "orientation": [
             0,
@@ -1702,6 +1724,7 @@
               1
             ]
           },
+          "id": "b4ba2",
           "isAttachedTo": "d23bb",
           "orientation": [
             0,
@@ -1721,6 +1744,7 @@
               0
             ]
           },
+          "id": "b7d5a",
           "isAttachedTo": "ad981",
           "orientation": [
             0,
@@ -1765,6 +1789,7 @@
               1
             ]
           },
+          "id": "eb987",
           "isAttachedTo": "f8100",
           "orientation": [
             0,
@@ -1784,6 +1809,7 @@
               0
             ]
           },
+          "id": "cb28c",
           "isAttachedTo": "d2716",
           "orientation": [
             0,
@@ -1817,6 +1843,7 @@
       "markerEnd": "MimCatalysis",
       "points": [
         {
+          "id": "da686",
           "x": 367.0112781954886,
           "y": 515.1804511278195
         },
@@ -1832,6 +1859,7 @@
               0
             ]
           },
+          "id": "e3b92",
           "isAttachedTo": "ce641",
           "orientation": [],
           "x": 367.3984962406009,
@@ -1869,6 +1897,7 @@
               1
             ]
           },
+          "id": "b18e1",
           "isAttachedTo": "f6fbf",
           "orientation": [
             0,
@@ -1888,6 +1917,7 @@
               0
             ]
           },
+          "id": "b4000",
           "isAttachedTo": "f4818",
           "orientation": [
             0,
@@ -1932,6 +1962,7 @@
               1
             ]
           },
+          "id": "b5f82",
           "isAttachedTo": "ec9b7",
           "orientation": [
             0,
@@ -1951,6 +1982,7 @@
               0
             ]
           },
+          "id": "a0b79",
           "isAttachedTo": "addbe",
           "orientation": [
             0,
@@ -1995,6 +2027,7 @@
               1
             ]
           },
+          "id": "ddfe4",
           "isAttachedTo": "d1e35",
           "orientation": [
             0,
@@ -2014,6 +2047,7 @@
               0
             ]
           },
+          "id": "b3ae2",
           "isAttachedTo": "e105d",
           "orientation": [
             0,
@@ -2058,6 +2092,7 @@
               0.5
             ]
           },
+          "id": "c8c27",
           "isAttachedTo": "b4c5d",
           "orientation": [
             1,
@@ -2078,6 +2113,7 @@
               0
             ]
           },
+          "id": "fbc1d",
           "isAttachedTo": "eeb6d",
           "orientation": [],
           "x": 534.7744360902254,
@@ -2115,6 +2151,7 @@
               1
             ]
           },
+          "id": "a7ca8",
           "isAttachedTo": "f7331",
           "orientation": [
             0,
@@ -2134,6 +2171,7 @@
               0
             ]
           },
+          "id": "a26b7",
           "isAttachedTo": "c6417",
           "orientation": [
             0,
@@ -2178,6 +2216,7 @@
               1
             ]
           },
+          "id": "f52e2",
           "isAttachedTo": "d2716",
           "orientation": [
             0,
@@ -2197,6 +2236,7 @@
               0.5
             ]
           },
+          "id": "d8b74",
           "isAttachedTo": "e105d",
           "orientation": [
             -1,
@@ -2229,7 +2269,7 @@
       "id": "publicationXrefa75",
       "source": "Cell",
       "standardName": "The tomato gene Pti1 encodes a serine/threonine kinase that is phosphorylated by Pto and is involved in the hypersensitive response.",
-      "textContent": "8",
+      "textContent": "7",
       "type": [
         "PublicationXref",
         "PubMed:8521516"
@@ -2308,7 +2348,7 @@
       "id": "publicationXrefb9b",
       "source": "Plant Physiol",
       "standardName": "Characterization of the Oligogalacturonide-Induced Oxidative Burst in Cultured Soybean (Glycine max) Cells.",
-      "textContent": "4",
+      "textContent": "3",
       "type": [
         "PublicationXref",
         "PubMed:12231814"
@@ -2348,7 +2388,7 @@
       "id": "publicationXrefc90",
       "source": "Biochim Biophys Acta",
       "standardName": "Plant and human neutrophil oxidative burst complexes contain immunologically related proteins.",
-      "textContent": "9",
+      "textContent": "10",
       "type": [
         "PublicationXref",
         "PubMed:8600979"
@@ -2367,7 +2407,7 @@
       "id": "publicationXrefc93",
       "source": "Proc Natl Acad Sci U S A",
       "standardName": "The Pto kinase mediates a signaling pathway leading to the oxidative burst in tomato.",
-      "textContent": "10",
+      "textContent": "9",
       "type": [
         "PublicationXref",
         "PubMed:11038525"
@@ -2385,7 +2425,7 @@
       "id": "publicationXrefca2",
       "source": "Proc Natl Acad Sci U S A",
       "standardName": "The disease-resistance gene Pto and the fenthion-sensitivity gene fen encode closely related functional protein kinases.",
-      "textContent": "7",
+      "textContent": "8",
       "type": [
         "PublicationXref",
         "PubMed:7753781"
@@ -2448,7 +2488,7 @@
       "id": "publicationXreff83",
       "source": "Science",
       "standardName": "Map-based cloning of a protein kinase gene conferring disease resistance in tomato.",
-      "textContent": "3",
+      "textContent": "4",
       "type": [
         "PublicationXref",
         "PubMed:7902614"
@@ -2473,47 +2513,47 @@
       }
     ],
     "contains": [
-      "id24f8f9dd",
-      "id425207c",
-      "id437c4059",
+      "id8f4633d7",
+      "idc0d2ba75",
       "id673471b6",
       "id7a1a5e1d",
-      "id8f4633d7",
-      "id8fcde201",
-      "id96e9d59c",
-      "idab4a34d2",
-      "idab8ebe26",
-      "idac66be65",
-      "idc0d2ba75",
-      "idd91eafee",
-      "idd9a96702",
-      "idda721996",
-      "ide032fc6",
-      "ide1161290",
       "idfe88f83b",
+      "idac66be65",
+      "idab8ebe26",
+      "id437c4059",
+      "idda721996",
+      "ide1161290",
+      "id96e9d59c",
+      "idd9a96702",
+      "idab4a34d2",
+      "ide032fc6",
+      "id8fcde201",
+      "id425207c",
+      "id24f8f9dd",
+      "idd91eafee",
       "id2ea53ff6",
       "bbfcb",
+      "ec9b7",
       "b3a9e",
+      "f6fbf",
       "c6417",
       "d2a05",
-      "ec9b7",
-      "f6fbf",
       "f7331",
-      "a47a4",
-      "a7ac6",
-      "ad981",
-      "addbe",
       "b4163",
       "c5630",
-      "d1e35",
-      "d23bb",
-      "d2716",
       "dde86",
-      "e105d",
       "e17ca",
+      "a7ac6",
+      "ad981",
+      "d1e35",
+      "d2716",
+      "d23bb",
+      "a47a4",
+      "e105d",
       "f4818",
+      "addbe",
       "f8100",
-      "a934d"
+      "e0876"
     ],
     "dataSourceVersion": "WP2633_r87617",
     "displayName": "Pto kinase mediated signaling pathway leading to the oxidative burst in tomato",
@@ -2525,6 +2565,7 @@
     "height": 614.2481203007515,
     "id": "WP2633",
     "kaavioType": "Group",
+    "lastModified": "20160725085423",
     "name": "Pto kinase mediated signaling pathway leading to the oxidative burst in tomato",
     "organism": "Solanum lycopersicum",
     "padding": 5,
@@ -2533,7 +2574,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Pto kinase mediated signaling pathway leading to the oxidative burst in tomato\nOrganism: Solanum lycopersicum",
+    "textContent": "Name: Pto kinase mediated signaling pathway leading to the oxidative burst in tomato\nLast Modified: 20160725085423\nOrganism: Solanum lycopersicum",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000003"

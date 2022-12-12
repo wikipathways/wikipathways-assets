@@ -10,12 +10,6 @@
         <feMorphology in="SourceGraphic" result="inDouble" operator="dilate" radius="3"/>
         <feComposite in="inDouble" in2="in2Double" operator="out" result="doubleResult"/>
       </filter>
-      <filter id="kaaviodoublefalse5filter" width="200%" height="200%" x="-50%" y="-50%">
-        <feComposite in="SourceGraphic" in2="SourceGraphic" operator="over" result="doubleDark"/>
-        <feMorphology in="doubleDark" result="in2Double" operator="dilate" radius="0.1"/>
-        <feMorphology in="SourceGraphic" result="inDouble" operator="dilate" radius="5"/>
-        <feComposite in="inDouble" in2="in2Double" operator="out" result="doubleResult"/>
-      </filter>
       <filter x="0" y="0" height="802.4230254350737" width="1141.949799196786" id="kaaviowhitetofffffffilter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -1                  0  1  0 0 -1                  0  0  1 0 -1                  0  0  0 1 0"/>
       </filter>
@@ -466,13 +460,11 @@
       </symbol>
     </g>
   </defs>
-  <g id="WP2944" class="Viewport" color="black" name="Name: Cytokinin signaling Organism: Arabidopsis thaliana">
+  <g id="WP2944" class="Viewport" color="black" name="Name: Cytokinin signaling Last Modified: 20210531090708 Organism: Arabidopsis thaliana">
     <rect fill="white" stroke="black" stroke-width="0" fill-opacity="1" height="802.4230254350737px" id="WP2944-icon" width="1141.949799196786px" x="0" y="0" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
     <g id="id49632a02" class="Edge Interaction" color="#3366ff">
       <g filter="url(#kaavioblackto3366fffilter)" color="#3366ff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="402.18895573580966, 0" stroke-width="5">
-        <g filter="url(#kaaviodoublefalse5filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
-          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id49632a02-path" d="M491.6108337765807,174.9696233292831L89.4237134849646,176.1846901579588" class="EdgeBody"/>
-        </g>
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id49632a02-path" d="M491.6108337765807,174.9696233292831L89.4237134849646,176.1846901579588" class="EdgeBody"/>
       </g>
     </g>
     <g id="ab8cb" class="SingleFreeNode Shape PhysicalEntity CellularComponent Nucleus" color="#666666" name="Nucleus" transform="translate(463.1278447121822,144.5)">
@@ -509,8 +501,8 @@
       </g>
     </g>
     <g id="idfa2b0e05" class="Edge Interaction" color="#000000">
-      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="34.5, 11" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="idfa2b0e05-path" d="M344.87784471218214,220L344.87784471218214,265.5" marker-end="url(#markerEndMimModification)" class="EdgeBody"/>
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="39.7, 5.8" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="idfa2b0e05-path" d="M344.87784471218214,220L344.87784471218214,265.5" marker-end="url(#markerEndMimConversion)" class="EdgeBody"/>
       </g>
       <g id="f26ae" class="Burr Anchor" transform="translate(340.87784471218214,234.2)">
         <use fill="#141414" stroke-width="0" fill-opacity="1" height="8px" id="f26ae-icon" width="8px" x="0" y="0" xlink:href="#Ellipse" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
@@ -667,8 +659,8 @@
       </text>
     </g>
     <g id="be9b3" class="Edge Interaction" color="#000000">
-      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="191.57092952612373, 11" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="be9b3-path" d="M352.75284471218214,295L352.75284471218214,404.6172539489672L259.7991691350256,404.6172539489672" marker-end="url(#markerEndMimModification)" class="EdgeBody"/>
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="196.77092952612372, 5.8" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="be9b3-path" d="M352.75284471218214,295L352.75284471218214,404.6172539489672L259.7991691350256,404.6172539489672" marker-end="url(#markerEndMimConversion)" class="EdgeBody"/>
       </g>
       <g id="a75e8" class="Burr Anchor" transform="translate(348.75284471218214,372.0283718104495)">
         <use fill="#141414" stroke-width="0" fill-opacity="1" height="8px" id="a75e8-icon" width="8px" x="0" y="0" xlink:href="#Ellipse" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
@@ -909,9 +901,10 @@
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="de803-path" d="M292.59837934158685,221L292.59837934158685,246.5" class="EdgeBody"/>
       </g>
     </g>
-    <text id="WP2944-text" class="Text" direction="ltr" dominant-baseline="central" fill="black" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" overflow="visible" stroke="white" stroke-width="0px" text-anchor="start" transform="translate(5,27)">
-      <tspan x="0" y="-9">Name: Cytokinin signaling</tspan>
-      <tspan x="0" y="9">Organism: Arabidopsis thaliana</tspan>
+    <text id="WP2944-text" class="Text" direction="ltr" dominant-baseline="central" fill="black" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" overflow="visible" stroke="white" stroke-width="0px" text-anchor="start" transform="translate(5,36)">
+      <tspan x="0" y="-18">Name: Cytokinin signaling</tspan>
+      <tspan x="0" y="0">Last Modified: 20210531090708</tspan>
+      <tspan x="0" y="18">Organism: Arabidopsis thaliana</tspan>
     </text>
   </g>
 </svg>

@@ -1,5 +1,27 @@
 {
   "entitiesById": {
+    "722915": {
+      "__HighlandStream__": true,
+      "_can_drain": false,
+      "_consume_waiting_for_next": false,
+      "_consumers": [],
+      "_delegate": null,
+      "_destructors": [],
+      "_events": {},
+      "_eventsCount": 2,
+      "_in_consume_cb": false,
+      "_incoming": [],
+      "_is_observer": false,
+      "_nil_pushed": false,
+      "_observers": [],
+      "_outgoing": [],
+      "_repeat_resume": false,
+      "_send_events": false,
+      "id": "722915",
+      "paused": true,
+      "source": null,
+      "writable": true
+    },
     "a0d9b": {
       "citations": [
         "publicationXrefd22",
@@ -13,7 +35,7 @@
           "content": "Direct Regulation RASGRF1 --+> Ras"
         },
         {
-          "content": "8717044 (CellLineName: COS-7) These results demonstrate a G-protein-coupled mechanism for Ras activation, mediated by p140 Ras-GRF. \n\n8700529 (CellLineName: CHO) Transient expression of CDC25Mm in CHO cells activates Ras. \n\n14749369 Furthermore, we have recently demonstrated that the ability of RasGRF1 to activate Ras is regulated by the Rho family GTPase Cdc42, by a mechanism that entails the translocation of RasGRF1 to the cell particulate fraction ( 3 , 4 ). \n\n(Tissue: blood, CellType: b cell) Phosphorylation of RasGRP3 by PKC may be critical to modulate its association with Ras at the plasma membrane and the subsequent activation of the ERK MAPK cascade. \n\n1447167 As a consequence, the CDC25Mm induces a rapid formation of the biologically active Ras.GTP complex. \n\n8626650 Here we report that mutations within the switch 2 domain of Ras (residues 62-69) inhibit activation of Ras by the mammalian GEFs, Sos1, and GRF/CDC25Mm."
+          "content": "8717044 (CellLineName: COS-7) These results demonstrate a G-protein-coupled mechanism for Ras activation, mediated by p140 Ras-GRF. \r\n\r\n8700529 (CellLineName: CHO) Transient expression of CDC25Mm in CHO cells activates Ras. \r\n\r\n14749369 Furthermore, we have recently demonstrated that the ability of RasGRF1 to activate Ras is regulated by the Rho family GTPase Cdc42, by a mechanism that entails the translocation of RasGRF1 to the cell particulate fraction ( 3 , 4 ). \r\n\r\n(Tissue: blood, CellType: b cell) Phosphorylation of RasGRP3 by PKC may be critical to modulate its association with Ras at the plasma membrane and the subsequent activation of the ERK MAPK cascade. \r\n\r\n1447167 As a consequence, the CDC25Mm induces a rapid formation of the biologically active Ras.GTP complex. \r\n\r\n8626650 Here we report that mutations within the switch 2 domain of Ras (residues 62-69) inhibit activation of Ras by the mammalian GEFs, Sos1, and GRF/CDC25Mm."
         }
       ],
       "drawAs": "StraightLine",
@@ -22,7 +44,7 @@
       "id": "a0d9b",
       "isAttachedTo": [
         "d6a19",
-        "cbcad"
+        "a4b35"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -38,6 +60,7 @@
               1
             ]
           },
+          "id": "ab1b9",
           "isAttachedTo": "d6a19",
           "orientation": [
             0,
@@ -57,7 +80,8 @@
               0
             ]
           },
-          "isAttachedTo": "cbcad",
+          "id": "bda0b",
+          "isAttachedTo": "a4b35",
           "orientation": [
             0,
             1
@@ -126,6 +150,37 @@
       "y": 458.4833333333331,
       "zIndex": 32768
     },
+    "a4b35": {
+      "contains": [
+        "ec4a9",
+        "a7b1d",
+        "a82cc",
+        "e930d"
+      ],
+      "drawAs": "rect",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 54.85128693994329,
+      "id": "a4b35",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupNone"
+      ],
+      "verticalAlign": "middle",
+      "width": 198.0381315538611,
+      "x": 406.7214285714286,
+      "y": 624.792092242044,
+      "zIndex": 28672
+    },
     "a7b1d": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -136,7 +191,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a7b1d",
-      "isPartOf": "cbcad",
+      "isPartOf": "a4b35",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -180,7 +235,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a82cc",
-      "isPartOf": "cbcad",
+      "isPartOf": "a4b35",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -334,7 +389,7 @@
         "ec8b3"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimNecessaryStimulation",
+      "markerEnd": "MimStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -347,6 +402,7 @@
               1
             ]
           },
+          "id": "f7460",
           "isAttachedTo": "c157a",
           "orientation": [
             0,
@@ -356,6 +412,7 @@
           "y": 841.9523809523821
         },
         {
+          "id": "a0f86",
           "x": 506.9797619047624,
           "y": 856.6666666666666
         },
@@ -370,6 +427,7 @@
               0
             ]
           },
+          "id": "aaaeb",
           "isAttachedTo": "ec8b3",
           "orientation": [
             0,
@@ -402,7 +460,7 @@
           "content": "Direct Regulation serotonin --+> HTR2A"
         },
         {
-          "content": "8808177 (Organ: blood vessel, CellType: neural) Stimulation of the 5-HT2A receptors by serotonin has been reported to exert an excitatory effect on neocortical neurons in rats and mice, to facilitate ischaemia-induced release of excitatory amino acids and to mediate the vasomotor constrictor component of the response of blood vessels to 5-HT. 5-HT2A receptor antagonists have, therefore, been proposed as potential protectants against the effects of cerebral ischaemia. \n\n14654098 (Organ: hippocampal, CellType: neural) High doses of 5-HT also recruited both 5-HT2 and 5-HT3 receptors, causing an increase in the rate and amplitude of sIPSCs. cOA (1 microM), in the presence of Y 25130, failed to potentiate the 5-HT2 receptor induced enhancement of sIPSCs. \n\n11157082 Since 5-HT enhances GABA release ( Liu and Alreja 1997 ), 5-HT2A receptor blockade of clozapine may directly reduce pallidal GABA release. \n\n10431683 Mirtazapine is an atypical antidepressant with alpha 2 adrenergic antagonist and serotonin 5-HT2 and 5-HT3 receptor-blocking activity. \n\n8627578 Neomycin (3 mM) inhibited maximal 5-HT-induced contraction by approximately 50% without inhibiting [3H]5-HT binding to 5-HT2A receptors. \n\n9016798 (Tissue: crypt) Superfusing 5-HT (10 microM) in the bath solution increased both K+ and Cl- currents, which were antagonized by the presence of ketanserin (1 microM), a selective 5-HT2A antagonist, in the bath solution. \n\n9272731 (Tissue: mesangia) The L-type channel blocker verapamil, however, dose-dependently (0.1-10 microM) and specifically inhibited 5-HT-elicited Ca2+ signals by interference with binding of 5-HT to 5-HT2A receptors. 5-HT-mediated Ca2+ release was reduced by 80% when protein kinase C was activated by the phorbolester TPA (0.1 microM)."
+          "content": "8808177 (Organ: blood vessel, CellType: neural) Stimulation of the 5-HT2A receptors by serotonin has been reported to exert an excitatory effect on neocortical neurons in rats and mice, to facilitate ischaemia-induced release of excitatory amino acids and to mediate the vasomotor constrictor component of the response of blood vessels to 5-HT. 5-HT2A receptor antagonists have, therefore, been proposed as potential protectants against the effects of cerebral ischaemia. \r\n\r\n14654098 (Organ: hippocampal, CellType: neural) High doses of 5-HT also recruited both 5-HT2 and 5-HT3 receptors, causing an increase in the rate and amplitude of sIPSCs. cOA (1 microM), in the presence of Y 25130, failed to potentiate the 5-HT2 receptor induced enhancement of sIPSCs. \r\n\r\n11157082 Since 5-HT enhances GABA release ( Liu and Alreja 1997 ), 5-HT2A receptor blockade of clozapine may directly reduce pallidal GABA release. \r\n\r\n10431683 Mirtazapine is an atypical antidepressant with alpha 2 adrenergic antagonist and serotonin 5-HT2 and 5-HT3 receptor-blocking activity. \r\n\r\n8627578 Neomycin (3 mM) inhibited maximal 5-HT-induced contraction by approximately 50% without inhibiting [3H]5-HT binding to 5-HT2A receptors. \r\n\r\n9016798 (Tissue: crypt) Superfusing 5-HT (10 microM) in the bath solution increased both K+ and Cl- currents, which were antagonized by the presence of ketanserin (1 microM), a selective 5-HT2A antagonist, in the bath solution. \r\n\r\n9272731 (Tissue: mesangia) The L-type channel blocker verapamil, however, dose-dependently (0.1-10 microM) and specifically inhibited 5-HT-elicited Ca2+ signals by interference with binding of 5-HT to 5-HT2A receptors. 5-HT-mediated Ca2+ release was reduced by 80% when protein kinase C was activated by the phorbolester TPA (0.1 microM)."
         }
       ],
       "drawAs": "ElbowLine",
@@ -414,7 +472,7 @@
         "c16fa"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimNecessaryStimulation",
+      "markerEnd": "MimStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -427,6 +485,7 @@
               0.5
             ]
           },
+          "id": "c07ee",
           "isAttachedTo": "db4b3",
           "orientation": [
             -1,
@@ -446,6 +505,7 @@
               0
             ]
           },
+          "id": "d88fb",
           "isAttachedTo": "c16fa",
           "orientation": [
             0,
@@ -482,7 +542,7 @@
         "c157a"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimNecessaryStimulation",
+      "markerEnd": "MimStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -495,6 +555,7 @@
               1
             ]
           },
+          "id": "c00bc",
           "isAttachedTo": "e0ee3",
           "orientation": [
             0,
@@ -514,6 +575,7 @@
               0
             ]
           },
+          "id": "c8646",
           "isAttachedTo": "c157a",
           "orientation": [
             0,
@@ -543,7 +605,7 @@
           "content": "Prot Modification MAPK1 --+> ELK1"
         },
         {
-          "content": "10463587 MAP kinase (MAPK/ERK) phosphorylates Elk-1, which is part of the ternary complex factor that binds to the serum response element in the fos promotor; JNK phosphorylates c-Jun, Elk-1, and ATF-2; and p38 kinase phosphorylates both ternary-complex-factor /Elk-1 and ATF-2. \n\n11520792 (CellType: monocyte) TCFs, such as Elk-1, Sap-1, and Fli-1, are targets of the MAPK pathway. 36 , 37 Our data indicated that phosphorylation of Elk-1 by the MEK-ERK1/2 pathway induces Egr-1 expression in LPS-stimulated monocytes and subsequent TF gene expression. \n\n11812784 (Organ: renal, Tissue: stroma, CellType: b cell, CellLineName: JEG3) Activated ERK1/2 phosphorylated Elk-1, which involves in the induction of the growth-related genes, suggesting that stimulative effects of low-dose irradiation were mediated by ERK1/2 activation. \n\n11090049 (Organ: umbilical vein, Tissue: smooth muscle, CellType: fibroblast) Therefore, it has been proposed that Elk1-dependent gene activation can occur independently of SRE/SRF if it can bind to the promoter efficiently. 50 This proposition is supported by the finding that the phosphorylation of Elk1 by ERK2 increases its ability to bind to DNA without interacting with SRF 54 , 55 and by the fact that Elk1 binding is facilitated in transfection experiments with a reporter gene containing multiple high-affinity Elk1 binding sites 40 , 56 or phosphorylation in its C-terminus. 55 , 57 Even though the 9E3/cCAF promoter does not contain an SRE, Elk1 binds to the Elk1 elements and activates transcription, suggesting that thrombin-induced Elk1 activation does not require cooperation with SRF."
+          "content": "10463587 MAP kinase (MAPK/ERK) phosphorylates Elk-1, which is part of the ternary complex factor that binds to the serum response element in the fos promotor; JNK phosphorylates c-Jun, Elk-1, and ATF-2; and p38 kinase phosphorylates both ternary-complex-factor /Elk-1 and ATF-2. \r\n\r\n11520792 (CellType: monocyte) TCFs, such as Elk-1, Sap-1, and Fli-1, are targets of the MAPK pathway. 36 , 37 Our data indicated that phosphorylation of Elk-1 by the MEK-ERK1/2 pathway induces Egr-1 expression in LPS-stimulated monocytes and subsequent TF gene expression. \r\n\r\n11812784 (Organ: renal, Tissue: stroma, CellType: b cell, CellLineName: JEG3) Activated ERK1/2 phosphorylated Elk-1, which involves in the induction of the growth-related genes, suggesting that stimulative effects of low-dose irradiation were mediated by ERK1/2 activation. \r\n\r\n11090049 (Organ: umbilical vein, Tissue: smooth muscle, CellType: fibroblast) Therefore, it has been proposed that Elk1-dependent gene activation can occur independently of SRE/SRF if it can bind to the promoter efficiently. 50 This proposition is supported by the finding that the phosphorylation of Elk1 by ERK2 increases its ability to bind to DNA without interacting with SRF 54 , 55 and by the fact that Elk1 binding is facilitated in transfection experiments with a reporter gene containing multiple high-affinity Elk1 binding sites 40 , 56 or phosphorylation in its C-terminus. 55 , 57 Even though the 9E3/cCAF promoter does not contain an SRE, Elk1 binds to the Elk1 elements and activates transcription, suggesting that thrombin-induced Elk1 activation does not require cooperation with SRF."
         }
       ],
       "drawAs": "StraightLine",
@@ -555,7 +617,7 @@
         "b1b05"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimNecessaryStimulation",
+      "markerEnd": "MimStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -568,6 +630,7 @@
               0.5
             ]
           },
+          "id": "b2a17",
           "isAttachedTo": "b9a85",
           "orientation": [
             -1,
@@ -587,6 +650,7 @@
               0
             ]
           },
+          "id": "f7a6a",
           "isAttachedTo": "b1b05",
           "orientation": [
             0,
@@ -671,7 +735,7 @@
         "b9a85"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimNecessaryStimulation",
+      "markerEnd": "MimStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -684,6 +748,7 @@
               1
             ]
           },
+          "id": "f8727",
           "isAttachedTo": "e0ee3",
           "orientation": [
             0,
@@ -703,6 +768,7 @@
               0
             ]
           },
+          "id": "b14ae",
           "isAttachedTo": "b9a85",
           "orientation": [
             0,
@@ -730,7 +796,7 @@
           "content": "Regulation serotonin --+> HTR2C"
         },
         {
-          "content": "14988405 The 5-hydroxytryptamine type 2A (5-HT(2A)) receptor and the 5-HT(2C) receptor are closely related members of the G-protein-coupled receptors activated by serotonin that share very similar pharmacological profiles and cellular signaling pathways. \n\n8626761 (CellLineName: 3T3) In related experiments with cells that stably overexpress 5-HT2aR, serotonin also increased PI turnover as well as the secretion of APPs, indicating that DNF is a nonselective agonist of both 5-HT2aR and 5-HT2cR (data not shown)."
+          "content": "14988405 The 5-hydroxytryptamine type 2A (5-HT(2A)) receptor and the 5-HT(2C) receptor are closely related members of the G-protein-coupled receptors activated by serotonin that share very similar pharmacological profiles and cellular signaling pathways. \r\n\r\n8626761 (CellLineName: 3T3) In related experiments with cells that stably overexpress 5-HT2aR, serotonin also increased PI turnover as well as the secretion of APPs, indicating that DNF is a nonselective agonist of both 5-HT2aR and 5-HT2cR (data not shown)."
         }
       ],
       "drawAs": "ElbowLine",
@@ -742,7 +808,7 @@
         "bd470"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimNecessaryStimulation",
+      "markerEnd": "MimStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -755,6 +821,7 @@
               0.5
             ]
           },
+          "id": "f18e5",
           "isAttachedTo": "db4b3",
           "orientation": [
             1,
@@ -774,6 +841,7 @@
               0
             ]
           },
+          "id": "a188b",
           "isAttachedTo": "bd470",
           "orientation": [
             0,
@@ -802,7 +870,7 @@
           "content": "Prot Modification MAP2K2 --+> MAPK1"
         },
         {
-          "content": "12225966 (Tissue: muscle) We have recently reported that inhibition of muscle MAPKK1/2 (MEK1/2) abolishes isoproterenol-stimulated NKCC activity and ERK1/2 phosphorylation ( 31 ). \n\n12393899 (Tissue: cortex, CellType: neural) To inhibit the ERK1/2 pathway, we applied PD98059, an inhibitor of MKK1 and MKK2 ( 30 ), which are upstream kinases that phosphorylate and activate ERK1/2."
+          "content": "12225966 (Tissue: muscle) We have recently reported that inhibition of muscle MAPKK1/2 (MEK1/2) abolishes isoproterenol-stimulated NKCC activity and ERK1/2 phosphorylation ( 31 ). \r\n\r\n12393899 (Tissue: cortex, CellType: neural) To inhibit the ERK1/2 pathway, we applied PD98059, an inhibitor of MKK1 and MKK2 ( 30 ), which are upstream kinases that phosphorylate and activate ERK1/2."
         }
       ],
       "drawAs": "StraightLine",
@@ -814,7 +882,7 @@
         "b9a85"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimNecessaryStimulation",
+      "markerEnd": "MimStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -827,6 +895,7 @@
               1
             ]
           },
+          "id": "bbe23",
           "isAttachedTo": "d14fb",
           "orientation": [
             0,
@@ -846,6 +915,7 @@
               0
             ]
           },
+          "id": "e8b61",
           "isAttachedTo": "b9a85",
           "orientation": [
             0,
@@ -897,6 +967,7 @@
               1
             ]
           },
+          "id": "fedec",
           "isAttachedTo": "db4b3",
           "orientation": [
             0,
@@ -916,6 +987,7 @@
               0
             ]
           },
+          "id": "ed20a",
           "isAttachedTo": "e77f3",
           "orientation": [
             0,
@@ -1000,7 +1072,7 @@
           "content": "Prot Modification MAPK1 --+> GATA4"
         },
         {
-          "content": "14729955 (CellType: cardiomyocyte) Collectively, these data indicate that ERK2-mediated phosphorylation of serine 105 in GATA4 directly influences DNA binding activity. \n\n15967790 GATA-4 also is phosphorylated by ERK in cardiomyocytes ( 27 ). \n\n12446726 (Organ: heart, CellType: myocyte) Activation of MEK1/ERK1/ERK2 either by agonist stimulation or by expression of a constitutively active form of MEK1 results in phosphorylation of GATA-4 at serine residue 105 ( 38 ). \n\n12239105 (Organ: heart) GATA4 transcriptional activity is stimulated through phosphorylation by ERK1/2 and p38 MAPK, although phosphorylation by GSK3? negatively regulates GATA4 activity. \n\n11827958 (Organ: heart, Tissue: muscle) ERK inhibition with PD98059 (20 ?أƒآƒأ‚آ¯أƒآ‚أ‚آ؟أƒآ‚أ‚آ½ M ) slightly decreased p38-induced GATA-4 binding to BNP gene. \n\n12724418 (Organ: heart, Tissue: muscle, CellLineName: HL-1) Activation of MEK1/ERK1/ERK2 either by agonist stimulation or by expression of a constitutively active form of MEK1 results in phosphorylation of GATA-4 at serine residue 105 ( 38 )."
+          "content": "14729955 (CellType: cardiomyocyte) Collectively, these data indicate that ERK2-mediated phosphorylation of serine 105 in GATA4 directly influences DNA binding activity. \r\n\r\n15967790 GATA-4 also is phosphorylated by ERK in cardiomyocytes ( 27 ). \r\n\r\n12446726 (Organ: heart, CellType: myocyte) Activation of MEK1/ERK1/ERK2 either by agonist stimulation or by expression of a constitutively active form of MEK1 results in phosphorylation of GATA-4 at serine residue 105 ( 38 ). \r\n\r\n12239105 (Organ: heart) GATA4 transcriptional activity is stimulated through phosphorylation by ERK1/2 and p38 MAPK, although phosphorylation by GSK3? negatively regulates GATA4 activity. \r\n\r\n11827958 (Organ: heart, Tissue: muscle) ERK inhibition with PD98059 (20 ?أƒآƒأ‚آ¯أƒآ‚أ‚آ؟أƒآ‚أ‚آ½ M ) slightly decreased p38-induced GATA-4 binding to BNP gene. \r\n\r\n12724418 (Organ: heart, Tissue: muscle, CellLineName: HL-1) Activation of MEK1/ERK1/ERK2 either by agonist stimulation or by expression of a constitutively active form of MEK1 results in phosphorylation of GATA-4 at serine residue 105 ( 38 )."
         }
       ],
       "drawAs": "StraightLine",
@@ -1012,7 +1084,7 @@
         "c6398"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimNecessaryStimulation",
+      "markerEnd": "MimStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -1025,6 +1097,7 @@
               1
             ]
           },
+          "id": "ae424",
           "isAttachedTo": "b9a85",
           "orientation": [
             0,
@@ -1044,6 +1117,7 @@
               0
             ]
           },
+          "id": "d1fa3",
           "isAttachedTo": "c6398",
           "orientation": [
             0,
@@ -1119,7 +1193,7 @@
           "content": "Direct Regulation 1,4,5-Insp3 --+> ITPR1"
         },
         {
-          "content": "11017917 (CellType: myocyte) IP3 releases Ca2+ from intracellular stores by opening specific Ca2+ channels (IP3R). \n\n12621039 (Organ: cerebellar, CellType: Brain Stem, CellLineName: ng108-15) It has been reported that IP3 binding to the IP3R is not cooperative ( 31 , 33 ), and the same property holds true for the wild-type receptor and all of the mutant receptors except D1-223 expressed in R23-11 cells (Table I )."
+          "content": "11017917 (CellType: myocyte) IP3 releases Ca2+ from intracellular stores by opening specific Ca2+ channels (IP3R). \r\n\r\n12621039 (Organ: cerebellar, CellType: Brain Stem, CellLineName: ng108-15) It has been reported that IP3 binding to the IP3R is not cooperative ( 31 , 33 ), and the same property holds true for the wild-type receptor and all of the mutant receptors except D1-223 expressed in R23-11 cells (Table I )."
         }
       ],
       "drawAs": "StraightLine",
@@ -1144,6 +1218,7 @@
               1
             ]
           },
+          "id": "f8393",
           "isAttachedTo": "efbfe",
           "orientation": [
             0,
@@ -1163,6 +1238,7 @@
               0
             ]
           },
+          "id": "c5bd3",
           "isAttachedTo": "a160e",
           "orientation": [
             0,
@@ -1362,6 +1438,7 @@
               0.5
             ]
           },
+          "id": "ae7c8",
           "isAttachedTo": "ac9aa",
           "orientation": [
             -1,
@@ -1381,6 +1458,7 @@
               0
             ]
           },
+          "id": "aaefc",
           "isAttachedTo": "e1104",
           "orientation": [
             0,
@@ -1450,37 +1528,6 @@
       "y": 942.2619047619046,
       "zIndex": 32768
     },
-    "cbcad": {
-      "contains": [
-        "ec4a9",
-        "a7b1d",
-        "a82cc",
-        "e930d"
-      ],
-      "drawAs": "rect",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 54.85128693994329,
-      "id": "cbcad",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupNone"
-      ],
-      "verticalAlign": "middle",
-      "width": 198.0381315538611,
-      "x": 406.7214285714286,
-      "y": 624.792092242044,
-      "zIndex": 28672
-    },
     "cd232": {
       "citations": [
         "publicationXrefb3e"
@@ -1502,7 +1549,7 @@
         "d128e"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimNecessaryStimulation",
+      "markerEnd": "MimStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -1515,6 +1562,7 @@
               1
             ]
           },
+          "id": "d0e72",
           "isAttachedTo": "eddd0",
           "orientation": [
             0,
@@ -1534,6 +1582,7 @@
               0
             ]
           },
+          "id": "e1fe1",
           "isAttachedTo": "d128e",
           "orientation": [
             0,
@@ -1585,6 +1634,7 @@
               0.5
             ]
           },
+          "id": "b4161",
           "isAttachedTo": "ac9aa",
           "orientation": [
             1,
@@ -1604,6 +1654,7 @@
               0
             ]
           },
+          "id": "e477d",
           "isAttachedTo": "d6a19",
           "orientation": [
             0,
@@ -1721,7 +1772,7 @@
           "content": "Direct Regulation HTR2A --+> GNAQ"
         },
         {
-          "content": "9439849 (Organ: hypothalamic, Tissue: cortex) These results suggest that fluoxetine gradually increases the G-protein coupling of 5-HT2A/2C receptors without altering the levels of Gq- or G11-proteins. \n\n12721328 (Organ: hypothalamic, Tissue: cortex, CellType: neural) These fluoxetine-induced changes in 5-HT2A receptor signaling occur without changing the levels of Galphaq or RGS4 proteins."
+          "content": "9439849 (Organ: hypothalamic, Tissue: cortex) These results suggest that fluoxetine gradually increases the G-protein coupling of 5-HT2A/2C receptors without altering the levels of Gq- or G11-proteins. \r\n\r\n12721328 (Organ: hypothalamic, Tissue: cortex, CellType: neural) These fluoxetine-induced changes in 5-HT2A receptor signaling occur without changing the levels of Galphaq or RGS4 proteins."
         }
       ],
       "drawAs": "ElbowLine",
@@ -1746,6 +1797,7 @@
               1
             ]
           },
+          "id": "ae7f8",
           "isAttachedTo": "c16fa",
           "orientation": [
             0,
@@ -1765,6 +1817,7 @@
               0.25
             ]
           },
+          "id": "ce99e",
           "isAttachedTo": "eddd0",
           "orientation": [
             1,
@@ -1796,7 +1849,7 @@
           "content": "Prot Modification MAPK3 --+> GATA4"
         },
         {
-          "content": "10788492 (Organ: heart, CellType: myocyte) In this regard, it is noteworthy that GATA-4 protein has multiple ERK1/2 phosphorylation sites ( 31 ). \n\n14681544 (CellType: cardiomyocyte) In cardiomyocytes, GATA-4 activity is positively regulated via phosphorylation at serine 105 by mitogen-activated kinases (MAPK), ERK1/ERK2, and p38 MAPK ( 90 , 91 )."
+          "content": "10788492 (Organ: heart, CellType: myocyte) In this regard, it is noteworthy that GATA-4 protein has multiple ERK1/2 phosphorylation sites ( 31 ). \r\n\r\n14681544 (CellType: cardiomyocyte) In cardiomyocytes, GATA-4 activity is positively regulated via phosphorylation at serine 105 by mitogen-activated kinases (MAPK), ERK1/ERK2, and p38 MAPK ( 90 , 91 )."
         }
       ],
       "drawAs": "StraightLine",
@@ -1808,7 +1861,7 @@
         "c6398"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimNecessaryStimulation",
+      "markerEnd": "MimStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -1821,6 +1874,7 @@
               0.5
             ]
           },
+          "id": "da92a",
           "isAttachedTo": "c157a",
           "orientation": [
             1,
@@ -1840,6 +1894,7 @@
               0
             ]
           },
+          "id": "bf8c8",
           "isAttachedTo": "c6398",
           "orientation": [
             0,
@@ -1867,7 +1922,7 @@
           "content": "Prot Modification RAF1 --+> MAP2K1"
         },
         {
-          "content": "10693929 (Tissue: cortex, CellType: neural, CellLineName: PC 12) PD098059 blocks activation of MEK1 by Raf (Dudley et al., 1995 ) and reduces NGF-induced differentiation in PC12 cells (Alessi et al., 1995 ; Pang et al., 1995 ), as well as BDNF-induced phosphorylation of extracellular signal-regulated kinase 2 in cortical neurons (Finkbeiner et al., 1997 ). \n\n9885231 (CellType: leukocyte) In turn, Ras activates the serine/threonine kinase Raf. 11 Upon activation, Raf phosphorylates MEK1 and MEK2."
+          "content": "10693929 (Tissue: cortex, CellType: neural, CellLineName: PC 12) PD098059 blocks activation of MEK1 by Raf (Dudley et al., 1995 ) and reduces NGF-induced differentiation in PC12 cells (Alessi et al., 1995 ; Pang et al., 1995 ), as well as BDNF-induced phosphorylation of extracellular signal-regulated kinase 2 in cortical neurons (Finkbeiner et al., 1997 ). \r\n\r\n9885231 (CellType: leukocyte) In turn, Ras activates the serine/threonine kinase Raf. 11 Upon activation, Raf phosphorylates MEK1 and MEK2."
         }
       ],
       "drawAs": "ElbowLine",
@@ -1879,7 +1934,7 @@
         "e0ee3"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimNecessaryStimulation",
+      "markerEnd": "MimStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -1892,6 +1947,7 @@
               0.5
             ]
           },
+          "id": "ec51e",
           "isAttachedTo": "a852d",
           "orientation": [
             -1,
@@ -1911,6 +1967,7 @@
               0
             ]
           },
+          "id": "fbe6f",
           "isAttachedTo": "e0ee3",
           "orientation": [
             0,
@@ -2036,7 +2093,7 @@
           "content": "Prot Modification MAPK3 --+> ELK1"
         },
         {
-          "content": "11463794 (CellLineName: COS-7) A, phosphorylation of Elk1 by HA-ERK1 and HA-ERK1b. \n\n12498787 Since Erk1 and Erk2 regulate transcription from the Fos serum response element (SRE) by phosphorylating the ternary complex factors Elk-1 and SAP-1 ( Treisman, 1995 ), we examined the effect of integrin ligation on the Fos SRE. \n\n12032150 (Organ: kidney, CellLineName: Madin Darby) In the nucleus, activated ERK1/2 continuously phosphorylate Elk-1, leading to the prolonged expression of c- fos , which results in the expression of several genes such as matrix metalloproteinase (mmp)-9 ; MMP-9 activity is required for the induction of the cell motility response. \n\n11297525 (Tissue: marrow) In addition, the activation of ERK1/2 correlated with increased activation of the downstream transcription factor Elk-1. \n\n11782488 (Tissue: cortex, CellType: neural, CellLineName: PC 12) It was also reported that BMK1 activation is required for neurotrophin stimulation of MEF2C in both cortical neurons and PC12 cells, distinct from ERK1/2-induced activation of Elk1 and CREB transcription factors ( 30 ). \n\n11751459 (Tissue: lymph, CellLineName: reh) On bryo 1 treatment, the activity of ERK2 (p42) rapidly increased, with ERK1 (p44) protein levels remaining constant. p44/42 immunoprecipitates from lysates of bryo 1-treated cells had increased their ability to phosphorylate the transcription factor Elk-1. \n\n10024371 (Organ: liver, Tissue: fat, CellType: eosinophil, CellLineName: CWSV1) Induction of the SRE occurs upon formation of a ternary complex with serum response factor, p62 TCF , and the SRE. 118 ERK1/2 was shown to phosphorylate p62 TCF (also known as elk-1 or SAP-1), resulting in enhanced ternary complex formation. 119 Thus, the SRE present in the c- fos promoter may be regulated by angiotensin II??????stimulated ERK1/2 phosphorylation of p62 TCF , as shown for EGF. 119 Activation of ERK1/2 requires activation of Ras and Raf, events that are regulated by tyrosine phosphorylation."
+          "content": "11463794 (CellLineName: COS-7) A, phosphorylation of Elk1 by HA-ERK1 and HA-ERK1b. \r\n\r\n12498787 Since Erk1 and Erk2 regulate transcription from the Fos serum response element (SRE) by phosphorylating the ternary complex factors Elk-1 and SAP-1 ( Treisman, 1995 ), we examined the effect of integrin ligation on the Fos SRE. \r\n\r\n12032150 (Organ: kidney, CellLineName: Madin Darby) In the nucleus, activated ERK1/2 continuously phosphorylate Elk-1, leading to the prolonged expression of c- fos , which results in the expression of several genes such as matrix metalloproteinase (mmp)-9 ; MMP-9 activity is required for the induction of the cell motility response. \r\n\r\n11297525 (Tissue: marrow) In addition, the activation of ERK1/2 correlated with increased activation of the downstream transcription factor Elk-1. \r\n\r\n11782488 (Tissue: cortex, CellType: neural, CellLineName: PC 12) It was also reported that BMK1 activation is required for neurotrophin stimulation of MEF2C in both cortical neurons and PC12 cells, distinct from ERK1/2-induced activation of Elk1 and CREB transcription factors ( 30 ). \r\n\r\n11751459 (Tissue: lymph, CellLineName: reh) On bryo 1 treatment, the activity of ERK2 (p42) rapidly increased, with ERK1 (p44) protein levels remaining constant. p44/42 immunoprecipitates from lysates of bryo 1-treated cells had increased their ability to phosphorylate the transcription factor Elk-1. \r\n\r\n10024371 (Organ: liver, Tissue: fat, CellType: eosinophil, CellLineName: CWSV1) Induction of the SRE occurs upon formation of a ternary complex with serum response factor, p62 TCF , and the SRE. 118 ERK1/2 was shown to phosphorylate p62 TCF (also known as elk-1 or SAP-1), resulting in enhanced ternary complex formation. 119 Thus, the SRE present in the c- fos promoter may be regulated by angiotensin II??????stimulated ERK1/2 phosphorylation of p62 TCF , as shown for EGF. 119 Activation of ERK1/2 requires activation of Ras and Raf, events that are regulated by tyrosine phosphorylation."
         }
       ],
       "drawAs": "StraightLine",
@@ -2048,7 +2105,7 @@
         "b1b05"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimNecessaryStimulation",
+      "markerEnd": "MimStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -2061,6 +2118,7 @@
               1
             ]
           },
+          "id": "f37ca",
           "isAttachedTo": "c157a",
           "orientation": [
             0,
@@ -2080,6 +2138,7 @@
               0
             ]
           },
+          "id": "e75a7",
           "isAttachedTo": "b1b05",
           "orientation": [
             0,
@@ -2110,7 +2169,7 @@
           "content": "Binding ELK1 ---- SRF"
         },
         {
-          "content": "11053438 (Tissue: serum) Activation of Transcription Factor Elk1 during Thapsigargin-induced pip92 Expression-- Previous studies have shown that serum response element (SRE ) present in the pip92 promoter can interact with recombinant serum response factor (SRF ) and Elk1 proteins forming a tertiary complex ( 16 , 25 ). \n\n11839761 (Tissue: serum) When phosphorylated by ERK2, Elk-1 forms a complex with the serum response factor and binds the serum response promoter element to enhance transcription from the c- fos promoter. \n10477597 Also, they phosphorylate Elk1, which interacts with the serum response factor and participates in c- fos activation (reviewed in Refs. 18 and 19 ). \n\n12600988 First, it has been concluded from many transfection (permanent and transient) experiments that the serum response factor-ELK1 complex, likely also including the nearby AP-1 proteins, is required for the optimal transcriptional response to growth factors and to phorbol esters (TPA ). \n\n11245588 The three MAP kinase pathways regulate AP-1 activity both by increasing the transcription of the jun and fos genes and by phosphorylation of newly synthesized AP-1 transcription complexes. c-Fos gene transcription is activated by the cooperative interaction of Elk-1 with the serum response factor (SRF)."
+          "content": "11053438 (Tissue: serum) Activation of Transcription Factor Elk1 during Thapsigargin-induced pip92 Expression-- Previous studies have shown that serum response element (SRE ) present in the pip92 promoter can interact with recombinant serum response factor (SRF ) and Elk1 proteins forming a tertiary complex ( 16 , 25 ). \r\n\r\n11839761 (Tissue: serum) When phosphorylated by ERK2, Elk-1 forms a complex with the serum response factor and binds the serum response promoter element to enhance transcription from the c- fos promoter. \r\n10477597 Also, they phosphorylate Elk1, which interacts with the serum response factor and participates in c- fos activation (reviewed in Refs. 18 and 19 ). \r\n\r\n12600988 First, it has been concluded from many transfection (permanent and transient) experiments that the serum response factor-ELK1 complex, likely also including the nearby AP-1 proteins, is required for the optimal transcriptional response to growth factors and to phorbol esters (TPA ). \r\n\r\n11245588 The three MAP kinase pathways regulate AP-1 activity both by increasing the transcription of the jun and fos genes and by phosphorylation of newly synthesized AP-1 transcription complexes. c-Fos gene transcription is activated by the cooperative interaction of Elk-1 with the serum response factor (SRF)."
         }
       ],
       "drawAs": "StraightLine",
@@ -2134,6 +2193,7 @@
               0.5
             ]
           },
+          "id": "dbb5a",
           "isAttachedTo": "b1b05",
           "orientation": [
             1,
@@ -2153,6 +2213,7 @@
               0.5
             ]
           },
+          "id": "c4991",
           "isAttachedTo": "f347c",
           "orientation": [
             1,
@@ -2279,7 +2340,7 @@
           "content": "Prot Modification RAF1 --+> MAP2K2"
         },
         {
-          "content": "10026206 Use of the specific MEK1/2 inhibitor, PD98059, which prevents Raf-mediated activation of MEK1/2 ( 42 ), allowed us to evaluate the role of the MEK/ERK pathway in CD40-mediated induction of IL-1eta and TNFalpha synthesis. \n\n11124968 (CellType: promyelocyte) PMA-induced ERK activation is through a kinase cascade that requires Raf-1-dependent phosphorylation of MEK1/2 on serines 217 and 221 and MEK1/2-dependent phosphorylation of ERK1/2 on threonine 202 and tyrosine 204 ( 26 , 27 ). \n\n7499206 PD 098059 inhibited the activation of MAPKK2 by Raf with a much higher IC value (50 أƒآƒأ‚آ¯أƒآ‚أ‚آ؟أƒآ‚أ‚آ½M) and did not inhibit the phosphorylation of other Raf or MEK kinase substrates, indicating that it exerts its effect by binding to the inactive form of MAPKK1. \n\n11296227 (CellLineName: Sf9) Immunoprecipitated endogenous Raf-1 can phosphorylate MEK1 and -2 in vitro ( Howe et al ., 1992 ; Kyriakis et al ., 1992 ; Marais et al ., 1998 ) and the Raf/MEK/ERK cascade can be reconstituted in vitro using proteins expressed in Sf9 cells ( Macdonald et al ., 1993 ). \n\n7797459 (CellType: fibroblast, CellLineName: PC 12) MEK1 and -2 are activated not only by Raf-1 and B-Raf ( 19 , 20 ) but also by the Mos protooncogene product( 21 , 22 ) , MEK kinase 1 (MEKK1) ( ) ( 23 ) , and other probably distinct, growth factor-stimulated activities( 24 , 25 ) ."
+          "content": "10026206 Use of the specific MEK1/2 inhibitor, PD98059, which prevents Raf-mediated activation of MEK1/2 ( 42 ), allowed us to evaluate the role of the MEK/ERK pathway in CD40-mediated induction of IL-1eta and TNFalpha synthesis. \r\n\r\n11124968 (CellType: promyelocyte) PMA-induced ERK activation is through a kinase cascade that requires Raf-1-dependent phosphorylation of MEK1/2 on serines 217 and 221 and MEK1/2-dependent phosphorylation of ERK1/2 on threonine 202 and tyrosine 204 ( 26 , 27 ). \r\n\r\n7499206 PD 098059 inhibited the activation of MAPKK2 by Raf with a much higher IC value (50 أƒآƒأ‚آ¯أƒآ‚أ‚آ؟أƒآ‚أ‚آ½M) and did not inhibit the phosphorylation of other Raf or MEK kinase substrates, indicating that it exerts its effect by binding to the inactive form of MAPKK1. \r\n\r\n11296227 (CellLineName: Sf9) Immunoprecipitated endogenous Raf-1 can phosphorylate MEK1 and -2 in vitro ( Howe et al ., 1992 ; Kyriakis et al ., 1992 ; Marais et al ., 1998 ) and the Raf/MEK/ERK cascade can be reconstituted in vitro using proteins expressed in Sf9 cells ( Macdonald et al ., 1993 ). \r\n\r\n7797459 (CellType: fibroblast, CellLineName: PC 12) MEK1 and -2 are activated not only by Raf-1 and B-Raf ( 19 , 20 ) but also by the Mos protooncogene product( 21 , 22 ) , MEK kinase 1 (MEKK1) ( ) ( 23 ) , and other probably distinct, growth factor-stimulated activities( 24 , 25 ) ."
         }
       ],
       "drawAs": "ElbowLine",
@@ -2291,7 +2352,7 @@
         "d14fb"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimNecessaryStimulation",
+      "markerEnd": "MimStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -2304,6 +2365,7 @@
               0.5
             ]
           },
+          "id": "cf673",
           "isAttachedTo": "a852d",
           "orientation": [
             1,
@@ -2323,6 +2385,7 @@
               0
             ]
           },
+          "id": "f0c70",
           "isAttachedTo": "d14fb",
           "orientation": [
             0,
@@ -2403,7 +2466,7 @@
           "content": "Prot Modification MAPK1 --+> MAPKAPK2"
         },
         {
-          "content": "14688255 This co-expression system was used previously in our laboratory to activate GST-RSK CTD ( 21 ), and ERK2 has been reported to activate MK2 ( 26 ). \n\n8995385 (CellType: leukocyte) First, LY294002, which inhibited Erk-1 and 2 but not p38, failed to inhibit MAPKAPK-2. \n\n8900202 (CellLineName: Pam 212) MBP is an efficient substrate for ERK1 and ERK2, whereas GST-cJun (1-169) includes the activating phosphorylation sites Ser-63 and Ser-73, which have been shown to be phosphorylated by SAPK/JNK but not by ERK1, ERK2, or p38 HOG1 ( 3 ). 2 Similarly, hsp27 is an efficient substrate for MAPKAPK2, which in turn is predominantly activated by p38 HOG1, although MAPKAPK2 can also be phosphorylated in vitro by ERK1 and ERK2 ( 29 , 30 ). -- Fig. 2. \n\n14499342 (CellType: neutrophil) ERK phosphorylated MK2 in vitro and activated MK2 in f-methionyl-leucyl-phenylalanine (FMLP)-stimulated neutrophils. \n\n8846784 (CellLineName: KB) In contrast, full-length GST-MAPKAP kinase-2 was phosphorylated at Thr25 (and not activated) by p42 MAPK, suggesting a role for the N-terminal domain in specifying activation by RK in vivo. \n\n10625698 (Organ: ventricle, CellType: myocyte) Activated MAPK interacts with a number of downstream targets, including the p90 ribosomal S6 kinase (p90 Rsk ) ( 19 ) and MAPK-activated protein kinase-2 (MAPKAP-K2 ) ( 20 , 21 ), which are activated by ERK1/2 and p38 MAPK , respectively. \n\n11463795 (Tissue: skeletal muscle, CellType: adipocyte) With respect to alternative non-PLD/PA mechanisms whereby ERK could conceivably activate PKC-eta/ , it has been reported that ERK-activated MAPK-activated kinase-2 ( 34 , 35 ) and MSK-1 ( 36 ) can act like PDK-1 and/or PDK-2 and phosphorylate PKB on serine 308 and threonine 473 residues."
+          "content": "14688255 This co-expression system was used previously in our laboratory to activate GST-RSK CTD ( 21 ), and ERK2 has been reported to activate MK2 ( 26 ). \r\n\r\n8995385 (CellType: leukocyte) First, LY294002, which inhibited Erk-1 and 2 but not p38, failed to inhibit MAPKAPK-2. \r\n\r\n8900202 (CellLineName: Pam 212) MBP is an efficient substrate for ERK1 and ERK2, whereas GST-cJun (1-169) includes the activating phosphorylation sites Ser-63 and Ser-73, which have been shown to be phosphorylated by SAPK/JNK but not by ERK1, ERK2, or p38 HOG1 ( 3 ). 2 Similarly, hsp27 is an efficient substrate for MAPKAPK2, which in turn is predominantly activated by p38 HOG1, although MAPKAPK2 can also be phosphorylated in vitro by ERK1 and ERK2 ( 29 , 30 ). -- Fig. 2. \r\n\r\n14499342 (CellType: neutrophil) ERK phosphorylated MK2 in vitro and activated MK2 in f-methionyl-leucyl-phenylalanine (FMLP)-stimulated neutrophils. \r\n\r\n8846784 (CellLineName: KB) In contrast, full-length GST-MAPKAP kinase-2 was phosphorylated at Thr25 (and not activated) by p42 MAPK, suggesting a role for the N-terminal domain in specifying activation by RK in vivo. \r\n\r\n10625698 (Organ: ventricle, CellType: myocyte) Activated MAPK interacts with a number of downstream targets, including the p90 ribosomal S6 kinase (p90 Rsk ) ( 19 ) and MAPK-activated protein kinase-2 (MAPKAP-K2 ) ( 20 , 21 ), which are activated by ERK1/2 and p38 MAPK , respectively. \r\n\r\n11463795 (Tissue: skeletal muscle, CellType: adipocyte) With respect to alternative non-PLD/PA mechanisms whereby ERK could conceivably activate PKC-eta/ , it has been reported that ERK-activated MAPK-activated kinase-2 ( 34 , 35 ) and MSK-1 ( 36 ) can act like PDK-1 and/or PDK-2 and phosphorylate PKB on serine 308 and threonine 473 residues."
         }
       ],
       "drawAs": "StraightLine",
@@ -2415,7 +2478,7 @@
         "c12bb"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimNecessaryStimulation",
+      "markerEnd": "MimStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -2428,6 +2491,7 @@
               1
             ]
           },
+          "id": "b408c",
           "isAttachedTo": "b9a85",
           "orientation": [
             0,
@@ -2447,6 +2511,7 @@
               0
             ]
           },
+          "id": "edb9c",
           "isAttachedTo": "c12bb",
           "orientation": [
             0,
@@ -2474,7 +2539,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "e930d",
-      "isPartOf": "cbcad",
+      "isPartOf": "a4b35",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2518,7 +2583,7 @@
           "content": "Binding GNAQ ---- HTR2B"
         },
         {
-          "content": "12810613 (Organ: heart) We have generated transgenic mice overexpressing the Gq-coupled 5-HT2B receptor specifically in heart. \n\n12738797 (CellType: cardiomyocyte) Using cultured cardiomyocytes and 5-hydroxytryptamine (5-HT)2B-receptor knockout mice as an animal model of dilated cardiomyopathy, for the first time we show that serotonin via the Gq-coupled 5-HT2B-receptor protect cardiomyocytes against serum deprivation-induced apoptosis as manifested by DNA fragmentation, nuclear chromatin condensation, and TUNEL labeling."
+          "content": "12810613 (Organ: heart) We have generated transgenic mice overexpressing the Gq-coupled 5-HT2B receptor specifically in heart. \r\n\r\n12738797 (CellType: cardiomyocyte) Using cultured cardiomyocytes and 5-hydroxytryptamine (5-HT)2B-receptor knockout mice as an animal model of dilated cardiomyopathy, for the first time we show that serotonin via the Gq-coupled 5-HT2B-receptor protect cardiomyocytes against serum deprivation-induced apoptosis as manifested by DNA fragmentation, nuclear chromatin condensation, and TUNEL labeling."
         }
       ],
       "drawAs": "StraightLine",
@@ -2542,6 +2607,7 @@
               1
             ]
           },
+          "id": "f4cdb",
           "isAttachedTo": "e77f3",
           "orientation": [
             0,
@@ -2561,6 +2627,7 @@
               0
             ]
           },
+          "id": "f7040",
           "isAttachedTo": "eddd0",
           "orientation": [
             0,
@@ -2593,11 +2660,11 @@
       "gpmlElementName": "Interaction",
       "id": "ebc99",
       "isAttachedTo": [
-        "cbcad",
+        "a4b35",
         "a852d"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimNecessaryStimulation",
+      "markerEnd": "MimStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -2610,7 +2677,8 @@
               1
             ]
           },
-          "isAttachedTo": "cbcad",
+          "id": "eb04b",
+          "isAttachedTo": "a4b35",
           "orientation": [
             0,
             1
@@ -2629,6 +2697,7 @@
               0
             ]
           },
+          "id": "f37a7",
           "isAttachedTo": "a852d",
           "orientation": [
             0,
@@ -2656,7 +2725,7 @@
       "gpmlElementName": "Label",
       "height": 12.917063870352672,
       "id": "ec4a9",
-      "isPartOf": "cbcad",
+      "isPartOf": "a4b35",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2747,7 +2816,7 @@
         "eddd0"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimNecessaryStimulation",
+      "markerEnd": "MimStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -2760,6 +2829,7 @@
               1
             ]
           },
+          "id": "b21a8",
           "isAttachedTo": "bd470",
           "orientation": [
             0,
@@ -2779,6 +2849,7 @@
               0.5
             ]
           },
+          "id": "cca3e",
           "isAttachedTo": "eddd0",
           "orientation": [
             -1,
@@ -2905,7 +2976,7 @@
           "content": "Prot Modification MAPK3 --+> MAPKAPK2"
         },
         {
-          "content": "7592979 In this article we use a recombinant glutathione S -transferase (GST)-MAPKAP kinase 2-fusion protein and various mutants to study the mechanism of activation of MAPKAP kinase 2 by p44 (ERK1) and p38/40 (RK) in vitro . \n\n10753939 The ERK1 and ERK2 activator, MEK1 , has also been observed to activate MAPKAPK2 ( 58 )."
+          "content": "7592979 In this article we use a recombinant glutathione S -transferase (GST)-MAPKAP kinase 2-fusion protein and various mutants to study the mechanism of activation of MAPKAP kinase 2 by p44 (ERK1) and p38/40 (RK) in vitro . \r\n\r\n10753939 The ERK1 and ERK2 activator, MEK1 , has also been observed to activate MAPKAPK2 ( 58 )."
         }
       ],
       "drawAs": "StraightLine",
@@ -2917,7 +2988,7 @@
         "c12bb"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimNecessaryStimulation",
+      "markerEnd": "MimStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -2930,6 +3001,7 @@
               1
             ]
           },
+          "id": "aca86",
           "isAttachedTo": "c157a",
           "orientation": [
             0,
@@ -2949,6 +3021,7 @@
               0
             ]
           },
+          "id": "ad1c7",
           "isAttachedTo": "c12bb",
           "orientation": [
             0,
@@ -3030,7 +3103,7 @@
           "content": "MolSynthesis PLC --+> 1,4,5-Insp3"
         },
         {
-          "content": "12917107 (Tissue: lens) Previous pharmacological evaluation of these sheep lens cultures indicated the presence of purinergic receptors ( 6 ); therefore, it was suspected that ATP activated a purinergic receptor-signaling pathway resulting in the activation of PLC generating IP3 and diacylglycerol. \n\n11171588 As reported previously ( 1 ) an inhibitor of phospholipase C (PLC), U-73122 (2.5 أƒآƒأ‚آ¯أƒآ‚أ‚آ؟أƒآ‚أ‚آ½M), which inhibits IP3 production, significantly reduced spontaneous Ca2+ transients ( P < 0.05). \n\n10199807 (Tissue: epithelia, CellLineName: cf) The P2Y2 receptor is a G protein-coupled receptor that activates the phospholipase C-dependent generation of inositol 1,4,5-trisphosphate and intracellular Ca2+ mobilization ( 5 , 35 ). \n\n9973202 (CellLineName: H345) Binding of bombesin to its receptor in H345 cells is known to induce phospholipase C-mediated formation of the second messengers DAG and inositol 1,4,5-trisphosphate, which activate classic and novel isoforms of PKC and mobilize Ca 2+ , respectively (8 , 34 , 35) . \n\n10706116 Activated phospholipase C metabolizes phosphatidylinositol bisphosphate to produce diacylglycerol and inositol 1,4,5-trisphosphate (7 , 8) . \n\n16760378 (Organ: lung) PLC activation induces protein kinase C (PKC) activation and inositol 1,4,5-trisphosphate (IP 3 ) generation, which serve to increase intracellular Ca 2+ and sensitize and activate the cell&apos;s contractile machinery [ 19 , 20 ]. \n\n12193412 (Organ: renal) Activation of phospholipase C increases the hydrolysis of PIP 2 to produce diacylglycerol and inositol 1,4,5-trisphosphate (IP 3 ). \n\n9569230 (Tissue: glia) According to this model, mechanical stimulation of a cell activates both Ca2+-conducting channels, which allow the influx of extracellular Ca2+, and PLC, which generates IP3 in the stimulated cell."
+          "content": "12917107 (Tissue: lens) Previous pharmacological evaluation of these sheep lens cultures indicated the presence of purinergic receptors ( 6 ); therefore, it was suspected that ATP activated a purinergic receptor-signaling pathway resulting in the activation of PLC generating IP3 and diacylglycerol. \r\n\r\n11171588 As reported previously ( 1 ) an inhibitor of phospholipase C (PLC), U-73122 (2.5 أƒآƒأ‚آ¯أƒآ‚أ‚آ؟أƒآ‚أ‚آ½M), which inhibits IP3 production, significantly reduced spontaneous Ca2+ transients ( P < 0.05). \r\n\r\n10199807 (Tissue: epithelia, CellLineName: cf) The P2Y2 receptor is a G protein-coupled receptor that activates the phospholipase C-dependent generation of inositol 1,4,5-trisphosphate and intracellular Ca2+ mobilization ( 5 , 35 ). \r\n\r\n9973202 (CellLineName: H345) Binding of bombesin to its receptor in H345 cells is known to induce phospholipase C-mediated formation of the second messengers DAG and inositol 1,4,5-trisphosphate, which activate classic and novel isoforms of PKC and mobilize Ca 2+ , respectively (8 , 34 , 35) . \r\n\r\n10706116 Activated phospholipase C metabolizes phosphatidylinositol bisphosphate to produce diacylglycerol and inositol 1,4,5-trisphosphate (7 , 8) . \r\n\r\n16760378 (Organ: lung) PLC activation induces protein kinase C (PKC) activation and inositol 1,4,5-trisphosphate (IP 3 ) generation, which serve to increase intracellular Ca 2+ and sensitize and activate the cell&apos;s contractile machinery [ 19 , 20 ]. \r\n\r\n12193412 (Organ: renal) Activation of phospholipase C increases the hydrolysis of PIP 2 to produce diacylglycerol and inositol 1,4,5-trisphosphate (IP 3 ). \r\n\r\n9569230 (Tissue: glia) According to this model, mechanical stimulation of a cell activates both Ca2+-conducting channels, which allow the influx of extracellular Ca2+, and PLC, which generates IP3 in the stimulated cell."
         }
       ],
       "drawAs": "StraightLine",
@@ -3042,7 +3115,7 @@
         "efbfe"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimNecessaryStimulation",
+      "markerEnd": "MimStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -3055,6 +3128,7 @@
               1
             ]
           },
+          "id": "c0382",
           "isAttachedTo": "d128e",
           "orientation": [
             0,
@@ -3074,6 +3148,7 @@
               0
             ]
           },
+          "id": "b0146",
           "isAttachedTo": "efbfe",
           "orientation": [
             0,
@@ -3107,7 +3182,7 @@
           "content": "Prot Modification MAP2K2 --+> MAPK3"
         },
         {
-          "content": "12730329 Two upstream dual specificity enzyme kinases MEK1/MEK2 (MAPKKs) phosphorylate threonine and tyrosine residues of ERK1/2 and initiate an ultrasensitive downstream phosphorylation cascade ( 25 ). \n\n12496361 (Tissue: nerve, CellType: neural) Activated Ras associates with Raf that phosphorylates and activates the mitogen-activated protein (MAP) kinase kinases MEK1 and MEK2, which in turn phosphorylate the MAP kinases ERK1 and ERK2. \n\n12832465 All together, these results indicated that MEK2 is not essential for cell proliferation and ERK1/ERK2 activation in response to mitogens. \n\n12584202 Because MEK1/2 phosphorylates and activates p42/p44MAPK, the inhibitor would be expected to inhibit the phosphorylation of p42/p44MAPK and their downstream targets. \n\n10650934 Cells were pretreated for 30 min with 10 أƒآƒأ‚آ¯أƒآ‚أ‚آ؟أƒآ‚أ‚آ½ M PD98059, an inhibitor of MEK1 and -2, the MAPK kinases that are responsible for activation of ERK1 and -2. \n\n11238126 (CellLineName: AML) MEK-1/2 activation correlated with ERK-1/2 activation in 7 of 14 AML cell lines and 2 of 5 CML cell lines. \n\n9927426 (CellType: fibroblast, CellLineName: PC 12) Both p42 and p44MAPK are activated by dual phosphorylation on a threonine and a tyrosine residue, achieved by the dual-specificity kinase MKK1/2. \n\n11983682 (Organ: hippocampal, CellType: neural) Hippocampal neurons were treated with UO126, an inhibitor of MEK1 and MEK2, which can activate ERK1 and ERK2."
+          "content": "12730329 Two upstream dual specificity enzyme kinases MEK1/MEK2 (MAPKKs) phosphorylate threonine and tyrosine residues of ERK1/2 and initiate an ultrasensitive downstream phosphorylation cascade ( 25 ). \r\n\r\n12496361 (Tissue: nerve, CellType: neural) Activated Ras associates with Raf that phosphorylates and activates the mitogen-activated protein (MAP) kinase kinases MEK1 and MEK2, which in turn phosphorylate the MAP kinases ERK1 and ERK2. \r\n\r\n12832465 All together, these results indicated that MEK2 is not essential for cell proliferation and ERK1/ERK2 activation in response to mitogens. \r\n\r\n12584202 Because MEK1/2 phosphorylates and activates p42/p44MAPK, the inhibitor would be expected to inhibit the phosphorylation of p42/p44MAPK and their downstream targets. \r\n\r\n10650934 Cells were pretreated for 30 min with 10 أƒآƒأ‚آ¯أƒآ‚أ‚آ؟أƒآ‚أ‚آ½ M PD98059, an inhibitor of MEK1 and -2, the MAPK kinases that are responsible for activation of ERK1 and -2. \r\n\r\n11238126 (CellLineName: AML) MEK-1/2 activation correlated with ERK-1/2 activation in 7 of 14 AML cell lines and 2 of 5 CML cell lines. \r\n\r\n9927426 (CellType: fibroblast, CellLineName: PC 12) Both p42 and p44MAPK are activated by dual phosphorylation on a threonine and a tyrosine residue, achieved by the dual-specificity kinase MKK1/2. \r\n\r\n11983682 (Organ: hippocampal, CellType: neural) Hippocampal neurons were treated with UO126, an inhibitor of MEK1 and MEK2, which can activate ERK1 and ERK2."
         }
       ],
       "drawAs": "StraightLine",
@@ -3119,7 +3194,7 @@
         "c157a"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimNecessaryStimulation",
+      "markerEnd": "MimStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -3132,6 +3207,7 @@
               1
             ]
           },
+          "id": "c7a04",
           "isAttachedTo": "d14fb",
           "orientation": [
             0,
@@ -3151,6 +3227,7 @@
               0
             ]
           },
+          "id": "fdad2",
           "isAttachedTo": "c157a",
           "orientation": [
             0,
@@ -3199,6 +3276,7 @@
               0.5
             ]
           },
+          "id": "b1449",
           "isAttachedTo": "f347c",
           "orientation": [
             1,
@@ -3218,6 +3296,7 @@
               0.5
             ]
           },
+          "id": "d47e4",
           "isAttachedTo": "ec8b3",
           "orientation": [
             1,
@@ -3245,7 +3324,7 @@
           "content": "Prot Modification MAPKAPK2 --+> SRF"
         },
         {
-          "content": "10318869 MAPKAP Kinase 2 Phosphorylates Serum Response Factor in Vitro and in Vivo * Olaf Heidenreich , Armin Neininger أƒآƒأ‚آ¯أƒآ‚أ‚آ؟أƒآ‚أ‚آ½ ** , Gerhard Schratt , Raymund Zinck أƒآƒأ‚آ¯أƒآ‚أ‚آ؟أƒآ‚أ‚آ½ || , Michael A. \n\n12808055 MAPKAP kinase 2 phosphorylates serum response factor in vitro and in vivo."
+          "content": "10318869 MAPKAP Kinase 2 Phosphorylates Serum Response Factor in Vitro and in Vivo * Olaf Heidenreich , Armin Neininger أƒآƒأ‚آ¯أƒآ‚أ‚آ؟أƒآ‚أ‚آ½ ** , Gerhard Schratt , Raymund Zinck أƒآƒأ‚آ¯أƒآ‚أ‚آ؟أƒآ‚أ‚آ½ || , Michael A. \r\n\r\n12808055 MAPKAP kinase 2 phosphorylates serum response factor in vitro and in vivo."
         }
       ],
       "drawAs": "ElbowLine",
@@ -3257,7 +3336,7 @@
         "f347c"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimNecessaryStimulation",
+      "markerEnd": "MimStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -3270,6 +3349,7 @@
               0.5
             ]
           },
+          "id": "f2aba",
           "isAttachedTo": "c12bb",
           "orientation": [
             -1,
@@ -3289,6 +3369,7 @@
               0
             ]
           },
+          "id": "c4e66",
           "isAttachedTo": "f347c",
           "orientation": [
             0,
@@ -3318,7 +3399,7 @@
           "content": "MolTransport ITPR1 --+> CALCIUM"
         },
         {
-          "content": "10096607 Inositol 1,4,5-trisphosphate receptors (IP3R) are mediators of second messenger-induced intracellular calcium release. \n\n12491767 IP3receptor (IP3R) works as an IP3 induced Ca2+ release channel and requires IP3 and Ca2+ as coagoinist. \n\n7533300 (Tissue: skeletal muscle) Disrupting the IP3R-FKBP12 interaction increases Ca2+ flux through IP3R, an effect that is reversed by added FKBP12. \n\n15201137 (Tissue: skeletal) Agonist-induced increase in gene expression and calcium release were blocked by the InsP(3)R inhibitors 2-aminoethoxydiphenyl borate and xestospongin C."
+          "content": "10096607 Inositol 1,4,5-trisphosphate receptors (IP3R) are mediators of second messenger-induced intracellular calcium release. \r\n\r\n12491767 IP3receptor (IP3R) works as an IP3 induced Ca2+ release channel and requires IP3 and Ca2+ as coagoinist. \r\n\r\n7533300 (Tissue: skeletal muscle) Disrupting the IP3R-FKBP12 interaction increases Ca2+ flux through IP3R, an effect that is reversed by added FKBP12. \r\n\r\n15201137 (Tissue: skeletal) Agonist-induced increase in gene expression and calcium release were blocked by the InsP(3)R inhibitors 2-aminoethoxydiphenyl borate and xestospongin C."
         }
       ],
       "drawAs": "StraightLine",
@@ -3330,7 +3411,7 @@
         "ac9aa"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimNecessaryStimulation",
+      "markerEnd": "MimStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -3343,6 +3424,7 @@
               1
             ]
           },
+          "id": "c9fe4",
           "isAttachedTo": "a160e",
           "orientation": [
             0,
@@ -3362,6 +3444,7 @@
               0
             ]
           },
+          "id": "b4746",
           "isAttachedTo": "ac9aa",
           "orientation": [
             0,
@@ -3395,7 +3478,7 @@
           "content": "Regulation RASGRP1 --+> Ras"
         },
         {
-          "content": "11120810 (CellType: t cell, CellLineName: JURKAT) RasGRP can mediate Ras activation in response to TCR cross-linking in Jurkat T cells and RasGRP overexpression enhances TCR-mediated activation of ERK ( 23 ). \n\n14532295 (CellType: keratinocyte) This result suggests that, although RasGRP1 can directly activate Ras in response to phorbol esters, PKC is still required for the downstream stimulation of the Raf/MEK/ERK pathway. \n\n12070163 (CellType: t cell) Activated RasGRP ( 34 , 35 ) and PKCeta ( 36 , 37 ) in turn stimulate the Ras-ERK-AP-1 and NFkappaB pathways, respectively. \n\n15604236 (CellType: keratinocyte) TPA may activate PLCe through Ras activation, which is mediated by RasGRP1, a TPA-regulated Ras-specific guanine nucleotide exchange factor (GEF) expressed in keratinocytes (13) . \n\n10807788 (CellType: t cell) Here we show that RasGRP, a Ras activator that contains calcium-binding EF hands and a DAG-binding domain, is expressed in T cells. \n\n12782630 Sos and RasGRP proteins are involved in linking the activation of membrane or cytoplasmic tyrosine kinases with the stimulation of Ras GTPases ( 8 ). \n\n10777559 Both Ras-GRF and Ras-GRP/CalDAG-GEFII activate Ras and R-Ras; therefore, these GEFs appear to have two pathways for activation of JNK . \n\n14970203 (CellLineName: WEHI 231) This could be due to synergy between RasGRP1-mediated Ras activation and parallel BCR-initiated signaling pathways not involving Ras activation."
+          "content": "11120810 (CellType: t cell, CellLineName: JURKAT) RasGRP can mediate Ras activation in response to TCR cross-linking in Jurkat T cells and RasGRP overexpression enhances TCR-mediated activation of ERK ( 23 ). \r\n\r\n14532295 (CellType: keratinocyte) This result suggests that, although RasGRP1 can directly activate Ras in response to phorbol esters, PKC is still required for the downstream stimulation of the Raf/MEK/ERK pathway. \r\n\r\n12070163 (CellType: t cell) Activated RasGRP ( 34 , 35 ) and PKCeta ( 36 , 37 ) in turn stimulate the Ras-ERK-AP-1 and NFkappaB pathways, respectively. \r\n\r\n15604236 (CellType: keratinocyte) TPA may activate PLCe through Ras activation, which is mediated by RasGRP1, a TPA-regulated Ras-specific guanine nucleotide exchange factor (GEF) expressed in keratinocytes (13) . \r\n\r\n10807788 (CellType: t cell) Here we show that RasGRP, a Ras activator that contains calcium-binding EF hands and a DAG-binding domain, is expressed in T cells. \r\n\r\n12782630 Sos and RasGRP proteins are involved in linking the activation of membrane or cytoplasmic tyrosine kinases with the stimulation of Ras GTPases ( 8 ). \r\n\r\n10777559 Both Ras-GRF and Ras-GRP/CalDAG-GEFII activate Ras and R-Ras; therefore, these GEFs appear to have two pathways for activation of JNK . \r\n\r\n14970203 (CellLineName: WEHI 231) This could be due to synergy between RasGRP1-mediated Ras activation and parallel BCR-initiated signaling pathways not involving Ras activation."
         }
       ],
       "drawAs": "StraightLine",
@@ -3404,10 +3487,10 @@
       "id": "feee8",
       "isAttachedTo": [
         "e1104",
-        "cbcad"
+        "a4b35"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimNecessaryStimulation",
+      "markerEnd": "MimStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -3420,6 +3503,7 @@
               1
             ]
           },
+          "id": "a342a",
           "isAttachedTo": "e1104",
           "orientation": [
             0,
@@ -3439,7 +3523,8 @@
               0
             ]
           },
-          "isAttachedTo": "cbcad",
+          "id": "f2cc8",
+          "isAttachedTo": "a4b35",
           "orientation": [
             0,
             1
@@ -3456,16 +3541,6 @@
         "Edge"
       ],
       "zIndex": 32770
-    },
-    "http://identifiers.org/cl/CL:0000540": {
-      "gpmlElementName": "openControlledVocabulary",
-      "id": "http://identifiers.org/cl/CL:0000540",
-      "ontology": "Cell Type",
-      "term": "neuron",
-      "type": [
-        "openControlledVocabulary"
-      ],
-      "xrefIdentifier": "CL:0000540"
     },
     "http://identifiers.org/pw/PW:0000854": {
       "gpmlElementName": "openControlledVocabulary",
@@ -3489,7 +3564,7 @@
       "id": "publicationXrefa04",
       "source": "J Biol Chem",
       "standardName": "CD45 negatively regulates monocytic cell differentiation by inhibiting phorbol 12-myristate 13-acetate-dependent activation and tyrosine phosphorylation of protein kinase Cdelta.",
-      "textContent": "52",
+      "textContent": "56",
       "type": [
         "PublicationXref",
         "PubMed:11124968"
@@ -3513,7 +3588,7 @@
       "id": "publicationXrefa0a",
       "source": "Blood",
       "standardName": "Lipopolysaccharide activation of the MEK-ERK1/2 pathway in human monocytic cells mediates tissue factor and tumor necrosis factor alpha expression by inducing Elk-1 phosphorylation and Egr-1 expression.",
-      "textContent": "62",
+      "textContent": "48",
       "type": [
         "PublicationXref",
         "PubMed:11520792",
@@ -3534,7 +3609,7 @@
       "id": "publicationXrefa0b",
       "source": "Endocrinology",
       "standardName": "Insulin-like growth factor I activates c-Jun N-terminal kinase in MCF-7 breast cancer cells.",
-      "textContent": "46",
+      "textContent": "43",
       "type": [
         "PublicationXref",
         "PubMed:10650934"
@@ -3555,7 +3630,7 @@
       "id": "publicationXrefa25",
       "source": "J Biol Chem",
       "standardName": "PD 098059 is a specific inhibitor of the activation of mitogen-activated protein kinase kinase in vitro and in vivo.",
-      "textContent": "6",
+      "textContent": "3",
       "type": [
         "PublicationXref",
         "PubMed:7499206",
@@ -3578,7 +3653,7 @@
       "id": "publicationXrefa28",
       "source": "Proc Natl Acad Sci U S A",
       "standardName": "The solution structure of the Raf-1 cysteine-rich domain: a novel ras and phospholipid binding site.",
-      "textContent": "12",
+      "textContent": "15",
       "type": [
         "PublicationXref",
         "PubMed:8710867"
@@ -3603,7 +3678,7 @@
       "id": "publicationXrefa2c",
       "source": "J Comp Neurol",
       "standardName": "Differential cellular expression of isoforms of inositol 1,4,5-triphosphate receptors in neurons and glia in brain.",
-      "textContent": "28",
+      "textContent": "35",
       "type": [
         "PublicationXref",
         "PubMed:10096607",
@@ -3626,7 +3701,7 @@
       "id": "publicationXrefa42",
       "source": "J Biol Chem",
       "standardName": "CD40 signaling of monocyte inflammatory cytokine synthesis through an ERK1/2-dependent pathway. A target of interleukin (il)-4 and il-10 anti-inflammatory action.",
-      "textContent": "31",
+      "textContent": "30",
       "type": [
         "PublicationXref",
         "PubMed:10026206",
@@ -3650,7 +3725,7 @@
       "id": "publicationXrefa4f",
       "source": "J Biol Chem",
       "standardName": "MAPKAP kinase 2 phosphorylates tristetraprolin on in vivo sites including Ser178, a site required for 14-3-3 binding.",
-      "textContent": "102",
+      "textContent": "98",
       "type": [
         "PublicationXref",
         "PubMed:14688255",
@@ -3693,7 +3768,7 @@
       "id": "publicationXrefa8f",
       "source": "J Neurosci",
       "standardName": "Maintenance of serotonin in the intestinal mucosa and ganglia of mice that lack the high-affinity serotonin transporter: Abnormal intestinal motility and the expression of cation transporters.",
-      "textContent": "58",
+      "textContent": "49",
       "type": [
         "PublicationXref",
         "PubMed:11487658",
@@ -3718,7 +3793,7 @@
       "id": "publicationXrefa9e",
       "source": "J Biol Chem",
       "standardName": "Glucose activates protein kinase C-zeta /lambda through proline-rich tyrosine kinase-2, extracellular signal-regulated kinase, and phospholipase D: a novel mechanism for activating glucose transporter translocation.",
-      "textContent": "55",
+      "textContent": "58",
       "type": [
         "PublicationXref",
         "PubMed:11463795",
@@ -3788,7 +3863,7 @@
       "id": "publicationXrefaf0",
       "source": "J Biol Chem",
       "standardName": "ERK1/2 antagonizes glycogen synthase kinase-3beta-induced apoptosis in cortical neurons.",
-      "textContent": "63",
+      "textContent": "65",
       "type": [
         "PublicationXref",
         "PubMed:12393899",
@@ -3810,7 +3885,7 @@
       "id": "publicationXrefaf7",
       "source": "J Biol Chem",
       "standardName": "Altered regulation of ERK1b by MEK1 and PTP-SL and modified Elk1 phosphorylation by ERK1b are caused by abrogation of the regulatory C-terminal sequence of ERKs.",
-      "textContent": "56",
+      "textContent": "51",
       "type": [
         "PublicationXref",
         "PubMed:11463794"
@@ -3855,7 +3930,7 @@
       "id": "publicationXrefb08",
       "source": "J Biol Chem",
       "standardName": "Arachidonic acid activates mitogen-activated protein (MAP) kinase-activated protein kinase 2 and mediates adhesion of a human breast carcinoma cell line to collagen type IV through a p38 MAP kinase-dependent pathway.",
-      "textContent": "40",
+      "textContent": "41",
       "type": [
         "PublicationXref",
         "PubMed:10753939",
@@ -3878,7 +3953,7 @@
       "id": "publicationXrefb1a",
       "source": "Biol Reprod",
       "standardName": "Multiple Trp isoforms implicated in capacitative calcium entry are expressed in human pregnant myometrium and myometrial cells.",
-      "textContent": "74",
+      "textContent": "73",
       "type": [
         "PublicationXref",
         "PubMed:12193412"
@@ -3896,7 +3971,7 @@
       "id": "publicationXrefb21",
       "source": "J Neurosci",
       "standardName": "The information content of spontaneous retinal waves.",
-      "textContent": "53",
+      "textContent": "47",
       "type": [
         "PublicationXref",
         "PubMed:11157082",
@@ -3943,7 +4018,7 @@
       "id": "publicationXrefb2c",
       "source": "Mol Cell Biol",
       "standardName": "Cardiac p300 is involved in myocyte growth with decompensated heart failure.",
-      "textContent": "80",
+      "textContent": "79",
       "type": [
         "PublicationXref",
         "PubMed:12724418",
@@ -3962,7 +4037,7 @@
       "id": "publicationXrefb3a",
       "source": "Cell Res",
       "standardName": "The RAF family: an expanding network of post-translational controls and protein-protein interactions.",
-      "textContent": "22",
+      "textContent": "23",
       "type": [
         "PublicationXref",
         "PubMed:9669024"
@@ -3982,7 +4057,7 @@
       "id": "publicationXrefb3e",
       "source": "Arterioscler Thromb Vasc Biol",
       "standardName": "Functional interplay between angiotensin II and nitric oxide: cyclic GMP as a key mediator.",
-      "textContent": "93",
+      "textContent": "81",
       "type": [
         "PublicationXref",
         "PubMed:12524221"
@@ -4001,7 +4076,7 @@
       "id": "publicationXrefb5f",
       "source": "Am J Physiol Cell Physiol",
       "standardName": "Duality of G protein-coupled mechanisms for beta-adrenergic activation of NKCC activity in skeletal muscle.",
-      "textContent": "67",
+      "textContent": "64",
       "type": [
         "PublicationXref",
         "PubMed:12225966"
@@ -4024,7 +4099,7 @@
       "id": "publicationXrefb61",
       "source": "J Biol Chem",
       "standardName": "Constitutive ERK1/2 activation in esophagogastric rib bone marrow micrometastatic cells is MEK-independent.",
-      "textContent": "60",
+      "textContent": "52",
       "type": [
         "PublicationXref",
         "PubMed:11297525"
@@ -4048,7 +4123,7 @@
       "id": "publicationXrefb62",
       "source": "Cell Signal",
       "standardName": "MAPK-activated protein kinase-2 participates in p38 MAPK-dependent and ERK-dependent functions in human neutrophils.",
-      "textContent": "91",
+      "textContent": "85",
       "type": [
         "PublicationXref",
         "PubMed:14499342",
@@ -4066,7 +4141,7 @@
       "id": "publicationXrefb81",
       "source": "Nippon Yakurigaku Zasshi",
       "standardName": "[IP3 receptor, a Ca2+ oscilator--role of IP3 receptor in development and neural plasticity]",
-      "textContent": "64",
+      "textContent": "76",
       "type": [
         "PublicationXref",
         "PubMed:12491767"
@@ -4087,7 +4162,7 @@
       "id": "publicationXrefb9f",
       "source": "Mol Cell Biol",
       "standardName": "Direct and indirect interactions between calcineurin-NFAT and MEK1-extracellular signal-regulated kinase 1/2 signaling pathways regulate cardiac gene expression and cellular growth.",
-      "textContent": "104",
+      "textContent": "103",
       "type": [
         "PublicationXref",
         "PubMed:15657416"
@@ -4109,7 +4184,7 @@
       "id": "publicationXrefbb5",
       "source": "Mol Cell Biol",
       "standardName": "Extracellular signal-regulated kinase 2 interacts with and is negatively regulated by the LIM-only protein FHL2 in cardiomyocytes.",
-      "textContent": "101",
+      "textContent": "97",
       "type": [
         "PublicationXref",
         "PubMed:14729955",
@@ -4128,7 +4203,7 @@
       "id": "publicationXrefbc8",
       "source": "Naunyn Schmiedebergs Arch Pharmacol",
       "standardName": "Mechanisms of serotonin-induced Ca2+ responses in mesangial cells.",
-      "textContent": "20",
+      "textContent": "18",
       "type": [
         "PublicationXref",
         "PubMed:9272731",
@@ -4150,7 +4225,7 @@
       "id": "publicationXrefbd2",
       "source": "J Immunol",
       "standardName": "TNF-mediated activation of the stress-activated protein kinase pathway: TNF receptor-associated factor 2 recruits and activates germinal center kinase related.",
-      "textContent": "32",
+      "textContent": "29",
       "type": [
         "PublicationXref",
         "PubMed:10477597",
@@ -4169,7 +4244,7 @@
       "id": "publicationXrefbf3",
       "source": "Am J Physiol Cell Physiol",
       "standardName": "Calmodulin and protein kinase C regulate gap junctional coupling in lens epithelial cells.",
-      "textContent": "82",
+      "textContent": "88",
       "type": [
         "PublicationXref",
         "PubMed:12917107"
@@ -4190,7 +4265,7 @@
       "id": "publicationXrefc34",
       "source": "Mol Cell Neurosci",
       "standardName": "Phosphorylation of hippocampal Erk-1/2, Elk-1, and p90-Rsk-1 during contextual fear conditioning: interactions between Erk-1/2 and Elk-1.",
-      "textContent": "76",
+      "textContent": "68",
       "type": [
         "PublicationXref",
         "PubMed:12498787",
@@ -4214,7 +4289,7 @@
       "id": "publicationXrefc35",
       "source": "Cancer Res",
       "standardName": "Crucial role of phospholipase Cepsilon in chemical carcinogen-induced skin tumor development.",
-      "textContent": "95",
+      "textContent": "102",
       "type": [
         "PublicationXref",
         "PubMed:15604236"
@@ -4240,7 +4315,7 @@
       "id": "publicationXrefc46",
       "source": "Am J Physiol",
       "standardName": "Desensitization of P2Y2 receptor-activated transepithelial anion secretion.",
-      "textContent": "29",
+      "textContent": "31",
       "type": [
         "PublicationXref",
         "PubMed:10199807"
@@ -4262,7 +4337,7 @@
       "id": "publicationXrefc4d",
       "source": "J Biol Chem",
       "standardName": "Regulation of T cell receptor-induced activation of the Ras-ERK pathway by diacylglycerol kinase zeta.",
-      "textContent": "66",
+      "textContent": "77",
       "type": [
         "PublicationXref",
         "PubMed:12070163"
@@ -4285,7 +4360,7 @@
       "id": "publicationXrefc5a",
       "source": "J Biol Chem",
       "standardName": "Intracellular calcium mobilization induces immediate early gene pip92 via Src and mitogen-activated protein kinase in immortalized hippocampal cells.",
-      "textContent": "47",
+      "textContent": "54",
       "type": [
         "PublicationXref",
         "PubMed:11053438"
@@ -4305,7 +4380,7 @@
       "id": "publicationXrefc6c",
       "source": "J Biol Chem",
       "standardName": "Induction of collagenase-3 (MMP-13) expression in human skin fibroblasts by three-dimensional collagen is mediated by p38 mitogen-activated protein kinase.",
-      "textContent": "27",
+      "textContent": "26",
       "type": [
         "PublicationXref",
         "PubMed:9891015",
@@ -4356,7 +4431,7 @@
       "id": "publicationXrefc73",
       "source": "J Biol Chem",
       "standardName": "Crk activation of JNK via C3G and R-Ras.",
-      "textContent": "45",
+      "textContent": "46",
       "type": [
         "PublicationXref",
         "PubMed:10777559",
@@ -4381,7 +4456,7 @@
       "id": "publicationXrefc76",
       "source": "J Biol Chem",
       "standardName": "Induction of neuronal differentiation by a peptide corresponding to the homophilic binding site of the second Ig module of the neural cell adhesion molecule.",
-      "textContent": "71",
+      "textContent": "75",
       "type": [
         "PublicationXref",
         "PubMed:11983682"
@@ -4407,7 +4482,7 @@
       "id": "publicationXrefc86",
       "source": "Blood",
       "standardName": "RasGRP links T-cell receptor signaling to Ras.",
-      "textContent": "37",
+      "textContent": "45",
       "type": [
         "PublicationXref",
         "PubMed:10807788"
@@ -4425,7 +4500,7 @@
       "id": "publicationXrefc8b",
       "source": "EMBO J",
       "standardName": "The B-box dominates SAP-1-SRF interactions in the structure of the ternary complex.",
-      "textContent": "51",
+      "textContent": "62",
       "type": [
         "PublicationXref",
         "PubMed:11406578",
@@ -4447,7 +4522,7 @@
       "id": "publicationXrefc91",
       "source": "Mol Pharmacol",
       "standardName": "Differential activation of Gq/11 and Gi(3) proteins at 5-hydroxytryptamine(2C) receptors revealed by antibody capture assays: influence of receptor reserve and relationship to agonist-directed trafficking.",
-      "textContent": "75",
+      "textContent": "72",
       "type": [
         "PublicationXref",
         "PubMed:12181434",
@@ -4468,7 +4543,7 @@
       "id": "publicationXrefc96",
       "source": "FASEB J",
       "standardName": "Serotonin is a novel survival factor of cardiomyocytes: mitochondria as a target of 5-HT2B receptor signaling.",
-      "textContent": "94",
+      "textContent": "87",
       "type": [
         "PublicationXref",
         "PubMed:12738797"
@@ -4494,7 +4569,7 @@
       "id": "publicationXrefcbf",
       "source": "J Biol Chem",
       "standardName": "Involvement of the switch 2 domain of Ras in its interaction with guanine nucleotide exchange factors.",
-      "textContent": "13",
+      "textContent": "14",
       "type": [
         "PublicationXref",
         "PubMed:8626650"
@@ -4513,7 +4588,7 @@
       "id": "publicationXrefcc7",
       "source": "J Neurosci",
       "standardName": "Neural encoding in orbitofrontal cortex and basolateral amygdala during olfactory discrimination learning.",
-      "textContent": "25",
+      "textContent": "28",
       "type": [
         "PublicationXref",
         "PubMed:10024371",
@@ -4533,7 +4608,7 @@
       "id": "publicationXrefcd5",
       "source": "J Biol Chem",
       "standardName": "Oncogenic Ha-Ras transformation modulates the transcription of the CTP:phosphocholine cytidylyltransferase alpha gene via p42/44MAPK and transcription factor Sp3.",
-      "textContent": "79",
+      "textContent": "91",
       "type": [
         "PublicationXref",
         "PubMed:12584202"
@@ -4557,7 +4632,7 @@
       "id": "publicationXrefce8",
       "source": "J Pharmacol Exp Ther",
       "standardName": "Chronic fluoxetine differentially affects 5-hydroxytryptamine (2A) receptor signaling in frontal cortex, oxytocin- and corticotropin-releasing factor-containing neurons in rat paraventricular nucleus.",
-      "textContent": "90",
+      "textContent": "82",
       "type": [
         "PublicationXref",
         "PubMed:12721328",
@@ -4580,7 +4655,7 @@
       "id": "publicationXrefcf9",
       "source": "Blood",
       "standardName": "Sphingosine blocks human polymorphonuclear leukocyte phagocytosis through inhibition of mitogen-activated protein kinase activation.",
-      "textContent": "35",
+      "textContent": "27",
       "type": [
         "PublicationXref",
         "PubMed:9885231"
@@ -4599,7 +4674,7 @@
       "id": "publicationXrefd03",
       "source": "J Pharmacol Exp Ther",
       "standardName": "Neomycin selectively inhibits 5-hydroxytryptamine-induced contraction in the guinea pig trachea.",
-      "textContent": "15",
+      "textContent": "8",
       "type": [
         "PublicationXref",
         "PubMed:8627578"
@@ -4617,7 +4692,7 @@
       "id": "publicationXrefd22",
       "source": "Nature",
       "standardName": "Phosphorylation-dependent activation of the Ras-GRF/CDC25Mm exchange factor by muscarinic receptors and G-protein beta gamma subunits.",
-      "textContent": "11",
+      "textContent": "12",
       "type": [
         "PublicationXref",
         "PubMed:8717044"
@@ -4635,7 +4710,7 @@
       "id": "publicationXrefd33",
       "source": "J Biol Chem",
       "standardName": "RasGRP1 sensitizes an immature B cell line to antigen receptor-induced apoptosis.",
-      "textContent": "98",
+      "textContent": "101",
       "type": [
         "PublicationXref",
         "PubMed:14970203"
@@ -4656,7 +4731,7 @@
       "id": "publicationXrefd3b",
       "source": "J Biol Chem",
       "standardName": "Chemotactic peptide N-formyl-met-leu-phe activation of p38 mitogen-activated protein kinase (MAPK) and MAPK-activated protein kinase-2 in human neutrophils.",
-      "textContent": "18",
+      "textContent": "20",
       "type": [
         "PublicationXref",
         "PubMed:8995385",
@@ -4679,7 +4754,7 @@
       "id": "publicationXrefd45",
       "source": "J Biol Chem",
       "standardName": "Prolonged nuclear retention of activated extracellular signal-regulated kinase 1/2 is required for hepatocyte growth factor-induced cell motility.",
-      "textContent": "68",
+      "textContent": "69",
       "type": [
         "PublicationXref",
         "PubMed:12032150"
@@ -4699,7 +4774,7 @@
       "id": "publicationXrefd53",
       "source": "J Biol Chem",
       "standardName": "Independent and cooperative activation of chromosomal c-fos promoter by STAT3.",
-      "textContent": "92",
+      "textContent": "84",
       "type": [
         "PublicationXref",
         "PubMed:12600988",
@@ -4742,7 +4817,7 @@
       "id": "publicationXrefd90",
       "source": "J Biol Chem",
       "standardName": "Serotonin 5-HT2a and 5-HT2c receptors stimulate amyloid precursor protein ectodomain secretion.",
-      "textContent": "14",
+      "textContent": "9",
       "type": [
         "PublicationXref",
         "PubMed:8626761",
@@ -4770,7 +4845,7 @@
       "id": "publicationXrefd9e",
       "source": "J Biol Chem",
       "standardName": "MAPKAP kinase 2 phosphorylates serum response factor in vitro and in vivo.",
-      "textContent": "26",
+      "textContent": "34",
       "type": [
         "PublicationXref",
         "PubMed:10318869",
@@ -4790,7 +4865,7 @@
       "id": "publicationXrefda6",
       "source": "Cancer Res",
       "standardName": "Farnesyl transferase inhibitor (R115777)-induced inhibition of STAT3(Tyr705) phosphorylation in human pancreatic cancer cell lines require extracellular signal-regulated kinases.",
-      "textContent": "105",
+      "textContent": "104",
       "type": [
         "PublicationXref",
         "PubMed:15805288"
@@ -4814,7 +4889,7 @@
       "id": "publicationXrefdb7",
       "source": "J Biol Chem",
       "standardName": "The serotonin 5-HT2A and 5-HT2C receptors interact with specific sets of PDZ proteins.",
-      "textContent": "97",
+      "textContent": "96",
       "type": [
         "PublicationXref",
         "PubMed:14988405"
@@ -4854,7 +4929,7 @@
       "id": "publicationXrefdc5",
       "source": "J Biol Chem",
       "standardName": "How MAP kinases are regulated.",
-      "textContent": "3",
+      "textContent": "4",
       "type": [
         "PublicationXref",
         "PubMed:7797459",
@@ -4874,7 +4949,7 @@
       "id": "publicationXrefde4",
       "source": "Cell Growth Differ",
       "standardName": "Mitogen-activated protein kinase is required for bryostatin 1-induced differentiation of the human acute lymphoblastic leukemia cell line Reh.",
-      "textContent": "61",
+      "textContent": "53",
       "type": [
         "PublicationXref",
         "PubMed:11751459"
@@ -4894,7 +4969,7 @@
       "id": "publicationXrefded",
       "source": "J Mol Biol",
       "standardName": "Crystal structure of a ternary SAP-1/SRF/c-fos SRE DNA complex.",
-      "textContent": "59",
+      "textContent": "61",
       "type": [
         "PublicationXref",
         "PubMed:11846562",
@@ -4915,7 +4990,7 @@
       "id": "publicationXrefdfc",
       "source": "Mol Cancer Res",
       "standardName": "Extracellular signal-regulated protein kinase signaling is uncoupled from initial differentiation of central nervous system stem cells to neurons.",
-      "textContent": "72",
+      "textContent": "74",
       "type": [
         "PublicationXref",
         "PubMed:12496361"
@@ -4934,7 +5009,7 @@
       "id": "publicationXrefe07",
       "source": "J Biol Chem",
       "standardName": "Exchange factors of the RasGRP family mediate Ras activation in the Golgi.",
-      "textContent": "85",
+      "textContent": "94",
       "type": [
         "PublicationXref",
         "PubMed:12782630"
@@ -4976,7 +5051,7 @@
       "id": "publicationXrefe1f",
       "source": "J Biol Chem",
       "standardName": "RasGRP1 represents a novel non-protein kinase C phorbol ester signaling pathway in mouse epidermal keratinocytes.",
-      "textContent": "88",
+      "textContent": "93",
       "type": [
         "PublicationXref",
         "PubMed:14532295"
@@ -4994,7 +5069,7 @@
       "id": "publicationXrefe30",
       "source": "Am J Physiol Cell Physiol",
       "standardName": "Oxidant stress and endothelial cell dysfunction.",
-      "textContent": "54",
+      "textContent": "55",
       "type": [
         "PublicationXref",
         "PubMed:11245588",
@@ -5016,7 +5091,7 @@
       "id": "publicationXrefe3c",
       "source": "J Biol Chem",
       "standardName": "Distinct roles of mitogen-activated protein kinase pathways in GATA-4 transcription factor-mediated regulation of B-type natriuretic peptide gene.",
-      "textContent": "70",
+      "textContent": "67",
       "type": [
         "PublicationXref",
         "PubMed:11827958",
@@ -5036,7 +5111,7 @@
       "id": "publicationXrefe4c",
       "source": "J Immunol",
       "standardName": "Evidence for protein kinase C-dependent and -independent activation of mitogen-activated protein kinase in T cells: potential role of additional diacylglycerol binding proteins.",
-      "textContent": "41",
+      "textContent": "44",
       "type": [
         "PublicationXref",
         "PubMed:11120810"
@@ -5055,7 +5130,7 @@
       "id": "publicationXrefe4f",
       "source": "Blood",
       "standardName": "Cell-cycle-dependent activation of mitogen-activated protein kinase kinase (MEK-1/2) in myeloid leukemia cell lines and induction of growth inhibition and apoptosis by inhibitors of RAS signaling.",
-      "textContent": "48",
+      "textContent": "60",
       "type": [
         "PublicationXref",
         "PubMed:11238126"
@@ -5075,7 +5150,7 @@
       "id": "publicationXrefe52",
       "source": "Blood",
       "standardName": "Novel nuclear target for thrombin: activation of the Elk1 transcription factor leads to chemokine gene expression.",
-      "textContent": "44",
+      "textContent": "36",
       "type": [
         "PublicationXref",
         "PubMed:11090049"
@@ -5094,7 +5169,7 @@
       "id": "publicationXrefe54",
       "source": "J Neurochem",
       "standardName": "Brief exposure to neurotrophins produces a calcium-dependent increase in choline acetyltransferase activity in cultured rat septal neurons.",
-      "textContent": "43",
+      "textContent": "39",
       "type": [
         "PublicationXref",
         "PubMed:10693929",
@@ -5136,7 +5211,7 @@
       "id": "publicationXrefe5b",
       "source": "EMBO J",
       "standardName": "Identification of novel phosphorylation sites required for activation of MAPKAP kinase-2.",
-      "textContent": "2",
+      "textContent": "5",
       "type": [
         "PublicationXref",
         "PubMed:8846784",
@@ -5157,7 +5232,7 @@
       "id": "publicationXrefe70",
       "source": "Am J Respir Cell Mol Biol",
       "standardName": "Mechanical stimulation initiates intercellular Ca2+ signaling in intact tracheal epithelium maintained under normal gravity and simulated microgravity.",
-      "textContent": "23",
+      "textContent": "22",
       "type": [
         "PublicationXref",
         "PubMed:9569230"
@@ -5177,7 +5252,7 @@
       "id": "publicationXrefe81",
       "source": "Oncogene",
       "standardName": "The brain specific Ras exchange factor CDC25 Mm: modulation of its activity through Gi-protein-mediated signals.",
-      "textContent": "9",
+      "textContent": "13",
       "type": [
         "PublicationXref",
         "PubMed:8700529"
@@ -5202,7 +5277,7 @@
       "id": "publicationXrefe9a",
       "source": "J Biol Chem",
       "standardName": "Hydrogen peroxide stimulates c-Src-mediated big mitogen-activated protein kinase 1 (BMK1) and the MEF2C signaling pathway in PC12 cells: potential role in cell survival following oxidative insults.",
-      "textContent": "73",
+      "textContent": "70",
       "type": [
         "PublicationXref",
         "PubMed:11782488",
@@ -5221,7 +5296,7 @@
       "id": "publicationXrefea1",
       "source": "J Biol Chem",
       "standardName": "The activity of the extracellular signal-regulated kinase 2 is regulated by differential phosphorylation in the activation loop.",
-      "textContent": "69",
+      "textContent": "71",
       "type": [
         "PublicationXref",
         "PubMed:11839761"
@@ -5244,7 +5319,7 @@
       "id": "publicationXrefeca",
       "source": "J Biol Chem",
       "standardName": "Phosphorylation of GATA-4 is involved in alpha 1-adrenergic agonist-responsive transcription of the endothelin-1 gene in cardiac myocytes.",
-      "textContent": "39",
+      "textContent": "38",
       "type": [
         "PublicationXref",
         "PubMed:10788492",
@@ -5268,7 +5343,7 @@
       "id": "publicationXrefed1",
       "source": "J Biol Chem",
       "standardName": "MAPK-mediated phosphorylation of GATA-1 promotes Bcl-XL expression and cell survival.",
-      "textContent": "103",
+      "textContent": "105",
       "type": [
         "PublicationXref",
         "PubMed:15967790"
@@ -5308,7 +5383,7 @@
       "id": "publicationXrefee5",
       "source": "Brain Res",
       "standardName": "Fluoxetine gradually increases [125I]DOI-labelled 5-HT2A/2C receptors in the hypothalamus without changing the levels of Gq- and G11-proteins.",
-      "textContent": "17",
+      "textContent": "19",
       "type": [
         "PublicationXref",
         "PubMed:9439849",
@@ -5330,7 +5405,7 @@
       "id": "publicationXreff07",
       "source": "Fundam Clin Pharmacol",
       "standardName": "Lack of efficacy of 5-HT2A receptor antagonists to reduce brain damage after 3 minutes of transient global cerebral ischaemia in gerbils.",
-      "textContent": "7",
+      "textContent": "2",
       "type": [
         "PublicationXref",
         "PubMed:8808177",
@@ -5353,7 +5428,7 @@
       "id": "publicationXreff0c",
       "source": "J Biol Chem",
       "standardName": "Effect of contraction on mitogen-activated protein kinase signal transduction in skeletal muscle. Involvement Of the mitogen- and stress-activated protein kinase 1.",
-      "textContent": "36",
+      "textContent": "40",
       "type": [
         "PublicationXref",
         "PubMed:10625698",
@@ -5375,7 +5450,7 @@
       "id": "publicationXreff0d",
       "source": "Am J Respir Cell Mol Biol",
       "standardName": "Inositol (1,4,5)trisphosphate metabolism and enhanced calcium mobilization in airway smooth muscle of hyperresponsive rats.",
-      "textContent": "38",
+      "textContent": "37",
       "type": [
         "PublicationXref",
         "PubMed:11017917"
@@ -5393,7 +5468,7 @@
       "id": "publicationXreff1b",
       "source": "J Biol Chem",
       "standardName": "Transient protein-protein interactions and a random-ordered kinetic mechanism for the phosphorylation of a transcription factor by extracellular-regulated protein kinase 2.",
-      "textContent": "77",
+      "textContent": "63",
       "type": [
         "PublicationXref",
         "PubMed:11812784"
@@ -5412,7 +5487,7 @@
       "id": "publicationXreff1e",
       "source": "Endocrinology",
       "standardName": "Protein kinase A-dependent cooperation between GATA and CCAAT/enhancer-binding protein transcription factors regulates steroidogenic acute regulatory protein promoter activity.",
-      "textContent": "65",
+      "textContent": "66",
       "type": [
         "PublicationXref",
         "PubMed:12239105"
@@ -5433,7 +5508,7 @@
       "id": "publicationXreff29",
       "source": "J Biol Chem",
       "standardName": "Critical regions for activation gating of the inositol 1,4,5-trisphosphate receptor.",
-      "textContent": "84",
+      "textContent": "80",
       "type": [
         "PublicationXref",
         "PubMed:12621039"
@@ -5455,7 +5530,7 @@
       "id": "publicationXreff33",
       "source": "Proc Natl Acad Sci U S A",
       "standardName": "Immunophilin FK506 binding protein associated with inositol 1,4,5-trisphosphate receptor modulates calcium flux.",
-      "textContent": "5",
+      "textContent": "7",
       "type": [
         "PublicationXref",
         "PubMed:7533300",
@@ -5477,7 +5552,7 @@
       "id": "publicationXreff43",
       "source": "J Biol Chem",
       "standardName": "Stimulation of stress-activated protein kinase and p38 HOG1 kinase in murine keratinocytes following photodynamic therapy with benzoporphyrin derivative.",
-      "textContent": "10",
+      "textContent": "11",
       "type": [
         "PublicationXref",
         "PubMed:8900202",
@@ -5502,7 +5577,7 @@
       "id": "publicationXreff57",
       "source": "J Biol Chem",
       "standardName": "Constitutive activation of mitogen-activated protein kinase-activated protein kinase 2 by mutation of phosphorylation sites and an A-helix motif.",
-      "textContent": "4",
+      "textContent": "6",
       "type": [
         "PublicationXref",
         "PubMed:7592979",
@@ -5521,7 +5596,7 @@
       "id": "publicationXreff8b",
       "source": "Cancer Res",
       "standardName": "Effects of geldanamycin on signaling through activator-protein 1 in hypoxic HT29 human colon adenocarcinoma cells.",
-      "textContent": "34",
+      "textContent": "25",
       "type": [
         "PublicationXref",
         "PubMed:10463587"
@@ -5540,7 +5615,7 @@
       "id": "publicationXreff92",
       "source": "Mol Biol Cell",
       "standardName": "Regulation of PRAK subcellular location by p38 MAP kinases.",
-      "textContent": "81",
+      "textContent": "92",
       "type": [
         "PublicationXref",
         "PubMed:12808055",
@@ -5560,7 +5635,7 @@
       "id": "publicationXreffa0",
       "source": "Neuropharmacology",
       "standardName": "The sleep inducing brain lipid cis-oleamide (cOA) does not modulate serotonergic transmission in the CA1 pyramidal neurons of the hippocampus in vitro.",
-      "textContent": "96",
+      "textContent": "95",
       "type": [
         "PublicationXref",
         "PubMed:14654098",
@@ -5642,7 +5717,7 @@
       "id": "publicationXreffc4",
       "source": "Biochem Biophys Res Commun",
       "standardName": "Serotonin activates electrolyte transport via 5-HT2A receptor in rat colonic crypt cells.",
-      "textContent": "19",
+      "textContent": "17",
       "type": [
         "PublicationXref",
         "PubMed:9016798",
@@ -5663,7 +5738,7 @@
       "id": "publicationXreffcf",
       "source": "Depress Anxiety",
       "standardName": "Sexual functioning in depressed outpatients taking mirtazapine.",
-      "textContent": "30",
+      "textContent": "24",
       "type": [
         "PublicationXref",
         "PubMed:10431683",
@@ -5684,7 +5759,7 @@
       "id": "publicationXreffd5",
       "source": "Mol Cell Biol",
       "standardName": "The N-terminal pleckstrin, coiled-coil, and IQ domains of the exchange factor Ras-GRF act cooperatively to facilitate activation by calcium.",
-      "textContent": "8",
+      "textContent": "10",
       "type": [
         "PublicationXref",
         "PubMed:8756648",
@@ -5703,7 +5778,7 @@
       "id": "publicationXreffe4",
       "source": "Cancer Res",
       "standardName": "Protein kinase D in small cell lung cancer cells: rapid activation through protein kinase C.",
-      "textContent": "24",
+      "textContent": "32",
       "type": [
         "PublicationXref",
         "PubMed:9973202"
@@ -5728,7 +5803,7 @@
       "id": "publicationXrefff2",
       "source": "Mol Cell Biol",
       "standardName": "Mek2 is dispensable for mouse growth and development.",
-      "textContent": "87",
+      "textContent": "90",
       "type": [
         "PublicationXref",
         "PubMed:12832465",
@@ -5748,7 +5823,7 @@
       "id": "publicationXrefffc",
       "source": "Am J Physiol Cell Physiol",
       "standardName": "Muscarinic stimulation increases basal Ca(2+) and inhibits spontaneous Ca(2+) transients in murine colonic myocytes.",
-      "textContent": "49",
+      "textContent": "59",
       "type": [
         "PublicationXref",
         "PubMed:11171588"
@@ -5768,7 +5843,7 @@
     "author": "[Aruke, Khanspers, MaintBot, AlexanderPico, Thomas, AllanKuchinsky, Andra, Egonw, Zari, Eweitz]",
     "comments": [
       {
-        "content": "This pathway is courtesy of Ariadne Genomics Pathway Studio.\n\nProteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP732 CPTAC Assay Portal]",
+        "content": "This pathway is courtesy of Ariadne Genomics Pathway Studio.\r\n\r\nProteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP732 CPTAC Assay Portal]",
         "source": "WikiPathways-description"
       }
     ],
@@ -5801,7 +5876,7 @@
       "f707d",
       "f82c5",
       "fdd64",
-      "cbcad",
+      "a4b35",
       "a160e",
       "a852d",
       "ac9aa",
@@ -5837,6 +5912,7 @@
     "height": 994.2619047619046,
     "id": "WP732",
     "kaavioType": "Group",
+    "lastModified": "20211217202217",
     "name": "Serotonin receptor 2 and ELK-SRF/GATA4 signaling",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -5845,13 +5921,13 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Serotonin receptor 2 and ELK-SRF/GATA4 signaling\nOrganism: Homo sapiens",
+    "textContent": "Name: Serotonin receptor 2 and ELK-SRF/GATA4 signaling\nLast Modified: 20211217202217\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000854"
     ],
     "verticalAlign": "top",
-    "width": 692.2619047619053,
+    "width": 723.761904761905,
     "x": 0,
     "y": 0,
     "zIndex": 0

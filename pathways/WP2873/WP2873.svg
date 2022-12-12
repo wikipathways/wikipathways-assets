@@ -10,6 +10,12 @@
         <feMorphology in="SourceGraphic" result="inDouble" operator="dilate" radius="3"/>
         <feComposite in="inDouble" in2="in2Double" operator="out" result="doubleResult"/>
       </filter>
+      <filter x="0" y="0" height="787" width="754" id="kaaviowhitetofffffffilter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -1                  0  1  0 0 -1                  0  0  1 0 -1                  0  0  0 1 0"/>
+      </filter>
+      <filter x="0" y="0" height="787" width="754" id="kaavioblacktofffffffilter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 1                   0  -1   0 0 1                   0   0  -1 0 1                   0   0   0 1 0"/>
+      </filter>
       <filter x="0" y="0" height="787" width="754" id="kaaviowhiteto14961efilter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0.0784313725490196                  0  1  0 0 -0.5882352941176471                  0  0  1 0 -0.11764705882352941                  0  0  0 1 0"/>
       </filter>
@@ -27,12 +33,6 @@
       </filter>
       <filter x="0" y="0" height="787" width="754" id="kaavioblackto000000filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0                   0  -1   0 0 0                   0   0  -1 0 0                   0   0   0 1 0"/>
-      </filter>
-      <filter x="0" y="0" height="787" width="754" id="kaaviowhitetofffffffilter" filterUnits="userSpaceOnUse">
-        <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -1                  0  1  0 0 -1                  0  0  1 0 -1                  0  0  0 1 0"/>
-      </filter>
-      <filter x="0" y="0" height="787" width="754" id="kaavioblacktofffffffilter" filterUnits="userSpaceOnUse">
-        <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 1                   0  -1   0 0 1                   0   0  -1 0 1                   0   0   0 1 0"/>
       </filter>
       <filter x="0" y="0" height="787" width="754" id="kaaviowhiteto0000fffilter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0                  0  1  0 0 -0                  0  0  1 0 -1                  0  0  0 1 0"/>
@@ -466,11 +466,11 @@
       </symbol>
     </g>
   </defs>
-  <g id="WP2873" class="Viewport" color="black" name="Name: Aryl hydrocarbon receptor pathway Organism: Homo sapiens">
+  <g id="WP2873" class="Viewport" color="black" name="Name: Aryl hydrocarbon receptor pathway Last Modified: 20220704054409 Organism: Homo sapiens">
     <rect fill="white" stroke="black" stroke-width="0" fill-opacity="1" height="787px" id="WP2873-icon" width="754px" x="0" y="0" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
     <g id="b6f14" class="SingleFreeNode Shape PhysicalEntity CellularComponent Nucleus" color="#c0c0c0" transform="translate(67.5,373.5)">
       <g filter="url(#kaaviodoublefalse3filter)" fill="transparent" fill-opacity="0" stroke="#c0c0c0" stroke-width="3">
-        <rect style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" height="361px" id="b6f14-icon" rx="15" ry="15" width="622px" x="0" y="0" transform="matrix(0.9810725552050473, 0, 0, 0.967828418230563, 5.886435331230302, 5.806970509383376)" class="Icon"/>
+        <use style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" height="361px" id="b6f14-icon" width="622px" x="0" y="0" xlink:href="#Ellipse" transform="matrix(0.9810725552050473, 0, 0, 0.967828418230563, 5.886435331230302, 5.806970509383376)" class="Icon"/>
       </g>
     </g>
     <g id="a4cbf" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#c0c0c0" transform="translate(46.5,117.5)">
@@ -516,9 +516,9 @@
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id14d4e40c-path" d="M663.9246139872841,278.3060853769301L663.9246139872841,315.533445086906" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
-    <g id="id662a5a46" class="Edge Interaction SBO_0000169 Inhibition" color="#000000">
+    <g id="id662a5a46" class="Edge Interaction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="105.73270657552519, 7" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id662a5a46-path" d="M663.9246139872841,335.533445086906L663.9246139872841,424.88653767514734L640.5450000000003,424.88653767514734" marker-end="url(#markerEndTBar)" class="EdgeBody"/>
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id662a5a46-path" d="M663.9246139872841,335.533445086906L663.9246139872841,424.88653767514734L640.5450000000003,424.88653767514734" marker-end="url(#markerEndMimInhibition)" class="EdgeBody"/>
       </g>
     </g>
     <g id="id6936389" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
@@ -587,8 +587,8 @@
         <tspan x="0" y="0">Inflammation</tspan>
       </text>
     </g>
-    <g id="fdebf" class="Group GroupGroup" color="#808080" transform="translate(201.7624095874958,504.6154263443634)">
-      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="78.40477968633297px" id="fdebf-icon" width="95.16355489171033px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+    <g id="d0629" class="Group GroupGroup" color="#808080" transform="translate(201.7624095874958,504.6154263443634)">
+      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="78.40477968633297px" id="d0629-icon" width="95.16355489171033px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
       <g id="d0c8e" class="SingleFreeNode Label" color="#000000" name="Co-activators" transform="translate(8,8)">
         <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="22.40477968633298px" id="d0c8e-icon" width="79.16355489171035px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
         <text id="d0c8e-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(39.581777445855174,14.20238984316649)">
@@ -609,13 +609,13 @@
       </a>
     </g>
     <g id="ae7a3" class="SingleFreeNode DataNode WikiPathways_WP1910 Pathway" color="#14961e" name="EGFR pathway" transform="translate(613.9246139872841,258.3060853769301)">
-      <use fill="transparent" fill-opacity="0" stroke="#14961e" stroke-width="0" height="20px" id="ae7a3-icon" width="100px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <rect fill="#ffffff" stroke="#14961e" stroke-width="1" fill-opacity="1" height="20px" id="ae7a3-icon" rx="15" ry="15" width="100px" x="0" y="0" transform="matrix(0.9900990099009901, 0, 0, 0.9523809523809523, 0.4950495049504937, 0.4761904761904763)" class="Icon"/>
       <text id="ae7a3-text" class="Text" direction="ltr" fill="#14961e" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(50,14)">
         <tspan x="0" y="0">EGFR pathway</tspan>
       </text>
     </g>
-    <g id="c2ae7" class="Group GroupGroup" color="#808080" transform="translate(252.4040428018218,204.86448797232794)">
-      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="127.99999999999994px" id="c2ae7-icon" width="76px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+    <g id="ef627" class="Group GroupGroup" color="#808080" transform="translate(252.4040428018218,204.86448797232794)">
+      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="127.99999999999994px" id="ef627-icon" width="76px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
       <a id="e0aed" class="SingleFreeNode DataNode Ensembl_ENSG00000080824 GeneProduct P594_ENSG00000080824 Entrez_Gene_3320 P351_3320 HGNC_HSP90AA1 HSP90AA1 P353_HSP90AA1 Wikidata_Q18027367" color="#000000" name="HSP90AA1" transform="translate(8,8)" xlink:href="https://tools.wmflabs.org/scholia/Q18027367" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="19.999999999999986px" id="e0aed-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="e0aed-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,12.999999999999993)">
@@ -647,8 +647,8 @@
         <tspan x="0" y="0">Ligand</tspan>
       </text>
     </a>
-    <g id="c056e" class="Group Complex GroupComplex" color="#808080" transform="translate(87.79854517101072,134.88542271583663)">
-      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="124.00000000000006px" id="c056e-icon" width="84px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9882352941176471, 0, 0, 0.992, 0.4941176470588218, 0.4960000000000022)" class="Icon"/>
+    <g id="b131b" class="Group Complex GroupComplex" color="#808080" transform="translate(87.79854517101072,134.88542271583663)">
+      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="124.00000000000006px" id="b131b-icon" width="84px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9882352941176471, 0, 0, 0.992, 0.4941176470588218, 0.4960000000000022)" class="Icon"/>
       <a id="a9692" class="SingleFreeNode DataNode Ensembl_ENSG00000197122 GeneProduct P594_ENSG00000197122 Entrez_Gene_6714 P351_6714 HGNC_SRC SRC P353_SRC Wikidata_Q424737" color="#000000" name="SRC" transform="translate(12,92.00000000000006)" xlink:href="https://tools.wmflabs.org/scholia/Q424737" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="19.999999999999993px" id="a9692-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="a9692-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,12.999999999999996)">
@@ -692,8 +692,8 @@
         <tspan x="0" y="0">TNF</tspan>
       </text>
     </a>
-    <g id="dda0d" class="Group Complex GroupComplex" color="#808080" transform="translate(87.79854517101072,406.7359392608214)">
-      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="84.00000000000011px" id="dda0d-icon" width="84px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9882352941176471, 0, 0, 0.9882352941176471, 0.4941176470588218, 0.4941176470588218)" class="Icon"/>
+    <g id="aa9db" class="Group Complex GroupComplex" color="#808080" transform="translate(87.79854517101072,406.7359392608214)">
+      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="84.00000000000011px" id="aa9db-icon" width="84px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9882352941176471, 0, 0, 0.9882352941176471, 0.4941176470588218, 0.4941176470588218)" class="Icon"/>
       <a id="d6cb1" class="SingleFreeNode DataNode Entrez_Gene_405 GeneProduct Ensembl_ENSG00000143437 P594_ENSG00000143437 P351_405 HGNC_ARNT ARNT P353_ARNT Wikidata_Q14905275" color="#000000" name="ARNT" transform="translate(12,52.000000000000114)" xlink:href="https://tools.wmflabs.org/scholia/Q14905275" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="d6cb1-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="d6cb1-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
@@ -725,8 +725,8 @@
         <tspan x="0" y="0">ARNT</tspan>
       </text>
     </a>
-    <g id="bb8b3" class="Group Complex GroupComplex" color="#808080" transform="translate(387.0566037735847,272.18832983927325)">
-      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="63.99999999999977px" id="bb8b3-icon" width="84.00000000000057px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9882352941176471, 0, 0, 0.9846153846153846, 0.4941176470588218, 0.4923076923076941)" class="Icon"/>
+    <g id="e217a" class="Group Complex GroupComplex" color="#808080" transform="translate(387.0566037735847,272.18832983927325)">
+      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="63.99999999999977px" id="e217a-icon" width="84.00000000000057px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9882352941176471, 0, 0, 0.9846153846153846, 0.4941176470588218, 0.4923076923076941)" class="Icon"/>
       <a id="b8f15" class="SingleFreeNode DataNode Ensembl_ENSG00000197122 GeneProduct P594_ENSG00000197122 Entrez_Gene_6714 P351_6714 HGNC_SRC SRC P353_SRC Wikidata_Q424737" color="#000000" name="SRC" transform="translate(12.000000000000568,31.999999999999773)" xlink:href="https://tools.wmflabs.org/scholia/Q424737" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="19.999999999999993px" id="b8f15-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="b8f15-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,12.999999999999996)">
@@ -740,8 +740,8 @@
         </text>
       </a>
     </g>
-    <g id="ea580" class="Group Complex GroupComplex" color="#808080" transform="translate(87.79854517101072,286.4012672394023)">
-      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="63.999999999999886px" id="ea580-icon" width="84px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9882352941176471, 0, 0, 0.9846153846153846, 0.4941176470588218, 0.4923076923076941)" class="Icon"/>
+    <g id="f9aed" class="Group Complex GroupComplex" color="#808080" transform="translate(87.79854517101072,286.4012672394023)">
+      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="63.999999999999886px" id="f9aed-icon" width="84px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9882352941176471, 0, 0, 0.9846153846153846, 0.4941176470588218, 0.4923076923076941)" class="Icon"/>
       <a id="ff908" class="SingleFreeNode DataNode Ensembl_ENSG00000106546 GeneProduct P594_ENSG00000106546 Entrez_Gene_196 P351_196 HGNC_AHR AHR P353_AHR Wikidata_Q14916312" color="#000000" name="AHR" transform="translate(12,31.999999999999886)" xlink:href="https://tools.wmflabs.org/scholia/Q14916312" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="ff908-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="ff908-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
@@ -766,8 +766,8 @@
         <use fill="#141414" stroke-width="0" fill-opacity="1" height="0" id="db26a-icon" width="0" x="0" y="0" xlink:href="#none" class="Icon"/>
       </g>
     </g>
-    <g id="f3515" class="Group Complex GroupComplex" color="#808080" transform="translate(87.79854517101072,514.7894942425629)">
-      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="99.74740704388103px" id="f3515-icon" width="84px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9882352941176471, 0, 0, 0.99007418623127, 0.4941176470588218, 0.49503709311563426)" class="Icon"/>
+    <g id="be064" class="Group Complex GroupComplex" color="#808080" transform="translate(87.79854517101072,514.7894942425629)">
+      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="99.74740704388103px" id="be064-icon" width="84px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9882352941176471, 0, 0, 0.99007418623127, 0.4941176470588218, 0.49503709311563426)" class="Icon"/>
       <a id="d8ae5" class="SingleFreeNode DataNode Entrez_Gene_405 GeneProduct Ensembl_ENSG00000143437 P594_ENSG00000143437 P351_405 HGNC_ARNT ARNT P353_ARNT Wikidata_Q14905275" color="#000000" name="ARNT" transform="translate(12,32)" xlink:href="https://tools.wmflabs.org/scholia/Q14905275" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="d8ae5-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="d8ae5-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
@@ -810,9 +810,9 @@
         <tspan x="0" y="0">TATA box</tspan>
       </text>
     </g>
-    <g id="ff1fe" class="Group GroupGroup" color="#808080" transform="translate(572.5450000000003,586.8881118881122)">
-      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="136px" id="ff1fe-icon" width="76px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-      <g id="adfa8" class="SingleFreeNode DataNode Ensembl_ENSG00000243135 GeneProduct P594_ENSG00000243135 Entrez_Gene_54659 P351_54659 HGNC_UGT1A3 UGT1A3 P353_UGT1A3" color="#000000" name="UGT1A3" transform="translate(8,28)">
+    <g id="b7763" class="Group GroupGroup" color="#808080" transform="translate(572.5450000000003,586.8881118881122)">
+      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="136px" id="b7763-icon" width="76px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <g id="adfa8" class="SingleFreeNode DataNode Ensembl_ENSG00000243135 GeneProduct" color="#000000" name="UGT1A3" transform="translate(8,28)">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="adfa8-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="adfa8-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">UGT1A3</tspan>
@@ -849,8 +849,8 @@
         </text>
       </a>
     </g>
-    <g id="a78f1" class="Group GroupGroup" color="#808080" transform="translate(403.1123749999979,406.88653767514734)">
-      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="136px" id="a78f1-icon" width="76px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+    <g id="b788c" class="Group GroupGroup" color="#808080" transform="translate(403.1123749999979,406.88653767514734)">
+      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="136px" id="b788c-icon" width="76px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
       <a id="aa824" class="SingleFreeNode DataNode Ensembl_ENSG00000103257 GeneProduct P594_ENSG00000103257 Entrez_Gene_8140 P351_8140 HGNC_SLC7A5 SLC7A5 P353_SLC7A5 Wikidata_Q18032750" color="#000000" name="SLC7A5" transform="translate(8,28)" xlink:href="https://tools.wmflabs.org/scholia/Q18032750" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="aa824-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="aa824-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
@@ -888,8 +888,8 @@
         </text>
       </a>
     </g>
-    <g id="c8b1a" class="Group GroupGroup" color="#808080" transform="translate(488.53534191783615,406.88653767514734)">
-      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="176px" id="c8b1a-icon" width="76px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+    <g id="bcf7a" class="Group GroupGroup" color="#808080" transform="translate(488.53534191783615,406.88653767514734)">
+      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="176px" id="bcf7a-icon" width="76px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
       <a id="d53fc" class="SingleFreeNode DataNode Ensembl_ENSG00000111537 GeneProduct P594_ENSG00000111537 Entrez_Gene_3458 P351_3458 HGNC_IFNG IFNG P353_IFNG Wikidata_Q18027639" color="#000000" name="IFNG" transform="translate(8,128)" xlink:href="https://tools.wmflabs.org/scholia/Q18027639" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="d53fc-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="d53fc-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
@@ -939,8 +939,8 @@
         </text>
       </a>
     </g>
-    <g id="bde0d" class="Group GroupGroup" color="#808080" transform="translate(572.5450000000003,406.88653767514734)">
-      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="156px" id="bde0d-icon" width="76px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+    <g id="f6cef" class="Group GroupGroup" color="#808080" transform="translate(572.5450000000003,406.88653767514734)">
+      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="156px" id="f6cef-icon" width="76px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
       <a id="c6247" class="SingleFreeNode DataNode Ensembl_ENSG00000172828 GeneProduct P594_ENSG00000172828 Entrez_Gene_23491 P351_23491 HGNC_CES3 CES3 P353_CES3 Wikidata_Q18037213" color="#000000" name="CES3" transform="translate(8,128)" xlink:href="https://tools.wmflabs.org/scholia/Q18037213" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="c6247-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="c6247-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
@@ -984,8 +984,8 @@
         </text>
       </a>
     </g>
-    <g id="df96f" class="Group GroupGroup" color="#808080" transform="translate(488.53534191783615,611.2610377253554)">
-      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="56px" id="df96f-icon" width="76px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+    <g id="bdc7a" class="Group GroupGroup" color="#808080" transform="translate(488.53534191783615,611.2610377253554)">
+      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="56px" id="bdc7a-icon" width="76px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
       <a id="db0f0" class="SingleFreeNode DataNode Ensembl_ENSG00000171223 GeneProduct P594_ENSG00000171223 Entrez_Gene_3726 P351_3726 HGNC_JUNB JUNB P353_JUNB Wikidata_Q18028096" color="#000000" name="JUNB" transform="translate(8,8)" xlink:href="https://tools.wmflabs.org/scholia/Q18028096" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="db0f0-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="db0f0-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
@@ -999,13 +999,13 @@
         </text>
       </a>
     </g>
-    <g id="fde92" class="Edge Interaction SBO_0000169 Inhibition" color="#000000">
+    <g id="fde92" class="Edge Interaction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="315.21134760761163, 7" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="fde92-path" d="M411.1123749999979,424.88653767514734L248,425L171.79854517101072,564.6631977645034" marker-end="url(#markerEndTBar)" class="EdgeBody"/>
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="fde92-path" d="M411.1123749999979,424.88653767514734L248,425L171.79854517101072,564.6631977645034" marker-end="url(#markerEndMimInhibition)" class="EdgeBody"/>
       </g>
     </g>
-    <g id="d2d14" class="Group GroupGroup" color="#808080" transform="translate(403.1123749999979,568.3685144541482)">
-      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="135.9999999999984px" id="d2d14-icon" width="76px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+    <g id="fdf75" class="Group GroupGroup" color="#808080" transform="translate(403.1123749999979,568.3685144541482)">
+      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="135.9999999999984px" id="fdf75-icon" width="76px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
       <a id="d91e1" class="SingleFreeNode DataNode Ensembl_ENSG00000111276 GeneProduct P594_ENSG00000111276 Entrez_Gene_1027 P351_1027 HGNC_CDKN1B CDKN1B P353_CDKN1B Wikidata_Q20969983" color="#000000" name="CDKN1B" transform="translate(8,67.99999999999932)" xlink:href="https://tools.wmflabs.org/scholia/Q20969983" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="d91e1-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="d91e1-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
@@ -1056,9 +1056,10 @@
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="b514e-path" d="M325.5,539.4486517094015L299,539.5L288,586.7607994842044" marker-start="url(#markerStartArrow)" class="EdgeBody"/>
       </g>
     </g>
-    <text id="WP2873-text" class="Text" direction="ltr" dominant-baseline="central" fill="black" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" overflow="visible" stroke="white" stroke-width="0px" text-anchor="start" transform="translate(5,27)">
-      <tspan x="0" y="-9">Name: Aryl hydrocarbon receptor pathway</tspan>
-      <tspan x="0" y="9">Organism: Homo sapiens</tspan>
+    <text id="WP2873-text" class="Text" direction="ltr" dominant-baseline="central" fill="black" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" overflow="visible" stroke="white" stroke-width="0px" text-anchor="start" transform="translate(5,36)">
+      <tspan x="0" y="-18">Name: Aryl hydrocarbon receptor pathway</tspan>
+      <tspan x="0" y="0">Last Modified: 20220704054409</tspan>
+      <tspan x="0" y="18">Organism: Homo sapiens</tspan>
     </text>
   </g>
 </svg>

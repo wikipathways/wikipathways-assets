@@ -1,5 +1,27 @@
 {
   "entitiesById": {
+    "881800": {
+      "__HighlandStream__": true,
+      "_can_drain": false,
+      "_consume_waiting_for_next": false,
+      "_consumers": [],
+      "_delegate": null,
+      "_destructors": [],
+      "_events": {},
+      "_eventsCount": 2,
+      "_in_consume_cb": false,
+      "_incoming": [],
+      "_is_observer": false,
+      "_nil_pushed": false,
+      "_observers": [],
+      "_outgoing": [],
+      "_repeat_resume": false,
+      "_send_events": false,
+      "id": "881800",
+      "paused": true,
+      "source": null,
+      "writable": true
+    },
     "a4f14": {
       "cellularComponent": "Vesicle",
       "citations": [
@@ -75,35 +97,6 @@
       "y": 286.85911575129273,
       "zIndex": 28674
     },
-    "a9cf8": {
-      "contains": [
-        "cb747",
-        "ff5d7"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 86.18189527061492,
-      "id": "a9cf8",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 106.78969311281992,
-      "x": 582.2108997510013,
-      "y": 465.03523624597943,
-      "zIndex": 32818
-    },
     "aa2e7": {
       "citations": [
         "publicationXrefbdc"
@@ -150,35 +143,6 @@
       "y": 591.7250238169437,
       "zIndex": 32824
     },
-    "aa393": {
-      "contains": [
-        "caac2",
-        "f9c0c"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 89.39895958298206,
-      "id": "aa393",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 93.49628404229006,
-      "x": 244.24677567568918,
-      "y": 313.16219486389764,
-      "zIndex": 32791
-    },
     "acbb8": {
       "drawAs": "StraightLine",
       "fill": "none",
@@ -202,6 +166,7 @@
               0.5
             ]
           },
+          "id": "d1078",
           "isAttachedTo": "cb747",
           "orientation": [
             1,
@@ -221,6 +186,7 @@
               0.5
             ]
           },
+          "id": "f0a08",
           "isAttachedTo": "e8ea2",
           "orientation": [
             1,
@@ -253,7 +219,7 @@
       "gpmlElementName": "Interaction",
       "id": "adcb3",
       "isAttachedTo": [
-        "eaa90",
+        "bdbcf",
         "aa2e7"
       ],
       "kaavioType": "Edge",
@@ -270,7 +236,8 @@
               0.5
             ]
           },
-          "isAttachedTo": "eaa90",
+          "id": "a9829",
+          "isAttachedTo": "bdbcf",
           "orientation": [
             1,
             0
@@ -289,6 +256,7 @@
               0.5
             ]
           },
+          "id": "d6fc6",
           "isAttachedTo": "aa2e7",
           "orientation": [
             1,
@@ -321,7 +289,7 @@
       "gpmlElementName": "DataNode",
       "height": 31.461168914710505,
       "id": "b279a",
-      "isPartOf": "eaa90",
+      "isPartOf": "bdbcf",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -335,8 +303,12 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "ChEBI:CHEBI:37404",
-        "Metabolite"
+        "ChEBI:CHEBI:23378",
+        "Metabolite",
+        "ChEBI:23378",
+        "P683:23378",
+        "P683:CHEBI:23378",
+        "Wikidata:Q71275796"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -344,7 +316,7 @@
       "wpType": "Metabolite",
       "x": 65.65399490347522,
       "xrefDataSource": "ChEBI",
-      "xrefIdentifier": "CHEBI:37404",
+      "xrefIdentifier": "CHEBI:23378",
       "y": 8,
       "zIndex": 32794
     },
@@ -425,6 +397,35 @@
       "y": 481.54981549815494,
       "zIndex": 32806
     },
+    "b5bb8": {
+      "contains": [
+        "caac2",
+        "f9c0c"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 89.39895958298206,
+      "id": "b5bb8",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 93.49628404229006,
+      "x": 244.24677567568918,
+      "y": 313.16219486389764,
+      "zIndex": 32791
+    },
     "bc2cd": {
       "drawAs": "Ellipse",
       "fill": "#ffffff",
@@ -448,8 +449,12 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "ChEBI:CHEBI:37404",
-        "Metabolite"
+        "ChEBI:CHEBI:23378",
+        "Metabolite",
+        "ChEBI:23378",
+        "P683:23378",
+        "P683:CHEBI:23378",
+        "Wikidata:Q71275796"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -457,7 +462,7 @@
       "wpType": "Metabolite",
       "x": 500.8793534932248,
       "xrefDataSource": "ChEBI",
-      "xrefIdentifier": "CHEBI:37404",
+      "xrefIdentifier": "CHEBI:23378",
       "y": 321.4201101023768,
       "zIndex": 32816
     },
@@ -500,6 +505,64 @@
       "y": 55.897959183673464,
       "zIndex": 32782
     },
+    "bdbcf": {
+      "contains": [
+        "f16ba",
+        "b279a"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 69.79193665796095,
+      "id": "bdbcf",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 115.18109906227158,
+      "x": 327.95267969349356,
+      "y": 586.4602432561959,
+      "zIndex": 32768
+    },
+    "c2188": {
+      "contains": [
+        "id55938d53",
+        "f0b3a"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 77.08265903984761,
+      "id": "c2188",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 57.52710415879636,
+      "x": 271.2505386115557,
+      "y": 252.07953582405003,
+      "zIndex": 12294
+    },
     "c30ec": {
       "citations": [
         "publicationXrefbdc"
@@ -515,7 +578,7 @@
       "id": "c30ec",
       "isAttachedTo": [
         "b5977",
-        "aa393"
+        "b5bb8"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -531,6 +594,7 @@
               0
             ]
           },
+          "id": "f3d17",
           "isAttachedTo": "b5977",
           "orientation": [
             0,
@@ -550,7 +614,8 @@
               0.75
             ]
           },
-          "isAttachedTo": "aa393",
+          "id": "f685b",
+          "isAttachedTo": "b5bb8",
           "orientation": [
             -1,
             0
@@ -664,7 +729,7 @@
       "gpmlElementName": "Interaction",
       "id": "c9abb",
       "isAttachedTo": [
-        "eaa90",
+        "bdbcf",
         "b5977"
       ],
       "kaavioType": "Edge",
@@ -681,13 +746,14 @@
               0
             ]
           },
-          "isAttachedTo": "eaa90",
+          "id": "e1098",
+          "isAttachedTo": "bdbcf",
           "orientation": [
             0,
             -1
           ],
           "x": 414.3385039901973,
-          "y": 586.460243256196
+          "y": 586.4602432561959
         },
         {
           "attachmentDisplay": {
@@ -700,6 +766,7 @@
               1
             ]
           },
+          "id": "f6e07",
           "isAttachedTo": "b5977",
           "orientation": [
             0,
@@ -770,7 +837,7 @@
       "gpmlElementName": "DataNode",
       "height": 59.164733178654274,
       "id": "caac2",
-      "isPartOf": "aa393",
+      "isPartOf": "b5bb8",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -812,7 +879,7 @@
       "gpmlElementName": "DataNode",
       "height": 59.164733178654274,
       "id": "cb747",
-      "isPartOf": "a9cf8",
+      "isPartOf": "f9fcf",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -934,8 +1001,12 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "ChEBI:CHEBI:37404",
-        "Metabolite"
+        "ChEBI:CHEBI:23378",
+        "Metabolite",
+        "ChEBI:23378",
+        "P683:23378",
+        "P683:CHEBI:23378",
+        "Wikidata:Q71275796"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -943,11 +1014,11 @@
       "wpType": "Metabolite",
       "x": 714.1165714551167,
       "xrefDataSource": "ChEBI",
-      "xrefIdentifier": "CHEBI:37404",
+      "xrefIdentifier": "CHEBI:23378",
       "y": 605.0645845732338,
       "zIndex": 32778
     },
-    "d2488": {
+    "dbfc4": {
       "contains": [
         "ee286",
         "fae63"
@@ -959,7 +1030,7 @@
       "fontWeight": "bold",
       "gpmlElementName": "Group",
       "height": 85.73004286877631,
-      "id": "d2488",
+      "id": "dbfc4",
       "kaavioType": "Group",
       "padding": 8,
       "stroke": "#808080",
@@ -999,6 +1070,7 @@
               0.5
             ]
           },
+          "id": "ac92b",
           "isAttachedTo": "f3cb8",
           "orientation": [
             1,
@@ -1018,6 +1090,7 @@
               0.5
             ]
           },
+          "id": "feaaf",
           "isAttachedTo": "cf863",
           "orientation": [
             1,
@@ -1039,6 +1112,35 @@
       ],
       "zIndex": 32774
     },
+    "dda07": {
+      "contains": [
+        "f3cb8",
+        "de144"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 80.94326128696025,
+      "id": "dda07",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 92.72620872947243,
+      "x": 598.4316860073696,
+      "y": 580.888227027923,
+      "zIndex": 32808
+    },
     "de144": {
       "drawAs": "Ellipse",
       "fill": "#ffffff",
@@ -1049,7 +1151,7 @@
       "gpmlElementName": "DataNode",
       "height": 31.461168914710505,
       "id": "de144",
-      "isPartOf": "fe7a5",
+      "isPartOf": "dda07",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1063,8 +1165,12 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "ChEBI:CHEBI:37404",
-        "Metabolite"
+        "ChEBI:CHEBI:23378",
+        "Metabolite",
+        "ChEBI:23378",
+        "P683:23378",
+        "P683:CHEBI:23378",
+        "Wikidata:Q71275796"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1072,7 +1178,7 @@
       "wpType": "Metabolite",
       "x": 8,
       "xrefDataSource": "ChEBI",
-      "xrefIdentifier": "CHEBI:37404",
+      "xrefIdentifier": "CHEBI:23378",
       "y": 24.74104618612489,
       "zIndex": 32826
     },
@@ -1099,8 +1205,12 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "ChEBI:CHEBI:37404",
-        "Metabolite"
+        "ChEBI:CHEBI:23378",
+        "Metabolite",
+        "ChEBI:23378",
+        "P683:23378",
+        "P683:CHEBI:23378",
+        "Wikidata:Q71275796"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1108,7 +1218,7 @@
       "wpType": "Metabolite",
       "x": 261.92406179385716,
       "xrefDataSource": "ChEBI",
-      "xrefIdentifier": "CHEBI:37404",
+      "xrefIdentifier": "CHEBI:23378",
       "y": 572.2272904079521,
       "zIndex": 32802
     },
@@ -1124,7 +1234,7 @@
       "id": "e4484",
       "isAttachedTo": [
         "b5977",
-        "d2488"
+        "dbfc4"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -1140,6 +1250,7 @@
               0
             ]
           },
+          "id": "a179d",
           "isAttachedTo": "b5977",
           "orientation": [
             0,
@@ -1159,7 +1270,8 @@
               1
             ]
           },
-          "isAttachedTo": "d2488",
+          "id": "f8ddd",
+          "isAttachedTo": "dbfc4",
           "orientation": [
             0,
             -1
@@ -1204,8 +1316,12 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "ChEBI:CHEBI:37404",
-        "Metabolite"
+        "ChEBI:CHEBI:23378",
+        "Metabolite",
+        "ChEBI:23378",
+        "P683:23378",
+        "P683:CHEBI:23378",
+        "Wikidata:Q71275796"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1213,7 +1329,7 @@
       "wpType": "Metabolite",
       "x": 711.8953095709333,
       "xrefDataSource": "ChEBI",
-      "xrefIdentifier": "CHEBI:37404",
+      "xrefIdentifier": "CHEBI:23378",
       "y": 487.3561131792799,
       "zIndex": 32776
     },
@@ -1265,8 +1381,12 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "ChEBI:CHEBI:37404",
-        "Metabolite"
+        "ChEBI:CHEBI:23378",
+        "Metabolite",
+        "ChEBI:23378",
+        "P683:23378",
+        "P683:CHEBI:23378",
+        "Wikidata:Q71275796"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1274,38 +1394,9 @@
       "wpType": "Metabolite",
       "x": 11.49762614461119,
       "xrefDataSource": "ChEBI",
-      "xrefIdentifier": "CHEBI:37404",
+      "xrefIdentifier": "CHEBI:23378",
       "y": 567,
       "zIndex": 32800
-    },
-    "eaa90": {
-      "contains": [
-        "f16ba",
-        "b279a"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 69.79193665796095,
-      "id": "eaa90",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 115.18109906227158,
-      "x": 327.95267969349356,
-      "y": 586.4602432561959,
-      "zIndex": 32768
     },
     "ee286": {
       "citations": [
@@ -1320,7 +1411,7 @@
       "gpmlElementName": "DataNode",
       "height": 59.164733178654274,
       "id": "ee286",
-      "isPartOf": "d2488",
+      "isPartOf": "dbfc4",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1359,7 +1450,7 @@
       "gpmlElementName": "DataNode",
       "height": 31.461168914710505,
       "id": "f0b3a",
-      "isPartOf": "pvjsgeneratedidff5d8",
+      "isPartOf": "c2188",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1373,8 +1464,12 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "ChEBI:CHEBI:37404",
-        "Metabolite"
+        "ChEBI:CHEBI:23378",
+        "Metabolite",
+        "ChEBI:23378",
+        "P683:23378",
+        "P683:CHEBI:23378",
+        "Wikidata:Q71275796"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1382,7 +1477,7 @@
       "wpType": "Metabolite",
       "x": 8,
       "xrefDataSource": "ChEBI",
-      "xrefIdentifier": "CHEBI:37404",
+      "xrefIdentifier": "CHEBI:23378",
       "y": 8,
       "zIndex": 32770
     },
@@ -1433,7 +1528,7 @@
       "gpmlElementName": "DataNode",
       "height": 49.78464448550742,
       "id": "f16ba",
-      "isPartOf": "eaa90",
+      "isPartOf": "bdbcf",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1558,7 +1653,7 @@
       "gpmlElementName": "DataNode",
       "height": 64.94326128696024,
       "id": "f3cb8",
-      "isPartOf": "fe7a5",
+      "isPartOf": "dda07",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1644,6 +1739,7 @@
               0.5
             ]
           },
+          "id": "affbc",
           "isAttachedTo": "e9a16",
           "orientation": [
             1,
@@ -1663,6 +1759,7 @@
               0.5
             ]
           },
+          "id": "ef34b",
           "isAttachedTo": "e2d88",
           "orientation": [
             1,
@@ -1707,6 +1804,7 @@
               0.25
             ]
           },
+          "id": "d141e",
           "isAttachedTo": "ee286",
           "orientation": [
             1,
@@ -1726,6 +1824,7 @@
               1
             ]
           },
+          "id": "e9c32",
           "isAttachedTo": "bc2cd",
           "orientation": [
             0,
@@ -1757,7 +1856,7 @@
       "gpmlElementName": "DataNode",
       "height": 31.461168914710505,
       "id": "f9c0c",
-      "isPartOf": "aa393",
+      "isPartOf": "b5bb8",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1771,8 +1870,12 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "ChEBI:CHEBI:37404",
-        "Metabolite"
+        "ChEBI:CHEBI:23378",
+        "Metabolite",
+        "ChEBI:23378",
+        "P683:23378",
+        "P683:CHEBI:23378",
+        "Wikidata:Q71275796"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1780,51 +1883,14 @@
       "wpType": "Metabolite",
       "x": 8,
       "xrefDataSource": "ChEBI",
-      "xrefIdentifier": "CHEBI:37404",
+      "xrefIdentifier": "CHEBI:23378",
       "y": 49.93779066827153,
       "zIndex": 32792
     },
-    "fae63": {
-      "drawAs": "Ellipse",
-      "fill": "#ffffff",
-      "fontFamily": "Arial",
-      "fontSize": 16,
-      "fontStyle": "normal",
-      "fontWeight": "bold",
-      "gpmlElementName": "DataNode",
-      "height": 31.461168914710505,
-      "id": "fae63",
-      "isPartOf": "d2488",
-      "kaavioType": "SingleFreeNode",
-      "lineHeight": 1.1,
-      "overflow": "hidden",
-      "padding": 8,
-      "stroke": "#0000ff",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "textContent": "Cu",
-      "textDecoration": "none",
-      "textOverflow": "clip",
-      "type": [
-        "DataNode",
-        "SingleFreeNode",
-        "ChEBI:CHEBI:37404",
-        "Metabolite"
-      ],
-      "verticalAlign": "middle",
-      "whiteSpace": "pre",
-      "width": 41.52710415879636,
-      "wpType": "Metabolite",
-      "x": 8,
-      "xrefDataSource": "ChEBI",
-      "xrefIdentifier": "CHEBI:37404",
-      "y": 46.26887395406578,
-      "zIndex": 32814
-    },
-    "fe7a5": {
+    "f9fcf": {
       "contains": [
-        "f3cb8",
-        "de144"
+        "cb747",
+        "ff5d7"
       ],
       "drawAs": "none",
       "fill": "transparent",
@@ -1832,8 +1898,8 @@
       "fontSize": 1,
       "fontWeight": "bold",
       "gpmlElementName": "Group",
-      "height": 80.94326128696025,
-      "id": "fe7a5",
+      "height": 86.18189527061492,
+      "id": "f9fcf",
       "kaavioType": "Group",
       "padding": 8,
       "stroke": "#808080",
@@ -1845,12 +1911,12 @@
         "GroupGroup"
       ],
       "verticalAlign": "middle",
-      "width": 92.72620872947243,
-      "x": 598.4316860073696,
-      "y": 580.888227027923,
-      "zIndex": 32808
+      "width": 106.78969311281992,
+      "x": 582.2108997510013,
+      "y": 465.03523624597943,
+      "zIndex": 32818
     },
-    "ff5d7": {
+    "fae63": {
       "drawAs": "Ellipse",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -1859,8 +1925,8 @@
       "fontWeight": "bold",
       "gpmlElementName": "DataNode",
       "height": 31.461168914710505,
-      "id": "ff5d7",
-      "isPartOf": "a9cf8",
+      "id": "fae63",
+      "isPartOf": "dbfc4",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1874,8 +1940,12 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "ChEBI:CHEBI:37404",
-        "Metabolite"
+        "ChEBI:CHEBI:23378",
+        "Metabolite",
+        "ChEBI:23378",
+        "P683:23378",
+        "P683:CHEBI:23378",
+        "Wikidata:Q71275796"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1883,19 +1953,50 @@
       "wpType": "Metabolite",
       "x": 8,
       "xrefDataSource": "ChEBI",
-      "xrefIdentifier": "CHEBI:37404",
+      "xrefIdentifier": "CHEBI:23378",
+      "y": 46.26887395406578,
+      "zIndex": 32814
+    },
+    "ff5d7": {
+      "drawAs": "Ellipse",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 16,
+      "fontStyle": "normal",
+      "fontWeight": "bold",
+      "gpmlElementName": "DataNode",
+      "height": 31.461168914710505,
+      "id": "ff5d7",
+      "isPartOf": "f9fcf",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#0000ff",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Cu",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "ChEBI:CHEBI:23378",
+        "Metabolite",
+        "ChEBI:23378",
+        "P683:23378",
+        "P683:CHEBI:23378",
+        "Wikidata:Q71275796"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 41.52710415879636,
+      "wpType": "Metabolite",
+      "x": 8,
+      "xrefDataSource": "ChEBI",
+      "xrefIdentifier": "CHEBI:23378",
       "y": 46.720726355904446,
       "zIndex": 32822
-    },
-    "http://identifiers.org/cl/CL:0002563": {
-      "gpmlElementName": "openControlledVocabulary",
-      "id": "http://identifiers.org/cl/CL:0002563",
-      "ontology": "Cell Type",
-      "term": "intestinal epithelial cell",
-      "type": [
-        "openControlledVocabulary"
-      ],
-      "xrefIdentifier": "CL:0002563"
     },
     "http://identifiers.org/pw/PW:0001002": {
       "gpmlElementName": "openControlledVocabulary",
@@ -1930,6 +2031,7 @@
               0.5
             ]
           },
+          "id": "baf1c",
           "isAttachedTo": "e2d88",
           "orientation": [
             1,
@@ -1949,6 +2051,7 @@
               0.25
             ]
           },
+          "id": "c3070",
           "isAttachedTo": "f16ba",
           "orientation": [
             1,
@@ -1993,6 +2096,7 @@
               0
             ]
           },
+          "id": "d03ff",
           "isAttachedTo": "f3c75",
           "orientation": [
             0,
@@ -2012,6 +2116,7 @@
               0.75
             ]
           },
+          "id": "a12b5",
           "isAttachedTo": "bccfe",
           "orientation": [
             -1,
@@ -2039,7 +2144,7 @@
         "caac2",
         "f0b3a"
       ],
-      "isPartOf": "pvjsgeneratedidff5d8",
+      "isPartOf": "c2188",
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
       "points": [
@@ -2054,6 +2159,7 @@
               0
             ]
           },
+          "id": "a0f3e",
           "isAttachedTo": "caac2",
           "orientation": [
             0,
@@ -2073,6 +2179,7 @@
               1
             ]
           },
+          "id": "be394",
           "isAttachedTo": "f0b3a",
           "orientation": [
             0,
@@ -2117,6 +2224,7 @@
               1
             ]
           },
+          "id": "f8aaf",
           "isAttachedTo": "c9d84",
           "orientation": [
             0,
@@ -2137,6 +2245,7 @@
               0
             ]
           },
+          "id": "f90ef",
           "isAttachedTo": "e9419",
           "orientation": [],
           "x": 185.72740052978378,
@@ -2166,7 +2275,7 @@
       "id": "idbdb8f4db",
       "isAttachedTo": [
         "aa2e7",
-        "fe7a5"
+        "dda07"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -2182,6 +2291,7 @@
               0.5
             ]
           },
+          "id": "d0f53",
           "isAttachedTo": "aa2e7",
           "orientation": [
             1,
@@ -2201,7 +2311,8 @@
               0.5
             ]
           },
-          "isAttachedTo": "fe7a5",
+          "id": "d3e8b",
+          "isAttachedTo": "dda07",
           "orientation": [
             1,
             0
@@ -2238,7 +2349,7 @@
       "id": "idc1166250",
       "isAttachedTo": [
         "b5977",
-        "a9cf8"
+        "f9fcf"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -2254,6 +2365,7 @@
               0.5
             ]
           },
+          "id": "e5f2e",
           "isAttachedTo": "b5977",
           "orientation": [
             1,
@@ -2273,7 +2385,8 @@
               0.5
             ]
           },
-          "isAttachedTo": "a9cf8",
+          "id": "f5ad2",
+          "isAttachedTo": "f9fcf",
           "orientation": [
             1,
             0
@@ -2317,6 +2430,7 @@
               1
             ]
           },
+          "id": "b61a8",
           "isAttachedTo": "f3c75",
           "orientation": [
             0,
@@ -2344,6 +2458,7 @@
               0.25
             ]
           },
+          "id": "d7aae",
           "isAttachedTo": "f1846",
           "orientation": [
             1,
@@ -2383,35 +2498,6 @@
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "27881675",
       "year": 2017
-    },
-    "pvjsgeneratedidff5d8": {
-      "contains": [
-        "id55938d53",
-        "f0b3a"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 77.08265903984761,
-      "id": "pvjsgeneratedidff5d8",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 57.52710415879636,
-      "x": 271.2505386115557,
-      "y": 252.07953582405003,
-      "zIndex": 12294
     }
   },
   "pathway": {
@@ -2421,10 +2507,10 @@
         "@base": "WP3962/"
       }
     ],
-    "author": "[MaintBot, Kyook, Khanspers]",
+    "author": "[MaintBot, Kyook, Khanspers, Egonw]",
     "comments": [
       {
-        "content": "Adapted from figure 7 from Chun et al (see Bibliography). Cu homeostasis in worms is maintained by distinctly localized intestinal CUA-1 isoforms. A model of Cu homeostasis in C. elegans is shown. Dietary Cu ions are transported from the lumen of the intestine to the enterocytes by an unidentified Cu importer, and CUC-1 delivers Cu to CUA-1. Under basal Cu or Cu-deficient conditions, CUA-1.1 isoform localizes to the basolateral membrane and Golgi to either export Cu ions to peripheral tissues, or to direct Cu into the secretory pathway. CUA-1.2 consistently localizes to the basolateral membrane of enterocytes regardless of Cu conditions. CUA-1.1 is redistributed to the gut-granule membranes in response to elevated Cu levels in order to promote Cu detoxification in C. elegans.\"",
+        "content": "Adapted from figure 7 from Chun et al (see Bibliography). Cu homeostasis in worms is maintained by distinctly localized intestinal CUA-1 isoforms.\r\nA model of Cu homeostasis in C. elegans is shown. Dietary Cu ions are transported from the lumen of the intestine to the enterocytes by an unidentified Cu importer, and CUC-1 delivers Cu to CUA-1. Under basal Cu or Cu-deficient conditions, CUA-1.1 isoform localizes to the basolateral membrane and Golgi to either export Cu ions to peripheral tissues, or to direct Cu into the secretory pathway. CUA-1.2 consistently localizes to the basolateral membrane of enterocytes regardless of Cu conditions. CUA-1.1 is redistributed to the gut-granule membranes in response to elevated Cu levels in order to promote Cu detoxification in C. elegans.\"",
         "source": "WikiPathways-description"
       }
     ],
@@ -2435,7 +2521,7 @@
       "idbdb8f4db",
       "id495f922e",
       "idd445f655",
-      "pvjsgeneratedidff5d8",
+      "c2188",
       "f1846",
       "c96b2",
       "f1527",
@@ -2443,7 +2529,7 @@
       "a4f14",
       "f5f4b",
       "a8d55",
-      "eaa90",
+      "bdbcf",
       "acbb8",
       "dcfa5",
       "e8ea2",
@@ -2453,24 +2539,24 @@
       "b29f7",
       "ce8f3",
       "c90c4",
-      "aa393",
+      "b5bb8",
       "f6272",
       "c9d84",
       "e9a16",
       "e2d88",
       "cee47",
       "b5977",
-      "fe7a5",
-      "d2488",
+      "dda07",
+      "dbfc4",
       "bc2cd",
-      "a9cf8",
+      "f9fcf",
       "c9abb",
       "aa2e7",
       "adcb3",
       "e4484",
       "c30ec"
     ],
-    "dataSourceVersion": "WP3962_r92322",
+    "dataSourceVersion": "WP3962_r122563",
     "displayName": "Copper homeostasis",
     "drawAs": "rect",
     "fill": "white",
@@ -2480,6 +2566,7 @@
     "height": 976.8937875751503,
     "id": "WP3962",
     "kaavioType": "Group",
+    "lastModified": "20220416094411",
     "name": "Copper homeostasis",
     "organism": "Caenorhabditis elegans",
     "padding": 5,
@@ -2488,7 +2575,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Copper homeostasis\nOrganism: Caenorhabditis elegans",
+    "textContent": "Name: Copper homeostasis\nLast Modified: 20220416094411\nOrganism: Caenorhabditis elegans",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0001002"

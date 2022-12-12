@@ -1,5 +1,27 @@
 {
   "entitiesById": {
+    "983560": {
+      "__HighlandStream__": true,
+      "_can_drain": false,
+      "_consume_waiting_for_next": false,
+      "_consumers": [],
+      "_delegate": null,
+      "_destructors": [],
+      "_events": {},
+      "_eventsCount": 2,
+      "_in_consume_cb": false,
+      "_incoming": [],
+      "_is_observer": false,
+      "_nil_pushed": false,
+      "_observers": [],
+      "_outgoing": [],
+      "_repeat_resume": false,
+      "_send_events": false,
+      "id": "983560",
+      "paused": true,
+      "source": null,
+      "writable": true
+    },
     "a1e8e": {
       "comments": [
         {
@@ -56,7 +78,7 @@
       "gpmlElementName": "DataNode",
       "height": 31.939601230246808,
       "id": "a42b5",
-      "isPartOf": "f6c51",
+      "isPartOf": "ec6e9",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -309,10 +331,12 @@
       "markerEnd": "MimStimulation",
       "points": [
         {
+          "id": "f193d",
           "x": 615.7488003804997,
           "y": 288.43680832878505
         },
         {
+          "id": "f7256",
           "x": 651.9673393614696,
           "y": 288.43680832878505
         }
@@ -369,7 +393,7 @@
       "gpmlElementName": "DataNode",
       "height": 24.999999999999986,
       "id": "b4ed2",
-      "isPartOf": "f6c51",
+      "isPartOf": "ec6e9",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -575,6 +599,7 @@
               0.5
             ]
           },
+          "id": "c4ec0",
           "isAttachedTo": "c0b71",
           "orientation": [
             1,
@@ -595,6 +620,7 @@
               0
             ]
           },
+          "id": "f85be",
           "isAttachedTo": "b3673",
           "orientation": [],
           "x": 214.52380952380963,
@@ -619,10 +645,12 @@
       "markerEnd": "MimInhibition",
       "points": [
         {
+          "id": "e98d7",
           "x": 618.4024111439087,
           "y": 226.9330748056544
         },
         {
+          "id": "dde46",
           "x": 658.3041913771807,
           "y": 227.54694834770476
         }
@@ -742,6 +770,7 @@
               0.5
             ]
           },
+          "id": "d85e2",
           "isAttachedTo": "f7138",
           "orientation": [
             1,
@@ -761,6 +790,7 @@
               0.5
             ]
           },
+          "id": "d0d7d",
           "isAttachedTo": "a1e8e",
           "orientation": [
             1,
@@ -858,6 +888,7 @@
               0
             ]
           },
+          "id": "e8234",
           "isAttachedTo": "c9043",
           "orientation": [
             1,
@@ -878,6 +909,7 @@
               0
             ]
           },
+          "id": "faff7",
           "isAttachedTo": "a97f1",
           "orientation": [
             0,
@@ -1071,12 +1103,15 @@
       "gpmlElementName": "GraphicalLine",
       "id": "d66d1",
       "kaavioType": "Edge",
+      "markerEnd": "mim-translocation",
       "points": [
         {
+          "id": "e42e3",
           "x": 616.592668072424,
           "y": 169.78118920595622
         },
         {
+          "id": "c4fcd",
           "x": 651.123493293857,
           "y": 169.78118920595622
         }
@@ -1098,10 +1133,12 @@
       "markerEnd": "MimStimulation",
       "points": [
         {
+          "id": "ac9da",
           "x": 615.748805626001,
           "y": 258.35700476831835
         },
         {
+          "id": "d4879",
           "x": 651.9673446069709,
           "y": 258.35700476831835
         }
@@ -1120,13 +1157,15 @@
       "gpmlElementName": "GraphicalLine",
       "id": "d7798",
       "kaavioType": "Edge",
-      "markerEnd": "MimModification",
+      "markerEnd": "MimConversion",
       "points": [
         {
+          "id": "dfa80",
           "x": 617.0988103619394,
           "y": 196.79162723609002
         },
         {
+          "id": "a63a3",
           "x": 653.3173493429093,
           "y": 196.79162723609002
         }
@@ -1138,6 +1177,35 @@
         "Edge"
       ],
       "zIndex": 32797
+    },
+    "ec6e9": {
+      "contains": [
+        "a42b5",
+        "b4ed2"
+      ],
+      "drawAs": "Octagon",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 80.93960123024686,
+      "id": "ec6e9",
+      "kaavioType": "Group",
+      "padding": 11,
+      "stroke": "#808080",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "Complex",
+        "GroupComplex"
+      ],
+      "verticalAlign": "middle",
+      "width": 127.51071163431948,
+      "x": 150.7684537066499,
+      "y": 307.4523809523812,
+      "zIndex": 32768
     },
     "f2077": {
       "attachmentDisplay": {
@@ -1234,35 +1302,6 @@
       "y": 321.9885883222625,
       "zIndex": 28672
     },
-    "f6c51": {
-      "contains": [
-        "a42b5",
-        "b4ed2"
-      ],
-      "drawAs": "Octagon",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 80.93960123024686,
-      "id": "f6c51",
-      "kaavioType": "Group",
-      "padding": 11,
-      "stroke": "#808080",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "Complex",
-        "GroupComplex"
-      ],
-      "verticalAlign": "middle",
-      "width": 127.51071163431948,
-      "x": 150.7684537066499,
-      "y": 307.4523809523812,
-      "zIndex": 32768
-    },
     "f7138": {
       "citations": [
         "publicationXrefebe"
@@ -1320,10 +1359,12 @@
       "markerEnd": "MimTranscriptionTranslation",
       "points": [
         {
+          "id": "a0487",
           "x": 614.316165508166,
           "y": 326.31894460871126
         },
         {
+          "id": "f95b6",
           "x": 652.3763251152869,
           "y": 326.9328181507616
         }
@@ -1335,16 +1376,6 @@
         "Edge"
       ],
       "zIndex": 12288
-    },
-    "http://identifiers.org/cl/CL:0008002": {
-      "gpmlElementName": "openControlledVocabulary",
-      "id": "http://identifiers.org/cl/CL:0008002",
-      "ontology": "Cell Type",
-      "term": "skeletal muscle fiber",
-      "type": [
-        "openControlledVocabulary"
-      ],
-      "xrefIdentifier": "CL:0008002"
     },
     "http://identifiers.org/pw/PW:0001355": {
       "gpmlElementName": "openControlledVocabulary",
@@ -1367,7 +1398,7 @@
       "id": "id12aa041b",
       "isAttachedTo": [
         "aee77",
-        "f6c51"
+        "ec6e9"
       ],
       "kaavioType": "Edge",
       "markerEnd": "MimBinding",
@@ -1383,6 +1414,7 @@
               1
             ]
           },
+          "id": "ec5c6",
           "isAttachedTo": "aee77",
           "orientation": [
             0,
@@ -1402,7 +1434,8 @@
               0
             ]
           },
-          "isAttachedTo": "f6c51",
+          "id": "c7fcb",
+          "isAttachedTo": "ec6e9",
           "orientation": [
             0,
             1
@@ -1445,6 +1478,7 @@
               1
             ]
           },
+          "id": "ef3d4",
           "isAttachedTo": "c88d8",
           "orientation": [
             0,
@@ -1465,6 +1499,7 @@
               0
             ]
           },
+          "id": "e751c",
           "isAttachedTo": "f2077",
           "orientation": [],
           "x": 414.3646408839779,
@@ -1495,7 +1530,7 @@
         "aee77"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimModification",
+      "markerEnd": "MimConversion",
       "points": [
         {
           "attachmentDisplay": {
@@ -1508,6 +1543,7 @@
               1
             ]
           },
+          "id": "c82f0",
           "isAttachedTo": "d295e",
           "orientation": [
             0,
@@ -1527,6 +1563,7 @@
               0
             ]
           },
+          "id": "f5592",
           "isAttachedTo": "aee77",
           "orientation": [
             0,
@@ -1557,6 +1594,7 @@
         "c88d8"
       ],
       "kaavioType": "Edge",
+      "markerEnd": "mim-translocation",
       "points": [
         {
           "attachmentDisplay": {
@@ -1569,6 +1607,7 @@
               0.5
             ]
           },
+          "id": "b1144",
           "isAttachedTo": "d295e",
           "orientation": [
             1,
@@ -1588,6 +1627,7 @@
               0.5
             ]
           },
+          "id": "a5523",
           "isAttachedTo": "c88d8",
           "orientation": [
             1,
@@ -1633,6 +1673,7 @@
               1
             ]
           },
+          "id": "ec8c8",
           "isAttachedTo": "a1e8e",
           "orientation": [
             0,
@@ -1652,6 +1693,7 @@
               0
             ]
           },
+          "id": "a5398",
           "isAttachedTo": "b77f5",
           "orientation": [
             0,
@@ -1698,6 +1740,7 @@
               1
             ]
           },
+          "id": "d356a",
           "isAttachedTo": "afa97",
           "orientation": [
             0,
@@ -1721,6 +1764,7 @@
               0
             ]
           },
+          "id": "e8ac1",
           "isAttachedTo": "c0b71",
           "orientation": [
             0,
@@ -1748,7 +1792,7 @@
         "d295e"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimModification",
+      "markerEnd": "MimConversion",
       "points": [
         {
           "attachmentDisplay": {
@@ -1761,6 +1805,7 @@
               0
             ]
           },
+          "id": "cdf3f",
           "isAttachedTo": "aee77",
           "orientation": [
             0,
@@ -1780,6 +1825,7 @@
               1
             ]
           },
+          "id": "e60f2",
           "isAttachedTo": "d295e",
           "orientation": [
             0,
@@ -1962,7 +2008,7 @@
       "f5611",
       "afa97",
       "b77f5",
-      "f6c51",
+      "ec6e9",
       "c0b71",
       "aee77",
       "c88d8",
@@ -1990,6 +2036,7 @@
     "height": 430,
     "id": "WP4763",
     "kaavioType": "Group",
+    "lastModified": "20191229210101",
     "name": "Regulation of Pgc1a expression by a Gsk3b-Tfeb signaling axis in skeletal muscle",
     "organism": "Mus musculus",
     "padding": 5,
@@ -1998,7 +2045,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Regulation of Pgc1a expression by a Gsk3b-Tfeb signaling axis in skeletal muscle\nOrganism: Mus musculus",
+    "textContent": "Name: Regulation of Pgc1a expression by a Gsk3b-Tfeb signaling axis in skeletal muscle\nLast Modified: 20191229210101\nOrganism: Mus musculus",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0001355"

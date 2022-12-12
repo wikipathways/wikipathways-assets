@@ -118,36 +118,6 @@
       "y": 416.6666666666667,
       "zIndex": 16384
     },
-    "ad07f": {
-      "contains": [
-        "be7",
-        "d6a"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 56,
-      "id": "ad07f",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "textContent": "Group object",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 75.99999999999999,
-      "x": 68.33333333333333,
-      "y": 405.3333333333333,
-      "zIndex": 32768
-    },
     "ae7": {
       "drawAs": "none",
       "fill": "transparent",
@@ -276,7 +246,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "be7",
-      "isPartOf": "ad07f",
+      "isPartOf": "f927c",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -434,7 +404,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "d6a",
-      "isPartOf": "ad07f",
+      "isPartOf": "f927c",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -493,9 +463,7 @@
         "GeneProduct",
         "Ensembl:ENSMUSG00000070645",
         "P594:ENSMUSG00000070645",
-        "Entrez Gene:19702",
         "P351:19701",
-        "P351:19702",
         "Wikidata:Q14861554"
       ],
       "verticalAlign": "middle",
@@ -682,6 +650,36 @@
       "y": 483.3333333333333,
       "zIndex": 32768
     },
+    "f927c": {
+      "contains": [
+        "be7",
+        "d6a"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 56,
+      "id": "f927c",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "textContent": "Group object",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 75.99999999999999,
+      "x": 68.33333333333333,
+      "y": 405.3333333333333,
+      "zIndex": 32768
+    },
     "fa1": {
       "backpageHead": "Agt | angiotensinogen",
       "drawAs": "rect",
@@ -780,7 +778,7 @@
       "gpmlElementName": "Interaction",
       "id": "id167474c3",
       "isAttachedTo": [
-        "ad07f",
+        "f927c",
         "df7"
       ],
       "kaavioType": "Edge",
@@ -797,7 +795,8 @@
               1
             ]
           },
-          "isAttachedTo": "ad07f",
+          "id": "c8bfb",
+          "isAttachedTo": "f927c",
           "orientation": [
             0,
             1
@@ -816,6 +815,7 @@
               0
             ]
           },
+          "id": "a81a9",
           "isAttachedTo": "df7",
           "orientation": [
             0,
@@ -864,6 +864,7 @@
               1
             ]
           },
+          "id": "d903f",
           "isAttachedTo": "fa1",
           "orientation": [
             0,
@@ -883,6 +884,7 @@
               0
             ]
           },
+          "id": "ca700",
           "isAttachedTo": "f33",
           "orientation": [
             0,
@@ -927,6 +929,7 @@
               1
             ]
           },
+          "id": "e6cf8",
           "isAttachedTo": "daf",
           "orientation": [
             0,
@@ -947,6 +950,7 @@
               0
             ]
           },
+          "id": "b9726",
           "isAttachedTo": "d6877",
           "orientation": [],
           "x": 136.39999999999998,
@@ -972,7 +976,7 @@
       "id": "id4760d27a",
       "isAttachedTo": [
         "b67",
-        "ad07f"
+        "f927c"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -988,6 +992,7 @@
               1
             ]
           },
+          "id": "d1739",
           "isAttachedTo": "b67",
           "orientation": [
             0,
@@ -1007,7 +1012,8 @@
               0
             ]
           },
-          "isAttachedTo": "ad07f",
+          "id": "ba689",
+          "isAttachedTo": "f927c",
           "orientation": [
             0,
             1
@@ -1038,7 +1044,7 @@
         "a36"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "TBar",
+      "markerEnd": "MimInhibition",
       "points": [
         {
           "attachmentDisplay": {
@@ -1051,6 +1057,7 @@
               1
             ]
           },
+          "id": "a101f",
           "isAttachedTo": "f39",
           "orientation": [
             0,
@@ -1070,6 +1077,7 @@
               0.5
             ]
           },
+          "id": "f22e4",
           "isAttachedTo": "a36",
           "orientation": [
             -1,
@@ -1083,9 +1091,7 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge",
-        "SBO:0000169",
-        "Inhibition"
+        "Edge"
       ],
       "zIndex": 12288
     },
@@ -1112,6 +1118,7 @@
               1
             ]
           },
+          "id": "ef86d",
           "isAttachedTo": "b32",
           "orientation": [
             0,
@@ -1131,6 +1138,7 @@
               0
             ]
           },
+          "id": "cf3cc",
           "isAttachedTo": "a51",
           "orientation": [
             0,
@@ -1162,7 +1170,7 @@
         "c80"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "TBar",
+      "markerEnd": "MimInhibition",
       "points": [
         {
           "attachmentDisplay": {
@@ -1175,6 +1183,7 @@
               1
             ]
           },
+          "id": "d74d5",
           "isAttachedTo": "f39",
           "orientation": [
             0,
@@ -1194,6 +1203,7 @@
               0.5
             ]
           },
+          "id": "a1459",
           "isAttachedTo": "c80",
           "orientation": [
             1,
@@ -1207,9 +1217,7 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge",
-        "SBO:0000169",
-        "Inhibition"
+        "Edge"
       ],
       "zIndex": 12288
     },
@@ -1236,6 +1244,7 @@
               1
             ]
           },
+          "id": "c3539",
           "isAttachedTo": "fb4",
           "orientation": [
             0,
@@ -1255,6 +1264,7 @@
               0
             ]
           },
+          "id": "fa142",
           "isAttachedTo": "f67",
           "orientation": [
             0,
@@ -1299,6 +1309,7 @@
               0.5
             ]
           },
+          "id": "d2087",
           "isAttachedTo": "a36",
           "orientation": [
             -1,
@@ -1319,6 +1330,7 @@
               0
             ]
           },
+          "id": "db3f0",
           "isAttachedTo": "cb4a9",
           "orientation": [],
           "x": 106.13333333333334,
@@ -1363,6 +1375,7 @@
               1
             ]
           },
+          "id": "aca24",
           "isAttachedTo": "f33",
           "orientation": [
             0,
@@ -1382,6 +1395,7 @@
               0
             ]
           },
+          "id": "c2208",
           "isAttachedTo": "b67",
           "orientation": [
             0,
@@ -1429,6 +1443,7 @@
               1
             ]
           },
+          "id": "f4d3c",
           "isAttachedTo": "a51",
           "orientation": [
             0,
@@ -1448,6 +1463,7 @@
               0
             ]
           },
+          "id": "ab070",
           "isAttachedTo": "fb4",
           "orientation": [
             0,
@@ -1492,6 +1508,7 @@
               1
             ]
           },
+          "id": "af12e",
           "isAttachedTo": "c80",
           "orientation": [
             0,
@@ -1512,6 +1529,7 @@
               0
             ]
           },
+          "id": "be969",
           "isAttachedTo": "caac6",
           "orientation": [],
           "x": 439.9709987966305,
@@ -1568,7 +1586,7 @@
     "author": "[C.F.Thorn, MaintBot, Khanspers, Thomas, Egonw, Christine Chichester, Eweitz]",
     "comments": [
       {
-        "content": "The renin-angiotensin-aldosterone system (RAAS) is central to the control of blood pressure and the target of several types of anti-hypertensive drugs. This pathway depicts a simplified representation of the pharmacodynamics (PD) of RAAS-acting drugs including candidate genes for the pharmacogenomics (PGx) of ACE inhibitors, angiotensin receptor blockers (ARBs), renin inhibitor aliskiren and aldosterone receptor antagonists.\nSource: PharmGKB (http://www.pharmgkb.org/do/serve?objId=PA2023&objCls=Pathway)",
+        "content": "The renin-angiotensin-aldosterone system (RAAS) is central to the control of blood pressure and the target of several types of anti-hypertensive drugs. This pathway depicts a simplified representation of the pharmacodynamics (PD) of RAAS-acting drugs including candidate genes for the pharmacogenomics (PGx) of ACE inhibitors, angiotensin receptor blockers (ARBs), renin inhibitor aliskiren and aldosterone receptor antagonists.\r\nSource: PharmGKB (http://www.pharmgkb.org/do/serve?objId=PA2023&objCls=Pathway)",
         "source": "WikiPathways-description"
       }
     ],
@@ -1599,7 +1617,7 @@
       "f67",
       "fa1",
       "fb4",
-      "ad07f"
+      "f927c"
     ],
     "dataSourceVersion": "WP396_r116828",
     "displayName": "ACE inhibitor pathway",
@@ -1611,6 +1629,7 @@
     "height": 550,
     "id": "WP396",
     "kaavioType": "Group",
+    "lastModified": "20210514102812",
     "name": "ACE inhibitor pathway",
     "organism": "Mus musculus",
     "padding": 5,
@@ -1619,7 +1638,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: ACE inhibitor pathway\nOrganism: Mus musculus",
+    "textContent": "Name: ACE inhibitor pathway\nLast Modified: 20210514102812\nOrganism: Mus musculus",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0001228"

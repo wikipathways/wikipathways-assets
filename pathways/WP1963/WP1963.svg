@@ -40,17 +40,17 @@
       <filter x="0" y="0" height="1298" width="1137" id="kaavioblackto0000fffilter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0                   0  -1   0 0 0                   0   0  -1 0 1                   0   0   0 1 0"/>
       </filter>
-      <filter x="0" y="0" height="1298" width="1137" id="kaaviowhiteto808080filter" filterUnits="userSpaceOnUse">
-        <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0.5019607843137255                  0  1  0 0 -0.5019607843137255                  0  0  1 0 -0.5019607843137255                  0  0  0 1 0"/>
-      </filter>
-      <filter x="0" y="0" height="1298" width="1137" id="kaavioblackto808080filter" filterUnits="userSpaceOnUse">
-        <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0.5019607843137255                   0  -1   0 0 0.5019607843137255                   0   0  -1 0 0.5019607843137255                   0   0   0 1 0"/>
-      </filter>
       <filter x="0" y="0" height="1298" width="1137" id="kaaviowhitetob4b464filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0.7058823529411765                  0  1  0 0 -0.7058823529411765                  0  0  1 0 -0.39215686274509803                  0  0  0 1 0"/>
       </filter>
       <filter x="0" y="0" height="1298" width="1137" id="kaavioblacktob4b464filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0.7058823529411765                   0  -1   0 0 0.7058823529411765                   0   0  -1 0 0.39215686274509803                   0   0   0 1 0"/>
+      </filter>
+      <filter x="0" y="0" height="1298" width="1137" id="kaaviowhiteto808080filter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0.5019607843137255                  0  1  0 0 -0.5019607843137255                  0  0  1 0 -0.5019607843137255                  0  0  0 1 0"/>
+      </filter>
+      <filter x="0" y="0" height="1298" width="1137" id="kaavioblackto808080filter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0.5019607843137255                   0  -1   0 0 0.5019607843137255                   0   0  -1 0 0.5019607843137255                   0   0   0 1 0"/>
       </filter>
     </g>
     <g id="jic-defs">
@@ -466,7 +466,7 @@
       </symbol>
     </g>
   </defs>
-  <g id="WP1963" class="Viewport" color="black" name="Name: Glucocorticoid effect on target gene expression Organism: Rattus norvegicus">
+  <g id="WP1963" class="Viewport" color="black" name="Name: Glucocorticoid effect on target gene expression Last Modified: 20210516113620 Organism: Rattus norvegicus">
     <rect fill="white" stroke="black" stroke-width="0" fill-opacity="1" height="1298px" id="WP1963-icon" width="1137px" x="0" y="0" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
     <g id="e9aaa" class="SingleFreeNode Shape PhysicalEntity CellularComponent Nucleus" color="#c0c0c0" transform="translate(122,598)">
       <g filter="url(#kaaviodoublefalse3filter)" fill="transparent" fill-opacity="0" stroke="#c0c0c0" stroke-width="3">
@@ -479,11 +479,6 @@
         <tspan x="0" y="0">Nucleus</tspan>
       </text>
     </g>
-    <g id="id46014838" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
-      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="46.2, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id46014838-path" d="M836,980L888,980" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
-      </g>
-    </g>
     <g id="idc0cea941" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="0, 5.8, 106.7, 0" stroke-width="1">
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="idc0cea941-path" d="M614,835L531.5,835L531.5,805" marker-start="url(#markerStartArrow)" class="EdgeBody"/>
@@ -494,21 +489,31 @@
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="idd3b82880-path" d="M69.25,716.25L198,785" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
-    <g id="ide559a4d6" class="Edge Interaction SBO_0000169 Inhibition" color="#000000">
+    <g id="ide559a4d6" class="Edge Interaction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="225.41786183510078, 7" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="ide559a4d6-path" d="M540,895L315,953.25" marker-end="url(#markerEndTBar)" class="EdgeBody"/>
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="ide559a4d6-path" d="M540,895L315,953.25" marker-end="url(#markerEndMimInhibition)" class="EdgeBody"/>
       </g>
     </g>
-    <g id="idbb7d77c7" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
-      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="263.0349269542874, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="idbb7d77c7-path" d="M564.75,695.25L529.375,695.25C494,695.25,423.25,695.25,387.875,710.375C352.5,725.5,352.5,755.75,352.5,770.875L352.5,786" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+    <g id="id46014838" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="46.2, 5.8" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id46014838-path" d="M836,980L888,980" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
-    <g id="c720a" class="Group GroupGroup" color="#808080" transform="translate(259,947)">
-      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="247px" id="c720a-icon" width="289px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-      <g id="idea8dbe68" class="Edge Interaction SBO_0000169 Inhibition" color="#000000">
+    <g id="id7ea04bb7" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="148.97907642830796, 5.8" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id7ea04bb7-path" d="M69.25,696.25L164.5,574.25" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+      </g>
+    </g>
+    <g id="id33caeba2" class="Edge Interaction" color="#000000">
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="64.7007670809734, 7" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id33caeba2-path" d="M825.5,998L880.5,1044" marker-end="url(#markerEndMimInhibition)" class="EdgeBody"/>
+      </g>
+    </g>
+    <g id="d723e" class="Group GroupGroup" color="#808080" transform="translate(259,947)">
+      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="247px" id="d723e-icon" width="289px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <g id="idea8dbe68" class="Edge Interaction" color="#000000">
         <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="208.37177159507232, 7" stroke-width="1">
-          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="idea8dbe68-path" d="M281,8L114,144" marker-end="url(#markerEndTBar)" class="EdgeBody"/>
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="idea8dbe68-path" d="M281,8L114,144" marker-end="url(#markerEndMimInhibition)" class="EdgeBody"/>
         </g>
       </g>
       <g id="idf086b4aa" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
@@ -521,27 +526,22 @@
           <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="idf9deb56-path" d="M49.5,176L74.5,202" class="EdgeBody"/>
         </g>
       </g>
-      <g id="a9fda" class="SingleFreeNode DataNode GeneProduct" color="#000000" name="lipid mediators" transform="translate(15,219)">
-        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="a9fda-icon" width="92px" x="0" y="0" transform="matrix(0.989247311827957, 0, 0, 0.9523809523809523, 0.4946236559139763, 0.4761904761904763)" class="Icon"/>
-        <text id="a9fda-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(46,13)">
-          <tspan x="0" y="0">lipid mediators</tspan>
-        </text>
-      </g>
       <a id="f9225" class="SingleFreeNode DataNode Ensembl_ENSRNOG00000002657 GeneProduct P594_ENSRNOG00000002657 Entrez_Gene_24653 P351_24653 Wikidata_Q24425559" color="#000000" name="phospholipase A2" transform="translate(8,134)" xlink:href="https://tools.wmflabs.org/scholia/Q24425559" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="f9225-icon" width="106px" x="0" y="0" transform="matrix(0.9906542056074766, 0, 0, 0.9523809523809523, 0.49532710280373493, 0.4761904761904763)" class="Icon"/>
         <text id="f9225-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(53,13)">
           <tspan x="0" y="0">phospholipase A2</tspan>
         </text>
       </a>
+      <g id="a9fda" class="SingleFreeNode DataNode GeneProduct" color="#000000" name="lipid mediators" transform="translate(15,219)">
+        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="a9fda-icon" width="92px" x="0" y="0" transform="matrix(0.989247311827957, 0, 0, 0.9523809523809523, 0.4946236559139763, 0.4761904761904763)" class="Icon"/>
+        <text id="a9fda-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(46,13)">
+          <tspan x="0" y="0">lipid mediators</tspan>
+        </text>
+      </g>
       <g id="babeb" class="Edge Interaction" color="#000000">
         <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="39.59797974644666, 0" stroke-width="1">
           <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="babeb-path" d="M76,174L48,202" class="EdgeBody"/>
         </g>
-      </g>
-    </g>
-    <g id="id33caeba2" class="Edge Interaction SBO_0000169 Inhibition" color="#000000">
-      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="64.7007670809734, 7" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id33caeba2-path" d="M825.5,998L880.5,1044" marker-end="url(#markerEndTBar)" class="EdgeBody"/>
       </g>
     </g>
     <g id="id55e6d8ed" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
@@ -549,14 +549,14 @@
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id55e6d8ed-path" d="M443.375,298.5L516.375,298.5" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
+    <g id="idbb7d77c7" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="263.0349269542874, 5.8" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="idbb7d77c7-path" d="M564.75,695.25L529.375,695.25C494,695.25,423.25,695.25,387.875,710.375C352.5,725.5,352.5,755.75,352.5,770.875L352.5,786" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+      </g>
+    </g>
     <g id="id45bbb71f" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="353.62353924264625, 5.8" stroke-width="1">
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id45bbb71f-path" d="M564.75,695.25L542.7916666666666,695.25C520.8333333333333,695.25,476.91666666666663,695.25,454.95833333333326,668.0833333333334C432.99999999999994,640.9166666666666,432.99999999999994,586.5833333333333,409.62499999999994,559.4166666666666C386.24999999999994,532.25,339.5,532.25,316.125,532.25L292.75,532.25" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
-      </g>
-    </g>
-    <g id="id7ea04bb7" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
-      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="148.97907642830796, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id7ea04bb7-path" d="M69.25,696.25L164.5,574.25" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
     <g id="id766c48e9" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
@@ -589,16 +589,16 @@
         <rect style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" height="1177.5px" id="c0154-icon" rx="15" ry="15" width="1101.5px" x="0" y="0" transform="matrix(0.9892231701841042, 0, 0, 0.9899117276166457, 5.935339021104596, 5.93947036569989)" class="Icon"/>
       </g>
     </g>
+    <g id="e184b" class="SingleFreeNode Label" color="#000000" name="Cell" transform="translate(908,32)">
+      <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="20px" id="e184b-icon" width="80px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <text id="e184b-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="14px" font-style="normal" font-weight="bold" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(40,14)">
+        <tspan x="0" y="0">Cell</tspan>
+      </text>
+    </g>
     <g id="a1935" class="SingleFreeNode Label" color="#000000" name="Target Gene" transform="translate(479,786)">
       <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="19px" id="a1935-icon" width="210px" x="0" y="0" transform="matrix(0.995260663507109, 0, 0, 0.95, 0.4976303317535553, 0.47499999999999964)" class="Icon"/>
       <text id="a1935-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(105,12.5)">
         <tspan x="0" y="0">Target Gene</tspan>
-      </text>
-    </g>
-    <g id="a1b94" class="SingleFreeNode Label" color="#000000" name="RE" transform="translate(178,785)">
-      <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="a1b94-icon" width="80px" x="0" y="0" transform="matrix(0.9876543209876543, 0, 0, 0.9523809523809523, 0.49382716049382935, 0.4761904761904763)" class="Icon"/>
-      <text id="a1b94-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(40,13)">
-        <tspan x="0" y="0">RE</tspan>
       </text>
     </g>
     <g id="dcc62" class="SingleFreeNode Label" color="#000000" name="GRE" transform="translate(310,786)">
@@ -613,14 +613,14 @@
         <tspan x="0" y="0">Promoter</tspan>
       </text>
     </g>
-    <g id="e184b" class="SingleFreeNode Label" color="#000000" name="Cell" transform="translate(908,32)">
-      <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="20px" id="e184b-icon" width="80px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-      <text id="e184b-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="14px" font-style="normal" font-weight="bold" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(40,14)">
-        <tspan x="0" y="0">Cell</tspan>
+    <g id="a1b94" class="SingleFreeNode Label" color="#000000" name="RE" transform="translate(178,785)">
+      <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="a1b94-icon" width="80px" x="0" y="0" transform="matrix(0.9876543209876543, 0, 0, 0.9523809523809523, 0.49382716049382935, 0.4761904761904763)" class="Icon"/>
+      <text id="a1b94-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(40,13)">
+        <tspan x="0" y="0">RE</tspan>
       </text>
     </g>
-    <g id="c8c87" class="Group GroupGroup" color="#808080" transform="translate(650,854)">
-      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="144px" id="c8c87-icon" width="234px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+    <g id="af4b4" class="Group GroupGroup" color="#808080" transform="translate(650,854)">
+      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="144px" id="af4b4-icon" width="234px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
       <g id="e4160" class="SingleFreeNode Label" color="#000000" name="Inhibiting Effects" transform="translate(65,8)">
         <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="20px" id="e4160-icon" width="104px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
         <text id="e4160-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(52,13)">
@@ -676,15 +676,15 @@
         <tspan x="0" y="0">COX-2</tspan>
       </text>
     </a>
-    <g id="a46fc" class="Group GroupGroup" color="#808080" transform="translate(487.5,857)">
-      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="156px" id="a46fc-icon" width="185px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+    <g id="a4b1a" class="Group GroupGroup" color="#808080" transform="translate(487.5,857)">
+      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="156px" id="a4b1a-icon" width="185px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
       <a id="d5ba4" class="SingleFreeNode DataNode Ensembl_ENSRNOG00000022012 GeneProduct P594_ENSRNOG00000022012 Entrez_Gene_500598 P351_500598 Wikidata_Q24407979" color="#14961e" name="GITR" transform="translate(52.5,68)" xlink:href="https://tools.wmflabs.org/scholia/Q24407979" target="_blank">
         <use fill="transparent" fill-opacity="0" stroke="#14961e" stroke-width="0" height="20px" id="d5ba4-icon" width="80px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
         <text id="d5ba4-text" class="Text" direction="ltr" fill="#14961e" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(40,14)">
           <tspan x="0" y="0">GITR</tspan>
         </text>
       </a>
-      <g id="fc957" class="SingleFreeNode DataNode Ensembl_ENSRNOG00000019217 GeneProduct P594_ENSRNOG00000019217 Entrez_Gene_24176 P351_24176" color="#14961e" name="beta2 adrenergic receptor" transform="translate(8,128)">
+      <g id="fc957" class="SingleFreeNode DataNode Ensembl_ENSRNOG00000019217 GeneProduct P594_ENSRNOG00000019217" color="#14961e" name="beta2 adrenergic receptor" transform="translate(8,128)">
         <use fill="transparent" fill-opacity="0" stroke="#14961e" stroke-width="0" height="20px" id="fc957-icon" width="169px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
         <text id="fc957-text" class="Text" direction="ltr" fill="#14961e" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(84.5,14)">
           <tspan x="0" y="0">beta2 adrenergic receptor</tspan>
@@ -721,8 +721,8 @@
         </text>
       </a>
     </g>
-    <g id="c77c6" class="Group GroupGroup" color="#808080" transform="translate(62.5,124.375)">
-      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="130.625px" id="c77c6-icon" width="100.75px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+    <g id="a14f1" class="Group GroupGroup" color="#808080" transform="translate(62.5,124.375)">
+      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="130.625px" id="a14f1-icon" width="100.75px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
       <a id="bafd2" class="SingleFreeNode DataNode Entrez_Gene_260321 GeneProduct Ensembl_ENSRNOG00000006444 P594_ENSRNOG00000006444 P351_260321 Wikidata_Q24395636" color="#000000" name="p59" transform="translate(8,31.25)" xlink:href="https://tools.wmflabs.org/scholia/Q24395636" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="23.25px" id="bafd2-icon" width="84.75px" x="0" y="0" transform="matrix(0.9883381924198251, 0, 0, 0.9587628865979382, 0.4941690962099088, 0.47938144329896915)" class="Icon"/>
         <text id="bafd2-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(42.375,14.625)">
@@ -741,21 +741,21 @@
           <tspan x="0" y="0">Rras</tspan>
         </text>
       </a>
-      <g id="c4dff" class="SingleFreeNode DataNode Ensembl_ENSRNOG00000007219 GeneProduct P594_ENSRNOG00000007219 Entrez_Gene_103692716 P351_103692716" color="#000000" name="Hsp90aa1" transform="translate(8,77.75)">
+      <g id="c4dff" class="SingleFreeNode DataNode Ensembl_ENSRNOG00000007219 GeneProduct" color="#000000" name="Hsp90aa1" transform="translate(8,77.75)">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="23.25px" id="c4dff-icon" width="84.75px" x="0" y="0" transform="matrix(0.9883381924198251, 0, 0, 0.9587628865979382, 0.4941690962099088, 0.47938144329896915)" class="Icon"/>
         <text id="c4dff-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(42.375,14.625)">
           <tspan x="0" y="0">Hsp90aa1</tspan>
         </text>
       </g>
-      <a id="c891a" class="SingleFreeNode DataNode Ensembl_ENSRNOG00000019834 GeneProduct P594_ENSRNOG00000019834 Entrez_Gene_301252 P351_301252 Wikidata_Q24394637" color="#000000" name="Hsp90ab1" transform="translate(8,54.5)" xlink:href="https://tools.wmflabs.org/scholia/Q24394637" target="_blank">
+      <a id="c891a" class="SingleFreeNode DataNode Ensembl_ENSRNOG00000019834 GeneProduct P594_ENSRNOG00000019834 Wikidata_Q24394637" color="#000000" name="Hsp90ab1" transform="translate(8,54.5)" xlink:href="https://tools.wmflabs.org/scholia/Q24394637" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="23.25px" id="c891a-icon" width="84.75px" x="0" y="0" transform="matrix(0.9883381924198251, 0, 0, 0.9587628865979382, 0.4941690962099088, 0.47938144329896915)" class="Icon"/>
         <text id="c891a-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(42.375,14.625)">
           <tspan x="0" y="0">Hsp90ab1</tspan>
         </text>
       </a>
     </g>
-    <g id="bc2c8" class="Group Complex GroupComplex" color="#808080" transform="translate(272.375,218.375)">
-      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="160.25px" id="bc2c8-icon" width="171px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9941860465116279, 0, 0, 0.993798449612403, 0.4970930232558146, 0.4968992248061994)" class="Icon"/>
+    <g id="fe479" class="Group Complex GroupComplex" color="#808080" transform="translate(272.375,218.375)">
+      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="160.25px" id="fe479-icon" width="171px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9941860465116279, 0, 0, 0.993798449612403, 0.4970930232558146, 0.4968992248061994)" class="Icon"/>
       <a id="a7697" class="SingleFreeNode DataNode Entrez_Gene_24413 GeneProduct Ensembl_ENSRNOG00000014096 P594_ENSRNOG00000014096 P351_24413 Wikidata_Q24421521" color="#000000" name="Glucocorticoid Receptor" transform="translate(12,128.25)" xlink:href="https://tools.wmflabs.org/scholia/Q24421521" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="a7697-icon" width="147px" x="0" y="0" transform="matrix(0.9932432432432432, 0, 0, 0.9523809523809523, 0.49662162162162815, 0.4761904761904763)" class="Icon"/>
         <text id="a7697-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(73.5,13)">
@@ -780,13 +780,13 @@
           <tspan x="0" y="0">p59</tspan>
         </text>
       </a>
-      <g id="e4cf6" class="SingleFreeNode DataNode Ensembl_ENSRNOG00000007219 GeneProduct P594_ENSRNOG00000007219 Entrez_Gene_103692716 P351_103692716" color="#000000" name="Hsp90aa1" transform="translate(43.125,81.75)">
+      <g id="e4cf6" class="SingleFreeNode DataNode Ensembl_ENSRNOG00000007219 GeneProduct" color="#000000" name="Hsp90aa1" transform="translate(43.125,81.75)">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="23.25px" id="e4cf6-icon" width="84.75px" x="0" y="0" transform="matrix(0.9883381924198251, 0, 0, 0.9587628865979382, 0.4941690962099088, 0.47938144329896915)" class="Icon"/>
         <text id="e4cf6-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(42.375,14.625)">
           <tspan x="0" y="0">Hsp90aa1</tspan>
         </text>
       </g>
-      <a id="e2334" class="SingleFreeNode DataNode Ensembl_ENSRNOG00000019834 GeneProduct P594_ENSRNOG00000019834 Entrez_Gene_301252 P351_301252 Wikidata_Q24394637" color="#000000" name="Hsp90ab1" transform="translate(43.125,58.5)" xlink:href="https://tools.wmflabs.org/scholia/Q24394637" target="_blank">
+      <a id="e2334" class="SingleFreeNode DataNode Ensembl_ENSRNOG00000019834 GeneProduct P594_ENSRNOG00000019834 Wikidata_Q24394637" color="#000000" name="Hsp90ab1" transform="translate(43.125,58.5)" xlink:href="https://tools.wmflabs.org/scholia/Q24394637" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="23.25px" id="e2334-icon" width="84.75px" x="0" y="0" transform="matrix(0.9883381924198251, 0, 0, 0.9587628865979382, 0.4941690962099088, 0.47938144329896915)" class="Icon"/>
         <text id="e2334-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(42.375,14.625)">
           <tspan x="0" y="0">Hsp90ab1</tspan>
@@ -810,8 +810,8 @@
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="ac484-path" d="M166,387L175.66666666666663,387C185.33333333333331,387,204.66666666666663,387,214.33333333333331,372.25C223.99999999999997,357.5,223.99999999999997,328,232.06249999999994,313.25C240.12499999999997,298.5,256.25,298.5,264.31249999999994,298.5L272.375,298.5" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
-    <g id="df57a" class="Group Complex GroupComplex" color="#808080" transform="translate(731.75,444.25)">
-      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="64px" id="df57a-icon" width="171px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9941860465116279, 0, 0, 0.9846153846153847, 0.4970930232558146, 0.49230769230769056)" class="Icon"/>
+    <g id="ecd9f" class="Group Complex GroupComplex" color="#808080" transform="translate(731.75,444.25)">
+      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="64px" id="ecd9f-icon" width="171px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9941860465116279, 0, 0, 0.9846153846153847, 0.4970930232558146, 0.49230769230769056)" class="Icon"/>
       <a id="bd74e" class="SingleFreeNode DataNode Entrez_Gene_24413 GeneProduct Ensembl_ENSRNOG00000014096 P594_ENSRNOG00000014096 P351_24413 Wikidata_Q24421521" color="#000000" name="Glucocorticoid Receptor" transform="translate(12,12)" xlink:href="https://tools.wmflabs.org/scholia/Q24421521" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="bd74e-icon" width="147px" x="0" y="0" transform="matrix(0.9932432432432432, 0, 0, 0.9523809523809523, 0.49662162162162815, 0.4761904761904763)" class="Icon"/>
         <text id="bd74e-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(73.5,13)">
@@ -825,8 +825,8 @@
         </text>
       </a>
     </g>
-    <g id="eaf49" class="Group Complex GroupComplex" color="#808080" transform="translate(516.375,208.375)">
-      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="180.25px" id="eaf49-icon" width="171px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9941860465116279, 0, 0, 0.9944827586206897, 0.4970930232558146, 0.4972413793103385)" class="Icon"/>
+    <g id="d87b6" class="Group Complex GroupComplex" color="#808080" transform="translate(516.375,208.375)">
+      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="180.25px" id="d87b6-icon" width="171px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9941860465116279, 0, 0, 0.9944827586206897, 0.4970930232558146, 0.4972413793103385)" class="Icon"/>
       <a id="d67e5" class="SingleFreeNode DataNode Entrez_Gene_24413 GeneProduct Ensembl_ENSRNOG00000014096 P594_ENSRNOG00000014096 P351_24413 Wikidata_Q24421521" color="#000000" name="Glucocorticoid Receptor" transform="translate(12,128.25)" xlink:href="https://tools.wmflabs.org/scholia/Q24421521" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="d67e5-icon" width="147px" x="0" y="0" transform="matrix(0.9932432432432432, 0, 0, 0.9523809523809523, 0.49662162162162815, 0.4761904761904763)" class="Icon"/>
         <text id="d67e5-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(73.5,13)">
@@ -851,13 +851,13 @@
           <tspan x="0" y="0">p59</tspan>
         </text>
       </a>
-      <g id="e14aa" class="SingleFreeNode DataNode Ensembl_ENSRNOG00000007219 GeneProduct P594_ENSRNOG00000007219 Entrez_Gene_103692716 P351_103692716" color="#000000" name="Hsp90aa1" transform="translate(43.125,81.75)">
+      <g id="e14aa" class="SingleFreeNode DataNode Ensembl_ENSRNOG00000007219 GeneProduct" color="#000000" name="Hsp90aa1" transform="translate(43.125,81.75)">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="23.25px" id="e14aa-icon" width="84.75px" x="0" y="0" transform="matrix(0.9883381924198251, 0, 0, 0.9587628865979382, 0.4941690962099088, 0.47938144329896915)" class="Icon"/>
         <text id="e14aa-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(42.375,14.625)">
           <tspan x="0" y="0">Hsp90aa1</tspan>
         </text>
       </g>
-      <a id="d8a0e" class="SingleFreeNode DataNode Ensembl_ENSRNOG00000019834 GeneProduct P594_ENSRNOG00000019834 Entrez_Gene_301252 P351_301252 Wikidata_Q24394637" color="#000000" name="Hsp90ab1" transform="translate(43.125,58.5)" xlink:href="https://tools.wmflabs.org/scholia/Q24394637" target="_blank">
+      <a id="d8a0e" class="SingleFreeNode DataNode Ensembl_ENSRNOG00000019834 GeneProduct P594_ENSRNOG00000019834 Wikidata_Q24394637" color="#000000" name="Hsp90ab1" transform="translate(43.125,58.5)" xlink:href="https://tools.wmflabs.org/scholia/Q24394637" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="23.25px" id="d8a0e-icon" width="84.75px" x="0" y="0" transform="matrix(0.9883381924198251, 0, 0, 0.9587628865979382, 0.4941690962099088, 0.47938144329896915)" class="Icon"/>
         <text id="d8a0e-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(42.375,14.625)">
           <tspan x="0" y="0">Hsp90ab1</tspan>
@@ -870,8 +870,8 @@
         </text>
       </a>
     </g>
-    <g id="b8876" class="Group Complex GroupComplex" color="#808080" transform="translate(564.75,663.25)">
-      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="64px" id="b8876-icon" width="171px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9941860465116279, 0, 0, 0.9846153846153847, 0.4970930232558146, 0.49230769230769056)" class="Icon"/>
+    <g id="e4b63" class="Group Complex GroupComplex" color="#808080" transform="translate(564.75,663.25)">
+      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="64px" id="e4b63-icon" width="171px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9941860465116279, 0, 0, 0.9846153846153847, 0.4970930232558146, 0.49230769230769056)" class="Icon"/>
       <a id="b7135" class="SingleFreeNode DataNode Entrez_Gene_24413 GeneProduct Ensembl_ENSRNOG00000014096 P594_ENSRNOG00000014096 P351_24413 Wikidata_Q24421521" color="#000000" name="Glucocorticoid Receptor" transform="translate(12,12)" xlink:href="https://tools.wmflabs.org/scholia/Q24421521" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="b7135-icon" width="147px" x="0" y="0" transform="matrix(0.9932432432432432, 0, 0, 0.9523809523809523, 0.49662162162162815, 0.4761904761904763)" class="Icon"/>
         <text id="b7135-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(73.5,13)">
@@ -895,8 +895,8 @@
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="b8850-path" d="M157,784L710.5030975341797,786.5007934570312" class="EdgeBody"/>
       </g>
     </g>
-    <g id="f5de3" class="Group Complex GroupComplex" color="#808080" transform="translate(121.75,490.25)">
-      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="84px" id="f5de3-icon" width="171px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9941860465116279, 0, 0, 0.9882352941176471, 0.4970930232558146, 0.4941176470588218)" class="Icon"/>
+    <g id="f5012" class="Group Complex GroupComplex" color="#808080" transform="translate(121.75,490.25)">
+      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="84px" id="f5012-icon" width="171px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9941860465116279, 0, 0, 0.9882352941176471, 0.4970930232558146, 0.4941176470588218)" class="Icon"/>
       <a id="d9780" class="SingleFreeNode DataNode Ensembl_ENSRNOG00000023258 GeneProduct P594_ENSRNOG00000023258 Entrez_Gene_81736 P351_81736 Wikidata_Q24372902" color="#000000" name="Nf-kB, etc" transform="translate(45.5,52)" xlink:href="https://tools.wmflabs.org/scholia/Q24372902" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="d9780-icon" width="80px" x="0" y="0" transform="matrix(0.9876543209876543, 0, 0, 0.9523809523809523, 0.49382716049382935, 0.4761904761904763)" class="Icon"/>
         <text id="d9780-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(40,13)">
@@ -928,19 +928,20 @@
         <tspan x="0" y="0">Nf-kB</tspan>
       </text>
     </a>
-    <g id="ba458" class="Edge Interaction SBO_0000169 Inhibition" color="#000000">
+    <g id="ba458" class="Edge Interaction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="218.73892553124284, 7" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="ba458-path" d="M540,935L315,953.25" marker-end="url(#markerEndTBar)" class="EdgeBody"/>
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="ba458-path" d="M540,935L315,953.25" marker-end="url(#markerEndMimInhibition)" class="EdgeBody"/>
       </g>
     </g>
-    <g id="ce600" class="Edge Interaction SBO_0000169 Inhibition" color="#000000">
+    <g id="ce600" class="Edge Interaction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="221.2280931436794, 7" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="ce600-path" d="M540,915L315,953.25" marker-end="url(#markerEndTBar)" class="EdgeBody"/>
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="ce600-path" d="M540,915L315,953.25" marker-end="url(#markerEndMimInhibition)" class="EdgeBody"/>
       </g>
     </g>
-    <text id="WP1963-text" class="Text" direction="ltr" dominant-baseline="central" fill="black" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" overflow="visible" stroke="white" stroke-width="0px" text-anchor="start" transform="translate(5,27)">
-      <tspan x="0" y="-9">Name: Glucocorticoid effect on target gene expression</tspan>
-      <tspan x="0" y="9">Organism: Rattus norvegicus</tspan>
+    <text id="WP1963-text" class="Text" direction="ltr" dominant-baseline="central" fill="black" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" overflow="visible" stroke="white" stroke-width="0px" text-anchor="start" transform="translate(5,36)">
+      <tspan x="0" y="-18">Name: Glucocorticoid effect on target gene expression</tspan>
+      <tspan x="0" y="0">Last Modified: 20210516113620</tspan>
+      <tspan x="0" y="18">Organism: Rattus norvegicus</tspan>
     </text>
   </g>
 </svg>

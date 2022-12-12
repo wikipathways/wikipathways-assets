@@ -1,34 +1,26 @@
 {
   "entitiesById": {
-    "b0c84": {
-      "contains": [
-        "c820a",
-        "d1021",
-        "e7aad"
-      ],
-      "drawAs": "rect",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 76.8465887674329,
-      "id": "b0c84",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupNone"
-      ],
-      "verticalAlign": "middle",
-      "width": 98.1277756366544,
-      "x": 112.08263615179419,
-      "y": 143.4968468901054,
-      "zIndex": 32768
+    "752161": {
+      "__HighlandStream__": true,
+      "_can_drain": false,
+      "_consume_waiting_for_next": false,
+      "_consumers": [],
+      "_delegate": null,
+      "_destructors": [],
+      "_events": {},
+      "_eventsCount": 2,
+      "_in_consume_cb": false,
+      "_incoming": [],
+      "_is_observer": false,
+      "_nil_pushed": false,
+      "_observers": [],
+      "_outgoing": [],
+      "_repeat_resume": false,
+      "_send_events": false,
+      "id": "752161",
+      "paused": true,
+      "source": null,
+      "writable": true
     },
     "b876b": {
       "drawAs": "rect",
@@ -166,7 +158,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "c820a",
-      "isPartOf": "b0c84",
+      "isPartOf": "f26b3",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -292,7 +284,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "d1021",
-      "isPartOf": "b0c84",
+      "isPartOf": "f26b3",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -457,7 +449,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "e7aad",
-      "isPartOf": "b0c84",
+      "isPartOf": "f26b3",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -535,6 +527,36 @@
       "xrefDataSource": "PubChem-compound",
       "xrefIdentifier": "3033",
       "y": 214.11050289701976,
+      "zIndex": 32768
+    },
+    "f26b3": {
+      "contains": [
+        "c820a",
+        "d1021",
+        "e7aad"
+      ],
+      "drawAs": "rect",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 76.8465887674329,
+      "id": "f26b3",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupNone"
+      ],
+      "verticalAlign": "middle",
+      "width": 98.1277756366544,
+      "x": 112.08263615179419,
+      "y": 143.4968468901054,
       "zIndex": 32768
     },
     "f35cf": {
@@ -639,16 +661,6 @@
       "y": 29.506172839506178,
       "zIndex": 32768
     },
-    "http://identifiers.org/doid/DOID:4": {
-      "gpmlElementName": "openControlledVocabulary",
-      "id": "http://identifiers.org/doid/DOID:4",
-      "ontology": "Disease",
-      "term": "Disease",
-      "type": [
-        "openControlledVocabulary"
-      ],
-      "xrefIdentifier": "DOID:4"
-    },
     "http://identifiers.org/pw/PW:0000375": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000375",
@@ -673,9 +685,6 @@
       "burrs": [
         "df98b"
       ],
-      "citations": [
-        "publicationXrefbf5"
-      ],
       "drawAs": "StraightLine",
       "fill": "none",
       "gpmlElementName": "Interaction",
@@ -698,6 +707,7 @@
               1
             ]
           },
+          "id": "d2df7",
           "isAttachedTo": "e8252",
           "orientation": [
             0,
@@ -717,6 +727,7 @@
               0
             ]
           },
+          "id": "a5a79",
           "isAttachedTo": "dd575",
           "orientation": [
             0,
@@ -757,6 +768,7 @@
               0.5
             ]
           },
+          "id": "c55aa",
           "isAttachedTo": "c0ffe",
           "orientation": [
             1,
@@ -776,6 +788,7 @@
               0.5
             ]
           },
+          "id": "d756a",
           "isAttachedTo": "b876b",
           "orientation": [
             1,
@@ -799,7 +812,7 @@
       "gpmlElementName": "Interaction",
       "id": "id5236f80d",
       "isAttachedTo": [
-        "b0c84",
+        "f26b3",
         "idf27d9fd4"
       ],
       "kaavioType": "Edge",
@@ -816,7 +829,8 @@
               0.5
             ]
           },
-          "isAttachedTo": "b0c84",
+          "id": "a9271",
+          "isAttachedTo": "f26b3",
           "orientation": [
             1,
             0
@@ -836,6 +850,7 @@
               0
             ]
           },
+          "id": "d7ddc",
           "isAttachedTo": "d9695",
           "orientation": [],
           "x": 289.2865578855734,
@@ -873,6 +888,7 @@
               0.5
             ]
           },
+          "id": "ccfed",
           "isAttachedTo": "f35cf",
           "orientation": [
             -1,
@@ -893,6 +909,7 @@
               0
             ]
           },
+          "id": "c8ea9",
           "isAttachedTo": "df98b",
           "orientation": [],
           "x": 289.6695659527044,
@@ -933,6 +950,7 @@
               0.5
             ]
           },
+          "id": "a1e26",
           "isAttachedTo": "e8252",
           "orientation": [
             1,
@@ -952,6 +970,7 @@
               0.5
             ]
           },
+          "id": "a0001",
           "isAttachedTo": "d0dce",
           "orientation": [
             1,
@@ -992,6 +1011,7 @@
               0.5
             ]
           },
+          "id": "cd956",
           "isAttachedTo": "cdda7",
           "orientation": [
             -1,
@@ -1012,6 +1032,7 @@
               0
             ]
           },
+          "id": "c01f8",
           "isAttachedTo": "db1a9",
           "orientation": [],
           "x": 289.0179180416942,
@@ -1049,6 +1070,7 @@
               0
             ]
           },
+          "id": "ccdc4",
           "isAttachedTo": "f35cf",
           "orientation": [
             0,
@@ -1069,6 +1091,7 @@
               0
             ]
           },
+          "id": "ca2f8",
           "isAttachedTo": "f9210",
           "orientation": [],
           "x": 375.94798903057625,
@@ -1109,6 +1132,7 @@
               0
             ]
           },
+          "id": "e8846",
           "isAttachedTo": "e8252",
           "orientation": [
             0,
@@ -1128,6 +1152,7 @@
               1
             ]
           },
+          "id": "bfa85",
           "isAttachedTo": "c0ffe",
           "orientation": [
             0,
@@ -1171,6 +1196,7 @@
               0
             ]
           },
+          "id": "f6778",
           "isAttachedTo": "c0ffe",
           "orientation": [
             0,
@@ -1190,6 +1216,7 @@
               1
             ]
           },
+          "id": "e2226",
           "isAttachedTo": "fed6d",
           "orientation": [
             0,
@@ -1230,6 +1257,7 @@
               0.5
             ]
           },
+          "id": "b9075",
           "isAttachedTo": "bc661",
           "orientation": [
             -1,
@@ -1250,6 +1278,7 @@
               0
             ]
           },
+          "id": "e16ca",
           "isAttachedTo": "d9695",
           "orientation": [],
           "x": 289.2865578855734,
@@ -1304,24 +1333,24 @@
     ],
     "contains": [
       "id101e6313",
-      "id206a96dc",
       "id8770e4e5",
       "id8da001ed",
       "ide4de82d6",
       "idf27d9fd4",
+      "idfdcd0f07",
+      "id206a96dc",
       "idf950b039",
       "id913aca5b",
-      "idfdcd0f07",
       "id5236f80d",
-      "b876b",
-      "bc661",
-      "c0ffe",
-      "d0dce",
-      "dd575",
       "e8252",
+      "dd575",
       "f35cf",
+      "d0dce",
+      "c0ffe",
+      "bc661",
+      "b876b",
       "fed6d",
-      "b0c84",
+      "f26b3",
       "cdda7"
     ],
     "dataSourceVersion": "WP2491_r117698",
@@ -1334,6 +1363,7 @@
     "height": 367.11050289701967,
     "id": "WP2491",
     "kaavioType": "Group",
+    "lastModified": "20210522122055",
     "name": "Diclofenac metabolic pathway",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -1342,11 +1372,11 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Diclofenac metabolic pathway\nOrganism: Homo sapiens",
+    "textContent": "Name: Diclofenac metabolic pathway\nLast Modified: 20210522122055\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0001229",
-      "http://identifiers.org/pw/PW:0000375"
+      "http://identifiers.org/pw/PW:0000375",
+      "http://identifiers.org/pw/PW:0001229"
     ],
     "verticalAlign": "top",
     "width": 587.4541794267145,

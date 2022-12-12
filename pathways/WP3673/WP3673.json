@@ -111,36 +111,6 @@
       "y": 116.12421939436781,
       "zIndex": 32771
     },
-    "ad24a": {
-      "contains": [
-        "e8a48",
-        "effd0",
-        "f6fe9"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 76.00000000000037,
-      "id": "ad24a",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 96,
-      "x": 275.9259259259259,
-      "y": 217.78911865205592,
-      "zIndex": 32768
-    },
     "bef26": {
       "drawAs": "Ellipse",
       "fill": "#ffffff",
@@ -348,6 +318,36 @@
       "y": 128.30555555555554,
       "zIndex": 32768
     },
+    "e377b": {
+      "contains": [
+        "e8a48",
+        "effd0",
+        "f6fe9"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 76.00000000000037,
+      "id": "e377b",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 96,
+      "x": 275.9259259259259,
+      "y": 217.78911865205592,
+      "zIndex": 32768
+    },
     "e8a48": {
       "comments": [
         {
@@ -363,7 +363,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "e8a48",
-      "isPartOf": "ad24a",
+      "isPartOf": "e377b",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -419,9 +419,7 @@
         "SingleFreeNode",
         "Ensembl:ENSMUSG00000039004",
         "GeneProduct",
-        "P594:ENSMUSG00000039004",
-        "Entrez Gene:12161",
-        "P351:12161"
+        "P594:ENSMUSG00000039004"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -474,7 +472,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "effd0",
-      "isPartOf": "ad24a",
+      "isPartOf": "e377b",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -515,7 +513,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "f6fe9",
-      "isPartOf": "ad24a",
+      "isPartOf": "e377b",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -589,6 +587,7 @@
               0.5
             ]
           },
+          "id": "c014d",
           "isAttachedTo": "a6a6b",
           "orientation": [
             -1,
@@ -608,6 +607,7 @@
               0.5
             ]
           },
+          "id": "cf010",
           "isAttachedTo": "ddb43",
           "orientation": [
             -1,
@@ -652,6 +652,7 @@
               1
             ]
           },
+          "id": "d389e",
           "isAttachedTo": "ec820",
           "orientation": [
             0,
@@ -671,6 +672,7 @@
               0
             ]
           },
+          "id": "d32fb",
           "isAttachedTo": "ddb43",
           "orientation": [
             0,
@@ -702,7 +704,7 @@
       "id": "id9c9df73",
       "isAttachedTo": [
         "ddb43",
-        "ad24a"
+        "e377b"
       ],
       "kaavioType": "Edge",
       "markerEnd": "MimTranscriptionTranslation",
@@ -718,6 +720,7 @@
               1
             ]
           },
+          "id": "ace87",
           "isAttachedTo": "ddb43",
           "orientation": [
             0,
@@ -737,13 +740,14 @@
               0
             ]
           },
-          "isAttachedTo": "ad24a",
+          "id": "d5427",
+          "isAttachedTo": "e377b",
           "orientation": [
             0,
             1
           ],
           "x": 323.9259259259259,
-          "y": 217.78911865205595
+          "y": 217.7891186520559
         }
       ],
       "stroke": "#000000",
@@ -764,7 +768,7 @@
         "ddb43"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "TBar",
+      "markerEnd": "MimInhibition",
       "points": [
         {
           "attachmentDisplay": {
@@ -777,6 +781,7 @@
               0.5
             ]
           },
+          "id": "d5886",
           "isAttachedTo": "c3bc3",
           "orientation": [
             1,
@@ -796,6 +801,7 @@
               0.5
             ]
           },
+          "id": "dc559",
           "isAttachedTo": "ddb43",
           "orientation": [
             1,
@@ -809,9 +815,7 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge",
-        "SBO:0000169",
-        "Inhibition"
+        "Edge"
       ],
       "zIndex": 12288
     },
@@ -838,6 +842,7 @@
               0.5
             ]
           },
+          "id": "da21f",
           "isAttachedTo": "c714c",
           "orientation": [
             -1,
@@ -858,10 +863,11 @@
               0
             ]
           },
+          "id": "e213a",
           "isAttachedTo": "cfff6",
           "orientation": [],
           "x": 323.9259259259259,
-          "y": 184.10011836284363
+          "y": 184.1001183628436
         }
       ],
       "stroke": "#000000",
@@ -886,7 +892,7 @@
         "c3bc3"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "TBar",
+      "markerEnd": "MimInhibition",
       "points": [
         {
           "attachmentDisplay": {
@@ -899,6 +905,7 @@
               0.5
             ]
           },
+          "id": "d06bb",
           "isAttachedTo": "a4845",
           "orientation": [
             1,
@@ -918,6 +925,7 @@
               0.5
             ]
           },
+          "id": "bf787",
           "isAttachedTo": "c3bc3",
           "orientation": [
             1,
@@ -931,9 +939,7 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge",
-        "SBO:0000169",
-        "Inhibition"
+        "Edge"
       ],
       "zIndex": 12288
     },
@@ -985,7 +991,7 @@
       "c3bc3",
       "ddb43",
       "ec820",
-      "ad24a",
+      "e377b",
       "a6a6b",
       "c714c",
       "a6dc5",
@@ -998,9 +1004,10 @@
     "fontSize": 12,
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
-    "height": 315.7891186520563,
+    "height": 323.78911865205635,
     "id": "WP3673",
     "kaavioType": "Group",
+    "lastModified": "20161213222107",
     "name": "Hfe effect on hepcidin production",
     "organism": "Mus musculus",
     "padding": 5,
@@ -1009,7 +1016,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Hfe effect on hepcidin production\nOrganism: Mus musculus",
+    "textContent": "Name: Hfe effect on hepcidin production\nLast Modified: 20161213222107\nOrganism: Mus musculus",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000004",

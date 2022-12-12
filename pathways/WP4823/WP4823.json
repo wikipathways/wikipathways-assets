@@ -1,5 +1,27 @@
 {
   "entitiesById": {
+    "294352": {
+      "__HighlandStream__": true,
+      "_can_drain": false,
+      "_consume_waiting_for_next": false,
+      "_consumers": [],
+      "_delegate": null,
+      "_destructors": [],
+      "_events": {},
+      "_eventsCount": 2,
+      "_in_consume_cb": false,
+      "_incoming": [],
+      "_is_observer": false,
+      "_nil_pushed": false,
+      "_observers": [],
+      "_outgoing": [],
+      "_repeat_resume": false,
+      "_send_events": false,
+      "id": "294352",
+      "paused": true,
+      "source": null,
+      "writable": true
+    },
     "a18a3": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -529,7 +551,7 @@
       "gpmlElementName": "DataNode",
       "height": 25.5,
       "id": "b7eca",
-      "isPartOf": "pvjsgeneratedidffce8",
+      "isPartOf": "ce342",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -733,7 +755,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "bc159",
-      "isPartOf": "pvjsgeneratedidffce8",
+      "isPartOf": "ce342",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1274,6 +1296,35 @@
       "y": 498.5,
       "zIndex": 32790
     },
+    "ce342": {
+      "contains": [
+        "bc159",
+        "b7eca"
+      ],
+      "drawAs": "Octagon",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 49.5,
+      "id": "ce342",
+      "kaavioType": "Group",
+      "padding": 11,
+      "stroke": "#808080",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "Complex",
+        "GroupComplex"
+      ],
+      "verticalAlign": "middle",
+      "width": 203.00000000000026,
+      "x": 50.54278305963692,
+      "y": 124.47536732930021,
+      "zIndex": 32782
+    },
     "cf28e": {
       "drawAs": "none",
       "fill": "transparent",
@@ -1400,10 +1451,12 @@
       "markerEnd": "Arrow",
       "points": [
         {
+          "id": "beec3",
           "x": 156,
           "y": 642
         },
         {
+          "id": "cc73f",
           "x": 1164,
           "y": 642
         }
@@ -2360,16 +2413,6 @@
       "y": 447.5,
       "zIndex": 32785
     },
-    "http://identifiers.org/doid/DOID:0080205": {
-      "gpmlElementName": "openControlledVocabulary",
-      "id": "http://identifiers.org/doid/DOID:0080205",
-      "ontology": "Disease",
-      "term": "CAKUT",
-      "type": [
-        "openControlledVocabulary"
-      ],
-      "xrefIdentifier": "DOID:0080205"
-    },
     "http://identifiers.org/pw/PW:0000003": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000003",
@@ -2403,6 +2446,7 @@
               0.5
             ]
           },
+          "id": "f3fda",
           "isAttachedTo": "c05a2",
           "orientation": [
             1,
@@ -2422,6 +2466,7 @@
               0.5
             ]
           },
+          "id": "d65d6",
           "isAttachedTo": "c172e",
           "orientation": [
             1,
@@ -2518,35 +2563,6 @@
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "20378641",
       "year": 2010
-    },
-    "pvjsgeneratedidffce8": {
-      "contains": [
-        "bc159",
-        "b7eca"
-      ],
-      "drawAs": "Octagon",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 49.5,
-      "id": "pvjsgeneratedidffce8",
-      "kaavioType": "Group",
-      "padding": 11,
-      "stroke": "#808080",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "Complex",
-        "GroupComplex"
-      ],
-      "verticalAlign": "middle",
-      "width": 203.00000000000026,
-      "x": 50.54278305963692,
-      "y": 124.47536732930021,
-      "zIndex": 32782
     }
   },
   "pathway": {
@@ -2585,7 +2601,7 @@
       "b4a09",
       "ed826",
       "b7c6e",
-      "pvjsgeneratedidffce8",
+      "ce342",
       "a6d8c",
       "fadef",
       "ffce7",
@@ -2632,6 +2648,7 @@
     "height": 700.5,
     "id": "WP4823",
     "kaavioType": "Group",
+    "lastModified": "20210617162557",
     "name": "Genes controlling nephrogenesis",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -2640,7 +2657,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Genes controlling nephrogenesis\nOrganism: Homo sapiens",
+    "textContent": "Name: Genes controlling nephrogenesis\nLast Modified: 20210617162557\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000003"

@@ -1,5 +1,27 @@
 {
   "entitiesById": {
+    "734262": {
+      "__HighlandStream__": true,
+      "_can_drain": false,
+      "_consume_waiting_for_next": false,
+      "_consumers": [],
+      "_delegate": null,
+      "_destructors": [],
+      "_events": {},
+      "_eventsCount": 2,
+      "_in_consume_cb": false,
+      "_incoming": [],
+      "_is_observer": false,
+      "_nil_pushed": false,
+      "_observers": [],
+      "_outgoing": [],
+      "_repeat_resume": false,
+      "_send_events": false,
+      "id": "734262",
+      "paused": true,
+      "source": null,
+      "writable": true
+    },
     "a095e": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -215,6 +237,7 @@
               0.25
             ]
           },
+          "id": "e3d2a",
           "isAttachedTo": "bc1cc",
           "orientation": [
             1,
@@ -234,6 +257,7 @@
               0.5
             ]
           },
+          "id": "b4834",
           "isAttachedTo": "e7ee3",
           "orientation": [
             1,
@@ -274,6 +298,7 @@
               1
             ]
           },
+          "id": "a13c3",
           "isAttachedTo": "be95c",
           "orientation": [
             0,
@@ -294,6 +319,7 @@
               0
             ]
           },
+          "id": "c9361",
           "isAttachedTo": "d13d4",
           "orientation": [],
           "x": 613.1522633744852,
@@ -405,7 +431,7 @@
       "gpmlElementName": "Anchor",
       "height": 0,
       "id": "aec8f",
-      "isAttachedTo": "id999c5e75",
+      "isAttachedTo": "f750c",
       "kaavioType": "Burr",
       "strokeWidth": 0,
       "type": [
@@ -413,6 +439,78 @@
         "Burr"
       ],
       "width": 0,
+      "zIndex": 12288
+    },
+    "af01d": {
+      "drawAs": "ElbowLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "af01d",
+      "isAttachedTo": [
+        "f750c",
+        "a095e"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "MimConversion",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [],
+            "position": [
+              0.3491493583208844,
+              0
+            ],
+            "relativeOffset": [
+              0,
+              0
+            ]
+          },
+          "id": "d1777",
+          "isAttachedTo": "aec8f",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 400.67057882507413,
+          "y": 193.8484865757096
+        },
+        {
+          "id": "d1dfd",
+          "x": 204.63877415165004,
+          "y": 128.39506172839506
+        },
+        {
+          "id": "b41e5",
+          "x": 35.39094650205761,
+          "y": 220.82253086419752
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0,
+              0.75
+            ]
+          },
+          "id": "da51c",
+          "isAttachedTo": "a095e",
+          "orientation": [
+            1,
+            0
+          ],
+          "x": 208.1790123456795,
+          "y": 313.25
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
       "zIndex": 12288
     },
     "b1e2f": {
@@ -531,6 +629,7 @@
               0.5
             ]
           },
+          "id": "d0de5",
           "isAttachedTo": "aa476",
           "orientation": [
             1,
@@ -550,6 +649,7 @@
               0.5
             ]
           },
+          "id": "d219c",
           "isAttachedTo": "a1349",
           "orientation": [
             1,
@@ -577,7 +677,7 @@
           "content": "Specific enzyme for carnosine breakdown (not specified in literature for which reaction)."
         },
         {
-          "content": "\"This enzyme is present in considerable quantity in many tissues (with the exception\nof skeletal musculature) and is especially abundant in the kidney, liver\nand blood plasma \""
+          "content": "\"This enzyme is present in considerable quantity in many tissues (with the exception\r\nof skeletal musculature) and is especially abundant in the kidney, liver\r\nand blood plasma \""
         }
       ],
       "drawAs": "rect",
@@ -614,6 +714,79 @@
       "xrefIdentifier": "3.4.13.3",
       "y": 122.5,
       "zIndex": 32768
+    },
+    "bef18": {
+      "citations": [
+        "publicationXrefc4d"
+      ],
+      "comments": [
+        {
+          "content": "Transport into muscle cells (which only happens in working muscle)."
+        }
+      ],
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "bef18",
+      "isAttachedTo": [
+        "bc1cc",
+        "d9801"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "id": "f2283",
+          "isAttachedTo": "bc1cc",
+          "orientation": [
+            0,
+            -1
+          ],
+          "x": 500.6522633744852,
+          "y": 207.5
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "id": "eb4ee",
+          "isAttachedTo": "d9801",
+          "orientation": [
+            0,
+            -1
+          ],
+          "x": 500.1522633744852,
+          "y": 67.5
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12288
     },
     "c7726": {
       "attachmentDisplay": {
@@ -866,6 +1039,7 @@
               1
             ]
           },
+          "id": "d85c0",
           "isAttachedTo": "a095e",
           "orientation": [
             0,
@@ -885,6 +1059,7 @@
               0
             ]
           },
+          "id": "f759f",
           "isAttachedTo": "aa476",
           "orientation": [
             0,
@@ -936,6 +1111,7 @@
               0.5
             ]
           },
+          "id": "fb482",
           "isAttachedTo": "bc1cc",
           "orientation": [
             1,
@@ -955,6 +1131,7 @@
               0.5
             ]
           },
+          "id": "dbbc7",
           "isAttachedTo": "e4d3f",
           "orientation": [
             1,
@@ -995,6 +1172,7 @@
               1
             ]
           },
+          "id": "a6cad",
           "isAttachedTo": "be95c",
           "orientation": [
             0,
@@ -1015,6 +1193,7 @@
               0
             ]
           },
+          "id": "d780e",
           "isAttachedTo": "a2f18",
           "orientation": [],
           "x": 612.159535695346,
@@ -1057,6 +1236,7 @@
               0
             ]
           },
+          "id": "dc8d7",
           "isAttachedTo": "e6275",
           "orientation": [
             0,
@@ -1076,6 +1256,7 @@
               1
             ]
           },
+          "id": "d9fde",
           "isAttachedTo": "aa476",
           "orientation": [
             0,
@@ -1092,6 +1273,65 @@
         "Edge"
       ],
       "zIndex": 32783
+    },
+    "df873": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "df873",
+      "isAttachedTo": [
+        "be95c",
+        "a6da9"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "MimCatalysis",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "id": "a8b13",
+          "isAttachedTo": "be95c",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 576.1522633744852,
+          "y": 147.5
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [],
+            "position": [
+              0.6380817026881815,
+              0
+            ],
+            "relativeOffset": [
+              0,
+              0
+            ]
+          },
+          "id": "e06d2",
+          "isAttachedTo": "c7726",
+          "orientation": [],
+          "x": 618.0745366295938,
+          "y": 167.967637832123
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
+      "zIndex": 12288
     },
     "e4d3f": {
       "drawAs": "rect",
@@ -1239,7 +1479,7 @@
           "content": "\"Product of pyrimidine base degradation\""
         },
         {
-          "content": "\"Factor which stimulates collagen synthesis in\ntissues\""
+          "content": "\"Factor which stimulates collagen synthesis in\r\ntissues\""
         }
       ],
       "drawAs": "rect",
@@ -1315,6 +1555,7 @@
               0.25
             ]
           },
+          "id": "d6d6c",
           "isAttachedTo": "a095e",
           "orientation": [
             -1,
@@ -1334,6 +1575,7 @@
               0.5
             ]
           },
+          "id": "ebc73",
           "isAttachedTo": "c82fc",
           "orientation": [
             -1,
@@ -1377,6 +1619,7 @@
               0.75
             ]
           },
+          "id": "ce82d",
           "isAttachedTo": "eb67f",
           "orientation": [
             1,
@@ -1396,6 +1639,7 @@
               0.75
             ]
           },
+          "id": "b33c3",
           "isAttachedTo": "bc1cc",
           "orientation": [
             1,
@@ -1436,6 +1680,7 @@
               0
             ]
           },
+          "id": "fb954",
           "isAttachedTo": "a095e",
           "orientation": [
             0,
@@ -1456,6 +1701,7 @@
               0
             ]
           },
+          "id": "f0d91",
           "isAttachedTo": "f9e7e",
           "orientation": [],
           "x": 370.5517423985782,
@@ -1536,6 +1782,7 @@
               0.5
             ]
           },
+          "id": "f3976",
           "isAttachedTo": "e4d3f",
           "orientation": [
             1,
@@ -1555,6 +1802,7 @@
               0.5
             ]
           },
+          "id": "a7721",
           "isAttachedTo": "a1dfd",
           "orientation": [
             1,
@@ -1571,6 +1819,70 @@
         "Edge"
       ],
       "zIndex": 32790
+    },
+    "f750c": {
+      "burrs": [
+        "aec8f"
+      ],
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "f750c",
+      "isAttachedTo": [
+        "bc1cc",
+        "eb67f"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "MimConversion",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0,
+              0.25
+            ]
+          },
+          "id": "bb208",
+          "isAttachedTo": "bc1cc",
+          "orientation": [
+            -1,
+            0
+          ],
+          "x": 455.6522633744852,
+          "y": 213.75
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              1,
+              0.25
+            ]
+          },
+          "id": "f94e8",
+          "isAttachedTo": "eb67f",
+          "orientation": [
+            -1,
+            0
+          ],
+          "x": 298.1790123456795,
+          "y": 156.75
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
+      "zIndex": 12288
     },
     "f9e7e": {
       "attachmentDisplay": {
@@ -1595,6 +1907,65 @@
         "Burr"
       ],
       "width": 0,
+      "zIndex": 12288
+    },
+    "fe216": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "fe216",
+      "isAttachedTo": [
+        "b1e2f",
+        "f750c"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "MimCatalysis",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.25,
+              1
+            ]
+          },
+          "id": "f5944",
+          "isAttachedTo": "b1e2f",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 428.02515201768927,
+          "y": 171.0160616669739
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [],
+            "position": [
+              0.3491493583208844,
+              0
+            ],
+            "relativeOffset": [
+              0,
+              0
+            ]
+          },
+          "id": "b51df",
+          "isAttachedTo": "aec8f",
+          "orientation": [],
+          "x": 400.67057882507413,
+          "y": 193.8484865757096
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
       "zIndex": 12288
     },
     "fe323": {
@@ -1628,6 +1999,7 @@
               0.75
             ]
           },
+          "id": "c2574",
           "isAttachedTo": "bc1cc",
           "orientation": [
             1,
@@ -1647,6 +2019,7 @@
               0.5
             ]
           },
+          "id": "dc503",
           "isAttachedTo": "daa46",
           "orientation": [
             1,
@@ -1687,6 +2060,7 @@
               0
             ]
           },
+          "id": "c2de3",
           "isAttachedTo": "c82fc",
           "orientation": [
             0,
@@ -1706,6 +2080,7 @@
               1
             ]
           },
+          "id": "a8f5c",
           "isAttachedTo": "ac054",
           "orientation": [
             0,
@@ -1723,16 +2098,6 @@
       ],
       "zIndex": 32780
     },
-    "http://identifiers.org/cl/CL:0000187": {
-      "gpmlElementName": "openControlledVocabulary",
-      "id": "http://identifiers.org/cl/CL:0000187",
-      "ontology": "Cell Type",
-      "term": "muscle cell",
-      "type": [
-        "openControlledVocabulary"
-      ],
-      "xrefIdentifier": "CL:0000187"
-    },
     "http://identifiers.org/pw/PW:0001267": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0001267",
@@ -1742,77 +2107,6 @@
         "openControlledVocabulary"
       ],
       "xrefIdentifier": "PW:0001267"
-    },
-    "id53c094ec": {
-      "citations": [
-        "publicationXrefc4d"
-      ],
-      "comments": [
-        {
-          "content": "Transport into muscle cells (which only happens in working muscle)."
-        }
-      ],
-      "drawAs": "StraightLine",
-      "fill": "none",
-      "gpmlElementName": "Interaction",
-      "id": "id53c094ec",
-      "isAttachedTo": [
-        "bc1cc",
-        "d9801"
-      ],
-      "kaavioType": "Edge",
-      "markerEnd": "Arrow",
-      "points": [
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0.5,
-              0
-            ]
-          },
-          "isAttachedTo": "bc1cc",
-          "orientation": [
-            0,
-            -1
-          ],
-          "x": 500.6522633744852,
-          "y": 207.5
-        },
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0.5,
-              1
-            ]
-          },
-          "isAttachedTo": "d9801",
-          "orientation": [
-            0,
-            -1
-          ],
-          "x": 500.1522633744852,
-          "y": 67.5
-        }
-      ],
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "type": [
-        "Interaction",
-        "Edge",
-        "SBO:0000167",
-        "SBO:0000393",
-        "SBO:0000394",
-        "DirectedInteraction"
-      ],
-      "zIndex": 12288
     },
     "id70783305": {
       "comments": [
@@ -1842,6 +2136,7 @@
               0.5
             ]
           },
+          "id": "af8b7",
           "isAttachedTo": "d6ea0",
           "orientation": [
             1,
@@ -1862,67 +2157,11 @@
               0
             ]
           },
+          "id": "c9af7",
           "isAttachedTo": "f9e7e",
           "orientation": [],
           "x": 370.5517423985782,
           "y": 195.44648471130262
-        }
-      ],
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "type": [
-        "Interaction",
-        "Edge"
-      ],
-      "zIndex": 12288
-    },
-    "id7cdb6dab": {
-      "drawAs": "StraightLine",
-      "fill": "none",
-      "gpmlElementName": "Interaction",
-      "id": "id7cdb6dab",
-      "isAttachedTo": [
-        "be95c",
-        "a6da9"
-      ],
-      "kaavioType": "Edge",
-      "markerEnd": "MimCatalysis",
-      "points": [
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0.5,
-              1
-            ]
-          },
-          "isAttachedTo": "be95c",
-          "orientation": [
-            0,
-            1
-          ],
-          "x": 576.1522633744852,
-          "y": 147.5
-        },
-        {
-          "attachmentDisplay": {
-            "offset": [],
-            "position": [
-              0.6380817026881815,
-              0
-            ],
-            "relativeOffset": [
-              0,
-              0
-            ]
-          },
-          "isAttachedTo": "c7726",
-          "orientation": [],
-          "x": 618.0745366295938,
-          "y": 167.967637832123
         }
       ],
       "stroke": "#000000",
@@ -1956,6 +2195,7 @@
               0.5
             ]
           },
+          "id": "ca5b2",
           "isAttachedTo": "eb67f",
           "orientation": [
             -1,
@@ -1975,6 +2215,7 @@
               0
             ]
           },
+          "id": "d39d8",
           "isAttachedTo": "ac054",
           "orientation": [
             0,
@@ -1982,193 +2223,6 @@
           ],
           "x": 105.30587801732085,
           "y": 207.5
-        }
-      ],
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "type": [
-        "Interaction",
-        "Edge"
-      ],
-      "zIndex": 12288
-    },
-    "id964bb958": {
-      "drawAs": "StraightLine",
-      "fill": "none",
-      "gpmlElementName": "Interaction",
-      "id": "id964bb958",
-      "isAttachedTo": [
-        "b1e2f",
-        "id999c5e75"
-      ],
-      "kaavioType": "Edge",
-      "markerEnd": "MimCatalysis",
-      "points": [
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0.25,
-              1
-            ]
-          },
-          "isAttachedTo": "b1e2f",
-          "orientation": [
-            0,
-            1
-          ],
-          "x": 428.02515201768927,
-          "y": 171.0160616669739
-        },
-        {
-          "attachmentDisplay": {
-            "offset": [],
-            "position": [
-              0.3491493583208844,
-              0
-            ],
-            "relativeOffset": [
-              0,
-              0
-            ]
-          },
-          "isAttachedTo": "aec8f",
-          "orientation": [],
-          "x": 400.67057882507413,
-          "y": 193.8484865757096
-        }
-      ],
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "type": [
-        "Interaction",
-        "Edge"
-      ],
-      "zIndex": 12288
-    },
-    "id999c5e75": {
-      "burrs": [
-        "aec8f"
-      ],
-      "drawAs": "StraightLine",
-      "fill": "none",
-      "gpmlElementName": "Interaction",
-      "id": "id999c5e75",
-      "isAttachedTo": [
-        "bc1cc",
-        "eb67f"
-      ],
-      "kaavioType": "Edge",
-      "markerEnd": "MimConversion",
-      "points": [
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0,
-              0.25
-            ]
-          },
-          "isAttachedTo": "bc1cc",
-          "orientation": [
-            -1,
-            0
-          ],
-          "x": 455.6522633744852,
-          "y": 213.75
-        },
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              1,
-              0.25
-            ]
-          },
-          "isAttachedTo": "eb67f",
-          "orientation": [
-            -1,
-            0
-          ],
-          "x": 298.1790123456795,
-          "y": 156.75
-        }
-      ],
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "type": [
-        "Interaction",
-        "Edge"
-      ],
-      "zIndex": 12288
-    },
-    "idbf4ebd8": {
-      "drawAs": "ElbowLine",
-      "fill": "none",
-      "gpmlElementName": "Interaction",
-      "id": "idbf4ebd8",
-      "isAttachedTo": [
-        "id999c5e75",
-        "a095e"
-      ],
-      "kaavioType": "Edge",
-      "markerEnd": "MimConversion",
-      "points": [
-        {
-          "attachmentDisplay": {
-            "offset": [],
-            "position": [
-              0.3491493583208844,
-              0
-            ],
-            "relativeOffset": [
-              0,
-              0
-            ]
-          },
-          "isAttachedTo": "aec8f",
-          "orientation": [
-            0,
-            1
-          ],
-          "x": 400.67057882507413,
-          "y": 193.8484865757096
-        },
-        {
-          "x": 204.63877415165004,
-          "y": 128.39506172839506
-        },
-        {
-          "x": 35.39094650205761,
-          "y": 220.82253086419752
-        },
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0,
-              0.75
-            ]
-          },
-          "isAttachedTo": "a095e",
-          "orientation": [
-            1,
-            0
-          ],
-          "x": 208.1790123456795,
-          "y": 313.25
         }
       ],
       "stroke": "#000000",
@@ -2283,7 +2337,7 @@
       "id": "publicationXreffa5",
       "source": "https://doi.org/10.1016/0304-4165(88)90015-3",
       "standardName": "Detection, characterization and quantification of carnosine and other histidyl derivatives in cardiac and skeletal muscle",
-      "textContent": "4",
+      "textContent": "5",
       "type": [
         "PublicationXref",
         "DOI:10.1016/0304-4165(88)90015-3"
@@ -2301,7 +2355,7 @@
       "id": "publicationXreffc9",
       "source": "Methods Find Exp Clin Pharmacol",
       "standardName": "Realization of spontaneous healing function by carnosine.",
-      "textContent": "5",
+      "textContent": "4",
       "type": [
         "PublicationXref",
         "PubMed:3067017"
@@ -2340,18 +2394,18 @@
     "author": "[DeSl, Egonw, Khanspers, AlexanderPico, Eweitz, Finterly]",
     "comments": [
       {
-        "content": "Carnosine is known to be an antioxidant, a metal chelator, a Ca(2+) and enzyme regulator. It also functions as an inhibitor of protein glycosylation and protein-protein cross-linking.\nCarnosine has also been linked to overcoming muscle fatigue, and can only be transported into a working muscle cell. This pathway shows the main metabolites of carnosine and their relationship  with each other.",
+        "content": "Carnosine is known to be an antioxidant, a metal chelator, a Ca(2+) and enzyme regulator. It also functions as an inhibitor of protein glycosylation and protein-protein cross-linking.\r\nCarnosine has also been linked to overcoming muscle fatigue, and can only be transported into a working muscle cell. This pathway shows the main metabolites of carnosine and their relationship  with each other.",
         "source": "WikiPathways-description"
       }
     ],
     "contains": [
-      "id53c094ec",
+      "bef18",
+      "f750c",
+      "fe216",
+      "af01d",
       "id855f498f",
-      "id999c5e75",
-      "id964bb958",
-      "idbf4ebd8",
       "id70783305",
-      "id7cdb6dab",
+      "df873",
       "f3973",
       "a338e",
       "b1e2f",
@@ -2394,6 +2448,7 @@
     "height": 506.5,
     "id": "WP4486",
     "kaavioType": "Group",
+    "lastModified": "20210623132201",
     "name": "Role of carnosine in muscle contraction",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -2402,13 +2457,13 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Role of carnosine in muscle contraction\nOrganism: Homo sapiens",
+    "textContent": "Name: Role of carnosine in muscle contraction\nLast Modified: 20210623132201\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0001267"
     ],
     "verticalAlign": "top",
-    "width": 926.1522633744852,
+    "width": 1011,
     "x": 0,
     "y": 0,
     "zIndex": 0

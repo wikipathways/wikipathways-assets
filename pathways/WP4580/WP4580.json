@@ -1,5 +1,97 @@
 {
   "entitiesById": {
+    "a0d93": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "a0d93",
+      "kaavioType": "Edge",
+      "markerEnd": "MimInhibition",
+      "points": [
+        {
+          "id": "a0124",
+          "x": 723.756906077348,
+          "y": 517.4953959484346
+        },
+        {
+          "id": "a4963",
+          "x": 815.2240638428484,
+          "y": 517.4953959484346
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
+      "zIndex": 12288
+    },
+    "a30b8": {
+      "contains": [
+        "b1324",
+        "b5d04"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 92.5,
+      "id": "a30b8",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 239.77363413136868,
+      "x": 685.6131829343158,
+      "y": 261.5,
+      "zIndex": 28672
+    },
+    "a391b": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "bold",
+      "gpmlElementName": "DataNode",
+      "height": 39.5,
+      "id": "a391b",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#14961e",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Vitamin K \npathway",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "WikiPathways:WP5186",
+        "Pathway"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 115,
+      "wpType": "Pathway",
+      "x": 581,
+      "xrefDataSource": "WikiPathways",
+      "xrefIdentifier": "WP5186",
+      "y": 393.5,
+      "zIndex": 32768
+    },
     "a42e7": {
       "drawAs": "none",
       "fill": "transparent",
@@ -27,8 +119,39 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 90,
-      "x": 888.8084440125255,
-      "y": 479.02359356441,
+      "x": 843.2750153468385,
+      "y": 469.81549043365476,
+      "zIndex": 28672
+    },
+    "a8ef6": {
+      "drawAs": "none",
+      "fill": "transparent",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "bold",
+      "gpmlElementName": "Label",
+      "height": 25,
+      "id": "a8ef6",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#000000",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "textContent": "Legend",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "Label",
+        "SingleFreeNode"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 90,
+      "x": 790.9626409243041,
+      "y": 388.0666973481975,
       "zIndex": 28672
     },
     "ab25e": {
@@ -74,6 +197,72 @@
       "xrefIdentifier": "CHEBI:15627",
       "y": 286.25,
       "zIndex": 32768
+    },
+    "ae26e": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "ae26e",
+      "isAttachedTo": [
+        "a391b",
+        "dd27b"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "id": "d7e66",
+          "isAttachedTo": "a391b",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 638.5,
+          "y": 433
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              1,
+              0.5
+            ]
+          },
+          "id": "bdb79",
+          "isAttachedTo": "dd27b",
+          "orientation": [
+            -1,
+            0
+          ],
+          "x": 612.5,
+          "y": 467
+        }
+      ],
+      "stroke": "#000000",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12288
     },
     "aee9b": {
       "drawAs": "rect",
@@ -206,7 +395,7 @@
       "gpmlElementName": "Label",
       "height": 34.5,
       "id": "b1324",
-      "isPartOf": "pvjsgeneratedidfe856",
+      "isPartOf": "a30b8",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -224,7 +413,7 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 160,
-      "x": 17.5,
+      "x": 39.88681706568434,
       "y": 8,
       "zIndex": 28672
     },
@@ -238,7 +427,7 @@
       "gpmlElementName": "Label",
       "height": 48,
       "id": "b1c2b",
-      "isPartOf": "pvjsgeneratedidfe857",
+      "isPartOf": "ee22e",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -255,7 +444,7 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 159,
+      "width": 217.75138121546945,
       "x": 8,
       "y": 36.75,
       "zIndex": 28672
@@ -307,7 +496,7 @@
       "gpmlElementName": "Label",
       "height": 50,
       "id": "b5d04",
-      "isPartOf": "pvjsgeneratedidfe856",
+      "isPartOf": "a30b8",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -324,7 +513,7 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 171.5,
+      "width": 223.77363413136865,
       "x": 8,
       "y": 34.5,
       "zIndex": 28672
@@ -339,7 +528,7 @@
       "gpmlElementName": "Label",
       "height": 50.5,
       "id": "b9541",
-      "isPartOf": "pvjsgeneratedidfe857",
+      "isPartOf": "ee22e",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -357,11 +546,11 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 156,
-      "x": 8.5,
+      "x": 38.87569060773467,
       "y": 8,
       "zIndex": 28672
     },
-    "bb818": {
+    "beeba": {
       "drawAs": "none",
       "fill": "transparent",
       "fontFamily": "Arial",
@@ -369,8 +558,8 @@
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "Label",
-      "height": 42.5,
-      "id": "bb818",
+      "height": 25,
+      "id": "beeba",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -378,7 +567,7 @@
       "stroke": "#000000",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "Cross-linked fibrin",
+      "textContent": "Inhibition",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -387,10 +576,42 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 117,
-      "x": 509,
-      "y": 583,
+      "width": 90,
+      "x": 843.2750153468384,
+      "y": 505.60926949048496,
       "zIndex": 28672
+    },
+    "c0b85": {
+      "drawAs": "rect",
+      "fill": "transparent",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "Shape",
+      "height": 36.104665438919554,
+      "id": "c0b85",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rotation": 0,
+      "stroke": "#14931d",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Pathway",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "Shape",
+        "SingleFreeNode"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 86.4422958870473,
+      "x": 729.3956414978514,
+      "y": 540.5006138735423,
+      "zIndex": 16384
     },
     "c5385": {
       "drawAs": "rect",
@@ -470,12 +691,14 @@
       "markerEnd": "MimCatalysis",
       "points": [
         {
-          "x": 736.853471547349,
-          "y": 490.6597559658784
+          "id": "a38a3",
+          "x": 721.338336633481,
+          "y": 481.4516528351231
         },
         {
-          "x": 853.4715473490983,
-          "y": 490.6597559658784
+          "id": "cdc1c",
+          "x": 815.4113877419777,
+          "y": 481.4516528351231
         }
       ],
       "stroke": "#000000",
@@ -562,6 +785,133 @@
       "x": 705.5,
       "y": 265,
       "zIndex": 16384
+    },
+    "d498e": {
+      "drawAs": "rect",
+      "fill": "transparent",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "Shape",
+      "height": 203.8723143032534,
+      "id": "d498e",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rotation": 0,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "Shape",
+        "SingleFreeNode"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 246.78667894413576,
+      "x": 713.3115408225924,
+      "y": 424.18661755678306,
+      "zIndex": 16384
+    },
+    "d4a67": {
+      "drawAs": "rect",
+      "fill": "transparent",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "Shape",
+      "height": 36.104665438919554,
+      "id": "d4a67",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rotation": 0,
+      "stroke": "#0000ff",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Metabolite",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "Shape",
+        "SingleFreeNode"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 86.4422958870473,
+      "x": 832.7044198895022,
+      "y": 540.5006138735423,
+      "zIndex": 32770
+    },
+    "d7e50": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "d7e50",
+      "isAttachedTo": [
+        "e6eab",
+        "idcf0470ab"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              1,
+              0.5
+            ]
+          },
+          "id": "eb0ea",
+          "isAttachedTo": "e6eab",
+          "orientation": [
+            1,
+            0
+          ],
+          "x": 266,
+          "y": 112.25
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [],
+            "position": [
+              0.4,
+              0
+            ],
+            "relativeOffset": [
+              0,
+              0
+            ]
+          },
+          "id": "b9648",
+          "isAttachedTo": "ea490",
+          "orientation": [],
+          "x": 363.5,
+          "y": 153.4
+        }
+      ],
+      "stroke": "#000000",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12288
     },
     "d879b": {
       "drawAs": "rect",
@@ -733,7 +1083,7 @@
         "DataNode",
         "SingleFreeNode",
         "ChEBI:CHEBI:15627",
-        "Protein",
+        "Metabolite",
         "ChEBI:15627",
         "P683:CHEBI:15627",
         "P683:15627",
@@ -746,12 +1096,49 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 133,
-      "wpType": "Protein",
+      "wpType": "Metabolite",
       "x": 297,
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "CHEBI:15627",
       "y": 353.3141884328358,
       "zIndex": 32768
+    },
+    "e6eab": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "bold",
+      "gpmlElementName": "DataNode",
+      "height": 39.5,
+      "id": "e6eab",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#14961e",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Eicosanoid\nsynthesis",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "WikiPathways:WP167",
+        "Pathway",
+        "Wikidata:Q30231025"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 115,
+      "wpType": "Pathway",
+      "x": 151,
+      "xrefDataSource": "WikiPathways",
+      "xrefIdentifier": "WP167",
+      "y": 92.5,
+      "zIndex": 32769
     },
     "ea490": {
       "attachmentDisplay": {
@@ -818,6 +1205,104 @@
       "y": 508,
       "zIndex": 32768
     },
+    "eca77": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "bold",
+      "gpmlElementName": "DataNode",
+      "height": 42.5,
+      "id": "eca77",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#14961e",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Cross-linked fibrin",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "WikiPathways:WP4927",
+        "Pathway",
+        "Wikidata:Q94301227"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 134.33947206875376,
+      "wpType": "Pathway",
+      "x": 500.40577041129495,
+      "xrefDataSource": "WikiPathways",
+      "xrefIdentifier": "WP4927",
+      "y": 583,
+      "zIndex": 28672
+    },
+    "ed6ee": {
+      "drawAs": "rect",
+      "fill": "transparent",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "Shape",
+      "height": 36.104665438919554,
+      "id": "ed6ee",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rotation": 0,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Protein",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "Shape",
+        "SingleFreeNode"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 86.4422958870473,
+      "x": 783.7725598526695,
+      "y": 585.4914057704118,
+      "zIndex": 32771
+    },
+    "ee22e": {
+      "contains": [
+        "b1c2b",
+        "b9541"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 92.75,
+      "id": "ee22e",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 233.75138121546945,
+      "x": 688.6243093922653,
+      "y": 167,
+      "zIndex": 28672
+    },
     "f1ede": {
       "attachmentDisplay": {
         "offset": [
@@ -877,10 +1362,10 @@
       "whiteSpace": "pre",
       "width": 90,
       "wpType": "Metabolite",
-      "x": 227.90709421641793,
+      "x": 218.90709421641793,
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "CHEBI:35475",
-      "y": 140.59290578358213,
+      "y": 158.59290578358213,
       "zIndex": 32768
     },
     "fa072": {
@@ -900,7 +1385,7 @@
       "stroke": "#000000",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "Metabolite conversion",
+      "textContent": "Metabolic conversion",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -910,8 +1395,8 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 139.15829823993064,
-      "x": 867.2125040492389,
-      "y": 440.55717525105274,
+      "x": 818.6958662268731,
+      "y": 431.3490721202975,
       "zIndex": 28672
     },
     "fd1ee": {
@@ -948,12 +1433,14 @@
       "markerEnd": "MimConversion",
       "points": [
         {
-          "x": 734.2619587517546,
-          "y": 453.5147392290249
+          "id": "df89c",
+          "x": 721.338336633481,
+          "y": 445.1704736968011
         },
         {
-          "x": 849.1523593564409,
-          "y": 454.37857682755634
+          "id": "ac5c6",
+          "x": 811.0921997493203,
+          "y": 445.1704736968011
         }
       ],
       "stroke": "#000000",
@@ -997,6 +1484,7 @@
               0.5
             ]
           },
+          "id": "ed4e3",
           "isAttachedTo": "aee9b",
           "orientation": [
             1,
@@ -1016,6 +1504,7 @@
               0.5
             ]
           },
+          "id": "a449b",
           "isAttachedTo": "d1c0d",
           "orientation": [
             1,
@@ -1040,7 +1529,7 @@
       "id": "id18b4e8a4",
       "isAttachedTo": [
         "ebbba",
-        "bb818"
+        "eca77"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -1056,6 +1545,7 @@
               1
             ]
           },
+          "id": "fdd40",
           "isAttachedTo": "ebbba",
           "orientation": [
             0,
@@ -1075,12 +1565,13 @@
               0
             ]
           },
-          "isAttachedTo": "bb818",
+          "id": "f039b",
+          "isAttachedTo": "eca77",
           "orientation": [
             0,
             1
           ],
-          "x": 567.5,
+          "x": 567.5755064456719,
           "y": 583
         }
       ],
@@ -1119,6 +1610,7 @@
               0.5
             ]
           },
+          "id": "a7d6b",
           "isAttachedTo": "d1c0d",
           "orientation": [
             1,
@@ -1138,6 +1630,7 @@
               0.5
             ]
           },
+          "id": "aca0f",
           "isAttachedTo": "dfe96",
           "orientation": [
             1,
@@ -1148,6 +1641,7 @@
         }
       ],
       "stroke": "#000000",
+      "strokeDasharray": "5,3",
       "strokeWidth": 1,
       "type": [
         "Interaction",
@@ -1185,6 +1679,7 @@
               0.5
             ]
           },
+          "id": "c7296",
           "isAttachedTo": "d879b",
           "orientation": [
             1,
@@ -1204,6 +1699,7 @@
               0.5
             ]
           },
+          "id": "e1d13",
           "isAttachedTo": "b3dec",
           "orientation": [
             1,
@@ -1244,13 +1740,14 @@
               0.5
             ]
           },
+          "id": "f37d5",
           "isAttachedTo": "f884e",
           "orientation": [
             1,
             0
           ],
-          "x": 317.90709421641793,
-          "y": 153.09290578358213
+          "x": 308.90709421641793,
+          "y": 171.09290578358213
         },
         {
           "attachmentDisplay": {
@@ -1264,6 +1761,7 @@
               0
             ]
           },
+          "id": "ecd02",
           "isAttachedTo": "ea490",
           "orientation": [],
           "x": 363.5,
@@ -1304,6 +1802,7 @@
               1
             ]
           },
+          "id": "c4641",
           "isAttachedTo": "b3dec",
           "orientation": [
             0,
@@ -1324,6 +1823,7 @@
               0
             ]
           },
+          "id": "e9525",
           "isAttachedTo": "fd1ee",
           "orientation": [],
           "x": 480,
@@ -1361,6 +1861,7 @@
               0.5
             ]
           },
+          "id": "be050",
           "isAttachedTo": "dd27b",
           "orientation": [
             -1,
@@ -1381,6 +1882,7 @@
               0
             ]
           },
+          "id": "b3347",
           "isAttachedTo": "c79a3",
           "orientation": [],
           "x": 480,
@@ -1418,6 +1920,7 @@
               1
             ]
           },
+          "id": "dacd2",
           "isAttachedTo": "e4fda",
           "orientation": [
             0,
@@ -1438,6 +1941,7 @@
               0
             ]
           },
+          "id": "de1dc",
           "isAttachedTo": "f1ede",
           "orientation": [],
           "x": 364,
@@ -1478,6 +1982,7 @@
               0.5
             ]
           },
+          "id": "dde5d",
           "isAttachedTo": "d8c6e",
           "orientation": [
             1,
@@ -1497,6 +2002,7 @@
               0.5
             ]
           },
+          "id": "b0742",
           "isAttachedTo": "ebbba",
           "orientation": [
             1,
@@ -1537,6 +2043,7 @@
               0.5
             ]
           },
+          "id": "b7edc",
           "isAttachedTo": "af2d0",
           "orientation": [
             1,
@@ -1557,6 +2064,7 @@
               0
             ]
           },
+          "id": "b8ca7",
           "isAttachedTo": "c79a3",
           "orientation": [],
           "x": 480,
@@ -1594,6 +2102,7 @@
               1
             ]
           },
+          "id": "c666a",
           "isAttachedTo": "aee9b",
           "orientation": [
             0,
@@ -1613,6 +2122,7 @@
               0
             ]
           },
+          "id": "b9222",
           "isAttachedTo": "ab25e",
           "orientation": [
             0,
@@ -1653,6 +2163,7 @@
               0.5
             ]
           },
+          "id": "fe205",
           "isAttachedTo": "ab25e",
           "orientation": [
             1,
@@ -1672,6 +2183,7 @@
               0.5
             ]
           },
+          "id": "d1c17",
           "isAttachedTo": "d2b61",
           "orientation": [
             1,
@@ -1682,6 +2194,7 @@
         }
       ],
       "stroke": "#000000",
+      "strokeDasharray": "5,3",
       "strokeWidth": 1,
       "type": [
         "Interaction",
@@ -1716,6 +2229,7 @@
               1
             ]
           },
+          "id": "a1740",
           "isAttachedTo": "ab25e",
           "orientation": [
             0,
@@ -1735,6 +2249,7 @@
               0
             ]
           },
+          "id": "fe44b",
           "isAttachedTo": "e4fda",
           "orientation": [
             0,
@@ -1778,6 +2293,7 @@
               1
             ]
           },
+          "id": "b27b6",
           "isAttachedTo": "c5385",
           "orientation": [
             0,
@@ -1797,6 +2313,7 @@
               0
             ]
           },
+          "id": "f905f",
           "isAttachedTo": "aee9b",
           "orientation": [
             0,
@@ -1837,6 +2354,7 @@
               0.5
             ]
           },
+          "id": "d8762",
           "isAttachedTo": "b0a17",
           "orientation": [
             -1,
@@ -1857,6 +2375,7 @@
               0
             ]
           },
+          "id": "ad332",
           "isAttachedTo": "ea490",
           "orientation": [],
           "x": 363.5,
@@ -1887,64 +2406,6 @@
       "xrefDataSource": "ISBN",
       "xrefIdentifier": "9780813546773",
       "year": 2010
-    },
-    "pvjsgeneratedidfe856": {
-      "contains": [
-        "b1324",
-        "b5d04"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 92.5,
-      "id": "pvjsgeneratedidfe856",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 187.5,
-      "x": 717.5,
-      "y": 261.5,
-      "zIndex": 28672
-    },
-    "pvjsgeneratedidfe857": {
-      "contains": [
-        "b1c2b",
-        "b9541"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 92.75,
-      "id": "pvjsgeneratedidfe857",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 175,
-      "x": 719,
-      "y": 167,
-      "zIndex": 28672
     }
   },
   "pathway": {
@@ -1962,10 +2423,12 @@
       }
     ],
     "contains": [
-      "id13750a96",
+      "ae26e",
       "cbdab",
-      "id18b4e8a4",
       "fe855",
+      "a0d93",
+      "id13750a96",
+      "id18b4e8a4",
       "id2386e7dc",
       "id33793819",
       "id6fd1374f",
@@ -1977,15 +2440,21 @@
       "id9e74b264",
       "idb305ca09",
       "idcf0470ab",
+      "d7e50",
       "id37c70a1f",
       "idfac10fcc",
+      "c0b85",
       "d2b61",
+      "d498e",
       "dfe96",
+      "eca77",
       "a42e7",
-      "bb818",
+      "a8ef6",
+      "beeba",
       "fa072",
-      "pvjsgeneratedidfe856",
-      "pvjsgeneratedidfe857",
+      "a30b8",
+      "ee22e",
+      "a391b",
       "ab25e",
       "aee9b",
       "af2d0",
@@ -1998,18 +2467,22 @@
       "dd27b",
       "e4fda",
       "ebbba",
-      "f884e"
+      "f884e",
+      "e6eab",
+      "d4a67",
+      "ed6ee"
     ],
-    "dataSourceVersion": "WP4580_r119307",
+    "dataSourceVersion": "WP4580_r123582",
     "displayName": "Blood clotting and drug effects",
     "drawAs": "rect",
     "fill": "white",
     "fontSize": 12,
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
-    "height": 655.5,
+    "height": 815.7114794352365,
     "id": "WP4580",
     "kaavioType": "Group",
+    "lastModified": "20220804123913",
     "name": "Blood clotting and drug effects",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -2018,13 +2491,13 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Blood clotting and drug effects\nOrganism: Homo sapiens",
+    "textContent": "Name: Blood clotting and drug effects\nLast Modified: 20220804123913\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000474"
     ],
     "verticalAlign": "top",
-    "width": 1036.3708022891694,
+    "width": 1141,
     "x": 0,
     "y": 0,
     "zIndex": 0

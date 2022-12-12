@@ -1,5 +1,27 @@
 {
   "entitiesById": {
+    "458737": {
+      "__HighlandStream__": true,
+      "_can_drain": false,
+      "_consume_waiting_for_next": false,
+      "_consumers": [],
+      "_delegate": null,
+      "_destructors": [],
+      "_events": {},
+      "_eventsCount": 2,
+      "_in_consume_cb": false,
+      "_incoming": [],
+      "_is_observer": false,
+      "_nil_pushed": false,
+      "_observers": [],
+      "_outgoing": [],
+      "_repeat_resume": false,
+      "_send_events": false,
+      "id": "458737",
+      "paused": true,
+      "source": null,
+      "writable": true
+    },
     "a37fd": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -175,7 +197,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "c1666",
-      "isPartOf": "fba9f",
+      "isPartOf": "d32fb",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -236,6 +258,36 @@
       "x": 579,
       "y": 342,
       "zIndex": 28672
+    },
+    "d32fb": {
+      "contains": [
+        "c1666",
+        "f60b1",
+        "f8f2d"
+      ],
+      "drawAs": "Octagon",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 84,
+      "id": "d32fb",
+      "kaavioType": "Group",
+      "padding": 11,
+      "stroke": "#808080",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "Complex",
+        "GroupComplex"
+      ],
+      "verticalAlign": "middle",
+      "width": 104.75,
+      "x": 577,
+      "y": 189,
+      "zIndex": 32768
     },
     "d38df": {
       "drawAs": "none",
@@ -543,7 +595,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "f60b1",
-      "isPartOf": "fba9f",
+      "isPartOf": "d32fb",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -584,7 +636,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "f8f2d",
-      "isPartOf": "fba9f",
+      "isPartOf": "d32fb",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -613,36 +665,6 @@
       "xrefDataSource": "Ensembl",
       "xrefIdentifier": "WBGene00000217",
       "y": 52,
-      "zIndex": 32768
-    },
-    "fba9f": {
-      "contains": [
-        "c1666",
-        "f60b1",
-        "f8f2d"
-      ],
-      "drawAs": "Octagon",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 84,
-      "id": "fba9f",
-      "kaavioType": "Group",
-      "padding": 11,
-      "stroke": "#808080",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "Complex",
-        "GroupComplex"
-      ],
-      "verticalAlign": "middle",
-      "width": 104.75,
-      "x": 577,
-      "y": 189,
       "zIndex": 32768
     },
     "fd1b5": {
@@ -684,16 +706,6 @@
       "xrefIdentifier": "WBGene00006606",
       "y": 209,
       "zIndex": 32768
-    },
-    "http://identifiers.org/doid/DOID:9159": {
-      "gpmlElementName": "openControlledVocabulary",
-      "id": "http://identifiers.org/doid/DOID:9159",
-      "ontology": "Disease",
-      "term": "gas gangrene",
-      "type": [
-        "openControlledVocabulary"
-      ],
-      "xrefIdentifier": "DOID:9159"
     },
     "http://identifiers.org/pw/PW:0000003": {
       "gpmlElementName": "openControlledVocabulary",
@@ -738,6 +750,7 @@
               0.5
             ]
           },
+          "id": "a5f74",
           "isAttachedTo": "bb1f4",
           "orientation": [
             1,
@@ -757,6 +770,7 @@
               0
             ]
           },
+          "id": "a7a67",
           "isAttachedTo": "e14eb",
           "orientation": [
             0,
@@ -801,6 +815,7 @@
               1
             ]
           },
+          "id": "a2fff",
           "isAttachedTo": "f08f8",
           "orientation": [
             0,
@@ -820,6 +835,7 @@
               0
             ]
           },
+          "id": "df4b7",
           "isAttachedTo": "a37fd",
           "orientation": [
             0,
@@ -860,6 +876,7 @@
               0
             ]
           },
+          "id": "b970b",
           "isAttachedTo": "da060",
           "orientation": [
             0,
@@ -879,6 +896,7 @@
               1
             ]
           },
+          "id": "eed8c",
           "isAttachedTo": "bb1f4",
           "orientation": [
             0,
@@ -906,7 +924,7 @@
       "gpmlElementName": "Interaction",
       "id": "id41ff0960",
       "isAttachedTo": [
-        "fba9f",
+        "d32fb",
         "bf0ec"
       ],
       "kaavioType": "Edge",
@@ -923,7 +941,8 @@
               1
             ]
           },
-          "isAttachedTo": "fba9f",
+          "id": "e21e4",
+          "isAttachedTo": "d32fb",
           "orientation": [
             0,
             1
@@ -942,6 +961,7 @@
               0
             ]
           },
+          "id": "b6b82",
           "isAttachedTo": "bf0ec",
           "orientation": [
             0,
@@ -986,6 +1006,7 @@
               0
             ]
           },
+          "id": "b2925",
           "isAttachedTo": "f1657",
           "orientation": [
             0,
@@ -1005,6 +1026,7 @@
               0.5
             ]
           },
+          "id": "b9f0c",
           "isAttachedTo": "bb1f4",
           "orientation": [
             1,
@@ -1049,6 +1071,7 @@
               0.5
             ]
           },
+          "id": "fd8b4",
           "isAttachedTo": "fd1b5",
           "orientation": [
             1,
@@ -1068,6 +1091,7 @@
               0.5
             ]
           },
+          "id": "b999c",
           "isAttachedTo": "da060",
           "orientation": [
             1,
@@ -1112,6 +1136,7 @@
               0.5
             ]
           },
+          "id": "ef59d",
           "isAttachedTo": "abed4",
           "orientation": [
             1,
@@ -1131,6 +1156,7 @@
               0.5
             ]
           },
+          "id": "b5316",
           "isAttachedTo": "fd1b5",
           "orientation": [
             1,
@@ -1155,7 +1181,7 @@
       "id": "idd8d55e95",
       "isAttachedTo": [
         "e14eb",
-        "fba9f"
+        "d32fb"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -1171,6 +1197,7 @@
               1
             ]
           },
+          "id": "fd3b6",
           "isAttachedTo": "e14eb",
           "orientation": [
             0,
@@ -1190,7 +1217,8 @@
               0.25
             ]
           },
-          "isAttachedTo": "fba9f",
+          "id": "cf113",
+          "isAttachedTo": "d32fb",
           "orientation": [
             1,
             0
@@ -1234,6 +1262,7 @@
               1
             ]
           },
+          "id": "eacff",
           "isAttachedTo": "a37fd",
           "orientation": [
             0,
@@ -1253,6 +1282,7 @@
               0
             ]
           },
+          "id": "aca61",
           "isAttachedTo": "abed4",
           "orientation": [
             0,
@@ -1344,7 +1374,7 @@
       "f08f8",
       "f1657",
       "fd1b5",
-      "fba9f"
+      "d32fb"
     ],
     "dataSourceVersion": "WP3648_r118060",
     "displayName": "Crystal toxin triggered necrosis pathway",
@@ -1356,6 +1386,7 @@
     "height": 404,
     "id": "WP3648",
     "kaavioType": "Group",
+    "lastModified": "20210524103740",
     "name": "Crystal toxin triggered necrosis pathway",
     "organism": "Caenorhabditis elegans",
     "padding": 5,
@@ -1364,11 +1395,11 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Crystal toxin triggered necrosis pathway\nOrganism: Caenorhabditis elegans",
+    "textContent": "Name: Crystal toxin triggered necrosis pathway\nLast Modified: 20210524103740\nOrganism: Caenorhabditis elegans",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0000279",
-      "http://identifiers.org/pw/PW:0000003"
+      "http://identifiers.org/pw/PW:0000003",
+      "http://identifiers.org/pw/PW:0000279"
     ],
     "verticalAlign": "top",
     "width": 792,

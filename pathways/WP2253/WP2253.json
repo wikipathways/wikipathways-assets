@@ -1,5 +1,49 @@
 {
   "entitiesById": {
+    "608965": {
+      "__HighlandStream__": true,
+      "_can_drain": false,
+      "_consume_waiting_for_next": false,
+      "_consumers": [],
+      "_delegate": null,
+      "_destructors": [],
+      "_events": {},
+      "_eventsCount": 2,
+      "_in_consume_cb": false,
+      "_incoming": [],
+      "_is_observer": false,
+      "_nil_pushed": false,
+      "_observers": [],
+      "_outgoing": [],
+      "_repeat_resume": false,
+      "_send_events": false,
+      "id": "608965",
+      "paused": true,
+      "source": null,
+      "writable": true
+    },
+    "644593": {
+      "__HighlandStream__": true,
+      "_can_drain": false,
+      "_consume_waiting_for_next": false,
+      "_consumers": [],
+      "_delegate": null,
+      "_destructors": [],
+      "_events": {},
+      "_eventsCount": 2,
+      "_in_consume_cb": false,
+      "_incoming": [],
+      "_is_observer": false,
+      "_nil_pushed": false,
+      "_observers": [],
+      "_outgoing": [],
+      "_repeat_resume": false,
+      "_send_events": false,
+      "id": "644593",
+      "paused": true,
+      "source": null,
+      "writable": true
+    },
     "a478f": {
       "drawAs": "Ellipse",
       "fill": "#ffff99",
@@ -297,7 +341,7 @@
       "y": 445.92217484008535,
       "zIndex": 32768
     },
-    "c9baa": {
+    "c8e77": {
       "contains": [
         "f83c4",
         "ec569"
@@ -309,7 +353,7 @@
       "fontWeight": "bold",
       "gpmlElementName": "Group",
       "height": 65.5,
-      "id": "c9baa",
+      "id": "c8e77",
       "kaavioType": "Group",
       "padding": 11,
       "stroke": "#808080",
@@ -351,35 +395,6 @@
       "width": 0,
       "zIndex": 12288
     },
-    "d076f": {
-      "contains": [
-        "d3463",
-        "dc7bd"
-      ],
-      "drawAs": "Octagon",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 67.99999999999997,
-      "id": "d076f",
-      "kaavioType": "Group",
-      "padding": 11,
-      "stroke": "#808080",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "Complex",
-        "GroupComplex"
-      ],
-      "verticalAlign": "middle",
-      "width": 82.5,
-      "x": 465.5,
-      "y": 199.75,
-      "zIndex": 32768
-    },
     "d3463": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -390,7 +405,7 @@
       "gpmlElementName": "DataNode",
       "height": 22.749999999999943,
       "id": "d3463",
-      "isPartOf": "d076f",
+      "isPartOf": "ff5af",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -435,10 +450,10 @@
       "id": "d5161",
       "isAttachedTo": [
         "f822f",
-        "c9baa"
+        "c8e77"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimModification",
+      "markerEnd": "MimConversion",
       "points": [
         {
           "attachmentDisplay": {
@@ -451,6 +466,7 @@
               0.75
             ]
           },
+          "id": "f221f",
           "isAttachedTo": "f822f",
           "orientation": [
             -1,
@@ -470,7 +486,8 @@
               0.5
             ]
           },
-          "isAttachedTo": "c9baa",
+          "id": "fc517",
+          "isAttachedTo": "c8e77",
           "orientation": [
             -1,
             0
@@ -497,7 +514,7 @@
       "gpmlElementName": "DataNode",
       "height": 21.25,
       "id": "dc7bd",
-      "isPartOf": "d076f",
+      "isPartOf": "ff5af",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -541,7 +558,7 @@
       "gpmlElementName": "DataNode",
       "height": 24.999999999999982,
       "id": "df578",
-      "isPartOf": "fa6b3",
+      "isPartOf": "e11c2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -573,6 +590,35 @@
       "xrefDataSource": "Ensembl",
       "xrefIdentifier": "ENSG00000132155",
       "y": 8,
+      "zIndex": 32768
+    },
+    "e11c2": {
+      "contains": [
+        "df578",
+        "fef72"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 41,
+      "id": "e11c2",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 111.94043887147257,
+      "x": 588.3949843260186,
+      "y": 316.4905956112859,
       "zIndex": 32768
     },
     "e45b8": {
@@ -721,7 +767,7 @@
       "gpmlElementName": "DataNode",
       "height": 18,
       "id": "ec569",
-      "isPartOf": "c9baa",
+      "isPartOf": "c8e77",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -933,7 +979,7 @@
       "gpmlElementName": "DataNode",
       "height": 23.5,
       "id": "f83c4",
-      "isPartOf": "c9baa",
+      "isPartOf": "c8e77",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1012,35 +1058,6 @@
       "y": 131,
       "zIndex": 32768
     },
-    "fa6b3": {
-      "contains": [
-        "df578",
-        "fef72"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 41,
-      "id": "fa6b3",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 111.94043887147257,
-      "x": 588.3949843260186,
-      "y": 316.4905956112859,
-      "zIndex": 32768
-    },
     "fc9e7": {
       "drawAs": "none",
       "fill": "transparent",
@@ -1082,7 +1099,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "fef72",
-      "isPartOf": "fa6b3",
+      "isPartOf": "e11c2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1116,25 +1133,34 @@
       "y": 8,
       "zIndex": 32768
     },
-    "http://identifiers.org/doid/DOID:3069": {
-      "gpmlElementName": "openControlledVocabulary",
-      "id": "http://identifiers.org/doid/DOID:3069",
-      "ontology": "Disease",
-      "term": "astrocytoma",
-      "type": [
-        "openControlledVocabulary"
+    "ff5af": {
+      "contains": [
+        "d3463",
+        "dc7bd"
       ],
-      "xrefIdentifier": "DOID:3069"
-    },
-    "http://identifiers.org/doid/DOID:4851": {
-      "gpmlElementName": "openControlledVocabulary",
-      "id": "http://identifiers.org/doid/DOID:4851",
-      "ontology": "Disease",
-      "term": "pilocytic astrocytoma",
+      "drawAs": "Octagon",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 67.99999999999997,
+      "id": "ff5af",
+      "kaavioType": "Group",
+      "padding": 11,
+      "stroke": "#808080",
+      "strokeWidth": 1,
+      "textAlign": "center",
       "type": [
-        "openControlledVocabulary"
+        "Group",
+        "Complex",
+        "GroupComplex"
       ],
-      "xrefIdentifier": "DOID:4851"
+      "verticalAlign": "middle",
+      "width": 82.5,
+      "x": 465.5,
+      "y": 199.75,
+      "zIndex": 32768
     },
     "http://identifiers.org/pw/PW:0000007": {
       "gpmlElementName": "openControlledVocabulary",
@@ -1179,6 +1205,7 @@
               0
             ]
           },
+          "id": "d2abb",
           "isAttachedTo": "f3f73",
           "orientation": [
             0,
@@ -1199,6 +1226,7 @@
               0
             ]
           },
+          "id": "cb977",
           "isAttachedTo": "a8827",
           "orientation": [],
           "x": 469.6,
@@ -1236,6 +1264,7 @@
               1
             ]
           },
+          "id": "d9d2b",
           "isAttachedTo": "c82b8",
           "orientation": [
             0,
@@ -1255,6 +1284,7 @@
               0.5
             ]
           },
+          "id": "cb1b1",
           "isAttachedTo": "a6336",
           "orientation": [
             1,
@@ -1306,6 +1336,7 @@
               1
             ]
           },
+          "id": "b41e3",
           "isAttachedTo": "f8fc1",
           "orientation": [
             0,
@@ -1326,6 +1357,7 @@
               0
             ]
           },
+          "id": "e9b0f",
           "isAttachedTo": "ccbf0",
           "orientation": [],
           "x": 446.4,
@@ -1349,11 +1381,11 @@
       "gpmlElementName": "Interaction",
       "id": "id796209fa",
       "isAttachedTo": [
-        "c9baa",
+        "c8e77",
         "f822f"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimModification",
+      "markerEnd": "MimConversion",
       "points": [
         {
           "attachmentDisplay": {
@@ -1366,7 +1398,8 @@
               0.25
             ]
           },
-          "isAttachedTo": "c9baa",
+          "id": "e062a",
+          "isAttachedTo": "c8e77",
           "orientation": [
             1,
             0
@@ -1385,6 +1418,7 @@
               0.25
             ]
           },
+          "id": "c8e5f",
           "isAttachedTo": "f822f",
           "orientation": [
             1,
@@ -1409,7 +1443,7 @@
       "id": "id85fe4a68",
       "isAttachedTo": [
         "f822f",
-        "fa6b3"
+        "e11c2"
       ],
       "kaavioType": "Edge",
       "markerEnd": "MimStimulation",
@@ -1425,6 +1459,7 @@
               0.5
             ]
           },
+          "id": "da89f",
           "isAttachedTo": "f822f",
           "orientation": [
             1,
@@ -1444,7 +1479,8 @@
               0
             ]
           },
-          "isAttachedTo": "fa6b3",
+          "id": "f509d",
+          "isAttachedTo": "e11c2",
           "orientation": [
             0,
             1
@@ -1484,6 +1520,7 @@
               0.25
             ]
           },
+          "id": "caeec",
           "isAttachedTo": "c82b8",
           "orientation": [
             -1,
@@ -1503,6 +1540,7 @@
               0.25
             ]
           },
+          "id": "a6152",
           "isAttachedTo": "f27e8",
           "orientation": [
             -1,
@@ -1526,7 +1564,7 @@
       "gpmlElementName": "Interaction",
       "id": "idbc5bfa27",
       "isAttachedTo": [
-        "d076f",
+        "ff5af",
         "id72891f69"
       ],
       "kaavioType": "Edge",
@@ -1543,7 +1581,8 @@
               0.5
             ]
           },
-          "isAttachedTo": "d076f",
+          "id": "f2e99",
+          "isAttachedTo": "ff5af",
           "orientation": [
             -1,
             0
@@ -1563,10 +1602,11 @@
               0
             ]
           },
+          "id": "bcdce",
           "isAttachedTo": "e6fad",
           "orientation": [],
           "x": 436.6299163690147,
-          "y": 262.164019287765
+          "y": 165.37168769638345
         }
       ],
       "stroke": "#000000",
@@ -1600,6 +1640,7 @@
               0.75
             ]
           },
+          "id": "cbb38",
           "isAttachedTo": "f27e8",
           "orientation": [
             1,
@@ -1619,6 +1660,7 @@
               0
             ]
           },
+          "id": "d9a3a",
           "isAttachedTo": "ace94",
           "orientation": [
             0,
@@ -1642,7 +1684,7 @@
       "gpmlElementName": "Interaction",
       "id": "idc3b05e2a",
       "isAttachedTo": [
-        "fa6b3",
+        "e11c2",
         "e45b8"
       ],
       "kaavioType": "Edge",
@@ -1659,7 +1701,8 @@
               1
             ]
           },
-          "isAttachedTo": "fa6b3",
+          "id": "d3098",
+          "isAttachedTo": "e11c2",
           "orientation": [
             0,
             1
@@ -1678,6 +1721,7 @@
               0
             ]
           },
+          "id": "ecc62",
           "isAttachedTo": "e45b8",
           "orientation": [
             0,
@@ -1718,6 +1762,7 @@
               1
             ]
           },
+          "id": "aabaf",
           "isAttachedTo": "a6336",
           "orientation": [
             0,
@@ -1737,6 +1782,7 @@
               0.25
             ]
           },
+          "id": "c11ee",
           "isAttachedTo": "ace94",
           "orientation": [
             -1,
@@ -1777,6 +1823,7 @@
               1
             ]
           },
+          "id": "c46b3",
           "isAttachedTo": "e45b8",
           "orientation": [
             0,
@@ -1796,6 +1843,7 @@
               0
             ]
           },
+          "id": "b946a",
           "isAttachedTo": "c82b8",
           "orientation": [
             0,
@@ -1866,7 +1914,7 @@
     "author": "[Devi, MaintBot, Ddigles, Khanspers, DeSl, Fehrhart, L Dupuis, Egonw]",
     "comments": [
       {
-        "content": "This pathway shows the relationship between BRAF signalling and the development and behavior of pilocytic astrocytoma (PA), normally induced by MAPK pathway activation. \n\nBRAF is related in two alternative mechanisms in MAPK activation; first oncogenic fusion between SRGAP3 and RAF1 (highlighted in yellow); second a 3 basepair insertion in BRAF (KIAA1549, again in yellow). \n\nThis pathway is based on Figure 3\" An overview of MAPK pathway alterations in PAs\" from [https://doi.org/10.1038/onc.2009.73 Jones et al].",
+        "content": "This pathway shows the relationship between BRAF signalling and the development and behavior of pilocytic astrocytoma (PA), normally induced by MAPK pathway activation. \r\n\r\nBRAF is related in two alternative mechanisms in MAPK activation; first oncogenic fusion between SRGAP3 and RAF1 (highlighted in yellow); second a 3 basepair insertion in BRAF (KIAA1549, again in yellow). \r\n\r\nThis pathway is based on Figure 3\" An overview of MAPK pathway alterations in PAs\" from [https://doi.org/10.1038/onc.2009.73 Jones et al].",
         "source": "WikiPathways-description"
       }
     ],
@@ -1898,9 +1946,9 @@
       "f3f73",
       "f822f",
       "f8fc1",
-      "c9baa",
-      "d076f",
-      "fa6b3",
+      "c8e77",
+      "ff5af",
+      "e11c2",
       "fc9e7",
       "d5161"
     ],
@@ -1914,6 +1962,7 @@
     "height": 628,
     "id": "WP2253",
     "kaavioType": "Group",
+    "lastModified": "20200918101630",
     "name": "Pilocytic astrocytoma",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -1922,11 +1971,11 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Pilocytic astrocytoma\nOrganism: Homo sapiens",
+    "textContent": "Name: Pilocytic astrocytoma\nLast Modified: 20200918101630\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0000711",
-      "http://identifiers.org/pw/PW:0000007"
+      "http://identifiers.org/pw/PW:0000007",
+      "http://identifiers.org/pw/PW:0000711"
     ],
     "verticalAlign": "top",
     "width": 809.673063255153,

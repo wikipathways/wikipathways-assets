@@ -10,6 +10,12 @@
         <feMorphology in="SourceGraphic" result="inDouble" operator="dilate" radius="3"/>
         <feComposite in="inDouble" in2="in2Double" operator="out" result="doubleResult"/>
       </filter>
+      <filter x="0" y="0" height="867" width="1161" id="kaaviowhitetofffffffilter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -1                  0  1  0 0 -1                  0  0  1 0 -1                  0  0  0 1 0"/>
+      </filter>
+      <filter x="0" y="0" height="867" width="1161" id="kaavioblacktofffffffilter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 1                   0  -1   0 0 1                   0   0  -1 0 1                   0   0   0 1 0"/>
+      </filter>
       <filter x="0" y="0" height="867" width="1161" id="kaaviowhiteto14961efilter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0.0784313725490196                  0  1  0 0 -0.5882352941176471                  0  0  1 0 -0.11764705882352941                  0  0  0 1 0"/>
       </filter>
@@ -27,12 +33,6 @@
       </filter>
       <filter x="0" y="0" height="867" width="1161" id="kaavioblackto666666filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0.4                   0  -1   0 0 0.4                   0   0  -1 0 0.4                   0   0   0 1 0"/>
-      </filter>
-      <filter x="0" y="0" height="867" width="1161" id="kaaviowhitetofffffffilter" filterUnits="userSpaceOnUse">
-        <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -1                  0  1  0 0 -1                  0  0  1 0 -1                  0  0  0 1 0"/>
-      </filter>
-      <filter x="0" y="0" height="867" width="1161" id="kaavioblacktofffffffilter" filterUnits="userSpaceOnUse">
-        <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 1                   0  -1   0 0 1                   0   0  -1 0 1                   0   0   0 1 0"/>
       </filter>
       <filter x="0" y="0" height="867" width="1161" id="kaaviowhiteto000000filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0                  0  1  0 0 -0                  0  0  1 0 -0                  0  0  0 1 0"/>
@@ -478,7 +478,7 @@
       </symbol>
     </g>
   </defs>
-  <g id="WP3114" class="Viewport" color="black" name="Name: Cori cycle Organism: Bos taurus">
+  <g id="WP3114" class="Viewport" color="black" name="Name: Cori cycle Last Modified: 20220722052237 Organism: Bos taurus">
     <rect fill="white" stroke="black" stroke-width="0" fill-opacity="1" height="867px" id="WP3114-icon" width="1161px" x="0" y="0" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
     <g id="id18e67ff2" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="26.2, 5.8" stroke-width="1">
@@ -666,8 +666,8 @@
       </g>
     </g>
     <g id="id9bcbd5aa" class="Edge Interaction" color="#000000">
-      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="139.0133327407934, 11" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id9bcbd5aa-path" d="M560,122L558,272" marker-end="url(#markerEndMimModification)" class="EdgeBody"/>
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="144.2133327407934, 5.8" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id9bcbd5aa-path" d="M560,122L558,272" marker-end="url(#markerEndMimConversion)" class="EdgeBody"/>
       </g>
       <g id="cd931" class="Burr Anchor" transform="translate(558.4534305012443,237.99271240668327)">
         <use fill="#141414" stroke-width="0" fill-opacity="1" height="0" id="cd931-icon" width="0" x="0" y="0" xlink:href="#none" class="Icon"/>
@@ -840,7 +840,7 @@
     </g>
     <g id="a3ea8" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#c0c0c0" transform="translate(697.5,33.5)">
       <g filter="url(#kaaviodoublefalse3filter)" fill="transparent" fill-opacity="0" stroke="#c0c0c0" stroke-width="3">
-        <use style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" height="104.5px" id="a3ea8-icon" width="140.5px" x="0" y="0" xlink:href="#Ellipse" transform="matrix(0.921311475409836, 0, 0, 0.8969957081545065, 5.527868852459022, 5.381974248927037)" class="Icon"/>
+        <rect style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" height="104.5px" id="a3ea8-icon" rx="15" ry="15" width="140.5px" x="0" y="0" transform="matrix(0.921311475409836, 0, 0, 0.8969957081545065, 5.527868852459022, 5.381974248927037)" class="Icon"/>
       </g>
     </g>
     <g id="b4f0f" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#c0c0c0" transform="translate(18.5,464)">
@@ -858,12 +858,12 @@
     </g>
     <g id="d2651" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#c0c0c0" transform="translate(314.19258616613513,-50.140559199982114) rotate(89.79315692922269,51.216977336228034,94.08964935456163)">
       <g filter="url(#kaaviodoublefalse3filter)" fill="transparent" fill-opacity="0" stroke="#c0c0c0" stroke-width="3">
-        <use style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" height="188.17929870912326px" id="d2651-icon" width="102.43395467245607px" x="0" y="0" xlink:href="#SarcoplasmicReticulum" transform="matrix(0.8951360194240637, 0, 0, 0.9400537414338883, 5.370816116544383, 5.640322448603328)" class="Icon"/>
+        <rect style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" height="188.17929870912326px" id="d2651-icon" rx="15" ry="15" width="102.43395467245607px" x="0" y="0" transform="matrix(0.8951360194240637, 0, 0, 0.9400537414338883, 5.370816116544383, 5.640322448603328)" class="Icon"/>
       </g>
     </g>
     <g id="d666e" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#c0c0c0" transform="translate(89.5,208)">
       <g filter="url(#kaaviodoublefalse3filter)" fill="transparent" fill-opacity="0" stroke="#c0c0c0" stroke-width="3">
-        <use style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" height="212.5px" id="d666e-icon" width="218.5px" x="0" y="0" xlink:href="#Ellipse" transform="matrix(0.9479392624728851, 0, 0, 0.9465478841870824, 5.6876355748373015, 5.6792873051225)" class="Icon"/>
+        <rect style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" height="212.5px" id="d666e-icon" rx="15" ry="15" width="218.5px" x="0" y="0" transform="matrix(0.9479392624728851, 0, 0, 0.9465478841870824, 5.6876355748373015, 5.6792873051225)" class="Icon"/>
       </g>
     </g>
     <g id="ee6a0" class="SingleFreeNode Label" color="#666666" name="Brain" transform="translate(258,84)">
@@ -873,7 +873,7 @@
       </text>
     </g>
     <a id="a1578" class="SingleFreeNode DataNode WikiPathways_WP78 Pathway Wikidata_Q27436670" color="#14961e" name="Kreb's Cycle" transform="translate(817.1193415637867,736.6008230452663)" xlink:href="https://tools.wmflabs.org/scholia/Q27436670" target="_blank">
-      <use fill="transparent" fill-opacity="0" stroke="#14961e" stroke-width="0" height="20px" id="a1578-icon" width="80px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <rect fill="#ffffff" stroke="#14961e" stroke-width="1" fill-opacity="1" height="20px" id="a1578-icon" rx="15" ry="15" width="80px" x="0" y="0" transform="matrix(0.9876543209876543, 0, 0, 0.9523809523809523, 0.49382716049382935, 0.4761904761904763)" class="Icon"/>
       <text id="a1578-text" class="Text" direction="ltr" fill="#14961e" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(40,14)">
         <tspan x="0" y="0">Kreb's Cycle</tspan>
       </text>
@@ -1211,8 +1211,8 @@
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="dc456-path" d="M607.4939498703553,563.6283491789106L539,563.8095238095237" marker-end="url(#markerEndMimCatalysis)" class="EdgeBody"/>
       </g>
     </g>
-    <g id="a7271" class="Group Complex GroupComplex" color="#808080" transform="translate(607.4939498703553,531.6283491789106)">
-      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="64px" id="a7271-icon" width="76.07044079515981px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9870248568753119, 0, 0, 0.9846153846153847, 0.4935124284376542, 0.49230769230769056)" class="Icon"/>
+    <g id="a537f" class="Group Complex GroupComplex" color="#808080" transform="translate(607.4939498703553,531.6283491789106)">
+      <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="64px" id="a537f-icon" width="76.07044079515981px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9870248568753119, 0, 0, 0.9846153846153847, 0.4935124284376542, 0.49230769230769056)" class="Icon"/>
       <g id="e3cc0" class="SingleFreeNode DataNode Ensembl_ENSBTAG00000000894 GeneProduct P594_ENSBTAG00000000894 Entrez_Gene_507476 P351_507476" color="#000000" name="PGK1" transform="translate(12,12)">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="e3cc0-icon" width="52.070440795159854px" x="0" y="0" transform="matrix(0.9811571190098123, 0, 0, 0.9523809523809523, 0.4905785595049075, 0.4761904761904763)" class="Icon"/>
         <text id="e3cc0-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(26.035220397579927,13)">
@@ -1426,9 +1426,10 @@
         <tspan x="0" y="0">Liver</tspan>
       </text>
     </g>
-    <text id="WP3114-text" class="Text" direction="ltr" dominant-baseline="central" fill="black" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" overflow="visible" stroke="white" stroke-width="0px" text-anchor="start" transform="translate(5,27)">
-      <tspan x="0" y="-9">Name: Cori cycle</tspan>
-      <tspan x="0" y="9">Organism: Bos taurus</tspan>
+    <text id="WP3114-text" class="Text" direction="ltr" dominant-baseline="central" fill="black" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" overflow="visible" stroke="white" stroke-width="0px" text-anchor="start" transform="translate(5,36)">
+      <tspan x="0" y="-18">Name: Cori cycle</tspan>
+      <tspan x="0" y="0">Last Modified: 20220722052237</tspan>
+      <tspan x="0" y="18">Organism: Bos taurus</tspan>
     </text>
   </g>
 </svg>

@@ -10,7 +10,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a18de",
-      "isPartOf": "a267a",
+      "isPartOf": "c8d9f",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -25,51 +25,19 @@
         "DataNode",
         "SingleFreeNode",
         "miRBase Sequence:MI0000652",
-        "Rna",
+        "RNA",
         "Ensembl:ENSMUSG00000106348",
-        "P594:ENSMUSG00000106348",
-        "Entrez Gene:723959",
-        "P351:723959"
+        "P594:ENSMUSG00000106348"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
-      "wpType": "Rna",
+      "wpType": "RNA",
       "x": 8,
       "xrefDataSource": "miRBase Sequence",
       "xrefIdentifier": "MI0000652",
       "y": 52,
       "zIndex": 32768
-    },
-    "a267a": {
-      "contains": [
-        "b566a",
-        "a18de",
-        "bdc06"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 80,
-      "id": "a267a",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 96,
-      "x": 206,
-      "y": 47,
-      "zIndex": 28672
     },
     "b555f": {
       "drawAs": "StraightLine",
@@ -77,11 +45,11 @@
       "gpmlElementName": "Interaction",
       "id": "b555f",
       "isAttachedTo": [
-        "a267a",
+        "c8d9f",
         "e352b"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "TBar",
+      "markerEnd": "MimInhibition",
       "points": [
         {
           "attachmentDisplay": {
@@ -94,7 +62,8 @@
               1
             ]
           },
-          "isAttachedTo": "a267a",
+          "id": "e523e",
+          "isAttachedTo": "c8d9f",
           "orientation": [
             0,
             1
@@ -113,6 +82,7 @@
               0
             ]
           },
+          "id": "d0c35",
           "isAttachedTo": "e352b",
           "orientation": [
             0,
@@ -126,9 +96,7 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge",
-        "SBO:0000169",
-        "Inhibition"
+        "Edge"
       ],
       "zIndex": 12288
     },
@@ -142,7 +110,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "b566a",
-      "isPartOf": "a267a",
+      "isPartOf": "c8d9f",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -174,7 +142,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "bdc06",
-      "isPartOf": "a267a",
+      "isPartOf": "c8d9f",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -189,16 +157,14 @@
         "DataNode",
         "SingleFreeNode",
         "miRBase Sequence:MI0000139",
-        "Rna",
+        "RNA",
         "Ensembl:ENSMUSG00000070144",
-        "P594:ENSMUSG00000070144",
-        "Entrez Gene:387136",
-        "P351:387136"
+        "P594:ENSMUSG00000070144"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
-      "wpType": "Rna",
+      "wpType": "RNA",
       "x": 8,
       "xrefDataSource": "miRBase Sequence",
       "xrefIdentifier": "MI0000139",
@@ -215,7 +181,7 @@
         "d7557"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "TBar",
+      "markerEnd": "MimInhibition",
       "points": [
         {
           "attachmentDisplay": {
@@ -228,6 +194,7 @@
               1
             ]
           },
+          "id": "be28c",
           "isAttachedTo": "e352b",
           "orientation": [
             0,
@@ -247,6 +214,7 @@
               0
             ]
           },
+          "id": "a3bce",
           "isAttachedTo": "d7557",
           "orientation": [
             0,
@@ -260,11 +228,39 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge",
-        "SBO:0000169",
-        "Inhibition"
+        "Edge"
       ],
       "zIndex": 12288
+    },
+    "c8d9f": {
+      "contains": [
+        "b566a",
+        "bdc06",
+        "a18de"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 80,
+      "id": "c8d9f",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 96,
+      "x": 206,
+      "y": 47,
+      "zIndex": 28672
     },
     "d0a62": {
       "drawAs": "StraightLine",
@@ -272,11 +268,11 @@
       "gpmlElementName": "Interaction",
       "id": "d0a62",
       "isAttachedTo": [
-        "a267a",
+        "c8d9f",
         "f3a5a"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "TBar",
+      "markerEnd": "MimInhibition",
       "points": [
         {
           "attachmentDisplay": {
@@ -289,7 +285,8 @@
               1
             ]
           },
-          "isAttachedTo": "a267a",
+          "id": "ce2bb",
+          "isAttachedTo": "c8d9f",
           "orientation": [
             0,
             1
@@ -308,6 +305,7 @@
               0
             ]
           },
+          "id": "a45ee",
           "isAttachedTo": "f3a5a",
           "orientation": [
             0,
@@ -321,9 +319,7 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge",
-        "SBO:0000169",
-        "Inhibition"
+        "Edge"
       ],
       "zIndex": 12288
     },
@@ -390,6 +386,7 @@
               1
             ]
           },
+          "id": "aca3b",
           "isAttachedTo": "f3a5a",
           "orientation": [
             0,
@@ -409,6 +406,7 @@
               0
             ]
           },
+          "id": "ff4f0",
           "isAttachedTo": "fd757",
           "orientation": [
             0,
@@ -453,6 +451,7 @@
               0.5
             ]
           },
+          "id": "c5228",
           "isAttachedTo": "d7557",
           "orientation": [
             1,
@@ -472,6 +471,7 @@
               0.5
             ]
           },
+          "id": "e8198",
           "isAttachedTo": "e1558",
           "orientation": [
             1,
@@ -679,17 +679,17 @@
       }
     ],
     "contains": [
-      "c5eb9",
       "df4ac",
+      "c5eb9",
       "df705",
       "b555f",
       "d0a62",
       "e1558",
       "fd757",
-      "a267a",
-      "d7557",
+      "c8d9f",
+      "f3a5a",
       "e352b",
-      "f3a5a"
+      "d7557"
     ],
     "dataSourceVersion": "WP608_r69184",
     "displayName": "miR-1 in cardiac development",
@@ -701,6 +701,7 @@
     "height": 329,
     "id": "WP608",
     "kaavioType": "Group",
+    "lastModified": "20130708182204",
     "name": "miR-1 in cardiac development",
     "organism": "Mus musculus",
     "padding": 5,
@@ -709,7 +710,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: miR-1 in cardiac development\nOrganism: Mus musculus",
+    "textContent": "Name: miR-1 in cardiac development\nLast Modified: 20130708182204\nOrganism: Mus musculus",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000808"

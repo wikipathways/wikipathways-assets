@@ -1,5 +1,27 @@
 {
   "entitiesById": {
+    "274291": {
+      "__HighlandStream__": true,
+      "_can_drain": false,
+      "_consume_waiting_for_next": false,
+      "_consumers": [],
+      "_delegate": null,
+      "_destructors": [],
+      "_events": {},
+      "_eventsCount": 2,
+      "_in_consume_cb": false,
+      "_incoming": [],
+      "_is_observer": false,
+      "_nil_pushed": false,
+      "_observers": [],
+      "_outgoing": [],
+      "_repeat_resume": false,
+      "_send_events": false,
+      "id": "274291",
+      "paused": true,
+      "source": null,
+      "writable": true
+    },
     "a0d43": {
       "drawAs": "none",
       "fill": "transparent",
@@ -37,11 +59,11 @@
       "gpmlElementName": "Interaction",
       "id": "a82f4",
       "isAttachedTo": [
-        "e55ef",
+        "ec3fe",
         "a0d43"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "TBar",
+      "markerEnd": "MimInhibition",
       "points": [
         {
           "attachmentDisplay": {
@@ -54,7 +76,8 @@
               1
             ]
           },
-          "isAttachedTo": "e55ef",
+          "id": "a7a2f",
+          "isAttachedTo": "ec3fe",
           "orientation": [
             0,
             1
@@ -77,6 +100,7 @@
               0
             ]
           },
+          "id": "c577f",
           "isAttachedTo": "a0d43",
           "orientation": [
             0,
@@ -91,9 +115,7 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge",
-        "SBO:0000169",
-        "Inhibition"
+        "Edge"
       ],
       "zIndex": 32770
     },
@@ -138,7 +160,7 @@
         "a0d43"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "TBar",
+      "markerEnd": "MimInhibition",
       "points": [
         {
           "attachmentDisplay": {
@@ -151,6 +173,7 @@
               1
             ]
           },
+          "id": "c00cf",
           "isAttachedTo": "eada6",
           "orientation": [
             0,
@@ -170,6 +193,7 @@
               0
             ]
           },
+          "id": "f6dd5",
           "isAttachedTo": "a0d43",
           "orientation": [
             0,
@@ -184,9 +208,7 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge",
-        "SBO:0000169",
-        "Inhibition"
+        "Edge"
       ],
       "zIndex": 32769
     },
@@ -230,35 +252,6 @@
       "y": 249.33333333333354,
       "zIndex": 32768
     },
-    "e55ef": {
-      "contains": [
-        "ee50c",
-        "f37b0"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 56,
-      "id": "e55ef",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 96,
-      "x": 381.33333333333326,
-      "y": 243.3333333333336,
-      "zIndex": 32768
-    },
     "eada6": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -299,6 +292,35 @@
       "y": 249.00000000000028,
       "zIndex": 32768
     },
+    "ec3fe": {
+      "contains": [
+        "ee50c",
+        "f37b0"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 56,
+      "id": "ec3fe",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 96,
+      "x": 381.33333333333326,
+      "y": 243.3333333333336,
+      "zIndex": 32768
+    },
     "ee50c": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -309,7 +331,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "ee50c",
-      "isPartOf": "e55ef",
+      "isPartOf": "ec3fe",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -364,7 +386,7 @@
         "DataNode",
         "SingleFreeNode",
         "Ensembl:ENSMUSG00000065471",
-        "Rna",
+        "RNA",
         "P594:ENSMUSG00000065471",
         "Entrez Gene:723828",
         "P351:723828",
@@ -373,7 +395,7 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 65.3333333333332,
-      "wpType": "Rna",
+      "wpType": "RNA",
       "x": 237.9999999999997,
       "xrefDataSource": "Ensembl",
       "xrefIdentifier": "ENSMUSG00000065471",
@@ -390,7 +412,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "f37b0",
-      "isPartOf": "e55ef",
+      "isPartOf": "ec3fe",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -420,16 +442,6 @@
       "xrefIdentifier": "ENSMUSG00000008730",
       "y": 8,
       "zIndex": 32768
-    },
-    "http://identifiers.org/cl/CL:0000746": {
-      "gpmlElementName": "openControlledVocabulary",
-      "id": "http://identifiers.org/cl/CL:0000746",
-      "ontology": "Cell Type",
-      "term": "cardiac muscle cell",
-      "type": [
-        "openControlledVocabulary"
-      ],
-      "xrefIdentifier": "CL:0000746"
     },
     "http://identifiers.org/pw/PW:0000004": {
       "gpmlElementName": "openControlledVocabulary",
@@ -461,7 +473,7 @@
         "da55b"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "TBar",
+      "markerEnd": "MimInhibition",
       "points": [
         {
           "attachmentDisplay": {
@@ -474,6 +486,7 @@
               1
             ]
           },
+          "id": "cc211",
           "isAttachedTo": "f0c6a",
           "orientation": [
             0,
@@ -497,6 +510,7 @@
               0
             ]
           },
+          "id": "f1cd6",
           "isAttachedTo": "da55b",
           "orientation": [
             0,
@@ -510,9 +524,7 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge",
-        "SBO:0000169",
-        "Inhibition"
+        "Edge"
       ],
       "zIndex": 12288
     },
@@ -526,7 +538,7 @@
         "a0d43"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "TBar",
+      "markerEnd": "MimInhibition",
       "points": [
         {
           "attachmentDisplay": {
@@ -539,6 +551,7 @@
               1
             ]
           },
+          "id": "e59c2",
           "isAttachedTo": "da55b",
           "orientation": [
             0,
@@ -548,6 +561,7 @@
           "y": 271.33333333333354
         },
         {
+          "id": "c4c5f",
           "x": 165.3333333333333,
           "y": 317.3333333333333
         },
@@ -562,6 +576,7 @@
               0
             ]
           },
+          "id": "ee74e",
           "isAttachedTo": "a0d43",
           "orientation": [
             0,
@@ -576,9 +591,7 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge",
-        "SBO:0000169",
-        "Inhibition"
+        "Edge"
       ],
       "zIndex": 12288
     },
@@ -589,10 +602,10 @@
       "id": "id7ae14f91",
       "isAttachedTo": [
         "f0c6a",
-        "e55ef"
+        "ec3fe"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "TBar",
+      "markerEnd": "MimInhibition",
       "points": [
         {
           "attachmentDisplay": {
@@ -605,6 +618,7 @@
               1
             ]
           },
+          "id": "e7afc",
           "isAttachedTo": "f0c6a",
           "orientation": [
             0,
@@ -628,7 +642,8 @@
               0
             ]
           },
-          "isAttachedTo": "e55ef",
+          "id": "c5d5e",
+          "isAttachedTo": "ec3fe",
           "orientation": [
             0,
             1
@@ -641,9 +656,7 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge",
-        "SBO:0000169",
-        "Inhibition"
+        "Edge"
       ],
       "zIndex": 12288
     },
@@ -670,6 +683,7 @@
               1
             ]
           },
+          "id": "bb881",
           "isAttachedTo": "aa48c",
           "orientation": [
             0,
@@ -689,6 +703,7 @@
               0
             ]
           },
+          "id": "a5279",
           "isAttachedTo": "f0c6a",
           "orientation": [
             0,
@@ -720,7 +735,7 @@
         "eada6"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "TBar",
+      "markerEnd": "MimInhibition",
       "points": [
         {
           "attachmentDisplay": {
@@ -733,6 +748,7 @@
               1
             ]
           },
+          "id": "b8e61",
           "isAttachedTo": "f0c6a",
           "orientation": [
             0,
@@ -752,6 +768,7 @@
               0
             ]
           },
+          "id": "bedc7",
           "isAttachedTo": "eada6",
           "orientation": [
             0,
@@ -765,9 +782,7 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge",
-        "SBO:0000169",
-        "Inhibition"
+        "Edge"
       ],
       "zIndex": 12288
     },
@@ -827,7 +842,7 @@
       "da55b",
       "eada6",
       "f0c6a",
-      "e55ef",
+      "ec3fe",
       "ac720",
       "a82f4"
     ],
@@ -838,9 +853,10 @@
     "fontSize": 12,
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
-    "height": 422.6666666666666,
+    "height": 502.6666666666666,
     "id": "WP2928",
     "kaavioType": "Group",
+    "lastModified": "20210604224354",
     "name": "miR-222 in exercise-induced cardiac growth",
     "organism": "Mus musculus",
     "padding": 5,
@@ -849,14 +865,14 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: miR-222 in exercise-induced cardiac growth\nOrganism: Mus musculus",
+    "textContent": "Name: miR-222 in exercise-induced cardiac growth\nLast Modified: 20210604224354\nOrganism: Mus musculus",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000004",
       "http://identifiers.org/pw/PW:0000808"
     ],
     "verticalAlign": "top",
-    "width": 499.33333333333326,
+    "width": 573.333333333335,
     "x": 0,
     "y": 0,
     "zIndex": 0

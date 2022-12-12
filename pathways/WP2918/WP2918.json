@@ -1,5 +1,27 @@
 {
   "entitiesById": {
+    "500111": {
+      "__HighlandStream__": true,
+      "_can_drain": false,
+      "_consume_waiting_for_next": false,
+      "_consumers": [],
+      "_delegate": null,
+      "_destructors": [],
+      "_events": {},
+      "_eventsCount": 2,
+      "_in_consume_cb": false,
+      "_incoming": [],
+      "_is_observer": false,
+      "_nil_pushed": false,
+      "_observers": [],
+      "_outgoing": [],
+      "_repeat_resume": false,
+      "_send_events": false,
+      "id": "500111",
+      "paused": true,
+      "source": null,
+      "writable": true
+    },
     "a004c": {
       "comments": [
         {
@@ -15,7 +37,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a004c",
-      "isPartOf": "f78bb",
+      "isPartOf": "eea96",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -855,8 +877,8 @@
       "zIndex": 32769
     },
     "de691": {
-      "drawAs": "none",
-      "fill": "transparent",
+      "drawAs": "rect",
+      "fill": "#ffffff",
       "fontFamily": "Arial",
       "fontSize": 12,
       "fontStyle": "normal",
@@ -868,8 +890,10 @@
       "lineHeight": 1.1,
       "overflow": "hidden",
       "padding": 8,
+      "rx": 15,
+      "ry": 15,
       "stroke": "#14961e",
-      "strokeWidth": 0,
+      "strokeWidth": 1,
       "textAlign": "center",
       "textContent": "Glycolysis",
       "textDecoration": "none",
@@ -1022,6 +1046,35 @@
       "width": 0,
       "zIndex": 12288
     },
+    "eea96": {
+      "contains": [
+        "a004c",
+        "f7797"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 56,
+      "id": "eea96",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 69,
+      "x": 174,
+      "y": 406,
+      "zIndex": 32768
+    },
     "f0958": {
       "attachmentDisplay": {
         "offset": [
@@ -1158,7 +1211,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "f7797",
-      "isPartOf": "f78bb",
+      "isPartOf": "eea96",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1192,35 +1245,6 @@
       "xrefDataSource": "PubChem-compound",
       "xrefIdentifier": "1195",
       "y": 28,
-      "zIndex": 32768
-    },
-    "f78bb": {
-      "contains": [
-        "a004c",
-        "f7797"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 56,
-      "id": "f78bb",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 69,
-      "x": 174,
-      "y": 406,
       "zIndex": 32768
     },
     "f7eb1": {
@@ -1396,6 +1420,7 @@
               1
             ]
           },
+          "id": "a547a",
           "isAttachedTo": "aaf8a",
           "orientation": [
             0,
@@ -1416,6 +1441,7 @@
               0
             ]
           },
+          "id": "adaa2",
           "isAttachedTo": "f2888",
           "orientation": [],
           "x": 348,
@@ -1429,16 +1455,6 @@
         "Edge"
       ],
       "zIndex": 32774
-    },
-    "http://identifiers.org/doid/DOID:14067": {
-      "gpmlElementName": "openControlledVocabulary",
-      "id": "http://identifiers.org/doid/DOID:14067",
-      "ontology": "Disease",
-      "term": "Plasmodium falciparum malaria",
-      "type": [
-        "openControlledVocabulary"
-      ],
-      "xrefIdentifier": "DOID:14067"
     },
     "http://identifiers.org/pw/PW:0001051": {
       "gpmlElementName": "openControlledVocabulary",
@@ -1463,7 +1479,7 @@
       "id": "id22b5893b",
       "isAttachedTo": [
         "cd700",
-        "f78bb"
+        "eea96"
       ],
       "kaavioType": "Edge",
       "markerEnd": "MimConversion",
@@ -1479,6 +1495,7 @@
               0
             ]
           },
+          "id": "faa14",
           "isAttachedTo": "cd700",
           "orientation": [
             0,
@@ -1498,7 +1515,8 @@
               1
             ]
           },
-          "isAttachedTo": "f78bb",
+          "id": "fc5bd",
+          "isAttachedTo": "eea96",
           "orientation": [
             0,
             -1
@@ -1538,6 +1556,7 @@
               1
             ]
           },
+          "id": "ce88a",
           "isAttachedTo": "a97a6",
           "orientation": [
             0,
@@ -1557,6 +1576,7 @@
               0
             ]
           },
+          "id": "ea267",
           "isAttachedTo": "d9abc",
           "orientation": [
             0,
@@ -1601,6 +1621,7 @@
               1
             ]
           },
+          "id": "cb7ef",
           "isAttachedTo": "b65f6",
           "orientation": [
             0,
@@ -1620,6 +1641,7 @@
               0
             ]
           },
+          "id": "cea81",
           "isAttachedTo": "a773e",
           "orientation": [
             0,
@@ -1664,6 +1686,7 @@
               0.5
             ]
           },
+          "id": "f7090",
           "isAttachedTo": "a48e3",
           "orientation": [
             -1,
@@ -1684,6 +1707,7 @@
               0
             ]
           },
+          "id": "bf821",
           "isAttachedTo": "b78bd",
           "orientation": [],
           "x": 603.6912899669242,
@@ -1724,6 +1748,7 @@
               0.5
             ]
           },
+          "id": "aaef2",
           "isAttachedTo": "ce44a",
           "orientation": [
             -1,
@@ -1743,6 +1768,7 @@
               0.5
             ]
           },
+          "id": "cf8f1",
           "isAttachedTo": "a31f7",
           "orientation": [
             -1,
@@ -1783,6 +1809,7 @@
               0
             ]
           },
+          "id": "ad834",
           "isAttachedTo": "ed2bf",
           "orientation": [],
           "x": 508.00084717822904,
@@ -1799,6 +1826,7 @@
               0.5
             ]
           },
+          "id": "ae9fd",
           "isAttachedTo": "e3715",
           "orientation": [
             -1,
@@ -1842,6 +1870,7 @@
               1
             ]
           },
+          "id": "dba97",
           "isAttachedTo": "a1adb",
           "orientation": [
             0,
@@ -1861,6 +1890,7 @@
               0
             ]
           },
+          "id": "cdc47",
           "isAttachedTo": "f7eb1",
           "orientation": [
             0,
@@ -1901,6 +1931,7 @@
               1
             ]
           },
+          "id": "efe38",
           "isAttachedTo": "b83ae",
           "orientation": [
             0,
@@ -1921,6 +1952,7 @@
               0
             ]
           },
+          "id": "dd453",
           "isAttachedTo": "dc892",
           "orientation": [],
           "x": 528.8912899669242,
@@ -1964,6 +1996,7 @@
               0.5
             ]
           },
+          "id": "a621f",
           "isAttachedTo": "d5f90",
           "orientation": [
             -1,
@@ -1983,6 +2016,7 @@
               0.5
             ]
           },
+          "id": "ca0d1",
           "isAttachedTo": "cd700",
           "orientation": [
             -1,
@@ -2029,6 +2063,7 @@
               0.5
             ]
           },
+          "id": "eb069",
           "isAttachedTo": "da2c3",
           "orientation": [
             -1,
@@ -2048,6 +2083,7 @@
               0.5
             ]
           },
+          "id": "bb732",
           "isAttachedTo": "d5f90",
           "orientation": [
             -1,
@@ -2088,6 +2124,7 @@
               1
             ]
           },
+          "id": "e22ab",
           "isAttachedTo": "de691",
           "orientation": [
             0,
@@ -2107,6 +2144,7 @@
               0
             ]
           },
+          "id": "cff50",
           "isAttachedTo": "a97a6",
           "orientation": [
             0,
@@ -2151,6 +2189,7 @@
               1
             ]
           },
+          "id": "c3b2e",
           "isAttachedTo": "de691",
           "orientation": [
             0,
@@ -2170,6 +2209,7 @@
               0
             ]
           },
+          "id": "fc918",
           "isAttachedTo": "dcbae",
           "orientation": [
             0,
@@ -2219,6 +2259,7 @@
               1
             ]
           },
+          "id": "be795",
           "isAttachedTo": "c1e56",
           "orientation": [
             0,
@@ -2238,6 +2279,7 @@
               0
             ]
           },
+          "id": "c7e1c",
           "isAttachedTo": "a48e3",
           "orientation": [
             0,
@@ -2278,6 +2320,7 @@
               1
             ]
           },
+          "id": "dff2a",
           "isAttachedTo": "df9d6",
           "orientation": [
             0,
@@ -2298,6 +2341,7 @@
               0
             ]
           },
+          "id": "dca3e",
           "isAttachedTo": "ed2bf",
           "orientation": [],
           "x": 508.00084717822904,
@@ -2338,6 +2382,7 @@
               0.5
             ]
           },
+          "id": "a09bc",
           "isAttachedTo": "a773e",
           "orientation": [
             1,
@@ -2357,6 +2402,7 @@
               0.5
             ]
           },
+          "id": "a28e4",
           "isAttachedTo": "a1adb",
           "orientation": [
             1,
@@ -2397,6 +2443,7 @@
               0.5
             ]
           },
+          "id": "ad3e0",
           "isAttachedTo": "ba922",
           "orientation": [
             -1,
@@ -2417,6 +2464,7 @@
               0
             ]
           },
+          "id": "c41ee",
           "isAttachedTo": "f0958",
           "orientation": [],
           "x": 603.6912899669242,
@@ -2454,6 +2502,7 @@
               0.5
             ]
           },
+          "id": "ab1a3",
           "isAttachedTo": "a31f7",
           "orientation": [
             -1,
@@ -2474,6 +2523,7 @@
               0
             ]
           },
+          "id": "c3e30",
           "isAttachedTo": "b6612",
           "orientation": [],
           "x": 603.6912899669242,
@@ -2514,6 +2564,7 @@
               1
             ]
           },
+          "id": "e9c3b",
           "isAttachedTo": "f7eb1",
           "orientation": [
             0,
@@ -2533,6 +2584,7 @@
               0
             ]
           },
+          "id": "f8bba",
           "isAttachedTo": "f4660",
           "orientation": [
             0,
@@ -2573,6 +2625,7 @@
               1
             ]
           },
+          "id": "edaa9",
           "isAttachedTo": "d9abc",
           "orientation": [
             0,
@@ -2592,6 +2645,7 @@
               0
             ]
           },
+          "id": "ae6df",
           "isAttachedTo": "e3715",
           "orientation": [
             0,
@@ -2632,6 +2686,7 @@
               1
             ]
           },
+          "id": "b73e4",
           "isAttachedTo": "dcbae",
           "orientation": [
             0,
@@ -2651,6 +2706,7 @@
               0
             ]
           },
+          "id": "f7ad6",
           "isAttachedTo": "b65f6",
           "orientation": [
             0,
@@ -2698,6 +2754,7 @@
               1
             ]
           },
+          "id": "b99f4",
           "isAttachedTo": "f4660",
           "orientation": [
             0,
@@ -2717,6 +2774,7 @@
               0
             ]
           },
+          "id": "efb9e",
           "isAttachedTo": "da2c3",
           "orientation": [
             0,
@@ -2757,6 +2815,7 @@
               0.5
             ]
           },
+          "id": "ddbc1",
           "isAttachedTo": "faa35",
           "orientation": [
             1,
@@ -2777,6 +2836,7 @@
               0
             ]
           },
+          "id": "bb58b",
           "isAttachedTo": "e86ed",
           "orientation": [],
           "x": 208.5,
@@ -2848,7 +2908,7 @@
       "id": "publicationXrefbbe",
       "source": "Bioorg Med Chem Lett",
       "standardName": "Determination of the active stereoisomer of the MEP pathway-targeting antimalarial agent MMV008138, and initial structure-activity studies.",
-      "textContent": "8",
+      "textContent": "9",
       "type": [
         "PublicationXref",
         "PubMed:25754494"
@@ -2865,7 +2925,7 @@
       "id": "publicationXrefc4c",
       "source": "Curr Top Med Chem",
       "standardName": "Isoprenoid precursor biosynthesis offers potential targets for drug discovery against diseases caused by apicomplexan parasites.",
-      "textContent": "7",
+      "textContent": "6",
       "type": [
         "PublicationXref",
         "PubMed:21619509"
@@ -2911,7 +2971,7 @@
       "id": "publicationXrefe74",
       "source": "PLoS Biol",
       "standardName": "Chemical rescue of malaria parasites lacking an apicoplast defines organelle function in blood-stage Plasmodium falciparum.",
-      "textContent": "6",
+      "textContent": "7",
       "type": [
         "PublicationXref",
         "PubMed:21912516"
@@ -2953,7 +3013,7 @@
       "id": "publicationXreff55",
       "source": "Antimicrob Agents Chemother",
       "standardName": "A chemical rescue screen identifies a Plasmodium falciparum apicoplast inhibitor targeting MEP isoprenoid precursor biosynthesis.",
-      "textContent": "9",
+      "textContent": "8",
       "type": [
         "PublicationXref",
         "PubMed:25367906"
@@ -3044,7 +3104,7 @@
       "f7eb1",
       "fa1fa",
       "faa35",
-      "f78bb",
+      "eea96",
       "dcbae",
       "a97a6",
       "fc21a",
@@ -3052,7 +3112,7 @@
       "aaf8a",
       "fc848"
     ],
-    "dataSourceVersion": "WP2918_r117380",
+    "dataSourceVersion": "WP2918_r123066",
     "displayName": "Isoprenoid precursor biosynthesis in Pf apicoplasts",
     "drawAs": "rect",
     "fill": "white",
@@ -3062,6 +3122,7 @@
     "height": 619.5196506550219,
     "id": "WP2918",
     "kaavioType": "Group",
+    "lastModified": "20220623041551",
     "name": "Isoprenoid precursor biosynthesis in Pf apicoplasts",
     "organism": "Plasmodium falciparum",
     "padding": 5,
@@ -3070,7 +3131,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Isoprenoid precursor biosynthesis in Pf apicoplasts\nOrganism: Plasmodium falciparum",
+    "textContent": "Name: Isoprenoid precursor biosynthesis in Pf apicoplasts\nLast Modified: 20220623041551\nOrganism: Plasmodium falciparum",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0001051"
