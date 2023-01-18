@@ -4,6 +4,12 @@
 ]]></style>
   <defs>
     <g id="jit-defs">
+      <filter id="kaaviodoublefalse1filter" width="200%" height="200%" x="-50%" y="-50%">
+        <feComposite in="SourceGraphic" in2="SourceGraphic" operator="over" result="doubleDark"/>
+        <feMorphology in="doubleDark" result="in2Double" operator="dilate" radius="0.5"/>
+        <feMorphology in="SourceGraphic" result="inDouble" operator="dilate" radius="1"/>
+        <feComposite in="inDouble" in2="in2Double" operator="out" result="doubleResult"/>
+      </filter>
       <filter x="0" y="0" height="1834.379518867402" width="3904" id="kaaviowhitetofffffffilter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -1                  0  1  0 0 -1                  0  0  1 0 -1                  0  0  0 1 0"/>
       </filter>
@@ -730,7 +736,7 @@
       </symbol>
     </g>
   </defs>
-  <g id="WP3888" class="Viewport" color="black" name="Name: VEGFA-VEGFR2 signaling pathway Last Modified: 20210514095301 Organism: Homo sapiens">
+  <g id="WP3888" class="Viewport" color="black" name="Name: VEGFA-VEGFR2 signaling Last Modified: 20221214212733 Organism: Homo sapiens">
     <rect fill="white" stroke="black" stroke-width="0" fill-opacity="1" height="1834.379518867402px" id="WP3888-icon" width="3904px" x="0" y="0" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
     <g id="e2e95" class="SingleFreeNode Shape" color="#cccccc" transform="translate(2615,883)">
       <rect fill="#ffcccc" stroke="#cccccc" stroke-width="1" fill-opacity="1" height="150px" id="e2e95-icon" width="179px" x="0" y="0" transform="matrix(0.9944444444444445, 0, 0, 0.9933774834437086, 0.49722222222222, 0.4966887417218544)" class="Icon"/>
@@ -920,7 +926,9 @@
     </a>
     <g id="d30e3" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00ffff">
       <g filter="url(#kaavioblackto00fffffilter)" color="#00ffff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="0, 5.8, 237.2571369321803, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="d30e3-path" d="M2134.879748051237,1448.551249287505L2134.879748051237,1421L2185.4188880732877,1421L2185.4188880732877,1250.2332523773753" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <g filter="url(#kaaviodoublefalse1filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="d30e3-path" d="M2134.879748051237,1448.551249287505L2134.879748051237,1421L2185.4188880732877,1421L2185.4188880732877,1250.2332523773753" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        </g>
       </g>
     </g>
     <g id="fadc9" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#ff00cc">
@@ -1085,7 +1093,9 @@
     </g>
     <g id="bed5f" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00ffff">
       <g filter="url(#kaavioblackto00fffffilter)" color="#00ffff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="0, 5.8, 458.2474071853338, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="bed5f-path" d="M2353.775856980464,334.52047603276014L2353.775856980464,631.5469118340401L2374.953264008082,631.5469118340401L2374.953264008082,783.1904761904761" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <g filter="url(#kaaviodoublefalse1filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="bed5f-path" d="M2353.775856980464,334.52047603276014L2353.775856980464,631.5469118340401L2374.953264008082,631.5469118340401L2374.953264008082,783.1904761904761" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        </g>
       </g>
     </g>
     <g id="c24e0" class="SingleFreeNode Shape" color="#000000" transform="translate(3409.812652087187,426.8362442155608)">
@@ -1234,8 +1244,8 @@
       </g>
     </g>
     <g id="ida04443ee" class="Edge Interaction" color="#000000">
-      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="51.20219294027205, 5.8" stroke-width="2">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="ida04443ee-path" d="M1589.4301524017073,243.9589429614366L1588.9301524017073,300.9589429614366" marker-end="url(#markerEndMimConversion)" class="EdgeBody"/>
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="39.002192940272046, 18" stroke-width="2">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="ida04443ee-path" d="M1589.4301524017073,243.9589429614366L1588.9301524017073,300.9589429614366" marker-end="url(#markerEndMimCleavage)" class="EdgeBody"/>
       </g>
       <g id="ad556" class="Burr Anchor" transform="translate(1589.298036478433,259.0201582147231)">
         <use fill="#141414" stroke-width="0" fill-opacity="1" height="0" id="ad556-icon" width="0" x="0" y="0" xlink:href="#none" class="Icon"/>
@@ -1857,7 +1867,9 @@
     </a>
     <g id="c40d3" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00ffff">
       <g filter="url(#kaavioblackto00fffffilter)" color="#00ffff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="0, 5.8, 387.50551200545846, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="c40d3-path" d="M3081.2473717150247,986.5211415281146L3075.7904543882564,1385.5893459323593" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <g filter="url(#kaaviodoublefalse1filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="c40d3-path" d="M3081.2473717150247,986.5211415281146L3075.7904543882564,1385.5893459323593" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        </g>
       </g>
     </g>
     <g id="f3c38" class="SingleFreeNode Label" color="#ff0099" name="NU" transform="translate(3074.813521919287,1313.8353485594866)">
@@ -3194,7 +3206,9 @@
     </g>
     <g id="dfbc5" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00ffff">
       <g filter="url(#kaavioblackto00fffffilter)" color="#00ffff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="537.4607007201032, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="dfbc5-path" d="M3046.247090417543,836.2530182055634L3046.247090417543,666.5469118340401L3046.0962356296873,666.5469118340401L3046.0962356296873,293.14317227331594" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <g filter="url(#kaaviodoublefalse1filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="dfbc5-path" d="M3046.247090417543,836.2530182055634L3046.247090417543,666.5469118340401L3046.0962356296873,666.5469118340401L3046.0962356296873,293.14317227331594" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        </g>
       </g>
       <g id="ac65e" class="Burr Anchor" transform="translate(3046.0962356296873,648.4957492590836)">
         <use fill="#141414" stroke-width="0" fill-opacity="1" height="0" id="ac65e-icon" width="0" x="0" y="0" xlink:href="#none" class="Icon"/>
@@ -3275,7 +3289,9 @@
     </g>
     <g id="a60dd" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00ffff">
       <g filter="url(#kaavioblackto00fffffilter)" color="#00ffff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="0, 5.8, 360.25629486217474, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="a60dd-path" d="M1571.8552382725888,1014.1315121659964L1571.8552382725888,1278L1580.665941908257,1278L1580.665941908257,1377.1771033925029" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <g filter="url(#kaaviodoublefalse1filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="a60dd-path" d="M1571.8552382725888,1014.1315121659964L1571.8552382725888,1278L1580.665941908257,1278L1580.665941908257,1377.1771033925029" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        </g>
       </g>
     </g>
     <a id="d18f4" class="SingleFreeNode DataNode Entrez_Gene_2308 Protein Ensembl_ENSG00000150907 P594_ENSG00000150907 P351_2308 HGNC_FOXO1 FOXO1 P353_FOXO1 Wikidata_Q17928793" color="#000000" name="FOXO1" transform="translate(1562.5603914245753,1455.6999092943533)" xlink:href="https://tools.wmflabs.org/scholia/Q17928793" target="_blank">
@@ -3292,7 +3308,9 @@
     </a>
     <g id="ca3cf" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00ffff">
       <g filter="url(#kaavioblackto00fffffilter)" color="#00ffff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="0, 5.8, 174.46119765114997, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="ca3cf-path" d="M1615.0603914245753,1455.6999092943533L1615.0603914245753,1435.6999092943533L1614.9791891420846,1435.6999092943533L1614.9791891420846,1269.719913925694" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <g filter="url(#kaaviodoublefalse1filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="ca3cf-path" d="M1615.0603914245753,1455.6999092943533L1615.0603914245753,1435.6999092943533L1614.9791891420846,1435.6999092943533L1614.9791891420846,1269.719913925694" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        </g>
       </g>
     </g>
     <g id="fe772" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#cc00cc">
@@ -3343,7 +3361,9 @@
     </g>
     <g id="ea93a" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00ffff">
       <g filter="url(#kaavioblackto00fffffilter)" color="#00ffff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="0, 5.8, 230.11428571428053, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="ea93a-path" d="M2479.714285714285,1174.4761904761904L2479.714285714285,1194.4761904761904L2479.714285714281,1194.4761904761904L2479.714285714281,1416.1904761904668" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <g filter="url(#kaaviodoublefalse1filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="ea93a-path" d="M2479.714285714285,1174.4761904761904L2479.714285714285,1194.4761904761904L2479.714285714281,1194.4761904761904L2479.714285714281,1416.1904761904668" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        </g>
       </g>
     </g>
     <g id="ec061" class="Edge Interaction" color="#000000">
@@ -3575,7 +3595,9 @@
     </g>
     <g id="eb0b0" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00ffff">
       <g filter="url(#kaavioblackto00fffffilter)" color="#00ffff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="0, 5.8, 298.9082742874938, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="eb0b0-path" d="M2227.3344594021087,1092.7890770284075L2227.3344594021087,1222.1904761904761L2264.071428571428,1222.1904761904761L2264.071428571428,1366.560382146582" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <g filter="url(#kaaviodoublefalse1filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="eb0b0-path" d="M2227.3344594021087,1092.7890770284075L2227.3344594021087,1222.1904761904761L2264.071428571428,1222.1904761904761L2264.071428571428,1366.560382146582" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        </g>
       </g>
     </g>
     <a id="f807e" class="SingleFreeNode DataNode Entrez_Gene_1386 Protein Ensembl_ENSG00000115966 P594_ENSG00000115966 P351_1386 HGNC_ATF2 ATF2 P353_ATF2 Wikidata_Q4677462" color="#000000" name="ATF2" transform="translate(2024.334949016918,1494.4836083539144)" xlink:href="https://tools.wmflabs.org/scholia/Q4677462" target="_blank">
@@ -4890,8 +4912,8 @@
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="5.15, 3.09, 5.15, 3.09, 5.15, 3.09, 5.15, 3.09, 5.15, 3.09, 5.15, 3.09, 5.15, 3.09, 5.15, 3.09, 5.15, 3.09, 5.15, 3.09, 5.15, 3.09, 5.15, 3.09, 5.15, 3.09, 5.15, 3.09, 5.15, 3.09, 5.15, 3.09, 5.15, 3.09, 5.15, 3.09, 5.15, 3.09, 5.15, 3.09, 5.15, 5.8" stroke-width="2">
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="d6381-path" d="M3474.870876250214,664.1160243472737L3345.7518286311683,664.1160243472737L3345.7518286311683,710.592214823469" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
-      <g id="dfcfa" class="Burr Anchor" transform="translate(3383.283217061602,664.1160243472737)">
-        <use fill="#141414" stroke-width="0" fill-opacity="1" height="0" id="dfcfa-icon" width="0" x="0" y="0" xlink:href="#none" class="Icon"/>
+      <g id="pvjsgeneratedidffe6e" class="Burr Anchor" transform="translate(3381.283217061602,662.1160243472737)">
+        <rect fill="#141414" stroke-width="0" fill-opacity="1" height="4px" id="pvjsgeneratedidffe6e-icon" width="4px" x="0" y="0" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
       </g>
     </g>
     <g id="a96b2" class="SingleFreeNode Label" color="#000000" name="Lysosome mediated partial proteosomal degradation" transform="translate(3293.108971488321,733.6457680250948)">
@@ -4935,7 +4957,9 @@
     </a>
     <g id="b6cd8" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00ffff">
       <g filter="url(#kaavioblackto00fffffilter)" color="#00ffff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="286.39047619047835, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="b6cd8-path" d="M3519.870876250214,351.9255481567953L3519.870876250214,371.9255481567953L3519.870876250214,371.9255481567953L3519.870876250214,644.1160243472737" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <g filter="url(#kaaviodoublefalse1filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="b6cd8-path" d="M3519.870876250214,351.9255481567953L3519.870876250214,371.9255481567953L3519.870876250214,371.9255481567953L3519.870876250214,644.1160243472737" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        </g>
       </g>
       <g id="a2af1" class="Burr Anchor" transform="translate(3519.870876250214,385.6230858588609)">
         <use fill="#141414" stroke-width="0" fill-opacity="1" height="0" id="a2af1-icon" width="0" x="0" y="0" xlink:href="#none" class="Icon"/>
@@ -5074,7 +5098,9 @@
     </a>
     <g id="e0cfd" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00ffff">
       <g filter="url(#kaavioblackto00fffffilter)" color="#00ffff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="489.6166666666719, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="e0cfd-path" d="M3474.870876250214,359.4255481567953L3474.870876250214,410.83624421555896L3330.620876250216,410.83624421555896L3330.620876250216,710.592214823469" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <g filter="url(#kaaviodoublefalse1filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="e0cfd-path" d="M3474.870876250214,359.4255481567953L3474.870876250214,410.83624421555896L3330.620876250216,410.83624421555896L3330.620876250216,710.592214823469" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        </g>
       </g>
       <g id="e387b" class="Burr Anchor" transform="translate(3469.507252090866,410.83624421555896)">
         <use fill="#141414" stroke-width="0" fill-opacity="1" height="0" id="e387b-icon" width="0" x="0" y="0" xlink:href="#none" class="Icon"/>
@@ -5139,7 +5165,9 @@
     </g>
     <g id="c466a" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00ffff">
       <g filter="url(#kaavioblackto00fffffilter)" color="#00ffff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="291.3904761904802, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="c466a-path" d="M3306.7193373547148,351.1191899519927L3306.7193373547148,371.1191899519927L3305.7193373547148,371.1191899519927L3305.7193373547148,647.3096661424729" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <g filter="url(#kaaviodoublefalse1filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="c466a-path" d="M3306.7193373547148,351.1191899519927L3306.7193373547148,371.1191899519927L3305.7193373547148,371.1191899519927L3305.7193373547148,647.3096661424729" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        </g>
       </g>
       <g id="c8a36" class="Burr Anchor" transform="translate(3305.7193373547148,384.1769607059262)">
         <use fill="#141414" stroke-width="0" fill-opacity="1" height="0" id="c8a36-icon" width="0" x="0" y="0" xlink:href="#none" class="Icon"/>
@@ -5305,7 +5333,9 @@
     </g>
     <g id="f55fe" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00ffff">
       <g filter="url(#kaavioblackto00fffffilter)" color="#00ffff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="182.87674279740276, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="f55fe-path" d="M3783.5,556.5505299298518L3783.5,576.5505299298518L3656.2518286311642,576.5505299298518L3656.2518286311642,617.9791013584188" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <g filter="url(#kaaviodoublefalse1filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="f55fe-path" d="M3783.5,556.5505299298518L3783.5,576.5505299298518L3656.2518286311642,576.5505299298518L3656.2518286311642,617.9791013584188" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        </g>
       </g>
     </g>
     <g id="ee4d2" class="SingleFreeNode Shape" color="#000000" transform="translate(3655.5375429168803,659.8838632631781)">
@@ -5722,7 +5752,9 @@
     </a>
     <g id="fff51" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00ffff">
       <g filter="url(#kaavioblackto00fffffilter)" color="#00ffff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="0, 5.8, 122.05203761755766, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="fff51-path" d="M1687.6380058372747,1270.3596638133263L1687.6380058372747,1290.3596638133263L1687.6380058372747,1290.3596638133263L1687.6380058372747,1404.011701430884" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <g filter="url(#kaaviodoublefalse1filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="fff51-path" d="M1687.6380058372747,1270.3596638133263L1687.6380058372747,1290.3596638133263L1687.6380058372747,1290.3596638133263L1687.6380058372747,1404.011701430884" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        </g>
       </g>
     </g>
     <g id="db37e" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00cc00">
@@ -5793,7 +5825,9 @@
     </g>
     <g id="fee32" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00ffff">
       <g filter="url(#kaavioblackto00fffffilter)" color="#00ffff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="0, 5.8, 122.05203761755766, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="fee32-path" d="M1744.6380058372747,1270.3596638133263L1744.6380058372747,1290.3596638133263L1744.6380058372747,1290.3596638133263L1744.6380058372747,1404.011701430884" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <g filter="url(#kaaviodoublefalse1filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="fee32-path" d="M1744.6380058372747,1270.3596638133263L1744.6380058372747,1290.3596638133263L1744.6380058372747,1290.3596638133263L1744.6380058372747,1404.011701430884" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        </g>
       </g>
     </g>
     <a id="ea27c" class="SingleFreeNode DataNode Entrez_Gene_1958 Protein Ensembl_ENSG00000120738 P594_ENSG00000120738 P351_1958 HGNC_EGR1 EGR1 P353_EGR1 Wikidata_Q14864821" color="#000000" name="EGR1" transform="translate(1635.5289254765362,1652.7366811484098)" xlink:href="https://tools.wmflabs.org/scholia/Q14864821" target="_blank">
@@ -5860,7 +5894,9 @@
     </a>
     <g id="e48e8" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00ffff">
       <g filter="url(#kaavioblackto00fffffilter)" color="#00ffff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="0, 5.8, 262.4501567398137, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="e48e8-path" d="M1881.7727329807053,1204.778114411507L1881.7727329807053,1247.7327959396926L1806.3495354885385,1247.7327959396926L1806.3495354885385,1403.405073659154" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <g filter="url(#kaaviodoublefalse1filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="e48e8-path" d="M1881.7727329807053,1204.778114411507L1881.7727329807053,1247.7327959396926L1806.3495354885385,1247.7327959396926L1806.3495354885385,1403.405073659154" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        </g>
       </g>
     </g>
     <g id="a7266" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
@@ -5982,7 +6018,9 @@
     </a>
     <g id="b4979" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00ffff">
       <g filter="url(#kaavioblackto00fffffilter)" color="#00ffff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="0, 5.8, 180.2684307488191, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="b4979-path" d="M1921.8073411719429,1252.425905591309L1921.9954289462376,1444.2942441492992" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <g filter="url(#kaaviodoublefalse1filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="b4979-path" d="M1921.8073411719429,1252.425905591309L1921.9954289462376,1444.2942441492992" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        </g>
       </g>
     </g>
     <g id="d4952" class="Edge Interaction" color="#ff9900">
@@ -6272,12 +6310,16 @@
     </a>
     <g id="ffbe1" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00ffff">
       <g filter="url(#kaavioblackto00fffffilter)" color="#00ffff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="0, 5.8, 175.06666666666786, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="ffbe1-path" d="M1475.9315700944667,1269.7199139256836L1475.9315700944667,1289.7199139256836L1476.4077605706552,1289.7199139256836L1476.4077605706552,1455.910390116163" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <g filter="url(#kaaviodoublefalse1filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="ffbe1-path" d="M1475.9315700944667,1269.7199139256836L1475.9315700944667,1289.7199139256836L1476.4077605706552,1289.7199139256836L1476.4077605706552,1455.910390116163" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        </g>
       </g>
     </g>
     <g id="d1c10" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00ffff">
       <g filter="url(#kaavioblackto00fffffilter)" color="#00ffff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="0, 5.8, 176.01904761905223, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="d1c10-path" d="M1518.5320109041797,1269.2437234494892L1518.5320109041797,1289.2437234494892L1518.0558204279876,1289.2437234494892L1518.0558204279876,1456.3865805923492" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <g filter="url(#kaaviodoublefalse1filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="d1c10-path" d="M1518.5320109041797,1269.2437234494892L1518.5320109041797,1289.2437234494892L1518.0558204279876,1289.2437234494892L1518.0558204279876,1456.3865805923492" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        </g>
       </g>
     </g>
     <g id="f48f6" class="SingleFreeNode Label" color="#ff0099" name="CY" transform="translate(1515.540496094553,1282.6335273921518)">
@@ -6635,10 +6677,12 @@
     </g>
     <g id="ac475" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00ffff">
       <g filter="url(#kaavioblackto00fffffilter)" color="#00ffff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="0, 5.8, 239.89999999999998, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="ac475-path" d="M2098.774972218794,1488.004606399128L2098.774972218794,1420.1904761904761L2078.274972218794,1420.1904761904761L2078.274972218794,1257.004606399128" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <g filter="url(#kaaviodoublefalse1filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="ac475-path" d="M2098.774972218794,1488.004606399128L2098.774972218794,1420.1904761904761L2078.274972218794,1420.1904761904761L2078.274972218794,1257.004606399128" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        </g>
       </g>
-      <g id="d631b" class="Burr Anchor" transform="translate(2098.774972218794,1449.548697007729)">
-        <use fill="#141414" stroke-width="0" fill-opacity="1" height="0" id="d631b-icon" width="0" x="0" y="0" xlink:href="#none" class="Icon"/>
+      <g id="pvjsgeneratedidfff52" class="Burr Anchor" transform="translate(2096.774972218794,1447.548697007729)">
+        <rect fill="#141414" stroke-width="0" fill-opacity="1" height="4px" id="pvjsgeneratedidfff52-icon" width="4px" x="0" y="0" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
       </g>
       <g id="e88ad" class="Burr Anchor" transform="translate(2078.274972218794,1407.904606399128)">
         <use fill="#141414" stroke-width="0" fill-opacity="1" height="0" id="e88ad-icon" width="0" x="0" y="0" xlink:href="#none" class="Icon"/>
@@ -6676,8 +6720,8 @@
       <g filter="url(#kaavioblacktoff0000filter)" color="#ff0000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="84.93274418231249, 7" stroke-width="2">
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="cd787-path" d="M2179,1506.095238095238L2241.934177695864,1506.095238095238L2241.934177695864,1535.0938045816865" marker-end="url(#markerEndMimInhibition)" class="EdgeBody"/>
       </g>
-      <g id="f9751" class="Burr Anchor" transform="translate(2215.7730976729254,1506.095238095238)">
-        <use fill="#141414" stroke-width="0" fill-opacity="1" height="0" id="f9751-icon" width="0" x="0" y="0" xlink:href="#none" class="Icon"/>
+      <g id="pvjsgeneratedidfff53" class="Burr Anchor" transform="translate(2213.7730976729254,1504.095238095238)">
+        <rect fill="#141414" stroke-width="0" fill-opacity="1" height="4px" id="pvjsgeneratedidfff53-icon" width="4px" x="0" y="0" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
       </g>
     </g>
     <g id="a0a98" class="Edge Interaction" color="#000000">
@@ -6766,7 +6810,9 @@
     </a>
     <g id="e81bb" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00ffff">
       <g filter="url(#kaavioblackto00fffffilter)" color="#00ffff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="253.20048262503298, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="e81bb-path" d="M2344.202943986768,1157.7890770284075L2343.702943986768,1416.7890770284075" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <g filter="url(#kaaviodoublefalse1filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="e81bb-path" d="M2344.202943986768,1157.7890770284075L2343.702943986768,1416.7890770284075" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        </g>
       </g>
     </g>
     <g id="ef62b" class="SingleFreeNode Label" color="#ff0099" name="NU" transform="translate(2344.400624471926,1334.9522316763746)">
@@ -6834,7 +6880,9 @@
     </a>
     <g id="a1b84" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00ffff">
       <g filter="url(#kaavioblackto00fffffilter)" color="#00ffff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="152.4826742369064, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="a1b84-path" d="M2922.0952380952376,364.73738802451425L2922.0952380952376,384.73738802451425L2922.1168044919377,384.73738802451425L2922.1168044919377,522.9984958647206" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <g filter="url(#kaaviodoublefalse1filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="a1b84-path" d="M2922.0952380952376,364.73738802451425L2922.0952380952376,384.73738802451425L2922.1168044919377,384.73738802451425L2922.1168044919377,522.9984958647206" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        </g>
       </g>
     </g>
     <g id="a86bc" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#ff0099">
@@ -6939,8 +6987,8 @@
       </text>
     </a>
     <g id="a7f66" class="Edge Interaction" color="#ff0000">
-      <g filter="url(#kaavioblacktoff0000filter)" color="#ff0000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="233.33017664344578, 5.8" stroke-width="2">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="a7f66-path" d="M655.1092983483036,302.8732985853444L655.1092983483036,255.27838206490355L831.0240090870657,255.27838206490355L831.0240090870657,239.6578326806607" marker-end="url(#markerEndMimConversion)" class="EdgeBody"/>
+      <g filter="url(#kaavioblacktoff0000filter)" color="#ff0000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="221.1301766434458, 18" stroke-width="2">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="a7f66-path" d="M655.1092983483036,302.8732985853444L655.1092983483036,255.27838206490355L831.0240090870657,255.27838206490355L831.0240090870657,239.6578326806607" marker-end="url(#markerEndMimCleavage)" class="EdgeBody"/>
       </g>
     </g>
     <g id="f5a0c" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#ff0000">
@@ -6950,7 +6998,9 @@
     </g>
     <g id="db16b" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00ffff">
       <g filter="url(#kaavioblackto00fffffilter)" color="#00ffff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="895.2014015374798, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="db16b-path" d="M848.4195452178437,324.53719129941146L848.4195452178437,368L413.0714285714287,368L413.0714285714287,790.1904761904761" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <g filter="url(#kaaviodoublefalse1filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="db16b-path" d="M848.4195452178437,324.53719129941146L848.4195452178437,368L413.0714285714287,368L413.0714285714287,790.1904761904761" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        </g>
       </g>
     </g>
     <a id="e9ee0" class="SingleFreeNode DataNode Entrez_Gene_3685 Protein Ensembl_ENSG00000138448 P594_ENSG00000138448 P351_3685 HGNC_ITGAV ITGAV P353_ITGAV Wikidata_Q18028029" color="#000000" name="ITGAV" transform="translate(383.9353919901767,794.0746823340587)" xlink:href="https://tools.wmflabs.org/scholia/Q18028029" target="_blank">
@@ -7494,8 +7544,8 @@
       </text>
     </g>
     <g id="a5e26" class="Edge Interaction" color="#ff0000">
-      <g filter="url(#kaavioblacktoff0000filter)" color="#ff0000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="41.2, 5.8" stroke-width="2">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="a5e26-path" d="M3179,1396L3226,1396" marker-end="url(#markerEndMimConversion)" class="EdgeBody"/>
+      <g filter="url(#kaavioblacktoff0000filter)" color="#ff0000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="29, 18" stroke-width="2">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="a5e26-path" d="M3179,1396L3226,1396" marker-end="url(#markerEndMimCleavage)" class="EdgeBody"/>
       </g>
     </g>
     <g id="a7891" class="SingleFreeNode Label" color="#ff0000" name="Direct protein cleavage of substrates by proteases" transform="translate(3276.9151870554433,1384.5649889849215)">
@@ -7621,7 +7671,9 @@
     </g>
     <g id="fb1d9" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#00ffff">
       <g filter="url(#kaavioblackto00fffffilter)" color="#00ffff" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="0, 5.8, 58.400000000000006, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="fb1d9-path" d="M3178,1452L3248,1452" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <g filter="url(#kaaviodoublefalse1filter)" style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit">
+          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="fb1d9-path" d="M3178,1452L3248,1452" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        </g>
       </g>
     </g>
     <g id="f260c" class="SingleFreeNode Label" color="#00ffff" name="Protein transport across multiple cell compartments" transform="translate(3275.9151870554433,1440.6299889849215)">
@@ -9776,8 +9828,8 @@
       </text>
     </g>
     <text id="WP3888-text" class="Text" direction="ltr" dominant-baseline="central" fill="black" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" overflow="visible" stroke="white" stroke-width="0px" text-anchor="start" transform="translate(5,36)">
-      <tspan x="0" y="-18">Name: VEGFA-VEGFR2 signaling pathway</tspan>
-      <tspan x="0" y="0">Last Modified: 20210514095301</tspan>
+      <tspan x="0" y="-18">Name: VEGFA-VEGFR2 signaling</tspan>
+      <tspan x="0" y="0">Last Modified: 20221214212733</tspan>
       <tspan x="0" y="18">Organism: Homo sapiens</tspan>
     </text>
   </g>
