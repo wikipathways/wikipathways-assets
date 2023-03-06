@@ -1,27 +1,5 @@
 {
   "entitiesById": {
-    "041554": {
-      "__HighlandStream__": true,
-      "_can_drain": false,
-      "_consume_waiting_for_next": false,
-      "_consumers": [],
-      "_delegate": null,
-      "_destructors": [],
-      "_events": {},
-      "_eventsCount": 2,
-      "_in_consume_cb": false,
-      "_incoming": [],
-      "_is_observer": false,
-      "_nil_pushed": false,
-      "_observers": [],
-      "_outgoing": [],
-      "_repeat_resume": false,
-      "_send_events": false,
-      "id": "041554",
-      "paused": true,
-      "source": null,
-      "writable": true
-    },
     "afa00": {
       "comments": [
         {
@@ -54,6 +32,7 @@
         "GeneProduct",
         "Ensembl:ENSG00000102468",
         "P594:ENSG00000102468",
+        "P351:3356:T",
         "P351:3356",
         "HGNC:HTR2A",
         "HTR2A",
@@ -91,7 +70,7 @@
         "cacda"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimStimulation",
+      "markerEnd": "MimNecessaryStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -104,7 +83,6 @@
               1
             ]
           },
-          "id": "ab2f1",
           "isAttachedTo": "cafea",
           "orientation": [
             0,
@@ -124,7 +102,6 @@
               0.5
             ]
           },
-          "id": "dc1cc",
           "isAttachedTo": "cacda",
           "orientation": [
             -1,
@@ -165,7 +142,7 @@
         "cafea"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimStimulation",
+      "markerEnd": "MimNecessaryStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -178,7 +155,6 @@
               0.5
             ]
           },
-          "id": "f3dd7",
           "isAttachedTo": "afa00",
           "orientation": [
             1,
@@ -198,7 +174,6 @@
               0
             ]
           },
-          "id": "faaf7",
           "isAttachedTo": "cafea",
           "orientation": [
             0,
@@ -256,7 +231,6 @@
               1
             ]
           },
-          "id": "b9d72",
           "isAttachedTo": "d4a3b",
           "orientation": [
             0,
@@ -276,7 +250,6 @@
               0
             ]
           },
-          "id": "a84bb",
           "isAttachedTo": "afa00",
           "orientation": [
             0,
@@ -476,7 +449,6 @@
               1
             ]
           },
-          "id": "c2105",
           "isAttachedTo": "afa00",
           "orientation": [
             0,
@@ -496,7 +468,6 @@
               0
             ]
           },
-          "id": "f68dd",
           "isAttachedTo": "cacda",
           "orientation": [
             0,
@@ -539,9 +510,7 @@
         "SingleFreeNode",
         "CAS:50-67-9",
         "Metabolite",
-        "ChEBI:CHEBI:28790",
         "ChEBI:28790",
-        "P683:CHEBI:28790",
         "P683:28790",
         "HMDB:HMDB0000259",
         "HMDB:HMDB00259",
@@ -586,7 +555,7 @@
         "ce8ce"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimStimulation",
+      "markerEnd": "MimNecessaryStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -599,7 +568,6 @@
               1
             ]
           },
-          "id": "fa284",
           "isAttachedTo": "cacda",
           "orientation": [
             0,
@@ -619,7 +587,6 @@
               0
             ]
           },
-          "id": "cf921",
           "isAttachedTo": "ce8ce",
           "orientation": [
             0,
@@ -636,6 +603,16 @@
         "Edge"
       ],
       "zIndex": 12288
+    },
+    "http://identifiers.org/cl/CL:0000540": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/cl/CL:0000540",
+      "ontology": "Cell Type",
+      "term": "neuron",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "CL:0000540"
     },
     "http://identifiers.org/pw/PW:0000854": {
       "gpmlElementName": "openControlledVocabulary",
@@ -656,7 +633,7 @@
       "id": "publicationXrefa3c",
       "source": "Mol Pharmacol",
       "standardName": "Signal transducer and activator of transcription 3 activation by the delta-opioid receptor via Galpha14 involves multiple intermediates.",
-      "textContent": "14",
+      "textContent": "12",
       "type": [
         "PublicationXref",
         "PubMed:15155836",
@@ -677,7 +654,7 @@
       "id": "publicationXrefaa9",
       "source": "J Virol",
       "standardName": "Hepatitis C virus (HCV) constitutively activates STAT-3 via oxidative stress: role of STAT-3 in HCV replication.",
-      "textContent": "18",
+      "textContent": "17",
       "type": [
         "PublicationXref",
         "PubMed:15650183",
@@ -696,7 +673,7 @@
       "id": "publicationXrefafb",
       "source": "Naunyn Schmiedebergs Arch Pharmacol",
       "standardName": "Mechanisms of serotonin-induced Ca2+ responses in mesangial cells.",
-      "textContent": "5",
+      "textContent": "4",
       "type": [
         "PublicationXref",
         "PubMed:9272731",
@@ -743,7 +720,7 @@
       "type": [
         "PublicationXref",
         "PubMed:15156153",
-        "Wikidata:Q28262816"
+        "Wikidata:Q28262816:T"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "15156153",
@@ -759,7 +736,7 @@
       "id": "publicationXrefc0c",
       "source": "Neuropharmacology",
       "standardName": "The sleep inducing brain lipid cis-oleamide (cOA) does not modulate serotonergic transmission in the CA1 pyramidal neurons of the hippocampus in vitro.",
-      "textContent": "12",
+      "textContent": "15",
       "type": [
         "PublicationXref",
         "PubMed:14654098",
@@ -806,7 +783,7 @@
       "type": [
         "PublicationXref",
         "PubMed:9439849",
-        "Wikidata:Q28609374"
+        "Wikidata:Q28609374:T"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "9439849",
@@ -841,7 +818,7 @@
       "id": "publicationXrefd8d",
       "source": "Oncogene",
       "standardName": "A SOCS-1 peptide mimetic inhibits both constitutive and IL-6 induced activation of STAT3 in prostate cancer cells.",
-      "textContent": "17",
+      "textContent": "18",
       "type": [
         "PublicationXref",
         "PubMed:15688010",
@@ -887,11 +864,11 @@
       "id": "publicationXrefe0c",
       "source": "Am J Physiol Cell Physiol",
       "standardName": "Interleukin-6-induced JAK2/STAT3 signaling pathway in endothelial cells is suppressed by hemodynamic flow.",
-      "textContent": "15",
+      "textContent": "14",
       "type": [
         "PublicationXref",
         "PubMed:15151905",
-        "Wikidata:Q44902169"
+        "Wikidata:Q44902169:T"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "15151905",
@@ -930,7 +907,7 @@
       "id": "publicationXreff11",
       "source": "Biochem Biophys Res Commun",
       "standardName": "Serotonin activates electrolyte transport via 5-HT2A receptor in rat colonic crypt cells.",
-      "textContent": "4",
+      "textContent": "5",
       "type": [
         "PublicationXref",
         "PubMed:9016798",
@@ -1043,7 +1020,7 @@
     "author": "[Aruke, Khanspers, MaintBot, AlexanderPico, Thomas, Egonw, IreneHemel, Eweitz]",
     "comments": [
       {
-        "content": "Source: Ariadne Genomics Pathway Studio.\r\n\r\nProteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP733 CPTAC Assay Portal]",
+        "content": "This pathway depicts the downstream signaling of serotonin via receptor 2A, resulting in the activation of STAT3.\r\n\r\nProteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP733 CPTAC Assay Portal]",
         "source": "WikiPathways-description"
       }
     ],
@@ -1059,17 +1036,17 @@
       "ce8ce",
       "d4a3b"
     ],
-    "dataSourceVersion": "WP733_r120590",
+    "dataSourceVersion": "WP733_r125630",
     "displayName": "Serotonin receptor 2 and STAT3 signaling",
     "drawAs": "rect",
     "fill": "white",
     "fontSize": 12,
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
-    "height": 444,
+    "height": 286,
     "id": "WP733",
     "kaavioType": "Group",
-    "lastModified": "20211217193149",
+    "lastModified": "20230306015811",
     "name": "Serotonin receptor 2 and STAT3 signaling",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -1078,13 +1055,13 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Serotonin receptor 2 and STAT3 signaling\nLast Modified: 20211217193149\nOrganism: Homo sapiens",
+    "textContent": "Name: Serotonin receptor 2 and STAT3 signaling\nLast Modified: 20230306015811\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000854"
     ],
     "verticalAlign": "top",
-    "width": 353,
+    "width": 226,
     "x": 0,
     "y": 0,
     "zIndex": 0

@@ -1,27 +1,5 @@
 {
   "entitiesById": {
-    "534470": {
-      "__HighlandStream__": true,
-      "_can_drain": false,
-      "_consume_waiting_for_next": false,
-      "_consumers": [],
-      "_delegate": null,
-      "_destructors": [],
-      "_events": {},
-      "_eventsCount": 2,
-      "_in_consume_cb": false,
-      "_incoming": [],
-      "_is_observer": false,
-      "_nil_pushed": false,
-      "_observers": [],
-      "_outgoing": [],
-      "_repeat_resume": false,
-      "_send_events": false,
-      "id": "534470",
-      "paused": true,
-      "source": null,
-      "writable": true
-    },
     "afa00": {
       "comments": [
         {
@@ -58,6 +36,7 @@
         "GeneProduct",
         "P594:ENSBTAG00000013498",
         "Entrez Gene:407230",
+        "P351:407230:T",
         "P351:407230"
       ],
       "verticalAlign": "middle",
@@ -91,7 +70,7 @@
         "cacda"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimStimulation",
+      "markerEnd": "MimNecessaryStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -104,7 +83,6 @@
               1
             ]
           },
-          "id": "e11a1",
           "isAttachedTo": "cafea",
           "orientation": [
             0,
@@ -124,7 +102,6 @@
               0
             ]
           },
-          "id": "ad248",
           "isAttachedTo": "cacda",
           "orientation": [
             0,
@@ -165,7 +142,7 @@
         "cafea"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimStimulation",
+      "markerEnd": "MimNecessaryStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -178,7 +155,6 @@
               1
             ]
           },
-          "id": "d5318",
           "isAttachedTo": "afa00",
           "orientation": [
             0,
@@ -198,7 +174,6 @@
               0
             ]
           },
-          "id": "dc615",
           "isAttachedTo": "cafea",
           "orientation": [
             0,
@@ -256,7 +231,6 @@
               1
             ]
           },
-          "id": "bccb9",
           "isAttachedTo": "d4a3b",
           "orientation": [
             0,
@@ -276,7 +250,6 @@
               0
             ]
           },
-          "id": "bb929",
           "isAttachedTo": "afa00",
           "orientation": [
             0,
@@ -475,7 +448,6 @@
               1
             ]
           },
-          "id": "e98d3",
           "isAttachedTo": "afa00",
           "orientation": [
             0,
@@ -495,7 +467,6 @@
               0
             ]
           },
-          "id": "fb6a7",
           "isAttachedTo": "cacda",
           "orientation": [
             0,
@@ -538,9 +509,7 @@
         "SingleFreeNode",
         "CAS:50-67-9",
         "Metabolite",
-        "ChEBI:CHEBI:28790",
         "ChEBI:28790",
-        "P683:CHEBI:28790",
         "P683:28790",
         "HMDB:HMDB0000259",
         "HMDB:HMDB00259",
@@ -585,7 +554,7 @@
         "ce8ce"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimStimulation",
+      "markerEnd": "MimNecessaryStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -598,7 +567,6 @@
               1
             ]
           },
-          "id": "abe54",
           "isAttachedTo": "cacda",
           "orientation": [
             0,
@@ -618,7 +586,6 @@
               0
             ]
           },
-          "id": "ba0d7",
           "isAttachedTo": "ce8ce",
           "orientation": [
             0,
@@ -635,6 +602,16 @@
         "Edge"
       ],
       "zIndex": 12288
+    },
+    "http://identifiers.org/cl/CL:0000540": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/cl/CL:0000540",
+      "ontology": "Cell Type",
+      "term": "neuron",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "CL:0000540"
     },
     "http://identifiers.org/pw/PW:0000854": {
       "gpmlElementName": "openControlledVocabulary",
@@ -655,7 +632,7 @@
       "id": "publicationXrefa3c",
       "source": "Mol Pharmacol",
       "standardName": "Signal transducer and activator of transcription 3 activation by the delta-opioid receptor via Galpha14 involves multiple intermediates.",
-      "textContent": "14",
+      "textContent": "15",
       "type": [
         "PublicationXref",
         "PubMed:15155836",
@@ -695,7 +672,7 @@
       "id": "publicationXrefafb",
       "source": "Naunyn Schmiedebergs Arch Pharmacol",
       "standardName": "Mechanisms of serotonin-induced Ca2+ responses in mesangial cells.",
-      "textContent": "4",
+      "textContent": "5",
       "type": [
         "PublicationXref",
         "PubMed:9272731",
@@ -715,7 +692,7 @@
       "id": "publicationXrefb19",
       "source": "J Biol Chem",
       "standardName": "Identification and localization of a skeletal muscle secrotonin 5-HT2A receptor coupled to the Jak/STAT pathway.",
-      "textContent": "6",
+      "textContent": "3",
       "type": [
         "PublicationXref",
         "PubMed:9169451",
@@ -742,7 +719,7 @@
       "type": [
         "PublicationXref",
         "PubMed:15156153",
-        "Wikidata:Q28262816"
+        "Wikidata:Q28262816:T"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "15156153",
@@ -758,7 +735,7 @@
       "id": "publicationXrefc0c",
       "source": "Neuropharmacology",
       "standardName": "The sleep inducing brain lipid cis-oleamide (cOA) does not modulate serotonergic transmission in the CA1 pyramidal neurons of the hippocampus in vitro.",
-      "textContent": "12",
+      "textContent": "14",
       "type": [
         "PublicationXref",
         "PubMed:14654098",
@@ -801,11 +778,11 @@
       "id": "publicationXrefcd8",
       "source": "Brain Res",
       "standardName": "Fluoxetine gradually increases [125I]DOI-labelled 5-HT2A/2C receptors in the hypothalamus without changing the levels of Gq- and G11-proteins.",
-      "textContent": "5",
+      "textContent": "4",
       "type": [
         "PublicationXref",
         "PubMed:9439849",
-        "Wikidata:Q28609374"
+        "Wikidata:Q28609374:T"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "9439849",
@@ -840,7 +817,7 @@
       "id": "publicationXrefd8d",
       "source": "Oncogene",
       "standardName": "A SOCS-1 peptide mimetic inhibits both constitutive and IL-6 induced activation of STAT3 in prostate cancer cells.",
-      "textContent": "16",
+      "textContent": "18",
       "type": [
         "PublicationXref",
         "PubMed:15688010",
@@ -886,11 +863,11 @@
       "id": "publicationXrefe0c",
       "source": "Am J Physiol Cell Physiol",
       "standardName": "Interleukin-6-induced JAK2/STAT3 signaling pathway in endothelial cells is suppressed by hemodynamic flow.",
-      "textContent": "15",
+      "textContent": "12",
       "type": [
         "PublicationXref",
         "PubMed:15151905",
-        "Wikidata:Q44902169"
+        "Wikidata:Q44902169:T"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "15151905",
@@ -929,7 +906,7 @@
       "id": "publicationXreff11",
       "source": "Biochem Biophys Res Commun",
       "standardName": "Serotonin activates electrolyte transport via 5-HT2A receptor in rat colonic crypt cells.",
-      "textContent": "3",
+      "textContent": "6",
       "type": [
         "PublicationXref",
         "PubMed:9016798",
@@ -977,7 +954,7 @@
       "id": "publicationXreff9a",
       "source": "J Biol Chem",
       "standardName": "A novel mechanism for JAK2 activation by a G protein-coupled receptor, the CCK2R: implication of this signaling pathway in pancreatic tumor models.",
-      "textContent": "18",
+      "textContent": "16",
       "type": [
         "PublicationXref",
         "PubMed:15640156",
@@ -1002,7 +979,7 @@
       "id": "publicationXreffe9",
       "source": "J Mol Cell Cardiol",
       "standardName": "Role of STAT3 in ischemic preconditioning.",
-      "textContent": "10",
+      "textContent": "9",
       "type": [
         "PublicationXref",
         "PubMed:11708838",
@@ -1021,7 +998,7 @@
       "id": "publicationXreffee",
       "source": "J Neurosci",
       "standardName": "The information content of spontaneous retinal waves.",
-      "textContent": "9",
+      "textContent": "10",
       "type": [
         "PublicationXref",
         "PubMed:11157082",
@@ -1039,10 +1016,10 @@
         "@base": "WP3115/"
       }
     ],
-    "author": "[Mkutmon, Egonw, Eweitz]",
+    "author": "[Mkutmon, Egonw, Eweitz, AlexanderPico]",
     "comments": [
       {
-        "content": "Source: Ariadne Genomics Pathway Studio.",
+        "content": "This pathway depicts the downstream signaling of serotonin via receptor 2A, resulting in the activation of STAT3.",
         "source": "WikiPathways-description"
       },
       {
@@ -1051,18 +1028,18 @@
       }
     ],
     "contains": [
-      "be6b0",
+      "b5b37",
       "ba2f3",
+      "be6b0",
       "d2154",
       "fe91c",
-      "b5b37",
-      "d4a3b",
       "afa00",
-      "cafea",
       "cacda",
-      "ce8ce"
+      "cafea",
+      "ce8ce",
+      "d4a3b"
     ],
-    "dataSourceVersion": "WP3115_r117602",
+    "dataSourceVersion": "WP3115_r125631",
     "displayName": "Serotonin receptor 2 and STAT3 signaling",
     "drawAs": "rect",
     "fill": "white",
@@ -1072,7 +1049,7 @@
     "height": 483,
     "id": "WP3115",
     "kaavioType": "Group",
-    "lastModified": "20210521113737",
+    "lastModified": "20230306015828",
     "name": "Serotonin receptor 2 and STAT3 signaling",
     "organism": "Bos taurus",
     "padding": 5,
@@ -1081,7 +1058,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Serotonin receptor 2 and STAT3 signaling\nLast Modified: 20210521113737\nOrganism: Bos taurus",
+    "textContent": "Name: Serotonin receptor 2 and STAT3 signaling\nLast Modified: 20230306015828\nOrganism: Bos taurus",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000854"
