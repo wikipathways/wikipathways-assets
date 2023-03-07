@@ -1,5 +1,30 @@
 {
   "entitiesById": {
+    "a030b": {
+      "attachmentDisplay": {
+        "offset": [
+          0,
+          0
+        ],
+        "position": [
+          0.7876769285455383,
+          0
+        ]
+      },
+      "drawAs": "none",
+      "gpmlElementName": "Anchor",
+      "height": 0,
+      "id": "a030b",
+      "isAttachedTo": "ideca6586e",
+      "kaavioType": "Burr",
+      "strokeWidth": 0,
+      "type": [
+        "Anchor",
+        "Burr"
+      ],
+      "width": 0,
+      "zIndex": 32777
+    },
     "a1446": {
       "drawAs": "none",
       "fill": "transparent",
@@ -229,7 +254,9 @@
         "SingleFreeNode",
         "Wikidata:Q104219",
         "Metabolite",
+        "ChEBI:CHEBI:16990",
         "ChEBI:16990",
+        "P683:CHEBI:16990",
         "P683:16990",
         "HMDB:HMDB00054",
         "P2057:HMDB00054"
@@ -293,10 +320,10 @@
         "SingleFreeNode",
         "Wikidata:Q189621",
         "Metabolite",
-        "ChEBI:30413:T",
         "ChEBI:30413",
-        "P683:30413:T",
+        "ChEBI:CHEBI:30413",
         "P683:30413",
+        "P683:CHEBI:30413",
         "HMDB:HMDB03178",
         "P2057:HMDB03178"
       ],
@@ -513,7 +540,9 @@
         "SingleFreeNode",
         "Wikidata:Q422964",
         "Metabolite",
+        "ChEBI:CHEBI:17033",
         "ChEBI:17033",
+        "P683:CHEBI:17033",
         "P683:17033",
         "HMDB:HMDB01008",
         "P2057:HMDB01008"
@@ -823,7 +852,9 @@
         "SingleFreeNode",
         "Wikidata:Q2025",
         "Metabolite",
+        "ChEBI:CHEBI:17245",
         "ChEBI:17245",
+        "P683:CHEBI:17245",
         "P683:17245",
         "HMDB:HMDB01361",
         "P2057:HMDB01361"
@@ -847,6 +878,16 @@
         "openControlledVocabulary"
       ],
       "xrefIdentifier": "PW:0000003"
+    },
+    "http://identifiers.org/pw/PW:0000515": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000515",
+      "ontology": "Pathway Ontology",
+      "term": "Interleukin-10 signaling pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000515"
     },
     "id15260aef": {
       "drawAs": "StraightLine",
@@ -1223,7 +1264,8 @@
       "gpmlElementName": "Interaction",
       "id": "id44baffd2",
       "isAttachedTo": [
-        "fa567"
+        "fa567",
+        "ideca6586e"
       ],
       "kaavioType": "Edge",
       "markerEnd": "TBar",
@@ -1248,8 +1290,21 @@
           "y": 271.26436567164205
         },
         {
-          "x": 651.1567164179105,
-          "y": 271.9551278346561
+          "attachmentDisplay": {
+            "offset": [],
+            "position": [
+              0.7876769285455383,
+              0
+            ],
+            "relativeOffset": [
+              0,
+              0
+            ]
+          },
+          "isAttachedTo": "a030b",
+          "orientation": [],
+          "x": 650.0884679464392,
+          "y": 272.387953054867
         }
       ],
       "stroke": "#000000",
@@ -1580,6 +1635,9 @@
       "zIndex": 32771
     },
     "ideca6586e": {
+      "burrs": [
+        "a030b"
+      ],
       "drawAs": "StraightLine",
       "fill": "none",
       "gpmlElementName": "Interaction",
@@ -2088,7 +2146,7 @@
         "@base": "WP4495/"
       }
     ],
-    "author": "[Laurent, Fehrhart, Eweitz, Egonw, AlexanderPico]",
+    "author": "[Laurent, Fehrhart, Eweitz, Egonw, AlexanderPico, DeSl]",
     "comments": [
       {
         "content": "IL-10 binds to its respective IL-10 receptor which activates the JAK/STAT pathway and MAPK pathway involving the p38 kinases. This leads to the induction of the enzyme heme oxygenase-1 (HMOX1) which is involved in the biosynthesis of heme, and catalyzes the reaction producing the heme precursor biliverdin. The ani-inflammatory actions of HMOX appear to be the result of signaling by carbon monoxide which inhibits pro-inflammatory cytokine production.",
@@ -2102,9 +2160,9 @@
       "id9d40498a",
       "id3f27954d",
       "idd07cefe7",
-      "id44baffd2",
       "id89b220a1",
       "id9b175f7c",
+      "id44baffd2",
       "id960cfab1",
       "id240c331f",
       "c89d3",
@@ -2141,7 +2199,7 @@
       "f0d50",
       "c4758"
     ],
-    "dataSourceVersion": "WP4495_r125634",
+    "dataSourceVersion": "WP4495_r125654",
     "displayName": "IL-10 anti-inflammatory signaling pathway",
     "drawAs": "rect",
     "fill": "white",
@@ -2151,7 +2209,7 @@
     "height": 790.9999999999997,
     "id": "WP4495",
     "kaavioType": "Group",
-    "lastModified": "20230306020306",
+    "lastModified": "20230306155530",
     "name": "IL-10 anti-inflammatory signaling pathway",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -2160,9 +2218,10 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: IL-10 anti-inflammatory signaling pathway\nLast Modified: 20230306020306\nOrganism: Homo sapiens",
+    "textContent": "Name: IL-10 anti-inflammatory signaling pathway\nLast Modified: 20230306155530\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
+      "http://identifiers.org/pw/PW:0000515",
       "http://identifiers.org/pw/PW:0000003"
     ],
     "verticalAlign": "top",
