@@ -165,6 +165,12 @@
       <filter x="0" y="0" height="1120.5833333333333" width="2271.014915492308" id="kaavioblackto65969afilter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0.396078431372549                   0  -1   0 0 0.5882352941176471                   0   0  -1 0 0.6039215686274509                   0   0   0 1 0"/>
       </filter>
+      <filter x="0" y="0" height="1120.5833333333333" width="2271.014915492308" id="kaaviowhiteto009933filter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0                  0  1  0 0 -0.6                  0  0  1 0 -0.2                  0  0  0 1 0"/>
+      </filter>
+      <filter x="0" y="0" height="1120.5833333333333" width="2271.014915492308" id="kaavioblackto009933filter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0                   0  -1   0 0 0.6                   0   0  -1 0 0.2                   0   0   0 1 0"/>
+      </filter>
       <filter x="0" y="0" height="1120.5833333333333" width="2271.014915492308" id="kaaviowhiteto808080filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0.5019607843137255                  0  1  0 0 -0.5019607843137255                  0  0  1 0 -0.5019607843137255                  0  0  0 1 0"/>
       </filter>
@@ -585,7 +591,7 @@
       </symbol>
     </g>
   </defs>
-  <g id="WP5312" class="Viewport" color="black" name="Name: Metabolic pathways of fibroblasts Last Modified: 20230227224232 Organism: Homo sapiens">
+  <g id="WP5312" class="Viewport" color="black" name="Name: Metabolic pathways of fibroblasts Last Modified: 20230309103329 Organism: Homo sapiens">
     <rect fill="white" stroke="black" stroke-width="0" fill-opacity="1" height="1120.5833333333333px" id="WP5312-icon" width="2271.014915492308px" x="0" y="0" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
     <g id="a9f91" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#4bb6e8" transform="translate(54.37237636125019,184.94236760124613)">
       <g filter="url(#kaaviodoubletrue3filter)" fill="#f6fbfe" stroke="#4bb6e8" stroke-width="3" fill-opacity="1">
@@ -622,9 +628,9 @@
     <g id="a952f" class="SingleFreeNode Shape" color="#fb3c04" transform="translate(116.66666666666663,216)">
       <rect fill="#ffede8" stroke="#fb3c04" stroke-width="3" fill-opacity="1" height="369.54149591604505px" id="a952f-icon" rx="15" ry="15" width="127.33333333333337px" x="0" y="0" transform="matrix(0.9769820971867008, 0, 0, 0.9919472057934827, 1.4654731457800452, 1.4879208086902338)" class="Icon"/>
     </g>
-    <g id="id34f8359b" class="Edge GraphicalLine" color="#4bb6e8">
-      <g filter="url(#kaavioblackto4bb6e8filter)" color="#4bb6e8" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="428, 0" stroke-width="2">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id34f8359b-path" d="M1304,186.5L1732,186.5" class="EdgeBody"/>
+    <g id="aa572" class="Edge GraphicalLine SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="54.20000000000091, 5.8" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="aa572-path" d="M1989.5561964406238,226.9558809984342L2049.5561964406247,226.9558809984342" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
     <g id="id436eecb2" class="Edge Interaction" color="#000000">
@@ -632,9 +638,19 @@
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id436eecb2-path" d="M614.6468458242555,309.2543859649122L614.6468458242554,199.27192982456143" marker-end="url(#markerEndMimConversion)" class="EdgeBody"/>
       </g>
     </g>
+    <g id="ac40f" class="Edge GraphicalLine" color="#000000">
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="38.04835580385088, 11" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="ac40f-path" d="M1995,316.0125826585904L2044.0483558038509,316.0125826585904" marker-end="url(#markerEndMimStimulation)" class="EdgeBody"/>
+      </g>
+    </g>
     <g id="id46d36176" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="0, 5.8, 21.73333333333394, 5.8" stroke-width="1">
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id46d36176-path" d="M1191.3104427181074,350.42816819954993L1191.3104427181072,383.76150153288387" marker-start="url(#markerStartArrow)" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+      </g>
+    </g>
+    <g id="c6446" class="Edge GraphicalLine" color="#000000">
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="37.33333333333371, 11" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="c6446-path" d="M1995.5542597648152,354.0392143317657L2043.887593098149,354.0392143317657" marker-end="url(#markerEndMimCatalysis)" class="EdgeBody"/>
       </g>
     </g>
     <g id="id6b696830" class="Edge Interaction" color="#000000">
@@ -645,9 +661,19 @@
         <use fill="#141414" stroke-width="0" fill-opacity="1" height="0" id="fc4e6-icon" width="0" x="0" y="0" xlink:href="#none" class="Icon"/>
       </g>
     </g>
-    <g id="id7d39a180" class="Edge Interaction" color="#000000">
+    <g id="cd063" class="Edge GraphicalLine" color="#000000">
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="42.33333333333394, 11" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="cd063-path" d="M1990.9395247093385,387.77070033437246L2044.2728580426724,387.77070033437246" marker-end="url(#markerEndMimTranscriptionTranslation)" class="EdgeBody"/>
+      </g>
+    </g>
+    <g id="id7d39a180" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="23.482576596591183, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id7d39a180-path" d="M746.6666666666665,869.1666666666654L746.6666666666665,839.8840900700742" marker-end="url(#markerEndMimConversion)" class="EdgeBody"/>
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id7d39a180-path" d="M746.6666666666665,869.1666666666654L746.6666666666665,839.8840900700742" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+      </g>
+    </g>
+    <g id="ec33a" class="Edge GraphicalLine SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 5.8" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="ec33a-path" d="M1989,276.0551038174435L2048.727717783018,276.0551038174435" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
     <g id="id943f9687" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
@@ -656,6 +682,11 @@
       </g>
       <g id="fda06" class="Burr Anchor" transform="translate(540.249795378752,321.9458333333333)">
         <use fill="#141414" stroke-width="0" fill-opacity="1" height="0" id="fda06-icon" width="0" x="0" y="0" xlink:href="#none" class="Icon"/>
+      </g>
+    </g>
+    <g id="id34f8359b" class="Edge GraphicalLine" color="#4bb6e8">
+      <g filter="url(#kaavioblackto4bb6e8filter)" color="#4bb6e8" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="428, 0" stroke-width="2">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id34f8359b-path" d="M1304,186.5L1732,186.5" class="EdgeBody"/>
       </g>
     </g>
     <g id="idadd8f882" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
@@ -686,133 +717,6 @@
     <g id="id953c8d90" class="Edge Interaction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="161.41704556031226, 11" stroke-width="1">
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id953c8d90-path" d="M1190,546L1362.4166666666615,545.6385372714487" marker-end="url(#markerEndMimTranscriptionTranslation)" class="EdgeBody"/>
-      </g>
-    </g>
-    <g id="pvjsgeneratedidfff44" class="Group GroupGroup" color="#808080" transform="translate(1951.5,162)">
-      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="501px" id="pvjsgeneratedidfff44-icon" width="297.51491549230786px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-      <g id="id437f6bbc" class="Edge Interaction" color="#000000">
-        <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="42.33333333333394, 11" stroke-width="1">
-          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id437f6bbc-path" d="M39.43952470933846,225.77070033437246L92.7728580426724,225.77070033437246" marker-end="url(#markerEndMimTranscriptionTranslation)" class="EdgeBody"/>
-        </g>
-      </g>
-      <g id="id7ec42707" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
-        <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="5.84, 3.5, 5.84, 3.5, 5.84, 3.5, 5.84, 3.5, 5.84, 3.5, 5.84, 3.5, 0, 5.8" stroke-width="1">
-          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id7ec42707-path" d="M38.894384449683,112.38843715077701L97.22771778301785,114.05510381744352" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
-        </g>
-      </g>
-      <g id="idbfb27fbf" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
-        <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="54.20000000000091, 5.8" stroke-width="1">
-          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="idbfb27fbf-path" d="M38.05619644062381,64.9558809984342L98.05619644062472,64.9558809984342" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
-        </g>
-      </g>
-      <g id="idc7a7a74d" class="Edge Interaction" color="#000000">
-        <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="40.69354139756971, 11" stroke-width="1">
-          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="idc7a7a74d-path" d="M40.88168913718391,152.34591599192368L92.54835580385088,154.01258265859042" marker-end="url(#markerEndMimStimulation)" class="EdgeBody"/>
-        </g>
-      </g>
-      <g id="idf7ff9287" class="Edge Interaction" color="#000000">
-        <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="37.33333333333371, 11" stroke-width="1">
-          <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="idf7ff9287-path" d="M44.05425976481524,192.03921433176572L92.38759309814895,192.03921433176572" marker-end="url(#markerEndMimCatalysis)" class="EdgeBody"/>
-        </g>
-      </g>
-      <g id="c0e26" class="SingleFreeNode Shape" color="#000000" transform="translate(8,8)">
-        <rect fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="1" height="485px" id="c0e26-icon" width="280.5px" x="0" y="0" transform="matrix(0.9964476021314387, 0, 0, 0.9979423868312757, 0.49822380106573405, 0.498971193415656)" class="Icon"/>
-      </g>
-      <g id="a38c2" class="SingleFreeNode Label" color="#000000" name="Legend" transform="translate(65.75,14.58354057290174)">
-        <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="30.83333333333303px" id="a38c2-icon" width="164.9999999999999px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-        <text id="a38c2-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="15px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(82.49999999999994,20.416666666666515)">
-          <tspan x="0" y="0">Legend</tspan>
-        </text>
-      </g>
-      <g id="e7c6a" class="SingleFreeNode Label" color="#000000" name="Conversion" transform="translate(159.50146219028875,54.58313367186054)">
-        <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="25px" id="e7c6a-icon" width="78.3333333333326px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-        <text id="e7c6a-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(39.1666666666663,16.5)">
-          <tspan x="0" y="0">Conversion</tspan>
-        </text>
-      </g>
-      <g id="aa215" class="SingleFreeNode DataNode GeneProduct" color="#000000" name="X" transform="translate(23.420965965758114,409.6367320622652)">
-        <use fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="25px" id="aa215-icon" width="90px" x="0" y="0" xlink:href="#Ellipse" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
-        <text id="aa215-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
-          <tspan x="0" y="0">X</tspan>
-        </text>
-      </g>
-      <g id="f9708" class="SingleFreeNode DataNode GeneProduct" color="#000000" name="X" transform="translate(23.420965965758114,449.4239664028421)">
-        <use fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="25px" id="f9708-icon" width="90px" x="0" y="0" xlink:href="#HexagonPathVisio" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
-        <text id="f9708-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
-          <tspan x="0" y="0">X</tspan>
-        </text>
-      </g>
-      <g id="fb3b7" class="SingleFreeNode DataNode Metabolite" color="#0000ff" name="X" transform="translate(23.420965965758114,264.5392143317684)">
-        <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25px" id="fb3b7-icon" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
-        <text id="fb3b7-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
-          <tspan x="0" y="0">X</tspan>
-        </text>
-      </g>
-      <g id="fcfd0" class="SingleFreeNode DataNode GeneProduct" color="#000000" name="X" transform="translate(23.420965965758114,309.53921433176964)">
-        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="25px" id="fcfd0-icon" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
-        <text id="fcfd0-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
-          <tspan x="0" y="0">X</tspan>
-        </text>
-      </g>
-      <g id="ad6c9" class="SingleFreeNode DataNode WikiPathways_WP3365 Pathway" color="#4bb6e8" name="X" transform="translate(28.083412590583066,358.036230783271)">
-        <rect fill="#ffffff" stroke="#4bb6e8" stroke-width="1" fill-opacity="1" height="24.67263376368578px" id="ad6c9-icon" rx="15" ry="15" width="80.6751067503501px" x="0" y="0" transform="matrix(0.9877563673953115, 0, 0, 0.9610480167634958, 0.49387818369766023, 0.4805240083817477)" class="Icon"/>
-        <text id="ad6c9-text" class="Text" direction="ltr" fill="#4bb6e8" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(40.33755337517505,16.33631688184289)">
-          <tspan x="0" y="0">X</tspan>
-        </text>
-      </g>
-      <g id="cd860" class="SingleFreeNode Label" color="#000000" name="Stimulation/Activation" transform="translate(134.5014621902883,146.25020723956925)">
-        <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="19.16666666666606px" id="cd860-icon" width="128.33333333333346px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-        <text id="cd860-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(64.16666666666673,13.58333333333303)">
-          <tspan x="0" y="0">Stimulation/Activation</tspan>
-        </text>
-      </g>
-      <g id="ab7d8" class="SingleFreeNode Label" color="#000000" name="Catalysis" transform="translate(161.16812885695572,184.5835405729025)">
-        <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="19.16666666666606px" id="ab7d8-icon" width="75.0000000000004px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-        <text id="ab7d8-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(37.5000000000002,13.58333333333303)">
-          <tspan x="0" y="0">Catalysis</tspan>
-        </text>
-      </g>
-      <g id="a93bc" class="SingleFreeNode Label" color="#000000" name="Transcription/Translation" transform="translate(127.00146219028875,226.25020723956987)">
-        <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="19.16666666666606px" id="a93bc-icon" width="143.33333333333402px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-        <text id="a93bc-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(71.66666666666701,13.58333333333303)">
-          <tspan x="0" y="0">Transcription/Translation</tspan>
-        </text>
-      </g>
-      <g id="e1bb7" class="SingleFreeNode Label" color="#000000" name="Indirect conversion" transform="translate(144.50146219028875,106.25020723956942)">
-        <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="19.16666666666606px" id="e1bb7-icon" width="108.33333333333383px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-        <text id="e1bb7-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(54.16666666666691,13.58333333333303)">
-          <tspan x="0" y="0">Indirect conversion</tspan>
-        </text>
-      </g>
-      <g id="c8ab5" class="SingleFreeNode Label" color="#000000" name="Metabolite" transform="translate(163.6681288569548,267.91687390623673)">
-        <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="19.16666666666606px" id="c8ab5-icon" width="70.00000000000051px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-        <text id="c8ab5-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(35.000000000000256,13.58333333333303)">
-          <tspan x="0" y="0">Metabolite</tspan>
-        </text>
-      </g>
-      <g id="e781a" class="SingleFreeNode Label" color="#000000" name="Protein/gene product" transform="translate(131.16812885695526,314.58354057290495)">
-        <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="19.166666666663787px" id="e781a-icon" width="135.0000000000004px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-        <text id="e781a-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(67.5000000000002,13.583333333331893)">
-          <tspan x="0" y="0">Protein/gene product</tspan>
-        </text>
-      </g>
-      <g id="fb7bd" class="SingleFreeNode Label" color="#000000" name="Pathway" transform="translate(156.16812885695526,357.08354057290194)">
-        <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="25.00000000000273px" id="fb7bd-icon" width="85.00000000000051px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-        <text id="fb7bd-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(42.500000000000256,16.500000000001364)">
-          <tspan x="0" y="0">Pathway</tspan>
-        </text>
-      </g>
-      <g id="e600c" class="SingleFreeNode Label" color="#000000" name="Channel protein/Transporter" transform="translate(107.82134222160357,409.63673206226395)">
-        <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="25.00000000000273px" id="e600c-icon" width="181.69357327070435px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-        <text id="e600c-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(90.84678663535217,16.500000000001364)">
-          <tspan x="0" y="0">Channel protein/Transporter</tspan>
-        </text>
-      </g>
-      <g id="cb96e" class="SingleFreeNode Label" color="#000000" name="Receptor" transform="translate(156.16812885695526,449.4239661048174)">
-        <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="25.00000000000273px" id="cb96e-icon" width="85.00000000000051px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-        <text id="cb96e-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(42.500000000000256,16.500000000001364)">
-          <tspan x="0" y="0">Receptor</tspan>
-        </text>
       </g>
     </g>
     <g id="id41975362" class="Edge Interaction" color="#000000">
@@ -1084,8 +988,8 @@
       </g>
     </g>
     <g id="idfe37b4f" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
-      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="5.1, 3.06, 5.1, 3.06, 5.1, 3.06, 5.1, 3.06, 5.1, 3.06, 5.1, 3.06, 5.1, 3.06, 5.1, 3.06, 0, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="idfe37b4f-path" d="M461.18313122792586,470.1870290459544L529.2345260800067,470.1870290459544" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="5.58, 3.35, 5.58, 3.35, 5.58, 3.35, 5.58, 5.8" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="idfe37b4f-path" d="M508.92857142857144,470.1870290459544L547.0916689371495,470.1870290459544" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
     <g id="id92417cd7" class="Edge Interaction" color="#000000">
@@ -1116,9 +1020,9 @@
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id779c8f96-path" d="M170.6014650368553,754.7842358802166L202.20650042367237,752.9105306457933" marker-end="url(#markerEndMimCatalysis)" class="EdgeBody"/>
       </g>
     </g>
-    <g id="id5a410c8" class="Edge Interaction" color="#000000">
+    <g id="id5a410c8" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="97.4987077281465, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id5a410c8-path" d="M746.6666666666665,814.8840900700742L746.6666666666665,711.5853823419277" marker-end="url(#markerEndMimConversion)" class="EdgeBody"/>
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id5a410c8-path" d="M746.6666666666665,814.8840900700742L746.6666666666665,711.5853823419277" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
     <g id="idb37cbbb1" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
@@ -1181,6 +1085,21 @@
         <use fill="#141414" stroke-width="0" fill-opacity="1" height="0" id="e7eda-icon" width="0" x="0" y="0" xlink:href="#none" class="Icon"/>
       </g>
     </g>
+    <g id="c0e26" class="SingleFreeNode Shape" color="#000000" transform="translate(1959.5,170)">
+      <rect fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="1" height="485px" id="c0e26-icon" width="280.5px" x="0" y="0" transform="matrix(0.9964476021314387, 0, 0, 0.9979423868312757, 0.49822380106573405, 0.498971193415656)" class="Icon"/>
+    </g>
+    <g id="a38c2" class="SingleFreeNode Label" color="#000000" name="Legend" transform="translate(2017.25,176.58354057290174)">
+      <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="30.83333333333303px" id="a38c2-icon" width="164.9999999999999px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <text id="a38c2-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="15px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(82.49999999999994,20.416666666666515)">
+        <tspan x="0" y="0">Legend</tspan>
+      </text>
+    </g>
+    <g id="e7c6a" class="SingleFreeNode Label" color="#000000" name="Conversion" transform="translate(2111.0014621902887,216.58313367186054)">
+      <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="25px" id="e7c6a-icon" width="78.3333333333326px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <text id="e7c6a-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(39.1666666666663,16.5)">
+        <tspan x="0" y="0">Conversion</tspan>
+      </text>
+    </g>
     <g id="b41ba" class="SingleFreeNode Label" color="#000000" name="PDC" transform="translate(381.66666666666634,737.5)">
       <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="25px" id="b41ba-icon" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
       <text id="b41ba-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
@@ -1212,13 +1131,19 @@
         <tspan x="0" y="0">Mitochondrion</tspan>
       </text>
     </g>
-    <g id="ab061" class="SingleFreeNode DataNode HMDB_HMDB02061 Metabolite ChEBI_150712 P683_150712 HMDB_HMDB0002061 P2057_HMDB02061 P2057_HMDB0002061" color="#0000ff" name="Hyaluronic acid" transform="translate(569.6468458242554,174.27192982456143)">
+    <g id="aa215" class="SingleFreeNode DataNode GeneProduct" color="#000000" name="X" transform="translate(1974.9209659657581,571.6367320622652)">
+      <use fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="25px" id="aa215-icon" width="90px" x="0" y="0" xlink:href="#Ellipse" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
+      <text id="aa215-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
+        <tspan x="0" y="0">X</tspan>
+      </text>
+    </g>
+    <g id="ab061" class="SingleFreeNode DataNode HMDB_HMDB02061 Metabolite ChEBI_150712 ChEBI_CHEBI_150712 P683_150712 P683_CHEBI_150712 HMDB_HMDB0002061 P2057_HMDB02061 P2057_HMDB0002061" color="#0000ff" name="Hyaluronic acid" transform="translate(569.6468458242554,174.27192982456143)">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25px" id="ab061-icon" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
       <text id="ab061-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
         <tspan x="0" y="0">Hyaluronic acid</tspan>
       </text>
     </g>
-    <g id="bb412" class="SingleFreeNode DataNode ChEBI_CHEBI_37397 Metabolite ChEBI_37397_T ChEBI_37397 P683_37397_T P683_37397 HMDB_HMDB00580 HMDB_HMDB0000580 P2057_HMDB00580 P2057_HMDB0000580" color="#0000ff" name="Chondroitin sulfate" transform="translate(710.9717534393455,354.51852729724607)">
+    <g id="bb412" class="SingleFreeNode DataNode ChEBI_CHEBI_37397 Metabolite ChEBI_37397 P683_37397 P683_CHEBI_37397 HMDB_HMDB00580 HMDB_HMDB0000580 P2057_HMDB00580 P2057_HMDB0000580" color="#0000ff" name="Chondroitin sulfate" transform="translate(710.9717534393455,354.51852729724607)">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="24.999999999999993px" id="bb412-icon" width="102.37500000000006px" x="0" y="0" transform="matrix(0.9903264812575574, 0, 0, 0.9615384615384616, 0.49516324062878425, 0.48076923076922995)" class="Icon"/>
       <text id="bb412-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(51.18750000000003,16.499999999999996)">
         <tspan x="0" y="0">Chondroitin sulfate</tspan>
@@ -1230,13 +1155,13 @@
         <tspan x="0" y="0">FGFR1</tspan>
       </text>
     </a>
-    <a id="e87bf" class="SingleFreeNode DataNode ChEBI_CHEBI_17200 Metabolite ChEBI_17200 P683_17200 HMDB_HMDB00935 HMDB_HMDB0000935 P2057_HMDB00935 P2057_HMDB0000935 Wikidata_Q277638" color="#0000ff" name="UDP-GlcA" transform="translate(569.6468458242555,309.2543859649122)" xlink:href="https://tools.wmflabs.org/scholia/Q277638" target="_blank">
+    <a id="e87bf" class="SingleFreeNode DataNode ChEBI_CHEBI_17200 Metabolite ChEBI_17200 P683_CHEBI_17200 P683_17200 HMDB_HMDB00935 HMDB_HMDB0000935 P2057_HMDB00935 P2057_HMDB0000935 Wikidata_Q277638" color="#0000ff" name="UDP-GlcA" transform="translate(569.6468458242555,309.2543859649122)" xlink:href="https://tools.wmflabs.org/scholia/Q277638" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25px" id="e87bf-icon" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
       <text id="e87bf-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
         <tspan x="0" y="0">UDP-GlcA</tspan>
       </text>
     </a>
-    <a id="eefb9" class="SingleFreeNode DataNode ChEBI_CHEBI_35366 Metabolite ChEBI_CHEBI_35366_T ChEBI_35366 P683_CHEBI_35366_T P683_35366 Wikidata_Q61476" color="#0000ff" name="Fatty acid" transform="translate(701.6666666666665,1006.564110126398)" xlink:href="https://tools.wmflabs.org/scholia/Q61476" target="_blank">
+    <a id="eefb9" class="SingleFreeNode DataNode ChEBI_CHEBI_35366 Metabolite ChEBI_35366 P683_CHEBI_35366 P683_35366 Wikidata_Q61476" color="#0000ff" name="Fatty acid" transform="translate(701.6666666666665,1006.564110126398)" xlink:href="https://tools.wmflabs.org/scholia/Q61476" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25px" id="eefb9-icon" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
       <text id="eefb9-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
         <tspan x="0" y="0">Fatty acid</tspan>
@@ -1248,21 +1173,39 @@
         <tspan x="0" y="0">UGDH</tspan>
       </text>
     </a>
+    <g id="f9708" class="SingleFreeNode DataNode GeneProduct" color="#000000" name="X" transform="translate(1974.9209659657581,611.4239664028421)">
+      <use fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="25px" id="f9708-icon" width="90px" x="0" y="0" xlink:href="#HexagonPathVisio" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
+      <text id="f9708-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
+        <tspan x="0" y="0">X</tspan>
+      </text>
+    </g>
+    <g id="fb3b7" class="SingleFreeNode DataNode Metabolite" color="#0000ff" name="X" transform="translate(1974.9209659657581,426.5392143317684)">
+      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25px" id="fb3b7-icon" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
+      <text id="fb3b7-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
+        <tspan x="0" y="0">X</tspan>
+      </text>
+    </g>
+    <g id="fcfd0" class="SingleFreeNode DataNode GeneProduct" color="#000000" name="X" transform="translate(1974.9209659657581,471.53921433176964)">
+      <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="25px" id="fcfd0-icon" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
+      <text id="fcfd0-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
+        <tspan x="0" y="0">X</tspan>
+      </text>
+    </g>
     <g id="e0854" class="Group GroupGroup" color="#808080" transform="translate(702.9717534393454,266.07244990429814)">
       <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="96.2032948760966px" id="e0854-icon" width="118.37500000000011px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-      <a id="a5206" class="SingleFreeNode DataNode HMDB_HMDB00693 Metabolite ChEBI_28815 P683_28815 HMDB_HMDB0000693_T P2057_HMDB0000693_T P2057_HMDB00693 Wikidata_Q424668" color="#0000ff" name="Heparan sulfate" transform="translate(8,8)" xlink:href="https://tools.wmflabs.org/scholia/Q424668" target="_blank">
+      <a id="a5206" class="SingleFreeNode DataNode HMDB_HMDB00693 Metabolite ChEBI_CHEBI_28815 ChEBI_28815 P683_CHEBI_28815 P683_28815 HMDB_HMDB0000693 P2057_HMDB0000693 P2057_HMDB00693 Wikidata_Q424668" color="#0000ff" name="Heparan sulfate" transform="translate(8,8)" xlink:href="https://tools.wmflabs.org/scholia/Q424668" target="_blank">
         <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25.749999999999996px" id="a5206-icon" width="102.37500000000009px" x="0" y="0" transform="matrix(0.9903264812575574, 0, 0, 0.9626168224299065, 0.49516324062878425, 0.48130841121495394)" class="Icon"/>
         <text id="a5206-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(51.18750000000004,16.874999999999998)">
           <tspan x="0" y="0">Heparan sulfate</tspan>
         </text>
       </a>
-      <a id="c7bae" class="SingleFreeNode DataNode ChEBI_CHEBI_60924 Metabolite ChEBI_60924 P683_60924 Wikidata_Q2457767_T" color="#0000ff" name="Keratan sulfate" transform="translate(8,62.45329487609661)" xlink:href="https://tools.wmflabs.org/scholia/T" target="_blank">
+      <a id="c7bae" class="SingleFreeNode DataNode ChEBI_CHEBI_60924 Metabolite ChEBI_60924 P683_60924 P683_CHEBI_60924 Wikidata_Q2457767" color="#0000ff" name="Keratan sulfate" transform="translate(8,62.45329487609661)" xlink:href="https://tools.wmflabs.org/scholia/Q2457767" target="_blank">
         <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25.74999999999999px" id="c7bae-icon" width="102.37500000000006px" x="0" y="0" transform="matrix(0.9903264812575574, 0, 0, 0.9626168224299065, 0.49516324062878425, 0.48130841121495394)" class="Icon"/>
         <text id="c7bae-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(51.18750000000003,16.874999999999995)">
           <tspan x="0" y="0">Keratan sulfate</tspan>
         </text>
       </a>
-      <g id="fb6e3" class="SingleFreeNode DataNode HMDB_HMDB00632 Metabolite ChEBI_18376 P683_18376 HMDB_HMDB0000632 P2057_HMDB0000632 P2057_HMDB00632" color="#0000ff" name="Dermatan sulfate" transform="translate(8,33.749999999999886)">
+      <g id="fb6e3" class="SingleFreeNode DataNode HMDB_HMDB00632 Metabolite ChEBI_18376 ChEBI_CHEBI_18376 P683_18376 P683_CHEBI_18376 HMDB_HMDB0000632 P2057_HMDB0000632 P2057_HMDB00632" color="#0000ff" name="Dermatan sulfate" transform="translate(8,33.749999999999886)">
         <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="27.75px" id="fb6e3-icon" width="102.37500000000006px" x="0" y="0" transform="matrix(0.9903264812575574, 0, 0, 0.9652173913043478, 0.49516324062878425, 0.4826086956521749)" class="Icon"/>
         <text id="fb6e3-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(51.18750000000003,17.875)">
           <tspan x="0" y="0">Dermatan sulfate</tspan>
@@ -1281,7 +1224,7 @@
         <tspan x="0" y="0">P5CR</tspan>
       </text>
     </a>
-    <a id="bacc2" class="SingleFreeNode DataNode ChEBI_15428 Metabolite P683_15428 HMDB_HMDB0000123 HMDB_HMDB00123 P2057_HMDB0000123 P2057_HMDB00123 Wikidata_Q620730" color="#0000ff" name="Glycine" transform="translate(754.0421940928273,532.4718706047821)" xlink:href="https://tools.wmflabs.org/scholia/Q620730" target="_blank">
+    <a id="bacc2" class="SingleFreeNode DataNode ChEBI_15428 Metabolite ChEBI_CHEBI_15428 P683_CHEBI_15428 P683_15428 HMDB_HMDB0000123 HMDB_HMDB00123 P2057_HMDB0000123 P2057_HMDB00123 Wikidata_Q620730" color="#0000ff" name="Glycine" transform="translate(754.0421940928273,532.4718706047821)" xlink:href="https://tools.wmflabs.org/scholia/Q620730" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25px" id="bacc2-icon" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
       <text id="bacc2-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
         <tspan x="0" y="0">Glycine</tspan>
@@ -1293,7 +1236,7 @@
         <tspan x="0" y="0">GLUT1</tspan>
       </text>
     </a>
-    <a id="b09a3" class="SingleFreeNode DataNode ChEBI_CHEBI_17203 Metabolite ChEBI_17203 P683_17203 HMDB_HMDB0000162 HMDB_HMDB00162 P2057_HMDB0000162 P2057_HMDB00162 Wikidata_Q20035886" color="#0000ff" name="Proline" transform="translate(1146.3104427181072,450.0399825455419)" xlink:href="https://tools.wmflabs.org/scholia/Q20035886" target="_blank">
+    <a id="b09a3" class="SingleFreeNode DataNode ChEBI_CHEBI_17203 Metabolite ChEBI_17203 P683_CHEBI_17203 P683_17203 HMDB_HMDB0000162 HMDB_HMDB00162 P2057_HMDB0000162 P2057_HMDB00162 Wikidata_Q20035886" color="#0000ff" name="Proline" transform="translate(1146.3104427181072,450.0399825455419)" xlink:href="https://tools.wmflabs.org/scholia/Q20035886" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25px" id="b09a3-icon" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
       <text id="b09a3-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
         <tspan x="0" y="0">Proline</tspan>
@@ -1305,15 +1248,15 @@
         <tspan x="0" y="0">GLS</tspan>
       </text>
     </a>
-    <a id="cadef" class="SingleFreeNode DataNode ChEBI_CHEBI_15893 Metabolite ChEBI_CHEBI_15893_T ChEBI_15893 P683_CHEBI_15893_T P683_15893 Wikidata_Q27098284" color="#0000ff" name="P5C" transform="translate(1171.1666666666672,383.76150153288387)" xlink:href="https://tools.wmflabs.org/scholia/Q27098284" target="_blank">
+    <a id="cadef" class="SingleFreeNode DataNode ChEBI_CHEBI_15893 Metabolite ChEBI_15893 P683_CHEBI_15893 P683_15893 Wikidata_Q27098284" color="#0000ff" name="P5C" transform="translate(1171.1666666666672,383.76150153288387)" xlink:href="https://tools.wmflabs.org/scholia/Q27098284" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25px" id="cadef-icon" width="40.28755210288px" x="0" y="0" transform="matrix(0.975779624873177, 0, 0, 0.9615384615384616, 0.48788981243658824, 0.48076923076922995)" class="Icon"/>
       <text id="cadef-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(20.14377605144,16.5)">
         <tspan x="0" y="0">P5C</tspan>
       </text>
     </a>
-    <a id="c26c0" class="SingleFreeNode DataNode WikiPathways_WP404 Pathway Wikidata_Q30230914" color="#4bb6e8" name="Nucleotide Biosynthesis" transform="translate(529.2345260800067,457.6870290459544)" xlink:href="https://tools.wmflabs.org/scholia/Q30230914" target="_blank">
-      <rect fill="#ffffff" stroke="#4bb6e8" stroke-width="1" fill-opacity="1" height="25px" id="c26c0-icon" rx="15" ry="15" width="167.82257802660274px" x="0" y="0" transform="matrix(0.9940766216717623, 0, 0, 0.9615384615384616, 0.49703831083589023, 0.48076923076922995)" class="Icon"/>
-      <text id="c26c0-text" class="Text" direction="ltr" fill="#4bb6e8" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(83.91128901330137,16.5)">
+    <a id="c26c0" class="SingleFreeNode DataNode WikiPathways_WP404 Pathway Wikidata_Q30230914" color="#009933" name="Nucleotide Biosynthesis" transform="translate(547.0916689371495,457.6870290459544)" xlink:href="https://tools.wmflabs.org/scholia/Q30230914" target="_blank">
+      <rect fill="#ffffff" stroke="#009933" stroke-width="1" fill-opacity="1" height="25px" id="c26c0-icon" rx="15" ry="15" width="167.82257802660274px" x="0" y="0" transform="matrix(0.9940766216717623, 0, 0, 0.9615384615384616, 0.49703831083589023, 0.48076923076922995)" class="Icon"/>
+      <text id="c26c0-text" class="Text" direction="ltr" fill="#009933" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(83.91128901330137,16.5)">
         <tspan x="0" y="0">Nucleotide Biosynthesis</tspan>
       </text>
     </a>
@@ -1337,7 +1280,7 @@
     </g>
     <g id="f2e6a" class="Group GroupGroup" color="#808080" transform="translate(1589.082995951412,203.2881241565459)">
       <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="120.66666666666663px" id="f2e6a-icon" width="141px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-      <a id="fb40c" class="SingleFreeNode DataNode Uniprot-TrEMBL_Q92791 GeneProduct Ensembl_ENSG00000141696_T P594_ENSG00000141696_T Entrez_Gene_10609 P351_10609 HGNC_P3H4 P3H4 P353_P3H4 Wikidata_Q21121380" color="#000000" name="P3H4" transform="translate(25.5,37.666666666666714)" xlink:href="https://tools.wmflabs.org/scholia/Q21121380" target="_blank">
+      <a id="fb40c" class="SingleFreeNode DataNode Uniprot-TrEMBL_Q92791 GeneProduct Ensembl_ENSG00000141696 P594_ENSG00000141696 Entrez_Gene_10609 P351_10609 HGNC_P3H4 P3H4 P353_P3H4 Wikidata_Q21121380" color="#000000" name="P3H4" transform="translate(25.5,37.666666666666714)" xlink:href="https://tools.wmflabs.org/scholia/Q21121380" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="25px" id="fb40c-icon" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
         <text id="fb40c-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
           <tspan x="0" y="0">P3H4</tspan>
@@ -1398,7 +1341,7 @@
         </text>
       </a>
     </g>
-    <g id="e6a14" class="SingleFreeNode DataNode ChEBI_CHEBI_3815 Metabolite ChEBI_CHEBI_3815_T P683_CHEBI_3815_T" color="#0000ff" name="Collagen" transform="translate(1516.0590418353509,33.461395628211264)">
+    <g id="e6a14" class="SingleFreeNode DataNode ChEBI_CHEBI_3815 Metabolite P683_CHEBI_3815" color="#0000ff" name="Collagen" transform="translate(1516.0590418353509,33.461395628211264)">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25px" id="e6a14-icon" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
       <text id="e6a14-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
         <tspan x="0" y="0">Collagen</tspan>
@@ -1416,7 +1359,7 @@
         <tspan x="0" y="0">UGP2</tspan>
       </text>
     </a>
-    <a id="e5a76" class="SingleFreeNode DataNode ChEBI_CHEBI_17822 Metabolite ChEBI_17822 P683_17822 Wikidata_Q26997410" color="#0000ff" name="Serine" transform="translate(470.8649789029532,532.4718706047821)" xlink:href="https://tools.wmflabs.org/scholia/Q26997410" target="_blank">
+    <a id="e5a76" class="SingleFreeNode DataNode ChEBI_CHEBI_17822 Metabolite ChEBI_17822 P683_17822 P683_CHEBI_17822 Wikidata_Q26997410" color="#0000ff" name="Serine" transform="translate(470.8649789029532,532.4718706047821)" xlink:href="https://tools.wmflabs.org/scholia/Q26997410" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25px" id="e5a76-icon" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
       <text id="e5a76-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
         <tspan x="0" y="0">Serine</tspan>
@@ -1473,7 +1416,7 @@
         <tspan x="0" y="0">LDH</tspan>
       </text>
     </a>
-    <a id="adf5f" class="SingleFreeNode DataNode ChEBI_CHEBI_29985 Metabolite ChEBI_29985 P683_29985 Wikidata_Q27104095" color="#0000ff" name="Glutamate" transform="translate(1001.8077502786907,325.42816819954993)" xlink:href="https://tools.wmflabs.org/scholia/Q27104095" target="_blank">
+    <a id="adf5f" class="SingleFreeNode DataNode ChEBI_CHEBI_29985 Metabolite ChEBI_29985 P683_CHEBI_29985 P683_29985 Wikidata_Q27104095" color="#0000ff" name="Glutamate" transform="translate(1001.8077502786907,325.42816819954993)" xlink:href="https://tools.wmflabs.org/scholia/Q27104095" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25px" id="adf5f-icon" width="80.19224972131042px" x="0" y="0" transform="matrix(0.9876835534988565, 0, 0, 0.9615384615384616, 0.4938417767494272, 0.48076923076922995)" class="Icon"/>
       <text id="adf5f-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(40.09612486065521,16.5)">
         <tspan x="0" y="0">Glutamate</tspan>
@@ -1485,21 +1428,21 @@
         <tspan x="0" y="0">HK</tspan>
       </text>
     </a>
-    <a id="b89f0" class="SingleFreeNode DataNode HMDB_HMDB01401 Metabolite ChEBI_4170 P683_4170 HMDB_HMDB0001401 P2057_HMDB0001401 P2057_HMDB01401 Wikidata_Q36461529" color="#0000ff" name="G6P" transform="translate(184.78983375700614,308.1041666666665)" xlink:href="https://tools.wmflabs.org/scholia/Q36461529" target="_blank">
+    <a id="b89f0" class="SingleFreeNode DataNode HMDB_HMDB01401 Metabolite ChEBI_4170 ChEBI_CHEBI_4170 P683_4170 P683_CHEBI_4170 HMDB_HMDB0001401 P2057_HMDB0001401 P2057_HMDB01401 Wikidata_Q36461529" color="#0000ff" name="G6P" transform="translate(184.78983375700614,308.1041666666665)" xlink:href="https://tools.wmflabs.org/scholia/Q36461529" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="29.166666666666686px" id="b89f0-icon" width="38.166666666665776px" x="0" y="0" transform="matrix(0.9744680851063824, 0, 0, 0.9668508287292817, 0.48723404255319025, 0.4834254143646408)" class="Icon"/>
       <text id="b89f0-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(19.083333333332888,18.583333333333343)">
         <tspan x="0" y="0">G6P</tspan>
       </text>
     </a>
-    <a id="ef155" class="SingleFreeNode DataNode WikiPathways_WP134 Pathway Wikidata_Q30231019" color="#4bb6e8" name="Pentose Phosphate Pathway" transform="translate(279.18313122792586,457.6870290459544)" xlink:href="https://tools.wmflabs.org/scholia/Q30231019" target="_blank">
-      <rect fill="#ffffff" stroke="#4bb6e8" stroke-width="1" fill-opacity="1" height="25px" id="ef155-icon" rx="15" ry="15" width="182px" x="0" y="0" transform="matrix(0.994535519125683, 0, 0, 0.9615384615384616, 0.4972677595628454, 0.48076923076922995)" class="Icon"/>
-      <text id="ef155-text" class="Text" direction="ltr" fill="#4bb6e8" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(91,16.5)">
+    <a id="ef155" class="SingleFreeNode DataNode WikiPathways_WP134 Pathway Wikidata_Q30231019" color="#009933" name="Pentose Phosphate Pathway" transform="translate(279.18313122792586,457.6870290459544)" xlink:href="https://tools.wmflabs.org/scholia/Q30231019" target="_blank">
+      <rect fill="#ffffff" stroke="#009933" stroke-width="1" fill-opacity="1" height="25px" id="ef155-icon" rx="15" ry="15" width="229.74544020064553px" x="0" y="0" transform="matrix(0.9956662198865969, 0, 0, 0.9615384615384616, 0.49783310994330066, 0.48076923076922995)" class="Icon"/>
+      <text id="ef155-text" class="Text" direction="ltr" fill="#009933" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(114.87272010032277,16.5)">
         <tspan x="0" y="0">Pentose Phosphate Pathway</tspan>
       </text>
     </a>
-    <a id="f55a7" class="SingleFreeNode DataNode WikiPathways_WP143 Pathway Wikidata_Q28031228" color="#4bb6e8" name="Fatty acid &#x3B2;-oxidation" transform="translate(667.0238095238094,814.8840900700742)" xlink:href="https://tools.wmflabs.org/scholia/Q28031228" target="_blank">
-      <rect fill="#ffffff" stroke="#4bb6e8" stroke-width="1" fill-opacity="1" height="25px" id="f55a7-icon" rx="15" ry="15" width="159.28571428571422px" x="0" y="0" transform="matrix(0.9937611408199644, 0, 0, 0.9615384615384616, 0.496880570409985, 0.48076923076922995)" class="Icon"/>
-      <text id="f55a7-text" class="Text" direction="ltr" fill="#4bb6e8" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(79.64285714285711,16.5)">
+    <a id="f55a7" class="SingleFreeNode DataNode WikiPathways_WP143 Pathway Wikidata_Q28031228" color="#009933" name="Fatty acid &#x3B2;-oxidation" transform="translate(667.0238095238094,814.8840900700742)" xlink:href="https://tools.wmflabs.org/scholia/Q28031228" target="_blank">
+      <rect fill="#ffffff" stroke="#009933" stroke-width="1" fill-opacity="1" height="25px" id="f55a7-icon" rx="15" ry="15" width="159.28571428571422px" x="0" y="0" transform="matrix(0.9937611408199644, 0, 0, 0.9615384615384616, 0.496880570409985, 0.48076923076922995)" class="Icon"/>
+      <text id="f55a7-text" class="Text" direction="ltr" fill="#009933" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(79.64285714285711,16.5)">
         <tspan x="0" y="0">Fatty acid &#x3B2;-oxidation</tspan>
       </text>
     </a>
@@ -1515,49 +1458,49 @@
         <tspan x="0" y="0">GLS</tspan>
       </text>
     </a>
-    <a id="eda76" class="SingleFreeNode DataNode HMDB_HMDB01206 Metabolite ChEBI_15351 P683_15351 HMDB_HMDB0001206 P2057_HMDB0001206 P2057_HMDB01206 Wikidata_Q715317" color="#0000ff" name="Acetyl-CoA" transform="translate(701.6666666666665,686.5853823419277)" xlink:href="https://tools.wmflabs.org/scholia/Q715317" target="_blank">
+    <a id="eda76" class="SingleFreeNode DataNode HMDB_HMDB01206 Metabolite ChEBI_CHEBI_15351 ChEBI_15351 P683_CHEBI_15351 P683_15351 HMDB_HMDB0001206 P2057_HMDB0001206 P2057_HMDB01206 Wikidata_Q715317" color="#0000ff" name="Acetyl-CoA" transform="translate(701.6666666666665,686.5853823419277)" xlink:href="https://tools.wmflabs.org/scholia/Q715317" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25px" id="eda76-icon" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
       <text id="eda76-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
         <tspan x="0" y="0">Acetyl-CoA</tspan>
       </text>
     </a>
-    <a id="f7d09" class="SingleFreeNode DataNode HMDB_HMDB00243 Metabolite ChEBI_32816 P683_32816 HMDB_HMDB0000243 P2057_HMDB0000243 P2057_HMDB00243 Wikidata_Q213580" color="#0000ff" name="Pyruvate" transform="translate(158.83150042367237,686.5853823419277)" xlink:href="https://tools.wmflabs.org/scholia/Q213580" target="_blank">
+    <a id="f7d09" class="SingleFreeNode DataNode HMDB_HMDB00243 Metabolite ChEBI_32816 ChEBI_CHEBI_32816 P683_32816 P683_CHEBI_32816 HMDB_HMDB0000243 P2057_HMDB0000243 P2057_HMDB00243 Wikidata_Q213580" color="#0000ff" name="Pyruvate" transform="translate(158.83150042367237,686.5853823419277)" xlink:href="https://tools.wmflabs.org/scholia/Q213580" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="24.99999999999998px" id="f7d09-icon" width="86.75000000000001px" x="0" y="0" transform="matrix(0.9886039886039886, 0, 0, 0.9615384615384615, 0.49430199430199906, 0.4807692307692317)" class="Icon"/>
       <text id="f7d09-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(43.37500000000001,16.49999999999999)">
         <tspan x="0" y="0">Pyruvate</tspan>
       </text>
     </a>
-    <a id="d9b8c" class="SingleFreeNode DataNode ChEBI_CHEBI_18050 Metabolite ChEBI_18050 P683_18050 HMDB_HMDB0000641 HMDB_HMDB00641 P2057_HMDB0000641 P2057_HMDB00641 Wikidata_Q181619" color="#0000ff" name="Glutamine" transform="translate(847.6079216921919,325.42816819954993)" xlink:href="https://tools.wmflabs.org/scholia/Q181619" target="_blank">
+    <a id="d9b8c" class="SingleFreeNode DataNode ChEBI_CHEBI_18050 Metabolite ChEBI_18050 P683_18050 P683_CHEBI_18050 HMDB_HMDB0000641 HMDB_HMDB00641 P2057_HMDB0000641 P2057_HMDB00641 Wikidata_Q181619" color="#0000ff" name="Glutamine" transform="translate(847.6079216921919,325.42816819954993)" xlink:href="https://tools.wmflabs.org/scholia/Q181619" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25.000000000000018px" id="d9b8c-icon" width="90.00000000000001px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054963, 0.48076923076922995)" class="Icon"/>
       <text id="d9b8c-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45.00000000000001,16.500000000000009)">
         <tspan x="0" y="0">Glutamine</tspan>
       </text>
     </a>
-    <a id="d7ba8" class="SingleFreeNode DataNode HMDB_HMDB00208 Metabolite ChEBI_30915 P683_30915 HMDB_HMDB0000208 P2057_HMDB00208 P2057_HMDB0000208 Wikidata_Q306140" color="#0000ff" name="&#x3B1;KG" transform="translate(901.121878999253,740.1241378385457)" xlink:href="https://tools.wmflabs.org/scholia/Q306140" target="_blank">
+    <a id="d7ba8" class="SingleFreeNode DataNode HMDB_HMDB00208 Metabolite ChEBI_30915 ChEBI_CHEBI_30915 P683_30915 P683_CHEBI_30915 HMDB_HMDB0000208 P2057_HMDB00208 P2057_HMDB0000208 Wikidata_Q306140" color="#0000ff" name="&#x3B1;KG" transform="translate(901.121878999253,740.1241378385457)" xlink:href="https://tools.wmflabs.org/scholia/Q306140" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25px" id="d7ba8-icon" width="46.30541871921196px" x="0" y="0" transform="matrix(0.9788607726752058, 0, 0, 0.9615384615384616, 0.4894303863376024, 0.48076923076922995)" class="Icon"/>
       <text id="d7ba8-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(23.15270935960598,16.5)">
         <tspan x="0" y="0">&#x3B1;KG</tspan>
       </text>
     </a>
-    <a id="ba5c9" class="SingleFreeNode DataNode HMDB_HMDB00122 Metabolite ChEBI_15903 P683_15903 HMDB_HMDB0000122_T P2057_HMDB0000122_T P2057_HMDB00122 Wikidata_Q56071533" color="#0000ff" name="Glucose" transform="translate(172.95558396884186,232.4447525848538)" xlink:href="https://tools.wmflabs.org/scholia/Q56071533" target="_blank">
+    <a id="ba5c9" class="SingleFreeNode DataNode HMDB_HMDB00122 Metabolite ChEBI_CHEBI_15903 ChEBI_15903 P683_CHEBI_15903 P683_15903 HMDB_HMDB0000122 P2057_HMDB0000122 P2057_HMDB00122 Wikidata_Q56071533" color="#0000ff" name="Glucose" transform="translate(172.95558396884186,232.4447525848538)" xlink:href="https://tools.wmflabs.org/scholia/Q56071533" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25px" id="ba5c9-icon" width="61.83516624299432px" x="0" y="0" transform="matrix(0.9840853448826279, 0, 0, 0.9615384615384616, 0.49204267244131117, 0.48076923076922995)" class="Icon"/>
       <text id="ba5c9-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30.91758312149716,16.5)">
         <tspan x="0" y="0">Glucose</tspan>
       </text>
     </a>
-    <a id="e6840" class="SingleFreeNode DataNode HMDB_HMDB00807 Metabolite ChEBI_17050 P683_17050 HMDB_HMDB00807_T HMDB_HMDB0000807 P2057_HMDB00807_T P2057_HMDB0000807 Wikidata_Q32904835" color="#0000ff" name="3PG" transform="translate(184.74816709033902,533.5968706047821)" xlink:href="https://tools.wmflabs.org/scholia/Q32904835" target="_blank">
+    <a id="e6840" class="SingleFreeNode DataNode HMDB_HMDB00807 Metabolite ChEBI_17050 ChEBI_CHEBI_17050 P683_17050 P683_CHEBI_17050 HMDB_HMDB0000807 P2057_HMDB00807 P2057_HMDB0000807 Wikidata_Q32904835" color="#0000ff" name="3PG" transform="translate(184.74816709033902,533.5968706047821)" xlink:href="https://tools.wmflabs.org/scholia/Q32904835" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="20.75px" id="e6840-icon" width="38.25px" x="0" y="0" transform="matrix(0.9745222929936306, 0, 0, 0.9540229885057471, 0.4872611464968166, 0.47701149425287426)" class="Icon"/>
       <text id="e6840-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(19.125,14.375)">
         <tspan x="0" y="0">3PG</tspan>
       </text>
     </a>
-    <a id="ef6c5" class="SingleFreeNode DataNode ChEBI_CHEBI_15946 Metabolite ChEBI_15946 P683_15946 HMDB_HMDB0000124 HMDB_HMDB00124 P2057_HMDB0000124 P2057_HMDB00124 Wikidata_Q32039197" color="#0000ff" name="F6P" transform="translate(184.78983375700614,395.75536103891466)" xlink:href="https://tools.wmflabs.org/scholia/Q32039197" target="_blank">
+    <a id="ef6c5" class="SingleFreeNode DataNode ChEBI_CHEBI_15946 Metabolite ChEBI_15946 P683_CHEBI_15946 P683_15946 HMDB_HMDB0000124 HMDB_HMDB00124 P2057_HMDB0000124 P2057_HMDB00124 Wikidata_Q32039197" color="#0000ff" name="F6P" transform="translate(184.78983375700614,395.75536103891466)" xlink:href="https://tools.wmflabs.org/scholia/Q32039197" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25.00000000000001px" id="ef6c5-icon" width="38.16666666666577px" x="0" y="0" transform="matrix(0.9744680851063824, 0, 0, 0.9615384615384616, 0.48723404255319025, 0.48076923076922995)" class="Icon"/>
       <text id="ef6c5-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(19.083333333332885,16.500000000000005)">
         <tspan x="0" y="0">F6P</tspan>
       </text>
     </a>
-    <a id="f1584" class="SingleFreeNode DataNode HMDB_HMDB00190 Metabolite ChEBI_422 P683_422 HMDB_HMDB0000190 P2057_HMDB0000190 P2057_HMDB00190 Wikidata_Q27080955" color="#0000ff" name="Lactic acid" transform="translate(158.83150042367237,795.8490291547382)" xlink:href="https://tools.wmflabs.org/scholia/Q27080955" target="_blank">
+    <a id="f1584" class="SingleFreeNode DataNode HMDB_HMDB00190 Metabolite ChEBI_422 ChEBI_CHEBI_422 P683_422 P683_CHEBI_422 HMDB_HMDB0000190 P2057_HMDB0000190 P2057_HMDB00190 Wikidata_Q27080955" color="#0000ff" name="Lactic acid" transform="translate(158.83150042367237,795.8490291547382)" xlink:href="https://tools.wmflabs.org/scholia/Q27080955" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="21.75px" id="f1584-icon" width="86.75px" x="0" y="0" transform="matrix(0.9886039886039886, 0, 0, 0.9560439560439561, 0.49430199430199906, 0.4780219780219781)" class="Icon"/>
       <text id="f1584-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(43.375,14.875)">
         <tspan x="0" y="0">Lactic acid</tspan>
@@ -1582,7 +1525,7 @@
         <tspan x="0" y="0">Golgi Apparatus</tspan>
       </text>
     </g>
-    <a id="f7955" class="SingleFreeNode DataNode ChEBI_CHEBI_18050 Metabolite ChEBI_18050 P683_18050 HMDB_HMDB0000641 HMDB_HMDB00641 P2057_HMDB0000641 P2057_HMDB00641 Wikidata_Q181619" color="#0000ff" name="Glutamine" transform="translate(847.6079216921919,134.4375843454788)" xlink:href="https://tools.wmflabs.org/scholia/Q181619" target="_blank">
+    <a id="f7955" class="SingleFreeNode DataNode ChEBI_CHEBI_18050 Metabolite ChEBI_18050 P683_18050 P683_CHEBI_18050 HMDB_HMDB0000641 HMDB_HMDB00641 P2057_HMDB0000641 P2057_HMDB00641 Wikidata_Q181619" color="#0000ff" name="Glutamine" transform="translate(847.6079216921919,134.4375843454788)" xlink:href="https://tools.wmflabs.org/scholia/Q181619" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25.000000000000018px" id="f7955-icon" width="90.00000000000001px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054963, 0.48076923076922995)" class="Icon"/>
       <text id="f7955-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45.00000000000001,16.500000000000009)">
         <tspan x="0" y="0">Glutamine</tspan>
@@ -1594,19 +1537,19 @@
         <tspan x="0" y="0">SLC1A5</tspan>
       </text>
     </a>
-    <a id="d76ed" class="SingleFreeNode DataNode ChEBI_CHEBI_29985 Metabolite ChEBI_29985 P683_29985 Wikidata_Q27104095" color="#0000ff" name="L-glutamate" transform="translate(980.3601854657677,684.6297578753204)" xlink:href="https://tools.wmflabs.org/scholia/Q27104095" target="_blank">
+    <a id="d76ed" class="SingleFreeNode DataNode ChEBI_CHEBI_29985 Metabolite ChEBI_29985 P683_CHEBI_29985 P683_29985 Wikidata_Q27104095" color="#0000ff" name="L-glutamate" transform="translate(980.3601854657677,684.6297578753204)" xlink:href="https://tools.wmflabs.org/scholia/Q27104095" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="28.911248933214324px" id="d76ed-icon" width="94.23748571385204px" x="0" y="0" transform="matrix(0.9894999327995221, 0, 0, 0.9665677617730776, 0.494749966399759, 0.48328388088653895)" class="Icon"/>
       <text id="d76ed-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(47.11874285692602,18.455624466607162)">
         <tspan x="0" y="0">L-glutamate</tspan>
       </text>
     </a>
-    <a id="c8cda" class="SingleFreeNode DataNode ChEBI_CHEBI_18050 Metabolite ChEBI_18050 P683_18050 HMDB_HMDB0000641 HMDB_HMDB00641 P2057_HMDB0000641 P2057_HMDB00641 Wikidata_Q181619" color="#0000ff" name="Glutamine" transform="translate(847.6079216921919,640.86251503217)" xlink:href="https://tools.wmflabs.org/scholia/Q181619" target="_blank">
+    <a id="c8cda" class="SingleFreeNode DataNode ChEBI_CHEBI_18050 Metabolite ChEBI_18050 P683_18050 P683_CHEBI_18050 HMDB_HMDB0000641 HMDB_HMDB00641 P2057_HMDB0000641 P2057_HMDB00641 Wikidata_Q181619" color="#0000ff" name="Glutamine" transform="translate(847.6079216921919,640.86251503217)" xlink:href="https://tools.wmflabs.org/scholia/Q181619" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="26.36086133631477px" id="c8cda-icon" width="90.00000000000001px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9634514430043638, 0.4945054945054963, 0.4817257215021815)" class="Icon"/>
       <text id="c8cda-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45.00000000000001,17.180430668157385)">
         <tspan x="0" y="0">Glutamine</tspan>
       </text>
     </a>
-    <a id="c33c6" class="SingleFreeNode DataNode HMDB_HMDB00122 Metabolite ChEBI_15903 P683_15903 HMDB_HMDB0000122_T P2057_HMDB0000122_T P2057_HMDB00122 Wikidata_Q56071533" color="#0000ff" name="Glucose" transform="translate(177.16483375700554,134.4375843454788)" xlink:href="https://tools.wmflabs.org/scholia/Q56071533" target="_blank">
+    <a id="c33c6" class="SingleFreeNode DataNode HMDB_HMDB00122 Metabolite ChEBI_CHEBI_15903 ChEBI_15903 P683_CHEBI_15903 P683_15903 HMDB_HMDB0000122 P2057_HMDB0000122 P2057_HMDB00122 Wikidata_Q56071533" color="#0000ff" name="Glucose" transform="translate(177.16483375700554,134.4375843454788)" xlink:href="https://tools.wmflabs.org/scholia/Q56071533" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25px" id="c33c6-icon" width="53.41666666666697px" x="0" y="0" transform="matrix(0.981623277182236, 0, 0, 0.9615384615384616, 0.49081163859111854, 0.48076923076922995)" class="Icon"/>
       <text id="c33c6-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(26.708333333333485,16.5)">
         <tspan x="0" y="0">Glucose</tspan>
@@ -1630,9 +1573,9 @@
         <tspan x="0" y="0">Glutaminolysis</tspan>
       </text>
     </g>
-    <g id="b9f12" class="SingleFreeNode DataNode WikiPathways_WP3365 Pathway" color="#4bb6e8" name="ROCK Activation" transform="translate(1210.9915599163176,845.3273662363156)">
-      <rect fill="#ffffff" stroke="#4bb6e8" stroke-width="1" fill-opacity="1" height="25px" id="b9f12-icon" rx="15" ry="15" width="119.00844008368227px" x="0" y="0" transform="matrix(0.991667252742368, 0, 0, 0.9615384615384616, 0.49583362637118, 0.48076923076922995)" class="Icon"/>
-      <text id="b9f12-text" class="Text" direction="ltr" fill="#4bb6e8" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(59.50422004184114,16.5)">
+    <g id="b9f12" class="SingleFreeNode DataNode WikiPathways_WP3365 Pathway" color="#009933" name="ROCK Activation" transform="translate(1210.9915599163176,845.3273662363156)">
+      <rect fill="#ffffff" stroke="#009933" stroke-width="1" fill-opacity="1" height="25px" id="b9f12-icon" rx="15" ry="15" width="119.00844008368227px" x="0" y="0" transform="matrix(0.991667252742368, 0, 0, 0.9615384615384616, 0.49583362637118, 0.48076923076922995)" class="Icon"/>
+      <text id="b9f12-text" class="Text" direction="ltr" fill="#009933" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(59.50422004184114,16.5)">
         <tspan x="0" y="0">ROCK Activation</tspan>
       </text>
     </g>
@@ -1642,19 +1585,19 @@
         <tspan x="0" y="0">MCT1</tspan>
       </text>
     </a>
-    <a id="ad8cf" class="SingleFreeNode DataNode HMDB_HMDB00190 Metabolite ChEBI_422 P683_422 HMDB_HMDB0000190 P2057_HMDB0000190 P2057_HMDB00190 Wikidata_Q27080955" color="#0000ff" name="Lactic acid" transform="translate(158.83150042367237,1008.189110126398)" xlink:href="https://tools.wmflabs.org/scholia/Q27080955" target="_blank">
+    <a id="ad8cf" class="SingleFreeNode DataNode HMDB_HMDB00190 Metabolite ChEBI_422 ChEBI_CHEBI_422 P683_422 P683_CHEBI_422 HMDB_HMDB0000190 P2057_HMDB0000190 P2057_HMDB00190 Wikidata_Q27080955" color="#0000ff" name="Lactic acid" transform="translate(158.83150042367237,1008.189110126398)" xlink:href="https://tools.wmflabs.org/scholia/Q27080955" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="21.75px" id="ad8cf-icon" width="86.75px" x="0" y="0" transform="matrix(0.9886039886039886, 0, 0, 0.9560439560439561, 0.49430199430199906, 0.4780219780219781)" class="Icon"/>
       <text id="ad8cf-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(43.375,14.875)">
         <tspan x="0" y="0">Lactic acid</tspan>
       </text>
     </a>
-    <a id="b4158" class="SingleFreeNode DataNode ChEBI_CHEBI_29042 Metabolite ChEBI_29042 P683_29042 HMDB_HMDB0001586 HMDB_HMDB01586 P2057_HMDB0001586 P2057_HMDB01586 Wikidata_Q418865" color="#0000ff" name="G1P" transform="translate(326.6732002702666,309.5734649122807)" xlink:href="https://tools.wmflabs.org/scholia/Q418865" target="_blank">
+    <a id="b4158" class="SingleFreeNode DataNode ChEBI_CHEBI_29042 Metabolite ChEBI_29042 P683_CHEBI_29042 P683_29042 HMDB_HMDB0001586 HMDB_HMDB01586 P2057_HMDB0001586 P2057_HMDB01586 Wikidata_Q418865" color="#0000ff" name="G1P" transform="translate(326.6732002702666,309.5734649122807)" xlink:href="https://tools.wmflabs.org/scholia/Q418865" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25.00000000000001px" id="b4158-icon" width="44.66594855591896px" x="0" y="0" transform="matrix(0.9781018454313836, 0, 0, 0.9615384615384616, 0.48905092271569117, 0.48076923076922995)" class="Icon"/>
       <text id="b4158-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(22.33297427795948,16.500000000000005)">
         <tspan x="0" y="0">G1P</tspan>
       </text>
     </a>
-    <a id="ee1d4" class="SingleFreeNode DataNode ChEBI_CHEBI_18066 Metabolite ChEBI_18066 P683_18066 Wikidata_Q27102800" color="#0000ff" name="UDP-glucose" transform="translate(439.61116268354596,309.5734649122807)" xlink:href="https://tools.wmflabs.org/scholia/Q27102800" target="_blank">
+    <a id="ee1d4" class="SingleFreeNode DataNode ChEBI_CHEBI_18066 Metabolite ChEBI_18066 P683_CHEBI_18066 P683_18066 Wikidata_Q27102800" color="#0000ff" name="UDP-glucose" transform="translate(439.61116268354596,309.5734649122807)" xlink:href="https://tools.wmflabs.org/scholia/Q27102800" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25.00000000000001px" id="ee1d4-icon" width="81.04059906487032px" x="0" y="0" transform="matrix(0.9878109129943178, 0, 0, 0.9615384615384616, 0.4939054564971599, 0.48076923076922995)" class="Icon"/>
       <text id="ee1d4-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(40.52029953243516,16.500000000000005)">
         <tspan x="0" y="0">UDP-glucose</tspan>
@@ -1668,15 +1611,15 @@
     </a>
     <g id="eb779" class="Group GroupGroup" color="#808080" transform="translate(1566.6366690119935,676.5826888897191)">
       <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="66.00000000000045px" id="eb779-icon" width="222.66498993963705px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-      <a id="b8bdf" class="SingleFreeNode DataNode Reactome_R-HSA-5654736 Pathway Wikidata_Q45317954" color="#4bb6e8" name="Signaling by FGFR1" transform="translate(8,8)" xlink:href="https://tools.wmflabs.org/scholia/Q45317954" target="_blank">
-        <rect fill="#ffffff" stroke="#4bb6e8" stroke-width="1" fill-opacity="1" height="25px" id="b8bdf-icon" rx="15" ry="15" width="206.6649899396368px" x="0" y="0" transform="matrix(0.9951845518096687, 0, 0, 0.9615384615384616, 0.4975922759048359, 0.48076923076922995)" class="Icon"/>
-        <text id="b8bdf-text" class="Text" direction="ltr" fill="#4bb6e8" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(103.3324949698184,16.5)">
+      <a id="b8bdf" class="SingleFreeNode DataNode Reactome_R-HSA-5654736 Pathway Wikidata_Q45317954" color="#009933" name="Signaling by FGFR1" transform="translate(8,8)" xlink:href="https://tools.wmflabs.org/scholia/Q45317954" target="_blank">
+        <rect fill="#ffffff" stroke="#009933" stroke-width="1" fill-opacity="1" height="25px" id="b8bdf-icon" rx="15" ry="15" width="206.6649899396368px" x="0" y="0" transform="matrix(0.9951845518096687, 0, 0, 0.9615384615384616, 0.4975922759048359, 0.48076923076922995)" class="Icon"/>
+        <text id="b8bdf-text" class="Text" direction="ltr" fill="#009933" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(103.3324949698184,16.5)">
           <tspan x="0" y="0">Signaling by FGFR1</tspan>
         </text>
       </a>
-      <a id="ae42b" class="SingleFreeNode DataNode Reactome_R-HSA-5654743 Pathway Wikidata_Q45317999" color="#4bb6e8" name="Signaling by FGFR4" transform="translate(8.000000000000227,33.000000000000455)" xlink:href="https://tools.wmflabs.org/scholia/Q45317999" target="_blank">
-        <rect fill="#ffffff" stroke="#4bb6e8" stroke-width="1" fill-opacity="1" height="25px" id="ae42b-icon" rx="15" ry="15" width="206.6649899396368px" x="0" y="0" transform="matrix(0.9951845518096687, 0, 0, 0.9615384615384616, 0.4975922759048359, 0.48076923076922995)" class="Icon"/>
-        <text id="ae42b-text" class="Text" direction="ltr" fill="#4bb6e8" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(103.3324949698184,16.5)">
+      <a id="ae42b" class="SingleFreeNode DataNode Reactome_R-HSA-5654743 Pathway Wikidata_Q45317999" color="#009933" name="Signaling by FGFR4" transform="translate(8.000000000000227,33.000000000000455)" xlink:href="https://tools.wmflabs.org/scholia/Q45317999" target="_blank">
+        <rect fill="#ffffff" stroke="#009933" stroke-width="1" fill-opacity="1" height="25px" id="ae42b-icon" rx="15" ry="15" width="206.6649899396368px" x="0" y="0" transform="matrix(0.9951845518096687, 0, 0, 0.9615384615384616, 0.4975922759048359, 0.48076923076922995)" class="Icon"/>
+        <text id="ae42b-text" class="Text" direction="ltr" fill="#009933" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(103.3324949698184,16.5)">
           <tspan x="0" y="0">Signaling by FGFR4</tspan>
         </text>
       </a>
@@ -1744,19 +1687,19 @@
         <tspan x="0" y="0">Exocytosis</tspan>
       </text>
     </g>
-    <a id="bf5a3" class="SingleFreeNode DataNode WikiPathways_WP4172 Pathway Wikidata_Q50400941" color="#4bb6e8" name="PI3K-Akt Signaling" transform="translate(1349.461472426868,844.7100784527158)" xlink:href="https://tools.wmflabs.org/scholia/Q50400941" target="_blank">
-      <rect fill="#ffffff" stroke="#4bb6e8" stroke-width="1" fill-opacity="1" height="24.5059670970179px" id="bf5a3-icon" rx="15" ry="15" width="127.11962812052434px" x="0" y="0" transform="matrix(0.992194794703437, 0, 0, 0.9607934881984178, 0.4960973973517184, 0.48039674409920785)" class="Icon"/>
-      <text id="bf5a3-text" class="Text" direction="ltr" fill="#4bb6e8" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(63.55981406026217,16.25298354850895)">
+    <a id="bf5a3" class="SingleFreeNode DataNode WikiPathways_WP4172 Pathway Wikidata_Q50400941" color="#009933" name="PI3K-Akt Signaling" transform="translate(1349.461472426868,844.7100784527158)" xlink:href="https://tools.wmflabs.org/scholia/Q50400941" target="_blank">
+      <rect fill="#ffffff" stroke="#009933" stroke-width="1" fill-opacity="1" height="24.5059670970179px" id="bf5a3-icon" rx="15" ry="15" width="127.11962812052434px" x="0" y="0" transform="matrix(0.992194794703437, 0, 0, 0.9607934881984178, 0.4960973973517184, 0.48039674409920785)" class="Icon"/>
+      <text id="bf5a3-text" class="Text" direction="ltr" fill="#009933" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(63.55981406026217,16.25298354850895)">
         <tspan x="0" y="0">PI3K-Akt Signaling</tspan>
       </text>
     </a>
-    <g id="d88cd" class="SingleFreeNode DataNode WikiPathways_WP2688 Pathway" color="#4bb6e8" name="IP3 and DAG Signaling" transform="translate(1484.0004191817584,845.3273662363156)">
-      <rect fill="#ffffff" stroke="#4bb6e8" stroke-width="1" fill-opacity="1" height="25px" id="d88cd-icon" rx="15" ry="15" width="169.99916163648368px" x="0" y="0" transform="matrix(0.9941520181126628, 0, 0, 0.9615384615384616, 0.49707600905632887, 0.48076923076922995)" class="Icon"/>
-      <text id="d88cd-text" class="Text" direction="ltr" fill="#4bb6e8" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(84.99958081824184,16.5)">
+    <g id="d88cd" class="SingleFreeNode DataNode WikiPathways_WP2688 Pathway" color="#009933" name="IP3 and DAG Signaling" transform="translate(1484.0004191817584,845.3273662363156)">
+      <rect fill="#ffffff" stroke="#009933" stroke-width="1" fill-opacity="1" height="25px" id="d88cd-icon" rx="15" ry="15" width="169.99916163648368px" x="0" y="0" transform="matrix(0.9941520181126628, 0, 0, 0.9615384615384616, 0.49707600905632887, 0.48076923076922995)" class="Icon"/>
+      <text id="d88cd-text" class="Text" direction="ltr" fill="#009933" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(84.99958081824184,16.5)">
         <tspan x="0" y="0">IP3 and DAG Signaling</tspan>
       </text>
     </g>
-    <a id="dab96" class="SingleFreeNode DataNode Wikidata_Q2823261 Metabolite ChEBI_17232 P683_17232 HMDB_HMDB02104 P2057_HMDB02104" color="#0000ff" name="GSAL" transform="translate(1165.6666666666674,325.42816819954993)" xlink:href="https://tools.wmflabs.org/scholia/Q2823261" target="_blank">
+    <a id="dab96" class="SingleFreeNode DataNode Wikidata_Q2823261 Metabolite ChEBI_17232 ChEBI_CHEBI_17232 P683_17232 P683_CHEBI_17232 HMDB_HMDB02104 P2057_HMDB02104" color="#0000ff" name="GSAL" transform="translate(1165.6666666666674,325.42816819954993)" xlink:href="https://tools.wmflabs.org/scholia/Q2823261" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25px" id="dab96-icon" width="51.28755210288px" x="0" y="0" transform="matrix(0.9808749891746238, 0, 0, 0.9615384615384616, 0.49043749458731156, 0.48076923076922995)" class="Icon"/>
       <text id="dab96-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(25.64377605144,16.5)">
         <tspan x="0" y="0">GSAL</tspan>
@@ -1768,7 +1711,7 @@
         <tspan x="0" y="0">Proline biosynthesis</tspan>
       </text>
     </g>
-    <a id="ef95c" class="SingleFreeNode DataNode ChEBI_CHEBI_35366 Metabolite ChEBI_CHEBI_35366_T ChEBI_35366 P683_CHEBI_35366_T P683_35366 Wikidata_Q61476" color="#0000ff" name="Fatty acid" transform="translate(701.6666666666665,869.1666666666654)" xlink:href="https://tools.wmflabs.org/scholia/Q61476" target="_blank">
+    <a id="ef95c" class="SingleFreeNode DataNode ChEBI_CHEBI_35366 Metabolite ChEBI_35366 P683_CHEBI_35366 P683_35366 Wikidata_Q61476" color="#0000ff" name="Fatty acid" transform="translate(701.6666666666665,869.1666666666654)" xlink:href="https://tools.wmflabs.org/scholia/Q61476" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25px" id="ef95c-icon" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9615384615384616, 0.4945054945054892, 0.48076923076922995)" class="Icon"/>
       <text id="ef95c-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
         <tspan x="0" y="0">Fatty acid</tspan>
@@ -1791,9 +1734,69 @@
         <tspan x="0" y="0">Glycosaminoglycan synthesis</tspan>
       </text>
     </g>
+    <g id="ad6c9" class="SingleFreeNode DataNode WikiPathways_WP3365 Pathway" color="#009933" name="X" transform="translate(1979.583412590583,520.036230783271)">
+      <rect fill="#ffffff" stroke="#009933" stroke-width="1" fill-opacity="1" height="24.67263376368578px" id="ad6c9-icon" rx="15" ry="15" width="80.6751067503501px" x="0" y="0" transform="matrix(0.9877563673953115, 0, 0, 0.9610480167634958, 0.49387818369766023, 0.4805240083817477)" class="Icon"/>
+      <text id="ad6c9-text" class="Text" direction="ltr" fill="#009933" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(40.33755337517505,16.33631688184289)">
+        <tspan x="0" y="0">X</tspan>
+      </text>
+    </g>
+    <g id="cd860" class="SingleFreeNode Label" color="#000000" name="Stimulation/Activation" transform="translate(2086.0014621902883,308.25020723956925)">
+      <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="19.16666666666606px" id="cd860-icon" width="128.33333333333346px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <text id="cd860-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(64.16666666666673,13.58333333333303)">
+        <tspan x="0" y="0">Stimulation/Activation</tspan>
+      </text>
+    </g>
+    <g id="ab7d8" class="SingleFreeNode Label" color="#000000" name="Catalysis" transform="translate(2112.6681288569557,346.5835405729025)">
+      <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="19.16666666666606px" id="ab7d8-icon" width="75.0000000000004px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <text id="ab7d8-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(37.5000000000002,13.58333333333303)">
+        <tspan x="0" y="0">Catalysis</tspan>
+      </text>
+    </g>
+    <g id="a93bc" class="SingleFreeNode Label" color="#000000" name="Transcription/Translation" transform="translate(2078.5014621902887,388.2502072395699)">
+      <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="19.16666666666606px" id="a93bc-icon" width="143.33333333333402px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <text id="a93bc-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(71.66666666666701,13.58333333333303)">
+        <tspan x="0" y="0">Transcription/Translation</tspan>
+      </text>
+    </g>
+    <g id="e1bb7" class="SingleFreeNode Label" color="#000000" name="Indirect conversion" transform="translate(2096.0014621902887,268.2502072395694)">
+      <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="19.16666666666606px" id="e1bb7-icon" width="108.33333333333383px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <text id="e1bb7-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(54.16666666666691,13.58333333333303)">
+        <tspan x="0" y="0">Indirect conversion</tspan>
+      </text>
+    </g>
+    <g id="c8ab5" class="SingleFreeNode Label" color="#000000" name="Metabolite" transform="translate(2115.168128856955,429.91687390623673)">
+      <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="19.16666666666606px" id="c8ab5-icon" width="70.00000000000051px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <text id="c8ab5-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(35.000000000000256,13.58333333333303)">
+        <tspan x="0" y="0">Metabolite</tspan>
+      </text>
+    </g>
+    <g id="e781a" class="SingleFreeNode Label" color="#000000" name="Protein/gene product" transform="translate(2082.6681288569553,476.58354057290495)">
+      <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="19.166666666663787px" id="e781a-icon" width="135.0000000000004px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <text id="e781a-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(67.5000000000002,13.583333333331893)">
+        <tspan x="0" y="0">Protein/gene product</tspan>
+      </text>
+    </g>
+    <g id="fb7bd" class="SingleFreeNode Label" color="#000000" name="Pathway" transform="translate(2107.6681288569553,519.0835405729019)">
+      <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="25.00000000000273px" id="fb7bd-icon" width="85.00000000000051px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <text id="fb7bd-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(42.500000000000256,16.500000000001364)">
+        <tspan x="0" y="0">Pathway</tspan>
+      </text>
+    </g>
+    <g id="e600c" class="SingleFreeNode Label" color="#000000" name="Channel protein/Transporter" transform="translate(2059.3213422216036,571.636732062264)">
+      <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="25.00000000000273px" id="e600c-icon" width="181.69357327070435px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <text id="e600c-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(90.84678663535217,16.500000000001364)">
+        <tspan x="0" y="0">Channel protein/Transporter</tspan>
+      </text>
+    </g>
+    <g id="cb96e" class="SingleFreeNode Label" color="#000000" name="Receptor" transform="translate(2107.6681288569553,611.4239661048174)">
+      <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="25.00000000000273px" id="cb96e-icon" width="85.00000000000051px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <text id="cb96e-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(42.500000000000256,16.500000000001364)">
+        <tspan x="0" y="0">Receptor</tspan>
+      </text>
+    </g>
     <text id="WP5312-text" class="Text" direction="ltr" dominant-baseline="central" fill="black" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" overflow="visible" stroke="white" stroke-width="0px" text-anchor="start" transform="translate(5,36)">
       <tspan x="0" y="-18">Name: Metabolic pathways of fibroblasts</tspan>
-      <tspan x="0" y="0">Last Modified: 20230227224232</tspan>
+      <tspan x="0" y="0">Last Modified: 20230309103329</tspan>
       <tspan x="0" y="18">Organism: Homo sapiens</tspan>
     </text>
   </g>
