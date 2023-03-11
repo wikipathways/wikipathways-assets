@@ -28,6 +28,12 @@
       <filter x="0" y="0" height="1661.3333333333323" width="2244" id="kaavioblackto00ccfffilter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0                   0  -1   0 0 0.8                   0   0  -1 0 1                   0   0   0 1 0"/>
       </filter>
+      <filter x="0" y="0" height="1661.3333333333323" width="2244" id="kaaviowhiteto00cbfffilter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0                  0  1  0 0 -0.796078431372549                  0  0  1 0 -1                  0  0  0 1 0"/>
+      </filter>
+      <filter x="0" y="0" height="1661.3333333333323" width="2244" id="kaavioblackto00cbfffilter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0                   0  -1   0 0 0.796078431372549                   0   0  -1 0 1                   0   0   0 1 0"/>
+      </filter>
       <filter x="0" y="0" height="1661.3333333333323" width="2244" id="kaaviowhiteto000000filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0                  0  1  0 0 -0                  0  0  1 0 -0                  0  0  0 1 0"/>
       </filter>
@@ -472,27 +478,39 @@
       </symbol>
     </g>
   </defs>
-  <g id="WP5314" class="Viewport" color="black" name="Name: Lactate shuttle in glial cells Last Modified: 20230227225416 Organism: Homo sapiens">
+  <g id="WP5314" class="Viewport" color="black" name="Name: Lactate shuttle in glial cells Last Modified: 20230310112022 Organism: Homo sapiens">
     <rect fill="white" stroke="black" stroke-width="0" fill-opacity="1" height="1661.3333333333323px" id="WP5314-icon" width="2244px" x="0" y="0" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-    <g id="ab180" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#00ccff" transform="translate(1358.5,1170.5)">
+    <g id="ab180" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#00ccff" name="Neuron" transform="translate(1358.5,1170.5)">
       <g filter="url(#kaaviodoublefalse3filter)" fill="transparent" fill-opacity="0" stroke="#00ccff" stroke-width="3">
         <rect style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" height="127px" id="ab180-icon" rx="15" ry="15" width="857px" x="0" y="0" transform="matrix(0.9861910241657077, 0, 0, 0.9136690647482014, 5.917146144994263, 5.482014388489212)" class="Icon"/>
       </g>
+      <text id="ab180-text" class="Text" direction="ltr" fill="#00ccff" font-family="'Liberation Sans', Arial, sans-serif" font-size="30px" font-style="normal" font-weight="normal" stroke="black" stroke-width="0px" text-anchor="start" transform="translate(8,112.5)">
+        <tspan x="0" y="0">Neuron</tspan>
+      </text>
     </g>
-    <g id="b4c76" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#00ccff" transform="translate(1352.5,101.33333333333348)">
+    <g id="b4c76" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#00ccff" name="Neuron" transform="translate(1352.5,101.33333333333348)">
       <g filter="url(#kaaviodoublefalse3filter)" fill="transparent" fill-opacity="0" stroke="#00ccff" stroke-width="3">
         <rect style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" height="904.1666666666665px" id="b4c76-icon" rx="15" ry="15" width="855px" x="0" y="0" transform="matrix(0.986159169550173, 0, 0, 0.9869019465162816, 5.916955017301007, 5.921411679097673)" class="Icon"/>
       </g>
+      <text id="b4c76-text" class="Text" direction="ltr" fill="#00ccff" font-family="'Liberation Sans', Arial, sans-serif" font-size="30px" font-style="normal" font-weight="normal" stroke="black" stroke-width="0px" text-anchor="end" transform="translate(847,889.6666666666665)">
+        <tspan x="0" y="0">Neuron</tspan>
+      </text>
     </g>
-    <g id="ab5b1" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#ffcc00" transform="translate(206.5,89.16666666666652)">
+    <g id="ab5b1" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#ffcc00" name="Astrocyte" transform="translate(206.5,89.16666666666652)">
       <g filter="url(#kaaviodoublefalse3filter)" fill="transparent" fill-opacity="0" stroke="#ffcc00" stroke-width="3">
         <rect style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" height="1422.3333333333335px" id="ab5b1-icon" rx="15" ry="15" width="759px" x="0" y="0" transform="matrix(0.9844357976653697, 0, 0, 0.9916337438996049, 5.90661478599219, 5.949802463397646)" class="Icon"/>
       </g>
+      <text id="ab5b1-text" class="Text" direction="ltr" fill="#ffcc00" font-family="'Liberation Sans', Arial, sans-serif" font-size="30px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="start" transform="translate(8,1407.8333333333335)">
+        <tspan x="0" y="0">Astrocyte</tspan>
+      </text>
     </g>
-    <g id="fb98a" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#ff3333" transform="translate(18.5,96.16666666666657)">
+    <g id="fb98a" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#ff3333" name="Capillary" transform="translate(18.5,96.16666666666657)">
       <g filter="url(#kaaviodoublefalse3filter)" fill="transparent" fill-opacity="0" stroke="#ff3333" stroke-width="3">
         <rect style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" height="557px" id="fb98a-icon" rx="15" ry="15" width="145.00000000000003px" x="0" y="0" transform="matrix(0.9235668789808917, 0, 0, 0.9789103690685413, 5.541401273885356, 5.873462214411234)" class="Icon"/>
       </g>
+      <text id="fb98a-text" class="Text" direction="ltr" fill="#ff3333" font-family="'Liberation Sans', Arial, sans-serif" font-size="30px" font-style="normal" font-weight="normal" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(72.50000000000001,542.5)">
+        <tspan x="0" y="0">Capillary</tspan>
+      </text>
     </g>
     <g id="id4e4c099c" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 3.05, 5.08, 5.8" stroke-width="1">
@@ -888,40 +906,46 @@
     <g id="bb566" class="SingleFreeNode Shape" color="#000000" transform="translate(732,249.5)">
       <rect fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="1" height="148.5px" id="bb566-icon" rx="15" ry="15" width="110px" x="0" y="0" transform="matrix(0.990990990990991, 0, 0, 0.9933110367892977, 0.4954954954954971, 0.49665551839464683)" class="Icon"/>
     </g>
+    <g id="ee1bd" class="SingleFreeNode Label" color="#00cbff" name="Synaptic cleft" transform="translate(1623.1222707423578,1077.019650655025)">
+      <use fill="transparent" fill-opacity="0" stroke="#00cbff" stroke-width="0" height="29.967248908296995px" id="ee1bd-icon" width="256.79039301310047px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <text id="ee1bd-text" class="Text" direction="ltr" fill="#00cbff" font-family="'Liberation Sans', Arial, sans-serif" font-size="30px" font-style="normal" font-weight="normal" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(128.39519650655023,24.983624454148497)">
+        <tspan x="0" y="0">Synaptic cleft</tspan>
+      </text>
+    </g>
     <g id="b5daf" class="Group GroupGroup" color="#808080" transform="translate(738.1666666666665,258.83333333333314)">
       <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="126.5px" id="b5daf-icon" width="101.83333333333348px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-      <a id="d66af" class="SingleFreeNode DataNode ChEBI_CHEBI_17544 Metabolite ChEBI_17544 P683_17544 HMDB_HMDB00595 P2057_HMDB00595 Wikidata_Q409202_T" color="#0000ff" name="HCO3-" transform="translate(8,61.166666666666856)" xlink:href="https://tools.wmflabs.org/scholia/T" target="_blank">
+      <a id="d66af" class="SingleFreeNode DataNode ChEBI_CHEBI_17544 Metabolite ChEBI_17544 P683_17544 P683_CHEBI_17544 HMDB_HMDB00595 P2057_HMDB00595 Wikidata_Q409202" color="#0000ff" name="HCO3-" transform="translate(8,61.166666666666856)" xlink:href="https://tools.wmflabs.org/scholia/Q409202" target="_blank">
         <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="57.333333333333144px" id="d66af-icon" width="85.83333333333348px" x="0" y="0" transform="matrix(0.9884836852207294, 0, 0, 0.9828571428571428, 0.4942418426103643, 0.4914285714285711)" class="Icon"/>
         <text id="d66af-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(42.91666666666674,34.666666666666572)">
           <tspan x="0" y="0">HCO3-</tspan>
         </text>
       </a>
-      <a id="e659a" class="SingleFreeNode DataNode ChEBI_CHEBI_15378 Metabolite ChEBI_15378_T ChEBI_15378 P683_15378_T P683_15378 HMDB_HMDB0059597 HMDB_HMDB59597 P2057_HMDB0059597 P2057_HMDB59597 Wikidata_Q506710" color="#0000ff" name="H+" transform="translate(12.666666666667197,8)" xlink:href="https://tools.wmflabs.org/scholia/Q506710" target="_blank">
+      <a id="e659a" class="SingleFreeNode DataNode ChEBI_CHEBI_15378 Metabolite ChEBI_15378 P683_15378 P683_CHEBI_15378 HMDB_HMDB0059597 HMDB_HMDB59597 P2057_HMDB0059597 P2057_HMDB59597 Wikidata_Q506710" color="#0000ff" name="H+" transform="translate(12.666666666667197,8)" xlink:href="https://tools.wmflabs.org/scholia/Q506710" target="_blank">
         <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="39.166666666666735px" id="e659a-icon" width="76.49999999999993px" x="0" y="0" transform="matrix(0.9870967741935484, 0, 0, 0.9751037344398341, 0.49354838709677296, 0.48755186721991706)" class="Icon"/>
         <text id="e659a-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(38.249999999999964,25.583333333333368)">
           <tspan x="0" y="0">H+</tspan>
         </text>
       </a>
     </g>
-    <a id="eaa3d" class="SingleFreeNode DataNode ChEBI_CHEBI_30616 Metabolite ChEBI_30616 P683_30616 Wikidata_Q27113900" color="#0000ff" name="ATP" transform="translate(439.6666666666663,263.6666666666665)" xlink:href="https://tools.wmflabs.org/scholia/Q27113900" target="_blank">
+    <a id="eaa3d" class="SingleFreeNode DataNode ChEBI_CHEBI_30616 Metabolite ChEBI_30616 P683_30616 P683_CHEBI_30616 Wikidata_Q27113900" color="#0000ff" name="ATP" transform="translate(439.6666666666663,263.6666666666665)" xlink:href="https://tools.wmflabs.org/scholia/Q27113900" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="24px" id="eaa3d-icon" width="37.33333333333331px" x="0" y="0" transform="matrix(0.9739130434782608, 0, 0, 0.96, 0.4869565217391312, 0.4800000000000004)" class="Icon"/>
       <text id="eaa3d-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="15px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(18.666666666666654,17)">
         <tspan x="0" y="0">ATP</tspan>
       </text>
     </a>
-    <a id="b292c" class="SingleFreeNode DataNode Uniprot-TrEMBL_Q9Y6R1 Protein Ensembl_ENSG00000080493 P594_ENSG00000080493 Entrez_Gene_8671 P351_8671 HGNC_SLC4A4_T SLC4A4_T P353_SLC4A4_T Wikidata_Q21109553" color="#000000" name="NBC1" transform="translate(928.6666666666662,390)" xlink:href="https://tools.wmflabs.org/scholia/Q21109553" target="_blank">
+    <a id="b292c" class="SingleFreeNode DataNode Uniprot-TrEMBL_Q9Y6R1 Protein Ensembl_ENSG00000080493 P594_ENSG00000080493 Entrez_Gene_8671 P351_8671 HGNC_SLC4A4 SLC4A4 P353_SLC4A4 Wikidata_Q21109553" color="#000000" name="NBC1" transform="translate(928.6666666666662,390)" xlink:href="https://tools.wmflabs.org/scholia/Q21109553" target="_blank">
       <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="52px" id="b292c-icon" width="66px" x="0" y="0" transform="matrix(0.9850746268656716, 0, 0, 0.9811320754716981, 0.4925373134328339, 0.4905660377358494)" class="Icon"/>
       <text id="b292c-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(33,32)">
         <tspan x="0" y="0">NBC1</tspan>
       </text>
     </a>
-    <a id="d3ae5" class="SingleFreeNode DataNode ChEBI_CHEBI_15361 Metabolite ChEBI_15361 P683_15361 Wikidata_Q27089397" color="#0000ff" name="pyruvate" transform="translate(363.49999999999966,173.33333333333377)" xlink:href="https://tools.wmflabs.org/scholia/Q27089397" target="_blank">
+    <a id="d3ae5" class="SingleFreeNode DataNode ChEBI_CHEBI_15361 Metabolite ChEBI_15361 P683_CHEBI_15361 P683_15361 Wikidata_Q27089397" color="#0000ff" name="pyruvate" transform="translate(363.49999999999966,173.33333333333377)" xlink:href="https://tools.wmflabs.org/scholia/Q27089397" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="40.00000000000006px" id="d3ae5-icon" width="104.5px" x="0" y="0" transform="matrix(0.990521327014218, 0, 0, 0.975609756097561, 0.4952606635071106, 0.4878048780487809)" class="Icon"/>
       <text id="d3ae5-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(52.25,26.00000000000003)">
         <tspan x="0" y="0">pyruvate</tspan>
       </text>
     </a>
-    <a id="bf23e" class="SingleFreeNode DataNode ChEBI_CHEBI_18066 Metabolite ChEBI_18066 P683_18066 Wikidata_Q27102800" color="#0000ff" name="UDP-D-glucose" transform="translate(268,866.1666666666669)" xlink:href="https://tools.wmflabs.org/scholia/Q27102800" target="_blank">
+    <a id="bf23e" class="SingleFreeNode DataNode ChEBI_CHEBI_18066 Metabolite ChEBI_18066 P683_CHEBI_18066 P683_18066 Wikidata_Q27102800" color="#0000ff" name="UDP-D-glucose" transform="translate(268,866.1666666666669)" xlink:href="https://tools.wmflabs.org/scholia/Q27102800" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="44.49999999999977px" id="bf23e-icon" width="226px" x="0" y="0" transform="matrix(0.9955947136563876, 0, 0, 0.9780219780219779, 0.49779735682820103, 0.48901098901098905)" class="Icon"/>
       <text id="bf23e-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(113,28.249999999999886)">
         <tspan x="0" y="0">UDP-D-glucose</tspan>
@@ -960,7 +984,7 @@
         </text>
       </a>
     </g>
-    <a id="c9eba" class="SingleFreeNode DataNode ChEBI_CHEBI_16526 Metabolite ChEBI_16526 P683_16526 HMDB_HMDB01967 HMDB_HMDB0001967 P2057_HMDB01967 P2057_HMDB0001967 Wikidata_Q1997" color="#0000ff" name="CO2" transform="translate(1766.8333333333335,694)" xlink:href="https://tools.wmflabs.org/scholia/Q1997" target="_blank">
+    <a id="c9eba" class="SingleFreeNode DataNode ChEBI_CHEBI_16526 Metabolite ChEBI_16526 P683_CHEBI_16526 P683_16526 HMDB_HMDB01967 HMDB_HMDB0001967 P2057_HMDB01967 P2057_HMDB0001967 Wikidata_Q1997" color="#0000ff" name="CO2" transform="translate(1766.8333333333335,694)" xlink:href="https://tools.wmflabs.org/scholia/Q1997" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="30.666666666666515px" id="c9eba-icon" width="47.166666666666515px" x="0" y="0" transform="matrix(0.9792387543252594, 0, 0, 0.9684210526315788, 0.4896193771626294, 0.4842105263157883)" class="Icon"/>
       <text id="c9eba-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="15px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(23.583333333333258,20.333333333333258)">
         <tspan x="0" y="0">CO2</tspan>
@@ -972,19 +996,19 @@
         <tspan x="0" y="0">CAIV</tspan>
       </text>
     </a>
-    <a id="b0823" class="SingleFreeNode DataNode ChEBI_CHEBI_16077 Metabolite ChEBI_16077 P683_16077 HMDB_HMDB01586 P2057_HMDB01586 Wikidata_Q27098367" color="#0000ff" name="D-Glucose 1-phosphate" transform="translate(266,730.8333333333331)" xlink:href="https://tools.wmflabs.org/scholia/Q27098367" target="_blank">
+    <a id="b0823" class="SingleFreeNode DataNode ChEBI_CHEBI_16077 Metabolite ChEBI_16077 P683_CHEBI_16077 P683_16077 HMDB_HMDB01586 P2057_HMDB01586 Wikidata_Q27098367" color="#0000ff" name="D-Glucose 1-phosphate" transform="translate(266,730.8333333333331)" xlink:href="https://tools.wmflabs.org/scholia/Q27098367" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="48.49999999999994px" id="b0823-icon" width="230px" x="0" y="0" transform="matrix(0.9956709956709957, 0, 0, 0.9797979797979798, 0.49783549783549574, 0.4898989898989896)" class="Icon"/>
       <text id="b0823-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(115,30.24999999999997)">
         <tspan x="0" y="0">D-Glucose 1-phosphate</tspan>
       </text>
     </a>
-    <a id="ea3ad" class="SingleFreeNode DataNode ChEBI_CHEBI_17234 Metabolite ChEBI_17234 P683_17234 Wikidata_Q37525_T" color="#0000ff" name="glucose" transform="translate(280.83333333333496,438.8333333333337)" xlink:href="https://tools.wmflabs.org/scholia/T" target="_blank">
+    <a id="ea3ad" class="SingleFreeNode DataNode ChEBI_CHEBI_17234 Metabolite ChEBI_17234 P683_CHEBI_17234 P683_17234 Wikidata_Q37525" color="#0000ff" name="glucose" transform="translate(280.83333333333496,438.8333333333337)" xlink:href="https://tools.wmflabs.org/scholia/Q37525" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="43.16666666666652px" id="ea3ad-icon" width="97.8333333333334px" x="0" y="0" transform="matrix(0.9898819561551433, 0, 0, 0.9773584905660376, 0.4949409780775724, 0.48867924528302)" class="Icon"/>
       <text id="ea3ad-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(48.9166666666667,27.58333333333326)">
         <tspan x="0" y="0">glucose</tspan>
       </text>
     </a>
-    <a id="fd6e1" class="SingleFreeNode DataNode ChEBI_CHEBI_29101 Metabolite ChEBI_29101 P683_29101 HMDB_HMDB0000588 HMDB_HMDB00588 P2057_HMDB0000588 P2057_HMDB00588 Wikidata_Q3154110" color="#0000ff" name="Na+" transform="translate(898.6666666666674,477.5)" xlink:href="https://tools.wmflabs.org/scholia/Q3154110" target="_blank">
+    <a id="fd6e1" class="SingleFreeNode DataNode ChEBI_CHEBI_29101 Metabolite ChEBI_29101 P683_29101 P683_CHEBI_29101 HMDB_HMDB0000588 HMDB_HMDB00588 P2057_HMDB0000588 P2057_HMDB00588 Wikidata_Q3154110" color="#0000ff" name="Na+" transform="translate(898.6666666666674,477.5)" xlink:href="https://tools.wmflabs.org/scholia/Q3154110" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="34.5px" id="fd6e1-icon" width="48px" x="0" y="0" transform="matrix(0.9795918367346939, 0, 0, 0.971830985915493, 0.48979591836734926, 0.4859154929577443)" class="Icon"/>
       <text id="fd6e1-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(24,23.25)">
         <tspan x="0" y="0">Na+</tspan>
@@ -996,19 +1020,19 @@
         <tspan x="0" y="0">SLC16A7</tspan>
       </text>
     </a>
-    <a id="a0dd6" class="SingleFreeNode DataNode ChEBI_CHEBI_456216 Metabolite ChEBI_CHEBI_456216_T ChEBI_456216 P683_CHEBI_456216_T P683_456216 Wikidata_Q27225748" color="#0000ff" name="ADP" transform="translate(407.49999999999983,326.1666666666672)" xlink:href="https://tools.wmflabs.org/scholia/Q27225748" target="_blank">
+    <a id="a0dd6" class="SingleFreeNode DataNode ChEBI_CHEBI_456216 Metabolite ChEBI_456216 P683_CHEBI_456216 P683_456216 Wikidata_Q27225748" color="#0000ff" name="ADP" transform="translate(407.49999999999983,326.1666666666672)" xlink:href="https://tools.wmflabs.org/scholia/Q27225748" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25.83333333333337px" id="a0dd6-icon" width="37.833333333333364px" x="0" y="0" transform="matrix(0.9742489270386266, 0, 0, 0.9627329192546584, 0.4871244635193115, 0.4813664596273295)" class="Icon"/>
       <text id="a0dd6-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="15px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(18.916666666666682,17.916666666666686)">
         <tspan x="0" y="0">ADP</tspan>
       </text>
     </a>
-    <a id="ad9ee" class="SingleFreeNode DataNode ChEBI_CHEBI_24996 Metabolite ChEBI_24996 P683_24996 Wikidata_Q27895931_T" color="#0000ff" name="lactate" transform="translate(637.4999999999989,173.4999999999998)" xlink:href="https://tools.wmflabs.org/scholia/T" target="_blank">
+    <a id="ad9ee" class="SingleFreeNode DataNode ChEBI_CHEBI_24996 Metabolite ChEBI_24996 P683_24996 P683_CHEBI_24996 Wikidata_Q27895931" color="#0000ff" name="lactate" transform="translate(637.4999999999989,173.4999999999998)" xlink:href="https://tools.wmflabs.org/scholia/Q27895931" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="39.16666666666663px" id="ad9ee-icon" width="91.16666666666659px" x="0" y="0" transform="matrix(0.9891500904159132, 0, 0, 0.975103734439834, 0.49457504520795936, 0.48755186721991706)" class="Icon"/>
       <text id="ad9ee-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45.58333333333329,25.583333333333314)">
         <tspan x="0" y="0">lactate</tspan>
       </text>
     </a>
-    <a id="db01d" class="SingleFreeNode DataNode ChEBI_CHEBI_4170 Metabolite ChEBI_4170 P683_4170 HMDB_HMDB0001401 HMDB_HMDB01401 P2057_HMDB0001401 P2057_HMDB01401 Wikidata_Q36461529" color="#0000ff" name="D-Glucose 6-phosphate" transform="translate(266.75000000000216,620.583333333333)" xlink:href="https://tools.wmflabs.org/scholia/Q36461529" target="_blank">
+    <a id="db01d" class="SingleFreeNode DataNode ChEBI_CHEBI_4170 Metabolite ChEBI_4170 P683_4170 P683_CHEBI_4170 HMDB_HMDB0001401 HMDB_HMDB01401 P2057_HMDB0001401 P2057_HMDB01401 Wikidata_Q36461529" color="#0000ff" name="D-Glucose 6-phosphate" transform="translate(266.75000000000216,620.583333333333)" xlink:href="https://tools.wmflabs.org/scholia/Q36461529" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="46.08333333333326px" id="db01d-icon" width="233.24999999999784px" x="0" y="0" transform="matrix(0.9957310565635005, 0, 0, 0.9787610619469026, 0.4978655282817499, 0.48938053097345247)" class="Icon"/>
       <text id="db01d-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(116.62499999999892,29.04166666666663)">
         <tspan x="0" y="0">D-Glucose 6-phosphate</tspan>
@@ -1029,26 +1053,26 @@
     </g>
     <g id="d3c16" class="Group GroupGroup" color="#808080" transform="translate(1018,1241.5)">
       <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="112.5px" id="d3c16-icon" width="82px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-      <a id="ceead" class="SingleFreeNode DataNode ChEBI_CHEBI_16234 Metabolite ChEBI_16234 P683_16234 HMDB_HMDB0001039 HMDB_HMDB01039 P2057_HMDB0001039 P2057_HMDB01039 Wikidata_Q199877_T" color="#0000ff" name="OH-" transform="translate(8,36.5)" xlink:href="https://tools.wmflabs.org/scholia/T" target="_blank">
+      <a id="ceead" class="SingleFreeNode DataNode ChEBI_CHEBI_16234 Metabolite ChEBI_16234 P683_CHEBI_16234 P683_16234 HMDB_HMDB0001039 HMDB_HMDB01039 P2057_HMDB0001039 P2057_HMDB01039 Wikidata_Q199877" color="#0000ff" name="OH-" transform="translate(8,36.5)" xlink:href="https://tools.wmflabs.org/scholia/Q199877" target="_blank">
         <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="30px" id="ceead-icon" width="66px" x="0" y="0" transform="matrix(0.9850746268656716, 0, 0, 0.967741935483871, 0.4925373134328339, 0.48387096774193594)" class="Icon"/>
         <text id="ceead-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(33,21)">
           <tspan x="0" y="0">OH-</tspan>
         </text>
       </a>
-      <a id="ac9cd" class="SingleFreeNode DataNode ChEBI_CHEBI_29103 Metabolite ChEBI_29103 P683_29103 HMDB_HMDB0000586 HMDB_HMDB00586 P2057_HMDB0000586 P2057_HMDB00586 Wikidata_Q15901933" color="#0000ff" name="K+" transform="translate(8,8)" xlink:href="https://tools.wmflabs.org/scholia/Q15901933" target="_blank">
+      <a id="ac9cd" class="SingleFreeNode DataNode ChEBI_CHEBI_29103 Metabolite ChEBI_29103 P683_29103 P683_CHEBI_29103 HMDB_HMDB0000586 HMDB_HMDB00586 P2057_HMDB0000586 P2057_HMDB00586 Wikidata_Q15901933" color="#0000ff" name="K+" transform="translate(8,8)" xlink:href="https://tools.wmflabs.org/scholia/Q15901933" target="_blank">
         <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="30.5px" id="ac9cd-icon" width="66px" x="0" y="0" transform="matrix(0.9850746268656716, 0, 0, 0.9682539682539683, 0.4925373134328339, 0.4841269841269842)" class="Icon"/>
         <text id="ac9cd-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(33,21.25)">
           <tspan x="0" y="0">K+</tspan>
         </text>
       </a>
-      <a id="a394a" class="SingleFreeNode DataNode ChEBI_CHEBI_17544 Metabolite ChEBI_17544 P683_17544 HMDB_HMDB00595 P2057_HMDB00595 Wikidata_Q409202_T" color="#0000ff" name="HCO3-" transform="translate(8.166666666666515,66.5)" xlink:href="https://tools.wmflabs.org/scholia/T" target="_blank">
+      <a id="a394a" class="SingleFreeNode DataNode ChEBI_CHEBI_17544 Metabolite ChEBI_17544 P683_17544 P683_CHEBI_17544 HMDB_HMDB00595 P2057_HMDB00595 Wikidata_Q409202" color="#0000ff" name="HCO3-" transform="translate(8.166666666666515,66.5)" xlink:href="https://tools.wmflabs.org/scholia/Q409202" target="_blank">
         <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="38px" id="a394a-icon" width="65.83333333333348px" x="0" y="0" transform="matrix(0.9850374064837906, 0, 0, 0.9743589743589743, 0.49251870324189184, 0.487179487179489)" class="Icon"/>
         <text id="a394a-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(32.91666666666674,25)">
           <tspan x="0" y="0">HCO3-</tspan>
         </text>
       </a>
     </g>
-    <a id="b4956" class="SingleFreeNode DataNode ChEBI_CHEBI_15379 Metabolite ChEBI_15379_T ChEBI_15379 P683_15379_T P683_15379 HMDB_HMDB0001377 HMDB_HMDB01377 P2057_HMDB0001377 P2057_HMDB01377 Wikidata_Q5203615" color="#0000ff" name="O2" transform="translate(1908.7500000000014,697.9166666666663)" xlink:href="https://tools.wmflabs.org/scholia/Q5203615" target="_blank">
+    <a id="b4956" class="SingleFreeNode DataNode ChEBI_CHEBI_15379 Metabolite ChEBI_15379 P683_15379 P683_CHEBI_15379 HMDB_HMDB0001377 HMDB_HMDB01377 P2057_HMDB0001377 P2057_HMDB01377 Wikidata_Q5203615" color="#0000ff" name="O2" transform="translate(1908.7500000000014,697.9166666666663)" xlink:href="https://tools.wmflabs.org/scholia/Q5203615" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="28.083333333333712px" id="b4956-icon" width="49.249999999998636px" x="0" y="0" transform="matrix(0.9800995024875616, 0, 0, 0.9656160458452726, 0.4900497512437809, 0.4828080229226366)" class="Icon"/>
       <text id="b4956-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="15px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(24.624999999999318,19.041666666666856)">
         <tspan x="0" y="0">O2</tspan>
@@ -1085,7 +1109,7 @@
         <tspan x="0" y="0">SLC2A3</tspan>
       </text>
     </a>
-    <a id="fc6f0" class="SingleFreeNode DataNode ChEBI_CHEBI_28087 Metabolite ChEBI_28087 P683_28087 HMDB_HMDB00757 HMDB_HMDB0000757 P2057_HMDB00757 P2057_HMDB0000757 Wikidata_Q174936" color="#0000ff" name="glycogen" transform="translate(321.9999999999999,1096.1666666666665)" xlink:href="https://tools.wmflabs.org/scholia/Q174936" target="_blank">
+    <a id="fc6f0" class="SingleFreeNode DataNode ChEBI_CHEBI_28087 Metabolite ChEBI_28087 P683_28087 P683_CHEBI_28087 HMDB_HMDB00757 HMDB_HMDB0000757 P2057_HMDB00757 P2057_HMDB0000757 Wikidata_Q174936" color="#0000ff" name="glycogen" transform="translate(321.9999999999999,1096.1666666666665)" xlink:href="https://tools.wmflabs.org/scholia/Q174936" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="44.5px" id="fc6f0-icon" width="100px" x="0" y="0" transform="matrix(0.9900990099009901, 0, 0, 0.978021978021978, 0.4950495049504937, 0.48901098901098905)" class="Icon"/>
       <text id="fc6f0-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(50,28.25)">
         <tspan x="0" y="0">glycogen</tspan>
@@ -1097,7 +1121,7 @@
         <tspan x="0" y="0">PGM1</tspan>
       </text>
     </g>
-    <a id="ea546" class="SingleFreeNode DataNode HMDB_HMDB00221 Metabolite ChEBI_16474 P683_16474 HMDB_HMDB0000221 P2057_HMDB0000221 P2057_HMDB00221 Wikidata_Q26841327" color="#0000ff" name="NADPH" transform="translate(2094.166666666667,524.8333333333335)" xlink:href="https://tools.wmflabs.org/scholia/Q26841327" target="_blank">
+    <a id="ea546" class="SingleFreeNode DataNode HMDB_HMDB00221 Metabolite ChEBI_CHEBI_16474 ChEBI_16474 P683_CHEBI_16474 P683_16474 HMDB_HMDB0000221 P2057_HMDB0000221 P2057_HMDB00221 Wikidata_Q26841327" color="#0000ff" name="NADPH" transform="translate(2094.166666666667,524.8333333333335)" xlink:href="https://tools.wmflabs.org/scholia/Q26841327" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="35.16666666666663px" id="ea546-icon" width="68.50000000000006px" x="0" y="0" transform="matrix(0.9856115107913669, 0, 0, 0.9723502304147466, 0.49280575539568616, 0.48617511520737366)" class="Icon"/>
       <text id="ea546-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="15px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(34.25000000000003,22.583333333333314)">
         <tspan x="0" y="0">NADPH</tspan>
@@ -1109,7 +1133,7 @@
         <tspan x="0" y="0">Hexokinase</tspan>
       </text>
     </a>
-    <a id="aa48e" class="SingleFreeNode DataNode ChEBI_CHEBI_28300 Metabolite ChEBI_28300 P683_28300 HMDB_HMDB0030886 HMDB_HMDB30886 P2057_HMDB0030886 P2057_HMDB30886 Wikidata_Q27103623" color="#0000ff" name="glutamine" transform="translate(827.5,885.5)" xlink:href="https://tools.wmflabs.org/scholia/Q27103623" target="_blank">
+    <a id="aa48e" class="SingleFreeNode DataNode ChEBI_CHEBI_28300 Metabolite ChEBI_28300 P683_28300 P683_CHEBI_28300 HMDB_HMDB0030886 HMDB_HMDB30886 P2057_HMDB0030886 P2057_HMDB30886 Wikidata_Q27103623" color="#0000ff" name="glutamine" transform="translate(827.5,885.5)" xlink:href="https://tools.wmflabs.org/scholia/Q27103623" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="52.5px" id="aa48e-icon" width="108.5px" x="0" y="0" transform="matrix(0.9908675799086758, 0, 0, 0.9813084112149533, 0.4954337899543404, 0.49065420560747697)" class="Icon"/>
       <text id="aa48e-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(54.25,32.25)">
         <tspan x="0" y="0">glutamine</tspan>
@@ -1122,7 +1146,7 @@
         <tspan x="0" y="11">metabolism</tspan>
       </text>
     </a>
-    <a id="c2f41" class="SingleFreeNode DataNode ChEBI_CHEBI_14321 Metabolite ChEBI_14321 P683_14321 Wikidata_Q27108980" color="#0000ff" name="glutamate" transform="translate(1781,860)" xlink:href="https://tools.wmflabs.org/scholia/Q27108980" target="_blank">
+    <a id="c2f41" class="SingleFreeNode DataNode ChEBI_CHEBI_14321 Metabolite ChEBI_14321 P683_CHEBI_14321 P683_14321 Wikidata_Q27108980" color="#0000ff" name="glutamate" transform="translate(1781,860)" xlink:href="https://tools.wmflabs.org/scholia/Q27108980" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="45px" id="c2f41-icon" width="103px" x="0" y="0" transform="matrix(0.9903846153846154, 0, 0, 0.9782608695652174, 0.4951923076923066, 0.4891304347826093)" class="Icon"/>
       <text id="c2f41-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(51.5,28.5)">
         <tspan x="0" y="0">glutamate</tspan>
@@ -1134,13 +1158,7 @@
         <tspan x="0" y="0">LDHA</tspan>
       </text>
     </a>
-    <g id="ba342" class="SingleFreeNode DataNode Unknown" color="#00ccff" name="Neuron" transform="translate(2049.333333333333,930.833333333332)">
-      <use fill="transparent" fill-opacity="0" stroke="#00ccff" stroke-width="0" height="56.5px" id="ba342-icon" width="150px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-      <text id="ba342-text" class="Text" direction="ltr" fill="#00ccff" font-family="'Liberation Sans', Arial, sans-serif" font-size="30px" font-style="normal" font-weight="normal" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(75,38.25)">
-        <tspan x="0" y="0">Neuron</tspan>
-      </text>
-    </g>
-    <a id="d466d" class="SingleFreeNode DataNode ChEBI_CHEBI_16134 Metabolite ChEBI_16134 P683_16134 HMDB_HMDB0033934 HMDB_HMDB0000051 HMDB_HMDB33934 HMDB_HMDB00051 P2057_HMDB0033934 P2057_HMDB0000051 P2057_HMDB33934 P2057_HMDB00051 Wikidata_Q4087" color="#0000ff" name="ammonia" transform="translate(1114,883.5)" xlink:href="https://tools.wmflabs.org/scholia/Q4087" target="_blank">
+    <a id="d466d" class="SingleFreeNode DataNode ChEBI_CHEBI_16134 Metabolite ChEBI_16134 P683_CHEBI_16134 P683_16134 HMDB_HMDB0033934 HMDB_HMDB0000051 HMDB_HMDB33934 HMDB_HMDB00051 P2057_HMDB0033934 P2057_HMDB0000051 P2057_HMDB33934 P2057_HMDB00051 Wikidata_Q4087" color="#0000ff" name="ammonia" transform="translate(1114,883.5)" xlink:href="https://tools.wmflabs.org/scholia/Q4087" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="50.5px" id="d466d-icon" width="114px" x="0" y="0" transform="matrix(0.991304347826087, 0, 0, 0.9805825242718447, 0.4956521739130437, 0.4902912621359228)" class="Icon"/>
       <text id="d466d-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(57,31.25)">
         <tspan x="0" y="0">ammonia</tspan>
@@ -1148,20 +1166,20 @@
     </a>
     <g id="f1d69" class="Group GroupGroup" color="#808080" transform="translate(1435.499999999999,160.1666666666665)">
       <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="114.83333333333357px" id="f1d69-icon" width="107.16666666666652px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-      <a id="f8664" class="SingleFreeNode DataNode ChEBI_CHEBI_24996 Metabolite ChEBI_24996 P683_24996 Wikidata_Q27895931_T" color="#0000ff" name="lactate" transform="translate(8,8)" xlink:href="https://tools.wmflabs.org/scholia/T" target="_blank">
+      <a id="f8664" class="SingleFreeNode DataNode ChEBI_CHEBI_24996 Metabolite ChEBI_24996 P683_24996 P683_CHEBI_24996 Wikidata_Q27895931" color="#0000ff" name="lactate" transform="translate(8,8)" xlink:href="https://tools.wmflabs.org/scholia/Q27895931" target="_blank">
         <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="39.16666666666663px" id="f8664-icon" width="91.16666666666659px" x="0" y="0" transform="matrix(0.9891500904159132, 0, 0, 0.975103734439834, 0.49457504520795936, 0.48755186721991706)" class="Icon"/>
         <text id="f8664-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45.58333333333329,25.583333333333314)">
           <tspan x="0" y="0">lactate</tspan>
         </text>
       </a>
-      <a id="d44b8" class="SingleFreeNode DataNode ChEBI_CHEBI_15378 Metabolite ChEBI_15378_T ChEBI_15378 P683_15378_T P683_15378 HMDB_HMDB0059597 HMDB_HMDB59597 P2057_HMDB0059597 P2057_HMDB59597 Wikidata_Q506710" color="#0000ff" name="H+" transform="translate(14.50000000000091,67.66666666666683)" xlink:href="https://tools.wmflabs.org/scholia/Q506710" target="_blank">
+      <a id="d44b8" class="SingleFreeNode DataNode ChEBI_CHEBI_15378 Metabolite ChEBI_15378 P683_15378 P683_CHEBI_15378 HMDB_HMDB0059597 HMDB_HMDB59597 P2057_HMDB0059597 P2057_HMDB59597 Wikidata_Q506710" color="#0000ff" name="H+" transform="translate(14.50000000000091,67.66666666666683)" xlink:href="https://tools.wmflabs.org/scholia/Q506710" target="_blank">
         <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="39.166666666666735px" id="d44b8-icon" width="66.00000000000091px" x="0" y="0" transform="matrix(0.9850746268656718, 0, 0, 0.9751037344398341, 0.4925373134328339, 0.48755186721991706)" class="Icon"/>
         <text id="d44b8-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(33.000000000000455,25.583333333333368)">
           <tspan x="0" y="0">H+</tspan>
         </text>
       </a>
     </g>
-    <a id="e98e2" class="SingleFreeNode DataNode ChEBI_CHEBI_15361 Metabolite ChEBI_15361 P683_15361 Wikidata_Q27089397" color="#0000ff" name="pyruvate" transform="translate(1610.166666666666,454.6666666666689)" xlink:href="https://tools.wmflabs.org/scholia/Q27089397" target="_blank">
+    <a id="e98e2" class="SingleFreeNode DataNode ChEBI_CHEBI_15361 Metabolite ChEBI_15361 P683_CHEBI_15361 P683_15361 Wikidata_Q27089397" color="#0000ff" name="pyruvate" transform="translate(1610.166666666666,454.6666666666689)" xlink:href="https://tools.wmflabs.org/scholia/Q27089397" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="40.00000000000006px" id="e98e2-icon" width="104.5px" x="0" y="0" transform="matrix(0.990521327014218, 0, 0, 0.975609756097561, 0.4952606635071106, 0.4878048780487809)" class="Icon"/>
       <text id="e98e2-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(52.25,26.00000000000003)">
         <tspan x="0" y="0">pyruvate</tspan>
@@ -1173,13 +1191,13 @@
         <tspan x="0" y="0">LDHB</tspan>
       </text>
     </a>
-    <a id="a3677" class="SingleFreeNode DataNode ChEBI_CHEBI_17234 Metabolite ChEBI_17234 P683_17234 Wikidata_Q37525_T" color="#0000ff" name="glucose" transform="translate(1779.5000000000011,157.50000000000043)" xlink:href="https://tools.wmflabs.org/scholia/T" target="_blank">
+    <a id="a3677" class="SingleFreeNode DataNode ChEBI_CHEBI_17234 Metabolite ChEBI_17234 P683_CHEBI_17234 P683_17234 Wikidata_Q37525" color="#0000ff" name="glucose" transform="translate(1779.5000000000011,157.50000000000043)" xlink:href="https://tools.wmflabs.org/scholia/Q37525" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="43.16666666666652px" id="a3677-icon" width="97.8333333333334px" x="0" y="0" transform="matrix(0.9898819561551433, 0, 0, 0.9773584905660376, 0.4949409780775724, 0.48867924528302)" class="Icon"/>
       <text id="a3677-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(48.9166666666667,27.58333333333326)">
         <tspan x="0" y="0">glucose</tspan>
       </text>
     </a>
-    <a id="f0590" class="SingleFreeNode DataNode ChEBI_CHEBI_456216 Metabolite ChEBI_CHEBI_456216_T ChEBI_456216 P683_CHEBI_456216_T P683_456216 Wikidata_Q27225748" color="#0000ff" name="ADP" transform="translate(1682.1666666666665,279.50000000000006)" xlink:href="https://tools.wmflabs.org/scholia/Q27225748" target="_blank">
+    <a id="f0590" class="SingleFreeNode DataNode ChEBI_CHEBI_456216 Metabolite ChEBI_456216 P683_CHEBI_456216 P683_456216 Wikidata_Q27225748" color="#0000ff" name="ADP" transform="translate(1682.1666666666665,279.50000000000006)" xlink:href="https://tools.wmflabs.org/scholia/Q27225748" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="25.83333333333337px" id="f0590-icon" width="37.833333333333364px" x="0" y="0" transform="matrix(0.9742489270386266, 0, 0, 0.9627329192546584, 0.4871244635193115, 0.4813664596273295)" class="Icon"/>
       <text id="f0590-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="15px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(18.916666666666682,17.916666666666686)">
         <tspan x="0" y="0">ADP</tspan>
@@ -1191,19 +1209,19 @@
         <tspan x="0" y="0">Glycolysis</tspan>
       </text>
     </a>
-    <a id="af664" class="SingleFreeNode DataNode ChEBI_CHEBI_30616 Metabolite ChEBI_30616 P683_30616 Wikidata_Q27113900" color="#0000ff" name="ATP" transform="translate(1766,725.333333333333)" xlink:href="https://tools.wmflabs.org/scholia/Q27113900" target="_blank">
+    <a id="af664" class="SingleFreeNode DataNode ChEBI_CHEBI_30616 Metabolite ChEBI_30616 P683_30616 P683_CHEBI_30616 Wikidata_Q27113900" color="#0000ff" name="ATP" transform="translate(1766,725.333333333333)" xlink:href="https://tools.wmflabs.org/scholia/Q27113900" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="31.66666666666697px" id="af664-icon" width="48px" x="0" y="0" transform="matrix(0.9795918367346939, 0, 0, 0.9693877551020411, 0.48979591836734926, 0.48469387755102034)" class="Icon"/>
       <text id="af664-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="15px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(24,20.833333333333485)">
         <tspan x="0" y="0">ATP</tspan>
       </text>
     </a>
-    <a id="c0766" class="SingleFreeNode DataNode ChEBI_CHEBI_456216 Metabolite ChEBI_CHEBI_456216_T ChEBI_456216 P683_CHEBI_456216_T P683_456216 Wikidata_Q27225748" color="#0000ff" name="ADP" transform="translate(1908,726)" xlink:href="https://tools.wmflabs.org/scholia/Q27225748" target="_blank">
+    <a id="c0766" class="SingleFreeNode DataNode ChEBI_CHEBI_456216 Metabolite ChEBI_456216 P683_CHEBI_456216 P683_456216 Wikidata_Q27225748" color="#0000ff" name="ADP" transform="translate(1908,726)" xlink:href="https://tools.wmflabs.org/scholia/Q27225748" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="30px" id="c0766-icon" width="50px" x="0" y="0" transform="matrix(0.9803921568627451, 0, 0, 0.967741935483871, 0.49019607843137436, 0.48387096774193594)" class="Icon"/>
       <text id="c0766-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="15px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(25,20)">
         <tspan x="0" y="0">ADP</tspan>
       </text>
     </a>
-    <a id="dd37a" class="SingleFreeNode DataNode ChEBI_CHEBI_16526 Metabolite ChEBI_16526 P683_16526 HMDB_HMDB01967 HMDB_HMDB0001967 P2057_HMDB01967 P2057_HMDB0001967 Wikidata_Q1997" color="#0000ff" name="CO2" transform="translate(732,718)" xlink:href="https://tools.wmflabs.org/scholia/Q1997" target="_blank">
+    <a id="dd37a" class="SingleFreeNode DataNode ChEBI_CHEBI_16526 Metabolite ChEBI_16526 P683_CHEBI_16526 P683_16526 HMDB_HMDB01967 HMDB_HMDB0001967 P2057_HMDB01967 P2057_HMDB0001967 Wikidata_Q1997" color="#0000ff" name="CO2" transform="translate(732,718)" xlink:href="https://tools.wmflabs.org/scholia/Q1997" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="58px" id="dd37a-icon" width="114px" x="0" y="0" transform="matrix(0.991304347826087, 0, 0, 0.9830508474576272, 0.4956521739130437, 0.49152542372881314)" class="Icon"/>
       <text id="dd37a-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(57,35)">
         <tspan x="0" y="0">CO2</tspan>
@@ -1217,26 +1235,26 @@
     </a>
     <g id="b7198" class="Group GroupGroup" color="#808080" transform="translate(1116,258.83333333333337)">
       <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="129.16666666666663px" id="b7198-icon" width="108px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-      <a id="a80c3" class="SingleFreeNode DataNode ChEBI_CHEBI_17544 Metabolite ChEBI_17544 P683_17544 HMDB_HMDB00595 P2057_HMDB00595 Wikidata_Q409202_T" color="#0000ff" name="HCO3-" transform="translate(8,67.16666666666663)" xlink:href="https://tools.wmflabs.org/scholia/T" target="_blank">
+      <a id="a80c3" class="SingleFreeNode DataNode ChEBI_CHEBI_17544 Metabolite ChEBI_17544 P683_17544 P683_CHEBI_17544 HMDB_HMDB00595 P2057_HMDB00595 Wikidata_Q409202" color="#0000ff" name="HCO3-" transform="translate(8,67.16666666666663)" xlink:href="https://tools.wmflabs.org/scholia/Q409202" target="_blank">
         <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="54px" id="a80c3-icon" width="92px" x="0" y="0" transform="matrix(0.989247311827957, 0, 0, 0.9818181818181818, 0.4946236559139763, 0.49090909090909207)" class="Icon"/>
         <text id="a80c3-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(46,33)">
           <tspan x="0" y="0">HCO3-</tspan>
         </text>
       </a>
-      <a id="ab17a" class="SingleFreeNode DataNode ChEBI_CHEBI_15378 Metabolite ChEBI_15378_T ChEBI_15378 P683_15378_T P683_15378 HMDB_HMDB0059597 HMDB_HMDB59597 P2057_HMDB0059597 P2057_HMDB59597 Wikidata_Q506710" color="#0000ff" name="H+" transform="translate(16,8)" xlink:href="https://tools.wmflabs.org/scholia/Q506710" target="_blank">
+      <a id="ab17a" class="SingleFreeNode DataNode ChEBI_CHEBI_15378 Metabolite ChEBI_15378 P683_15378 P683_CHEBI_15378 HMDB_HMDB0059597 HMDB_HMDB59597 P2057_HMDB0059597 P2057_HMDB59597 Wikidata_Q506710" color="#0000ff" name="H+" transform="translate(16,8)" xlink:href="https://tools.wmflabs.org/scholia/Q506710" target="_blank">
         <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="45.16666666666663px" id="ab17a-icon" width="78px" x="0" y="0" transform="matrix(0.9873417721518988, 0, 0, 0.9783393501805054, 0.49367088607594667, 0.48916967509025255)" class="Icon"/>
         <text id="ab17a-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(39,28.583333333333314)">
           <tspan x="0" y="0">H+</tspan>
         </text>
       </a>
     </g>
-    <a id="d1971" class="SingleFreeNode DataNode ChEBI_CHEBI_16526 Metabolite ChEBI_16526 P683_16526 HMDB_HMDB01967 HMDB_HMDB0001967 P2057_HMDB01967 P2057_HMDB0001967 Wikidata_Q1997" color="#0000ff" name="CO2" transform="translate(1114,721.4999999999995)" xlink:href="https://tools.wmflabs.org/scholia/Q1997" target="_blank">
+    <a id="d1971" class="SingleFreeNode DataNode ChEBI_CHEBI_16526 Metabolite ChEBI_16526 P683_CHEBI_16526 P683_16526 HMDB_HMDB01967 HMDB_HMDB0001967 P2057_HMDB01967 P2057_HMDB0001967 Wikidata_Q1997" color="#0000ff" name="CO2" transform="translate(1114,721.4999999999995)" xlink:href="https://tools.wmflabs.org/scholia/Q1997" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="54.500000000000455px" id="d1971-icon" width="114px" x="0" y="0" transform="matrix(0.991304347826087, 0, 0, 0.9819819819819822, 0.4956521739130437, 0.49099099099099064)" class="Icon"/>
       <text id="d1971-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(57,33.250000000000227)">
         <tspan x="0" y="0">CO2</tspan>
       </text>
     </a>
-    <a id="b1fae" class="SingleFreeNode DataNode ChEBI_CHEBI_17234 Metabolite ChEBI_17234 P683_17234 Wikidata_Q37525_T" color="#0000ff" name="glucose" transform="translate(44.166666666668405,224.83333333333348)" xlink:href="https://tools.wmflabs.org/scholia/T" target="_blank">
+    <a id="b1fae" class="SingleFreeNode DataNode ChEBI_CHEBI_17234 Metabolite ChEBI_17234 P683_CHEBI_17234 P683_17234 Wikidata_Q37525" color="#0000ff" name="glucose" transform="translate(44.166666666668405,224.83333333333348)" xlink:href="https://tools.wmflabs.org/scholia/Q37525" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="43.16666666666652px" id="b1fae-icon" width="97.8333333333334px" x="0" y="0" transform="matrix(0.9898819561551433, 0, 0, 0.9773584905660376, 0.4949409780775724, 0.48867924528302)" class="Icon"/>
       <text id="b1fae-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(48.9166666666667,27.58333333333326)">
         <tspan x="0" y="0">glucose</tspan>
@@ -1254,7 +1272,7 @@
         <tspan x="0" y="0">CAIV</tspan>
       </text>
     </a>
-    <a id="e7767" class="SingleFreeNode DataNode ChEBI_CHEBI_29101 Metabolite ChEBI_29101 P683_29101 HMDB_HMDB0000588 HMDB_HMDB00588 P2057_HMDB0000588 P2057_HMDB00588 Wikidata_Q3154110" color="#0000ff" name="Na+" transform="translate(977.3333333333347,477.5)" xlink:href="https://tools.wmflabs.org/scholia/Q3154110" target="_blank">
+    <a id="e7767" class="SingleFreeNode DataNode ChEBI_CHEBI_29101 Metabolite ChEBI_29101 P683_29101 P683_CHEBI_29101 HMDB_HMDB0000588 HMDB_HMDB00588 P2057_HMDB0000588 P2057_HMDB00588 Wikidata_Q3154110" color="#0000ff" name="Na+" transform="translate(977.3333333333347,477.5)" xlink:href="https://tools.wmflabs.org/scholia/Q3154110" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="34.5px" id="e7767-icon" width="48px" x="0" y="0" transform="matrix(0.9795918367346939, 0, 0, 0.971830985915493, 0.48979591836734926, 0.4859154929577443)" class="Icon"/>
       <text id="e7767-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(24,23.25)">
         <tspan x="0" y="0">Na+</tspan>
@@ -1266,49 +1284,25 @@
         <tspan x="0" y="0">SLC2A1</tspan>
       </text>
     </a>
-    <g id="ebd02" class="SingleFreeNode DataNode Unknown" color="#ffcc00" name="Astrocyte" transform="translate(242,1217.5)">
-      <use fill="transparent" fill-opacity="0" stroke="#ffcc00" stroke-width="0" height="56.5px" id="ebd02-icon" width="150px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-      <text id="ebd02-text" class="Text" direction="ltr" fill="#ffcc00" font-family="'Liberation Sans', Arial, sans-serif" font-size="30px" font-style="normal" font-weight="normal" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(75,38.25)">
-        <tspan x="0" y="0">Astrocyte</tspan>
-      </text>
-    </g>
-    <g id="c02da" class="SingleFreeNode DataNode Unknown" color="#ff3333" name="Capillary" transform="translate(14,585.5)">
-      <use fill="transparent" fill-opacity="0" stroke="#ff3333" stroke-width="0" height="56.5px" id="c02da-icon" width="150px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-      <text id="c02da-text" class="Text" direction="ltr" fill="#ff3333" font-family="'Liberation Sans', Arial, sans-serif" font-size="30px" font-style="normal" font-weight="normal" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(75,38.25)">
-        <tspan x="0" y="0">Capillary</tspan>
-      </text>
-    </g>
-    <g id="dedbf" class="SingleFreeNode DataNode Unknown" color="#00ccff" name="Neuron" transform="translate(1373.3333333333333,1222.8333333333321)">
-      <use fill="transparent" fill-opacity="0" stroke="#00ccff" stroke-width="0" height="56.5px" id="dedbf-icon" width="150px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-      <text id="dedbf-text" class="Text" direction="ltr" fill="#00ccff" font-family="'Liberation Sans', Arial, sans-serif" font-size="30px" font-style="normal" font-weight="normal" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(75,38.25)">
-        <tspan x="0" y="0">Neuron</tspan>
-      </text>
-    </g>
-    <g id="cb1a1" class="SingleFreeNode DataNode Unknown" color="#00ccff" name="Synaptic cleft" transform="translate(1757.333333333333,1052.8333333333321)">
-      <use fill="transparent" fill-opacity="0" stroke="#00ccff" stroke-width="0" height="56.5px" id="cb1a1-icon" width="220.66666666666697px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-      <text id="cb1a1-text" class="Text" direction="ltr" fill="#00ccff" font-family="'Liberation Sans', Arial, sans-serif" font-size="30px" font-style="normal" font-weight="normal" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(110.33333333333348,38.25)">
-        <tspan x="0" y="0">Synaptic cleft</tspan>
-      </text>
-    </g>
-    <a id="df376" class="SingleFreeNode DataNode ChEBI_CHEBI_14321 Metabolite ChEBI_14321 P683_14321 Wikidata_Q27108980" color="#0000ff" name="glutamate" transform="translate(1305.5,1049.5)" xlink:href="https://tools.wmflabs.org/scholia/Q27108980" target="_blank">
+    <a id="df376" class="SingleFreeNode DataNode ChEBI_CHEBI_14321 Metabolite ChEBI_14321 P683_CHEBI_14321 P683_14321 Wikidata_Q27108980" color="#0000ff" name="glutamate" transform="translate(1305.5,1049.5)" xlink:href="https://tools.wmflabs.org/scholia/Q27108980" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="56.5px" id="df376-icon" width="110.5px" x="0" y="0" transform="matrix(0.9910313901345291, 0, 0, 0.9826086956521739, 0.4955156950672688, 0.49130434782608745)" class="Icon"/>
       <text id="df376-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(55.25,34.25)">
         <tspan x="0" y="0">glutamate</tspan>
       </text>
     </a>
-    <a id="c2b4a" class="SingleFreeNode DataNode ChEBI_CHEBI_14321 Metabolite ChEBI_14321 P683_14321 Wikidata_Q27108980" color="#0000ff" name="glutamate" transform="translate(825.5,1045.5)" xlink:href="https://tools.wmflabs.org/scholia/Q27108980" target="_blank">
+    <a id="c2b4a" class="SingleFreeNode DataNode ChEBI_CHEBI_14321 Metabolite ChEBI_14321 P683_CHEBI_14321 P683_14321 Wikidata_Q27108980" color="#0000ff" name="glutamate" transform="translate(825.5,1045.5)" xlink:href="https://tools.wmflabs.org/scholia/Q27108980" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="56.5px" id="c2b4a-icon" width="110.5px" x="0" y="0" transform="matrix(0.9910313901345291, 0, 0, 0.9826086956521739, 0.4955156950672688, 0.49130434782608745)" class="Icon"/>
       <text id="c2b4a-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(55.25,34.25)">
         <tspan x="0" y="0">glutamate</tspan>
       </text>
     </a>
-    <a id="f7823" class="SingleFreeNode DataNode ChEBI_CHEBI_28300 Metabolite ChEBI_28300 P683_28300 HMDB_HMDB0030886 HMDB_HMDB30886 P2057_HMDB0030886 P2057_HMDB30886 Wikidata_Q27103623" color="#0000ff" name="glutamine" transform="translate(1466.5,869)" xlink:href="https://tools.wmflabs.org/scholia/Q27103623" target="_blank">
+    <a id="f7823" class="SingleFreeNode DataNode ChEBI_CHEBI_28300 Metabolite ChEBI_28300 P683_28300 P683_CHEBI_28300 HMDB_HMDB0030886 HMDB_HMDB30886 P2057_HMDB0030886 P2057_HMDB30886 Wikidata_Q27103623" color="#0000ff" name="glutamine" transform="translate(1466.5,869)" xlink:href="https://tools.wmflabs.org/scholia/Q27103623" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="46px" id="f7823-icon" width="101.5px" x="0" y="0" transform="matrix(0.9902439024390244, 0, 0, 0.9787234042553191, 0.4951219512195095, 0.4893617021276597)" class="Icon"/>
       <text id="f7823-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(50.75,29)">
         <tspan x="0" y="0">glutamine</tspan>
       </text>
     </a>
-    <a id="b9b34" class="SingleFreeNode DataNode ChEBI_CHEBI_29101 Metabolite ChEBI_29101 P683_29101 HMDB_HMDB0000588 HMDB_HMDB00588 P2057_HMDB0000588 P2057_HMDB00588 Wikidata_Q3154110" color="#0000ff" name="Na+" transform="translate(870,1246.8333333333335)" xlink:href="https://tools.wmflabs.org/scholia/Q3154110" target="_blank">
+    <a id="b9b34" class="SingleFreeNode DataNode ChEBI_CHEBI_29101 Metabolite ChEBI_29101 P683_29101 P683_CHEBI_29101 HMDB_HMDB0000588 HMDB_HMDB00588 P2057_HMDB0000588 P2057_HMDB00588 Wikidata_Q3154110" color="#0000ff" name="Na+" transform="translate(870,1246.8333333333335)" xlink:href="https://tools.wmflabs.org/scholia/Q3154110" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="47.166666666666515px" id="b9b34-icon" width="84.66666666666674px" x="0" y="0" transform="matrix(0.9883268482490273, 0, 0, 0.9792387543252594, 0.4941634241245154, 0.4896193771626294)" class="Icon"/>
       <text id="b9b34-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(42.33333333333337,29.583333333333258)">
         <tspan x="0" y="0">Na+</tspan>
@@ -1320,43 +1314,43 @@
         <tspan x="0" y="0">CAII</tspan>
       </text>
     </a>
-    <a id="de7bb" class="SingleFreeNode DataNode ChEBI_CHEBI_30616 Metabolite ChEBI_30616 P683_30616 Wikidata_Q27113900" color="#0000ff" name="ATP" transform="translate(1664.6666666666665,322.6666666666665)" xlink:href="https://tools.wmflabs.org/scholia/Q27113900" target="_blank">
+    <a id="de7bb" class="SingleFreeNode DataNode ChEBI_CHEBI_30616 Metabolite ChEBI_30616 P683_30616 P683_CHEBI_30616 Wikidata_Q27113900" color="#0000ff" name="ATP" transform="translate(1664.6666666666665,322.6666666666665)" xlink:href="https://tools.wmflabs.org/scholia/Q27113900" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="24px" id="de7bb-icon" width="37.33333333333331px" x="0" y="0" transform="matrix(0.9739130434782608, 0, 0, 0.96, 0.4869565217391312, 0.4800000000000004)" class="Icon"/>
       <text id="de7bb-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="15px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(18.666666666666654,17)">
         <tspan x="0" y="0">ATP</tspan>
       </text>
     </a>
-    <a id="ae641" class="SingleFreeNode DataNode ChEBI_CHEBI_456216 Metabolite ChEBI_CHEBI_456216_T ChEBI_456216 P683_CHEBI_456216_T P683_456216 Wikidata_Q27225748" color="#0000ff" name="ADP" transform="translate(1929.5,958)" xlink:href="https://tools.wmflabs.org/scholia/Q27225748" target="_blank">
+    <a id="ae641" class="SingleFreeNode DataNode ChEBI_CHEBI_456216 Metabolite ChEBI_456216 P683_CHEBI_456216 P683_456216 Wikidata_Q27225748" color="#0000ff" name="ADP" transform="translate(1929.5,958)" xlink:href="https://tools.wmflabs.org/scholia/Q27225748" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="29.000000000000682px" id="ae641-icon" width="45.5px" x="0" y="0" transform="matrix(0.978494623655914, 0, 0, 0.9666666666666675, 0.4892473118279561, 0.4833333333333325)" class="Icon"/>
       <text id="ae641-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="15px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(22.75,19.500000000000341)">
         <tspan x="0" y="0">ADP</tspan>
       </text>
     </a>
-    <a id="cdcbf" class="SingleFreeNode DataNode ChEBI_CHEBI_30616 Metabolite ChEBI_30616 P683_30616 Wikidata_Q27113900" color="#0000ff" name="ATP" transform="translate(1918.666666666666,912.333333333333)" xlink:href="https://tools.wmflabs.org/scholia/Q27113900" target="_blank">
+    <a id="cdcbf" class="SingleFreeNode DataNode ChEBI_CHEBI_30616 Metabolite ChEBI_30616 P683_30616 P683_CHEBI_30616 Wikidata_Q27113900" color="#0000ff" name="ATP" transform="translate(1918.666666666666,912.333333333333)" xlink:href="https://tools.wmflabs.org/scholia/Q27113900" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="26.66666666666697px" id="cdcbf-icon" width="50.66666666666728px" x="0" y="0" transform="matrix(0.9806451612903229, 0, 0, 0.9638554216867474, 0.49032258064515943, 0.4819277108433724)" class="Icon"/>
       <text id="cdcbf-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="15px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(25.33333333333364,18.333333333333485)">
         <tspan x="0" y="0">ATP</tspan>
       </text>
     </a>
-    <a id="dd33b" class="SingleFreeNode DataNode ChEBI_CHEBI_15378 Metabolite ChEBI_15378_T ChEBI_15378 P683_15378_T P683_15378 HMDB_HMDB0059597 HMDB_HMDB59597 P2057_HMDB0059597 P2057_HMDB59597 Wikidata_Q506710" color="#0000ff" name="H+" transform="translate(870,1294.833333333333)" xlink:href="https://tools.wmflabs.org/scholia/Q506710" target="_blank">
+    <a id="dd33b" class="SingleFreeNode DataNode ChEBI_CHEBI_15378 Metabolite ChEBI_15378 P683_15378 P683_CHEBI_15378 HMDB_HMDB0059597 HMDB_HMDB59597 P2057_HMDB0059597 P2057_HMDB59597 Wikidata_Q506710" color="#0000ff" name="H+" transform="translate(870,1294.833333333333)" xlink:href="https://tools.wmflabs.org/scholia/Q506710" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="39.166666666666735px" id="dd33b-icon" width="86px" x="0" y="0" transform="matrix(0.9885057471264368, 0, 0, 0.9751037344398341, 0.49425287356321945, 0.48755186721991706)" class="Icon"/>
       <text id="dd33b-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(43,25.583333333333368)">
         <tspan x="0" y="0">H+</tspan>
       </text>
     </a>
-    <a id="d7425" class="SingleFreeNode DataNode ChEBI_CHEBI_29101 Metabolite ChEBI_29101 P683_29101 HMDB_HMDB0000588 HMDB_HMDB00588 P2057_HMDB0000588 P2057_HMDB00588 Wikidata_Q3154110" color="#0000ff" name="Na+" transform="translate(861.3333333333331,1584.1666666666658)" xlink:href="https://tools.wmflabs.org/scholia/Q3154110" target="_blank">
+    <a id="d7425" class="SingleFreeNode DataNode ChEBI_CHEBI_29101 Metabolite ChEBI_29101 P683_29101 P683_CHEBI_29101 HMDB_HMDB0000588 HMDB_HMDB00588 P2057_HMDB0000588 P2057_HMDB00588 Wikidata_Q3154110" color="#0000ff" name="Na+" transform="translate(861.3333333333331,1584.1666666666658)" xlink:href="https://tools.wmflabs.org/scholia/Q3154110" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="47.166666666666515px" id="d7425-icon" width="84.66666666666674px" x="0" y="0" transform="matrix(0.9883268482490273, 0, 0, 0.9792387543252594, 0.4941634241245154, 0.4896193771626294)" class="Icon"/>
       <text id="d7425-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(42.33333333333337,29.583333333333258)">
         <tspan x="0" y="0">Na+</tspan>
       </text>
     </a>
-    <a id="f1249" class="SingleFreeNode DataNode ChEBI_CHEBI_29103 Metabolite ChEBI_29103 P683_29103 HMDB_HMDB0000586 HMDB_HMDB00586 P2057_HMDB0000586 P2057_HMDB00586 Wikidata_Q15901933" color="#0000ff" name="K+" transform="translate(582,1561.5)" xlink:href="https://tools.wmflabs.org/scholia/Q15901933" target="_blank">
+    <a id="f1249" class="SingleFreeNode DataNode ChEBI_CHEBI_29103 Metabolite ChEBI_29103 P683_29103 P683_CHEBI_29103 HMDB_HMDB0000586 HMDB_HMDB00586 P2057_HMDB0000586 P2057_HMDB00586 Wikidata_Q15901933" color="#0000ff" name="K+" transform="translate(582,1561.5)" xlink:href="https://tools.wmflabs.org/scholia/Q15901933" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="30.5px" id="f1249-icon" width="66px" x="0" y="0" transform="matrix(0.9850746268656716, 0, 0, 0.9682539682539683, 0.4925373134328339, 0.4841269841269842)" class="Icon"/>
       <text id="f1249-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(33,21.25)">
         <tspan x="0" y="0">K+</tspan>
       </text>
     </a>
-    <a id="d9eee" class="SingleFreeNode DataNode ChEBI_CHEBI_29103 Metabolite ChEBI_29103 P683_29103 HMDB_HMDB0000586 HMDB_HMDB00586 P2057_HMDB0000586 P2057_HMDB00586 Wikidata_Q15901933" color="#0000ff" name="K+" transform="translate(582,1411.5)" xlink:href="https://tools.wmflabs.org/scholia/Q15901933" target="_blank">
+    <a id="d9eee" class="SingleFreeNode DataNode ChEBI_CHEBI_29103 Metabolite ChEBI_29103 P683_29103 P683_CHEBI_29103 HMDB_HMDB0000586 HMDB_HMDB00586 P2057_HMDB0000586 P2057_HMDB00586 Wikidata_Q15901933" color="#0000ff" name="K+" transform="translate(582,1411.5)" xlink:href="https://tools.wmflabs.org/scholia/Q15901933" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="30.5px" id="d9eee-icon" width="66px" x="0" y="0" transform="matrix(0.9850746268656716, 0, 0, 0.9682539682539683, 0.4925373134328339, 0.4841269841269842)" class="Icon"/>
       <text id="d9eee-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(33,21.25)">
         <tspan x="0" y="0">K+</tspan>
@@ -1367,13 +1361,13 @@
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="a2827-path" d="M648,1569.125L658,1569.1249999999998C668,1569.125,688,1569.125,698,1545.3958333333333C708,1521.6666666666665,708,1474.2083333333333,698,1450.4791666666667C688,1426.75,668,1426.75,658,1426.75L648,1426.75" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
-    <a id="d0dc2" class="SingleFreeNode DataNode ChEBI_CHEBI_30616 Metabolite ChEBI_30616 P683_30616 Wikidata_Q27113900" color="#0000ff" name="ATP" transform="translate(786.6666666666662,1365.333333333334)" xlink:href="https://tools.wmflabs.org/scholia/Q27113900" target="_blank">
+    <a id="d0dc2" class="SingleFreeNode DataNode ChEBI_CHEBI_30616 Metabolite ChEBI_30616 P683_30616 P683_CHEBI_30616 Wikidata_Q27113900" color="#0000ff" name="ATP" transform="translate(786.6666666666662,1365.333333333334)" xlink:href="https://tools.wmflabs.org/scholia/Q27113900" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="40.666666666666515px" id="d0dc2-icon" width="57.33333333333371px" x="0" y="0" transform="matrix(0.982857142857143, 0, 0, 0.9759999999999999, 0.4914285714285711, 0.48799999999999955)" class="Icon"/>
       <text id="d0dc2-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="15px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(28.666666666666856,25.333333333333258)">
         <tspan x="0" y="0">ATP</tspan>
       </text>
     </a>
-    <a id="eae49" class="SingleFreeNode DataNode ChEBI_CHEBI_456216 Metabolite ChEBI_CHEBI_456216_T ChEBI_456216 P683_CHEBI_456216_T P683_456216 Wikidata_Q27225748" color="#0000ff" name="ADP" transform="translate(688,1356)" xlink:href="https://tools.wmflabs.org/scholia/Q27225748" target="_blank">
+    <a id="eae49" class="SingleFreeNode DataNode ChEBI_CHEBI_456216 Metabolite ChEBI_456216 P683_CHEBI_456216 P683_456216 Wikidata_Q27225748" color="#0000ff" name="ADP" transform="translate(688,1356)" xlink:href="https://tools.wmflabs.org/scholia/Q27225748" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="36.000000000000455px" id="eae49-icon" width="53.33333333333303px" x="0" y="0" transform="matrix(0.9815950920245398, 0, 0, 0.9729729729729734, 0.49079754601227066, 0.4864864864864842)" class="Icon"/>
       <text id="eae49-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="15px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(26.666666666666515,23.000000000000227)">
         <tspan x="0" y="0">ADP</tspan>
@@ -1414,13 +1408,13 @@
     </g>
     <g id="d095a" class="Group GroupGroup" color="#808080" transform="translate(1115.499999999999,112.00236071765801)">
       <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="116.01463644948092px" id="d095a-icon" width="107.16666666666652px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-      <a id="ef0f3" class="SingleFreeNode DataNode ChEBI_CHEBI_24996 Metabolite ChEBI_24996 P683_24996 Wikidata_Q27895931_T" color="#0000ff" name="lactate" transform="translate(8,8)" xlink:href="https://tools.wmflabs.org/scholia/T" target="_blank">
+      <a id="ef0f3" class="SingleFreeNode DataNode ChEBI_CHEBI_24996 Metabolite ChEBI_24996 P683_24996 P683_CHEBI_24996 Wikidata_Q27895931" color="#0000ff" name="lactate" transform="translate(8,8)" xlink:href="https://tools.wmflabs.org/scholia/Q27895931" target="_blank">
         <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="39.16666666666663px" id="ef0f3-icon" width="91.16666666666659px" x="0" y="0" transform="matrix(0.9891500904159132, 0, 0, 0.975103734439834, 0.49457504520795936, 0.48755186721991706)" class="Icon"/>
         <text id="ef0f3-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(45.58333333333329,25.583333333333314)">
           <tspan x="0" y="0">lactate</tspan>
         </text>
       </a>
-      <a id="b3e39" class="SingleFreeNode DataNode ChEBI_CHEBI_15378 Metabolite ChEBI_15378_T ChEBI_15378 P683_15378_T P683_15378 HMDB_HMDB0059597 HMDB_HMDB59597 P2057_HMDB0059597 P2057_HMDB59597 Wikidata_Q506710" color="#0000ff" name="H+" transform="translate(15.168555240794376,62.84796978281429)" xlink:href="https://tools.wmflabs.org/scholia/Q506710" target="_blank">
+      <a id="b3e39" class="SingleFreeNode DataNode ChEBI_CHEBI_15378 Metabolite ChEBI_15378 P683_15378 P683_CHEBI_15378 HMDB_HMDB0059597 HMDB_HMDB59597 P2057_HMDB0059597 P2057_HMDB59597 Wikidata_Q506710" color="#0000ff" name="H+" transform="translate(15.168555240794376,62.84796978281429)" xlink:href="https://tools.wmflabs.org/scholia/Q506710" target="_blank">
         <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="45.16666666666663px" id="b3e39-icon" width="78px" x="0" y="0" transform="matrix(0.9873417721518988, 0, 0, 0.9783393501805054, 0.49367088607594667, 0.48916967509025255)" class="Icon"/>
         <text id="b3e39-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="20px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(39,28.583333333333314)">
           <tspan x="0" y="0">H+</tspan>
@@ -1445,7 +1439,7 @@
     </g>
     <text id="WP5314-text" class="Text" direction="ltr" dominant-baseline="central" fill="black" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" overflow="visible" stroke="white" stroke-width="0px" text-anchor="start" transform="translate(5,36)">
       <tspan x="0" y="-18">Name: Lactate shuttle in glial cells</tspan>
-      <tspan x="0" y="0">Last Modified: 20230227225416</tspan>
+      <tspan x="0" y="0">Last Modified: 20230310112022</tspan>
       <tspan x="0" y="18">Organism: Homo sapiens</tspan>
     </text>
   </g>
