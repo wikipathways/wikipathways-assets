@@ -5732,7 +5732,7 @@
         "fe676"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimConversion",
+      "markerEnd": "Arrow",
       "points": [
         {
           "attachmentDisplay": {
@@ -5774,10 +5774,15 @@
         }
       ],
       "stroke": "#000000",
+      "strokeDasharray": "5,3",
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
       ],
       "zIndex": 32789
     },
@@ -6378,7 +6383,7 @@
         "f3d38"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimConversion",
+      "markerEnd": "Arrow",
       "points": [
         {
           "attachmentDisplay": {
@@ -6420,10 +6425,15 @@
         }
       ],
       "stroke": "#000000",
+      "strokeDasharray": "5,3",
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
       ],
       "zIndex": 32788
     },
@@ -6582,7 +6592,8 @@
         "DataNode",
         "SingleFreeNode",
         "LIPID MAPS:LMFA01030386",
-        "Metabolite"
+        "Metabolite",
+        "Wikidata:Q117196308"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -8193,6 +8204,37 @@
       "y": 242.3505467800725,
       "zIndex": 32922
     },
+    "edf86": {
+      "drawAs": "none",
+      "fill": "transparent",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "Label",
+      "height": 25,
+      "id": "edf86",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#404040",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "textContent": "Existance of this lipids\nin samples is uncertain",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "Label",
+        "SingleFreeNode"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 169,
+      "x": 793,
+      "y": 218.5,
+      "zIndex": 28672
+    },
     "eea01": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -8779,6 +8821,11 @@
       "zIndex": 12288
     },
     "f3d38": {
+      "comments": [
+        {
+          "content": "Existance of this lipids in samples is uncertain; not part of LIPID MAPS, therefore not annotated"
+        }
+      ],
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -12162,6 +12209,7 @@
       "db686",
       "ed0ea",
       "ed76d",
+      "edf86",
       "fa325",
       "c1e5e",
       "d76d1",
@@ -12312,7 +12360,7 @@
       "c930f",
       "c1d09"
     ],
-    "dataSourceVersion": "WP4491_r125917",
+    "dataSourceVersion": "WP4491_r125976",
     "displayName": "very long chain fatty acids",
     "drawAs": "rect",
     "fill": "white",
@@ -12322,7 +12370,7 @@
     "height": 1021.2904009720529,
     "id": "WP4491",
     "kaavioType": "Group",
-    "lastModified": "20230318022631",
+    "lastModified": "20230323155803",
     "name": "Elongation of (very) long chain fatty acids",
     "organism": "Mus musculus",
     "padding": 5,
@@ -12331,12 +12379,12 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Elongation of (very) long chain fatty acids\nLast Modified: 20230318022631\nOrganism: Mus musculus",
+    "textContent": "Name: Elongation of (very) long chain fatty acids\nLast Modified: 20230323155803\nOrganism: Mus musculus",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0000029",
       "http://identifiers.org/pw/PW:0001136",
-      "http://identifiers.org/pw/PW:0000058"
+      "http://identifiers.org/pw/PW:0000058",
+      "http://identifiers.org/pw/PW:0000029"
     ],
     "verticalAlign": "top",
     "width": 1366.1462728551337,
