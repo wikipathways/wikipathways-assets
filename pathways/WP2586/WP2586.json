@@ -1,6 +1,7 @@
 {
   "entitiesById": {
     "a02d8": {
+      "cellularComponent": "none",
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -10,7 +11,7 @@
       "gpmlElementName": "Shape",
       "height": 22,
       "id": "a02d8",
-      "isPartOf": "e163a",
+      "isPartOf": "f4bd3",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -25,7 +26,10 @@
       "textOverflow": "clip",
       "type": [
         "Shape",
-        "SingleFreeNode"
+        "SingleFreeNode",
+        "PhysicalEntity",
+        "CellularComponent",
+        "none"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -44,7 +48,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "a03dc",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -76,7 +80,7 @@
       "gpmlElementName": "Label",
       "height": 16,
       "id": "a1b02",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -107,11 +111,11 @@
       "gpmlElementName": "Interaction",
       "id": "a27af",
       "isAttachedTo": [
-        "afca1",
+        "df20e",
         "a80d6"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -124,8 +128,7 @@
               1
             ]
           },
-          "id": "a9f7b",
-          "isAttachedTo": "afca1",
+          "isAttachedTo": "df20e",
           "orientation": [
             0,
             1
@@ -134,7 +137,6 @@
           "y": 872
         },
         {
-          "id": "d830d",
           "x": 777.25,
           "y": 1148
         },
@@ -149,7 +151,6 @@
               0
             ]
           },
-          "id": "a88da",
           "isAttachedTo": "a80d6",
           "orientation": [
             0,
@@ -163,7 +164,9 @@
       "strokeWidth": 2,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 33682
     },
@@ -190,7 +193,6 @@
               1
             ]
           },
-          "id": "b6fef",
           "isAttachedTo": "a80d6",
           "orientation": [
             0,
@@ -210,7 +212,6 @@
               0
             ]
           },
-          "id": "fe898",
           "isAttachedTo": "a5018",
           "orientation": [
             0,
@@ -238,17 +239,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "a3ae2",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "ab9a5",
           "x": 39.999999999997044,
           "y": 373.6582084822985
         },
         {
-          "id": "df4db",
           "x": 97.99999999999636,
           "y": 373.6582084822985
         }
@@ -307,7 +306,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "a3d41",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -416,7 +415,7 @@
       "gpmlElementName": "Shape",
       "height": 19.113585746102444,
       "id": "a42c3",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -449,7 +448,7 @@
       "gpmlElementName": "Label",
       "height": 16,
       "id": "a4554",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -579,7 +578,6 @@
               1
             ]
           },
-          "id": "edd60",
           "isAttachedTo": "a80d6",
           "orientation": [
             0,
@@ -599,7 +597,6 @@
               0
             ]
           },
-          "id": "ff43d",
           "isAttachedTo": "fed0f",
           "orientation": [
             0,
@@ -632,7 +629,7 @@
       "gpmlElementName": "Label",
       "height": 16,
       "id": "a697c",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -654,36 +651,6 @@
       "y": 769.5238095238099,
       "zIndex": 33637
     },
-    "a6e33": {
-      "contains": [
-        "aba94",
-        "bd60d",
-        "b426e"
-      ],
-      "drawAs": "Octagon",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 86.16666666666697,
-      "id": "a6e33",
-      "kaavioType": "Group",
-      "padding": 11,
-      "stroke": "#808080",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "Complex",
-        "GroupComplex"
-      ],
-      "verticalAlign": "middle",
-      "width": 111.217086834734,
-      "x": 844.1666666666666,
-      "y": 479.5,
-      "zIndex": 32768
-    },
     "a75a1": {
       "drawAs": "none",
       "fill": "transparent",
@@ -694,7 +661,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "a75a1",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -772,7 +739,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "a773c",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -840,6 +807,38 @@
       "y": 1270,
       "zIndex": 32822
     },
+    "a8219": {
+      "contains": [
+        "d8ae0",
+        "ffa48",
+        "cdf5c",
+        "d7eb6",
+        "f2dca"
+      ],
+      "drawAs": "Octagon",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 132,
+      "id": "a8219",
+      "kaavioType": "Group",
+      "padding": 11,
+      "stroke": "#808080",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "Complex",
+        "GroupComplex"
+      ],
+      "verticalAlign": "middle",
+      "width": 104,
+      "x": 732.75,
+      "y": 623.25,
+      "zIndex": 32817
+    },
     "a8343": {
       "citations": [
         "publicationXrefe3d"
@@ -891,39 +890,6 @@
       "y": 1205.5,
       "zIndex": 32768
     },
-    "a8484": {
-      "contains": [
-        "e560f",
-        "c41f0",
-        "e65ae",
-        "da5d7",
-        "f147b",
-        "da145"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 194.5,
-      "id": "a8484",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 85.5,
-      "x": 271.1640372624146,
-      "y": 656.9776500638552,
-      "zIndex": 16424
-    },
     "a88ac": {
       "attachmentDisplay": {
         "offset": [
@@ -966,7 +932,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "a8941",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1011,7 +977,6 @@
               1
             ]
           },
-          "id": "fffb7",
           "isAttachedTo": "c2cc5",
           "orientation": [
             0,
@@ -1031,7 +996,6 @@
               0
             ]
           },
-          "id": "c929d",
           "isAttachedTo": "a5018",
           "orientation": [
             0,
@@ -1064,7 +1028,7 @@
       "gpmlElementName": "DataNode",
       "height": 33.49999999999999,
       "id": "a8e72",
-      "isPartOf": "f22e7",
+      "isPartOf": "cf6c8",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1103,17 +1067,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "a92ff",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "fae51",
           "x": 39.999999999997044,
           "y": 252.99999999999454
         },
         {
-          "id": "e2974",
           "x": 98.00000170001613,
           "y": 253.65939727790646
         }
@@ -1148,7 +1110,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a97b0",
-      "isPartOf": "cbd53",
+      "isPartOf": "b4164",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1192,7 +1154,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a9a74",
-      "isPartOf": "bb505",
+      "isPartOf": "cf474",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1236,7 +1198,7 @@
       "gpmlElementName": "Label",
       "height": 16,
       "id": "aaad9",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1268,7 +1230,7 @@
       "gpmlElementName": "DataNode",
       "height": 22,
       "id": "aaceb",
-      "isPartOf": "f4daa",
+      "isPartOf": "cdac9",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1404,7 +1366,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "ab648",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1436,7 +1398,7 @@
       "gpmlElementName": "DataNode",
       "height": 17.5,
       "id": "aba94",
-      "isPartOf": "a6e33",
+      "isPartOf": "c3bdd",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1475,17 +1437,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "ac2bb",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
       "markerEnd": "MimConversion",
       "points": [
         {
-          "id": "ef14e",
           "x": 94.4837201898356,
           "y": 629.0887265873953
         },
         {
-          "id": "facc1",
           "x": 94.4837201898356,
           "y": 654.0887265873953
         }
@@ -1550,37 +1510,6 @@
       "y": 545.5504201680673,
       "zIndex": 32768
     },
-    "afca1": {
-      "contains": [
-        "b2d82",
-        "e7f53",
-        "b68c6",
-        "dac5e"
-      ],
-      "drawAs": "Octagon",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 77,
-      "id": "afca1",
-      "kaavioType": "Group",
-      "padding": 11,
-      "stroke": "#808080",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "Complex",
-        "GroupComplex"
-      ],
-      "verticalAlign": "middle",
-      "width": 126,
-      "x": 911,
-      "y": 795,
-      "zIndex": 32799
-    },
     "b0620": {
       "drawAs": "none",
       "fill": "transparent",
@@ -1591,7 +1520,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "b0620",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1623,7 +1552,7 @@
       "gpmlElementName": "DataNode",
       "height": 21.5,
       "id": "b0732",
-      "isPartOf": "c874b",
+      "isPartOf": "ea83a",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1699,12 +1628,10 @@
       "markerEnd": "MimConversion",
       "points": [
         {
-          "id": "c63ec",
           "x": 1024,
           "y": 986.1853635050554
         },
         {
-          "id": "e1126",
           "x": 1024,
           "y": 1009.1853635050554
         }
@@ -1727,7 +1654,7 @@
       "gpmlElementName": "Shape",
       "height": 31,
       "id": "b240f",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1759,10 +1686,10 @@
       "id": "b29ae",
       "isAttachedTo": [
         "acbf4",
-        "b601d"
+        "dd14c"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -1775,7 +1702,6 @@
               1
             ]
           },
-          "id": "ae7fa",
           "isAttachedTo": "acbf4",
           "orientation": [
             0,
@@ -1799,8 +1725,7 @@
               0
             ]
           },
-          "id": "c48be",
-          "isAttachedTo": "b601d",
+          "isAttachedTo": "dd14c",
           "orientation": [
             0,
             1
@@ -1813,7 +1738,9 @@
       "strokeWidth": 2,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 32821
     },
@@ -1827,7 +1754,7 @@
       "gpmlElementName": "DataNode",
       "height": 24,
       "id": "b2d82",
-      "isPartOf": "afca1",
+      "isPartOf": "df20e",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1899,17 +1826,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "b3e3f",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "f73a9",
           "x": 39.999999999997044,
           "y": 273.65939727790646
         },
         {
-          "id": "e73d4",
           "x": 97.99999999999636,
           "y": 273.65939727790646
         }
@@ -1941,7 +1866,7 @@
       "gpmlElementName": "DataNode",
       "height": 21.5,
       "id": "b3edf",
-      "isPartOf": "e17aa",
+      "isPartOf": "c8f3c",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1975,7 +1900,7 @@
       "gpmlElementName": "Label",
       "height": 21,
       "id": "b3f54",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1997,6 +1922,38 @@
       "y": 586.1402508551844,
       "zIndex": 33589
     },
+    "b4164": {
+      "contains": [
+        "fba25",
+        "cb96c",
+        "a97b0",
+        "b6a53",
+        "d3431"
+      ],
+      "drawAs": "Octagon",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 133,
+      "id": "b4164",
+      "kaavioType": "Group",
+      "padding": 11,
+      "stroke": "#808080",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "Complex",
+        "GroupComplex"
+      ],
+      "verticalAlign": "middle",
+      "width": 105,
+      "x": 1307.1478093403953,
+      "y": 1129.4824265767938,
+      "zIndex": 32809
+    },
     "b426e": {
       "burrs": [
         "d5d56"
@@ -2013,7 +1970,7 @@
       "gpmlElementName": "DataNode",
       "height": 17.5,
       "id": "b426e",
-      "isPartOf": "a6e33",
+      "isPartOf": "c3bdd",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2057,7 +2014,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "b42d0",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2097,7 +2054,7 @@
       "gpmlElementName": "DataNode",
       "height": 28,
       "id": "b4ed1",
-      "isPartOf": "b601d",
+      "isPartOf": "dd14c",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2132,6 +2089,7 @@
       "zIndex": 32768
     },
     "b4f29": {
+      "cellularComponent": "none",
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -2141,7 +2099,7 @@
       "gpmlElementName": "Shape",
       "height": 22,
       "id": "b4f29",
-      "isPartOf": "e566f",
+      "isPartOf": "d7f0c",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2156,7 +2114,10 @@
       "textOverflow": "clip",
       "type": [
         "Shape",
-        "SingleFreeNode"
+        "SingleFreeNode",
+        "PhysicalEntity",
+        "CellularComponent",
+        "none"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2188,7 +2149,6 @@
               1
             ]
           },
-          "id": "cb0b3",
           "isAttachedTo": "c52eb",
           "orientation": [
             0,
@@ -2208,7 +2168,6 @@
               0
             ]
           },
-          "id": "ab3e8",
           "isAttachedTo": "a5018",
           "orientation": [
             0,
@@ -2231,39 +2190,6 @@
       ],
       "zIndex": 33685
     },
-    "b601d": {
-      "citations": [
-        "publicationXrefe06",
-        "publicationXrefad6"
-      ],
-      "contains": [
-        "b4ed1",
-        "bb43a"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 81.99999999999909,
-      "id": "b601d",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 84,
-      "x": 558.3856960408685,
-      "y": 1025.0395913154546,
-      "zIndex": 32768
-    },
     "b626e": {
       "drawAs": "none",
       "fill": "transparent",
@@ -2274,7 +2200,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "b626e",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2306,7 +2232,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "b66b1",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2338,7 +2264,7 @@
         "e1c52"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -2351,7 +2277,6 @@
               1
             ]
           },
-          "id": "f1699",
           "isAttachedTo": "b8267",
           "orientation": [
             0,
@@ -2371,7 +2296,6 @@
               0
             ]
           },
-          "id": "ad98c",
           "isAttachedTo": "e1c52",
           "orientation": [
             0,
@@ -2386,7 +2310,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 33665
     },
@@ -2403,7 +2329,7 @@
       "gpmlElementName": "DataNode",
       "height": 23,
       "id": "b68c6",
-      "isPartOf": "afca1",
+      "isPartOf": "df20e",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2447,7 +2373,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "b6a53",
-      "isPartOf": "cbd53",
+      "isPartOf": "b4164",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2556,35 +2482,6 @@
       "verticalAlign": "middle",
       "width": 15
     },
-    "b84cb": {
-      "contains": [
-        "cc9aa",
-        "f1d0b"
-      ],
-      "drawAs": "Octagon",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 64.5,
-      "id": "b84cb",
-      "kaavioType": "Group",
-      "padding": 11,
-      "stroke": "#808080",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "Complex",
-        "GroupComplex"
-      ],
-      "verticalAlign": "middle",
-      "width": 105.5,
-      "x": 665.9496124031006,
-      "y": 811.8410852713184,
-      "zIndex": 32768
-    },
     "b98df": {
       "burrs": [
         "a3d29"
@@ -2636,17 +2533,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "b9b53",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
       "markerEnd": "MimTranscriptionTranslation",
       "points": [
         {
-          "id": "cd593",
           "x": 38.999999999997044,
           "y": 184.9999999999958
         },
         {
-          "id": "ff525",
           "x": 96.99999999999636,
           "y": 184.9999999999958
         }
@@ -2697,17 +2592,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "baf56",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "a2847",
           "x": 39.999999999997044,
           "y": 293.65939727790646
         },
         {
-          "id": "d3428",
           "x": 97.99999999999636,
           "y": 293.65939727790646
         }
@@ -2734,7 +2627,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "bb3cd",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2769,7 +2662,7 @@
       "gpmlElementName": "DataNode",
       "height": 36,
       "id": "bb43a",
-      "isPartOf": "b601d",
+      "isPartOf": "dd14c",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2803,55 +2696,20 @@
       "y": 8,
       "zIndex": 32773
     },
-    "bb505": {
-      "citations": [
-        "publicationXrefd5c"
-      ],
-      "contains": [
-        "a9a74",
-        "d11a8",
-        "e6a72"
-      ],
-      "drawAs": "Octagon",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 89,
-      "id": "bb505",
-      "kaavioType": "Group",
-      "padding": 11,
-      "stroke": "#808080",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "Complex",
-        "GroupComplex"
-      ],
-      "verticalAlign": "middle",
-      "width": 105,
-      "x": 1188.9256875365706,
-      "y": 1064,
-      "zIndex": 32768
-    },
     "bc828": {
       "drawAs": "StraightLine",
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "bc828",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "ea03b",
           "x": 39.999999999997044,
           "y": 413.6570196866903
         },
         {
-          "id": "fd950",
           "x": 97.99999999999636,
           "y": 413.6570196866903
         }
@@ -2868,6 +2726,35 @@
       ],
       "zIndex": 33628
     },
+    "bca0b": {
+      "contains": [
+        "cc9aa",
+        "f1d0b"
+      ],
+      "drawAs": "Octagon",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 64.5,
+      "id": "bca0b",
+      "kaavioType": "Group",
+      "padding": 11,
+      "stroke": "#808080",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "Complex",
+        "GroupComplex"
+      ],
+      "verticalAlign": "middle",
+      "width": 105.5,
+      "x": 665.9496124031006,
+      "y": 811.8410852713184,
+      "zIndex": 32768
+    },
     "bd60d": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -2878,7 +2765,7 @@
       "gpmlElementName": "DataNode",
       "height": 17.5,
       "id": "bd60d",
-      "isPartOf": "a6e33",
+      "isPartOf": "c3bdd",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2922,7 +2809,7 @@
       "gpmlElementName": "Label",
       "height": 29.52380952380917,
       "id": "be5c0",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2954,7 +2841,7 @@
       "gpmlElementName": "DataNode",
       "height": 33.5,
       "id": "bee4e",
-      "isPartOf": "f22e7",
+      "isPartOf": "cf6c8",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2998,7 +2885,7 @@
       "gpmlElementName": "DataNode",
       "height": 21.5,
       "id": "bfbc2",
-      "isPartOf": "c874b",
+      "isPartOf": "ea83a",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -3037,17 +2924,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "c02d0",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "b31db",
           "x": 39.999999999997044,
           "y": 433.6570196866903
         },
         {
-          "id": "e149a",
           "x": 97.99999999999636,
           "y": 433.6570196866903
         }
@@ -3065,6 +2950,7 @@
       "zIndex": 33630
     },
     "c2040": {
+      "cellularComponent": "none",
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -3088,7 +2974,10 @@
       "textOverflow": "clip",
       "type": [
         "Shape",
-        "SingleFreeNode"
+        "SingleFreeNode",
+        "PhysicalEntity",
+        "CellularComponent",
+        "none"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3247,6 +3136,8 @@
         "ChEBI:28119",
         "P683:CHEBI:28119",
         "P683:28119",
+        "HMDB:HMDB0258755",
+        "P2057:HMDB0258755",
         "Wikidata:Q52822"
       ],
       "verticalAlign": "middle",
@@ -3259,6 +3150,36 @@
       "y": 227.11940298507454,
       "zIndex": 32768
     },
+    "c3bdd": {
+      "contains": [
+        "aba94",
+        "bd60d",
+        "b426e"
+      ],
+      "drawAs": "Octagon",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 86.16666666666697,
+      "id": "c3bdd",
+      "kaavioType": "Group",
+      "padding": 11,
+      "stroke": "#808080",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "Complex",
+        "GroupComplex"
+      ],
+      "verticalAlign": "middle",
+      "width": 111.217086834734,
+      "x": 844.1666666666666,
+      "y": 479.5,
+      "zIndex": 32768
+    },
     "c3d69": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -3269,7 +3190,7 @@
       "gpmlElementName": "DataNode",
       "height": 21.5,
       "id": "c3d69",
-      "isPartOf": "e17aa",
+      "isPartOf": "c8f3c",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -3303,7 +3224,7 @@
       "gpmlElementName": "Shape",
       "height": 25.5,
       "id": "c41f0",
-      "isPartOf": "a8484",
+      "isPartOf": "c6964",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -3352,13 +3273,16 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Unknown"
+        "Wikidata:Q15322916",
+        "Protein"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 79.5,
-      "wpType": "Unknown",
+      "wpType": "Protein",
       "x": 1432.5,
+      "xrefDataSource": "Wikidata",
+      "xrefIdentifier": "Q15322916",
       "y": 731.5,
       "zIndex": 32768
     },
@@ -3367,17 +3291,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "c4880",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
       "markerEnd": "MimInhibition",
       "points": [
         {
-          "id": "e64a4",
           "x": 39.999999999997044,
           "y": 491.99999999999454
         },
         {
-          "id": "e9449",
           "x": 104.99999999999636,
           "y": 491.99999999999454
         }
@@ -3395,17 +3317,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "c4b06",
-      "isPartOf": "e163a",
+      "isPartOf": "f4bd3",
       "kaavioType": "Edge",
       "markerEnd": "MimConversion",
       "points": [
         {
-          "id": "a8b8a",
           "x": 28.5,
           "y": 47.5
         },
         {
-          "id": "db06b",
           "x": 28.5,
           "y": 70.5
         }
@@ -3499,6 +3419,7 @@
       "zIndex": 33683
     },
     "c6222": {
+      "cellularComponent": "none",
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -3522,7 +3443,10 @@
       "textOverflow": "clip",
       "type": [
         "Shape",
-        "SingleFreeNode"
+        "SingleFreeNode",
+        "PhysicalEntity",
+        "CellularComponent",
+        "none"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3530,6 +3454,39 @@
       "x": 1012.518054886856,
       "y": 946.6853635050554,
       "zIndex": 16443
+    },
+    "c6964": {
+      "contains": [
+        "e560f",
+        "c41f0",
+        "e65ae",
+        "da5d7",
+        "f147b",
+        "da145"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 194.5,
+      "id": "c6964",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 85.5,
+      "x": 271.1640372624146,
+      "y": 656.9776500638552,
+      "zIndex": 16424
     },
     "c6b49": {
       "attachmentDisplay": {
@@ -3573,7 +3530,7 @@
       "gpmlElementName": "Label",
       "height": 16,
       "id": "c78b6",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -3605,7 +3562,7 @@
       "gpmlElementName": "Shape",
       "height": 804,
       "id": "c8347",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -3632,17 +3589,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "c8523",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "e84b0",
           "x": 39.999999999997044,
           "y": 333.65939727790646
         },
         {
-          "id": "a3b58",
           "x": 97.99999999999636,
           "y": 333.65939727790646
         }
@@ -3698,11 +3653,11 @@
       "y": 1211,
       "zIndex": 32816
     },
-    "c874b": {
+    "c8f3c": {
       "contains": [
-        "bfbc2",
-        "b0732",
-        "cc14a"
+        "id15def619",
+        "b3edf",
+        "c3d69"
       ],
       "drawAs": "none",
       "fill": "transparent",
@@ -3710,8 +3665,8 @@
       "fontSize": 1,
       "fontWeight": "bold",
       "gpmlElementName": "Group",
-      "height": 80.5,
-      "id": "c874b",
+      "height": 38.5,
+      "id": "c8f3c",
       "kaavioType": "Group",
       "padding": 8,
       "stroke": "#808080",
@@ -3723,10 +3678,10 @@
         "GroupGroup"
       ],
       "verticalAlign": "middle",
-      "width": 80.50000000000023,
-      "x": 1064.9957983193274,
-      "y": 565.7352941176466,
-      "zIndex": 33677
+      "width": 262.92761394101876,
+      "x": 193.07238605898124,
+      "y": 1266.5,
+      "zIndex": 12288
     },
     "c8f7c": {
       "drawAs": "none",
@@ -3738,7 +3693,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "c8f7c",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -3837,7 +3792,6 @@
               1
             ]
           },
-          "id": "f5716",
           "isAttachedTo": "e7e7a",
           "orientation": [
             0,
@@ -3847,7 +3801,6 @@
           "y": 729
         },
         {
-          "id": "a4166",
           "x": 835.4375,
           "y": 1108.556832694764
         },
@@ -3862,7 +3815,6 @@
               0
             ]
           },
-          "id": "ded9d",
           "isAttachedTo": "c2cc5",
           "orientation": [
             0,
@@ -3886,17 +3838,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "c97b7",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "bcf05",
           "x": 39.999999999997044,
           "y": 313.65939727790646
         },
         {
-          "id": "c4b59",
           "x": 97.99999999999636,
           "y": 313.65939727790646
         }
@@ -4000,7 +3950,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "cb314",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -4032,7 +3982,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "cb6e0",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -4064,7 +4014,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "cb96c",
-      "isPartOf": "cbd53",
+      "isPartOf": "b4164",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -4103,17 +4053,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "cbc7e",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "a0b67",
           "x": 39.999999999997044,
           "y": 473.6570196866903
         },
         {
-          "id": "ebc1a",
           "x": 97.99999999999636,
           "y": 473.6570196866903
         }
@@ -4130,38 +4078,6 @@
       ],
       "zIndex": 33646
     },
-    "cbd53": {
-      "contains": [
-        "fba25",
-        "cb96c",
-        "a97b0",
-        "b6a53",
-        "d3431"
-      ],
-      "drawAs": "Octagon",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 133,
-      "id": "cbd53",
-      "kaavioType": "Group",
-      "padding": 11,
-      "stroke": "#808080",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "Complex",
-        "GroupComplex"
-      ],
-      "verticalAlign": "middle",
-      "width": 105,
-      "x": 1307.1478093403953,
-      "y": 1129.4824265767938,
-      "zIndex": 32809
-    },
     "cc14a": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -4172,7 +4088,7 @@
       "gpmlElementName": "DataNode",
       "height": 21.5,
       "id": "cc14a",
-      "isPartOf": "c874b",
+      "isPartOf": "ea83a",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -4216,7 +4132,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "cc32b",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -4248,7 +4164,7 @@
       "gpmlElementName": "DataNode",
       "height": 18.5,
       "id": "cc9aa",
-      "isPartOf": "b84cb",
+      "isPartOf": "bca0b",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -4292,7 +4208,7 @@
       "gpmlElementName": "Label",
       "height": 16,
       "id": "cca1a",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -4323,12 +4239,10 @@
       "markerEnd": "MimConversion",
       "points": [
         {
-          "id": "b0757",
           "x": 1068,
           "y": 984.1853635050554
         },
         {
-          "id": "bf62d",
           "x": 1068,
           "y": 1007.1853635050554
         }
@@ -4340,6 +4254,35 @@
         "Edge"
       ],
       "zIndex": 16437
+    },
+    "cdac9": {
+      "contains": [
+        "aaceb",
+        "f369f"
+      ],
+      "drawAs": "Octagon",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 73,
+      "id": "cdac9",
+      "kaavioType": "Group",
+      "padding": 11,
+      "stroke": "#808080",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "Complex",
+        "GroupComplex"
+      ],
+      "verticalAlign": "middle",
+      "width": 101.5,
+      "x": 799.9108527131785,
+      "y": 808.3410852713182,
+      "zIndex": 32796
     },
     "cdf5c": {
       "citations": [
@@ -4354,7 +4297,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "cdf5c",
-      "isPartOf": "d7c0e",
+      "isPartOf": "a8219",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -4393,17 +4336,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "ce1f9",
-      "isPartOf": "e566f",
+      "isPartOf": "d7f0c",
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "fe6fd",
           "x": 24.5,
           "y": 65.5
         },
         {
-          "id": "dca9d",
           "x": 24.5,
           "y": 37.5
         }
@@ -4430,7 +4371,7 @@
       "gpmlElementName": "Label",
       "height": 16,
       "id": "cecbf",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -4451,6 +4392,71 @@
       "x": 104.03162838681283,
       "y": 698.8969430417526,
       "zIndex": 33643
+    },
+    "cf474": {
+      "citations": [
+        "publicationXrefd5c"
+      ],
+      "contains": [
+        "a9a74",
+        "d11a8",
+        "e6a72"
+      ],
+      "drawAs": "Octagon",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 89,
+      "id": "cf474",
+      "kaavioType": "Group",
+      "padding": 11,
+      "stroke": "#808080",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "Complex",
+        "GroupComplex"
+      ],
+      "verticalAlign": "middle",
+      "width": 105,
+      "x": 1188.9256875365706,
+      "y": 1064,
+      "zIndex": 32768
+    },
+    "cf6c8": {
+      "contains": [
+        "bee4e",
+        "a8e72",
+        "dacc1",
+        "f39f6",
+        "ec4c1"
+      ],
+      "drawAs": "Octagon",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 91.5,
+      "id": "cf6c8",
+      "kaavioType": "Group",
+      "padding": 11,
+      "stroke": "#808080",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "Complex",
+        "GroupComplex"
+      ],
+      "verticalAlign": "middle",
+      "width": 319.5,
+      "x": 548.5,
+      "y": 321.5,
+      "zIndex": 32768
     },
     "cf6c9": {
       "citations": [
@@ -4492,17 +4498,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "d04b0",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
-          "id": "db087",
           "x": 38.999999999997044,
           "y": 207.46528803544606
         },
         {
-          "id": "a7546",
           "x": 59.99999999999636,
           "y": 207.46528803544606
         }
@@ -4511,7 +4515,9 @@
       "strokeWidth": 2,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 33583
     },
@@ -4525,7 +4531,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "d11a8",
-      "isPartOf": "bb505",
+      "isPartOf": "cf474",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -4568,7 +4574,7 @@
         "ecf3c",
         "f3181"
       ],
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
       "points": [
         {
@@ -4582,7 +4588,6 @@
               1
             ]
           },
-          "id": "ab223",
           "isAttachedTo": "ecf3c",
           "orientation": [
             0,
@@ -4602,7 +4607,6 @@
               0
             ]
           },
-          "id": "c54fb",
           "isAttachedTo": "f3181",
           "orientation": [
             0,
@@ -4630,7 +4634,7 @@
       "gpmlElementName": "Label",
       "height": 16,
       "id": "d3168",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -4662,7 +4666,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "d3431",
-      "isPartOf": "cbd53",
+      "isPartOf": "b4164",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -4701,17 +4705,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "d3683",
-      "isPartOf": "e163a",
+      "isPartOf": "f4bd3",
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "ea25a",
           "x": 28.5,
           "y": 65.5
         },
         {
-          "id": "dd57c",
           "x": 28.5,
           "y": 37.5
         }
@@ -4738,7 +4740,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "d36da",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -4846,7 +4848,7 @@
       "gpmlElementName": "Label",
       "height": 16,
       "id": "d65b0",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -4870,7 +4872,7 @@
     },
     "d674b": {
       "cellularComponent": "Nucleus",
-      "drawAs": "Ellipse",
+      "drawAs": "rect",
       "fill": "transparent",
       "fontFamily": "Arial",
       "fontSize": 14,
@@ -4884,6 +4886,8 @@
       "overflow": "hidden",
       "padding": 8,
       "rotation": 0,
+      "rx": 15,
+      "ry": 15,
       "stroke": "#c0c0c0",
       "strokeStyle": "double",
       "strokeWidth": 3,
@@ -4904,38 +4908,6 @@
       "y": 979.7342437658144,
       "zIndex": 16384
     },
-    "d7c0e": {
-      "contains": [
-        "d8ae0",
-        "ffa48",
-        "cdf5c",
-        "d7eb6",
-        "f2dca"
-      ],
-      "drawAs": "Octagon",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 132,
-      "id": "d7c0e",
-      "kaavioType": "Group",
-      "padding": 11,
-      "stroke": "#808080",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "Complex",
-        "GroupComplex"
-      ],
-      "verticalAlign": "middle",
-      "width": 104,
-      "x": 732.75,
-      "y": 623.25,
-      "zIndex": 32817
-    },
     "d7eb6": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -4946,7 +4918,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "d7eb6",
-      "isPartOf": "d7c0e",
+      "isPartOf": "a8219",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -4980,6 +4952,37 @@
       "y": 100,
       "zIndex": 32820
     },
+    "d7f0c": {
+      "contains": [
+        "f5b47",
+        "ce1f9",
+        "f55bc",
+        "b4f29"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 106.49999999999989,
+      "id": "d7f0c",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 57.5,
+      "x": 507.7771392081737,
+      "y": 933.4310344827592,
+      "zIndex": 16406
+    },
     "d8ae0": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -4990,7 +4993,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "d8ae0",
-      "isPartOf": "d7c0e",
+      "isPartOf": "a8219",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -5034,7 +5037,7 @@
       "gpmlElementName": "Label",
       "height": 16,
       "id": "d956b",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -5061,17 +5064,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "d9aa7",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "eaf4e",
           "x": 40.99999999999682,
           "y": 511.99999999999454
         },
         {
-          "id": "c4c48",
           "x": 98.99999999999636,
           "y": 512.5012759336287
         }
@@ -5143,7 +5144,7 @@
       "gpmlElementName": "DataNode",
       "height": 25.5,
       "id": "da145",
-      "isPartOf": "a8484",
+      "isPartOf": "c6964",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -5187,7 +5188,7 @@
       "gpmlElementName": "Label",
       "height": 16,
       "id": "da251",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -5223,7 +5224,7 @@
       "gpmlElementName": "DataNode",
       "height": 25.5,
       "id": "da5d7",
-      "isPartOf": "a8484",
+      "isPartOf": "c6964",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -5263,17 +5264,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "dab48",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "dc333",
           "x": 39.999999999997044,
           "y": 392.99999999999454
         },
         {
-          "id": "d1ec8",
           "x": 97.99999999999636,
           "y": 393.50246472923686
         }
@@ -5300,7 +5299,7 @@
       "gpmlElementName": "DataNode",
       "height": 25.5,
       "id": "dac5e",
-      "isPartOf": "afca1",
+      "isPartOf": "df20e",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -5344,7 +5343,7 @@
       "gpmlElementName": "Label",
       "height": 16,
       "id": "dacbc",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -5380,7 +5379,7 @@
       "gpmlElementName": "DataNode",
       "height": 33.49999999999999,
       "id": "dacc1",
-      "isPartOf": "f22e7",
+      "isPartOf": "cf6c8",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -5427,7 +5426,7 @@
       "gpmlElementName": "DataNode",
       "height": 33.49999999999999,
       "id": "dad6b",
-      "isPartOf": "e3e14",
+      "isPartOf": "pvjsgeneratedidffa49",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -5492,22 +5491,53 @@
       "y": 1016.8199233716482,
       "zIndex": 28672
     },
+    "dd14c": {
+      "citations": [
+        "publicationXrefe06",
+        "publicationXrefad6"
+      ],
+      "contains": [
+        "b4ed1",
+        "bb43a"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 81.99999999999909,
+      "id": "dd14c",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 84,
+      "x": 558.3856960408685,
+      "y": 1025.0395913154546,
+      "zIndex": 32768
+    },
     "dd7d7": {
       "drawAs": "StraightLine",
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "dd7d7",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
       "markerEnd": "MimTranscriptionTranslation",
       "points": [
         {
-          "id": "e714f",
           "x": 57.99999999999636,
           "y": 207.46528803544606
         },
         {
-          "id": "b5aea",
           "x": 97.99999999999636,
           "y": 207.99999999999534
         }
@@ -5561,7 +5591,7 @@
       "isAttachedTo": [
         "b240f"
       ],
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
       "points": [
         {
@@ -5575,7 +5605,6 @@
               1
             ]
           },
-          "id": "dfcd8",
           "isAttachedTo": "b240f",
           "orientation": [
             0,
@@ -5585,7 +5614,6 @@
           "y": 65.04761904761654
         },
         {
-          "id": "bffde",
           "x": 140.42857142856792,
           "y": 91.6666666666631
         }
@@ -5598,6 +5626,37 @@
       ],
       "zIndex": 33598
     },
+    "df20e": {
+      "contains": [
+        "b2d82",
+        "e7f53",
+        "b68c6",
+        "dac5e"
+      ],
+      "drawAs": "Octagon",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 77,
+      "id": "df20e",
+      "kaavioType": "Group",
+      "padding": 11,
+      "stroke": "#808080",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "Complex",
+        "GroupComplex"
+      ],
+      "verticalAlign": "middle",
+      "width": 126,
+      "x": 911,
+      "y": 795,
+      "zIndex": 32799
+    },
     "e052a": {
       "drawAs": "none",
       "fill": "transparent",
@@ -5608,7 +5667,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "e052a",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -5738,67 +5797,6 @@
       "y": 272,
       "zIndex": 16384
     },
-    "e163a": {
-      "contains": [
-        "c4b06",
-        "d3683",
-        "f297b",
-        "a02d8"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 104.49999999999989,
-      "id": "e163a",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 56.5,
-      "x": 1242.5,
-      "y": 938.8856960408685,
-      "zIndex": 16426
-    },
-    "e17aa": {
-      "contains": [
-        "id15def619",
-        "b3edf",
-        "c3d69"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 38.5,
-      "id": "e17aa",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 262.92761394101876,
-      "x": 193.07238605898124,
-      "y": 1266.5,
-      "zIndex": 12288
-    },
     "e1c52": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -5841,140 +5839,6 @@
       "xrefIdentifier": "1869",
       "y": 1459.5,
       "zIndex": 33664
-    },
-    "e3e14": {
-      "citations": [
-        "publicationXrefaba"
-      ],
-      "contains": [
-        "f39b7",
-        "ece46",
-        "dad6b"
-      ],
-      "drawAs": "Octagon",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 91.83333333333366,
-      "id": "e3e14",
-      "kaavioType": "Group",
-      "padding": 11,
-      "stroke": "#808080",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "Complex",
-        "GroupComplex"
-      ],
-      "verticalAlign": "middle",
-      "width": 251.5000000000014,
-      "x": 208.73134328358086,
-      "y": 324.0223880597015,
-      "zIndex": 32769
-    },
-    "e40c0": {
-      "contains": [
-        "d04b0",
-        "a03dc",
-        "bb3cd",
-        "d36da",
-        "ecf3c",
-        "fe01c",
-        "b3f54",
-        "be5c0",
-        "c4880",
-        "dab48",
-        "a3ae2",
-        "c8523",
-        "d9aa7",
-        "c97b7",
-        "a92ff",
-        "de447",
-        "b240f",
-        "cb314",
-        "ecff6",
-        "f3f84",
-        "b626e",
-        "ea62d",
-        "a75a1",
-        "c8f7c",
-        "b0620",
-        "e4904",
-        "a3d41",
-        "a8941",
-        "b42d0",
-        "cc32b",
-        "b66b1",
-        "ab648",
-        "e052a",
-        "baf56",
-        "b3e3f",
-        "a773c",
-        "c8347",
-        "d956b",
-        "d3168",
-        "f14ed",
-        "da251",
-        "e76d2",
-        "fa314",
-        "bc828",
-        "efc70",
-        "c02d0",
-        "cb6e0",
-        "e8882",
-        "e8d65",
-        "d65b0",
-        "a4554",
-        "c78b6",
-        "a697c",
-        "aaad9",
-        "eee57",
-        "f0bf4",
-        "dacbc",
-        "f58bd",
-        "cecbf",
-        "a1b02",
-        "cca1a",
-        "cbc7e",
-        "fd6ae",
-        "dd7d7",
-        "b9b53",
-        "f1f0f",
-        "e4b6c",
-        "f1c79",
-        "f229d",
-        "a42c3",
-        "ac2bb",
-        "f8197",
-        "d1896",
-        "f3181"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 820,
-      "id": "e40c0",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 371.0000000000002,
-      "x": 1723.5469255663454,
-      "y": 429.20137863122,
-      "zIndex": 33583
     },
     "e435b": {
       "drawAs": "none",
@@ -6020,7 +5884,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "e4904",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -6047,17 +5911,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "e4b6c",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "c8c91",
           "x": 38.999999999997044,
           "y": 166.99999999999613
         },
         {
-          "id": "fb483",
           "x": 96.99999999999636,
           "y": 166.99999999999613
         }
@@ -6076,6 +5938,7 @@
       "zIndex": 33651
     },
     "e5211": {
+      "cellularComponent": "none",
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -6099,7 +5962,10 @@
       "textOverflow": "clip",
       "type": [
         "Shape",
-        "SingleFreeNode"
+        "SingleFreeNode",
+        "PhysicalEntity",
+        "CellularComponent",
+        "none"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -6121,7 +5987,7 @@
       "gpmlElementName": "Shape",
       "height": 35.5,
       "id": "e560f",
-      "isPartOf": "a8484",
+      "isPartOf": "c6964",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -6143,37 +6009,6 @@
       "x": 10,
       "y": 151,
       "zIndex": 16424
-    },
-    "e566f": {
-      "contains": [
-        "f5b47",
-        "ce1f9",
-        "f55bc",
-        "b4f29"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 106.49999999999989,
-      "id": "e566f",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 57.5,
-      "x": 507.7771392081737,
-      "y": 933.4310344827592,
-      "zIndex": 16406
     },
     "e5823": {
       "burrs": [
@@ -6230,12 +6065,10 @@
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "b9974",
           "x": 1068,
           "y": 1002.1853635050554
         },
         {
-          "id": "c0c39",
           "x": 1068,
           "y": 974.1853635050554
         }
@@ -6262,7 +6095,7 @@
       "gpmlElementName": "Shape",
       "height": 25.5,
       "id": "e65ae",
-      "isPartOf": "a8484",
+      "isPartOf": "c6964",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -6295,7 +6128,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "e6a72",
-      "isPartOf": "bb505",
+      "isPartOf": "cf474",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -6334,17 +6167,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "e76d2",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "fb4eb",
           "x": 38.999999999997044,
           "y": 352.99999999999454
         },
         {
-          "id": "b2187",
           "x": 97.99999999999636,
           "y": 353.5036535248448
         }
@@ -6417,7 +6248,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "e7f53",
-      "isPartOf": "afca1",
+      "isPartOf": "df20e",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -6460,12 +6291,10 @@
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "a6f2b",
           "x": 1024,
           "y": 1004.1853635050554
         },
         {
-          "id": "be673",
           "x": 1024,
           "y": 976.1853635050554
         }
@@ -6489,7 +6318,7 @@
       "id": "e840d",
       "isAttachedTo": [
         "f147b",
-        "b601d"
+        "dd14c"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -6505,7 +6334,6 @@
               0.5
             ]
           },
-          "id": "d87b7",
           "isAttachedTo": "f147b",
           "orientation": [
             1,
@@ -6515,7 +6343,6 @@
           "y": 735.7276500638552
         },
         {
-          "id": "daa7a",
           "x": 367.6470588235294,
           "y": 900.8836206896547
         },
@@ -6530,8 +6357,7 @@
               0.5
             ]
           },
-          "id": "a26f5",
-          "isAttachedTo": "b601d",
+          "isAttachedTo": "dd14c",
           "orientation": [
             1,
             0
@@ -6595,17 +6421,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "e8882",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "f60a4",
           "x": 39.999999999997044,
           "y": 453.6570196866903
         },
         {
-          "id": "a6d85",
           "x": 97.99999999999636,
           "y": 453.6570196866903
         }
@@ -6632,7 +6456,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "e8d65",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -6710,7 +6534,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "ea62d",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -6731,6 +6555,36 @@
       "x": 97.24852038876747,
       "y": 159.99999999999636,
       "zIndex": 33604
+    },
+    "ea83a": {
+      "contains": [
+        "bfbc2",
+        "b0732",
+        "cc14a"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 80.5,
+      "id": "ea83a",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 80.50000000000023,
+      "x": 1064.9957983193274,
+      "y": 565.7352941176466,
+      "zIndex": 33677
     },
     "ea90f": {
       "citations": [
@@ -6765,6 +6619,8 @@
         "ChEBI:28119",
         "P683:CHEBI:28119",
         "P683:28119",
+        "HMDB:HMDB0258755",
+        "P2057:HMDB0258755",
         "Wikidata:Q52822"
       ],
       "verticalAlign": "middle",
@@ -6790,7 +6646,7 @@
       "gpmlElementName": "DataNode",
       "height": 33.99999999999999,
       "id": "ec4c1",
-      "isPartOf": "f22e7",
+      "isPartOf": "cf6c8",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -6880,7 +6736,7 @@
       "gpmlElementName": "DataNode",
       "height": 33.5,
       "id": "ece46",
-      "isPartOf": "e3e14",
+      "isPartOf": "pvjsgeneratedidffa49",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -6924,7 +6780,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "ecf3c",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -6956,7 +6812,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "ecff6",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7002,7 +6858,7 @@
         "DataNode",
         "SingleFreeNode",
         "Entrez Gene:4780",
-        "RNA",
+        "Rna",
         "Ensembl:ENSG00000116044",
         "P594:ENSG00000116044",
         "P351:4780",
@@ -7014,7 +6870,7 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
-      "wpType": "RNA",
+      "wpType": "Rna",
       "x": 1203,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "4780",
@@ -7022,6 +6878,7 @@
       "zIndex": 32768
     },
     "ee393": {
+      "cellularComponent": "none",
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -7045,7 +6902,10 @@
       "textOverflow": "clip",
       "type": [
         "Shape",
-        "SingleFreeNode"
+        "SingleFreeNode",
+        "PhysicalEntity",
+        "CellularComponent",
+        "none"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -7064,7 +6924,7 @@
       "gpmlElementName": "Label",
       "height": 16,
       "id": "eee57",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7086,6 +6946,107 @@
       "y": 678.5238095238064,
       "zIndex": 33639
     },
+    "ef7e1": {
+      "contains": [
+        "d04b0",
+        "a03dc",
+        "bb3cd",
+        "d36da",
+        "ecf3c",
+        "fe01c",
+        "b3f54",
+        "be5c0",
+        "c4880",
+        "dab48",
+        "a3ae2",
+        "c8523",
+        "d9aa7",
+        "c97b7",
+        "a92ff",
+        "de447",
+        "b240f",
+        "cb314",
+        "ecff6",
+        "f3f84",
+        "b626e",
+        "ea62d",
+        "a75a1",
+        "c8f7c",
+        "b0620",
+        "e4904",
+        "a3d41",
+        "a8941",
+        "b42d0",
+        "cc32b",
+        "b66b1",
+        "ab648",
+        "e052a",
+        "baf56",
+        "b3e3f",
+        "a773c",
+        "c8347",
+        "d956b",
+        "d3168",
+        "f14ed",
+        "da251",
+        "e76d2",
+        "fa314",
+        "bc828",
+        "efc70",
+        "c02d0",
+        "cb6e0",
+        "e8882",
+        "e8d65",
+        "d65b0",
+        "a4554",
+        "c78b6",
+        "a697c",
+        "aaad9",
+        "eee57",
+        "f0bf4",
+        "dacbc",
+        "f58bd",
+        "cecbf",
+        "a1b02",
+        "cca1a",
+        "cbc7e",
+        "fd6ae",
+        "dd7d7",
+        "b9b53",
+        "f1f0f",
+        "e4b6c",
+        "f1c79",
+        "f229d",
+        "a42c3",
+        "ac2bb",
+        "f8197",
+        "d1896",
+        "f3181"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 820,
+      "id": "ef7e1",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 371.0000000000002,
+      "x": 1723.5469255663454,
+      "y": 429.20137863122,
+      "zIndex": 33583
+    },
     "efc70": {
       "drawAs": "none",
       "fill": "transparent",
@@ -7096,7 +7057,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "efc70",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7128,7 +7089,7 @@
       "gpmlElementName": "Label",
       "height": 16,
       "id": "f0bf4",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7151,6 +7112,7 @@
       "zIndex": 33640
     },
     "f0f00": {
+      "cellularComponent": "none",
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -7174,7 +7136,10 @@
       "textOverflow": "clip",
       "type": [
         "Shape",
-        "SingleFreeNode"
+        "SingleFreeNode",
+        "PhysicalEntity",
+        "CellularComponent",
+        "none"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -7198,7 +7163,7 @@
       "gpmlElementName": "DataNode",
       "height": 25.5,
       "id": "f147b",
-      "isPartOf": "a8484",
+      "isPartOf": "c6964",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7242,7 +7207,7 @@
       "gpmlElementName": "Label",
       "height": 16,
       "id": "f14ed",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7286,7 +7251,6 @@
               1
             ]
           },
-          "id": "a412b",
           "isAttachedTo": "a80d6",
           "orientation": [
             0,
@@ -7296,7 +7260,6 @@
           "y": 1290
         },
         {
-          "id": "f4dc7",
           "x": 654.5,
           "y": 1312
         },
@@ -7311,7 +7274,6 @@
               1
             ]
           },
-          "id": "b5a5a",
           "isAttachedTo": "c2cc5",
           "orientation": [
             0,
@@ -7335,17 +7297,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "f1c79",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "b33ae",
           "x": 86.33333333332985,
           "y": 233.33333333332746
         },
         {
-          "id": "c119e",
           "x": 92.99999999999636,
           "y": 239.99999999999386
         }
@@ -7372,7 +7332,7 @@
       "gpmlElementName": "DataNode",
       "height": 18.5,
       "id": "f1d0b",
-      "isPartOf": "b84cb",
+      "isPartOf": "bca0b",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7411,17 +7371,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "f1f0f",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "b8ff0",
           "x": 38.999999999997044,
           "y": 146.99999999999636
         },
         {
-          "id": "afada",
           "x": 96.99999999999636,
           "y": 146.99999999999636
         }
@@ -7448,7 +7406,7 @@
       "gpmlElementName": "Shape",
       "height": 20,
       "id": "f229d",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7471,39 +7429,8 @@
       "y": 226.66666666666094,
       "zIndex": 33653
     },
-    "f22e7": {
-      "contains": [
-        "bee4e",
-        "a8e72",
-        "dacc1",
-        "f39f6",
-        "ec4c1"
-      ],
-      "drawAs": "Octagon",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 91.5,
-      "id": "f22e7",
-      "kaavioType": "Group",
-      "padding": 11,
-      "stroke": "#808080",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "Complex",
-        "GroupComplex"
-      ],
-      "verticalAlign": "middle",
-      "width": 319.5,
-      "x": 548.5,
-      "y": 321.5,
-      "zIndex": 32768
-    },
     "f297b": {
+      "cellularComponent": "none",
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -7513,7 +7440,7 @@
       "gpmlElementName": "Shape",
       "height": 26.5,
       "id": "f297b",
-      "isPartOf": "e163a",
+      "isPartOf": "f4bd3",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7528,7 +7455,10 @@
       "textOverflow": "clip",
       "type": [
         "Shape",
-        "SingleFreeNode"
+        "SingleFreeNode",
+        "PhysicalEntity",
+        "CellularComponent",
+        "none"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -7547,7 +7477,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "f2dca",
-      "isPartOf": "d7c0e",
+      "isPartOf": "a8219",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7591,7 +7521,7 @@
       "gpmlElementName": "Shape",
       "height": 31,
       "id": "f3181",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7663,7 +7593,7 @@
       "gpmlElementName": "DataNode",
       "height": 22.5,
       "id": "f369f",
-      "isPartOf": "f4daa",
+      "isPartOf": "cdac9",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7707,7 +7637,7 @@
       "gpmlElementName": "DataNode",
       "height": 33.49999999999999,
       "id": "f39b7",
-      "isPartOf": "e3e14",
+      "isPartOf": "pvjsgeneratedidffa49",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7755,7 +7685,7 @@
       "gpmlElementName": "DataNode",
       "height": 34,
       "id": "f39f6",
-      "isPartOf": "f22e7",
+      "isPartOf": "cf6c8",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7799,7 +7729,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "f3f84",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7821,36 +7751,39 @@
       "y": 502.2805017103708,
       "zIndex": 33602
     },
-    "f4daa": {
+    "f4bd3": {
       "contains": [
-        "aaceb",
-        "f369f"
+        "c4b06",
+        "d3683",
+        "f297b",
+        "a02d8"
       ],
-      "drawAs": "Octagon",
-      "fill": "#b4b464",
+      "drawAs": "none",
+      "fill": "transparent",
       "fillOpacity": 0.1,
       "fontSize": 1,
       "fontWeight": "bold",
       "gpmlElementName": "Group",
-      "height": 73,
-      "id": "f4daa",
+      "height": 104.49999999999989,
+      "id": "f4bd3",
       "kaavioType": "Group",
-      "padding": 11,
+      "padding": 8,
       "stroke": "#808080",
-      "strokeWidth": 1,
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
       "textAlign": "center",
       "type": [
         "Group",
-        "Complex",
-        "GroupComplex"
+        "GroupGroup"
       ],
       "verticalAlign": "middle",
-      "width": 101.5,
-      "x": 799.9108527131785,
-      "y": 808.3410852713182,
-      "zIndex": 32796
+      "width": 56.5,
+      "x": 1242.5,
+      "y": 938.8856960408685,
+      "zIndex": 16426
     },
     "f55bc": {
+      "cellularComponent": "none",
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -7860,7 +7793,7 @@
       "gpmlElementName": "Shape",
       "height": 26.5,
       "id": "f55bc",
-      "isPartOf": "e566f",
+      "isPartOf": "d7f0c",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7875,7 +7808,10 @@
       "textOverflow": "clip",
       "type": [
         "Shape",
-        "SingleFreeNode"
+        "SingleFreeNode",
+        "PhysicalEntity",
+        "CellularComponent",
+        "none"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -7925,7 +7861,7 @@
       "gpmlElementName": "Label",
       "height": 16,
       "id": "f58bd",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7952,17 +7888,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "f5b47",
-      "isPartOf": "e566f",
+      "isPartOf": "d7f0c",
       "kaavioType": "Edge",
       "markerEnd": "MimConversion",
       "points": [
         {
-          "id": "b5d93",
           "x": 24.5,
           "y": 47.5
         },
         {
-          "id": "fa247",
           "x": 24.5,
           "y": 70.5
         }
@@ -8041,7 +7975,6 @@
               1
             ]
           },
-          "id": "e45af",
           "isAttachedTo": "e867d",
           "orientation": [
             0,
@@ -8061,7 +7994,6 @@
               0
             ]
           },
-          "id": "c7b38",
           "isAttachedTo": "e7e7a",
           "orientation": [
             0,
@@ -8090,7 +8022,7 @@
       "gpmlElementName": "Interaction",
       "id": "f7486",
       "isAttachedTo": [
-        "b601d",
+        "dd14c",
         "a80d6"
       ],
       "kaavioType": "Edge",
@@ -8107,8 +8039,7 @@
               1
             ]
           },
-          "id": "ba4bf",
-          "isAttachedTo": "b601d",
+          "isAttachedTo": "dd14c",
           "orientation": [
             0,
             1
@@ -8117,7 +8048,6 @@
           "y": 1107.0395913154537
         },
         {
-          "id": "da4cd",
           "x": 585.6928480204342,
           "y": 1197
         },
@@ -8132,7 +8062,6 @@
               0
             ]
           },
-          "id": "d8c04",
           "isAttachedTo": "a80d6",
           "orientation": [
             0,
@@ -8156,17 +8085,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "f8197",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "Edge",
       "markerEnd": "MimConversion",
       "points": [
         {
-          "id": "af509",
           "x": 94.4546258735204,
           "y": 640.8977880629868
         },
         {
-          "id": "d2016",
           "x": 94.4546258735204,
           "y": 620.0266446873065
         }
@@ -8232,7 +8159,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "fa314",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -8277,7 +8204,6 @@
               1
             ]
           },
-          "id": "d88cd",
           "isAttachedTo": "c2cc5",
           "orientation": [
             0,
@@ -8297,7 +8223,6 @@
               0
             ]
           },
-          "id": "f36dc",
           "isAttachedTo": "fed0f",
           "orientation": [
             0,
@@ -8334,7 +8259,7 @@
         "f6591"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -8347,7 +8272,6 @@
               1
             ]
           },
-          "id": "d211c",
           "isAttachedTo": "ab320",
           "orientation": [
             0,
@@ -8371,7 +8295,6 @@
               0
             ]
           },
-          "id": "d81d7",
           "isAttachedTo": "f6591",
           "orientation": [
             0,
@@ -8386,7 +8309,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 33661
     },
@@ -8400,7 +8325,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "fba25",
-      "isPartOf": "cbd53",
+      "isPartOf": "b4164",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -8487,7 +8412,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "fd6ae",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -8519,7 +8444,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "fe01c",
-      "isPartOf": "e40c0",
+      "isPartOf": "ef7e1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -8590,7 +8515,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "ffa48",
-      "isPartOf": "d7c0e",
+      "isPartOf": "a8219",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -8640,7 +8565,7 @@
       "gpmlElementName": "Interaction",
       "id": "id10ad7889",
       "isAttachedTo": [
-        "f22e7",
+        "cf6c8",
         "a8343"
       ],
       "kaavioType": "Edge",
@@ -8657,8 +8582,7 @@
               1
             ]
           },
-          "id": "ba893",
-          "isAttachedTo": "f22e7",
+          "isAttachedTo": "cf6c8",
           "orientation": [
             0,
             1
@@ -8667,7 +8591,6 @@
           "y": 413
         },
         {
-          "id": "b740b",
           "x": 1091,
           "y": 463.8007290400972
         },
@@ -8682,7 +8605,6 @@
               0
             ]
           },
-          "id": "f5cbc",
           "isAttachedTo": "a8343",
           "orientation": [
             0,
@@ -8706,17 +8628,15 @@
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "id15def619",
-      "isPartOf": "e17aa",
+      "isPartOf": "c8f3c",
       "kaavioType": "Edge",
       "markerEnd": "MimTranscriptionTranslation",
       "points": [
         {
-          "id": "a255f",
           "x": 8,
           "y": 21.5
         },
         {
-          "id": "ab7e1",
           "x": 254.92761394101876,
           "y": 21.5
         }
@@ -8735,7 +8655,7 @@
       "gpmlElementName": "Interaction",
       "id": "id1b4fbca5",
       "isAttachedTo": [
-        "afca1",
+        "df20e",
         "ab635"
       ],
       "kaavioType": "Edge",
@@ -8752,8 +8672,7 @@
               1
             ]
           },
-          "id": "cb718",
-          "isAttachedTo": "afca1",
+          "isAttachedTo": "df20e",
           "orientation": [
             0,
             1
@@ -8772,7 +8691,6 @@
               0
             ]
           },
-          "id": "c54f7",
           "isAttachedTo": "ab635",
           "orientation": [
             0,
@@ -8805,7 +8723,7 @@
         "c5a48"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimConversion",
+      "markerEnd": "MimModification",
       "points": [
         {
           "attachmentDisplay": {
@@ -8818,7 +8736,6 @@
               1
             ]
           },
-          "id": "eec7d",
           "isAttachedTo": "ca04f",
           "orientation": [
             0,
@@ -8838,7 +8755,6 @@
               0
             ]
           },
-          "id": "ba9ff",
           "isAttachedTo": "c5a48",
           "orientation": [
             0,
@@ -8862,7 +8778,7 @@
       "gpmlElementName": "Interaction",
       "id": "id3a659ad7",
       "isAttachedTo": [
-        "b601d",
+        "dd14c",
         "c52eb"
       ],
       "kaavioType": "Edge",
@@ -8879,8 +8795,7 @@
               1
             ]
           },
-          "id": "e2967",
-          "isAttachedTo": "b601d",
+          "isAttachedTo": "dd14c",
           "orientation": [
             0,
             1
@@ -8889,7 +8804,6 @@
           "y": 1107.0395913154537
         },
         {
-          "id": "fca2e",
           "x": 552.1928480204342,
           "y": 1198
         },
@@ -8904,7 +8818,6 @@
               0
             ]
           },
-          "id": "f700e",
           "isAttachedTo": "c52eb",
           "orientation": [
             0,
@@ -8946,7 +8859,6 @@
               0.5
             ]
           },
-          "id": "e4191",
           "isAttachedTo": "c3a80",
           "orientation": [
             -1,
@@ -8966,7 +8878,6 @@
               0
             ]
           },
-          "id": "b1db1",
           "isAttachedTo": "a8e72",
           "orientation": [
             0,
@@ -8990,7 +8901,7 @@
       "gpmlElementName": "Interaction",
       "id": "id40d6bab3",
       "isAttachedTo": [
-        "f22e7",
+        "cf6c8",
         "acbf4"
       ],
       "kaavioType": "Edge",
@@ -9006,8 +8917,7 @@
               1
             ]
           },
-          "id": "b4349",
-          "isAttachedTo": "f22e7",
+          "isAttachedTo": "cf6c8",
           "orientation": [
             0,
             1
@@ -9026,7 +8936,6 @@
               0
             ]
           },
-          "id": "c7901",
           "isAttachedTo": "acbf4",
           "orientation": [
             0,
@@ -9052,7 +8961,7 @@
       "id": "id421faf29",
       "isAttachedTo": [
         "da145",
-        "b601d"
+        "dd14c"
       ],
       "kaavioType": "Edge",
       "points": [
@@ -9067,7 +8976,6 @@
               0.5
             ]
           },
-          "id": "fcf31",
           "isAttachedTo": "da145",
           "orientation": [
             1,
@@ -9091,8 +8999,7 @@
               0.5
             ]
           },
-          "id": "cbf5f",
-          "isAttachedTo": "b601d",
+          "isAttachedTo": "dd14c",
           "orientation": [
             1,
             0
@@ -9118,11 +9025,11 @@
       "gpmlElementName": "Interaction",
       "id": "id425bb75a",
       "isAttachedTo": [
-        "afca1",
+        "df20e",
         "c52eb"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -9135,8 +9042,7 @@
               1
             ]
           },
-          "id": "c0b7f",
-          "isAttachedTo": "afca1",
+          "isAttachedTo": "df20e",
           "orientation": [
             0,
             1
@@ -9145,7 +9051,6 @@
           "y": 872
         },
         {
-          "id": "c0a6e",
           "x": 743.75,
           "y": 1149.3333333333333
         },
@@ -9160,7 +9065,6 @@
               0
             ]
           },
-          "id": "bf7e4",
           "isAttachedTo": "c52eb",
           "orientation": [
             0,
@@ -9174,7 +9078,9 @@
       "strokeWidth": 2,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 12288
     },
@@ -9189,7 +9095,7 @@
       "gpmlElementName": "Interaction",
       "id": "id4d5f1705",
       "isAttachedTo": [
-        "a6e33",
+        "c3bdd",
         "c9150"
       ],
       "kaavioType": "Edge",
@@ -9206,13 +9112,12 @@
               0.5
             ]
           },
-          "id": "fdf20",
-          "isAttachedTo": "a6e33",
+          "isAttachedTo": "c3bdd",
           "orientation": [
             1,
             0
           ],
-          "x": 955.3837535014007,
+          "x": 955.3837535014006,
           "y": 522.5833333333335
         },
         {
@@ -9226,7 +9131,6 @@
               1
             ]
           },
-          "id": "e7d8d",
           "isAttachedTo": "c9150",
           "orientation": [
             0,
@@ -9255,7 +9159,7 @@
       "id": "id545746f1",
       "isAttachedTo": [
         "e7e7a",
-        "f4daa"
+        "cdac9"
       ],
       "kaavioType": "Edge",
       "markerEnd": "MimConversion",
@@ -9271,7 +9175,6 @@
               1
             ]
           },
-          "id": "cf745",
           "isAttachedTo": "e7e7a",
           "orientation": [
             0,
@@ -9291,8 +9194,7 @@
               0
             ]
           },
-          "id": "ebc1c",
-          "isAttachedTo": "f4daa",
+          "isAttachedTo": "cdac9",
           "orientation": [
             0,
             1
@@ -9315,7 +9217,7 @@
       "gpmlElementName": "Interaction",
       "id": "id55918c82",
       "isAttachedTo": [
-        "c874b",
+        "ea83a",
         "e5823"
       ],
       "kaavioType": "Edge",
@@ -9332,8 +9234,7 @@
               1
             ]
           },
-          "id": "b16ca",
-          "isAttachedTo": "c874b",
+          "isAttachedTo": "ea83a",
           "orientation": [
             0,
             1
@@ -9352,7 +9253,6 @@
               0
             ]
           },
-          "id": "fabc0",
           "isAttachedTo": "e5823",
           "orientation": [
             0,
@@ -9376,8 +9276,8 @@
       "gpmlElementName": "Interaction",
       "id": "id5779dcee",
       "isAttachedTo": [
-        "d7c0e",
-        "b601d"
+        "a8219",
+        "dd14c"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -9393,8 +9293,7 @@
               1
             ]
           },
-          "id": "e5973",
-          "isAttachedTo": "d7c0e",
+          "isAttachedTo": "a8219",
           "orientation": [
             0,
             1
@@ -9403,7 +9302,6 @@
           "y": 755.25
         },
         {
-          "id": "f26f2",
           "x": 703.0678480204342,
           "y": 809
         },
@@ -9418,8 +9316,7 @@
               0
             ]
           },
-          "id": "f0418",
-          "isAttachedTo": "b601d",
+          "isAttachedTo": "dd14c",
           "orientation": [
             0,
             1
@@ -9463,7 +9360,6 @@
               0.5
             ]
           },
-          "id": "fceca",
           "isAttachedTo": "edf9e",
           "orientation": [
             -1,
@@ -9491,7 +9387,6 @@
               0
             ]
           },
-          "id": "d030d",
           "isAttachedTo": "e435b",
           "orientation": [
             0,
@@ -9537,7 +9432,6 @@
               1
             ]
           },
-          "id": "c2e1d",
           "isAttachedTo": "e435b",
           "orientation": [
             0,
@@ -9557,7 +9451,6 @@
               0
             ]
           },
-          "id": "a4374",
           "isAttachedTo": "a4114",
           "orientation": [
             0,
@@ -9587,7 +9480,7 @@
       "id": "id68a8b321",
       "isAttachedTo": [
         "a3f83",
-        "b601d"
+        "dd14c"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -9603,7 +9496,6 @@
               1
             ]
           },
-          "id": "f9f0b",
           "isAttachedTo": "a3f83",
           "orientation": [
             0,
@@ -9623,8 +9515,7 @@
               0.25
             ]
           },
-          "id": "c114f",
-          "isAttachedTo": "b601d",
+          "isAttachedTo": "dd14c",
           "orientation": [
             1,
             0
@@ -9652,7 +9543,7 @@
       "id": "id6a20edc9",
       "isAttachedTo": [
         "edf9e",
-        "bb505"
+        "cf474"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -9668,7 +9559,6 @@
               1
             ]
           },
-          "id": "fcc36",
           "isAttachedTo": "edf9e",
           "orientation": [
             0,
@@ -9688,8 +9578,7 @@
               0
             ]
           },
-          "id": "bdbc3",
-          "isAttachedTo": "bb505",
+          "isAttachedTo": "cf474",
           "orientation": [
             0,
             1
@@ -9724,7 +9613,7 @@
         "f6591"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -9737,7 +9626,6 @@
               1
             ]
           },
-          "id": "b0644",
           "isAttachedTo": "f841e",
           "orientation": [
             0,
@@ -9761,7 +9649,6 @@
               0
             ]
           },
-          "id": "db212",
           "isAttachedTo": "f6591",
           "orientation": [
             0,
@@ -9776,7 +9663,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 12288
     },
@@ -9803,7 +9692,6 @@
               1
             ]
           },
-          "id": "e6f58",
           "isAttachedTo": "f39b7",
           "orientation": [
             0,
@@ -9823,7 +9711,6 @@
               0.25
             ]
           },
-          "id": "ddac5",
           "isAttachedTo": "acbf4",
           "orientation": [
             1,
@@ -9852,7 +9739,7 @@
       "gpmlElementName": "Interaction",
       "id": "id741ef049",
       "isAttachedTo": [
-        "b601d",
+        "dd14c",
         "ab320"
       ],
       "kaavioType": "Edge",
@@ -9868,8 +9755,7 @@
               1
             ]
           },
-          "id": "b2dbd",
-          "isAttachedTo": "b601d",
+          "isAttachedTo": "dd14c",
           "orientation": [
             0,
             1
@@ -9878,7 +9764,6 @@
           "y": 1107.0395913154537
         },
         {
-          "id": "ed909",
           "x": 674.3803480204342,
           "y": 1198
         },
@@ -9893,7 +9778,6 @@
               0
             ]
           },
-          "id": "a97d1",
           "isAttachedTo": "ab320",
           "orientation": [
             0,
@@ -9918,7 +9802,7 @@
       "gpmlElementName": "Interaction",
       "id": "id7494f075",
       "isAttachedTo": [
-        "b601d",
+        "dd14c",
         "c2cc5"
       ],
       "kaavioType": "Edge",
@@ -9935,8 +9819,7 @@
               1
             ]
           },
-          "id": "cdaf7",
-          "isAttachedTo": "b601d",
+          "isAttachedTo": "dd14c",
           "orientation": [
             0,
             1
@@ -9945,7 +9828,6 @@
           "y": 1107.0395913154537
         },
         {
-          "id": "c7c2b",
           "x": 638.1928480204342,
           "y": 1198
         },
@@ -9960,7 +9842,6 @@
               0
             ]
           },
-          "id": "baa55",
           "isAttachedTo": "c2cc5",
           "orientation": [
             0,
@@ -9989,8 +9870,8 @@
       "gpmlElementName": "Interaction",
       "id": "id7509871d",
       "isAttachedTo": [
-        "f22e7",
-        "a6e33"
+        "cf6c8",
+        "c3bdd"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -10006,8 +9887,7 @@
               1
             ]
           },
-          "id": "f8487",
-          "isAttachedTo": "f22e7",
+          "isAttachedTo": "cf6c8",
           "orientation": [
             0,
             1
@@ -10026,13 +9906,12 @@
               0.5
             ]
           },
-          "id": "b653f",
-          "isAttachedTo": "a6e33",
+          "isAttachedTo": "c3bdd",
           "orientation": [
             1,
             0
           ],
-          "x": 844.1666666666666,
+          "x": 844.1666666666667,
           "y": 522.5833333333335
         }
       ],
@@ -10054,8 +9933,8 @@
       "gpmlElementName": "Interaction",
       "id": "id78cc6536",
       "isAttachedTo": [
-        "b84cb",
-        "b601d"
+        "bca0b",
+        "dd14c"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -10071,8 +9950,7 @@
               0.5
             ]
           },
-          "id": "d2a84",
-          "isAttachedTo": "b84cb",
+          "isAttachedTo": "bca0b",
           "orientation": [
             -1,
             0
@@ -10081,7 +9959,6 @@
           "y": 844.0910852713184
         },
         {
-          "id": "f7885",
           "x": 660.0441501103753,
           "y": 944.8153382933864
         },
@@ -10096,8 +9973,7 @@
               0.25
             ]
           },
-          "id": "fa446",
-          "isAttachedTo": "b601d",
+          "isAttachedTo": "dd14c",
           "orientation": [
             -1,
             0
@@ -10125,7 +10001,7 @@
       "id": "id79d077a3",
       "isAttachedTo": [
         "e867d",
-        "c874b"
+        "ea83a"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -10142,7 +10018,6 @@
               0.5
             ]
           },
-          "id": "a9815",
           "isAttachedTo": "e867d",
           "orientation": [
             1,
@@ -10162,13 +10037,12 @@
               0.5
             ]
           },
-          "id": "ee30d",
-          "isAttachedTo": "c874b",
+          "isAttachedTo": "ea83a",
           "orientation": [
             1,
             0
           ],
-          "x": 1064.9957983193274,
+          "x": 1064.9957983193276,
           "y": 605.9852941176466
         }
       ],
@@ -10211,7 +10085,6 @@
               1
             ]
           },
-          "id": "a4803",
           "isAttachedTo": "f39b7",
           "orientation": [
             0,
@@ -10231,7 +10104,6 @@
               0.5
             ]
           },
-          "id": "f47f8",
           "isAttachedTo": "eccb3",
           "orientation": [
             1,
@@ -10277,7 +10149,6 @@
               1
             ]
           },
-          "id": "fe5a1",
           "isAttachedTo": "ab635",
           "orientation": [
             0,
@@ -10297,7 +10168,6 @@
               0
             ]
           },
-          "id": "b621d",
           "isAttachedTo": "de1a6",
           "orientation": [
             0,
@@ -10342,7 +10212,6 @@
               1
             ]
           },
-          "id": "d15f2",
           "isAttachedTo": "e154e",
           "orientation": [
             0,
@@ -10362,7 +10231,6 @@
               0
             ]
           },
-          "id": "bbc6e",
           "isAttachedTo": "a8e72",
           "orientation": [
             0,
@@ -10402,7 +10270,6 @@
               1
             ]
           },
-          "id": "bc514",
           "isAttachedTo": "c52eb",
           "orientation": [
             0,
@@ -10426,7 +10293,6 @@
               1
             ]
           },
-          "id": "e5a96",
           "isAttachedTo": "a80d6",
           "orientation": [
             0,
@@ -10451,7 +10317,7 @@
       "gpmlElementName": "Interaction",
       "id": "id8f1e2d05",
       "isAttachedTo": [
-        "b601d",
+        "dd14c",
         "b3edf"
       ],
       "kaavioType": "Edge",
@@ -10468,8 +10334,7 @@
               1
             ]
           },
-          "id": "b8779",
-          "isAttachedTo": "b601d",
+          "isAttachedTo": "dd14c",
           "orientation": [
             0,
             1
@@ -10478,7 +10343,6 @@
           "y": 1107.0395913154537
         },
         {
-          "id": "c3267",
           "x": 414.56784802043427,
           "y": 1197
         },
@@ -10493,7 +10357,6 @@
               0
             ]
           },
-          "id": "cd5d4",
           "isAttachedTo": "b3edf",
           "orientation": [
             0,
@@ -10518,7 +10381,7 @@
       "gpmlElementName": "Interaction",
       "id": "id950da59f",
       "isAttachedTo": [
-        "bb505",
+        "cf474",
         "c854d"
       ],
       "kaavioType": "Edge",
@@ -10535,8 +10398,7 @@
               1
             ]
           },
-          "id": "db437",
-          "isAttachedTo": "bb505",
+          "isAttachedTo": "cf474",
           "orientation": [
             0,
             1
@@ -10555,7 +10417,6 @@
               0
             ]
           },
-          "id": "f1225",
           "isAttachedTo": "c854d",
           "orientation": [
             0,
@@ -10583,7 +10444,7 @@
       "id": "id9c5c3411",
       "isAttachedTo": [
         "a59c1",
-        "b601d"
+        "dd14c"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -10599,7 +10460,6 @@
               0.5
             ]
           },
-          "id": "f74ec",
           "isAttachedTo": "a59c1",
           "orientation": [
             -1,
@@ -10619,8 +10479,7 @@
               0.5
             ]
           },
-          "id": "f896b",
-          "isAttachedTo": "b601d",
+          "isAttachedTo": "dd14c",
           "orientation": [
             -1,
             0
@@ -10665,7 +10524,6 @@
               1
             ]
           },
-          "id": "b58fe",
           "isAttachedTo": "e1c52",
           "orientation": [
             0,
@@ -10685,7 +10543,6 @@
               0
             ]
           },
-          "id": "b9320",
           "isAttachedTo": "ba575",
           "orientation": [
             0,
@@ -10734,7 +10591,6 @@
               1
             ]
           },
-          "id": "a313f",
           "isAttachedTo": "b328d",
           "orientation": [
             0,
@@ -10754,7 +10610,6 @@
               0
             ]
           },
-          "id": "ef829",
           "isAttachedTo": "f34fd",
           "orientation": [
             0,
@@ -10783,7 +10638,7 @@
       "gpmlElementName": "Interaction",
       "id": "id9f884584",
       "isAttachedTo": [
-        "b601d",
+        "dd14c",
         "f841e"
       ],
       "kaavioType": "Edge",
@@ -10799,8 +10654,7 @@
               1
             ]
           },
-          "id": "b1aca",
-          "isAttachedTo": "b601d",
+          "isAttachedTo": "dd14c",
           "orientation": [
             0,
             1
@@ -10809,7 +10663,6 @@
           "y": 1107.0395913154537
         },
         {
-          "id": "e0712",
           "x": 716.3803480204342,
           "y": 1197
         },
@@ -10824,7 +10677,6 @@
               0
             ]
           },
-          "id": "b9d95",
           "isAttachedTo": "f841e",
           "orientation": [
             0,
@@ -10849,7 +10701,7 @@
       "gpmlElementName": "Interaction",
       "id": "idabee82eb",
       "isAttachedTo": [
-        "f22e7"
+        "cf6c8"
       ],
       "kaavioType": "Edge",
       "points": [
@@ -10864,8 +10716,7 @@
               1
             ]
           },
-          "id": "a70dc",
-          "isAttachedTo": "f22e7",
+          "isAttachedTo": "cf6c8",
           "orientation": [
             0,
             1
@@ -10874,7 +10725,6 @@
           "y": 413
         },
         {
-          "id": "b39e9",
           "x": 708.2089552238806,
           "y": 466.4179104477612
         }
@@ -10911,7 +10761,6 @@
               0.5
             ]
           },
-          "id": "c8107",
           "isAttachedTo": "a3f83",
           "orientation": [
             -1,
@@ -10921,12 +10770,10 @@
           "y": 907.0922733077913
         },
         {
-          "id": "ac6ce",
           "x": 469,
           "y": 1109.5461366538957
         },
         {
-          "id": "ebcd9",
           "x": 497,
           "y": 1312
         },
@@ -10941,7 +10788,6 @@
               1
             ]
           },
-          "id": "ccd42",
           "isAttachedTo": "c52eb",
           "orientation": [
             0,
@@ -10970,7 +10816,7 @@
       "gpmlElementName": "Interaction",
       "id": "idac598c28",
       "isAttachedTo": [
-        "f22e7",
+        "cf6c8",
         "a75a4"
       ],
       "kaavioType": "Edge",
@@ -10987,8 +10833,7 @@
               1
             ]
           },
-          "id": "f7a6b",
-          "isAttachedTo": "f22e7",
+          "isAttachedTo": "cf6c8",
           "orientation": [
             0,
             1
@@ -10997,7 +10842,6 @@
           "y": 413
         },
         {
-          "id": "a814e",
           "x": 1054.1620727010109,
           "y": 467.8007290400972
         },
@@ -11012,7 +10856,6 @@
               0
             ]
           },
-          "id": "a4e9c",
           "isAttachedTo": "a75a4",
           "orientation": [
             0,
@@ -11058,7 +10901,6 @@
               1
             ]
           },
-          "id": "d4186",
           "isAttachedTo": "b98df",
           "orientation": [
             0,
@@ -11078,7 +10920,6 @@
               0
             ]
           },
-          "id": "d8c40",
           "isAttachedTo": "fca81",
           "orientation": [
             0,
@@ -11109,7 +10950,7 @@
       "gpmlElementName": "Interaction",
       "id": "idadb132a",
       "isAttachedTo": [
-        "afca1",
+        "df20e",
         "b328d"
       ],
       "kaavioType": "Edge",
@@ -11126,8 +10967,7 @@
               1
             ]
           },
-          "id": "ac448",
-          "isAttachedTo": "afca1",
+          "isAttachedTo": "df20e",
           "orientation": [
             0,
             1
@@ -11146,7 +10986,6 @@
               0
             ]
           },
-          "id": "e7f32",
           "isAttachedTo": "b328d",
           "orientation": [
             0,
@@ -11192,7 +11031,6 @@
               1
             ]
           },
-          "id": "ad254",
           "isAttachedTo": "ece46",
           "orientation": [
             0,
@@ -11202,7 +11040,6 @@
           "y": 369.52238805970154
         },
         {
-          "id": "a050d",
           "x": 302.0475746268657,
           "y": 459
         },
@@ -11217,7 +11054,6 @@
               0
             ]
           },
-          "id": "e4686",
           "isAttachedTo": "cf6c9",
           "orientation": [
             0,
@@ -11266,7 +11102,6 @@
               1
             ]
           },
-          "id": "d4b48",
           "isAttachedTo": "f39b7",
           "orientation": [
             0,
@@ -11286,7 +11121,6 @@
               0.5
             ]
           },
-          "id": "e7ffc",
           "isAttachedTo": "e1169",
           "orientation": [
             1,
@@ -11315,8 +11149,8 @@
       "gpmlElementName": "Interaction",
       "id": "idb5bc6905",
       "isAttachedTo": [
-        "b84cb",
-        "f4daa"
+        "bca0b",
+        "cdac9"
       ],
       "kaavioType": "Edge",
       "markerEnd": "MimConversion",
@@ -11332,8 +11166,7 @@
               0.5
             ]
           },
-          "id": "ca8b3",
-          "isAttachedTo": "b84cb",
+          "isAttachedTo": "bca0b",
           "orientation": [
             1,
             0
@@ -11352,8 +11185,7 @@
               0.5
             ]
           },
-          "id": "c2009",
-          "isAttachedTo": "f4daa",
+          "isAttachedTo": "cdac9",
           "orientation": [
             1,
             0
@@ -11393,7 +11225,6 @@
               0.5
             ]
           },
-          "id": "bf37f",
           "isAttachedTo": "d9b90",
           "orientation": [
             1,
@@ -11413,7 +11244,6 @@
               0
             ]
           },
-          "id": "ad750",
           "isAttachedTo": "a8e72",
           "orientation": [
             0,
@@ -11454,7 +11284,6 @@
               1
             ]
           },
-          "id": "c81a2",
           "isAttachedTo": "a75a4",
           "orientation": [
             0,
@@ -11474,7 +11303,6 @@
               0
             ]
           },
-          "id": "bfc2b",
           "isAttachedTo": "c3719",
           "orientation": [
             0,
@@ -11504,7 +11332,7 @@
       "id": "idbde415e6",
       "isAttachedTo": [
         "e7e7a",
-        "afca1"
+        "df20e"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -11520,7 +11348,6 @@
               1
             ]
           },
-          "id": "e402d",
           "isAttachedTo": "e7e7a",
           "orientation": [
             0,
@@ -11540,8 +11367,7 @@
               0
             ]
           },
-          "id": "c9752",
-          "isAttachedTo": "afca1",
+          "isAttachedTo": "df20e",
           "orientation": [
             0,
             1
@@ -11585,7 +11411,6 @@
               1
             ]
           },
-          "id": "f0320",
           "isAttachedTo": "c9150",
           "orientation": [
             0,
@@ -11595,7 +11420,6 @@
           "y": 364.78879337023045
         },
         {
-          "id": "aea2f",
           "x": 1105.2457983193276,
           "y": 565.7352941176466
         }
@@ -11635,7 +11459,6 @@
               1
             ]
           },
-          "id": "ab0a5",
           "isAttachedTo": "f6591",
           "orientation": [
             0,
@@ -11655,7 +11478,6 @@
               0
             ]
           },
-          "id": "cb80c",
           "isAttachedTo": "b8267",
           "orientation": [
             0,
@@ -11684,8 +11506,8 @@
       "gpmlElementName": "Interaction",
       "id": "idc533fdab",
       "isAttachedTo": [
-        "f22e7",
-        "b601d"
+        "cf6c8",
+        "dd14c"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -11701,8 +11523,7 @@
               1
             ]
           },
-          "id": "fc7a0",
-          "isAttachedTo": "f22e7",
+          "isAttachedTo": "cf6c8",
           "orientation": [
             0,
             1
@@ -11711,7 +11532,6 @@
           "y": 413
         },
         {
-          "id": "d4af6",
           "x": 654.3178480204342,
           "y": 467.8007290400972
         },
@@ -11726,8 +11546,7 @@
               0
             ]
           },
-          "id": "feb71",
-          "isAttachedTo": "b601d",
+          "isAttachedTo": "dd14c",
           "orientation": [
             0,
             1
@@ -11775,7 +11594,6 @@
               1
             ]
           },
-          "id": "ea81e",
           "isAttachedTo": "fca81",
           "orientation": [
             0,
@@ -11795,7 +11613,6 @@
               0
             ]
           },
-          "id": "e944b",
           "isAttachedTo": "ca04f",
           "orientation": [
             0,
@@ -11820,10 +11637,10 @@
       "id": "idce381ffc",
       "isAttachedTo": [
         "edf9e",
-        "cbd53"
+        "b4164"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -11836,7 +11653,6 @@
               1
             ]
           },
-          "id": "ce6fb",
           "isAttachedTo": "edf9e",
           "orientation": [
             0,
@@ -11856,8 +11672,7 @@
               0.5
             ]
           },
-          "id": "b9d4b",
-          "isAttachedTo": "cbd53",
+          "isAttachedTo": "b4164",
           "orientation": [
             1,
             0
@@ -11871,7 +11686,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 12288
     },
@@ -11882,7 +11699,7 @@
       "id": "idcfc279cb",
       "isAttachedTo": [
         "c41f0",
-        "b601d"
+        "dd14c"
       ],
       "kaavioType": "Edge",
       "points": [
@@ -11897,7 +11714,6 @@
               0.5
             ]
           },
-          "id": "ca973",
           "isAttachedTo": "c41f0",
           "orientation": [
             1,
@@ -11921,8 +11737,7 @@
               0.5
             ]
           },
-          "id": "bd2b5",
-          "isAttachedTo": "b601d",
+          "isAttachedTo": "dd14c",
           "orientation": [
             1,
             0
@@ -11949,7 +11764,7 @@
       "id": "idd912d667",
       "isAttachedTo": [
         "edf9e",
-        "b601d"
+        "dd14c"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -11965,7 +11780,6 @@
               1
             ]
           },
-          "id": "c0af3",
           "isAttachedTo": "edf9e",
           "orientation": [
             0,
@@ -11985,8 +11799,7 @@
               0.5
             ]
           },
-          "id": "b709a",
-          "isAttachedTo": "b601d",
+          "isAttachedTo": "dd14c",
           "orientation": [
             -1,
             0
@@ -12014,7 +11827,7 @@
       "id": "idded8d7ad",
       "isAttachedTo": [
         "e560f",
-        "b601d"
+        "dd14c"
       ],
       "kaavioType": "Edge",
       "points": [
@@ -12029,7 +11842,6 @@
               0.5
             ]
           },
-          "id": "ad74c",
           "isAttachedTo": "e560f",
           "orientation": [
             1,
@@ -12053,8 +11865,7 @@
               0.5
             ]
           },
-          "id": "c8889",
-          "isAttachedTo": "b601d",
+          "isAttachedTo": "dd14c",
           "orientation": [
             1,
             0
@@ -12080,12 +11891,10 @@
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "e7247",
           "x": 515,
           "y": 1292
         },
         {
-          "id": "a4e33",
           "x": 449.074074074074,
           "y": 1388.8888888888887
         }
@@ -12109,13 +11918,12 @@
       "gpmlElementName": "Interaction",
       "id": "ide5ae84bd",
       "isAttachedTo": [
-        "f22e7"
+        "cf6c8"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "adca8",
           "x": 460.2313432835822,
           "y": 367.7723880597015
         },
@@ -12130,8 +11938,7 @@
               0.5
             ]
           },
-          "id": "d0f81",
-          "isAttachedTo": "f22e7",
+          "isAttachedTo": "cf6c8",
           "orientation": [
             1,
             0
@@ -12163,7 +11970,7 @@
       "gpmlElementName": "Interaction",
       "id": "ide7513ed4",
       "isAttachedTo": [
-        "f22e7",
+        "cf6c8",
         "edf9e"
       ],
       "kaavioType": "Edge",
@@ -12180,8 +11987,7 @@
               1
             ]
           },
-          "id": "d62db",
-          "isAttachedTo": "f22e7",
+          "isAttachedTo": "cf6c8",
           "orientation": [
             0,
             1
@@ -12190,7 +11996,6 @@
           "y": 413
         },
         {
-          "id": "f8b66",
           "x": 975.625,
           "y": 466.58566221142166
         },
@@ -12205,7 +12010,6 @@
               0
             ]
           },
-          "id": "c8455",
           "isAttachedTo": "edf9e",
           "orientation": [
             0,
@@ -12234,10 +12038,10 @@
       "id": "idf75e0041",
       "isAttachedTo": [
         "acbf4",
-        "d7c0e"
+        "a8219"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -12250,7 +12054,6 @@
               1
             ]
           },
-          "id": "fadde",
           "isAttachedTo": "acbf4",
           "orientation": [
             0,
@@ -12274,8 +12077,7 @@
               0
             ]
           },
-          "id": "e3cc1",
-          "isAttachedTo": "d7c0e",
+          "isAttachedTo": "a8219",
           "orientation": [
             0,
             1
@@ -12288,7 +12090,9 @@
       "strokeWidth": 2,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 12288
     },
@@ -12302,7 +12106,7 @@
       "id": "idf8007aad",
       "isAttachedTo": [
         "da5d7",
-        "b601d"
+        "dd14c"
       ],
       "kaavioType": "Edge",
       "points": [
@@ -12317,7 +12121,6 @@
               0.5
             ]
           },
-          "id": "b5c23",
           "isAttachedTo": "da5d7",
           "orientation": [
             1,
@@ -12327,7 +12130,6 @@
           "y": 707.7276500638552
         },
         {
-          "id": "f7668",
           "x": 367.6470588235294,
           "y": 886.8836206896547
         },
@@ -12342,8 +12144,7 @@
               0.5
             ]
           },
-          "id": "ab075",
-          "isAttachedTo": "b601d",
+          "isAttachedTo": "dd14c",
           "orientation": [
             1,
             0
@@ -12383,7 +12184,6 @@
               1
             ]
           },
-          "id": "a2576",
           "isAttachedTo": "e5823",
           "orientation": [
             0,
@@ -12403,7 +12203,6 @@
               0
             ]
           },
-          "id": "d50ed",
           "isAttachedTo": "b98df",
           "orientation": [
             0,
@@ -12431,12 +12230,11 @@
       "gpmlElementName": "Interaction",
       "id": "idfdca4d95",
       "isAttachedTo": [
-        "b601d"
+        "dd14c"
       ],
       "kaavioType": "Edge",
       "points": [
         {
-          "id": "c8880",
           "orientation": [
             -1,
             0
@@ -12445,7 +12243,6 @@
           "y": 792
         },
         {
-          "id": "a11bf",
           "x": 366,
           "y": 929.0197956577271
         },
@@ -12460,8 +12257,7 @@
               0.5
             ]
           },
-          "id": "a3985",
-          "isAttachedTo": "b601d",
+          "isAttachedTo": "dd14c",
           "orientation": [
             1,
             0
@@ -12501,7 +12297,6 @@
               1
             ]
           },
-          "id": "e00cd",
           "isAttachedTo": "f39b7",
           "orientation": [
             0,
@@ -12521,7 +12316,6 @@
               0
             ]
           },
-          "id": "fb7d7",
           "isAttachedTo": "e95c9",
           "orientation": [
             0,
@@ -12558,7 +12352,7 @@
       "id": "publicationXrefa45",
       "source": "J Biol Chem",
       "standardName": "Isolation and characterization of the human cytochrome P450 CYP1B1 gene.",
-      "textContent": "9",
+      "textContent": "10",
       "type": [
         "PublicationXref",
         "PubMed:8910454",
@@ -12580,7 +12374,7 @@
       "id": "publicationXrefa4f",
       "source": "Drug Metab Dispos",
       "standardName": "Metabolic activation of polycyclic aromatic hydrocarbons and other procarcinogens by cytochromes P450 1A1 and P450 1B1 allelic variants and other human cytochromes P450 in Salmonella typhimurium NM2009.",
-      "textContent": "27",
+      "textContent": "28",
       "type": [
         "PublicationXref",
         "PubMed:11502724",
@@ -12604,7 +12398,7 @@
       "id": "publicationXrefa5e",
       "source": "Mutat Res",
       "standardName": "Tumor necrosis factor-alpha potentiates genotoxic effects of benzo[a]pyrene in rat liver epithelial cells through upregulation of cytochrome P450 1B1 expression.",
-      "textContent": "42",
+      "textContent": "43",
       "type": [
         "PublicationXref",
         "PubMed:18336843",
@@ -12626,7 +12420,7 @@
       "id": "publicationXrefa6f",
       "source": "Oncogene",
       "standardName": "Epstein-Barr virus encoded nuclear protein EBNA-3 binds XAP-2, a protein associated with Hepatitis B virus X antigen.",
-      "textContent": "24",
+      "textContent": "25",
       "type": [
         "PublicationXref",
         "PubMed:10777214"
@@ -12648,7 +12442,7 @@
       "id": "publicationXrefa78",
       "source": "J Biochem Toxicol",
       "standardName": "2,3,7,8-Tetrachlorodibenzo-p-dioxin causes an increase in protein kinases associated with epidermal growth factor receptor in the hepatic plasma membrane.",
-      "textContent": "3",
+      "textContent": "4",
       "type": [
         "PublicationXref",
         "PubMed:3266253",
@@ -12657,6 +12451,25 @@
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "3266253",
       "year": 1988
+    },
+    "publicationXrefa7e": {
+      "authors": [
+        "Park S",
+        "Dong B",
+        "Matsumura F"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefa7e",
+      "source": "Biochemistry",
+      "standardName": "Rapid activation of c-Src kinase by dioxin is mediated by the Cdc37-HSP90 complex as part of Ah receptor signaling in MCF10A cells.",
+      "textContent": "37",
+      "type": [
+        "PublicationXref",
+        "PubMed:17223712"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "17223712",
+      "year": 2007
     },
     "publicationXrefa8a": {
       "authors": [
@@ -12672,7 +12485,7 @@
       "id": "publicationXrefa8a",
       "source": "Biochem Biophys Res Commun",
       "standardName": "Transcriptionally active heterodimer formation of an Arnt-like PAS protein, Arnt3, with HIF-1a, HLF, and clock.",
-      "textContent": "12",
+      "textContent": "13",
       "type": [
         "PublicationXref",
         "PubMed:9704006",
@@ -12691,7 +12504,7 @@
       "id": "publicationXrefaba",
       "source": "J Biol Chem",
       "standardName": "Binding of aryl hydrocarbon receptor (AhR) to AhR-interacting protein. The role of hsp90.",
-      "textContent": "21",
+      "textContent": "23",
       "type": [
         "PublicationXref",
         "PubMed:10961990",
@@ -12750,7 +12563,7 @@
       "id": "publicationXrefb0f",
       "source": "J Biol Chem",
       "standardName": "Association of the Ah receptor with the 90-kDa heat shock protein.",
-      "textContent": "4",
+      "textContent": "3",
       "type": [
         "PublicationXref",
         "PubMed:2843537"
@@ -12778,6 +12591,31 @@
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "6095293",
       "year": 1984
+    },
+    "publicationXrefb29": {
+      "authors": [
+        "Mayati A",
+        "Levoin N",
+        "Paris H",
+        "N'Diaye M",
+        "Courtois A",
+        "Uriac P",
+        "Lagadic-Gossmann D",
+        "Fardel O",
+        "Le Ferrec E"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefb29",
+      "source": "J Biol Chem",
+      "standardName": "Induction of intracellular calcium concentration by environmental benzo(a)pyrene involves a Ã˜Â®Ã‚Â²2-adrenergic receptor/adenylyl cyclase/Epac-1/inositol 1,4,5-trisphosphate pathway in endothelial cells.",
+      "textContent": "55",
+      "type": [
+        "PublicationXref",
+        "PubMed:22167199"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "22167199",
+      "year": 2012
     },
     "publicationXrefb2f": {
       "authors": [
@@ -12808,7 +12646,7 @@
       "id": "publicationXrefb3d",
       "source": "Bioessays",
       "standardName": "Specificity within the EGF family/ErbB receptor family signaling network.",
-      "textContent": "13",
+      "textContent": "15",
       "type": [
         "PublicationXref",
         "PubMed:9504046"
@@ -12827,7 +12665,7 @@
       "id": "publicationXrefb48",
       "source": "J Biol Chem",
       "standardName": "The aryl hydrocarbon (Ah) receptor transcriptional regulator hepatitis B virus X-associated protein 2 antagonizes p23 binding to Ah receptor-Hsp90 complexes and is dispensable for receptor function.",
-      "textContent": "31",
+      "textContent": "32",
       "type": [
         "PublicationXref",
         "PubMed:15322122"
@@ -12848,7 +12686,7 @@
       "id": "publicationXrefb71",
       "source": "J Biol Chem",
       "standardName": "Mechanism of suppression of cytochrome P-450 1A1 expression by tumor necrosis factor-alpha and lipopolysaccharide.",
-      "textContent": "28",
+      "textContent": "26",
       "type": [
         "PublicationXref",
         "PubMed:11470802"
@@ -12867,7 +12705,7 @@
       "id": "publicationXrefb72",
       "source": "J Pharmacol Exp Ther",
       "standardName": "The tumor suppressor Kruppel-like factor 6 is a novel aryl hydrocarbon receptor DNA binding partner.",
-      "textContent": "54",
+      "textContent": "57",
       "type": [
         "PublicationXref",
         "PubMed:23512538"
@@ -12891,7 +12729,7 @@
       "id": "publicationXrefbe5",
       "source": "Mol Cell Biol",
       "standardName": "NRF2 modulates aryl hydrocarbon receptor signaling: influence on adipogenesis.",
-      "textContent": "38",
+      "textContent": "36",
       "type": [
         "PublicationXref",
         "PubMed:17709388"
@@ -12912,7 +12750,7 @@
       "id": "publicationXrefc06",
       "source": "Proc Natl Acad Sci U S A",
       "standardName": "Aryl hydrocarbon receptor regulates Stat1 activation and participates in the development of Th17 cells.",
-      "textContent": "39",
+      "textContent": "42",
       "type": [
         "PublicationXref",
         "PubMed:18607004"
@@ -12949,7 +12787,7 @@
       "id": "publicationXrefc1d",
       "source": "Biochem Pharmacol",
       "standardName": "Identification of c-Src as the integral component of the cytosolic Ah receptor complex, transducing the signal of 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) through the protein phosphorylation pathway.",
-      "textContent": "10",
+      "textContent": "9",
       "type": [
         "PublicationXref",
         "PubMed:8937476"
@@ -12975,7 +12813,7 @@
       "id": "publicationXrefc67",
       "source": "J Clin Endocrinol Metab",
       "standardName": "The tyrosine kinase receptor RET interacts in vivo with aryl hydrocarbon receptor-interacting protein to alter survivin availability.",
-      "textContent": "46",
+      "textContent": "50",
       "type": [
         "PublicationXref",
         "PubMed:19366855"
@@ -13048,7 +12886,7 @@
       "id": "publicationXrefc90",
       "source": "J Clin Endocrinol Metab",
       "standardName": "Somatostatin analogs modulate AIP in somatotroph adenomas: the role of the ZAC1 pathway.",
-      "textContent": "53",
+      "textContent": "54",
       "type": [
         "PublicationXref",
         "PubMed:22659247"
@@ -13067,7 +12905,7 @@
       "id": "publicationXrefc93",
       "source": "J Biol Chem",
       "standardName": "HDAC6 modulates Hsp90 chaperone activity and regulates activation of aryl hydrocarbon receptor signaling.",
-      "textContent": "47",
+      "textContent": "44",
       "type": [
         "PublicationXref",
         "PubMed:19158084",
@@ -13135,7 +12973,7 @@
       "id": "publicationXrefd24",
       "source": "Breast Cancer Res Treat",
       "standardName": "Expression of the aryl hydrocarbon receptor/transcription factor (AhR) and AhR-regulated CYP1 gene transcripts in a rat model of mammary tumorigenesis.",
-      "textContent": "23",
+      "textContent": "24",
       "type": [
         "PublicationXref",
         "PubMed:11097088",
@@ -13176,7 +13014,7 @@
       "id": "publicationXrefd5c",
       "source": "Toxicol Sci",
       "standardName": "Introducing the \"TCDD-inducible AhR-Nrf2 gene battery\".",
-      "textContent": "43",
+      "textContent": "48",
       "type": [
         "PublicationXref",
         "PubMed:19474220",
@@ -13197,7 +13035,7 @@
       "id": "publicationXrefd68",
       "source": "Genes Dev",
       "standardName": "p27(Kip1) induction and inhibition of proliferation by the intracellular Ah receptor in developing thymus and hepatoma cells.",
-      "textContent": "16",
+      "textContent": "18",
       "type": [
         "PublicationXref",
         "PubMed:10398686",
@@ -13219,7 +13057,7 @@
       "id": "publicationXrefd70",
       "source": "Am J Physiol Gastrointest Liver Physiol",
       "standardName": "Aryl hydrocarbon receptor and NF-E2-related factor 2 are key regulators of human MRP4 expression.",
-      "textContent": "50",
+      "textContent": "51",
       "type": [
         "PublicationXref",
         "PubMed:20395535"
@@ -13239,7 +13077,7 @@
       "id": "publicationXrefd82",
       "source": "Arch Biochem Biophys",
       "standardName": "Interactions of nuclear receptor coactivator/corepressor proteins with the aryl hydrocarbon receptor complex.",
-      "textContent": "18",
+      "textContent": "17",
       "type": [
         "PublicationXref",
         "PubMed:10395741",
@@ -13278,7 +13116,7 @@
       "id": "publicationXrefda2",
       "source": "J Biol Chem",
       "standardName": "Evidence that the co-chaperone p23 regulates ligand responsiveness of the dioxin (Aryl hydrocarbon) receptor.",
-      "textContent": "17",
+      "textContent": "16",
       "type": [
         "PublicationXref",
         "PubMed:10224120",
@@ -13299,7 +13137,7 @@
       "id": "publicationXrefdc5",
       "source": "Toxicol Sci",
       "standardName": "Dioxin increases the interaction between aryl hydrocarbon receptor and estrogen receptor alpha at human promoters.",
-      "textContent": "45",
+      "textContent": "49",
       "type": [
         "PublicationXref",
         "PubMed:19574409"
@@ -13319,7 +13157,7 @@
       "id": "publicationXrefdd7",
       "source": "J Biol Chem",
       "standardName": "Decreased p21 levels are required for efficient restart of DNA synthesis after S phase block.",
-      "textContent": "32",
+      "textContent": "31",
       "type": [
         "PublicationXref",
         "PubMed:14597617"
@@ -13327,6 +13165,25 @@
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "14597617",
       "year": 2004
+    },
+    "publicationXrefddc": {
+      "authors": [
+        "Lu H",
+        "Cui W",
+        "Klaassen CD"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefddc",
+      "source": "Toxicol Appl Pharmacol",
+      "standardName": "Nrf2 protects against 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD)-induced oxidative injury and steatohepatitis.",
+      "textContent": "52",
+      "type": [
+        "PublicationXref",
+        "PubMed:21846477"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "21846477",
+      "year": 2011
     },
     "publicationXrefe06": {
       "authors": [
@@ -13337,7 +13194,7 @@
       "id": "publicationXrefe06",
       "source": "Toxicol Sci",
       "standardName": "High-resolution genome-wide mapping of AHR and ARNT binding sites by ChIP-Seq.",
-      "textContent": "52",
+      "textContent": "56",
       "type": [
         "PublicationXref",
         "PubMed:22903824"
@@ -13378,7 +13235,7 @@
       "id": "publicationXrefe2e",
       "source": "Mol Pharmacol",
       "standardName": "Maximal aryl hydrocarbon receptor activity depends on an interaction with the retinoblastoma protein.",
-      "textContent": "26",
+      "textContent": "27",
       "type": [
         "PublicationXref",
         "PubMed:11259609"
@@ -13402,7 +13259,7 @@
       "id": "publicationXrefe2f",
       "source": "Proc Natl Acad Sci U S A",
       "standardName": "EGF receptor signaling blocks aryl hydrocarbon receptor-mediated transcription and cell differentiation in human epidermal keratinocytes.",
-      "textContent": "49",
+      "textContent": "47",
       "type": [
         "PublicationXref",
         "PubMed:19255421"
@@ -13447,7 +13304,7 @@
       "id": "publicationXrefe3f",
       "source": "Mol Pharmacol",
       "standardName": "Role of dioxin response element and nuclear factor-kappaB motifs in 2,3,7,8-tetrachlorodibenzo-p-dioxin-mediated regulation of Fas and Fas ligand expression.",
-      "textContent": "37",
+      "textContent": "38",
       "type": [
         "PublicationXref",
         "PubMed:16940415"
@@ -13487,7 +13344,7 @@
       "id": "publicationXrefe7e",
       "source": "J Biol Chem",
       "standardName": "Dioxin receptor deficiency impairs angiogenesis by a mechanism involving VEGF-A depletion in the endothelium and transforming growth factor-beta overexpression in the stroma.",
-      "textContent": "44",
+      "textContent": "46",
       "type": [
         "PublicationXref",
         "PubMed:19617630"
@@ -13511,7 +13368,7 @@
       "id": "publicationXrefe80",
       "source": "Exp Mol Med",
       "standardName": "Signaling pathway for 2,3,7,8-tetrachlorodibenzo-p-dioxin-induced TNF-alpha production in differentiated THP-1 human macrophages.",
-      "textContent": "36",
+      "textContent": "39",
       "type": [
         "PublicationXref",
         "PubMed:17934341"
@@ -13609,7 +13466,7 @@
       "id": "publicationXreff04",
       "source": "J Biol Chem",
       "standardName": "Epidermal growth factor-activated aryl hydrocarbon receptor nuclear translocator/HIF-1{beta} signal pathway up-regulates cyclooxygenase-2 gene expression associated with squamous cell carcinoma.",
-      "textContent": "48",
+      "textContent": "45",
       "type": [
         "PublicationXref",
         "PubMed:19203995"
@@ -13646,7 +13503,7 @@
       "id": "publicationXreff49",
       "source": "J Biol Chem",
       "standardName": "Ligand displaces heat shock protein 90 from overlapping binding sites within the aryl hydrocarbon receptor ligand-binding domain.",
-      "textContent": "51",
+      "textContent": "53",
       "type": [
         "PublicationXref",
         "PubMed:21856752"
@@ -13668,7 +13525,7 @@
       "id": "publicationXreff60",
       "source": "Oncogene",
       "standardName": "The RelA NF-kappaB subunit and the aryl hydrocarbon receptor (AhR) cooperate to transactivate the c-myc promoter in mammary cells.",
-      "textContent": "25",
+      "textContent": "21",
       "type": [
         "PublicationXref",
         "PubMed:11114727",
@@ -13687,7 +13544,7 @@
       "id": "publicationXreffb3",
       "source": "Oncogene",
       "standardName": "Identification of cdk2 binding sites on the p27Kip1 cyclin-dependent kinase inhibitor.",
-      "textContent": "15",
+      "textContent": "12",
       "type": [
         "PublicationXref",
         "PubMed:9488039"
@@ -13695,6 +13552,39 @@
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "9488039",
       "year": 1998
+    },
+    "pvjsgeneratedidffa49": {
+      "citations": [
+        "publicationXrefaba"
+      ],
+      "contains": [
+        "f39b7",
+        "ece46",
+        "dad6b"
+      ],
+      "drawAs": "Octagon",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 91.83333333333366,
+      "id": "pvjsgeneratedidffa49",
+      "kaavioType": "Group",
+      "padding": 11,
+      "stroke": "#808080",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "Complex",
+        "GroupComplex"
+      ],
+      "verticalAlign": "middle",
+      "width": 251.5000000000014,
+      "x": 208.73134328358086,
+      "y": 324.0223880597015,
+      "zIndex": 32769
     }
   },
   "pathway": {
@@ -13739,7 +13629,7 @@
       "idf75e0041",
       "idce381ffc",
       "id4d5f1705",
-      "e17aa",
+      "c8f3c",
       "id545746f1",
       "idb5bc6905",
       "id6a20edc9",
@@ -13778,10 +13668,10 @@
       "e154e",
       "f55e7",
       "cf6c9",
-      "e566f",
+      "d7f0c",
       "f0f00",
-      "a8484",
-      "e163a",
+      "c6964",
+      "f4bd3",
       "cd878",
       "e5cf3",
       "e5211",
@@ -13810,12 +13700,12 @@
       "e95c9",
       "eccb3",
       "edf9e",
-      "b84cb",
-      "a6e33",
-      "bb505",
-      "f22e7",
-      "b601d",
-      "e3e14",
+      "bca0b",
+      "c3bdd",
+      "cf474",
+      "cf6c8",
+      "dd14c",
+      "pvjsgeneratedidffa49",
       "ab635",
       "e867d",
       "f695c",
@@ -13824,12 +13714,12 @@
       "b98df",
       "fca81",
       "ca04f",
-      "f4daa",
-      "afca1",
+      "cdac9",
+      "df20e",
       "c3719",
-      "cbd53",
+      "b4164",
       "c854d",
-      "d7c0e",
+      "a8219",
       "b29ae",
       "a80d6",
       "f7486",
@@ -13837,7 +13727,7 @@
       "fed0f",
       "a5d40",
       "fa583",
-      "e40c0",
+      "ef7e1",
       "f841e",
       "faf4e",
       "f6591",
@@ -13852,7 +13742,7 @@
       "e840d",
       "c9443",
       "f34fd",
-      "c874b",
+      "ea83a",
       "ea90f",
       "d3a00",
       "a27af",
@@ -13862,7 +13752,7 @@
       "a321a",
       "a897d"
     ],
-    "dataSourceVersion": "WP2586_r121728",
+    "dataSourceVersion": "WP2586_r126477",
     "displayName": "Aryl hydrocarbon receptor pathway",
     "drawAs": "rect",
     "fill": "white",
@@ -13872,7 +13762,7 @@
     "height": 1651.9839142091153,
     "id": "WP2586",
     "kaavioType": "Group",
-    "lastModified": "20220227013024",
+    "lastModified": "20230505205919",
     "name": "Aryl hydrocarbon receptor pathway",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -13881,13 +13771,13 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Aryl hydrocarbon receptor pathway\nLast Modified: 20220227013024\nOrganism: Homo sapiens",
+    "textContent": "Name: Aryl hydrocarbon receptor pathway\nLast Modified: 20230505205919\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000004"
     ],
     "verticalAlign": "top",
-    "width": 2124.5469255663456,
+    "width": 2116.5469255663456,
     "x": 0,
     "y": 0,
     "zIndex": 0
