@@ -133,7 +133,6 @@
         "GeneProduct",
         "Ensembl:ENSRNOG00000071047",
         "P594:ENSRNOG00000071047",
-        "P351:117516:T",
         "P351:117516",
         "Wikidata:Q24372922"
       ],
@@ -201,13 +200,20 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "GeneProduct"
+        "ChEBI:27300",
+        "Metabolite",
+        "ChEBI:CHEBI:27300",
+        "P683:27300",
+        "P683:CHEBI:27300",
+        "Wikidata:Q175621"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
-      "wpType": "GeneProduct",
+      "wpType": "Metabolite",
       "x": 130.4578313253014,
+      "xrefDataSource": "ChEBI",
+      "xrefIdentifier": "27300",
       "y": 257.5823293172691,
       "zIndex": 32768
     },
@@ -892,13 +898,24 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Metabolite"
+        "ChEBI:29101",
+        "Metabolite",
+        "ChEBI:CHEBI:29101",
+        "P683:29101",
+        "P683:CHEBI:29101",
+        "HMDB:HMDB0000588",
+        "HMDB:HMDB00588",
+        "P2057:HMDB0000588",
+        "P2057:HMDB00588",
+        "Wikidata:Q3154110"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "Metabolite",
       "x": 258.2971887550201,
+      "xrefDataSource": "ChEBI",
+      "xrefIdentifier": "29101",
       "y": 579.6064257028125,
       "zIndex": 32768
     },
@@ -965,13 +982,22 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Metabolite"
+        "ChEBI:18367",
+        "Metabolite",
+        "ChEBI:CHEBI:18367",
+        "P683:CHEBI:18367",
+        "P683:18367",
+        "HMDB:HMDB01429",
+        "P2057:HMDB01429",
+        "Wikidata:Q177811"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "Metabolite",
       "x": 169.0120481927712,
+      "xrefDataSource": "ChEBI",
+      "xrefIdentifier": "18367",
       "y": 579.8795180722907,
       "zIndex": 32768
     },
@@ -1072,13 +1098,20 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "GeneProduct"
+        "ChEBI:27300",
+        "GeneProduct",
+        "ChEBI:CHEBI:27300",
+        "P683:27300",
+        "P683:CHEBI:27300",
+        "Wikidata:Q175621"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
       "x": 649.4939759036156,
+      "xrefDataSource": "ChEBI",
+      "xrefIdentifier": "27300",
       "y": 79.70281124497994,
       "zIndex": 32768
     },
@@ -2412,6 +2445,27 @@
         "DirectedInteraction"
       ],
       "zIndex": 12288
+    },
+    "publicationXrefd71": {
+      "authors": [
+        "Shymanskyi I",
+        "Lisakovska O",
+        "Mazanova A",
+        "Labudzynskyi D",
+        "Veliky M"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefd71",
+      "source": "Front Endocrinol (Lausanne)",
+      "standardName": "Vitamin D(3) Modulates Impaired Crosstalk Between RANK and Glucocorticoid Receptor Signaling in Bone Marrow Cells After Chronic Prednisolone Administration.",
+      "textContent": "1",
+      "type": [
+        "PublicationXref",
+        "PubMed:29930537"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "29930537",
+      "year": 2018
     }
   },
   "pathway": {
@@ -2421,7 +2475,7 @@
         "@base": "WP227/"
       }
     ],
-    "author": "[Ehsiao, AlexanderPico, Khanspers, MaintBot, Ddigles, Mkutmon, Eweitz]",
+    "author": "[Ehsiao, AlexanderPico, Khanspers, MaintBot, Ddigles, Mkutmon, Eweitz, Egonw]",
     "comments": [
       {
         "content": "Osteoblasts are specialized, terminally differentiated uninucleated cells responsible for bone formation. Their activity is tightly regulated by external stimuli, originating from e.g. the parathyroid glands, osteocytes, etc. Along with osteoclasts, which are responsible for bone degradation, osteoblasts are key regulators of the shape and volume of bone tissue.",
@@ -2478,7 +2532,7 @@
       "a57d5",
       "d40bc"
     ],
-    "dataSourceVersion": "WP227_r125587",
+    "dataSourceVersion": "WP227_r126757",
     "displayName": "Osteoblast signaling",
     "drawAs": "rect",
     "fill": "white",
@@ -2488,7 +2542,7 @@
     "height": 704.6385542168696,
     "id": "WP227",
     "kaavioType": "Group",
-    "lastModified": "20230302192611",
+    "lastModified": "20230618201853",
     "name": "Osteoblast signaling",
     "organism": "Rattus norvegicus",
     "padding": 5,
@@ -2497,7 +2551,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Osteoblast signaling\nLast Modified: 20230302192611\nOrganism: Rattus norvegicus",
+    "textContent": "Name: Osteoblast signaling\nLast Modified: 20230618201853\nOrganism: Rattus norvegicus",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000650"
