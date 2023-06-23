@@ -106,6 +106,46 @@
       "y": 543.3374378571569,
       "zIndex": 32768
     },
+    "a6f63": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 10,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 20,
+      "id": "a6f63",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#0000ff",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Vitamin D",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "ChEBI:27300",
+        "Metabolite",
+        "ChEBI:CHEBI:27300",
+        "P683:27300",
+        "P683:CHEBI:27300",
+        "Wikidata:Q175621"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 80,
+      "wpType": "Metabolite",
+      "x": 130.4578313253014,
+      "xrefDataSource": "ChEBI",
+      "xrefIdentifier": "27300",
+      "y": 257.5823293172691,
+      "zIndex": 32768
+    },
     "ac3": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -177,7 +217,7 @@
       "y": 113.95461847389947,
       "zIndex": 16384
     },
-    "b53": {
+    "b3e9f": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -186,12 +226,12 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "b53",
+      "id": "b3e9f",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
       "padding": 8,
-      "stroke": "#000000",
+      "stroke": "#0000ff",
       "strokeWidth": 1,
       "textAlign": "center",
       "textContent": "Vitamin D",
@@ -211,10 +251,10 @@
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "Metabolite",
-      "x": 130.4578313253014,
+      "x": 649.4939759036156,
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "27300",
-      "y": 257.5823293172691,
+      "y": 79.70281124497994,
       "zIndex": 32768
     },
     "b71": {
@@ -1024,12 +1064,12 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "GeneProduct"
+        "Metabolite"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
-      "wpType": "GeneProduct",
+      "wpType": "Metabolite",
       "x": 192.05187268899402,
       "y": 117.43223112715178,
       "zIndex": 32768
@@ -1074,46 +1114,6 @@
       "xrefIdentifier": "24629",
       "y": 27.9999999999998,
       "zIndex": 32772
-    },
-    "fa4": {
-      "drawAs": "rect",
-      "fill": "#ffffff",
-      "fontFamily": "Arial",
-      "fontSize": 10,
-      "fontStyle": "normal",
-      "fontWeight": "normal",
-      "gpmlElementName": "DataNode",
-      "height": 20,
-      "id": "fa4",
-      "kaavioType": "SingleFreeNode",
-      "lineHeight": 1.1,
-      "overflow": "hidden",
-      "padding": 8,
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "textContent": "Vitamin D",
-      "textDecoration": "none",
-      "textOverflow": "clip",
-      "type": [
-        "DataNode",
-        "SingleFreeNode",
-        "ChEBI:27300",
-        "GeneProduct",
-        "ChEBI:CHEBI:27300",
-        "P683:27300",
-        "P683:CHEBI:27300",
-        "Wikidata:Q175621"
-      ],
-      "verticalAlign": "middle",
-      "whiteSpace": "pre",
-      "width": 80,
-      "wpType": "GeneProduct",
-      "x": 649.4939759036156,
-      "xrefDataSource": "ChEBI",
-      "xrefIdentifier": "27300",
-      "y": 79.70281124497994,
-      "zIndex": 32768
     },
     "fad": {
       "drawAs": "rect",
@@ -1342,7 +1342,7 @@
       "gpmlElementName": "Interaction",
       "id": "id39c49dc1",
       "isAttachedTo": [
-        "b53",
+        "a6f63",
         "b71"
       ],
       "kaavioType": "Edge",
@@ -1359,7 +1359,7 @@
               0.6871485943775071
             ]
           },
-          "isAttachedTo": "b53",
+          "isAttachedTo": "a6f63",
           "orientation": [
             0,
             0
@@ -2137,7 +2137,7 @@
       "gpmlElementName": "Interaction",
       "id": "idd1584d59",
       "isAttachedTo": [
-        "fa4",
+        "b3e9f",
         "ac3"
       ],
       "kaavioType": "Edge",
@@ -2154,7 +2154,7 @@
               0.49357429718875634
             ]
           },
-          "isAttachedTo": "fa4",
+          "isAttachedTo": "b3e9f",
           "orientation": [
             0,
             0
@@ -2200,7 +2200,7 @@
       "gpmlElementName": "Interaction",
       "id": "idd49181e3",
       "isAttachedTo": [
-        "b53",
+        "a6f63",
         "fff"
       ],
       "kaavioType": "Edge",
@@ -2217,7 +2217,7 @@
               0.2935742971887521
             ]
           },
-          "isAttachedTo": "b53",
+          "isAttachedTo": "a6f63",
           "orientation": [
             0,
             0
@@ -2263,7 +2263,7 @@
       "gpmlElementName": "Interaction",
       "id": "ide02f5f6d",
       "isAttachedTo": [
-        "fa4",
+        "b3e9f",
         "a41"
       ],
       "kaavioType": "Edge",
@@ -2280,7 +2280,7 @@
               0.4935742971887557
             ]
           },
-          "isAttachedTo": "fa4",
+          "isAttachedTo": "b3e9f",
           "orientation": [
             0,
             0
@@ -2389,7 +2389,7 @@
       "gpmlElementName": "Interaction",
       "id": "idfb67f60b",
       "isAttachedTo": [
-        "b53",
+        "a6f63",
         "d83"
       ],
       "kaavioType": "Edge",
@@ -2406,7 +2406,7 @@
               0.5128514056224844
             ]
           },
-          "isAttachedTo": "b53",
+          "isAttachedTo": "a6f63",
           "orientation": [
             0,
             0
@@ -2475,7 +2475,7 @@
         "@base": "WP227/"
       }
     ],
-    "author": "[Ehsiao, AlexanderPico, Khanspers, MaintBot, Ddigles, Mkutmon, Eweitz, Egonw]",
+    "author": "[Ehsiao, AlexanderPico, Khanspers, MaintBot, Ddigles, Mkutmon, Eweitz, Egonw, DeSl]",
     "comments": [
       {
         "content": "Osteoblasts are specialized, terminally differentiated uninucleated cells responsible for bone formation. Their activity is tightly regulated by external stimuli, originating from e.g. the parathyroid glands, osteocytes, etc. Along with osteoclasts, which are responsible for bone degradation, osteoblasts are key regulators of the shape and volume of bone tissue.",
@@ -2509,8 +2509,9 @@
       "d13",
       "a1d",
       "a41",
+      "a6f63",
       "ac3",
-      "b53",
+      "b3e9f",
       "b71",
       "ba7",
       "bc5",
@@ -2526,13 +2527,12 @@
       "ef2",
       "f00",
       "f1a",
-      "fa4",
       "fad",
       "fff",
       "a57d5",
       "d40bc"
     ],
-    "dataSourceVersion": "WP227_r126757",
+    "dataSourceVersion": "WP227_r126794",
     "displayName": "Osteoblast signaling",
     "drawAs": "rect",
     "fill": "white",
@@ -2542,7 +2542,7 @@
     "height": 704.6385542168696,
     "id": "WP227",
     "kaavioType": "Group",
-    "lastModified": "20230618201853",
+    "lastModified": "20230622142224",
     "name": "Osteoblast signaling",
     "organism": "Rattus norvegicus",
     "padding": 5,
@@ -2551,7 +2551,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Osteoblast signaling\nLast Modified: 20230618201853\nOrganism: Rattus norvegicus",
+    "textContent": "Name: Osteoblast signaling\nLast Modified: 20230622142224\nOrganism: Rattus norvegicus",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000650"
