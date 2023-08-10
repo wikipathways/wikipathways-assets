@@ -10,6 +10,12 @@
         <feMorphology in="SourceGraphic" result="inDouble" operator="dilate" radius="3"/>
         <feComposite in="inDouble" in2="in2Double" operator="out" result="doubleResult"/>
       </filter>
+      <filter x="0" y="0" height="1022" width="1956" id="kaaviowhitetofffffffilter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -1                  0  1  0 0 -1                  0  0  1 0 -1                  0  0  0 1 0"/>
+      </filter>
+      <filter x="0" y="0" height="1022" width="1956" id="kaavioblacktofffffffilter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 1                   0  -1   0 0 1                   0   0  -1 0 1                   0   0   0 1 0"/>
+      </filter>
       <filter x="0" y="0" height="1022" width="1956" id="kaaviowhiteto14961efilter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0.0784313725490196                  0  1  0 0 -0.5882352941176471                  0  0  1 0 -0.11764705882352941                  0  0  0 1 0"/>
       </filter>
@@ -33,12 +39,6 @@
       </filter>
       <filter x="0" y="0" height="1022" width="1956" id="kaavioblackto000080filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0                   0  -1   0 0 0                   0   0  -1 0 0.5019607843137255                   0   0   0 1 0"/>
-      </filter>
-      <filter x="0" y="0" height="1022" width="1956" id="kaaviowhitetofffffffilter" filterUnits="userSpaceOnUse">
-        <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -1                  0  1  0 0 -1                  0  0  1 0 -1                  0  0  0 1 0"/>
-      </filter>
-      <filter x="0" y="0" height="1022" width="1956" id="kaavioblacktofffffffilter" filterUnits="userSpaceOnUse">
-        <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 1                   0  -1   0 0 1                   0   0  -1 0 1                   0   0   0 1 0"/>
       </filter>
       <filter x="0" y="0" height="1022" width="1956" id="kaaviowhiteto0000fffilter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0                  0  1  0 0 -0                  0  0  1 0 -1                  0  0  0 1 0"/>
@@ -472,7 +472,7 @@
       </symbol>
     </g>
   </defs>
-  <g id="WP306" class="Viewport" color="black" name="Name: Focal adhesion Last Modified: 20230808233346 Organism: Homo sapiens">
+  <g id="WP306" class="Viewport" color="black" name="Name: Focal adhesion Last Modified: 20230809175705 Organism: Homo sapiens">
     <rect fill="white" stroke="black" stroke-width="0" fill-opacity="1" height="1022px" id="WP306-icon" width="1956px" x="0" y="0" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
     <g id="f9b05" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#c0c0c0" transform="translate(482.00728593363374,150.1602451225558)">
       <g filter="url(#kaaviodoublefalse3filter)" fill="transparent" fill-opacity="0" stroke="#c0c0c0" stroke-width="3">
@@ -725,28 +725,28 @@
       </g>
     </g>
     <g id="d3016" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
-      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 3.04, 5.06, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="d3016-path" d="M1143.0518403890794,491.49522862090555L1369.0388802918094,564.8285619542391" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 5.09, 3.05, 0, 5.8" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="d3016-path" d="M1142.0518403890794,490.49522862090555L1369.0388802918094,564.8285619542391" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
     <g id="e96f8" class="Edge Interaction SBO_0000169 Inhibition" color="#000000">
-      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="265.6685004013319, 7" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="e96f8-path" d="M1140.0518403890794,472.49522862090555L1412.7185070557462,471.49522862090555" marker-end="url(#markerEndTBar)" class="EdgeBody"/>
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="266.66666666666674, 7" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="e96f8-path" d="M1139.0518403890794,471.49522862090555L1412.7185070557462,471.49522862090555" marker-end="url(#markerEndTBar)" class="EdgeBody"/>
       </g>
     </g>
     <g id="eaaca" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
-      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="188.74778642810577, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="eaaca-path" d="M919.25,618L1067.0518403890794,491.49522862090555" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="188.6434289608571, 5.8" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="eaaca-path" d="M919.25,618L1066.0518403890794,490.49522862090555" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
     <g id="eaeca" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
-      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="124.87049314125129, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="eaeca-path" d="M936.3851737224127,471.49522862090555L1067.0518403890794,472.49522862090555" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="123.86666666666675, 5.8" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="eaeca-path" d="M936.3851737224127,471.49522862090555L1066.0518403890794,471.49522862090555" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
     <g id="f2017" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
-      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="31.180475328956522, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="f2017-path" d="M1034.3851737224127,436.1618952875722L1067.0518403890794,453.49522862090555" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="29.83082311083427, 5.8" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="f2017-path" d="M1034.3851737224127,436.1618952875722L1066.0518403890794,452.49522862090555" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
     <g id="a7e2e" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
@@ -835,13 +835,13 @@
       </g>
     </g>
     <g id="ce645" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
-      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="25.481770105962106, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="ce645-path" d="M1371.7759201945396,296.1618952875722L1399.75,282.1618952875723" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="25.682315757309887, 5.8" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="ce645-path" d="M1371.5518403890792,296.1618952875722L1399.75,282.1618952875723" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
     <g id="f07c5" class="Edge Interaction SBO_0000169 Inhibition" color="#000000">
-      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="259.48200541151425, 7" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="f07c5-path" d="M1219.4685070557462,570.828561954239L1371.7759201945396,352.1618952875722" marker-end="url(#markerEndTBar)" class="EdgeBody"/>
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="260.17556909684356, 7" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="f07c5-path" d="M1219.4685070557462,570.828561954239L1371.5518403890792,351.1618952875722" marker-end="url(#markerEndTBar)" class="EdgeBody"/>
       </g>
     </g>
     <g id="bf43f" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
@@ -885,18 +885,18 @@
       </g>
     </g>
     <g id="bae95" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
-      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="36.91351594571039, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="bae95-path" d="M541.0518403890792,827.1618952875723L576.3851737224127,851.1618952875723" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="27.459188371202277, 5.8" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="bae95-path" d="M558.0518403890792,823.4118952875723L576.3851737224127,851.1618952875723" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
     <g id="c65aa" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
-      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="246.8932703672358, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="c65aa-path" d="M541.0518403890792,745.1618952875723L651.3851737224127,517.8285619542389" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="236.94359185957705, 5.8" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="c65aa-path" d="M558.0518403890792,741.9118952875723L651.3851737224127,517.8285619542389" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
     <g id="eb392" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
-      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="34.451194192230346, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="eb392-path" d="M254.05184038907925,786.1618952875723L294.3030345813096,786.1618952875723" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="26.123405987234804, 5.8" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="eb392-path" d="M311.05184038907925,783.1618952875723L342.97133051385754,782.6618952875723" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
     <g id="da035" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
@@ -946,7 +946,7 @@
       </text>
     </g>
     <g id="ad44b" class="SingleFreeNode DataNode Pathway" color="#14961e" name="Cell Motility" transform="translate(1687.8851737224127,257.49522862090555)">
-      <use fill="transparent" fill-opacity="0" stroke="#14961e" stroke-width="0" height="16px" id="ad44b-icon" width="80.33333333333333px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <rect fill="#ffffff" stroke="#14961e" stroke-width="1" fill-opacity="1" height="16px" id="ad44b-icon" rx="15" ry="15" width="80.33333333333333px" x="0" y="0" transform="matrix(0.9877049180327869, 0, 0, 0.9411764705882353, 0.4938524590163951, 0.47058823529411775)" class="Icon"/>
       <text id="ad44b-text" class="Text" direction="ltr" fill="#14961e" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(40.166666666666664,12)">
         <tspan x="0" y="0">Cell Motility</tspan>
       </text>
@@ -957,14 +957,20 @@
         <tspan x="0" y="0">Cell Proliferation</tspan>
       </text>
     </g>
-    <g id="b3969" class="SingleFreeNode DataNode Pathway" color="#14961e" name="Cell Cycle" transform="translate(1680.218507055746,690.4952286209056)">
-      <use fill="transparent" fill-opacity="0" stroke="#14961e" stroke-width="0" height="16px" id="b3969-icon" width="64.33333333333333px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+    <a id="b3969" class="SingleFreeNode DataNode WikiPathways_WP179 Pathway Wikidata_Q29892200" color="#14961e" name="Cell Cycle" transform="translate(1684.218507055746,699.4952286209056)" xlink:href="https://tools.wmflabs.org/scholia/Q29892200" target="_blank">
+      <rect fill="#ffffff" stroke="#14961e" stroke-width="1" fill-opacity="1" height="16px" id="b3969-icon" rx="15" ry="15" width="64.33333333333333px" x="0" y="0" transform="matrix(0.9846938775510204, 0, 0, 0.9411764705882353, 0.4923469387755084, 0.47058823529411775)" class="Icon"/>
       <text id="b3969-text" class="Text" direction="ltr" fill="#14961e" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(32.166666666666664,12)">
         <tspan x="0" y="0">Cell Cycle</tspan>
       </text>
+    </a>
+    <g id="ae5" class="SingleFreeNode Label" color="#000080" name="Cytokine-cytokine receptor interactions" transform="translate(188.99999999999997,665.1618952875724)">
+      <use fill="transparent" fill-opacity="0" stroke="#000080" stroke-width="0" height="21.838104712427594px" id="ae5-icon" width="248.05184038907925px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <text id="ae5-text" class="Text" direction="ltr" fill="#000080" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(124.02592019453962,14.919052356213797)">
+        <tspan x="0" y="0">Cytokine-cytokine receptor interactions</tspan>
+      </text>
     </g>
     <a id="efd70" class="SingleFreeNode DataNode WikiPathways_WP4172 Pathway Wikidata_Q50400941" color="#14961e" name="PI3K-Akt Signaling Pathway" transform="translate(1341.0518403890792,564.8285619542391)" xlink:href="https://tools.wmflabs.org/scholia/Q50400941" target="_blank">
-      <use fill="transparent" fill-opacity="0" stroke="#14961e" stroke-width="0" height="28.17143804576085px" id="efd70-icon" width="111.94815961092081px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <rect fill="#ffffff" stroke="#14961e" stroke-width="1" fill-opacity="1" height="28.17143804576085px" id="efd70-icon" rx="15" ry="15" width="111.94815961092081px" x="0" y="0" transform="matrix(0.9911463807516231, 0, 0, 0.9657198936017034, 0.4955731903758078, 0.48285994680085054)" class="Icon"/>
       <text id="efd70-text" class="Text" direction="ltr" fill="#14961e" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(55.974079805460406,18.085719022880426)">
         <tspan x="0" y="-6.6000000000000005">PI3K-Akt</tspan>
         <tspan x="0" y="6.6000000000000005">Signaling Pathway</tspan>
@@ -995,9 +1001,9 @@
         <tspan x="0" y="0">FA turnover</tspan>
       </text>
     </g>
-    <g id="d92" class="SingleFreeNode Label" color="#000080" name="Extracellular Matrix - Receptor Interactions" transform="translate(75.94998853722777,462.84222165354186)">
-      <use fill="transparent" fill-opacity="0" stroke="#000080" stroke-width="0" height="16px" id="d92-icon" width="204.30927072203184px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-      <text id="d92-text" class="Text" direction="ltr" fill="#000080" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="bold" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(102.15463536101592,11)">
+    <g id="d92" class="SingleFreeNode Label" color="#000080" name="Extracellular Matrix - Receptor Interactions" transform="translate(175.9499885372278,141.84222165354186)">
+      <use fill="transparent" fill-opacity="0" stroke="#000080" stroke-width="0" height="16px" id="d92-icon" width="275.0500114627722px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <text id="d92-text" class="Text" direction="ltr" fill="#000080" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(137.5250057313861,12)">
         <tspan x="0" y="0">Extracellular Matrix - Receptor Interactions</tspan>
       </text>
     </g>
@@ -1007,201 +1013,117 @@
         <tspan x="0" y="0">Stress Fiber-FA formation</tspan>
       </text>
     </g>
-    <g id="b25ff" class="Group GroupNone" color="#808080" name="Cytokine-cytokine receptor interactions" transform="translate(25.051840389079246,703.1618952875723)">
-      <rect fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-dasharray="5,3" stroke-width="1" height="166px" id="b25ff-icon" width="233px" x="0" y="0" transform="matrix(0.9957264957264957, 0, 0, 0.9940119760479041, 0.49786324786325054, 0.49700598802395746)" class="Icon"/>
-      <g id="ae5" class="SingleFreeNode Label" color="#000080" name="Cytokine-cytokine receptor interactions" transform="translate(9,9)">
-        <use fill="transparent" fill-opacity="0" stroke="#000080" stroke-width="0" height="16px" id="ae5-icon" width="215px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-        <text id="ae5-text" class="Text" direction="ltr" fill="#000080" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="bold" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(107.5,11)">
-          <tspan x="0" y="0">Cytokine-cytokine receptor interactions</tspan>
-        </text>
-      </g>
-      <a id="a37" class="SingleFreeNode DataNode Entrez_Gene_3082 GeneProduct Ensembl_ENSG00000019991 P594_ENSG00000019991 P351_3082 HGNC_HGF HGF P353_HGF Wikidata_Q14906204" color="#000000" name="HGF" transform="translate(27.999999999999986,77)" xlink:href="https://tools.wmflabs.org/scholia/Q14906204" target="_blank">
-        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="a37-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
-        <text id="a37-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
-          <tspan x="0" y="0">HGF</tspan>
-        </text>
-      </a>
-      <a id="aa7" class="SingleFreeNode DataNode Entrez_Gene_80310 GeneProduct Ensembl_ENSG00000170962 P594_ENSG00000170962 P351_80310 HGNC_PDGFD PDGFD P353_PDGFD Wikidata_Q18046693" color="#000000" name="PDGFD" transform="translate(118,57)" xlink:href="https://tools.wmflabs.org/scholia/Q18046693" target="_blank">
-        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="aa7-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
-        <text id="aa7-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
-          <tspan x="0" y="0">PDGFD</tspan>
-        </text>
-      </a>
-      <a id="aac" class="SingleFreeNode DataNode Entrez_Gene_7422 GeneProduct Ensembl_ENSG00000112715 P594_ENSG00000112715 P351_7422 HGNC_VEGFA VEGFA P353_VEGFA Wikidata_Q18032324" color="#000000" name="VEGF" transform="translate(118,97)" xlink:href="https://tools.wmflabs.org/scholia/Q18032324" target="_blank">
-        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="aac-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
-        <text id="aac-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
-          <tspan x="0" y="0">VEGF</tspan>
-        </text>
-      </a>
-      <a id="bbd" class="SingleFreeNode DataNode Entrez_Gene_2277 GeneProduct Ensembl_ENSG00000165197 P594_ENSG00000165197 P351_2277 HGNC_VEGFD VEGFD P353_VEGFD Wikidata_Q17928419" color="#000000" name="FIGF" transform="translate(27.999999999999986,57)" xlink:href="https://tools.wmflabs.org/scholia/Q17928419" target="_blank">
-        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="bbd-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
-        <text id="bbd-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
-          <tspan x="0" y="0">FIGF</tspan>
-        </text>
-      </a>
-      <a id="bcd" class="SingleFreeNode DataNode Entrez_Gene_1950 GeneProduct Ensembl_ENSG00000138798 P594_ENSG00000138798 P351_1950 HGNC_EGF EGF P353_EGF Wikidata_Q14864695" color="#000000" name="EGF" transform="translate(27.999999999999986,37)" xlink:href="https://tools.wmflabs.org/scholia/Q14864695" target="_blank">
-        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="bcd-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
-        <text id="bcd-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
-          <tspan x="0" y="0">EGF</tspan>
-        </text>
-      </a>
-      <a id="d0e" class="SingleFreeNode DataNode Entrez_Gene_7423 GeneProduct Ensembl_ENSG00000173511 P594_ENSG00000173511 P351_7423 HGNC_VEGFB VEGFB P353_VEGFB Wikidata_Q18032325" color="#000000" name="VEGFB" transform="translate(118,117)" xlink:href="https://tools.wmflabs.org/scholia/Q18032325" target="_blank">
-        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="d0e-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
-        <text id="d0e-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
-          <tspan x="0" y="0">VEGFB</tspan>
-        </text>
-      </a>
-      <a id="dc8" class="SingleFreeNode DataNode Entrez_Gene_3479 GeneProduct Ensembl_ENSG00000017427 P594_ENSG00000017427 P351_3479 HGNC_IGF1 IGF1 P353_IGF1 Wikidata_Q12791246" color="#000000" name="IGF1" transform="translate(27.999999999999986,97)" xlink:href="https://tools.wmflabs.org/scholia/Q12791246" target="_blank">
-        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="dc8-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
-        <text id="dc8-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
-          <tspan x="0" y="0">IGF1</tspan>
-        </text>
-      </a>
-      <a id="e37" class="SingleFreeNode DataNode Entrez_Gene_5228 GeneProduct Ensembl_ENSG00000119630 P594_ENSG00000119630 P351_5228 HGNC_PGF PGF P353_PGF Wikidata_Q18030500" color="#000000" name="PGF" transform="translate(118,77)" xlink:href="https://tools.wmflabs.org/scholia/Q18030500" target="_blank">
-        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="e37-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
-        <text id="e37-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
-          <tspan x="0" y="0">PGF</tspan>
-        </text>
-      </a>
-      <a id="f04" class="SingleFreeNode DataNode Entrez_Gene_5154 GeneProduct Ensembl_ENSG00000197461 P594_ENSG00000197461 P351_5154 HGNC_PDGFA PDGFA P353_PDGFA Wikidata_Q18030420" color="#000000" name="PDGFA" transform="translate(27.999999999999986,117)" xlink:href="https://tools.wmflabs.org/scholia/Q18030420" target="_blank">
-        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="f04-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
-        <text id="f04-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
-          <tspan x="0" y="0">PDGFA</tspan>
-        </text>
-      </a>
-      <a id="f79" class="SingleFreeNode DataNode Entrez_Gene_56034 GeneProduct Ensembl_ENSG00000145431 P594_ENSG00000145431 P351_56034 HGNC_PDGFC PDGFC P353_PDGFC Wikidata_Q18042211" color="#000000" name="PDGFC" transform="translate(118,37)" xlink:href="https://tools.wmflabs.org/scholia/Q18042211" target="_blank">
-        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="f79-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
-        <text id="f79-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
-          <tspan x="0" y="0">PDGFC</tspan>
-        </text>
-      </a>
-      <a id="fb5" class="SingleFreeNode DataNode Entrez_Gene_7424 GeneProduct Ensembl_ENSG00000150630 P594_ENSG00000150630 P351_7424 HGNC_VEGFC VEGFC P353_VEGFC Wikidata_Q5398950" color="#000000" name="VEGFC" transform="translate(118,137)" xlink:href="https://tools.wmflabs.org/scholia/Q5398950" target="_blank">
-        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="fb5-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
-        <text id="fb5-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
-          <tspan x="0" y="0">VEGFC</tspan>
-        </text>
-      </a>
-      <a id="fe1" class="SingleFreeNode DataNode Entrez_Gene_5155 GeneProduct Ensembl_ENSG00000100311 P594_ENSG00000100311 P351_5155 HGNC_PDGFB PDGFB P353_PDGFB Wikidata_Q18030421" color="#000000" name="PDGFB" transform="translate(27.999999999999986,137)" xlink:href="https://tools.wmflabs.org/scholia/Q18030421" target="_blank">
-        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="fe1-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
-        <text id="fe1-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
-          <tspan x="0" y="0">PDGFB</tspan>
-        </text>
-      </a>
-      <text id="b25ff-text" class="Text" direction="ltr" fill="#808080" font-family="'Liberation Sans', Arial, sans-serif" font-size="1px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(116.5,83)">
-        <tspan x="0" y="0">Cytokine-cytokine receptor interactions</tspan>
-      </text>
-    </g>
-    <g id="e1366" class="Group GroupNone" color="#808080" transform="translate(290.7185070557459,703.1618952875723)">
-      <rect fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-dasharray="5,3" stroke-width="1" height="166px" id="e1366-icon" width="251.33333333333331px" x="0" y="0" transform="matrix(0.9960369881109643, 0, 0, 0.9940119760479041, 0.49801849405548637, 0.49700598802395746)" class="Icon"/>
-      <g id="d29" class="SingleFreeNode Label" color="#000080" name="Receptor Tyrosine Kinases" transform="translate(48.99999999999994,9)">
+    <g id="e1366" class="Group GroupNone" color="#808080" transform="translate(339.7185070557459,700.1618952875723)">
+      <rect fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-dasharray="5,3" stroke-width="1" height="165px" id="e1366-icon" width="219.33333333333331px" x="0" y="0" transform="matrix(0.9954614220877458, 0, 0, 0.9939759036144579, 0.49773071104387157, 0.49698795180722755)" class="Icon"/>
+      <g id="d29" class="SingleFreeNode Label" color="#000080" name="Receptor Tyrosine Kinases" transform="translate(25.999999999999943,9)">
         <use fill="transparent" fill-opacity="0" stroke="#000080" stroke-width="0" height="16px" id="d29-icon" width="173.33333333333334px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
         <text id="d29-text" class="Text" direction="ltr" fill="#000080" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="bold" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(86.66666666666667,11)">
           <tspan x="0" y="0">Receptor Tyrosine Kinases</tspan>
         </text>
       </g>
-      <a id="a09" class="SingleFreeNode DataNode Entrez_Gene_5156 GeneProduct Ensembl_ENSG00000134853 P594_ENSG00000134853 P351_5156 HGNC_PDGFRA PDGFRA P353_PDGFRA Wikidata_Q18030422" color="#000000" name="PDGFRA" transform="translate(95.66666666666663,97)" xlink:href="https://tools.wmflabs.org/scholia/Q18030422" target="_blank">
+      <a id="a09" class="SingleFreeNode DataNode Entrez_Gene_5156 GeneProduct Ensembl_ENSG00000134853 P594_ENSG00000134853 P351_5156 HGNC_PDGFRA PDGFRA P353_PDGFRA Wikidata_Q18030422" color="#000000" name="PDGFRA" transform="translate(79.66666666666663,95)" xlink:href="https://tools.wmflabs.org/scholia/Q18030422" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="a09-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="a09-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">PDGFRA</tspan>
         </text>
       </a>
-      <a id="a51" class="SingleFreeNode DataNode Entrez_Gene_2268 GeneProduct Ensembl_ENSG00000000938 P594_ENSG00000000938 P351_2268 HGNC_FGR FGR P353_FGR Wikidata_Q17928333" color="#000000" name="FGR" transform="translate(9,97)" xlink:href="https://tools.wmflabs.org/scholia/Q17928333" target="_blank">
+      <a id="a51" class="SingleFreeNode DataNode Entrez_Gene_2268 GeneProduct Ensembl_ENSG00000000938 P594_ENSG00000000938 P351_2268 HGNC_FGR FGR P353_FGR Wikidata_Q17928333" color="#000000" name="FGR" transform="translate(9,96)" xlink:href="https://tools.wmflabs.org/scholia/Q17928333" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="a51-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="a51-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">FGR</tspan>
         </text>
       </a>
-      <a id="a9c" class="SingleFreeNode DataNode Entrez_Gene_10188 GeneProduct Ensembl_ENSG00000061938 P594_ENSG00000061938 P351_10188 HGNC_TNK2 TNK2 P353_TNK2 Wikidata_Q18035104" color="#000000" name="TNK2" transform="translate(182.33333333333331,117)" xlink:href="https://tools.wmflabs.org/scholia/Q18035104" target="_blank">
+      <a id="a9c" class="SingleFreeNode DataNode Entrez_Gene_10188 GeneProduct Ensembl_ENSG00000061938 P594_ENSG00000061938 P351_10188 HGNC_TNK2 TNK2 P353_TNK2 Wikidata_Q18035104" color="#000000" name="TNK2" transform="translate(150.33333333333331,115)" xlink:href="https://tools.wmflabs.org/scholia/Q18035104" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="a9c-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="a9c-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">TNK2</tspan>
         </text>
       </a>
-      <a id="aba" class="SingleFreeNode DataNode Entrez_Gene_4233 GeneProduct Ensembl_ENSG00000105976 P594_ENSG00000105976 P351_4233 HGNC_MET MET P353_MET Wikidata_Q14875866" color="#000000" name="MET" transform="translate(95.66666666666663,77)" xlink:href="https://tools.wmflabs.org/scholia/Q14875866" target="_blank">
+      <a id="aba" class="SingleFreeNode DataNode Entrez_Gene_4233 GeneProduct Ensembl_ENSG00000105976 P594_ENSG00000105976 P351_4233 HGNC_MET MET P353_MET Wikidata_Q14875866" color="#000000" name="MET" transform="translate(79.66666666666663,75)" xlink:href="https://tools.wmflabs.org/scholia/Q14875866" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="aba-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="aba-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">MET</tspan>
         </text>
       </a>
-      <a id="abb" class="SingleFreeNode DataNode Entrez_Gene_3791 GeneProduct Ensembl_ENSG00000128052 P594_ENSG00000128052 P351_3791 HGNC_KDR KDR P353_KDR Wikidata_Q18028241" color="#000000" name="KDR" transform="translate(95.66666666666663,57)" xlink:href="https://tools.wmflabs.org/scholia/Q18028241" target="_blank">
+      <a id="abb" class="SingleFreeNode DataNode Entrez_Gene_3791 GeneProduct Ensembl_ENSG00000128052 P594_ENSG00000128052 P351_3791 HGNC_KDR KDR P353_KDR Wikidata_Q18028241" color="#000000" name="KDR" transform="translate(79.66666666666663,55)" xlink:href="https://tools.wmflabs.org/scholia/Q18028241" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="abb-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="abb-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">KDR</tspan>
         </text>
       </a>
-      <a id="bc4" class="SingleFreeNode DataNode Entrez_Gene_2321 GeneProduct Ensembl_ENSG00000102755 P594_ENSG00000102755 P351_2321 HGNC_FLT1 FLT1 P353_FLT1 Wikidata_Q17928830" color="#000000" name="FLT1" transform="translate(9,117)" xlink:href="https://tools.wmflabs.org/scholia/Q17928830" target="_blank">
+      <a id="bc4" class="SingleFreeNode DataNode Entrez_Gene_2321 GeneProduct Ensembl_ENSG00000102755 P594_ENSG00000102755 P351_2321 HGNC_FLT1 FLT1 P353_FLT1 Wikidata_Q17928830" color="#000000" name="FLT1" transform="translate(9,116)" xlink:href="https://tools.wmflabs.org/scholia/Q17928830" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="bc4-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="bc4-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">FLT1</tspan>
         </text>
       </a>
-      <a id="bc8" class="SingleFreeNode DataNode Entrez_Gene_2064 GeneProduct Ensembl_ENSG00000141736 P594_ENSG00000141736 P351_2064 HGNC_ERBB2 ERBB2 P353_ERBB2 Wikidata_Q14877486" color="#000000" name="ERBB2" transform="translate(9,77)" xlink:href="https://tools.wmflabs.org/scholia/Q14877486" target="_blank">
+      <a id="bc8" class="SingleFreeNode DataNode Entrez_Gene_2064 GeneProduct Ensembl_ENSG00000141736 P594_ENSG00000141736 P351_2064 HGNC_ERBB2 ERBB2 P353_ERBB2 Wikidata_Q14877486" color="#000000" name="ERBB2" transform="translate(9,76)" xlink:href="https://tools.wmflabs.org/scholia/Q14877486" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="bc8-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="bc8-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">ERBB2</tspan>
         </text>
       </a>
-      <a id="cdd" class="SingleFreeNode DataNode Entrez_Gene_7294 GeneProduct Ensembl_ENSG00000074966 P594_ENSG00000074966 P351_7294 HGNC_TXK TXK P353_TXK Wikidata_Q18032235" color="#000000" name="TXK" transform="translate(182.33333333333331,57)" xlink:href="https://tools.wmflabs.org/scholia/Q18032235" target="_blank">
+      <a id="cdd" class="SingleFreeNode DataNode Entrez_Gene_7294 GeneProduct Ensembl_ENSG00000074966 P594_ENSG00000074966 P351_7294 HGNC_TXK TXK P353_TXK Wikidata_Q18032235" color="#000000" name="TXK" transform="translate(150.33333333333331,55)" xlink:href="https://tools.wmflabs.org/scholia/Q18032235" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="cdd-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="cdd-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">TXK</tspan>
         </text>
       </a>
-      <a id="ce9" class="SingleFreeNode DataNode Entrez_Gene_10420 GeneProduct Ensembl_ENSG00000070759 P594_ENSG00000070759 P351_10420 HGNC_TESK2 TESK2 P353_TESK2 Wikidata_Q18035369" color="#000000" name="TESK2" transform="translate(182.33333333333331,77)" xlink:href="https://tools.wmflabs.org/scholia/Q18035369" target="_blank">
+      <a id="ce9" class="SingleFreeNode DataNode Entrez_Gene_10420 GeneProduct Ensembl_ENSG00000070759 P594_ENSG00000070759 P351_10420 HGNC_TESK2 TESK2 P353_TESK2 Wikidata_Q18035369" color="#000000" name="TESK2" transform="translate(150.33333333333331,75)" xlink:href="https://tools.wmflabs.org/scholia/Q18035369" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="ce9-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="ce9-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">TESK2</tspan>
         </text>
       </a>
-      <a id="cf1" class="SingleFreeNode DataNode Entrez_Gene_6725 GeneProduct Ensembl_ENSG00000125508 P594_ENSG00000125508 P351_6725 HGNC_SRMS SRMS P353_SRMS Wikidata_Q18031706" color="#000000" name="SRMS" transform="translate(182.33333333333331,37)" xlink:href="https://tools.wmflabs.org/scholia/Q18031706" target="_blank">
+      <a id="cf1" class="SingleFreeNode DataNode Entrez_Gene_6725 GeneProduct Ensembl_ENSG00000125508 P594_ENSG00000125508 P351_6725 HGNC_SRMS SRMS P353_SRMS Wikidata_Q18031706" color="#000000" name="SRMS" transform="translate(150.33333333333331,35)" xlink:href="https://tools.wmflabs.org/scholia/Q18031706" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="cf1-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="cf1-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">SRMS</tspan>
         </text>
       </a>
-      <a id="d25" class="SingleFreeNode DataNode Entrez_Gene_5159 GeneProduct Ensembl_ENSG00000113721 P594_ENSG00000113721 P351_5159 HGNC_PDGFRB PDGFRB P353_PDGFRB Wikidata_Q18030425" color="#000000" name="PDGFRB" transform="translate(95.66666666666663,117)" xlink:href="https://tools.wmflabs.org/scholia/Q18030425" target="_blank">
+      <a id="d25" class="SingleFreeNode DataNode Entrez_Gene_5159 GeneProduct Ensembl_ENSG00000113721 P594_ENSG00000113721 P351_5159 HGNC_PDGFRB PDGFRB P353_PDGFRB Wikidata_Q18030425" color="#000000" name="PDGFRB" transform="translate(79.66666666666663,115)" xlink:href="https://tools.wmflabs.org/scholia/Q18030425" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="d25-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="d25-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">PDGFRB</tspan>
         </text>
       </a>
-      <a id="d64" class="SingleFreeNode DataNode Entrez_Gene_8711 GeneProduct Ensembl_ENSG00000174292 P594_ENSG00000174292 P351_8711 HGNC_TNK1 TNK1 P353_TNK1 Wikidata_Q18033235" color="#000000" name="TNK1" transform="translate(182.33333333333331,137)" xlink:href="https://tools.wmflabs.org/scholia/Q18033235" target="_blank">
+      <a id="d64" class="SingleFreeNode DataNode Entrez_Gene_8711 GeneProduct Ensembl_ENSG00000174292 P594_ENSG00000174292 P351_8711 HGNC_TNK1 TNK1 P353_TNK1 Wikidata_Q18033235" color="#000000" name="TNK1" transform="translate(150.33333333333331,135)" xlink:href="https://tools.wmflabs.org/scholia/Q18033235" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="d64-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="d64-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">TNK1</tspan>
         </text>
       </a>
-      <a id="dbf" class="SingleFreeNode DataNode Entrez_Gene_3055 GeneProduct Ensembl_ENSG00000101336 P594_ENSG00000101336 P351_3055 HGNC_HCK HCK P353_HCK Wikidata_Q18026836" color="#000000" name="HCK" transform="translate(9,137)" xlink:href="https://tools.wmflabs.org/scholia/Q18026836" target="_blank">
+      <a id="dbf" class="SingleFreeNode DataNode Entrez_Gene_3055 GeneProduct Ensembl_ENSG00000101336 P594_ENSG00000101336 P351_3055 HGNC_HCK HCK P353_HCK Wikidata_Q18026836" color="#000000" name="HCK" transform="translate(9,136)" xlink:href="https://tools.wmflabs.org/scholia/Q18026836" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="dbf-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="dbf-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">HCK</tspan>
         </text>
       </a>
-      <a id="dda" class="SingleFreeNode DataNode Entrez_Gene_640 GeneProduct Ensembl_ENSG00000136573 P594_ENSG00000136573 P351_640 HGNC_BLK BLK P353_BLK Wikidata_Q17848770" color="#000000" name="BLK" transform="translate(9,37)" xlink:href="https://tools.wmflabs.org/scholia/Q17848770" target="_blank">
+      <a id="dda" class="SingleFreeNode DataNode Entrez_Gene_640 GeneProduct Ensembl_ENSG00000136573 P594_ENSG00000136573 P351_640 HGNC_BLK BLK P353_BLK Wikidata_Q17848770" color="#000000" name="BLK" transform="translate(9,36)" xlink:href="https://tools.wmflabs.org/scholia/Q17848770" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="dda-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="dda-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">BLK</tspan>
         </text>
       </a>
-      <a id="ecb" class="SingleFreeNode DataNode Entrez_Gene_3480 GeneProduct Ensembl_ENSG00000140443 P594_ENSG00000140443 P351_3480 HGNC_IGF1R IGF1R P353_IGF1R Wikidata_Q14901457" color="#000000" name="IGF1R" transform="translate(95.66666666666663,37)" xlink:href="https://tools.wmflabs.org/scholia/Q14901457" target="_blank">
+      <a id="ecb" class="SingleFreeNode DataNode Entrez_Gene_3480 GeneProduct Ensembl_ENSG00000140443 P594_ENSG00000140443 P351_3480 HGNC_IGF1R IGF1R P353_IGF1R Wikidata_Q14901457" color="#000000" name="IGF1R" transform="translate(79.66666666666663,35)" xlink:href="https://tools.wmflabs.org/scholia/Q14901457" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="ecb-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="ecb-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">IGF1R</tspan>
         </text>
       </a>
-      <a id="f41" class="SingleFreeNode DataNode Entrez_Gene_55359 GeneProduct Ensembl_ENSG00000060140 P594_ENSG00000060140 P351_55359 HGNC_STYK1 STYK1 P353_STYK1 Wikidata_Q18041797" color="#000000" name="STYK1" transform="translate(182.33333333333331,97)" xlink:href="https://tools.wmflabs.org/scholia/Q18041797" target="_blank">
+      <a id="f41" class="SingleFreeNode DataNode Entrez_Gene_55359 GeneProduct Ensembl_ENSG00000060140 P594_ENSG00000060140 P351_55359 HGNC_STYK1 STYK1 P353_STYK1 Wikidata_Q18041797" color="#000000" name="STYK1" transform="translate(150.33333333333331,95)" xlink:href="https://tools.wmflabs.org/scholia/Q18041797" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="f41-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="f41-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">STYK1</tspan>
         </text>
       </a>
-      <a id="fb3" class="SingleFreeNode DataNode Entrez_Gene_1956 GeneProduct Ensembl_ENSG00000146648 P594_ENSG00000146648 P351_1956 HGNC_EGFR EGFR P353_EGFR Wikidata_Q14865565" color="#000000" name="EGFR" transform="translate(9,57)" xlink:href="https://tools.wmflabs.org/scholia/Q14865565" target="_blank">
+      <a id="fb3" class="SingleFreeNode DataNode Entrez_Gene_1956 GeneProduct Ensembl_ENSG00000146648 P594_ENSG00000146648 P351_1956 HGNC_EGFR EGFR P353_EGFR Wikidata_Q14865565" color="#000000" name="EGFR" transform="translate(9,56)" xlink:href="https://tools.wmflabs.org/scholia/Q14865565" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="fb3-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="fb3-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">EGFR</tspan>
         </text>
       </a>
-      <a id="fc3" class="SingleFreeNode DataNode Entrez_Gene_5753 GeneProduct Ensembl_ENSG00000101213 P594_ENSG00000101213 P351_5753 HGNC_PTK6 PTK6 P353_PTK6 Wikidata_Q18030910" color="#000000" name="PTK6" transform="translate(95.66666666666663,137)" xlink:href="https://tools.wmflabs.org/scholia/Q18030910" target="_blank">
+      <a id="fc3" class="SingleFreeNode DataNode Entrez_Gene_5753 GeneProduct Ensembl_ENSG00000101213 P594_ENSG00000101213 P351_5753 HGNC_PTK6 PTK6 P353_PTK6 Wikidata_Q18030910" color="#000000" name="PTK6" transform="translate(79.66666666666663,135)" xlink:href="https://tools.wmflabs.org/scholia/Q18030910" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="fc3-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="fc3-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">PTK6</tspan>
@@ -1250,7 +1172,7 @@
         <tspan x="0" y="0">ELK1</tspan>
       </text>
     </a>
-    <a id="abd" class="SingleFreeNode DataNode Entrez_Gene_1499 GeneProduct Ensembl_ENSG00000168036 P594_ENSG00000168036 P351_1499 HGNC_CTNNB1 CTNNB1 P353_CTNNB1 Wikidata_Q14902794" color="#000000" name="Catnb" transform="translate(1522.7185070557462,461.49522862090555)" xlink:href="https://tools.wmflabs.org/scholia/Q14902794" target="_blank">
+    <a id="abd" class="SingleFreeNode DataNode Entrez_Gene_1499 GeneProduct Ensembl_ENSG00000168036 P594_ENSG00000168036 P351_1499 HGNC_CTNNB1 CTNNB1 P353_CTNNB1 Wikidata_Q14902794" color="#000000" name="CTNNB1" transform="translate(1522.7185070557462,461.49522862090555)" xlink:href="https://tools.wmflabs.org/scholia/Q14902794" target="_blank">
       <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="abd-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
       <g id="f55c1" class="Burr State" color="#000000" name="P" transform="translate(52.5,-4.5)">
         <use fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="15px" id="f55c1-icon" width="15px" x="0" y="0" xlink:href="#Ellipse" transform="matrix(0.9375, 0, 0, 0.9375, 0.46875, 0.46875)" class="Icon"/>
@@ -1259,7 +1181,7 @@
         </text>
       </g>
       <text id="abd-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
-        <tspan x="0" y="0">Catnb</tspan>
+        <tspan x="0" y="0">CTNNB1</tspan>
       </text>
     </a>
     <a id="afd" class="SingleFreeNode DataNode Entrez_Gene_7791 GeneProduct Ensembl_ENSG00000159840 P594_ENSG00000159840 P351_7791 HGNC_ZYX ZYX P353_ZYX Wikidata_Q18032606" color="#000000" name="ZYX" transform="translate(876.3851737224127,263.49522862090555)" xlink:href="https://tools.wmflabs.org/scholia/Q18032606" target="_blank">
@@ -1269,7 +1191,7 @@
       </text>
     </a>
     <a id="b15bb" class="SingleFreeNode DataNode WikiPathways_WP428 Pathway Wikidata_Q30225555" color="#14961e" name="Wnt Signaling Pathway" transform="translate(1437,492.5)" xlink:href="https://tools.wmflabs.org/scholia/Q30225555" target="_blank">
-      <use fill="transparent" fill-opacity="0" stroke="#14961e" stroke-width="0" height="29.5px" id="b15bb-icon" width="90px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <rect fill="#ffffff" stroke="#14961e" stroke-width="1" fill-opacity="1" height="29.5px" id="b15bb-icon" rx="15" ry="15" width="90px" x="0" y="0" transform="matrix(0.989010989010989, 0, 0, 0.9672131147540983, 0.4945054945054892, 0.4836065573770494)" class="Icon"/>
       <text id="b15bb-text" class="Text" direction="ltr" fill="#14961e" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(45,18.75)">
         <tspan x="0" y="-6.6000000000000005">Wnt Signaling</tspan>
         <tspan x="0" y="6.6000000000000005">Pathway</tspan>
@@ -1402,7 +1324,7 @@
       </text>
     </a>
     <g id="d2ce3" class="SingleFreeNode DataNode Pathway" color="#14961e" name="Phosphatidylinositol Signaling" transform="translate(856,652.5)">
-      <use fill="transparent" fill-opacity="0" stroke="#14961e" stroke-width="0" height="25px" id="d2ce3-icon" width="136px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <rect fill="#ffffff" stroke="#14961e" stroke-width="1" fill-opacity="1" height="25px" id="d2ce3-icon" rx="15" ry="15" width="136px" x="0" y="0" transform="matrix(0.9927007299270073, 0, 0, 0.9615384615384616, 0.4963503649635044, 0.48076923076922995)" class="Icon"/>
       <text id="d2ce3-text" class="Text" direction="ltr" fill="#14961e" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(68,16.5)">
         <tspan x="0" y="-6.6000000000000005">Phosphatidylinositol</tspan>
         <tspan x="0" y="6.6000000000000005">Signaling</tspan>
@@ -1535,7 +1457,7 @@
       </text>
     </a>
     <a id="fd9c0" class="SingleFreeNode DataNode WikiPathways_WP51 Pathway Wikidata_Q30225571" color="#14961e" name="Regulation of  Actin cytoskeleton" transform="translate(1529,246.5)" xlink:href="https://tools.wmflabs.org/scholia/Q30225571" target="_blank">
-      <use fill="transparent" fill-opacity="0" stroke="#14961e" stroke-width="0" height="25px" id="fd9c0-icon" width="125px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <rect fill="#ffffff" stroke="#14961e" stroke-width="1" fill-opacity="1" height="25px" id="fd9c0-icon" rx="15" ry="15" width="125px" x="0" y="0" transform="matrix(0.9920634920634921, 0, 0, 0.9615384615384616, 0.49603174603174693, 0.48076923076922995)" class="Icon"/>
       <text id="fd9c0-text" class="Text" direction="ltr" fill="#14961e" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(62.5,16.5)">
         <tspan x="0" y="-6.6000000000000005">Regulation of </tspan>
         <tspan x="0" y="6.6000000000000005">Actin cytoskeleton</tspan>
@@ -1667,7 +1589,7 @@
         </text>
       </a>
     </g>
-    <g id="afb20" class="Group GroupGroup" color="#808080" transform="translate(1067.0518403890794,434.49522862090555)">
+    <g id="afb20" class="Group GroupGroup" color="#808080" transform="translate(1066.0518403890794,433.49522862090555)">
       <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="76px" id="afb20-icon" width="76px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
       <a id="d0f" class="SingleFreeNode DataNode Entrez_Gene_208 GeneProduct Ensembl_ENSG00000105221 P594_ENSG00000105221 P351_208 HGNC_AKT2 AKT2 P353_AKT2 Wikidata_Q4652205" color="#000000" name="AKT2" transform="translate(8,28)" xlink:href="https://tools.wmflabs.org/scholia/Q4652205" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="d0f-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
@@ -1683,6 +1605,12 @@
       </a>
       <a id="e70" class="SingleFreeNode DataNode Entrez_Gene_207 GeneProduct Ensembl_ENSG00000142208 P594_ENSG00000142208 P351_207 HGNC_AKT1 AKT1 P353_AKT1 Wikidata_Q17816452" color="#000000" name="AKT1" transform="translate(8,8)" xlink:href="https://tools.wmflabs.org/scholia/Q17816452" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="e70-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
+        <g id="d6fe9" class="Burr State" color="#000000" name="P" transform="translate(-7.5,-6.5)">
+          <use fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="15px" id="d6fe9-icon" width="15px" x="0" y="0" xlink:href="#Ellipse" transform="matrix(0.9375, 0, 0, 0.9375, 0.46875, 0.46875)" class="Icon"/>
+          <text id="d6fe9-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(7.5,10.5)">
+            <tspan x="0" y="0">P</tspan>
+          </text>
+        </g>
         <g id="fc325" class="Burr State" color="#000000" name="P" transform="translate(52.5,-4.5)">
           <use fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="15px" id="fc325-icon" width="15px" x="0" y="0" xlink:href="#Ellipse" transform="matrix(0.9375, 0, 0, 0.9375, 0.46875, 0.46875)" class="Icon"/>
           <text id="fc325-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(7.5,10.5)">
@@ -1824,7 +1752,7 @@
       </a>
       <a id="f4917" class="SingleFreeNode DataNode Ensembl_ENSG00000101335 GeneProduct P594_ENSG00000101335 Entrez_Gene_10398 P351_10398 HGNC_MYL9 MYL9 P353_MYL9 Wikidata_Q14908182" color="#000000" name="MYL9" transform="translate(8,68)" xlink:href="https://tools.wmflabs.org/scholia/Q14908182" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="f4917-icon" width="45.05184038907919px" x="0" y="0" transform="matrix(0.9782853412252088, 0, 0, 0.9523809523809523, 0.48914267061260475, 0.4761904761904763)" class="Icon"/>
-        <g id="ffe9b" class="Burr State" color="#000000" name="P" transform="translate(37.55184038907919,-5.5)">
+        <g id="ffe9b" class="Burr State" color="#000000" name="P" transform="translate(36.55184038907919,-5.5)">
           <use fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="15px" id="ffe9b-icon" width="15px" x="0" y="0" xlink:href="#Ellipse" transform="matrix(0.9375, 0, 0, 0.9375, 0.46875, 0.46875)" class="Icon"/>
           <text id="ffe9b-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(7.5,10.5)">
             <tspan x="0" y="0">P</tspan>
@@ -2060,93 +1988,93 @@
         </text>
       </a>
     </g>
-    <g id="cc653" class="Group GroupNone" color="#808080" transform="translate(8.218507055745945,179.85148091280126)">
-      <rect fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-dasharray="5,3" stroke-width="1" height="258.0000000000011px" id="cc653-icon" width="344.66666666666674px" x="0" y="0" transform="matrix(0.9971070395371263, 0, 0, 0.9961389961389961, 0.49855351976856355, 0.49806949806949774)" class="Icon"/>
-      <a id="a20" class="SingleFreeNode DataNode Entrez_Gene_284217 GeneProduct Ensembl_ENSG00000101680 P594_ENSG00000101680 P351_284217 HGNC_LAMA1 LAMA1 P353_LAMA1 Wikidata_Q11931131" color="#000000" name="LAMA1" transform="translate(95.66666666666679,89.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q11931131" target="_blank">
+    <g id="cc653" class="Group GroupNone" color="#808080" transform="translate(62.218507055745945,179.85148091280126)">
+      <rect fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-dasharray="5,3" stroke-width="1" height="258.0000000000011px" id="cc653-icon" width="290.66666666666674px" x="0" y="0" transform="matrix(0.9965714285714286, 0, 0, 0.9961389961389961, 0.4982857142857142, 0.49806949806949774)" class="Icon"/>
+      <a id="a20" class="SingleFreeNode DataNode Entrez_Gene_284217 GeneProduct Ensembl_ENSG00000101680 P594_ENSG00000101680 P351_284217 HGNC_LAMA1 LAMA1 P353_LAMA1 Wikidata_Q11931131" color="#000000" name="LAMA1" transform="translate(79.66666666666679,89.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q11931131" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="a20-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="a20-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">LAMA1</tspan>
         </text>
       </a>
-      <a id="a2b" class="SingleFreeNode DataNode Entrez_Gene_1277 GeneProduct Ensembl_ENSG00000108821 P594_ENSG00000108821 P351_1277 HGNC_COL1A1 COL1A1 P353_COL1A1 Wikidata_Q14881725" color="#000000" name="COL1A1" transform="translate(9,229.00000000000108)" xlink:href="https://tools.wmflabs.org/scholia/Q14881725" target="_blank">
+      <a id="a2b" class="SingleFreeNode DataNode Entrez_Gene_1277 GeneProduct Ensembl_ENSG00000108821 P594_ENSG00000108821 P351_1277 HGNC_COL1A1 COL1A1 P353_COL1A1 Wikidata_Q14881725" color="#000000" name="COL1A1" transform="translate(9,149)" xlink:href="https://tools.wmflabs.org/scholia/Q14881725" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="a2b-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="a2b-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">COL1A1</tspan>
         </text>
       </a>
-      <a id="a35" class="SingleFreeNode DataNode Entrez_Gene_7448 GeneProduct Ensembl_ENSG00000109072 P594_ENSG00000109072 P351_7448 HGNC_VTN VTN P353_VTN Wikidata_Q14916393" color="#000000" name="VTN" transform="translate(182.3333333333332,189.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q14916393" target="_blank">
+      <a id="a35" class="SingleFreeNode DataNode Entrez_Gene_7448 GeneProduct Ensembl_ENSG00000109072 P594_ENSG00000109072 P351_7448 HGNC_VTN VTN P353_VTN Wikidata_Q14916393" color="#000000" name="VTN" transform="translate(150.3333333333332,189.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q14916393" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="a35-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="a35-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">VTN</tspan>
         </text>
       </a>
-      <a id="a44" class="SingleFreeNode DataNode Entrez_Gene_7059 GeneProduct Ensembl_ENSG00000169231 P594_ENSG00000169231 P351_7059 HGNC_THBS3 THBS3 P353_THBS3 Wikidata_Q18031980" color="#000000" name="THBS3" transform="translate(182.3333333333332,109.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18031980" target="_blank">
+      <a id="a44" class="SingleFreeNode DataNode Entrez_Gene_7059 GeneProduct Ensembl_ENSG00000169231 P594_ENSG00000169231 P351_7059 HGNC_THBS3 THBS3 P353_THBS3 Wikidata_Q18031980" color="#000000" name="THBS3" transform="translate(150.3333333333332,109.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18031980" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="a44-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="a44-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">THBS3</tspan>
         </text>
       </a>
-      <a id="a69" class="SingleFreeNode DataNode Entrez_Gene_1286 GeneProduct Ensembl_ENSG00000081052 P594_ENSG00000081052 P351_1286 HGNC_COL4A4 COL4A4 P353_COL4A4 Wikidata_Q17907898" color="#000000" name="COL4A4" transform="translate(9,149.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q17907898" target="_blank">
+      <a id="a69" class="SingleFreeNode DataNode Entrez_Gene_1286 GeneProduct Ensembl_ENSG00000081052 P594_ENSG00000081052 P351_1286 HGNC_COL4A4 COL4A4 P353_COL4A4 Wikidata_Q17907898" color="#000000" name="COL4A4" transform="translate(9,89)" xlink:href="https://tools.wmflabs.org/scholia/Q17907898" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="a69-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="a69-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">COL4A4</tspan>
         </text>
       </a>
-      <a id="a6d" class="SingleFreeNode DataNode Entrez_Gene_7057 GeneProduct Ensembl_ENSG00000137801 P594_ENSG00000137801 P351_7057 HGNC_THBS1 THBS1 P353_THBS1 Wikidata_Q14906367" color="#000000" name="THBS1" transform="translate(182.3333333333332,69.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q14906367" target="_blank">
+      <a id="a6d" class="SingleFreeNode DataNode Entrez_Gene_7057 GeneProduct Ensembl_ENSG00000137801 P594_ENSG00000137801 P351_7057 HGNC_THBS1 THBS1 P353_THBS1 Wikidata_Q14906367" color="#000000" name="THBS1" transform="translate(150.3333333333332,69.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q14906367" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="a6d-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="a6d-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">THBS1</tspan>
         </text>
       </a>
-      <a id="a7c" class="SingleFreeNode DataNode Entrez_Gene_7060 GeneProduct Ensembl_ENSG00000113296 P594_ENSG00000113296 P351_7060 HGNC_THBS4 THBS4 P353_THBS4 Wikidata_Q18031981" color="#000000" name="THBS4" transform="translate(182.3333333333332,129.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18031981" target="_blank">
+      <a id="a7c" class="SingleFreeNode DataNode Entrez_Gene_7060 GeneProduct Ensembl_ENSG00000113296 P594_ENSG00000113296 P351_7060 HGNC_THBS4 THBS4 P353_THBS4 Wikidata_Q18031981" color="#000000" name="THBS4" transform="translate(150.3333333333332,129.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18031981" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="a7c-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="a7c-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">THBS4</tspan>
         </text>
       </a>
-      <a id="a7e" class="SingleFreeNode DataNode Entrez_Gene_3908 GeneProduct Ensembl_ENSG00000196569 P594_ENSG00000196569 P351_3908 HGNC_LAMA2 LAMA2 P353_LAMA2 Wikidata_Q18028441" color="#000000" name="LAMA2" transform="translate(95.66666666666679,109.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18028441" target="_blank">
+      <a id="a7e" class="SingleFreeNode DataNode Entrez_Gene_3908 GeneProduct Ensembl_ENSG00000196569 P594_ENSG00000196569 P351_3908 HGNC_LAMA2 LAMA2 P353_LAMA2 Wikidata_Q18028441" color="#000000" name="LAMA2" transform="translate(79.66666666666679,109.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18028441" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="a7e-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="a7e-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">LAMA2</tspan>
         </text>
       </a>
-      <a id="a85" class="SingleFreeNode DataNode Entrez_Gene_7143 GeneProduct Ensembl_ENSG00000116147 P594_ENSG00000116147 P351_7143 HGNC_TNR TNR P353_TNR Wikidata_Q18032055" color="#000000" name="TNR" transform="translate(182.3333333333332,169.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18032055" target="_blank">
+      <a id="a85" class="SingleFreeNode DataNode Entrez_Gene_7143 GeneProduct Ensembl_ENSG00000116147 P594_ENSG00000116147 P351_7143 HGNC_TNR TNR P353_TNR Wikidata_Q18032055" color="#000000" name="TNR" transform="translate(150.3333333333332,169.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18032055" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="a85-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="a85-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">TNR</tspan>
         </text>
       </a>
-      <a id="ac3" class="SingleFreeNode DataNode Entrez_Gene_5649 GeneProduct Ensembl_ENSG00000189056 P594_ENSG00000189056 P351_5649 HGNC_RELN RELN P353_RELN Wikidata_Q414043" color="#000000" name="RELN" transform="translate(182.3333333333332,29)" xlink:href="https://tools.wmflabs.org/scholia/Q414043" target="_blank">
+      <a id="ac3" class="SingleFreeNode DataNode Entrez_Gene_5649 GeneProduct Ensembl_ENSG00000189056 P594_ENSG00000189056 P351_5649 HGNC_RELN RELN P353_RELN Wikidata_Q414043" color="#000000" name="RELN" transform="translate(150.3333333333332,29)" xlink:href="https://tools.wmflabs.org/scholia/Q414043" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="ac3-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="ac3-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">RELN</tspan>
         </text>
       </a>
-      <a id="b03" class="SingleFreeNode DataNode Entrez_Gene_3381 GeneProduct Ensembl_ENSG00000029559 P594_ENSG00000029559 P351_3381 HGNC_IBSP IBSP P353_IBSP Wikidata_Q14907671" color="#000000" name="IBSP" transform="translate(95.66666666666679,69.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q14907671" target="_blank">
+      <a id="b03" class="SingleFreeNode DataNode Entrez_Gene_3381 GeneProduct Ensembl_ENSG00000029559 P594_ENSG00000029559 P351_3381 HGNC_IBSP IBSP P353_IBSP Wikidata_Q14907671" color="#000000" name="IBSP" transform="translate(79.66666666666679,69.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q14907671" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="b03-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="b03-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">IBSP</tspan>
         </text>
       </a>
-      <a id="b1a" class="SingleFreeNode DataNode Entrez_Gene_6696 GeneProduct Ensembl_ENSG00000118785 P594_ENSG00000118785 P351_6696 HGNC_SPP1 SPP1 P353_SPP1 Wikidata_Q14876614" color="#000000" name="SPP1" transform="translate(182.3333333333332,49.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q14876614" target="_blank">
+      <a id="b1a" class="SingleFreeNode DataNode Entrez_Gene_6696 GeneProduct Ensembl_ENSG00000118785 P594_ENSG00000118785 P351_6696 HGNC_SPP1 SPP1 P353_SPP1 Wikidata_Q14876614" color="#000000" name="SPP1" transform="translate(150.3333333333332,49.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q14876614" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="b1a-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="b1a-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">SPP1</tspan>
         </text>
       </a>
-      <a id="b30" class="SingleFreeNode DataNode Entrez_Gene_1292 GeneProduct Ensembl_ENSG00000142173 P594_ENSG00000142173 P351_1292 HGNC_COL6A2 COL6A2 P353_COL6A2 Wikidata_Q17908052" color="#000000" name="COL6A2" transform="translate(9,209.0000000000009)" xlink:href="https://tools.wmflabs.org/scholia/Q17908052" target="_blank">
+      <a id="b30" class="SingleFreeNode DataNode Entrez_Gene_1292 GeneProduct Ensembl_ENSG00000142173 P594_ENSG00000142173 P351_1292 HGNC_COL6A2 COL6A2 P353_COL6A2 Wikidata_Q17908052" color="#000000" name="COL6A2" transform="translate(9,129)" xlink:href="https://tools.wmflabs.org/scholia/Q17908052" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="b30-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="b30-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">COL6A2</tspan>
         </text>
       </a>
-      <a id="b54" class="SingleFreeNode DataNode Entrez_Gene_3911 GeneProduct Ensembl_ENSG00000130702 P594_ENSG00000130702 P351_3911 HGNC_LAMA5 LAMA5 P353_LAMA5 Wikidata_Q18028450" color="#000000" name="LAMA5" transform="translate(95.66666666666679,169.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18028450" target="_blank">
+      <a id="b54" class="SingleFreeNode DataNode Entrez_Gene_3911 GeneProduct Ensembl_ENSG00000130702 P594_ENSG00000130702 P351_3911 HGNC_LAMA5 LAMA5 P353_LAMA5 Wikidata_Q18028450" color="#000000" name="LAMA5" transform="translate(79.66666666666679,169.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18028450" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="b54-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="b54-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">LAMA5</tspan>
         </text>
       </a>
-      <a id="bbc" class="SingleFreeNode DataNode Entrez_Gene_3912 GeneProduct Ensembl_ENSG00000091136 P594_ENSG00000091136 P351_3912 HGNC_LAMB1 LAMB1 P353_LAMB1 Wikidata_Q18028452" color="#000000" name="LAMB1" transform="translate(95.66666666666679,189.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18028452" target="_blank">
+      <a id="bbc" class="SingleFreeNode DataNode Entrez_Gene_3912 GeneProduct Ensembl_ENSG00000091136 P594_ENSG00000091136 P351_3912 HGNC_LAMB1 LAMB1 P353_LAMB1 Wikidata_Q18028452" color="#000000" name="LAMB1" transform="translate(79.66666666666679,189.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18028452" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="bbc-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="bbc-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">LAMB1</tspan>
@@ -2158,127 +2086,127 @@
           <tspan x="0" y="0">CHAD</tspan>
         </text>
       </a>
-      <a id="c13" class="SingleFreeNode DataNode Entrez_Gene_1311 GeneProduct Ensembl_ENSG00000105664 P594_ENSG00000105664 P351_1311 HGNC_COMP COMP P353_COMP Wikidata_Q15320335" color="#000000" name="COMP" transform="translate(95.66666666666679,29)" xlink:href="https://tools.wmflabs.org/scholia/Q15320335" target="_blank">
+      <a id="c13" class="SingleFreeNode DataNode Entrez_Gene_1311 GeneProduct Ensembl_ENSG00000105664 P594_ENSG00000105664 P351_1311 HGNC_COMP COMP P353_COMP Wikidata_Q15320335" color="#000000" name="COMP" transform="translate(79.66666666666679,29)" xlink:href="https://tools.wmflabs.org/scholia/Q15320335" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="c13-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="c13-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">COMP</tspan>
         </text>
       </a>
-      <a id="c33" class="SingleFreeNode DataNode Entrez_Gene_3371 GeneProduct Ensembl_ENSG00000041982 P594_ENSG00000041982 P351_3371 HGNC_TNC TNC P353_TNC Wikidata_Q18027461" color="#000000" name="TNC" transform="translate(182.3333333333332,149.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18027461" target="_blank">
+      <a id="c33" class="SingleFreeNode DataNode Entrez_Gene_3371 GeneProduct Ensembl_ENSG00000041982 P594_ENSG00000041982 P351_3371 HGNC_TNC TNC P353_TNC Wikidata_Q18027461" color="#000000" name="TNC" transform="translate(150.3333333333332,149.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18027461" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="c33-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="c33-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">TNC</tspan>
         </text>
       </a>
-      <a id="c40" class="SingleFreeNode DataNode Entrez_Gene_10319 GeneProduct Ensembl_ENSG00000050555 P594_ENSG00000050555 P351_10319 HGNC_LAMC3 LAMC3 P353_LAMC3 Wikidata_Q18035292" color="#000000" name="LAMC3" transform="translate(275.66666666666674,29)" xlink:href="https://tools.wmflabs.org/scholia/Q18035292" target="_blank">
+      <a id="c40" class="SingleFreeNode DataNode Entrez_Gene_10319 GeneProduct Ensembl_ENSG00000050555 P594_ENSG00000050555 P351_10319 HGNC_LAMC3 LAMC3 P353_LAMC3 Wikidata_Q18035292" color="#000000" name="LAMC3" transform="translate(221.66666666666674,29)" xlink:href="https://tools.wmflabs.org/scholia/Q18035292" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="c40-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="c40-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">LAMC3</tspan>
         </text>
       </a>
-      <a id="c6e" class="SingleFreeNode DataNode Entrez_Gene_3913 GeneProduct Ensembl_ENSG00000172037 P594_ENSG00000172037 P351_3913 HGNC_LAMB2 LAMB2 P353_LAMB2 Wikidata_Q18028455" color="#000000" name="LAMB2" transform="translate(95.66666666666679,209.0000000000009)" xlink:href="https://tools.wmflabs.org/scholia/Q18028455" target="_blank">
+      <a id="c6e" class="SingleFreeNode DataNode Entrez_Gene_3913 GeneProduct Ensembl_ENSG00000172037 P594_ENSG00000172037 P351_3913 HGNC_LAMB2 LAMB2 P353_LAMB2 Wikidata_Q18028455" color="#000000" name="LAMB2" transform="translate(79.66666666666679,209.0000000000009)" xlink:href="https://tools.wmflabs.org/scholia/Q18028455" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="c6e-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="c6e-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">LAMB2</tspan>
         </text>
       </a>
-      <a id="ca6" class="SingleFreeNode DataNode Entrez_Gene_3909 GeneProduct Ensembl_ENSG00000053747 P594_ENSG00000053747 P351_3909 HGNC_LAMA3 LAMA3 P353_LAMA3 Wikidata_Q18028444" color="#000000" name="LAMA3" transform="translate(95.66666666666679,129.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18028444" target="_blank">
+      <a id="ca6" class="SingleFreeNode DataNode Entrez_Gene_3909 GeneProduct Ensembl_ENSG00000053747 P594_ENSG00000053747 P351_3909 HGNC_LAMA3 LAMA3 P353_LAMA3 Wikidata_Q18028444" color="#000000" name="LAMA3" transform="translate(79.66666666666679,129.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18028444" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="ca6-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="ca6-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">LAMA3</tspan>
         </text>
       </a>
-      <a id="cbc" class="SingleFreeNode DataNode Entrez_Gene_1284 GeneProduct Ensembl_ENSG00000134871 P594_ENSG00000134871 P351_1284 HGNC_COL4A2 COL4A2 P353_COL4A2 Wikidata_Q17907875" color="#000000" name="COL4A2" transform="translate(9,129.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q17907875" target="_blank">
+      <a id="cbc" class="SingleFreeNode DataNode Entrez_Gene_1284 GeneProduct Ensembl_ENSG00000134871 P594_ENSG00000134871 P351_1284 HGNC_COL4A2 COL4A2 P353_COL4A2 Wikidata_Q17907875" color="#000000" name="COL4A2" transform="translate(9,69)" xlink:href="https://tools.wmflabs.org/scholia/Q17907875" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="cbc-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="cbc-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">COL4A2</tspan>
         </text>
       </a>
-      <a id="cf6" class="SingleFreeNode DataNode Entrez_Gene_1278 GeneProduct Ensembl_ENSG00000164692 P594_ENSG00000164692 P351_1278 HGNC_COL1A2 COL1A2 P353_COL1A2 Wikidata_Q15317046" color="#000000" name="COL1A2" transform="translate(95.66666666666679,9)" xlink:href="https://tools.wmflabs.org/scholia/Q15317046" target="_blank">
+      <a id="cf6" class="SingleFreeNode DataNode Entrez_Gene_1278 GeneProduct Ensembl_ENSG00000164692 P594_ENSG00000164692 P351_1278 HGNC_COL1A2 COL1A2 P353_COL1A2 Wikidata_Q15317046" color="#000000" name="COL1A2" transform="translate(79.66666666666679,9)" xlink:href="https://tools.wmflabs.org/scholia/Q15317046" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="cf6-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="cf6-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">COL1A2</tspan>
         </text>
       </a>
-      <a id="d1b" class="SingleFreeNode DataNode Entrez_Gene_50509 GeneProduct Ensembl_ENSG00000080573 P594_ENSG00000080573 P351_50509 HGNC_COL5A3 COL5A3 P353_COL5A3 Wikidata_Q18039814" color="#000000" name="COL5A3" transform="translate(275.66666666666674,69.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18039814" target="_blank">
+      <a id="d1b" class="SingleFreeNode DataNode Entrez_Gene_50509 GeneProduct Ensembl_ENSG00000080573 P594_ENSG00000080573 P351_50509 HGNC_COL5A3 COL5A3 P353_COL5A3 Wikidata_Q18039814" color="#000000" name="COL5A3" transform="translate(221.66666666666674,69.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18039814" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="d1b-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="d1b-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">COL5A3</tspan>
         </text>
       </a>
-      <a id="d36" class="SingleFreeNode DataNode Entrez_Gene_3910 GeneProduct Ensembl_ENSG00000112769 P594_ENSG00000112769 P351_3910 HGNC_LAMA4 LAMA4 P353_LAMA4 Wikidata_Q18028447" color="#000000" name="LAMA4" transform="translate(95.66666666666679,149.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18028447" target="_blank">
+      <a id="d36" class="SingleFreeNode DataNode Entrez_Gene_3910 GeneProduct Ensembl_ENSG00000112769 P594_ENSG00000112769 P351_3910 HGNC_LAMA4 LAMA4 P353_LAMA4 Wikidata_Q18028447" color="#000000" name="LAMA4" transform="translate(79.66666666666679,149.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18028447" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="d36-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="d36-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">LAMA4</tspan>
         </text>
       </a>
-      <a id="d51" class="SingleFreeNode DataNode Entrez_Gene_1280 GeneProduct Ensembl_ENSG00000139219 P594_ENSG00000139219 P351_1280 HGNC_COL2A1 COL2A1 P353_COL2A1 Wikidata_Q14877681" color="#000000" name="COL2A1" transform="translate(9,69.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q14877681" target="_blank">
+      <a id="d51" class="SingleFreeNode DataNode Entrez_Gene_1280 GeneProduct Ensembl_ENSG00000139219 P594_ENSG00000139219 P351_1280 HGNC_COL2A1 COL2A1 P353_COL2A1 Wikidata_Q14877681" color="#000000" name="COL2A1" transform="translate(9,29)" xlink:href="https://tools.wmflabs.org/scholia/Q14877681" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="d51-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="d51-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">COL2A1</tspan>
         </text>
       </a>
-      <a id="d57" class="SingleFreeNode DataNode Entrez_Gene_3914 GeneProduct Ensembl_ENSG00000196878 P594_ENSG00000196878 P351_3914 HGNC_LAMB3 LAMB3 P353_LAMB3 Wikidata_Q18028458" color="#000000" name="LAMB3" transform="translate(95.66666666666679,229.00000000000108)" xlink:href="https://tools.wmflabs.org/scholia/Q18028458" target="_blank">
+      <a id="d57" class="SingleFreeNode DataNode Entrez_Gene_3914 GeneProduct Ensembl_ENSG00000196878 P594_ENSG00000196878 P351_3914 HGNC_LAMB3 LAMB3 P353_LAMB3 Wikidata_Q18028458" color="#000000" name="LAMB3" transform="translate(79.66666666666679,229.00000000000108)" xlink:href="https://tools.wmflabs.org/scholia/Q18028458" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="d57-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="d57-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">LAMB3</tspan>
         </text>
       </a>
-      <a id="d69" class="SingleFreeNode DataNode Entrez_Gene_1290 GeneProduct Ensembl_ENSG00000204262 P594_ENSG00000204262 P351_1290 HGNC_COL5A2 COL5A2 P353_COL5A2 Wikidata_Q15311996" color="#000000" name="COL5A2" transform="translate(9,189.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q15311996" target="_blank">
+      <a id="d69" class="SingleFreeNode DataNode Entrez_Gene_1290 GeneProduct Ensembl_ENSG00000204262 P594_ENSG00000204262 P351_1290 HGNC_COL5A2 COL5A2 P353_COL5A2 Wikidata_Q15311996" color="#000000" name="COL5A2" transform="translate(9,109)" xlink:href="https://tools.wmflabs.org/scholia/Q15311996" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="d69-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="d69-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">COL5A2</tspan>
         </text>
       </a>
-      <a id="d76" class="SingleFreeNode DataNode Entrez_Gene_1288 GeneProduct Ensembl_ENSG00000197565 P594_ENSG00000197565 P351_1288 HGNC_COL4A6 COL4A6 P353_COL4A6 Wikidata_Q17907952" color="#000000" name="COL4A6" transform="translate(275.66666666666674,109.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q17907952" target="_blank">
+      <a id="d76" class="SingleFreeNode DataNode Entrez_Gene_1288 GeneProduct Ensembl_ENSG00000197565 P594_ENSG00000197565 P351_1288 HGNC_COL4A6 COL4A6 P353_COL4A6 Wikidata_Q17907952" color="#000000" name="COL4A6" transform="translate(221.66666666666674,109.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q17907952" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="d76-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="d76-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">COL4A6</tspan>
         </text>
       </a>
-      <a id="d8a" class="SingleFreeNode DataNode Entrez_Gene_7058 GeneProduct Ensembl_ENSG00000186340 P594_ENSG00000186340 P351_7058 HGNC_THBS2 THBS2 P353_THBS2 Wikidata_Q18031979" color="#000000" name="THBS2" transform="translate(182.3333333333332,89.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18031979" target="_blank">
+      <a id="d8a" class="SingleFreeNode DataNode Entrez_Gene_7058 GeneProduct Ensembl_ENSG00000186340 P594_ENSG00000186340 P351_7058 HGNC_THBS2 THBS2 P353_THBS2 Wikidata_Q18031979" color="#000000" name="THBS2" transform="translate(150.3333333333332,89.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18031979" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="d8a-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="d8a-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">THBS2</tspan>
         </text>
       </a>
-      <a id="e17" class="SingleFreeNode DataNode Entrez_Gene_3915 GeneProduct Ensembl_ENSG00000135862 P594_ENSG00000135862 P351_3915 HGNC_LAMC1 LAMC1 P353_LAMC1 Wikidata_Q18028460" color="#000000" name="LAMC1" transform="translate(182.3333333333332,229.00000000000108)" xlink:href="https://tools.wmflabs.org/scholia/Q18028460" target="_blank">
+      <a id="e17" class="SingleFreeNode DataNode Entrez_Gene_3915 GeneProduct Ensembl_ENSG00000135862 P594_ENSG00000135862 P351_3915 HGNC_LAMC1 LAMC1 P353_LAMC1 Wikidata_Q18028460" color="#000000" name="LAMC1" transform="translate(150.3333333333332,229.00000000000108)" xlink:href="https://tools.wmflabs.org/scholia/Q18028460" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="e17-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="e17-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">LAMC1</tspan>
         </text>
       </a>
-      <a id="e1d" class="SingleFreeNode DataNode Entrez_Gene_2335 GeneProduct Ensembl_ENSG00000115414 P594_ENSG00000115414 P351_2335 HGNC_FN1 FN1 P353_FN1 Wikidata_Q14819473" color="#000000" name="FN1" transform="translate(95.66666666666679,49.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q14819473" target="_blank">
+      <a id="e1d" class="SingleFreeNode DataNode Entrez_Gene_2335 GeneProduct Ensembl_ENSG00000115414 P594_ENSG00000115414 P351_2335 HGNC_FN1 FN1 P353_FN1 Wikidata_Q14819473" color="#000000" name="FN1" transform="translate(79.66666666666679,49.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q14819473" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="e1d-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="e1d-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">FN1</tspan>
         </text>
       </a>
-      <a id="e22" class="SingleFreeNode DataNode Entrez_Gene_3918 GeneProduct Ensembl_ENSG00000058085 P594_ENSG00000058085 P351_3918 HGNC_LAMC2 LAMC2 P353_LAMC2 Wikidata_Q18028466" color="#000000" name="LAMC2" transform="translate(182.3333333333332,9)" xlink:href="https://tools.wmflabs.org/scholia/Q18028466" target="_blank">
+      <a id="e22" class="SingleFreeNode DataNode Entrez_Gene_3918 GeneProduct Ensembl_ENSG00000058085 P594_ENSG00000058085 P351_3918 HGNC_LAMC2 LAMC2 P353_LAMC2 Wikidata_Q18028466" color="#000000" name="LAMC2" transform="translate(150.3333333333332,9)" xlink:href="https://tools.wmflabs.org/scholia/Q18028466" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="e22-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="e22-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">LAMC2</tspan>
         </text>
       </a>
-      <a id="e4e" class="SingleFreeNode DataNode Entrez_Gene_63923 GeneProduct Ensembl_ENSG00000120332 P594_ENSG00000120332 P351_63923 HGNC_TNN TNN P353_TNN Wikidata_Q18045500" color="#000000" name="TNN" transform="translate(275.66666666666674,49.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18045500" target="_blank">
+      <a id="e4e" class="SingleFreeNode DataNode Entrez_Gene_63923 GeneProduct Ensembl_ENSG00000120332 P594_ENSG00000120332 P351_63923 HGNC_TNN TNN P353_TNN Wikidata_Q18045500" color="#000000" name="TNN" transform="translate(221.66666666666674,49.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q18045500" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="e4e-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="e4e-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">TNN</tspan>
         </text>
       </a>
-      <a id="e82" class="SingleFreeNode DataNode Entrez_Gene_7148 GeneProduct Ensembl_ENSG00000168477 P594_ENSG00000168477 P351_7148 HGNC_TNXB TNXB P353_TNXB Wikidata_Q14914344" color="#000000" name="TNXB" transform="translate(275.66666666666674,89.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q14914344" target="_blank">
+      <a id="e82" class="SingleFreeNode DataNode Entrez_Gene_7148 GeneProduct Ensembl_ENSG00000168477 P594_ENSG00000168477 P351_7148 HGNC_TNXB TNXB P353_TNXB Wikidata_Q14914344" color="#000000" name="TNXB" transform="translate(221.66666666666674,89.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q14914344" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="e82-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="e82-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">TNXB</tspan>
         </text>
       </a>
-      <a id="f7c" class="SingleFreeNode DataNode Entrez_Gene_7450 GeneProduct Ensembl_ENSG00000110799 P594_ENSG00000110799 P351_7450 HGNC_VWF VWF P353_VWF Wikidata_Q14863678" color="#000000" name="VWF" transform="translate(182.3333333333332,209.0000000000009)" xlink:href="https://tools.wmflabs.org/scholia/Q14863678" target="_blank">
+      <a id="f7c" class="SingleFreeNode DataNode Entrez_Gene_7450 GeneProduct Ensembl_ENSG00000110799 P594_ENSG00000110799 P351_7450 HGNC_VWF VWF P353_VWF Wikidata_Q14863678" color="#000000" name="VWF" transform="translate(150.3333333333332,209.0000000000009)" xlink:href="https://tools.wmflabs.org/scholia/Q14863678" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="f7c-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="f7c-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">VWF</tspan>
         </text>
       </a>
-      <a id="ff3" class="SingleFreeNode DataNode Entrez_Gene_1282 GeneProduct Ensembl_ENSG00000187498 P594_ENSG00000187498 P351_1282 HGNC_COL4A1 COL4A1 P353_COL4A1 Wikidata_Q5145886" color="#000000" name="COL4A1" transform="translate(9,109.00000000000023)" xlink:href="https://tools.wmflabs.org/scholia/Q5145886" target="_blank">
+      <a id="ff3" class="SingleFreeNode DataNode Entrez_Gene_1282 GeneProduct Ensembl_ENSG00000187498 P594_ENSG00000187498 P351_1282 HGNC_COL4A1 COL4A1 P353_COL4A1 Wikidata_Q5145886" color="#000000" name="COL4A1" transform="translate(9,49)" xlink:href="https://tools.wmflabs.org/scholia/Q5145886" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="ff3-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
         <text id="ff3-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
           <tspan x="0" y="0">COL4A1</tspan>
@@ -2286,10 +2214,10 @@
       </a>
     </g>
     <g id="cff73" class="Group GroupGroup" color="#808080" transform="translate(1311.5,296.1618952875722)">
-      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="56px" id="cff73-icon" width="120.55184038907919px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="55px" id="cff73-icon" width="120.10368077815838px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
       <a id="bd7" class="SingleFreeNode DataNode Entrez_Gene_4638 GeneProduct Ensembl_ENSG00000065534 P594_ENSG00000065534 P351_4638 HGNC_MYLK MYLK P353_MYLK Wikidata_Q18029774" color="#000000" name="MYLK" transform="translate(8,8)" xlink:href="https://tools.wmflabs.org/scholia/Q18029774" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="bd7-icon" width="49.05184038907919px" x="0" y="0" transform="matrix(0.9800207146784918, 0, 0, 0.9523809523809523, 0.49001035733924425, 0.4761904761904763)" class="Icon"/>
-        <g id="cec52" class="Burr State" color="#000000" name="P" transform="translate(41.55184038907919,-5.5)">
+        <g id="cec52" class="Burr State" color="#000000" name="P" transform="translate(-5.448159610920811,-4.5)">
           <use fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="15px" id="cec52-icon" width="15px" x="0" y="0" xlink:href="#Ellipse" transform="matrix(0.9375, 0, 0, 0.9375, 0.46875, 0.46875)" class="Icon"/>
           <text id="cec52-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(7.5,10.5)">
             <tspan x="0" y="0">P</tspan>
@@ -2301,7 +2229,7 @@
       </a>
       <a id="fdf" class="SingleFreeNode DataNode Entrez_Gene_85366 GeneProduct Ensembl_ENSG00000101306 P594_ENSG00000101306 P351_85366 HGNC_MYLK2 MYLK2 P353_MYLK2 Wikidata_Q18048008" color="#000000" name="MYLK2" transform="translate(8,27)" xlink:href="https://tools.wmflabs.org/scholia/Q18048008" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="fdf-icon" width="49.05184038907919px" x="0" y="0" transform="matrix(0.9800207146784918, 0, 0, 0.9523809523809523, 0.49001035733924425, 0.4761904761904763)" class="Icon"/>
-        <g id="cc22d" class="Burr State" color="#000000" name="P" transform="translate(41.55184038907919,-3.5)">
+        <g id="cc22d" class="Burr State" color="#000000" name="P" transform="translate(-5.448159610920811,-3.5)">
           <use fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="15px" id="cc22d-icon" width="15px" x="0" y="0" xlink:href="#Ellipse" transform="matrix(0.9375, 0, 0, 0.9375, 0.46875, 0.46875)" class="Icon"/>
           <text id="cc22d-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(7.5,10.5)">
             <tspan x="0" y="0">P</tspan>
@@ -2311,7 +2239,7 @@
           <tspan x="0" y="0">MYLK2</tspan>
         </text>
       </a>
-      <a id="c6e0d" class="SingleFreeNode DataNode Ensembl_ENSG00000140795 GeneProduct P594_ENSG00000140795 Entrez_Gene_91807 P351_91807 HGNC_MYLK3 MYLK3 P353_MYLK3 Wikidata_Q18048566" color="#000000" name="MYLK3" transform="translate(57.5,8)" xlink:href="https://tools.wmflabs.org/scholia/Q18048566" target="_blank">
+      <a id="c6e0d" class="SingleFreeNode DataNode Ensembl_ENSG00000140795 GeneProduct P594_ENSG00000140795 Entrez_Gene_91807 P351_91807 HGNC_MYLK3 MYLK3 P353_MYLK3 Wikidata_Q18048566" color="#000000" name="MYLK3" transform="translate(57.05184038907919,8)" xlink:href="https://tools.wmflabs.org/scholia/Q18048566" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="c6e0d-icon" width="55.05184038907919px" x="0" y="0" transform="matrix(0.9821593725904701, 0, 0, 0.9523809523809523, 0.49107968629523313, 0.4761904761904763)" class="Icon"/>
         <g id="c43dc" class="Burr State" color="#000000" name="P" transform="translate(47.55184038907919,-5.5)">
           <use fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="15px" id="c43dc-icon" width="15px" x="0" y="0" xlink:href="#Ellipse" transform="matrix(0.9375, 0, 0, 0.9375, 0.46875, 0.46875)" class="Icon"/>
@@ -2323,7 +2251,7 @@
           <tspan x="0" y="0">MYLK3</tspan>
         </text>
       </a>
-      <a id="f422d" class="SingleFreeNode DataNode Ensembl_ENSG00000145949 GeneProduct P594_ENSG00000145949 Entrez_Gene_340156 P351_340156 HGNC_MYLK4 MYLK4 P353_MYLK4 Wikidata_Q18055383" color="#000000" name="MYLK4" transform="translate(57.5,28)" xlink:href="https://tools.wmflabs.org/scholia/Q18055383" target="_blank">
+      <a id="f422d" class="SingleFreeNode DataNode Ensembl_ENSG00000145949 GeneProduct P594_ENSG00000145949 Entrez_Gene_340156 P351_340156 HGNC_MYLK4 MYLK4 P353_MYLK4 Wikidata_Q18055383" color="#000000" name="MYLK4" transform="translate(57.05184038907919,27)" xlink:href="https://tools.wmflabs.org/scholia/Q18055383" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="f422d-icon" width="55.05184038907919px" x="0" y="0" transform="matrix(0.9821593725904701, 0, 0, 0.9523809523809523, 0.49107968629523313, 0.4761904761904763)" class="Icon"/>
         <g id="f7def" class="Burr State" color="#000000" name="P" transform="translate(47.55184038907919,-3.5)">
           <use fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="15px" id="f7def-icon" width="15px" x="0" y="0" xlink:href="#Ellipse" transform="matrix(0.9375, 0, 0, 0.9375, 0.46875, 0.46875)" class="Icon"/>
@@ -2350,6 +2278,81 @@
           <tspan x="0" y="0">ACTG1</tspan>
         </text>
       </g>
+    </g>
+    <g id="d6487" class="Group GroupNone" color="#808080" transform="translate(163.05184038907925,714.1618952875723)">
+      <rect fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-dasharray="5,3" stroke-width="1" height="138px" id="d6487-icon" width="149px" x="0" y="0" transform="matrix(0.9933333333333333, 0, 0, 0.9928057553956835, 0.4966666666666697, 0.4964028776978324)" class="Icon"/>
+      <a id="a37" class="SingleFreeNode DataNode Entrez_Gene_3082 GeneProduct Ensembl_ENSG00000019991 P594_ENSG00000019991 P351_3082 HGNC_HGF HGF P353_HGF Wikidata_Q14906204" color="#000000" name="HGF" transform="translate(9,49)" xlink:href="https://tools.wmflabs.org/scholia/Q14906204" target="_blank">
+        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="a37-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
+        <text id="a37-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
+          <tspan x="0" y="0">HGF</tspan>
+        </text>
+      </a>
+      <a id="aa7" class="SingleFreeNode DataNode Entrez_Gene_80310 GeneProduct Ensembl_ENSG00000170962 P594_ENSG00000170962 P351_80310 HGNC_PDGFD PDGFD P353_PDGFD Wikidata_Q18046693" color="#000000" name="PDGFD" transform="translate(80,29)" xlink:href="https://tools.wmflabs.org/scholia/Q18046693" target="_blank">
+        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="aa7-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
+        <text id="aa7-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
+          <tspan x="0" y="0">PDGFD</tspan>
+        </text>
+      </a>
+      <a id="aac" class="SingleFreeNode DataNode Entrez_Gene_7422 GeneProduct Ensembl_ENSG00000112715 P594_ENSG00000112715 P351_7422 HGNC_VEGFA VEGFA P353_VEGFA Wikidata_Q18032324" color="#000000" name="VEGF" transform="translate(80,69)" xlink:href="https://tools.wmflabs.org/scholia/Q18032324" target="_blank">
+        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="aac-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
+        <text id="aac-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
+          <tspan x="0" y="0">VEGF</tspan>
+        </text>
+      </a>
+      <a id="bbd" class="SingleFreeNode DataNode Entrez_Gene_2277 GeneProduct Ensembl_ENSG00000165197 P594_ENSG00000165197 P351_2277 HGNC_VEGFD VEGFD P353_VEGFD Wikidata_Q17928419" color="#000000" name="FIGF" transform="translate(9,29)" xlink:href="https://tools.wmflabs.org/scholia/Q17928419" target="_blank">
+        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="bbd-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
+        <text id="bbd-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
+          <tspan x="0" y="0">FIGF</tspan>
+        </text>
+      </a>
+      <a id="bcd" class="SingleFreeNode DataNode Entrez_Gene_1950 GeneProduct Ensembl_ENSG00000138798 P594_ENSG00000138798 P351_1950 HGNC_EGF EGF P353_EGF Wikidata_Q14864695" color="#000000" name="EGF" transform="translate(9,9)" xlink:href="https://tools.wmflabs.org/scholia/Q14864695" target="_blank">
+        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="bcd-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
+        <text id="bcd-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
+          <tspan x="0" y="0">EGF</tspan>
+        </text>
+      </a>
+      <a id="d0e" class="SingleFreeNode DataNode Entrez_Gene_7423 GeneProduct Ensembl_ENSG00000173511 P594_ENSG00000173511 P351_7423 HGNC_VEGFB VEGFB P353_VEGFB Wikidata_Q18032325" color="#000000" name="VEGFB" transform="translate(80,89)" xlink:href="https://tools.wmflabs.org/scholia/Q18032325" target="_blank">
+        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="d0e-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
+        <text id="d0e-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
+          <tspan x="0" y="0">VEGFB</tspan>
+        </text>
+      </a>
+      <a id="dc8" class="SingleFreeNode DataNode Entrez_Gene_3479 GeneProduct Ensembl_ENSG00000017427 P594_ENSG00000017427 P351_3479 HGNC_IGF1 IGF1 P353_IGF1 Wikidata_Q12791246" color="#000000" name="IGF1" transform="translate(9,69)" xlink:href="https://tools.wmflabs.org/scholia/Q12791246" target="_blank">
+        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="dc8-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
+        <text id="dc8-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
+          <tspan x="0" y="0">IGF1</tspan>
+        </text>
+      </a>
+      <a id="e37" class="SingleFreeNode DataNode Entrez_Gene_5228 GeneProduct Ensembl_ENSG00000119630 P594_ENSG00000119630 P351_5228 HGNC_PGF PGF P353_PGF Wikidata_Q18030500" color="#000000" name="PGF" transform="translate(80,49)" xlink:href="https://tools.wmflabs.org/scholia/Q18030500" target="_blank">
+        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="e37-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
+        <text id="e37-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
+          <tspan x="0" y="0">PGF</tspan>
+        </text>
+      </a>
+      <a id="f04" class="SingleFreeNode DataNode Entrez_Gene_5154 GeneProduct Ensembl_ENSG00000197461 P594_ENSG00000197461 P351_5154 HGNC_PDGFA PDGFA P353_PDGFA Wikidata_Q18030420" color="#000000" name="PDGFA" transform="translate(9,89)" xlink:href="https://tools.wmflabs.org/scholia/Q18030420" target="_blank">
+        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="f04-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
+        <text id="f04-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
+          <tspan x="0" y="0">PDGFA</tspan>
+        </text>
+      </a>
+      <a id="f79" class="SingleFreeNode DataNode Entrez_Gene_56034 GeneProduct Ensembl_ENSG00000145431 P594_ENSG00000145431 P351_56034 HGNC_PDGFC PDGFC P353_PDGFC Wikidata_Q18042211" color="#000000" name="PDGFC" transform="translate(80,9)" xlink:href="https://tools.wmflabs.org/scholia/Q18042211" target="_blank">
+        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="f79-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
+        <text id="f79-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
+          <tspan x="0" y="0">PDGFC</tspan>
+        </text>
+      </a>
+      <a id="fb5" class="SingleFreeNode DataNode Entrez_Gene_7424 GeneProduct Ensembl_ENSG00000150630 P594_ENSG00000150630 P351_7424 HGNC_VEGFC VEGFC P353_VEGFC Wikidata_Q5398950" color="#000000" name="VEGFC" transform="translate(80,109)" xlink:href="https://tools.wmflabs.org/scholia/Q5398950" target="_blank">
+        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="fb5-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
+        <text id="fb5-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
+          <tspan x="0" y="0">VEGFC</tspan>
+        </text>
+      </a>
+      <a id="fe1" class="SingleFreeNode DataNode Entrez_Gene_5155 GeneProduct Ensembl_ENSG00000100311 P594_ENSG00000100311 P351_5155 HGNC_PDGFB PDGFB P353_PDGFB Wikidata_Q18030421" color="#000000" name="PDGFB" transform="translate(9,109)" xlink:href="https://tools.wmflabs.org/scholia/Q18030421" target="_blank">
+        <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="fe1-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
+        <text id="fe1-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,13)">
+          <tspan x="0" y="0">PDGFB</tspan>
+        </text>
+      </a>
     </g>
     <g id="d83c4" class="Group GroupGroup" color="#808080" transform="translate(1291.7185070557462,721.4952286209056)">
       <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="76px" id="d83c4-icon" width="76px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
@@ -2646,7 +2649,7 @@
     </g>
     <text id="WP306-text" class="Text" direction="ltr" dominant-baseline="central" fill="black" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" overflow="visible" stroke="white" stroke-width="0px" text-anchor="start" transform="translate(5,36)">
       <tspan x="0" y="-18">Name: Focal adhesion</tspan>
-      <tspan x="0" y="0">Last Modified: 20230808233346</tspan>
+      <tspan x="0" y="0">Last Modified: 20230809175705</tspan>
       <tspan x="0" y="18">Organism: Homo sapiens</tspan>
     </text>
   </g>
