@@ -10,6 +10,12 @@
         <feMorphology in="SourceGraphic" result="inDouble" operator="dilate" radius="3"/>
         <feComposite in="inDouble" in2="in2Double" operator="out" result="doubleResult"/>
       </filter>
+      <filter x="0" y="0" height="1682" width="2190.923076923078" id="kaaviowhitetofffffffilter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -1                  0  1  0 0 -1                  0  0  1 0 -1                  0  0  0 1 0"/>
+      </filter>
+      <filter x="0" y="0" height="1682" width="2190.923076923078" id="kaavioblacktofffffffilter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 1                   0  -1   0 0 1                   0   0  -1 0 1                   0   0   0 1 0"/>
+      </filter>
       <filter x="0" y="0" height="1682" width="2190.923076923078" id="kaaviowhiteto14961efilter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0.0784313725490196                  0  1  0 0 -0.5882352941176471                  0  0  1 0 -0.11764705882352941                  0  0  0 1 0"/>
       </filter>
@@ -27,12 +33,6 @@
       </filter>
       <filter x="0" y="0" height="1682" width="2190.923076923078" id="kaavioblackto000000filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0                   0  -1   0 0 0                   0   0  -1 0 0                   0   0   0 1 0"/>
-      </filter>
-      <filter x="0" y="0" height="1682" width="2190.923076923078" id="kaaviowhitetofffffffilter" filterUnits="userSpaceOnUse">
-        <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -1                  0  1  0 0 -1                  0  0  1 0 -1                  0  0  0 1 0"/>
-      </filter>
-      <filter x="0" y="0" height="1682" width="2190.923076923078" id="kaavioblacktofffffffilter" filterUnits="userSpaceOnUse">
-        <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 1                   0  -1   0 0 1                   0   0  -1 0 1                   0   0   0 1 0"/>
       </filter>
       <filter x="0" y="0" height="1682" width="2190.923076923078" id="kaaviowhitetocc0099filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0.8                  0  1  0 0 -0                  0  0  1 0 -0.6                  0  0  0 1 0"/>
@@ -478,7 +478,7 @@
       </symbol>
     </g>
   </defs>
-  <g id="WP4674" class="Viewport" color="black" name="Name: Head and neck squamous cell carcinoma Organism: Homo sapiens">
+  <g id="WP4674" class="Viewport" color="black" name="Name: Head and neck squamous cell carcinoma Last Modified: 20230828174205 Organism: Homo sapiens">
     <rect fill="white" stroke="black" stroke-width="0" fill-opacity="1" height="1682px" id="WP4674-icon" width="2190.923076923078px" x="0" y="0" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
     <g id="id1209ef14" class="Edge Interaction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="212.62577273493088, 7" stroke-width="1">
@@ -831,7 +831,7 @@
       </text>
     </g>
     <a id="a809a" class="SingleFreeNode DataNode WikiPathways_WP179 Pathway Wikidata_Q29892200" color="#14961e" name="Cell cycle" transform="translate(954.0679093292797,1132.3803426992697)" xlink:href="https://tools.wmflabs.org/scholia/Q29892200" target="_blank">
-      <use fill="transparent" fill-opacity="0" stroke="#14961e" stroke-width="0" height="27.94653705953826px" id="a809a-icon" width="91.17253948967164px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <rect fill="#ffffff" stroke="#14961e" stroke-width="1" fill-opacity="1" height="27.94653705953826px" id="a809a-icon" rx="15" ry="15" width="91.17253948967164px" x="0" y="0" transform="matrix(0.9891507817237469, 0, 0, 0.9654535532888385, 0.4945753908618755, 0.48272677664441943)" class="Icon"/>
       <text id="a809a-text" class="Text" direction="ltr" fill="#14961e" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(45.58626974483582,17.97326852976913)">
         <tspan x="0" y="0">Cell cycle</tspan>
       </text>
@@ -1370,12 +1370,12 @@
           <tspan x="0" y="0">PIK3R1</tspan>
         </text>
       </a>
-      <a id="bc0b1" class="SingleFreeNode DataNode Ensembl_ENSG00000105647 GeneProduct P594_ENSG00000105647 Entrez_Gene_5296 P351_5296 HGNC_PIK3R2 PIK3R2 P353_PIK3R2 Wikidata_Q18030552" color="#000000" name="PIK3R2" transform="translate(12,37)" xlink:href="https://tools.wmflabs.org/scholia/Q18030552" target="_blank">
+      <g id="bc0b1" class="SingleFreeNode DataNode Ensembl_ENSG00000105647 GeneProduct P594_ENSG00000105647 Entrez_Gene_5296 P351_5296 HGNC_PIK3R2 PIK3R2 P353_PIK3R2" color="#000000" name="PIK3R2" transform="translate(12,37)">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="25px" id="bc0b1-icon" width="55px" x="0" y="0" transform="matrix(0.9821428571428571, 0, 0, 0.9615384615384616, 0.4910714285714306, 0.48076923076922995)" class="Icon"/>
         <text id="bc0b1-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(27.5,16.5)">
           <tspan x="0" y="0">PIK3R2</tspan>
         </text>
-      </a>
+      </g>
       <a id="b92bc" class="SingleFreeNode DataNode Ensembl_ENSG00000121879 GeneProduct P594_ENSG00000121879 Entrez_Gene_5290 P351_5290 HGNC_PIK3CA PIK3CA P353_PIK3CA Wikidata_Q14887700" color="#000000" name="PIK3CA" transform="translate(67,12)" xlink:href="https://tools.wmflabs.org/scholia/Q14887700" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="25px" id="b92bc-icon" width="55px" x="0" y="0" transform="matrix(0.9821428571428571, 0, 0, 0.9615384615384616, 0.4910714285714306, 0.48076923076922995)" class="Icon"/>
         <g id="c6bac" class="Burr State" color="#000000" transform="translate(-1.1605208938666456,-7.5)">
@@ -1737,9 +1737,10 @@
         <tspan x="0" y="13.200000000000001">Migration</tspan>
       </text>
     </g>
-    <text id="WP4674-text" class="Text" direction="ltr" dominant-baseline="central" fill="black" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" overflow="visible" stroke="white" stroke-width="0px" text-anchor="start" transform="translate(5,27)">
-      <tspan x="0" y="-9">Name: Head and neck squamous cell carcinoma</tspan>
-      <tspan x="0" y="9">Organism: Homo sapiens</tspan>
+    <text id="WP4674-text" class="Text" direction="ltr" dominant-baseline="central" fill="black" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" overflow="visible" stroke="white" stroke-width="0px" text-anchor="start" transform="translate(5,36)">
+      <tspan x="0" y="-18">Name: Head and neck squamous cell carcinoma</tspan>
+      <tspan x="0" y="0">Last Modified: 20230828174205</tspan>
+      <tspan x="0" y="18">Organism: Homo sapiens</tspan>
     </text>
   </g>
 </svg>

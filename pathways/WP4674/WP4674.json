@@ -599,8 +599,8 @@
       "zIndex": 32768
     },
     "a809a": {
-      "drawAs": "none",
-      "fill": "transparent",
+      "drawAs": "rect",
+      "fill": "#ffffff",
       "fontFamily": "Arial",
       "fontSize": 12,
       "fontStyle": "normal",
@@ -612,8 +612,10 @@
       "lineHeight": 1.1,
       "overflow": "hidden",
       "padding": 8,
+      "rx": 15,
+      "ry": 15,
       "stroke": "#14961e",
-      "strokeWidth": 0,
+      "strokeWidth": 1,
       "textAlign": "center",
       "textContent": "Cell cycle",
       "textDecoration": "none",
@@ -2038,8 +2040,7 @@
         "P351:5296",
         "HGNC:PIK3R2",
         "PIK3R2",
-        "P353:PIK3R2",
-        "Wikidata:Q18030552"
+        "P353:PIK3R2"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -11137,11 +11138,33 @@
       ],
       "zIndex": 12288
     },
+    "publicationXrefc82": {
+      "authors": [
+        "Hornbeck PV",
+        "Zhang B",
+        "Murray B",
+        "Kornhauser JM",
+        "Latham V",
+        "Skrzypek E"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefc82",
+      "source": "Nucleic Acids Res",
+      "standardName": "PhosphoSitePlus, 2014: mutations, PTMs and recalibrations.",
+      "textContent": "3",
+      "type": [
+        "PublicationXref",
+        "PubMed:25514926"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "25514926",
+      "year": 2015
+    },
     "publicationXreff64": {
       "gpmlElementName": "PublicationXref",
       "id": "publicationXreff64",
       "source": "https://clinicalgate.com/the-molecular-pathogenesis-of-head-and-neck-cancer/",
-      "textContent": "3",
+      "textContent": "2",
       "type": [
         "PublicationXref"
       ],
@@ -11170,11 +11193,10 @@
       "id": "publicationXreffb2",
       "source": "Theranostics",
       "standardName": "Comprehensive characterization of the alternative splicing landscape in head and neck squamous cell carcinoma reveals novel events associated with tumorigenesis and the immune microenvironment.",
-      "textContent": "2",
+      "textContent": "4",
       "type": [
         "PublicationXref",
-        "PubMed:31695792",
-        "Wikidata:Q91154777"
+        "PubMed:31695792"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "31695792",
@@ -11193,8 +11215,7 @@
       "textContent": "1",
       "type": [
         "PublicationXref",
-        "PubMed:23847349",
-        "Wikidata:Q35142474"
+        "PubMed:23847349"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "23847349",
@@ -11261,7 +11282,7 @@
     "author": "[Khanspers, Egonw, DeSl, Marvin M2, MaintBot, Eweitz]",
     "comments": [
       {
-        "content": "HNSCC, which includes malignant squamous lesions arising in the oral cavity, larynx and pharynx, is the seventh most common cancer in the world.\nHNSCC has a remarkable multiplicity and diversity of genetic alterations. Most genomic alterations in HNSCC converge in a handful of molecular pathways resulting in cell cycle deregulation, genomic instability, cell differentiation defects, and persistent mitogenic signaling, the latter involving aberrant PI3K/mTOR pathway activation thereby rendering HNSCC responsive to PI3K/mTOR inhibitors.\n\nPathway is based on [https://europepmc.org/articles/PMC4348071 Fig 1 from Iglesias-Bartolome et al], [https://www.nature.com/articles/nature14129 Fig 5 from Li et al] and [https://clinicalgate.com/the-molecular-pathogenesis-of-head-and-neck-cancer/ Fig 33-3 from Clinicalgate]. \n\nDescription is modified from [https://europepmc.org/articles/PMC4348071 Iglesias-Bartolome et al].",
+        "content": "HNSCC, which includes malignant squamous lesions arising in the oral cavity, larynx and pharynx, is the seventh most common cancer in the world.\r\nHNSCC has a remarkable multiplicity and diversity of genetic alterations. Most genomic alterations in HNSCC converge in a handful of molecular pathways resulting in cell cycle deregulation, genomic instability, cell differentiation defects, and persistent mitogenic signaling, the latter involving aberrant PI3K/mTOR pathway activation thereby rendering HNSCC responsive to PI3K/mTOR inhibitors.\r\n\r\nPathway is based on [https://europepmc.org/articles/PMC4348071 Fig 1 from Iglesias-Bartolome et al], [https://www.nature.com/articles/nature14129 Fig 5 from Li et al] and [https://clinicalgate.com/the-molecular-pathogenesis-of-head-and-neck-cancer/ Fig 33-3 from Clinicalgate]. \r\n\r\nDescription is modified from [https://europepmc.org/articles/PMC4348071 Iglesias-Bartolome et al].\r\nProtein phosphorylation sites were added based on information from PhosphoSitePlus (R), www.phosphosite.org.",
         "source": "WikiPathways-description"
       }
     ],
@@ -11411,7 +11432,7 @@
       "f35e2",
       "f93a1"
     ],
-    "dataSourceVersion": "WP4674_r117748",
+    "dataSourceVersion": "WP4674_r127252",
     "displayName": "Head and neck squamous cell carcinoma",
     "drawAs": "rect",
     "fill": "white",
@@ -11421,6 +11442,7 @@
     "height": 1682,
     "id": "WP4674",
     "kaavioType": "Group",
+    "lastModified": "20230828174205",
     "name": "Head and neck squamous cell carcinoma",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -11429,7 +11451,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Head and neck squamous cell carcinoma\nOrganism: Homo sapiens",
+    "textContent": "Name: Head and neck squamous cell carcinoma\nLast Modified: 20230828174205\nOrganism: Homo sapiens",
     "type": [
       "Pathway"
     ],
