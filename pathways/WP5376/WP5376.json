@@ -1,5 +1,30 @@
 {
   "entitiesById": {
+    "a2422": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "GraphicalLine",
+      "id": "a2422",
+      "kaavioType": "Edge",
+      "markerEnd": "MimInhibition",
+      "points": [
+        {
+          "x": 1200.941512500002,
+          "y": 829.2726798963765
+        },
+        {
+          "x": 1271.9415125000023,
+          "y": 829.2726798963765
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "GraphicalLine",
+        "Edge"
+      ],
+      "zIndex": 32961
+    },
     "a59fc": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -515,6 +540,31 @@
       "y": 137.00000000000045,
       "zIndex": 32796
     },
+    "b7cb4": {
+      "attachmentDisplay": {
+        "offset": [
+          0,
+          0
+        ],
+        "position": [
+          0.4,
+          0
+        ]
+      },
+      "drawAs": "none",
+      "gpmlElementName": "Anchor",
+      "height": 0,
+      "id": "b7cb4",
+      "isAttachedTo": "id5ec7bee3",
+      "kaavioType": "Burr",
+      "strokeWidth": 0,
+      "type": [
+        "Anchor",
+        "Burr"
+      ],
+      "width": 0,
+      "zIndex": 12288
+    },
     "b8236": {
       "drawAs": "none",
       "fill": "transparent",
@@ -955,31 +1005,6 @@
       "y": 12,
       "zIndex": 32771
     },
-    "c0d57": {
-      "drawAs": "StraightLine",
-      "fill": "none",
-      "gpmlElementName": "Interaction",
-      "id": "c0d57",
-      "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
-      "points": [
-        {
-          "x": 1200.941512500002,
-          "y": 829.2726798963765
-        },
-        {
-          "x": 1271.9415125000023,
-          "y": 829.2726798963765
-        }
-      ],
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "type": [
-        "Interaction",
-        "Edge"
-      ],
-      "zIndex": 32961
-    },
     "c0f2b": {
       "drawAs": "none",
       "fill": "transparent",
@@ -1150,6 +1175,31 @@
       "x": 1196.6106937500008,
       "y": 557.0959249999996,
       "zIndex": 32799
+    },
+    "c5205": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "GraphicalLine",
+      "id": "c5205",
+      "kaavioType": "Edge",
+      "markerEnd": "MimCatalysis",
+      "points": [
+        {
+          "x": 1200.941512500002,
+          "y": 801.2726798963765
+        },
+        {
+          "x": 1271.9415125000023,
+          "y": 801.2726798963765
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "GraphicalLine",
+        "Edge"
+      ],
+      "zIndex": 32962
     },
     "c6934": {
       "burrs": [
@@ -2287,31 +2337,6 @@
       ],
       "zIndex": 32788
     },
-    "f0a96": {
-      "drawAs": "StraightLine",
-      "fill": "none",
-      "gpmlElementName": "Interaction",
-      "id": "f0a96",
-      "kaavioType": "Edge",
-      "markerEnd": "MimCatalysis",
-      "points": [
-        {
-          "x": 1200.941512500002,
-          "y": 801.2726798963765
-        },
-        {
-          "x": 1271.9415125000023,
-          "y": 801.2726798963765
-        }
-      ],
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "type": [
-        "Interaction",
-        "Edge"
-      ],
-      "zIndex": 32962
-    },
     "f2bc7": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -3219,7 +3244,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "ffae5",
-      "isPartOf": "pvjsgeneratedidffae7",
+      "isPartOf": "pvjsgeneratedidffae6",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -3646,7 +3671,7 @@
     },
     "id5ec7bee3": {
       "burrs": [
-        "pvjsgeneratedidffae6"
+        "b7cb4"
       ],
       "citations": [
         "publicationXrefe6f"
@@ -4685,7 +4710,8 @@
       "gpmlElementName": "Interaction",
       "id": "iddf9923e5",
       "isAttachedTo": [
-        "bdfaa"
+        "bdfaa",
+        "id5ec7bee3"
       ],
       "kaavioType": "Edge",
       "markerEnd": "MimCatalysis",
@@ -4710,7 +4736,20 @@
           "y": 488.56895930692076
         },
         {
-          "x": 399.9185308267262,
+          "attachmentDisplay": {
+            "offset": [],
+            "position": [
+              0.4,
+              0
+            ],
+            "relativeOffset": [
+              0,
+              0
+            ]
+          },
+          "isAttachedTo": "b7cb4",
+          "orientation": [],
+          "x": 399.0338709677416,
           "y": 488.063949102369
         }
       ],
@@ -4804,7 +4843,7 @@
     "publicationXrefaba": {
       "gpmlElementName": "PublicationXref",
       "id": "publicationXrefaba",
-      "textContent": "13",
+      "textContent": "15",
       "type": [
         "PublicationXref",
         "PubMed:31901078"
@@ -4824,7 +4863,7 @@
       "id": "publicationXrefb3a",
       "source": "Int J Mol Sci",
       "standardName": "Neuromelanin in Parkinson's Disease: Tyrosine Hydroxylase and Tyrosinase.",
-      "textContent": "16",
+      "textContent": "14",
       "type": [
         "PublicationXref",
         "PubMed:35456994"
@@ -4845,7 +4884,7 @@
       "id": "publicationXrefc06",
       "source": "Int J Mol Sci",
       "standardName": "Neuromelanin in Parkinson's Disease: Tyrosine Hydroxylase and Tyrosinase.",
-      "textContent": "15",
+      "textContent": "16",
       "type": [
         "PublicationXref",
         "PubMed:35456994"
@@ -4933,7 +4972,7 @@
       "id": "publicationXrefcdc",
       "source": "Kaohsiung J Med Sci",
       "standardName": "YWHAE promotes proliferation, metastasis, and chemoresistance in breast cancer cells.",
-      "textContent": "10",
+      "textContent": "11",
       "type": [
         "PublicationXref",
         "PubMed:31001932"
@@ -4955,7 +4994,7 @@
       "id": "publicationXrefd4b",
       "source": "Int J Mol Sci",
       "standardName": "L-DOPA in Parkinson's Disease: Looking at the \"False\" Neurotransmitters and Their Meaning.",
-      "textContent": "11",
+      "textContent": "10",
       "type": [
         "PublicationXref",
         "PubMed:31906250"
@@ -4975,7 +5014,7 @@
       "id": "publicationXrefdd6",
       "source": "Brain Sci",
       "standardName": "Responsible Genes for Neuronal Migration in the Chromosome 17p13.3: Beyond Pafah1b1(Lis1), Crk and Ywhae(14-3-3ε).",
-      "textContent": "12",
+      "textContent": "13",
       "type": [
         "PublicationXref",
         "PubMed:35053800"
@@ -5124,7 +5163,7 @@
       "id": "publicationXreff84",
       "source": "Cancer Cell Int",
       "standardName": "YWHAE as an HE4 interacting protein can influence the malignant behaviour of ovarian cancer by regulating the PI3K/AKT and MAPK pathways.",
-      "textContent": "14",
+      "textContent": "12",
       "type": [
         "PublicationXref",
         "PubMed:34107979"
@@ -5134,31 +5173,6 @@
       "year": 2021
     },
     "pvjsgeneratedidffae6": {
-      "attachmentDisplay": {
-        "offset": [
-          0,
-          0
-        ],
-        "position": [
-          0.4,
-          0
-        ]
-      },
-      "drawAs": "rect",
-      "gpmlElementName": "Anchor",
-      "height": 4,
-      "id": "pvjsgeneratedidffae6",
-      "isAttachedTo": "id5ec7bee3",
-      "kaavioType": "Burr",
-      "strokeWidth": 0,
-      "type": [
-        "Anchor",
-        "Burr"
-      ],
-      "width": 4,
-      "zIndex": 12288
-    },
-    "pvjsgeneratedidffae7": {
       "contains": [
         "ffae5"
       ],
@@ -5169,7 +5183,7 @@
       "fontWeight": "bold",
       "gpmlElementName": "Group",
       "height": 49,
-      "id": "pvjsgeneratedidffae7",
+      "id": "pvjsgeneratedidffae6",
       "kaavioType": "Group",
       "padding": 11,
       "stroke": "#808080",
@@ -5194,7 +5208,7 @@
         "@base": "WP5376/"
       }
     ],
-    "author": "[Ninagerrekens, AlexanderPico, Fehrhart]",
+    "author": "[Ninagerrekens, AlexanderPico, Fehrhart, Khanspers]",
     "comments": [
       {
         "content": "The 17p13.3 deletion or duplication ranging from chr17:1250000 to chr17:1300000, affects YWHAE gene. The YWHAE gene plays a role in a lot of different processes and is closely related to many diseases.",
@@ -5271,9 +5285,9 @@
       "c50fb",
       "ba3f2",
       "c48f0",
-      "pvjsgeneratedidffae7",
-      "c0d57",
-      "f0a96",
+      "pvjsgeneratedidffae6",
+      "a2422",
+      "c5205",
       "f42c2",
       "bec50",
       "fb99e",
@@ -5287,7 +5301,7 @@
       "f9ca0",
       "bc610"
     ],
-    "dataSourceVersion": "WP5376_r127183",
+    "dataSourceVersion": "WP5376_r127452",
     "displayName": "YWHAE copy number variation",
     "drawAs": "rect",
     "fill": "white",
@@ -5297,7 +5311,7 @@
     "height": 883.3333333333333,
     "id": "WP5376",
     "kaavioType": "Group",
-    "lastModified": "20230809092539",
+    "lastModified": "20231003183336",
     "name": "17p13.3 (YWHAE) copy number variation",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -5306,7 +5320,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: 17p13.3 (YWHAE) copy number variation\nLast Modified: 20230809092539\nOrganism: Homo sapiens",
+    "textContent": "Name: 17p13.3 (YWHAE) copy number variation\nLast Modified: 20231003183336\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000013"
