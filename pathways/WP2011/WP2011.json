@@ -7,7 +7,7 @@
       "id": "a0f48",
       "isAttachedTo": [
         "cf45c",
-        "de09c"
+        "eaa4f"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -23,7 +23,6 @@
               0.5
             ]
           },
-          "id": "d72fe",
           "isAttachedTo": "cf45c",
           "orientation": [
             1,
@@ -43,8 +42,7 @@
               0.75
             ]
           },
-          "id": "d22f9",
-          "isAttachedTo": "de09c",
+          "isAttachedTo": "eaa4f",
           "orientation": [
             1,
             0
@@ -75,7 +73,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a2365",
-      "isPartOf": "de09c",
+      "isPartOf": "eaa4f",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -201,11 +199,11 @@
       "gpmlElementName": "Interaction",
       "id": "b0b71",
       "isAttachedTo": [
-        "be33f",
+        "e11ff",
         "e312e"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -218,8 +216,7 @@
               1
             ]
           },
-          "id": "b47aa",
-          "isAttachedTo": "be33f",
+          "isAttachedTo": "e11ff",
           "orientation": [
             0,
             1
@@ -238,7 +235,6 @@
               0
             ]
           },
-          "id": "be3f9",
           "isAttachedTo": "e312e",
           "orientation": [
             0,
@@ -252,7 +248,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 32784
     },
@@ -342,35 +340,6 @@
       "y": 213.66666666666652,
       "zIndex": 32768
     },
-    "be33f": {
-      "contains": [
-        "f00f6",
-        "ec820"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 56,
-      "id": "be33f",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 96,
-      "x": 24.000000000000085,
-      "y": 195.66666666666674,
-      "zIndex": 32768
-    },
     "c3566": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -437,7 +406,6 @@
               0
             ]
           },
-          "id": "e47ff",
           "isAttachedTo": "ccbbf",
           "orientation": [
             0,
@@ -457,7 +425,6 @@
               1
             ]
           },
-          "id": "f6696",
           "isAttachedTo": "aeedd",
           "orientation": [
             0,
@@ -576,7 +543,7 @@
       "gpmlElementName": "Interaction",
       "id": "cfc20",
       "isAttachedTo": [
-        "de09c",
+        "eaa4f",
         "abe4b"
       ],
       "kaavioType": "Edge",
@@ -593,8 +560,7 @@
               0.5
             ]
           },
-          "id": "d07a1",
-          "isAttachedTo": "de09c",
+          "isAttachedTo": "eaa4f",
           "orientation": [
             1,
             0
@@ -613,7 +579,6 @@
               0.5
             ]
           },
-          "id": "f9752",
           "isAttachedTo": "abe4b",
           "orientation": [
             1,
@@ -658,7 +623,6 @@
               0
             ]
           },
-          "id": "d1986",
           "isAttachedTo": "ccbbf",
           "orientation": [
             0,
@@ -678,7 +642,6 @@
               1
             ]
           },
-          "id": "eedd1",
           "isAttachedTo": "eb53a",
           "orientation": [
             0,
@@ -743,10 +706,10 @@
       "y": 184.42661473723894,
       "zIndex": 32771
     },
-    "de09c": {
+    "e11ff": {
       "contains": [
-        "a2365",
-        "f9066"
+        "f00f6",
+        "ec820"
       ],
       "drawAs": "none",
       "fill": "transparent",
@@ -754,8 +717,8 @@
       "fontSize": 1,
       "fontWeight": "bold",
       "gpmlElementName": "Group",
-      "height": 56.00000000000023,
-      "id": "de09c",
+      "height": 56,
+      "id": "e11ff",
       "kaavioType": "Group",
       "padding": 8,
       "stroke": "#808080",
@@ -768,8 +731,8 @@
       ],
       "verticalAlign": "middle",
       "width": 96,
-      "x": 252.00000000000006,
-      "y": 205.64826175869098,
+      "x": 24.000000000000085,
+      "y": 195.66666666666674,
       "zIndex": 32768
     },
     "e312e": {
@@ -924,7 +887,6 @@
               0
             ]
           },
-          "id": "f5283",
           "isAttachedTo": "ccbbf",
           "orientation": [
             0,
@@ -944,7 +906,6 @@
               1
             ]
           },
-          "id": "ac900",
           "isAttachedTo": "e9915",
           "orientation": [
             0,
@@ -1009,6 +970,35 @@
       "y": 93.66666666666663,
       "zIndex": 32768
     },
+    "eaa4f": {
+      "contains": [
+        "a2365",
+        "f9066"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 56.00000000000023,
+      "id": "eaa4f",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 96,
+      "x": 252.00000000000006,
+      "y": 205.64826175869098,
+      "zIndex": 32768
+    },
     "eb53a": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -1062,7 +1052,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "ec820",
-      "isPartOf": "be33f",
+      "isPartOf": "e11ff",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1077,7 +1067,7 @@
         "DataNode",
         "SingleFreeNode",
         "Ensembl:ENSG00000207839",
-        "RNA",
+        "Rna",
         "P594:ENSG00000207839",
         "Entrez Gene:693120",
         "P351:693120",
@@ -1089,7 +1079,7 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
-      "wpType": "RNA",
+      "wpType": "Rna",
       "x": 8,
       "xrefDataSource": "Ensembl",
       "xrefIdentifier": "ENSG00000207839",
@@ -1119,7 +1109,6 @@
               0.5
             ]
           },
-          "id": "c69e9",
           "isAttachedTo": "b9e19",
           "orientation": [
             1,
@@ -1139,7 +1128,6 @@
               0.5
             ]
           },
-          "id": "e1a82",
           "isAttachedTo": "a2365",
           "orientation": [
             1,
@@ -1167,7 +1155,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "f00f6",
-      "isPartOf": "be33f",
+      "isPartOf": "e11ff",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1182,7 +1170,7 @@
         "DataNode",
         "SingleFreeNode",
         "Ensembl:ENSG00000207932",
-        "RNA",
+        "Rna",
         "P594:ENSG00000207932",
         "Entrez Gene:407039",
         "P351:407039",
@@ -1194,7 +1182,7 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
-      "wpType": "RNA",
+      "wpType": "Rna",
       "x": 8,
       "xrefDataSource": "Ensembl",
       "xrefIdentifier": "ENSG00000207932",
@@ -1212,7 +1200,7 @@
       "gpmlElementName": "Interaction",
       "id": "f545f",
       "isAttachedTo": [
-        "de09c",
+        "eaa4f",
         "c3566"
       ],
       "kaavioType": "Edge",
@@ -1229,8 +1217,7 @@
               0.5
             ]
           },
-          "id": "a6f31",
-          "isAttachedTo": "de09c",
+          "isAttachedTo": "eaa4f",
           "orientation": [
             1,
             0
@@ -1249,7 +1236,6 @@
               0.5
             ]
           },
-          "id": "e5ec8",
           "isAttachedTo": "c3566",
           "orientation": [
             1,
@@ -1281,7 +1267,7 @@
       "gpmlElementName": "DataNode",
       "height": 20.000000000000018,
       "id": "f9066",
-      "isPartOf": "de09c",
+      "isPartOf": "eaa4f",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1358,6 +1344,16 @@
       "y": 334.4470359261267,
       "zIndex": 32768
     },
+    "http://identifiers.org/pw/PW:0000100": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000100",
+      "ontology": "Pathway Ontology",
+      "term": "transcription pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000100"
+    },
     "http://identifiers.org/pw/PW:0000355": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000355",
@@ -1367,6 +1363,16 @@
         "openControlledVocabulary"
       ],
       "xrefIdentifier": "PW:0000355"
+    },
+    "http://identifiers.org/pw/PW:0001304": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0001304",
+      "ontology": "Pathway Ontology",
+      "term": "cholesterol metabolic pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0001304"
     },
     "id1126806b": {
       "drawAs": "StraightLine",
@@ -1378,7 +1384,7 @@
         "a2365"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -1391,7 +1397,6 @@
               1
             ]
           },
-          "id": "fc4a7",
           "isAttachedTo": "ccbbf",
           "orientation": [
             0,
@@ -1411,7 +1416,6 @@
               0
             ]
           },
-          "id": "d42ff",
           "isAttachedTo": "a2365",
           "orientation": [
             0,
@@ -1425,7 +1429,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 12288
     },
@@ -1435,11 +1441,11 @@
       "gpmlElementName": "Interaction",
       "id": "id5098d934",
       "isAttachedTo": [
-        "be33f",
+        "e11ff",
         "e46e1"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -1452,8 +1458,7 @@
               0
             ]
           },
-          "id": "ad28a",
-          "isAttachedTo": "be33f",
+          "isAttachedTo": "e11ff",
           "orientation": [
             0,
             -1
@@ -1472,7 +1477,6 @@
               1
             ]
           },
-          "id": "f665e",
           "isAttachedTo": "e46e1",
           "orientation": [
             0,
@@ -1486,7 +1490,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 12288
     },
@@ -1496,7 +1502,7 @@
       "gpmlElementName": "Interaction",
       "id": "id5673c177",
       "isAttachedTo": [
-        "de09c",
+        "eaa4f",
         "e49fb"
       ],
       "kaavioType": "Edge",
@@ -1513,8 +1519,7 @@
               0.5
             ]
           },
-          "id": "f1900",
-          "isAttachedTo": "de09c",
+          "isAttachedTo": "eaa4f",
           "orientation": [
             1,
             0
@@ -1533,7 +1538,6 @@
               0.5
             ]
           },
-          "id": "c51e5",
           "isAttachedTo": "e49fb",
           "orientation": [
             1,
@@ -1566,7 +1570,7 @@
       "gpmlElementName": "Interaction",
       "id": "id6eebb7a3",
       "isAttachedTo": [
-        "de09c",
+        "eaa4f",
         "d8a31"
       ],
       "kaavioType": "Edge",
@@ -1583,8 +1587,7 @@
               0.5
             ]
           },
-          "id": "f4e66",
-          "isAttachedTo": "de09c",
+          "isAttachedTo": "eaa4f",
           "orientation": [
             1,
             0
@@ -1603,7 +1606,6 @@
               0.5
             ]
           },
-          "id": "e5ee2",
           "isAttachedTo": "d8a31",
           "orientation": [
             1,
@@ -1631,7 +1633,7 @@
       "gpmlElementName": "Interaction",
       "id": "id92ea61d7",
       "isAttachedTo": [
-        "be33f",
+        "e11ff",
         "b9e19"
       ],
       "kaavioType": "Edge",
@@ -1648,8 +1650,7 @@
               0.5
             ]
           },
-          "id": "bcd9b",
-          "isAttachedTo": "be33f",
+          "isAttachedTo": "e11ff",
           "orientation": [
             1,
             0
@@ -1668,7 +1669,6 @@
               0.5
             ]
           },
-          "id": "fe695",
           "isAttachedTo": "b9e19",
           "orientation": [
             1,
@@ -1692,7 +1692,7 @@
       "gpmlElementName": "Interaction",
       "id": "idc762601c",
       "isAttachedTo": [
-        "de09c",
+        "eaa4f",
         "b6a16"
       ],
       "kaavioType": "Edge",
@@ -1709,8 +1709,7 @@
               0.5
             ]
           },
-          "id": "f3206",
-          "isAttachedTo": "de09c",
+          "isAttachedTo": "eaa4f",
           "orientation": [
             1,
             0
@@ -1729,7 +1728,6 @@
               0.5
             ]
           },
-          "id": "c9989",
           "isAttachedTo": "b6a16",
           "orientation": [
             1,
@@ -1774,7 +1772,6 @@
               0.5
             ]
           },
-          "id": "e4bcc",
           "isAttachedTo": "ccbbf",
           "orientation": [
             -1,
@@ -1794,7 +1791,6 @@
               0
             ]
           },
-          "id": "bb396",
           "isAttachedTo": "b9e19",
           "orientation": [
             0,
@@ -1822,7 +1818,7 @@
       "gpmlElementName": "Interaction",
       "id": "idf6fa940a",
       "isAttachedTo": [
-        "de09c",
+        "eaa4f",
         "fffe5"
       ],
       "kaavioType": "Edge",
@@ -1840,8 +1836,7 @@
               1
             ]
           },
-          "id": "c9253",
-          "isAttachedTo": "de09c",
+          "isAttachedTo": "eaa4f",
           "orientation": [
             0,
             1
@@ -1860,7 +1855,6 @@
               0
             ]
           },
-          "id": "d2b94",
           "isAttachedTo": "fffe5",
           "orientation": [
             0,
@@ -1909,8 +1903,7 @@
       "textContent": "1",
       "type": [
         "PublicationXref",
-        "PubMed:16799563",
-        "Wikidata:Q24294691"
+        "PubMed:16799563"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "16799563",
@@ -1932,11 +1925,10 @@
       "id": "publicationXrefac5",
       "source": "J Biol Chem",
       "standardName": "Expression of miR-33 from an SREBP2 intron inhibits cholesterol export and fatty acid oxidation.",
-      "textContent": "9",
+      "textContent": "7",
       "type": [
         "PublicationXref",
-        "PubMed:20732877",
-        "Wikidata:Q34231924"
+        "PubMed:20732877"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "20732877",
@@ -1976,11 +1968,10 @@
       "id": "publicationXrefbd0",
       "source": "Genes Dev",
       "standardName": "Conserved role of SIRT1 orthologs in fasting-dependent inhibition of the lipid/cholesterol regulator SREBP.",
-      "textContent": "7",
+      "textContent": "8",
       "type": [
         "PublicationXref",
-        "PubMed:20595232",
-        "Wikidata:Q33953637"
+        "PubMed:20595232"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "20595232",
@@ -2007,7 +1998,7 @@
       "id": "publicationXrefd21",
       "source": "Proc Natl Acad Sci U S A",
       "standardName": "MicroRNA-33 encoded by an intron of sterol regulatory element-binding protein 2 (Srebp2) regulates HDL in vivo.",
-      "textContent": "8",
+      "textContent": "9",
       "type": [
         "PublicationXref",
         "PubMed:20855588",
@@ -2026,7 +2017,7 @@
       "id": "publicationXrefe2a",
       "source": "Nature Medicine",
       "standardName": "Receptor feasts on sugar and cholesterol",
-      "textContent": "3",
+      "textContent": "5",
       "type": [
         "PublicationXref",
         "PubMed:17290267"
@@ -2051,11 +2042,10 @@
       "id": "publicationXrefe38",
       "source": "EMBO J",
       "standardName": "Metabolic control of muscle mitochondrial function and fatty acid oxidation through SIRT1/PGC-1alpha.",
-      "textContent": "4",
+      "textContent": "3",
       "type": [
         "PublicationXref",
-        "PubMed:17347648",
-        "Wikidata:Q28513388"
+        "PubMed:17347648"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "17347648",
@@ -2081,11 +2071,10 @@
       "id": "publicationXrefe5b",
       "source": "EMBO J",
       "standardName": "SIRT1 deacetylase protects against neurodegeneration in models for Alzheimer's disease and amyotrophic lateral sclerosis.",
-      "textContent": "5",
+      "textContent": "2",
       "type": [
         "PublicationXref",
-        "PubMed:17581637",
-        "Wikidata:Q28583941"
+        "PubMed:17581637"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "17581637",
@@ -2107,8 +2096,7 @@
       "textContent": "6",
       "type": [
         "PublicationXref",
-        "PubMed:18046414",
-        "Wikidata:Q29617214"
+        "PubMed:18046414"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "18046414",
@@ -2123,11 +2111,10 @@
       "id": "publicationXreff4e",
       "source": "Proc Natl Acad Sci U S A",
       "standardName": "Fasting-dependent glucose and lipid metabolic response through hepatic sirtuin 1.",
-      "textContent": "2",
+      "textContent": "4",
       "type": [
         "PublicationXref",
-        "PubMed:17646659",
-        "Wikidata:Q35921709"
+        "PubMed:17646659"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "17646659",
@@ -2141,7 +2128,7 @@
         "@base": "WP2011/"
       }
     ],
-    "author": "[Samuel Sklar, Khanspers, MaintBot, Lindarieswijk, Mkutmon, Finterly]",
+    "author": "[Samuel Sklar, Khanspers, MaintBot, Lindarieswijk, Mkutmon, Finterly, Eweitz]",
     "comments": [
       {
         "content": "This pathway describes transcription factor-microRNA circuits governing cholesterol and lipid homeostasis. It is based on a seminar by Dr. Anders Näär.\r\n\r\nProteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP2011 CPTAC Assay Portal]",
@@ -2151,24 +2138,24 @@
     "contains": [
       "id1126806b",
       "idce9ddaea",
-      "idf6fa940a",
-      "id6eebb7a3",
-      "id5673c177",
-      "idc762601c",
-      "id92ea61d7",
       "id5098d934",
-      "ccbbf",
-      "c3566",
-      "fffe5",
-      "b9e19",
-      "cf45c",
-      "e9915",
-      "eb53a",
+      "id92ea61d7",
+      "id5673c177",
+      "id6eebb7a3",
+      "idc762601c",
+      "idf6fa940a",
       "aeedd",
       "b6a16",
+      "b9e19",
+      "c3566",
+      "ccbbf",
+      "cf45c",
       "e49fb",
-      "de09c",
-      "be33f",
+      "e9915",
+      "eb53a",
+      "fffe5",
+      "e11ff",
+      "eaa4f",
       "d8a31",
       "abe4b",
       "e46e1",
@@ -2182,7 +2169,7 @@
       "cfc20",
       "f545f"
     ],
-    "dataSourceVersion": "WP2011_r118441",
+    "dataSourceVersion": "WP2011_r127883",
     "displayName": "SREBF and miR33 in cholesterol and lipid homeostasis",
     "drawAs": "rect",
     "fill": "white",
@@ -2192,7 +2179,7 @@
     "height": 384.4470359261267,
     "id": "WP2011",
     "kaavioType": "Group",
-    "lastModified": "20210527144556",
+    "lastModified": "20240106131023",
     "name": "SREBF and miR33 in cholesterol and lipid homeostasis",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -2201,9 +2188,11 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: SREBF and miR33 in cholesterol and lipid homeostasis\nLast Modified: 20210527144556\nOrganism: Homo sapiens",
+    "textContent": "Name: SREBF and miR33 in cholesterol and lipid homeostasis\nLast Modified: 20240106131023\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
+      "http://identifiers.org/pw/PW:0001304",
+      "http://identifiers.org/pw/PW:0000100",
       "http://identifiers.org/pw/PW:0000355"
     ],
     "verticalAlign": "top",
