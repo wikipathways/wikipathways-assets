@@ -10,7 +10,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a1626",
-      "isPartOf": "b9ae8",
+      "isPartOf": "cae49",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -26,10 +26,11 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:51277",
         "Metabolite",
+        "CompactIdentifier:chebi:51277",
+        "thio esters",
+        "Wikidata:Q422794",
         "ChEBI:51277",
-        "P683:51277",
-        "P683:CHEBI:51277",
-        "Wikidata:Q422794"
+        "ChEBI:51277"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -66,10 +67,11 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:37734",
         "Metabolite",
+        "CompactIdentifier:chebi:37734",
+        "Phosphoric acid esters",
+        "Wikidata:Q411097",
         "ChEBI:37734",
-        "P683:37734",
-        "P683:CHEBI:37734",
-        "Wikidata:Q411097"
+        "ChEBI:37734"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -79,6 +81,68 @@
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "CHEBI:37734",
       "y": 281,
+      "zIndex": 32768
+    },
+    "aa661": {
+      "contains": [
+        "b76",
+        "dfd",
+        "ff0"
+      ],
+      "drawAs": "rect",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 78,
+      "id": "aa661",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupNone"
+      ],
+      "verticalAlign": "middle",
+      "width": 98,
+      "x": 216,
+      "y": 309,
+      "zIndex": 32768
+    },
+    "ab569": {
+      "contains": [
+        "ac5",
+        "b38",
+        "b6f",
+        "dd4",
+        "f26"
+      ],
+      "drawAs": "rect",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 117,
+      "id": "ab569",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupNone"
+      ],
+      "verticalAlign": "middle",
+      "width": 98,
+      "x": 233,
+      "y": 75,
       "zIndex": 32768
     },
     "ac5": {
@@ -91,7 +155,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "ac5",
-      "isPartOf": "d23ac",
+      "isPartOf": "ab569",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -107,13 +171,17 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000159398",
         "GeneProduct",
-        "P594:ENSG00000159398",
+        "CompactIdentifier:ensembl:ENSG00000159398",
+        "CES7",
+        "Ensembl:ENSG00000159398",
         "Entrez Gene:221223",
-        "P351:221223",
         "HGNC:CES5A",
-        "CES5A",
-        "P353:CES5A",
-        "Wikidata:Q18053482"
+        "UniProt:Q6NT32",
+        "UniProt:V9HWK3",
+        "UniProt:F5H0J7",
+        "UniProt:I3NI11",
+        "UniProt:E5RFG9",
+        "UniProt:A0A0J9YW16"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -131,7 +199,7 @@
       "gpmlElementName": "Interaction",
       "id": "ae21f",
       "isAttachedTo": [
-        "ee236",
+        "aa661",
         "af048"
       ],
       "kaavioType": "Edge",
@@ -148,8 +216,7 @@
               0
             ]
           },
-          "id": "f9773",
-          "isAttachedTo": "ee236",
+          "isAttachedTo": "aa661",
           "orientation": [
             0,
             -1
@@ -169,7 +236,6 @@
               0
             ]
           },
-          "id": "d11a2",
           "isAttachedTo": "ca3c4",
           "orientation": [],
           "x": 263.9,
@@ -194,7 +260,7 @@
       "id": "af048",
       "isAttachedTo": [
         "a1e36",
-        "cd78c"
+        "c28bd"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -210,7 +276,6 @@
               0.5
             ]
           },
-          "id": "b1372",
           "isAttachedTo": "a1e36",
           "orientation": [
             1,
@@ -230,8 +295,7 @@
               0.5
             ]
           },
-          "id": "ed63d",
-          "isAttachedTo": "cd78c",
+          "isAttachedTo": "c28bd",
           "orientation": [
             1,
             0
@@ -262,7 +326,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "b198c",
-      "isPartOf": "efe95",
+      "isPartOf": "d55f1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -278,10 +342,11 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:51277",
         "Metabolite",
+        "CompactIdentifier:chebi:51277",
+        "thio esters",
+        "Wikidata:Q422794",
         "ChEBI:51277",
-        "P683:51277",
-        "P683:CHEBI:51277",
-        "Wikidata:Q422794"
+        "ChEBI:51277"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -303,7 +368,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "b38",
-      "isPartOf": "d23ac",
+      "isPartOf": "ab569",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -319,13 +384,16 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000139684",
         "GeneProduct",
-        "P594:ENSG00000139684",
-        "Entrez Gene:2098",
-        "P351:2098",
-        "HGNC:ESD",
+        "CompactIdentifier:ensembl:ENSG00000139684",
         "ESD",
-        "P353:ESD",
-        "Wikidata:Q18023652"
+        "Ensembl:ENSG00000139684",
+        "Entrez Gene:2098",
+        "HGNC:ESD",
+        "UniProt:U3KQT1",
+        "UniProt:X6RA14",
+        "UniProt:A0A140VJJ2",
+        "UniProt:P10768",
+        "UniProt:H7BZT7"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -347,7 +415,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "b6f",
-      "isPartOf": "d23ac",
+      "isPartOf": "ab569",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -363,13 +431,15 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000107798",
         "GeneProduct",
-        "P594:ENSG00000107798",
-        "Entrez Gene:3988",
-        "P351:3988",
-        "HGNC:LIPA",
+        "CompactIdentifier:ensembl:ENSG00000107798",
         "LIPA",
-        "P353:LIPA",
-        "Wikidata:Q18028580"
+        "Ensembl:ENSG00000107798",
+        "Entrez Gene:3988",
+        "HGNC:LIPA",
+        "UniProt:Q5T770",
+        "UniProt:A0A0A0MT32",
+        "UniProt:P38571",
+        "UniProt:Q5T073"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -391,7 +461,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "b758e",
-      "isPartOf": "b9ae8",
+      "isPartOf": "cae49",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -407,10 +477,11 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:33308",
         "Metabolite",
+        "CompactIdentifier:chebi:33308",
+        "carboxylic acid esters",
+        "Wikidata:Q355518",
         "ChEBI:33308",
-        "P683:33308",
-        "P683:CHEBI:33308",
-        "Wikidata:Q355518"
+        "ChEBI:33308"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -432,7 +503,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "b76",
-      "isPartOf": "ee236",
+      "isPartOf": "aa661",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -448,13 +519,16 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000105852",
         "GeneProduct",
-        "P594:ENSG00000105852",
-        "Entrez Gene:5446",
-        "P351:5446",
-        "HGNC:PON3",
+        "CompactIdentifier:ensembl:ENSG00000105852",
         "PON3",
-        "P353:PON3",
-        "Wikidata:Q18030663"
+        "Ensembl:ENSG00000105852",
+        "Entrez Gene:5446",
+        "HGNC:PON3",
+        "UniProt:C9JZ99",
+        "UniProt:F8WD41",
+        "UniProt:F8WBV4",
+        "UniProt:F2Z2L3",
+        "UniProt:Q15166"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -466,37 +540,6 @@
       "y": 49,
       "zIndex": 32768
     },
-    "b9ae8": {
-      "contains": [
-        "f37",
-        "a1626",
-        "b758e",
-        "e744e"
-      ],
-      "drawAs": "rect",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 86,
-      "id": "b9ae8",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupNone"
-      ],
-      "verticalAlign": "middle",
-      "width": 197.4974149646365,
-      "x": 31.5,
-      "y": 166,
-      "zIndex": 16384
-    },
     "bc7f3": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -507,7 +550,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "bc7f3",
-      "isPartOf": "efe95",
+      "isPartOf": "d55f1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -523,10 +566,11 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:32988",
         "Metabolite",
+        "CompactIdentifier:chebi:32988",
+        "amides",
+        "Wikidata:Q188777",
         "ChEBI:32988",
-        "P683:32988",
-        "P683:CHEBI:32988",
-        "Wikidata:Q188777"
+        "ChEBI:32988"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -548,7 +592,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "c109a",
-      "isPartOf": "efe95",
+      "isPartOf": "d55f1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -564,10 +608,11 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:33308",
         "Metabolite",
+        "CompactIdentifier:chebi:33308",
+        "carboxylic acid esters",
+        "Wikidata:Q355518",
         "ChEBI:33308",
-        "P683:33308",
-        "P683:CHEBI:33308",
-        "Wikidata:Q355518"
+        "ChEBI:33308"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -578,6 +623,35 @@
       "xrefIdentifier": "CHEBI:33308",
       "y": 11,
       "zIndex": 32768
+    },
+    "c28bd": {
+      "contains": [
+        "f1b",
+        "db710"
+      ],
+      "drawAs": "rect",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 38,
+      "id": "c28bd",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupNone"
+      ],
+      "verticalAlign": "middle",
+      "width": 199.5,
+      "x": 404.5,
+      "y": 272,
+      "zIndex": 28672
     },
     "c961d": {
       "attachmentDisplay": {
@@ -629,10 +703,12 @@
       "width": 0,
       "zIndex": 12288
     },
-    "cd78c": {
+    "cae49": {
       "contains": [
-        "f1b",
-        "db710"
+        "f37",
+        "a1626",
+        "b758e",
+        "e744e"
       ],
       "drawAs": "rect",
       "fill": "#b4b464",
@@ -640,8 +716,8 @@
       "fontSize": 1,
       "fontWeight": "bold",
       "gpmlElementName": "Group",
-      "height": 38,
-      "id": "cd78c",
+      "height": 86,
+      "id": "cae49",
       "kaavioType": "Group",
       "padding": 8,
       "stroke": "#808080",
@@ -653,10 +729,10 @@
         "GroupNone"
       ],
       "verticalAlign": "middle",
-      "width": 199.5,
-      "x": 404.5,
-      "y": 272,
-      "zIndex": 28672
+      "width": 197.4974149646365,
+      "x": 31.5,
+      "y": 166,
+      "zIndex": 16384
     },
     "d1dd6": {
       "drawAs": "StraightLine",
@@ -664,7 +740,7 @@
       "gpmlElementName": "Interaction",
       "id": "d1dd6",
       "isAttachedTo": [
-        "d23ac",
+        "ab569",
         "db646"
       ],
       "kaavioType": "Edge",
@@ -681,8 +757,7 @@
               1
             ]
           },
-          "id": "d8971",
-          "isAttachedTo": "d23ac",
+          "isAttachedTo": "ab569",
           "orientation": [
             0,
             1
@@ -702,10 +777,9 @@
               0
             ]
           },
-          "id": "dcbcb",
           "isAttachedTo": "c961d",
           "orientation": [],
-          "x": 298.9984489787819,
+          "x": 285.2037075901277,
           "y": 207.59961227318584
         }
       ],
@@ -717,13 +791,14 @@
       ],
       "zIndex": 12288
     },
-    "d23ac": {
+    "d55f1": {
       "contains": [
-        "ac5",
-        "b38",
-        "b6f",
-        "dd4",
-        "f26"
+        "db7",
+        "e3d",
+        "e68",
+        "b198c",
+        "bc7f3",
+        "c109a"
       ],
       "drawAs": "rect",
       "fill": "#b4b464",
@@ -731,8 +806,8 @@
       "fontSize": 1,
       "fontWeight": "bold",
       "gpmlElementName": "Group",
-      "height": 117,
-      "id": "d23ac",
+      "height": 88,
+      "id": "d55f1",
       "kaavioType": "Group",
       "padding": 8,
       "stroke": "#808080",
@@ -744,10 +819,10 @@
         "GroupNone"
       ],
       "verticalAlign": "middle",
-      "width": 98,
-      "x": 233,
-      "y": 75,
-      "zIndex": 32768
+      "width": 199.5,
+      "x": 404.5,
+      "y": 163,
+      "zIndex": 28672
     },
     "db646": {
       "burrs": [
@@ -758,8 +833,8 @@
       "gpmlElementName": "Interaction",
       "id": "db646",
       "isAttachedTo": [
-        "b9ae8",
-        "efe95"
+        "cae49",
+        "d55f1"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -775,13 +850,12 @@
               0.5
             ]
           },
-          "id": "fa464",
-          "isAttachedTo": "b9ae8",
+          "isAttachedTo": "cae49",
           "orientation": [
             1,
             0
           ],
-          "x": 227.9974149646365,
+          "x": 205.00617931687952,
           "y": 207.99935378864308
         },
         {
@@ -795,8 +869,7 @@
               0.5
             ]
           },
-          "id": "abd3d",
-          "isAttachedTo": "efe95",
+          "isAttachedTo": "d55f1",
           "orientation": [
             1,
             0
@@ -827,7 +900,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "db7",
-      "isPartOf": "efe95",
+      "isPartOf": "d55f1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -859,7 +932,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "db710",
-      "isPartOf": "cd78c",
+      "isPartOf": "c28bd",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -875,10 +948,11 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:37734",
         "Metabolite",
+        "CompactIdentifier:chebi:37734",
+        "Phosphoric acid esters",
+        "Wikidata:Q411097",
         "ChEBI:37734",
-        "P683:37734",
-        "P683:CHEBI:37734",
-        "Wikidata:Q411097"
+        "ChEBI:37734"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -900,7 +974,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "dd4",
-      "isPartOf": "d23ac",
+      "isPartOf": "ab569",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -916,13 +990,15 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000172831",
         "GeneProduct",
-        "P594:ENSG00000172831",
-        "Entrez Gene:8824",
-        "P351:8824",
-        "HGNC:CES2",
+        "CompactIdentifier:ensembl:ENSG00000172831",
         "CES2",
-        "P353:CES2",
-        "Wikidata:Q18033458"
+        "Ensembl:ENSG00000172831",
+        "Entrez Gene:8824",
+        "HGNC:CES2",
+        "UniProt:O00748",
+        "UniProt:H3BUN5",
+        "UniProt:J3QSC0",
+        "UniProt:J3QLP1"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -944,7 +1020,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "dfd",
-      "isPartOf": "ee236",
+      "isPartOf": "aa661",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -960,13 +1036,21 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000105854",
         "GeneProduct",
-        "P594:ENSG00000105854",
-        "Entrez Gene:5445",
-        "P351:5445",
-        "HGNC:PON2",
+        "CompactIdentifier:ensembl:ENSG00000105854",
         "PON2",
-        "P353:PON2",
-        "Wikidata:Q18030662"
+        "Ensembl:ENSG00000105854",
+        "Entrez Gene:5445",
+        "HGNC:PON2",
+        "UniProt:A0A0J9YYF0",
+        "UniProt:A0A0J9YXF2",
+        "UniProt:A0A0J9YVW3",
+        "UniProt:A0A0J9YYJ1",
+        "UniProt:A0A2Q2SAK4",
+        "UniProt:A0A0J9YXM1",
+        "UniProt:A0A0J9YXU7",
+        "UniProt:Q15165",
+        "UniProt:A0A0J9YYF3",
+        "UniProt:G3XAK4"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -988,7 +1072,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "e3d",
-      "isPartOf": "efe95",
+      "isPartOf": "d55f1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1020,7 +1104,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "e68",
-      "isPartOf": "efe95",
+      "isPartOf": "d55f1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1052,7 +1136,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "e744e",
-      "isPartOf": "b9ae8",
+      "isPartOf": "cae49",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1068,10 +1152,11 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:32988",
         "Metabolite",
+        "CompactIdentifier:chebi:32988",
+        "amides",
+        "Wikidata:Q188777",
         "ChEBI:32988",
-        "P683:32988",
-        "P683:CHEBI:32988",
-        "Wikidata:Q188777"
+        "ChEBI:32988"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1083,69 +1168,6 @@
       "y": 33,
       "zIndex": 32768
     },
-    "ee236": {
-      "contains": [
-        "b76",
-        "dfd",
-        "ff0"
-      ],
-      "drawAs": "rect",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 78,
-      "id": "ee236",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupNone"
-      ],
-      "verticalAlign": "middle",
-      "width": 98,
-      "x": 216,
-      "y": 309,
-      "zIndex": 32768
-    },
-    "efe95": {
-      "contains": [
-        "db7",
-        "e3d",
-        "e68",
-        "b198c",
-        "bc7f3",
-        "c109a"
-      ],
-      "drawAs": "rect",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 88,
-      "id": "efe95",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupNone"
-      ],
-      "verticalAlign": "middle",
-      "width": 199.5,
-      "x": 404.5,
-      "y": 163,
-      "zIndex": 28672
-    },
     "f1b": {
       "drawAs": "none",
       "fill": "transparent",
@@ -1156,7 +1178,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "f1b",
-      "isPartOf": "cd78c",
+      "isPartOf": "c28bd",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1188,7 +1210,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "f26",
-      "isPartOf": "d23ac",
+      "isPartOf": "ab569",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1204,13 +1226,15 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000198848",
         "GeneProduct",
-        "P594:ENSG00000198848",
-        "Entrez Gene:1066",
-        "P351:1066",
-        "HGNC:CES1",
+        "CompactIdentifier:ensembl:ENSG00000198848",
         "CES1",
-        "P353:CES1",
-        "Wikidata:Q5038079"
+        "Ensembl:ENSG00000198848",
+        "Entrez Gene:1066",
+        "HGNC:CES1",
+        "UniProt:P23141",
+        "UniProt:H3BQR4",
+        "UniProt:H3BQV8",
+        "UniProt:H3BSU0"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1232,7 +1256,7 @@
       "gpmlElementName": "Shape",
       "height": 21.006179533636843,
       "id": "f37",
-      "isPartOf": "b9ae8",
+      "isPartOf": "cae49",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1296,7 +1320,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "ff0",
-      "isPartOf": "ee236",
+      "isPartOf": "aa661",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1312,13 +1336,13 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000005421",
         "GeneProduct",
-        "P594:ENSG00000005421",
-        "Entrez Gene:5444",
-        "P351:5444",
-        "HGNC:PON1",
+        "CompactIdentifier:ensembl:ENSG00000005421",
         "PON1",
-        "P353:PON1",
-        "Wikidata:Q18030661"
+        "Ensembl:ENSG00000005421",
+        "Entrez Gene:5444",
+        "HGNC:PON1",
+        "UniProt:F8WF42",
+        "UniProt:P27169"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1365,7 +1389,7 @@
         "@base": "WP136/"
       }
     ],
-    "author": "[Rollie, Thomas, Evelo, MaintBot, Khanspers, Egonw, Zari, Mkutmon, Marvin M2]",
+    "author": "[Rollie, Thomas, Evelo, MaintBot, Khanspers, Egonw, Zari, Mkutmon, Marvin M2, Eweitz]",
     "comments": [
       {
         "content": "This pathway lists several phase 1 biotransformations and their related enzymes.\r\n\r\n\r\nProteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP136 CPTAC Assay Portal]",
@@ -1377,40 +1401,40 @@
       "ae21f",
       "db646",
       "d1dd6",
-      "b9ae8",
+      "cae49",
       "f6a",
-      "cd78c",
-      "efe95",
+      "c28bd",
+      "d55f1",
       "a1e36",
-      "ee236",
-      "d23ac"
+      "aa661",
+      "ab569"
     ],
-    "dataSourceVersion": "WP136_r118346",
-    "displayName": "Phase I biotransformations, non P450",
+    "dataSourceVersion": "WP136_r128192",
+    "displayName": "Phase I biotransformations, non-P450",
     "drawAs": "rect",
     "fill": "white",
     "fontSize": 12,
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
-    "height": 416,
+    "height": 408,
     "id": "WP136",
     "kaavioType": "Group",
-    "lastModified": "20210527132746",
-    "name": "Phase I biotransformations, non P450",
+    "lastModified": "20240129003451",
+    "name": "Phase I biotransformations, non-P450",
     "organism": "Homo sapiens",
     "padding": 5,
     "pathwayVersion": "WP136",
-    "standardName": "Phase I biotransformations, non P450",
+    "standardName": "Phase I biotransformations, non-P450",
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Phase I biotransformations, non P450\nLast Modified: 20210527132746\nOrganism: Homo sapiens",
+    "textContent": "Name: Phase I biotransformations, non-P450\nLast Modified: 20240129003451\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000376"
     ],
     "verticalAlign": "top",
-    "width": 633,
+    "width": 625,
     "x": 0,
     "y": 0,
     "zIndex": 0
