@@ -10,7 +10,7 @@
       "gpmlElementName": "Shape",
       "height": 41,
       "id": "a04d5",
-      "isPartOf": "ae9be",
+      "isPartOf": "df965",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -46,7 +46,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a11",
-      "isPartOf": "a919a",
+      "isPartOf": "e553c",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -62,11 +62,12 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000211890",
         "GeneProduct",
-        "P594:ENSG00000211890",
-        "HGNC:IGHA2",
+        "CompactIdentifier:ensembl:ENSG00000211890",
         "IGHA2",
-        "P353:IGHA2",
-        "Wikidata:Q18027700"
+        "Ensembl:ENSG00000211890",
+        "HGNC:IGHA2",
+        "UniProt:A0A286YEY5",
+        "UniProt:P01877"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -77,6 +78,35 @@
       "xrefIdentifier": "ENSG00000211890",
       "y": 29.000000000000014,
       "zIndex": 32768
+    },
+    "a1a66": {
+      "contains": [
+        "ba1"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 35,
+      "id": "a1a66",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "textContent": "Group object",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 98.33333333333337,
+      "x": 741.8333333333334,
+      "y": 296.5,
+      "zIndex": 28672
     },
     "a20": {
       "backpageHead": "IGHA1 | immunoglobulin heavy constant alpha 1",
@@ -89,7 +119,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a20",
-      "isPartOf": "a919a",
+      "isPartOf": "e553c",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -105,11 +135,12 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000211895",
         "GeneProduct",
-        "P594:ENSG00000211895",
-        "HGNC:IGHA1",
+        "CompactIdentifier:ensembl:ENSG00000211895",
         "IGHA1",
-        "P353:IGHA1",
-        "Wikidata:Q18027697"
+        "Ensembl:ENSG00000211895",
+        "HGNC:IGHA1",
+        "UniProt:A0A286YEY1",
+        "UniProt:P01876"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -121,49 +152,13 @@
       "y": 9,
       "zIndex": 32768
     },
-    "a2400": {
-      "contains": [
-        "a98",
-        "af8",
-        "b06",
-        "bdd",
-        "cfd",
-        "dbd",
-        "eb1",
-        "f37",
-        "f76"
-      ],
-      "drawAs": "rect",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 198,
-      "id": "a2400",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupNone"
-      ],
-      "verticalAlign": "middle",
-      "width": 78,
-      "x": 511.66666666666663,
-      "y": 90.66666666666667,
-      "zIndex": 32768
-    },
     "a4322": {
       "drawAs": "StraightLine",
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "a4322",
       "isAttachedTo": [
-        "db7b7",
+        "e9c0d",
         "b3333"
       ],
       "kaavioType": "Edge",
@@ -180,8 +175,7 @@
               0.5
             ]
           },
-          "id": "f3024",
-          "isAttachedTo": "db7b7",
+          "isAttachedTo": "e9c0d",
           "orientation": [
             -1,
             0
@@ -201,7 +195,6 @@
               0
             ]
           },
-          "id": "c2891",
           "isAttachedTo": "c9fd4",
           "orientation": [],
           "x": 251.1674147167981,
@@ -216,6 +209,42 @@
       ],
       "zIndex": 12288
     },
+    "a4c8d": {
+      "contains": [
+        "a98",
+        "af8",
+        "b06",
+        "bdd",
+        "cfd",
+        "dbd",
+        "eb1",
+        "f37",
+        "f76"
+      ],
+      "drawAs": "rect",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 198,
+      "id": "a4c8d",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupNone"
+      ],
+      "verticalAlign": "middle",
+      "width": 78,
+      "x": 511.66666666666663,
+      "y": 90.66666666666667,
+      "zIndex": 32768
+    },
     "a4f": {
       "backpageHead": "CD86 | CD86 antigen (CD28 antigen ligand 2 B7-...",
       "drawAs": "rect",
@@ -227,7 +256,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a4f",
-      "isPartOf": "db7b7",
+      "isPartOf": "e9c0d",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -243,13 +272,14 @@
         "SingleFreeNode",
         "Entrez Gene:942",
         "GeneProduct",
-        "Ensembl:ENSG00000114013",
-        "P594:ENSG00000114013",
-        "P351:942",
-        "HGNC:CD86",
+        "CompactIdentifier:ncbigene:942",
         "CD86",
-        "P353:CD86",
-        "Wikidata:Q14907527"
+        "Ensembl:ENSG00000114013",
+        "Entrez Gene:942",
+        "HGNC:CD86",
+        "UniProt:P42081",
+        "UniProt:H7C4F8",
+        "UniProt:C9JXS1"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -272,7 +302,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a62",
-      "isPartOf": "d5e7d",
+      "isPartOf": "ac152",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -288,13 +318,13 @@
         "SingleFreeNode",
         "Entrez Gene:7133",
         "GeneProduct",
-        "Ensembl:ENSG00000028137",
-        "P594:ENSG00000028137",
-        "P351:7133",
-        "HGNC:TNFRSF1B",
+        "CompactIdentifier:ncbigene:7133",
         "TNFRSF1B",
-        "P353:TNFRSF1B",
-        "Wikidata:Q18032045"
+        "Ensembl:ENSG00000028137",
+        "Entrez Gene:7133",
+        "HGNC:TNFRSF1B",
+        "UniProt:B5A977",
+        "UniProt:P20333"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -329,7 +359,6 @@
               0
             ]
           },
-          "id": "e0bb3",
           "isAttachedTo": "c913c",
           "orientation": [
             0,
@@ -349,7 +378,6 @@
               1
             ]
           },
-          "id": "b8d37",
           "isAttachedTo": "c3a",
           "orientation": [
             0,
@@ -371,36 +399,6 @@
       ],
       "zIndex": 12288
     },
-    "a919a": {
-      "contains": [
-        "a11",
-        "a20",
-        "aca"
-      ],
-      "drawAs": "rect",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 78.00000000000001,
-      "id": "a919a",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupNone"
-      ],
-      "verticalAlign": "middle",
-      "width": 71.33333333333334,
-      "x": 81,
-      "y": 94.33333333333333,
-      "zIndex": 32768
-    },
     "a98": {
       "backpageHead": "LAMB2 | laminin beta 2 (laminin S)",
       "drawAs": "rect",
@@ -412,7 +410,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a98",
-      "isPartOf": "a2400",
+      "isPartOf": "a4c8d",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -428,13 +426,13 @@
         "SingleFreeNode",
         "Entrez Gene:3913",
         "GeneProduct",
-        "Ensembl:ENSG00000172037",
-        "P594:ENSG00000172037",
-        "P351:3913",
-        "HGNC:LAMB2",
+        "CompactIdentifier:ncbigene:3913",
         "LAMB2",
-        "P353:LAMB2",
-        "Wikidata:Q18028455"
+        "Ensembl:ENSG00000172037",
+        "Entrez Gene:3913",
+        "HGNC:LAMB2",
+        "UniProt:P55268",
+        "UniProt:F5H520"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -457,7 +455,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a9b",
-      "isPartOf": "fe5a7",
+      "isPartOf": "f7c11",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -473,13 +471,13 @@
         "SingleFreeNode",
         "Entrez Gene:3458",
         "GeneProduct",
-        "Ensembl:ENSG00000111537",
-        "P594:ENSG00000111537",
-        "P351:3458",
-        "HGNC:IFNG",
+        "CompactIdentifier:ncbigene:3458",
         "IFNG",
-        "P353:IFNG",
-        "Wikidata:Q18027639"
+        "Ensembl:ENSG00000111537",
+        "Entrez Gene:3458",
+        "HGNC:IFNG",
+        "UniProt:A0A7R8GUN6",
+        "UniProt:P01579"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -498,7 +496,7 @@
       "id": "abd84",
       "isAttachedTo": [
         "b92",
-        "fe5a7"
+        "f7c11"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -514,7 +512,6 @@
               1
             ]
           },
-          "id": "aec91",
           "isAttachedTo": "b92",
           "orientation": [
             0,
@@ -534,14 +531,13 @@
               0
             ]
           },
-          "id": "a1bf7",
-          "isAttachedTo": "fe5a7",
+          "isAttachedTo": "f7c11",
           "orientation": [
             0,
             1
           ],
           "x": 271,
-          "y": 418.66666666666674
+          "y": 418.6666666666667
         }
       ],
       "stroke": "#000000",
@@ -556,6 +552,35 @@
       ],
       "zIndex": 12288
     },
+    "ac152": {
+      "contains": [
+        "a62",
+        "d42"
+      ],
+      "drawAs": "rect",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 58,
+      "id": "ac152",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupNone"
+      ],
+      "verticalAlign": "middle",
+      "width": 91.33333333333331,
+      "x": 302.66666666666663,
+      "y": 341.3333333333333,
+      "zIndex": 32768
+    },
     "aca": {
       "backpageHead": "IG-Region Protein",
       "drawAs": "rect",
@@ -567,7 +592,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "aca",
-      "isPartOf": "a919a",
+      "isPartOf": "e553c",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -583,7 +608,8 @@
         "SingleFreeNode",
         "Entrez Gene:3507",
         "GeneProduct",
-        "Wikidata:Q18027725"
+        "CompactIdentifier:ncbigene:3507",
+        "IGHM"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -595,46 +621,6 @@
       "y": 49.000000000000014,
       "zIndex": 32768
     },
-    "ae9be": {
-      "contains": [
-        "a04d5",
-        "af6e0",
-        "b11a2",
-        "b396b",
-        "ca39e",
-        "cdf1c",
-        "d2133",
-        "d91af",
-        "dbc5b",
-        "f4c88",
-        "fcb3c",
-        "ff4c3",
-        "ff7f9"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 513,
-      "id": "ae9be",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 58,
-      "x": 430.5,
-      "y": 70.5,
-      "zIndex": 16384
-    },
     "af6e0": {
       "drawAs": "rect",
       "fill": "transparent",
@@ -645,7 +631,7 @@
       "gpmlElementName": "Shape",
       "height": 41,
       "id": "af6e0",
-      "isPartOf": "ae9be",
+      "isPartOf": "df965",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -687,7 +673,7 @@
       "stroke": "#000000",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "B-cell",
+      "textContent": "B cell",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -712,7 +698,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "af8",
-      "isPartOf": "a2400",
+      "isPartOf": "a4c8d",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -728,13 +714,15 @@
         "SingleFreeNode",
         "Entrez Gene:7059",
         "GeneProduct",
-        "Ensembl:ENSG00000169231",
-        "P594:ENSG00000169231",
-        "P351:7059",
-        "HGNC:THBS3",
+        "CompactIdentifier:ncbigene:7059",
         "THBS3",
-        "P353:THBS3",
-        "Wikidata:Q18031980"
+        "Ensembl:ENSG00000169231",
+        "Entrez Gene:7059",
+        "HGNC:THBS3",
+        "UniProt:B4DQH6",
+        "UniProt:Q2HIZ1",
+        "UniProt:F5H4Z8",
+        "UniProt:P49746"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -757,7 +745,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "b06",
-      "isPartOf": "a2400",
+      "isPartOf": "a4c8d",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -773,13 +761,14 @@
         "SingleFreeNode",
         "Entrez Gene:7448",
         "GeneProduct",
-        "Ensembl:ENSG00000109072",
-        "P594:ENSG00000109072",
-        "P351:7448",
-        "HGNC:VTN",
+        "CompactIdentifier:ncbigene:7448",
         "VTN",
-        "P353:VTN",
-        "Wikidata:Q14916393"
+        "Ensembl:ENSG00000109072",
+        "Entrez Gene:7448",
+        "HGNC:VTN",
+        "UniProt:D9ZGG2",
+        "UniProt:P04004",
+        "UniProt:F5GX75"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -813,7 +802,6 @@
               1
             ]
           },
-          "id": "a5c54",
           "isAttachedTo": "c4c",
           "orientation": [
             0,
@@ -833,7 +821,6 @@
               0
             ]
           },
-          "id": "aa8e5",
           "isAttachedTo": "b92",
           "orientation": [
             0,
@@ -861,7 +848,7 @@
       "gpmlElementName": "Shape",
       "height": 41,
       "id": "b11a2",
-      "isPartOf": "ae9be",
+      "isPartOf": "df965",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -911,7 +898,6 @@
               1
             ]
           },
-          "id": "b824d",
           "isAttachedTo": "af7",
           "orientation": [
             0,
@@ -931,7 +917,6 @@
               0
             ]
           },
-          "id": "d63e5",
           "isAttachedTo": "d21",
           "orientation": [
             0,
@@ -960,7 +945,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "b39",
-      "isPartOf": "fe5a7",
+      "isPartOf": "f7c11",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -976,13 +961,13 @@
         "SingleFreeNode",
         "Entrez Gene:3558",
         "GeneProduct",
-        "Ensembl:ENSG00000109471",
-        "P594:ENSG00000109471",
-        "P351:3558",
-        "HGNC:IL2",
+        "CompactIdentifier:ncbigene:3558",
         "IL2",
-        "P353:IL2",
-        "Wikidata:Q14864515"
+        "Ensembl:ENSG00000109471",
+        "Entrez Gene:3558",
+        "HGNC:IL2",
+        "UniProt:Q0GK43",
+        "UniProt:P60568"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1004,7 +989,7 @@
       "gpmlElementName": "Shape",
       "height": 41,
       "id": "b396b",
-      "isPartOf": "ae9be",
+      "isPartOf": "df965",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1055,13 +1040,20 @@
         "SingleFreeNode",
         "Entrez Gene:3566",
         "GeneProduct",
-        "Ensembl:ENSG00000077238",
-        "P594:ENSG00000077238",
-        "P351:3566",
-        "HGNC:IL4R",
+        "CompactIdentifier:ncbigene:3566",
         "IL4R",
-        "P353:IL4R",
-        "Wikidata:Q18027830"
+        "Ensembl:ENSG00000077238",
+        "Entrez Gene:3566",
+        "HGNC:IL4R",
+        "UniProt:H3BSE7",
+        "UniProt:A0A0G2JLA1",
+        "UniProt:H3BRH7",
+        "UniProt:P24394",
+        "UniProt:I3L4W9",
+        "UniProt:I3L4H7",
+        "UniProt:J9JII2",
+        "UniProt:H3BTD9",
+        "UniProt:Q5FC08"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1084,7 +1076,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "b68",
-      "isPartOf": "e8cf0",
+      "isPartOf": "f7f3b",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1100,13 +1092,16 @@
         "SingleFreeNode",
         "Entrez Gene:3560",
         "GeneProduct",
-        "Ensembl:ENSG00000100385",
-        "P594:ENSG00000100385",
-        "P351:3560",
-        "HGNC:IL2RB",
+        "CompactIdentifier:ncbigene:3560",
         "IL2RB",
-        "P353:IL2RB",
-        "Wikidata:Q18027822"
+        "Ensembl:ENSG00000100385",
+        "Entrez Gene:3560",
+        "HGNC:IL2RB",
+        "UniProt:B0QYC2",
+        "UniProt:H7C1H9",
+        "UniProt:B0QYC1",
+        "UniProt:P14784",
+        "UniProt:B0QYC0"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1135,7 +1130,7 @@
       "stroke": "#000000",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "TH-cell",
+      "textContent": "TH cell",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -1159,7 +1154,7 @@
       "gpmlElementName": "Label",
       "height": 19,
       "id": "ba1",
-      "isPartOf": "d1f86",
+      "isPartOf": "a1a66",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1192,7 +1187,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "bb5",
-      "isPartOf": "d1a64",
+      "isPartOf": "d92fd",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1208,13 +1203,21 @@
         "SingleFreeNode",
         "Entrez Gene:3932",
         "GeneProduct",
-        "Ensembl:ENSG00000182866",
-        "P594:ENSG00000182866",
-        "P351:3932",
-        "HGNC:LCK",
+        "CompactIdentifier:ncbigene:3932",
         "LCK",
-        "P353:LCK",
-        "Wikidata:Q14885202"
+        "Ensembl:ENSG00000182866",
+        "Entrez Gene:3932",
+        "HGNC:LCK",
+        "UniProt:F8W6B9",
+        "UniProt:P06239",
+        "UniProt:E9PI33",
+        "UniProt:E9PQ10",
+        "UniProt:A0A0S2Z3T3",
+        "UniProt:A0A0S2Z3Y8",
+        "UniProt:E9PJ92",
+        "UniProt:E9PAP0",
+        "UniProt:A0A0S2Z3Y4",
+        "UniProt:E9PKQ8"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1237,7 +1240,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "bdd",
-      "isPartOf": "a2400",
+      "isPartOf": "a4c8d",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1253,13 +1256,28 @@
         "SingleFreeNode",
         "Entrez Gene:3912",
         "GeneProduct",
-        "Ensembl:ENSG00000091136",
-        "P594:ENSG00000091136",
-        "P351:3912",
-        "HGNC:LAMB1",
+        "CompactIdentifier:ncbigene:3912",
         "LAMB1",
-        "P353:LAMB1",
-        "Wikidata:Q18028452"
+        "Ensembl:ENSG00000091136",
+        "Entrez Gene:3912",
+        "HGNC:LAMB1",
+        "UniProt:E9PCS6",
+        "UniProt:A0A7I2V4J9",
+        "UniProt:C9J296",
+        "UniProt:E7EPA6",
+        "UniProt:P07942",
+        "UniProt:A0A7I2V682",
+        "UniProt:G3XAI2",
+        "UniProt:A0A7I2V2R2",
+        "UniProt:A0A7I2V5X5",
+        "UniProt:A0A7I2V378",
+        "UniProt:A0A7I2V5R0",
+        "UniProt:A0A7I2V2J0",
+        "UniProt:A0A7I2V2T9",
+        "UniProt:A0A7I2V5T9",
+        "UniProt:A0A7I2V407",
+        "UniProt:A0A7I2V3J7",
+        "UniProt:A0A7I2V3I5"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1282,7 +1300,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "bea",
-      "isPartOf": "e8cf0",
+      "isPartOf": "f7f3b",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1298,13 +1316,15 @@
         "SingleFreeNode",
         "Entrez Gene:3561",
         "GeneProduct",
-        "Ensembl:ENSG00000147168",
-        "P594:ENSG00000147168",
-        "P351:3561",
-        "HGNC:IL2RG",
+        "CompactIdentifier:ncbigene:3561",
         "IL2RG",
-        "P353:IL2RG",
-        "Wikidata:Q14885185"
+        "Ensembl:ENSG00000147168",
+        "Entrez Gene:3561",
+        "HGNC:IL2RG",
+        "UniProt:P31785",
+        "UniProt:D6R964",
+        "UniProt:D6RDW9",
+        "UniProt:H0Y8J6"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1314,35 +1334,6 @@
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "3561",
       "y": 49,
-      "zIndex": 32768
-    },
-    "bf54b": {
-      "contains": [
-        "ccd",
-        "d0c"
-      ],
-      "drawAs": "rect",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 58,
-      "id": "bf54b",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupNone"
-      ],
-      "verticalAlign": "middle",
-      "width": 78,
-      "x": 671,
-      "y": 441,
       "zIndex": 32768
     },
     "bfd": {
@@ -1356,7 +1347,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "bfd",
-      "isPartOf": "fe5a7",
+      "isPartOf": "f7c11",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1372,13 +1363,15 @@
         "SingleFreeNode",
         "Entrez Gene:3565",
         "GeneProduct",
-        "Ensembl:ENSG00000113520",
-        "P594:ENSG00000113520",
-        "P351:3565",
-        "HGNC:IL4",
+        "CompactIdentifier:ncbigene:3565",
         "IL4",
-        "P353:IL4",
-        "Wikidata:Q14865947"
+        "Ensembl:ENSG00000113520",
+        "Entrez Gene:3565",
+        "HGNC:IL4",
+        "UniProt:D4HNR6",
+        "UniProt:Q5FC01",
+        "UniProt:U3LVN1",
+        "UniProt:P05112"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1397,7 +1390,7 @@
       "id": "c1df7",
       "isAttachedTo": [
         "b92",
-        "e8cf0"
+        "f7f3b"
       ],
       "kaavioType": "Edge",
       "points": [
@@ -1412,7 +1405,6 @@
               1
             ]
           },
-          "id": "f488f",
           "isAttachedTo": "b92",
           "orientation": [
             0,
@@ -1432,8 +1424,7 @@
               0
             ]
           },
-          "id": "e831a",
-          "isAttachedTo": "e8cf0",
+          "isAttachedTo": "f7f3b",
           "orientation": [
             0,
             1
@@ -1476,13 +1467,13 @@
         "SingleFreeNode",
         "Entrez Gene:1281",
         "GeneProduct",
-        "Ensembl:ENSG00000168542",
-        "P594:ENSG00000168542",
-        "P351:1281",
-        "HGNC:COL3A1",
+        "CompactIdentifier:ncbigene:1281",
         "COL3A1",
-        "P353:COL3A1",
-        "Wikidata:Q14906847"
+        "Ensembl:ENSG00000168542",
+        "Entrez Gene:1281",
+        "HGNC:COL3A1",
+        "UniProt:H7C435",
+        "UniProt:P02461"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1511,7 +1502,7 @@
       "stroke": "#999999",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "Blood or Lymph",
+      "textContent": "Blood or lymph",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -1551,13 +1542,15 @@
         "SingleFreeNode",
         "Entrez Gene:958",
         "GeneProduct",
-        "Ensembl:ENSG00000101017",
-        "P594:ENSG00000101017",
-        "P351:958",
-        "HGNC:CD40",
+        "CompactIdentifier:ncbigene:958",
         "CD40",
-        "P353:CD40",
-        "Wikidata:Q17859635"
+        "Ensembl:ENSG00000101017",
+        "Entrez Gene:958",
+        "HGNC:CD40",
+        "UniProt:A0A087X1D0",
+        "UniProt:P25942",
+        "UniProt:A0A0S2Z3C7",
+        "UniProt:H0YE23"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1586,7 +1579,7 @@
       "stroke": "#000000",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "Fibrotic Response",
+      "textContent": "Fibrotic response",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -1606,8 +1599,8 @@
       "gpmlElementName": "Interaction",
       "id": "c6ea5",
       "isAttachedTo": [
-        "ae9be",
-        "d5e7d"
+        "df965",
+        "ac152"
       ],
       "kaavioType": "Edge",
       "points": [
@@ -1622,8 +1615,7 @@
               0.75
             ]
           },
-          "id": "beb50",
-          "isAttachedTo": "ae9be",
+          "isAttachedTo": "df965",
           "orientation": [
             -1,
             0
@@ -1642,8 +1634,7 @@
               1
             ]
           },
-          "id": "f9cb2",
-          "isAttachedTo": "d5e7d",
+          "isAttachedTo": "ac152",
           "orientation": [
             0,
             -1
@@ -1727,7 +1718,7 @@
       "gpmlElementName": "Shape",
       "height": 41,
       "id": "ca39e",
-      "isPartOf": "ae9be",
+      "isPartOf": "df965",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1763,7 +1754,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "ccd",
-      "isPartOf": "bf54b",
+      "isPartOf": "fc69e",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1779,13 +1770,13 @@
         "SingleFreeNode",
         "Entrez Gene:1277",
         "GeneProduct",
-        "Ensembl:ENSG00000108821",
-        "P594:ENSG00000108821",
-        "P351:1277",
-        "HGNC:COL1A1",
+        "CompactIdentifier:ncbigene:1277",
         "COL1A1",
-        "P353:COL1A1",
-        "Wikidata:Q14881725"
+        "Ensembl:ENSG00000108821",
+        "Entrez Gene:1277",
+        "HGNC:COL1A1",
+        "UniProt:I3L3H7",
+        "UniProt:P02452"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1807,7 +1798,7 @@
       "gpmlElementName": "Shape",
       "height": 41,
       "id": "cdf1c",
-      "isPartOf": "ae9be",
+      "isPartOf": "df965",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1843,7 +1834,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "cfd",
-      "isPartOf": "a2400",
+      "isPartOf": "a4c8d",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1859,13 +1850,12 @@
         "SingleFreeNode",
         "Entrez Gene:3918",
         "GeneProduct",
-        "Ensembl:ENSG00000058085",
-        "P594:ENSG00000058085",
-        "P351:3918",
-        "HGNC:LAMC2",
+        "CompactIdentifier:ncbigene:3918",
         "LAMC2",
-        "P353:LAMC2",
-        "Wikidata:Q18028466"
+        "Ensembl:ENSG00000058085",
+        "Entrez Gene:3918",
+        "HGNC:LAMC2",
+        "UniProt:Q13753"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1888,7 +1878,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "d0c",
-      "isPartOf": "bf54b",
+      "isPartOf": "fc69e",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1904,13 +1894,13 @@
         "SingleFreeNode",
         "Entrez Gene:1278",
         "GeneProduct",
-        "Ensembl:ENSG00000164692",
-        "P594:ENSG00000164692",
-        "P351:1278",
-        "HGNC:COL1A2",
+        "CompactIdentifier:ncbigene:1278",
         "COL1A2",
-        "P353:COL1A2",
-        "Wikidata:Q15317046"
+        "Ensembl:ENSG00000164692",
+        "Entrez Gene:1278",
+        "HGNC:COL1A2",
+        "UniProt:P08123",
+        "UniProt:A0A0S2Z3H5"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1921,64 +1911,6 @@
       "xrefIdentifier": "1278",
       "y": 29,
       "zIndex": 32768
-    },
-    "d1a64": {
-      "contains": [
-        "bb5",
-        "f05"
-      ],
-      "drawAs": "rect",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 56,
-      "id": "d1a64",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupNone"
-      ],
-      "verticalAlign": "middle",
-      "width": 78,
-      "x": 28.33333333333333,
-      "y": 291.6666666666667,
-      "zIndex": 32768
-    },
-    "d1f86": {
-      "contains": [
-        "ba1"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 35,
-      "id": "d1f86",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "textContent": "Group object",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 98.33333333333337,
-      "x": 741.8333333333334,
-      "y": 296.5,
-      "zIndex": 28672
     },
     "d21": {
       "backpageHead": "CD28 | CD28 antigen (Tp44)",
@@ -2006,13 +1938,12 @@
         "SingleFreeNode",
         "Entrez Gene:940",
         "GeneProduct",
-        "Ensembl:ENSG00000178562",
-        "P594:ENSG00000178562",
-        "P351:940",
-        "HGNC:CD28",
+        "CompactIdentifier:ncbigene:940",
         "CD28",
-        "P353:CD28",
-        "Wikidata:Q20970073"
+        "Ensembl:ENSG00000178562",
+        "Entrez Gene:940",
+        "HGNC:CD28",
+        "UniProt:P10747"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2034,7 +1965,7 @@
       "gpmlElementName": "Shape",
       "height": 41,
       "id": "d2133",
-      "isPartOf": "ae9be",
+      "isPartOf": "df965",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2085,13 +2016,13 @@
         "SingleFreeNode",
         "Entrez Gene:959",
         "GeneProduct",
-        "Ensembl:ENSG00000102245",
-        "P594:ENSG00000102245",
-        "P351:959",
-        "HGNC:CD40LG",
+        "CompactIdentifier:ncbigene:959",
         "CD40LG",
-        "P353:CD40LG",
-        "Wikidata:Q14897851"
+        "Ensembl:ENSG00000102245",
+        "Entrez Gene:959",
+        "HGNC:CD40LG",
+        "UniProt:P29965",
+        "UniProt:Q3L8U2"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2110,7 +2041,7 @@
       "id": "d40e1",
       "isAttachedTo": [
         "b92",
-        "d1a64"
+        "d92fd"
       ],
       "kaavioType": "Edge",
       "points": [
@@ -2125,7 +2056,6 @@
               0.5
             ]
           },
-          "id": "f7b9d",
           "isAttachedTo": "b92",
           "orientation": [
             -1,
@@ -2145,8 +2075,7 @@
               1
             ]
           },
-          "id": "d1922",
-          "isAttachedTo": "d1a64",
+          "isAttachedTo": "d92fd",
           "orientation": [
             0,
             -1
@@ -2174,7 +2103,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "d42",
-      "isPartOf": "d5e7d",
+      "isPartOf": "ac152",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2190,13 +2119,19 @@
         "SingleFreeNode",
         "Entrez Gene:7132",
         "GeneProduct",
-        "Ensembl:ENSG00000067182",
-        "P594:ENSG00000067182",
-        "P351:7132",
-        "HGNC:TNFRSF1A",
+        "CompactIdentifier:ncbigene:7132",
         "TNFRSF1A",
-        "P353:TNFRSF1A",
-        "Wikidata:Q18032044"
+        "Ensembl:ENSG00000067182",
+        "Entrez Gene:7132",
+        "HGNC:TNFRSF1A",
+        "UniProt:F5H8A6",
+        "UniProt:F5H7N1",
+        "UniProt:F5H061",
+        "UniProt:P19438",
+        "UniProt:F5H6Z2",
+        "UniProt:F5H4T5",
+        "UniProt:F5GWJ4",
+        "UniProt:F5H6V7"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2206,35 +2141,6 @@
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "7132",
       "y": 9,
-      "zIndex": 32768
-    },
-    "d5e7d": {
-      "contains": [
-        "a62",
-        "d42"
-      ],
-      "drawAs": "rect",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 58,
-      "id": "d5e7d",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupNone"
-      ],
-      "verticalAlign": "middle",
-      "width": 91.33333333333331,
-      "x": 302.66666666666663,
-      "y": 341.3333333333333,
       "zIndex": 32768
     },
     "d6398": {
@@ -2259,7 +2165,6 @@
               1
             ]
           },
-          "id": "eaf74",
           "isAttachedTo": "d35",
           "orientation": [
             0,
@@ -2279,7 +2184,6 @@
               0
             ]
           },
-          "id": "ffc1a",
           "isAttachedTo": "c4c",
           "orientation": [
             0,
@@ -2304,7 +2208,7 @@
       "id": "d7ff1",
       "isAttachedTo": [
         "c913c",
-        "a2400"
+        "a4c8d"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -2320,7 +2224,6 @@
               0.25
             ]
           },
-          "id": "f7edd",
           "isAttachedTo": "c913c",
           "orientation": [
             -1,
@@ -2340,8 +2243,7 @@
               1
             ]
           },
-          "id": "bffa6",
-          "isAttachedTo": "a2400",
+          "isAttachedTo": "a4c8d",
           "orientation": [
             0,
             -1
@@ -2372,7 +2274,7 @@
       "gpmlElementName": "Shape",
       "height": 41,
       "id": "d91af",
-      "isPartOf": "ae9be",
+      "isPartOf": "df965",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2397,10 +2299,10 @@
       "y": 464,
       "zIndex": 16384
     },
-    "db7b7": {
+    "d92fd": {
       "contains": [
-        "a4f",
-        "e0a"
+        "bb5",
+        "f05"
       ],
       "drawAs": "rect",
       "fill": "#b4b464",
@@ -2408,8 +2310,8 @@
       "fontSize": 1,
       "fontWeight": "bold",
       "gpmlElementName": "Group",
-      "height": 58,
-      "id": "db7b7",
+      "height": 56,
+      "id": "d92fd",
       "kaavioType": "Group",
       "padding": 8,
       "stroke": "#808080",
@@ -2422,8 +2324,8 @@
       ],
       "verticalAlign": "middle",
       "width": 78,
-      "x": 280.33333333333337,
-      "y": 225,
+      "x": 28.33333333333333,
+      "y": 291.6666666666667,
       "zIndex": 32768
     },
     "dbc5b": {
@@ -2436,7 +2338,7 @@
       "gpmlElementName": "Shape",
       "height": 41,
       "id": "dbc5b",
-      "isPartOf": "ae9be",
+      "isPartOf": "df965",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2472,7 +2374,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "dbd",
-      "isPartOf": "a2400",
+      "isPartOf": "a4c8d",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2488,13 +2390,14 @@
         "SingleFreeNode",
         "Entrez Gene:2335",
         "GeneProduct",
-        "Ensembl:ENSG00000115414",
-        "P594:ENSG00000115414",
-        "P351:2335",
-        "HGNC:FN1",
+        "CompactIdentifier:ncbigene:2335",
         "FN1",
-        "P353:FN1",
-        "Wikidata:Q14819473"
+        "Ensembl:ENSG00000115414",
+        "Entrez Gene:2335",
+        "HGNC:FN1",
+        "UniProt:H0Y7Z1",
+        "UniProt:H0Y4K8",
+        "UniProt:P02751"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2513,7 +2416,7 @@
       "id": "dc78c",
       "isAttachedTo": [
         "c913c",
-        "bf54b"
+        "fc69e"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -2529,7 +2432,6 @@
               1
             ]
           },
-          "id": "fb9a9",
           "isAttachedTo": "c913c",
           "orientation": [
             0,
@@ -2549,8 +2451,7 @@
               0
             ]
           },
-          "id": "cc5c4",
-          "isAttachedTo": "bf54b",
+          "isAttachedTo": "fc69e",
           "orientation": [
             0,
             1
@@ -2571,6 +2472,46 @@
       ],
       "zIndex": 12288
     },
+    "df965": {
+      "contains": [
+        "a04d5",
+        "af6e0",
+        "b11a2",
+        "b396b",
+        "ca39e",
+        "cdf1c",
+        "d2133",
+        "d91af",
+        "dbc5b",
+        "f4c88",
+        "fcb3c",
+        "ff4c3",
+        "ff7f9"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 513,
+      "id": "df965",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 58,
+      "x": 430.5,
+      "y": 70.5,
+      "zIndex": 16384
+    },
     "e00b0": {
       "drawAs": "StraightLine",
       "fill": "none",
@@ -2578,7 +2519,7 @@
       "id": "e00b0",
       "isAttachedTo": [
         "af7",
-        "a919a"
+        "e553c"
       ],
       "kaavioType": "Edge",
       "points": [
@@ -2593,7 +2534,6 @@
               0.5
             ]
           },
-          "id": "a1567",
           "isAttachedTo": "af7",
           "orientation": [
             -1,
@@ -2613,14 +2553,13 @@
               1
             ]
           },
-          "id": "d9604",
-          "isAttachedTo": "a919a",
+          "isAttachedTo": "e553c",
           "orientation": [
             0,
             -1
           ],
           "x": 134,
-          "y": 171.33333333333337
+          "y": 171.33333333333334
         }
       ],
       "stroke": "#000000",
@@ -2642,7 +2581,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "e0a",
-      "isPartOf": "db7b7",
+      "isPartOf": "e9c0d",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2658,13 +2597,13 @@
         "SingleFreeNode",
         "Entrez Gene:941",
         "GeneProduct",
-        "Ensembl:ENSG00000121594",
-        "P594:ENSG00000121594",
-        "P351:941",
-        "HGNC:CD80",
+        "CompactIdentifier:ncbigene:941",
         "CD80",
-        "P353:CD80",
-        "Wikidata:Q14907505"
+        "Ensembl:ENSG00000121594",
+        "Entrez Gene:941",
+        "HGNC:CD80",
+        "UniProt:P33681",
+        "UniProt:A0N0P2"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2707,6 +2646,36 @@
       "y": 243.83333333333334,
       "zIndex": 28672
     },
+    "e553c": {
+      "contains": [
+        "a11",
+        "a20",
+        "aca"
+      ],
+      "drawAs": "rect",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 78.00000000000001,
+      "id": "e553c",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupNone"
+      ],
+      "verticalAlign": "middle",
+      "width": 71.33333333333334,
+      "x": 81,
+      "y": 94.33333333333333,
+      "zIndex": 32768
+    },
     "e773e": {
       "drawAs": "StraightLine",
       "fill": "none",
@@ -2729,7 +2698,6 @@
               0
             ]
           },
-          "id": "a3d16",
           "isAttachedTo": "af7",
           "orientation": [
             0,
@@ -2749,7 +2717,6 @@
               1
             ]
           },
-          "id": "bd433",
           "isAttachedTo": "fe4",
           "orientation": [
             0,
@@ -2767,11 +2734,10 @@
       ],
       "zIndex": 12288
     },
-    "e8cf0": {
+    "e9c0d": {
       "contains": [
-        "b68",
-        "bea",
-        "e9e"
+        "a4f",
+        "e0a"
       ],
       "drawAs": "rect",
       "fill": "#b4b464",
@@ -2779,8 +2745,8 @@
       "fontSize": 1,
       "fontWeight": "bold",
       "gpmlElementName": "Group",
-      "height": 78,
-      "id": "e8cf0",
+      "height": 58,
+      "id": "e9c0d",
       "kaavioType": "Group",
       "padding": 8,
       "stroke": "#808080",
@@ -2793,8 +2759,8 @@
       ],
       "verticalAlign": "middle",
       "width": 78,
-      "x": 68,
-      "y": 426,
+      "x": 280.33333333333337,
+      "y": 225,
       "zIndex": 32768
     },
     "e9e": {
@@ -2808,7 +2774,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "e9e",
-      "isPartOf": "e8cf0",
+      "isPartOf": "f7f3b",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2824,13 +2790,15 @@
         "SingleFreeNode",
         "Entrez Gene:3559",
         "GeneProduct",
-        "Ensembl:ENSG00000134460",
-        "P594:ENSG00000134460",
-        "P351:3559",
-        "HGNC:IL2RA",
+        "CompactIdentifier:ncbigene:3559",
         "IL2RA",
-        "P353:IL2RA",
-        "Wikidata:Q18027819"
+        "Ensembl:ENSG00000134460",
+        "Entrez Gene:3559",
+        "HGNC:IL2RA",
+        "UniProt:H0Y5Z0",
+        "UniProt:P01589",
+        "UniProt:Q5W006",
+        "UniProt:Q5W005"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2853,7 +2821,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "eb1",
-      "isPartOf": "a2400",
+      "isPartOf": "a4c8d",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2869,13 +2837,13 @@
         "SingleFreeNode",
         "Entrez Gene:3915",
         "GeneProduct",
-        "Ensembl:ENSG00000135862",
-        "P594:ENSG00000135862",
-        "P351:3915",
-        "HGNC:LAMC1",
+        "CompactIdentifier:ncbigene:3915",
         "LAMC1",
-        "P353:LAMC1",
-        "Wikidata:Q18028460"
+        "Ensembl:ENSG00000135862",
+        "Entrez Gene:3915",
+        "HGNC:LAMC1",
+        "UniProt:P11047",
+        "UniProt:R4GNC7"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2898,7 +2866,7 @@
       "gpmlElementName": "DataNode",
       "height": 18,
       "id": "f05",
-      "isPartOf": "d1a64",
+      "isPartOf": "d92fd",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2914,13 +2882,12 @@
         "SingleFreeNode",
         "Entrez Gene:7535",
         "GeneProduct",
-        "Ensembl:ENSG00000115085",
-        "P594:ENSG00000115085",
-        "P351:7535",
-        "HGNC:ZAP70",
+        "CompactIdentifier:ncbigene:7535",
         "ZAP70",
-        "P353:ZAP70",
-        "Wikidata:Q14907110"
+        "Ensembl:ENSG00000115085",
+        "Entrez Gene:7535",
+        "HGNC:ZAP70",
+        "UniProt:P43403"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2954,7 +2921,6 @@
               1
             ]
           },
-          "id": "e47b2",
           "isAttachedTo": "d21",
           "orientation": [
             0,
@@ -2974,7 +2940,6 @@
               0.5
             ]
           },
-          "id": "f6e33",
           "isAttachedTo": "b92",
           "orientation": [
             -1,
@@ -3003,7 +2968,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "f37",
-      "isPartOf": "a2400",
+      "isPartOf": "a4c8d",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -3019,13 +2984,14 @@
         "SingleFreeNode",
         "Entrez Gene:3911",
         "GeneProduct",
-        "Ensembl:ENSG00000130702",
-        "P594:ENSG00000130702",
-        "P351:3911",
-        "HGNC:LAMA5",
+        "CompactIdentifier:ncbigene:3911",
         "LAMA5",
-        "P353:LAMA5",
-        "Wikidata:Q18028450"
+        "Ensembl:ENSG00000130702",
+        "Entrez Gene:3911",
+        "HGNC:LAMA5",
+        "UniProt:O15230",
+        "UniProt:H7C5J6",
+        "UniProt:A0A087WYH7"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3047,7 +3013,7 @@
       "gpmlElementName": "Shape",
       "height": 41,
       "id": "f4c88",
-      "isPartOf": "ae9be",
+      "isPartOf": "df965",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -3083,7 +3049,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "f76",
-      "isPartOf": "a2400",
+      "isPartOf": "a4c8d",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -3099,13 +3065,13 @@
         "SingleFreeNode",
         "Entrez Gene:7057",
         "GeneProduct",
-        "Ensembl:ENSG00000137801",
-        "P594:ENSG00000137801",
-        "P351:7057",
-        "HGNC:THBS1",
+        "CompactIdentifier:ncbigene:7057",
         "THBS1",
-        "P353:THBS1",
-        "Wikidata:Q14906367"
+        "Ensembl:ENSG00000137801",
+        "Entrez Gene:7057",
+        "HGNC:THBS1",
+        "UniProt:A8MZG1",
+        "UniProt:P07996"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3115,6 +3081,67 @@
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "7057",
       "y": 149,
+      "zIndex": 32768
+    },
+    "f7c11": {
+      "contains": [
+        "a9b",
+        "b39",
+        "bfd",
+        "fa1"
+      ],
+      "drawAs": "rect",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 98,
+      "id": "f7c11",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupNone"
+      ],
+      "verticalAlign": "middle",
+      "width": 78,
+      "x": 251,
+      "y": 417.6666666666667,
+      "zIndex": 32768
+    },
+    "f7f3b": {
+      "contains": [
+        "b68",
+        "bea",
+        "e9e"
+      ],
+      "drawAs": "rect",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 78,
+      "id": "f7f3b",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupNone"
+      ],
+      "verticalAlign": "middle",
+      "width": 78,
+      "x": 68,
+      "y": 426,
       "zIndex": 32768
     },
     "f86": {
@@ -3159,7 +3186,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "fa1",
-      "isPartOf": "fe5a7",
+      "isPartOf": "f7c11",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -3175,13 +3202,13 @@
         "SingleFreeNode",
         "Entrez Gene:3567",
         "GeneProduct",
-        "Ensembl:ENSG00000113525",
-        "P594:ENSG00000113525",
-        "P351:3567",
-        "HGNC:IL5",
+        "CompactIdentifier:ncbigene:3567",
         "IL5",
-        "P353:IL5",
-        "Wikidata:Q14877650"
+        "Ensembl:ENSG00000113525",
+        "Entrez Gene:3567",
+        "HGNC:IL5",
+        "UniProt:C9JQP9",
+        "UniProt:P05113"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3191,6 +3218,35 @@
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "3567",
       "y": 49,
+      "zIndex": 32768
+    },
+    "fc69e": {
+      "contains": [
+        "ccd",
+        "d0c"
+      ],
+      "drawAs": "rect",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 58,
+      "id": "fc69e",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupNone"
+      ],
+      "verticalAlign": "middle",
+      "width": 78,
+      "x": 671,
+      "y": 441,
       "zIndex": 32768
     },
     "fc8a2": {
@@ -3215,7 +3271,6 @@
               0
             ]
           },
-          "id": "ab641",
           "isAttachedTo": "af7",
           "orientation": [
             0,
@@ -3235,7 +3290,6 @@
               1
             ]
           },
-          "id": "b02de",
           "isAttachedTo": "b5f",
           "orientation": [
             0,
@@ -3263,7 +3317,7 @@
       "gpmlElementName": "Shape",
       "height": 41,
       "id": "fcb3c",
-      "isPartOf": "ae9be",
+      "isPartOf": "df965",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -3305,7 +3359,7 @@
       "stroke": "#000000",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "Early Response",
+      "textContent": "Early response",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -3345,13 +3399,16 @@
         "SingleFreeNode",
         "Entrez Gene:3568",
         "GeneProduct",
-        "Ensembl:ENSG00000091181",
-        "P594:ENSG00000091181",
-        "P351:3568",
-        "HGNC:IL5RA",
+        "CompactIdentifier:ncbigene:3568",
         "IL5RA",
-        "P353:IL5RA",
-        "Wikidata:Q18027833"
+        "Ensembl:ENSG00000091181",
+        "Entrez Gene:3568",
+        "HGNC:IL5RA",
+        "UniProt:E7ERY4",
+        "UniProt:C9J3K8",
+        "UniProt:Q01344",
+        "UniProt:A0A024R2E8",
+        "UniProt:C9J6C4"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3361,37 +3418,6 @@
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "3568",
       "y": 112,
-      "zIndex": 32768
-    },
-    "fe5a7": {
-      "contains": [
-        "a9b",
-        "b39",
-        "bfd",
-        "fa1"
-      ],
-      "drawAs": "rect",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 98,
-      "id": "fe5a7",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupNone"
-      ],
-      "verticalAlign": "middle",
-      "width": 78,
-      "x": 251,
-      "y": 417.6666666666667,
       "zIndex": 32768
     },
     "ff4c3": {
@@ -3404,7 +3430,7 @@
       "gpmlElementName": "Shape",
       "height": 41,
       "id": "ff4c3",
-      "isPartOf": "ae9be",
+      "isPartOf": "df965",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -3439,7 +3465,7 @@
       "gpmlElementName": "Shape",
       "height": 41,
       "id": "ff7f9",
-      "isPartOf": "ae9be",
+      "isPartOf": "df965",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -3486,7 +3512,6 @@
               0.5
             ]
           },
-          "id": "db67b",
           "isAttachedTo": "af7",
           "orientation": [
             -1,
@@ -3506,7 +3531,6 @@
               0
             ]
           },
-          "id": "ce873",
           "isAttachedTo": "d35",
           "orientation": [
             0,
@@ -3523,6 +3547,36 @@
         "Edge"
       ],
       "zIndex": 12288
+    },
+    "http://identifiers.org/cl/CL:0000057": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/cl/CL:0000057",
+      "ontology": "Cell Type",
+      "term": "fibroblast",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "CL:0000057"
+    },
+    "http://identifiers.org/cl/CL:0000236": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/cl/CL:0000236",
+      "ontology": "Cell Type",
+      "term": "B cell",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "CL:0000236"
+    },
+    "http://identifiers.org/pw/PW:0000024": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000024",
+      "ontology": "Pathway Ontology",
+      "term": "inflammatory response pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000024"
     },
     "publicationXrefa7b": {
       "authors": [
@@ -3545,8 +3599,7 @@
       "textContent": "2",
       "type": [
         "PublicationXref",
-        "PubMed:19028820",
-        "Wikidata:Q54506254"
+        "PubMed:19028820"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "19028820",
@@ -3615,7 +3668,7 @@
       "c1df7",
       "dc78c",
       "c913c",
-      "ae9be",
+      "df965",
       "af7",
       "b92",
       "c46",
@@ -3623,23 +3676,23 @@
       "e4f",
       "f86",
       "fd7",
-      "d1f86",
+      "a1a66",
       "b5f",
       "c3a",
       "c4c",
       "d21",
       "d35",
       "fe4",
-      "a2400",
-      "d5e7d",
-      "d1a64",
-      "a919a",
-      "db7b7",
-      "fe5a7",
-      "e8cf0",
-      "bf54b"
+      "a4c8d",
+      "ac152",
+      "d92fd",
+      "e553c",
+      "e9c0d",
+      "f7c11",
+      "f7f3b",
+      "fc69e"
     ],
-    "dataSourceVersion": "WP453_r116780",
+    "dataSourceVersion": "WP453_r128272",
     "displayName": "Inflammatory response pathway",
     "drawAs": "rect",
     "fill": "white",
@@ -3649,7 +3702,7 @@
     "height": 629.5666666666667,
     "id": "WP453",
     "kaavioType": "Group",
-    "lastModified": "20210514095116",
+    "lastModified": "20240130003037",
     "name": "Inflammatory response pathway",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -3658,12 +3711,13 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Inflammatory response pathway\nLast Modified: 20210514095116\nOrganism: Homo sapiens",
+    "textContent": "Name: Inflammatory response pathway\nLast Modified: 20240130003037\nOrganism: Homo sapiens",
     "type": [
-      "Pathway"
+      "Pathway",
+      "http://identifiers.org/pw/PW:0000024"
     ],
     "verticalAlign": "top",
-    "width": 870.1666666666666,
+    "width": 862.1666666666667,
     "x": 0,
     "y": 0,
     "zIndex": 0

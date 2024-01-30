@@ -1,49 +1,5 @@
 {
   "entitiesById": {
-    "885979": {
-      "__HighlandStream__": true,
-      "_can_drain": false,
-      "_consume_waiting_for_next": false,
-      "_consumers": [],
-      "_delegate": null,
-      "_destructors": [],
-      "_events": {},
-      "_eventsCount": 2,
-      "_in_consume_cb": false,
-      "_incoming": [],
-      "_is_observer": false,
-      "_nil_pushed": false,
-      "_observers": [],
-      "_outgoing": [],
-      "_repeat_resume": false,
-      "_send_events": false,
-      "id": "885979",
-      "paused": true,
-      "source": null,
-      "writable": true
-    },
-    "971697": {
-      "__HighlandStream__": true,
-      "_can_drain": false,
-      "_consume_waiting_for_next": false,
-      "_consumers": [],
-      "_delegate": null,
-      "_destructors": [],
-      "_events": {},
-      "_eventsCount": 2,
-      "_in_consume_cb": false,
-      "_incoming": [],
-      "_is_observer": false,
-      "_nil_pushed": false,
-      "_observers": [],
-      "_outgoing": [],
-      "_repeat_resume": false,
-      "_send_events": false,
-      "id": "971697",
-      "paused": true,
-      "source": null,
-      "writable": true
-    },
     "a0cd2": {
       "attachmentDisplay": {
         "offset": [
@@ -99,14 +55,12 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:15354",
         "Metabolite",
+        "CompactIdentifier:chebi:15354",
+        "Choline",
+        "Wikidata:Q193166",
         "ChEBI:15354",
-        "P683:CHEBI:15354",
-        "P683:15354",
-        "HMDB:HMDB0000097",
-        "HMDB:HMDB00097",
-        "P2057:HMDB0000097",
-        "P2057:HMDB00097",
-        "Wikidata:Q193166"
+        "ChEBI:15354",
+        "InChI:OEYIOHPDSNJKLS-UHFFFAOYSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -117,6 +71,36 @@
       "xrefIdentifier": "CHEBI:15354",
       "y": 948.8639033888785,
       "zIndex": 32768
+    },
+    "a3388": {
+      "contains": [
+        "f5282",
+        "c6ffb",
+        "c0226"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 91,
+      "id": "a3388",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 106,
+      "x": 1566.5279580921392,
+      "y": 1159.2246217932186,
+      "zIndex": 32775
     },
     "a3d55": {
       "attachmentDisplay": {
@@ -169,8 +153,7 @@
         "DataNode",
         "SingleFreeNode",
         "WikiPathways:WP4304",
-        "Pathway",
-        "Wikidata:Q54989307"
+        "Pathway"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -212,12 +195,12 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:17230",
         "Metabolite",
+        "CompactIdentifier:chebi:17230",
+        "Homocysteine",
+        "Wikidata:Q192466",
         "ChEBI:17230",
-        "P683:CHEBI:17230",
-        "P683:17230",
-        "HMDB:HMDB00742",
-        "P2057:HMDB00742",
-        "Wikidata:Q192466"
+        "ChEBI:17230",
+        "InChI:FFFHZYDWPBMWHY-UHFFFAOYSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -259,12 +242,12 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:67040",
         "Metabolite",
+        "CompactIdentifier:chebi:67040",
+        "SAM",
+        "Wikidata:Q27135598",
         "ChEBI:67040",
-        "P683:CHEBI:67040",
-        "P683:67040",
-        "HMDB:HMDB01185",
-        "P2057:HMDB01185",
-        "Wikidata:Q27135598"
+        "ChEBI:67040",
+        "InChI:MEFKEPWMEQBLKI-AIRLBKTGSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -306,12 +289,12 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:17230",
         "Metabolite",
+        "CompactIdentifier:chebi:17230",
+        "Homocysteine",
+        "Wikidata:Q192466",
         "ChEBI:17230",
-        "P683:CHEBI:17230",
-        "P683:17230",
-        "HMDB:HMDB00742",
-        "P2057:HMDB00742",
-        "Wikidata:Q192466"
+        "ChEBI:17230",
+        "InChI:FFFHZYDWPBMWHY-UHFFFAOYSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -338,7 +321,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "a6222",
-      "isPartOf": "a9d3e",
+      "isPartOf": "dc616",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -354,13 +337,34 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000181090",
         "GeneProduct",
-        "P594:ENSG00000181090",
-        "Entrez Gene:79813",
-        "P351:79813",
-        "HGNC:EHMT1",
+        "CompactIdentifier:ensembl:ENSG00000181090",
         "EHMT1",
-        "P353:EHMT1",
-        "Wikidata:Q18046371"
+        "Ensembl:ENSG00000181090",
+        "Entrez Gene:79813",
+        "HGNC:EHMT1",
+        "UniProt:A0A0D9SEP2",
+        "UniProt:A0A0D9SFS4",
+        "UniProt:A0A1B0GU48",
+        "UniProt:A0A1B0GW79",
+        "UniProt:A0A0D9SEQ1",
+        "UniProt:A0A1B0GTP4",
+        "UniProt:A0A1B0GW12",
+        "UniProt:A0A0D9SER3",
+        "UniProt:A0A1B0GV89",
+        "UniProt:A0A1W2PPZ7",
+        "UniProt:A0A1B0GVZ8",
+        "UniProt:A0A0C4DGF8",
+        "UniProt:A0A0D9SFX4",
+        "UniProt:Q9H9B1",
+        "UniProt:A0A1B0GUD1",
+        "UniProt:A0A0D9SEY2",
+        "UniProt:A0A1B0GV09",
+        "UniProt:A0A0D9SFD7",
+        "UniProt:A0A0D9SFG7",
+        "UniProt:A0A1B0GWF6",
+        "UniProt:A0A0D9SFM6",
+        "UniProt:A0A0D9SF38",
+        "UniProt:A0A0D9SER9"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -382,7 +386,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "a6d53",
-      "isPartOf": "a9d3e",
+      "isPartOf": "dc616",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -398,7 +402,8 @@
         "SingleFreeNode",
         "Enzyme Nomenclature:2.1.1.79",
         "Protein",
-        "Wikidata:Q3676525\nQ22323471"
+        "CompactIdentifier:eccode:2.1.1.79",
+        "EC 2.1.1.79"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -440,10 +445,9 @@
         "SingleFreeNode",
         "HMDB:HMDB0002287",
         "Metabolite",
-        "HMDB:HMDB02287",
-        "P2057:HMDB02287",
-        "P2057:HMDB0002287",
-        "Wikidata:Q27127188"
+        "CompactIdentifier:hmdb:HMDB0002287",
+        "Homocysteine thiolactone",
+        "InChI:KIWQWJKWBHZMDT-UHFFFAOYSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -515,13 +519,20 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000177000",
         "GeneProduct",
-        "P594:ENSG00000177000",
-        "Entrez Gene:4524",
-        "P351:4524",
-        "HGNC:MTHFR",
+        "CompactIdentifier:ensembl:ENSG00000177000",
         "MTHFR",
-        "P353:MTHFR",
-        "Wikidata:Q14864922"
+        "Ensembl:ENSG00000177000",
+        "Entrez Gene:4524",
+        "HGNC:MTHFR",
+        "UniProt:A0A286YF17",
+        "UniProt:Q5SNW5",
+        "UniProt:P42898",
+        "UniProt:Q5SNW7",
+        "UniProt:F8W9T8",
+        "UniProt:A0A286YFD0",
+        "UniProt:A0A286YF47",
+        "UniProt:A0A1B0GXD9",
+        "UniProt:L7P8G6"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -563,13 +574,14 @@
         "SingleFreeNode",
         "Uniprot-TrEMBL:G4XXL9",
         "Protein",
+        "CompactIdentifier:uniprot:G4XXL9",
+        "Cytochrome c",
         "Ensembl:ENSG00000172115",
-        "P594:ENSG00000172115",
         "Entrez Gene:54205",
-        "P351:54205",
         "HGNC:CYCS",
-        "CYCS",
-        "P353:CYCS"
+        "UniProt:G4XXL9",
+        "UniProt:C9JFR7",
+        "UniProt:P99999"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -588,13 +600,13 @@
         }
       ],
       "drawAs": "rect",
-      "fill": "#00ff33",
+      "fill": "#55ffaa",
       "fontFamily": "Arial",
       "fontSize": 18,
       "fontStyle": "normal",
       "fontWeight": "bold",
       "gpmlElementName": "Label",
-      "height": 22.4056603773588,
+      "height": 30,
       "id": "a9830",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
@@ -612,54 +624,14 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 316.1071396647285,
-      "x": 238.41722228422748,
-      "y": 1095.6185805154034,
+      "width": 250,
+      "x": 271.4707921165917,
+      "y": 1091.8214107040828,
       "zIndex": 28672
-    },
-    "a9d3e": {
-      "citations": [
-        "publicationXreffc0"
-      ],
-      "contains": [
-        "a6222",
-        "bc135",
-        "da4cb",
-        "e0744",
-        "f340f",
-        "f8439",
-        "fa6ef",
-        "d77d7",
-        "a6d53",
-        "cc23c"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 116,
-      "id": "a9d3e",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 400.69697904646773,
-      "x": 1528.8686806356882,
-      "y": 582.5,
-      "zIndex": 32768
     },
     "aae73": {
       "drawAs": "rect",
-      "fill": "#ff0000",
+      "fill": "#ff8888",
       "fontFamily": "Arial",
       "fontSize": 18,
       "fontStyle": "normal",
@@ -697,13 +669,13 @@
         }
       ],
       "drawAs": "rect",
-      "fill": "#00ff33",
+      "fill": "#55ffaa",
       "fontFamily": "Arial",
       "fontSize": 18,
       "fontStyle": "normal",
       "fontWeight": "bold",
       "gpmlElementName": "Label",
-      "height": 42.62906574459908,
+      "height": 50,
       "id": "ab4de",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
@@ -712,7 +684,7 @@
       "stroke": "#000000",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "MBP is a component of myelin sheat.  \nMethylation is needed for structure stability.",
+      "textContent": "MBP is a component of myelin sheath.  \nMethylation is needed for structure stability.",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -721,9 +693,9 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 518.4056591884646,
-      "x": 1697,
-      "y": 497.933618836023,
+      "width": 425,
+      "x": 1743.7028295942323,
+      "y": 504.24815170832255,
       "zIndex": 32779
     },
     "ad1e8": {
@@ -749,7 +721,6 @@
               0.5
             ]
           },
-          "id": "b4ef4",
           "isAttachedTo": "a8879",
           "orientation": [
             1,
@@ -769,14 +740,13 @@
               0
             ]
           },
-          "id": "eaa04",
           "isAttachedTo": "a9830",
           "orientation": [
             0,
             1
           ],
           "x": 396.4707921165917,
-          "y": 1095.6185805154034
+          "y": 1091.8214107040828
         }
       ],
       "stroke": "#000000",
@@ -814,7 +784,6 @@
               1
             ]
           },
-          "id": "c4cc0",
           "isAttachedTo": "bc5e0",
           "orientation": [
             0,
@@ -834,7 +803,6 @@
               0
             ]
           },
-          "id": "fafe5",
           "isAttachedTo": "c5db1",
           "orientation": [
             0,
@@ -878,7 +846,7 @@
       "stroke": "#0000ff",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "phosphatidylcholine",
+      "textContent": "Phosphatidylcholine",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -886,10 +854,11 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:49183",
         "Metabolite",
+        "CompactIdentifier:chebi:49183",
+        "Phosphatidylcholine",
+        "Wikidata:Q75026757",
         "ChEBI:49183",
-        "P683:CHEBI:49183",
-        "P683:49183",
-        "Wikidata:Q75026757"
+        "ChEBI:49183"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -899,39 +868,6 @@
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "CHEBI:49183",
       "y": 1280.9992949987275,
-      "zIndex": 32768
-    },
-    "ae212": {
-      "citations": [
-        "publicationXrefbd9"
-      ],
-      "contains": [
-        "b7fc8",
-        "cb5f5",
-        "cb72d"
-      ],
-      "drawAs": "Octagon",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 99.00000000000045,
-      "id": "ae212",
-      "kaavioType": "Group",
-      "padding": 11,
-      "stroke": "#808080",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "Complex",
-        "GroupComplex"
-      ],
-      "verticalAlign": "middle",
-      "width": 114,
-      "x": 759.6757297807609,
-      "y": 752.7405831770463,
       "zIndex": 32768
     },
     "af490": {
@@ -964,13 +900,14 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000164305",
         "GeneProduct",
-        "P594:ENSG00000164305",
-        "Entrez Gene:836",
-        "P351:836",
-        "HGNC:CASP3",
+        "CompactIdentifier:ensembl:ENSG00000164305",
         "CASP3",
-        "P353:CASP3",
-        "Wikidata:Q14914370"
+        "Ensembl:ENSG00000164305",
+        "Entrez Gene:836",
+        "HGNC:CASP3",
+        "UniProt:A8MVM1",
+        "UniProt:C9JXR7",
+        "UniProt:P42574"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1012,7 +949,9 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:10167",
         "Metabolite",
-        "P683:CHEBI:10167"
+        "CompactIdentifier:chebi:10167",
+        "[Myelin basic protein]-N-methylarginine",
+        "ChEBI:10167"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1049,18 +988,12 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:17724",
         "Metabolite",
-        "ChEBI:CHEBI:58251",
-        "ChEBI:58251",
+        "CompactIdentifier:chebi:17724",
+        "Dimethylglycine",
+        "Wikidata:Q4369",
         "ChEBI:17724",
-        "P683:CHEBI:17724",
-        "P683:CHEBI:58251",
-        "P683:58251",
-        "P683:17724",
-        "HMDB:HMDB0000092",
-        "HMDB:HMDB00092",
-        "P2057:HMDB0000092",
-        "P2057:HMDB00092",
-        "Wikidata:Q4369"
+        "ChEBI:17724",
+        "InChI:FFDGPVCHZBVARC-UHFFFAOYSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1104,7 +1037,7 @@
         }
       ],
       "drawAs": "rect",
-      "fill": "#ff0000",
+      "fill": "#ff8888",
       "fontFamily": "Arial",
       "fontSize": 18,
       "fontStyle": "normal",
@@ -1140,7 +1073,7 @@
         }
       ],
       "drawAs": "rect",
-      "fill": "#990099",
+      "fill": "#eeaaee",
       "fontFamily": "Arial",
       "fontSize": 18,
       "fontStyle": "normal",
@@ -1155,7 +1088,7 @@
       "stroke": "#000000",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "Inadequate methionine  synthesis",
+      "textContent": "Inadequate methionine synthesis",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -1164,8 +1097,8 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 409.61783718630795,
-      "x": 1542.382162813692,
+      "width": 325,
+      "x": 1544.691081406846,
       "y": 804.1015011789868,
       "zIndex": 28672
     },
@@ -1199,14 +1132,12 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:29108",
         "Metabolite",
+        "CompactIdentifier:chebi:29108",
+        "Ca2+",
+        "Wikidata:Q23905776",
         "ChEBI:29108",
-        "P683:29108",
-        "P683:CHEBI:29108",
-        "HMDB:HMDB0000464",
-        "HMDB:HMDB00464",
-        "P2057:HMDB0000464",
-        "P2057:HMDB00464",
-        "Wikidata:Q23905776"
+        "ChEBI:29108",
+        "InChI:BHPQYMZQTOCNFJ-UHFFFAOYSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1268,14 +1199,12 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:58199",
         "Metabolite",
-        "ChEBI:58199",
-        "ChEBI:17588",
-        "ChEBI:CHEBI:17588",
-        "P683:CHEBI:58199",
-        "P683:58199",
-        "P683:17588",
-        "P683:CHEBI:17588",
-        "Wikidata:Q26992833"
+        "CompactIdentifier:chebi:17230",
+        "Homocysteine",
+        "Wikidata:Q192466",
+        "ChEBI:17230",
+        "ChEBI:17230",
+        "InChI:FFFHZYDWPBMWHY-UHFFFAOYSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1336,7 +1265,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "b7fc8",
-      "isPartOf": "ae212",
+      "isPartOf": "c33eb",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1352,14 +1281,12 @@
         "SingleFreeNode",
         "Uniprot-TrEMBL:O15399",
         "Protein",
+        "CompactIdentifier:uniprot:O15399",
+        "NMDA 2D",
         "Ensembl:ENSG00000105464",
-        "P594:ENSG00000105464",
         "Entrez Gene:2906",
-        "P351:2906",
         "HGNC:GRIN2D",
-        "GRIN2D",
-        "P353:GRIN2D",
-        "Wikidata:Q21130911"
+        "UniProt:O15399"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1401,13 +1328,14 @@
         "SingleFreeNode",
         "Uniprot-TrEMBL:G4XXL9",
         "Protein",
+        "CompactIdentifier:uniprot:G4XXL9",
+        "Cytochrome c",
         "Ensembl:ENSG00000172115",
-        "P594:ENSG00000172115",
         "Entrez Gene:54205",
-        "P351:54205",
         "HGNC:CYCS",
-        "CYCS",
-        "P353:CYCS"
+        "UniProt:G4XXL9",
+        "UniProt:C9JFR7",
+        "UniProt:P99999"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1449,7 +1377,9 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:10166",
         "Metabolite",
-        "P683:CHEBI:10166"
+        "CompactIdentifier:chebi:10166",
+        "[Myelin basic protein]-arginine",
+        "ChEBI:10166"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1496,7 +1426,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "bc135",
-      "isPartOf": "a9d3e",
+      "isPartOf": "dc616",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1512,14 +1442,12 @@
         "SingleFreeNode",
         "Uniprot-TrEMBL:P50135",
         "Protein",
-        "Ensembl:ENSG00000150540",
-        "P594:ENSG00000150540",
-        "Entrez Gene:3176",
-        "P351:3176",
-        "HGNC:HNMT",
+        "CompactIdentifier:uniprot:P50135",
         "HNMT",
-        "P353:HNMT",
-        "Wikidata:Q1085773"
+        "Ensembl:ENSG00000150540",
+        "Entrez Gene:3176",
+        "HGNC:HNMT",
+        "UniProt:P50135"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1561,10 +1489,12 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:295975",
         "Metabolite",
+        "CompactIdentifier:chebi:295975",
+        "Phosphocholine",
+        "Wikidata:Q27225724",
         "ChEBI:295975",
-        "P683:295975",
-        "P683:CHEBI:295975",
-        "Wikidata:Q27225724"
+        "ChEBI:295975",
+        "InChI:YHHSONZFOIEMCP-UHFFFAOYSA-M"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1606,14 +1536,12 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:29108",
         "Metabolite",
+        "CompactIdentifier:chebi:29108",
+        "Ca2+",
+        "Wikidata:Q23905776",
         "ChEBI:29108",
-        "P683:29108",
-        "P683:CHEBI:29108",
-        "HMDB:HMDB0000464",
-        "HMDB:HMDB00464",
-        "P2057:HMDB0000464",
-        "P2057:HMDB00464",
-        "Wikidata:Q23905776"
+        "ChEBI:29108",
+        "InChI:BHPQYMZQTOCNFJ-UHFFFAOYSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1676,7 +1604,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "c0226",
-      "isPartOf": "f0244",
+      "isPartOf": "a3388",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1692,12 +1620,12 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:67040",
         "Metabolite",
+        "CompactIdentifier:chebi:67040",
+        "SAM",
+        "Wikidata:Q27135598",
         "ChEBI:67040",
-        "P683:CHEBI:67040",
-        "P683:67040",
-        "HMDB:HMDB01185",
-        "P2057:HMDB01185",
-        "Wikidata:Q27135598"
+        "ChEBI:67040",
+        "InChI:MEFKEPWMEQBLKI-AIRLBKTGSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1764,10 +1692,11 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:17761",
         "Metabolite",
+        "CompactIdentifier:chebi:17761",
+        "Ceramide",
+        "Wikidata:Q424213",
         "ChEBI:17761",
-        "P683:CHEBI:17761",
-        "P683:17761",
-        "Wikidata:Q424213"
+        "ChEBI:17761"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1779,9 +1708,42 @@
       "y": 1372.822377903507,
       "zIndex": 32768
     },
+    "c33eb": {
+      "citations": [
+        "publicationXrefbd9"
+      ],
+      "contains": [
+        "b7fc8",
+        "cb5f5",
+        "cb72d"
+      ],
+      "drawAs": "Octagon",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 99.00000000000045,
+      "id": "c33eb",
+      "kaavioType": "Group",
+      "padding": 11,
+      "stroke": "#808080",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "Complex",
+        "GroupComplex"
+      ],
+      "verticalAlign": "middle",
+      "width": 114,
+      "x": 759.6757297807609,
+      "y": 752.7405831770463,
+      "zIndex": 32768
+    },
     "c37fc": {
       "drawAs": "rect",
-      "fill": "#ff0000",
+      "fill": "#ff8888",
       "fontFamily": "Arial",
       "fontSize": 18,
       "fontStyle": "normal",
@@ -1796,7 +1758,7 @@
       "stroke": "#000000",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "Homocystein levels are\nelevated in MTHFR deficiency.",
+      "textContent": "Homocysteine levels are\nelevated in MTHFR deficiency.",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -1833,7 +1795,6 @@
               0.5
             ]
           },
-          "id": "a9352",
           "isAttachedTo": "d7a26",
           "orientation": [
             -1,
@@ -1853,14 +1814,13 @@
               0
             ]
           },
-          "id": "ce1f8",
           "isAttachedTo": "a9830",
           "orientation": [
             0,
             1
           ],
           "x": 396.4707921165917,
-          "y": 1095.6185805154034
+          "y": 1091.8214107040828
         }
       ],
       "stroke": "#000000",
@@ -1949,7 +1909,7 @@
         }
       ],
       "drawAs": "rect",
-      "fill": "#00ff33",
+      "fill": "#55ffaa",
       "fontFamily": "Arial",
       "fontSize": 18,
       "fontStyle": "normal",
@@ -2003,16 +1963,12 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:57844",
         "Metabolite",
-        "ChEBI:CHEBI:16643",
-        "ChEBI:16643",
+        "CompactIdentifier:chebi:57844",
+        "Methionine",
+        "Wikidata:Q106345486",
         "ChEBI:57844",
-        "P683:CHEBI:57844",
-        "P683:CHEBI:16643",
-        "P683:16643",
-        "P683:57844",
-        "HMDB:HMDB00696",
-        "P2057:HMDB00696",
-        "Wikidata:Q22124685"
+        "ChEBI:57844",
+        "InChI:FFEARJCKVFRZRR-BYPYZUCNSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2039,7 +1995,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "c6ffb",
-      "isPartOf": "f0244",
+      "isPartOf": "a3388",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2055,12 +2011,12 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:67040",
         "Metabolite",
+        "CompactIdentifier:chebi:67040",
+        "SAM",
+        "Wikidata:Q27135598",
         "ChEBI:67040",
-        "P683:CHEBI:67040",
-        "P683:67040",
-        "HMDB:HMDB01185",
-        "P2057:HMDB01185",
-        "Wikidata:Q27135598"
+        "ChEBI:67040",
+        "InChI:MEFKEPWMEQBLKI-AIRLBKTGSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2078,7 +2034,8 @@
       "gpmlElementName": "GraphicalLine",
       "id": "c72c0",
       "isAttachedTo": [
-        "b0961"
+        "b0961",
+        "ab4de"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -2094,7 +2051,6 @@
               0.5
             ]
           },
-          "id": "cb02b",
           "isAttachedTo": "b0961",
           "orientation": [
             1,
@@ -2104,17 +2060,23 @@
           "y": 466.5720953702943
         },
         {
-          "x": 2070.999999999997,
-          "y": 482.25285710315865
-        },
-        {
-          "id": "dbbf5",
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.75,
+              0
+            ]
+          },
+          "isAttachedTo": "ab4de",
           "orientation": [
-            1,
-            0
+            0,
+            1
           ],
-          "x": 2085.804244391348,
-          "y": 497.933618836023
+          "x": 2062.4528295942323,
+          "y": 504.24815170832255
         }
       ],
       "stroke": "#00ff33",
@@ -2160,10 +2122,12 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:58779",
         "Metabolite",
+        "CompactIdentifier:chebi:58779",
+        "CDP-choline",
+        "Wikidata:Q27126045",
         "ChEBI:58779",
-        "P683:58779",
-        "P683:CHEBI:58779",
-        "Wikidata:Q27126045"
+        "ChEBI:58779",
+        "InChI:RZZPDXZPRHQOCG-OJAKKHQRSA-M"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2190,7 +2154,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "cb5f5",
-      "isPartOf": "ae212",
+      "isPartOf": "c33eb",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2206,14 +2170,14 @@
         "SingleFreeNode",
         "Uniprot-TrEMBL:Q05586",
         "Protein",
+        "CompactIdentifier:uniprot:Q05586",
+        "NMDA 1",
         "Ensembl:ENSG00000176884",
-        "P594:ENSG00000176884",
         "Entrez Gene:2902",
-        "P351:2902",
         "HGNC:GRIN1",
-        "GRIN1",
-        "P353:GRIN1",
-        "Wikidata:Q21118862"
+        "UniProt:A2AVK2",
+        "UniProt:Q05586",
+        "UniProt:Q5VSF9"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2240,7 +2204,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "cb72d",
-      "isPartOf": "ae212",
+      "isPartOf": "c33eb",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2256,13 +2220,20 @@
         "SingleFreeNode",
         "Uniprot-TrEMBL:F5GZ52",
         "Protein",
+        "CompactIdentifier:uniprot:F5GZ52",
+        "NMDA 2A",
         "Ensembl:ENSG00000183454",
-        "P594:ENSG00000183454",
         "Entrez Gene:2903",
-        "P351:2903",
         "HGNC:GRIN2A",
-        "GRIN2A",
-        "P353:GRIN2A"
+        "UniProt:Q12879",
+        "UniProt:A0A1B0GU35",
+        "UniProt:A0A6Q8PGD2",
+        "UniProt:Q547U9",
+        "UniProt:A0A6Q8PHM7",
+        "UniProt:A0A1B0GUT1",
+        "UniProt:A0A890YTL4",
+        "UniProt:A0A1B0GVW1",
+        "UniProt:F5GZ52"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2284,7 +2255,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "cc23c",
-      "isPartOf": "a9d3e",
+      "isPartOf": "dc616",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2300,7 +2271,8 @@
         "SingleFreeNode",
         "Enzyme Nomenclature:2.1.1.72",
         "Protein",
-        "Wikidata:Q4463683\nQ21761041"
+        "CompactIdentifier:eccode:2.1.1.72",
+        "EC 2.1.1.72"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2337,14 +2309,14 @@
         "SingleFreeNode",
         "Uniprot-TrEMBL:Q93088",
         "Protein",
-        "Ensembl:ENSG00000145692",
-        "P594:ENSG00000145692",
-        "Entrez Gene:635",
-        "P351:635",
-        "HGNC:BHMT",
+        "CompactIdentifier:uniprot:Q93088",
         "BHMT",
-        "P353:BHMT",
-        "Wikidata:Q21115522"
+        "Ensembl:ENSG00000145692",
+        "Entrez Gene:635",
+        "HGNC:BHMT",
+        "UniProt:Q93088",
+        "UniProt:E5RJH0",
+        "UniProt:V9HWA4"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2386,14 +2358,14 @@
         "SingleFreeNode",
         "Uniprot-TrEMBL:P35790",
         "Protein",
+        "CompactIdentifier:uniprot:P35790",
+        "Choline kinase alpha",
         "Ensembl:ENSG00000110721",
-        "P594:ENSG00000110721",
         "Entrez Gene:1119",
-        "P351:1119",
         "HGNC:CHKA",
-        "CHKA",
-        "P353:CHKA",
-        "Wikidata:Q21140051"
+        "UniProt:P35790",
+        "UniProt:H0YD02",
+        "UniProt:E9PM06"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2407,7 +2379,7 @@
     },
     "cfb34": {
       "drawAs": "rect",
-      "fill": "#ff0000",
+      "fill": "#ff8888",
       "fontFamily": "Arial",
       "fontSize": 18,
       "fontStyle": "normal",
@@ -2466,14 +2438,21 @@
         "SingleFreeNode",
         "Uniprot-TrEMBL:P49585",
         "Protein",
+        "CompactIdentifier:uniprot:P49585",
+        "CCT-alpha",
         "Ensembl:ENSG00000161217",
-        "P594:ENSG00000161217",
         "Entrez Gene:5130",
-        "P351:5130",
         "HGNC:PCYT1A",
-        "PCYT1A",
-        "P353:PCYT1A",
-        "Wikidata:Q21119684"
+        "UniProt:P49585",
+        "UniProt:C9JVS0",
+        "UniProt:C9J2E1",
+        "UniProt:C9JEJ2",
+        "UniProt:F8WAZ5",
+        "UniProt:F8WBU2",
+        "UniProt:C9J050",
+        "UniProt:H7C1T3",
+        "UniProt:C9JPY0",
+        "UniProt:H7BZN1"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2508,14 +2487,13 @@
               1
             ]
           },
-          "id": "ffd19",
           "isAttachedTo": "a9830",
           "orientation": [
             0,
             1
           ],
           "x": 396.4707921165917,
-          "y": 1118.0242408927622
+          "y": 1121.8214107040828
         },
         {
           "attachmentDisplay": {
@@ -2528,7 +2506,6 @@
               0
             ]
           },
-          "id": "dc4da",
           "isAttachedTo": "b81d4",
           "orientation": [
             0,
@@ -2590,7 +2567,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "d77d7",
-      "isPartOf": "a9d3e",
+      "isPartOf": "dc616",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2606,13 +2583,31 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000130816",
         "GeneProduct",
-        "P594:ENSG00000130816",
-        "Entrez Gene:1786",
-        "P351:1786",
-        "HGNC:DNMT1",
+        "CompactIdentifier:ensembl:ENSG00000130816",
         "DNMT1",
-        "P353:DNMT1",
-        "Wikidata:Q14907998"
+        "Ensembl:ENSG00000130816",
+        "Entrez Gene:1786",
+        "HGNC:DNMT1",
+        "UniProt:A0A7I2V5D0",
+        "UniProt:P26358",
+        "UniProt:K7EKC3",
+        "UniProt:K7ELB1",
+        "UniProt:A0A7I2V3F8",
+        "UniProt:A0A7I2V5F6",
+        "UniProt:A0A7I2YQA8",
+        "UniProt:A0A7I2V490",
+        "UniProt:A0A7I2YQQ0",
+        "UniProt:K7ERQ1",
+        "UniProt:K7ENQ6",
+        "UniProt:K7EMU8",
+        "UniProt:K7EP77",
+        "UniProt:K7EJL0",
+        "UniProt:K7ER10",
+        "UniProt:K7ENW7",
+        "UniProt:A0A7I2V311",
+        "UniProt:A0A7I2V5F1",
+        "UniProt:K7EIZ6",
+        "UniProt:A0A7I2V2G5"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2654,14 +2649,12 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:29108",
         "Metabolite",
+        "CompactIdentifier:chebi:29108",
+        "Ca2+",
+        "Wikidata:Q23905776",
         "ChEBI:29108",
-        "P683:29108",
-        "P683:CHEBI:29108",
-        "HMDB:HMDB0000464",
-        "HMDB:HMDB00464",
-        "P2057:HMDB0000464",
-        "P2057:HMDB00464",
-        "Wikidata:Q23905776"
+        "ChEBI:29108",
+        "InChI:BHPQYMZQTOCNFJ-UHFFFAOYSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2688,7 +2681,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "da4cb",
-      "isPartOf": "a9d3e",
+      "isPartOf": "dc616",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2704,13 +2697,14 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000119772",
         "GeneProduct",
-        "P594:ENSG00000119772",
-        "Entrez Gene:1788",
-        "P351:1788",
-        "HGNC:DNMT3A",
+        "CompactIdentifier:ensembl:ENSG00000119772",
         "DNMT3A",
-        "P353:DNMT3A",
-        "Wikidata:Q17914047"
+        "Ensembl:ENSG00000119772",
+        "Entrez Gene:1788",
+        "HGNC:DNMT3A",
+        "UniProt:Q9Y6K1",
+        "UniProt:F8WE91",
+        "UniProt:A0A0C4DG02"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2752,14 +2746,12 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:15354",
         "Metabolite",
+        "CompactIdentifier:chebi:15354",
+        "Choline",
+        "Wikidata:Q193166",
         "ChEBI:15354",
-        "P683:CHEBI:15354",
-        "P683:15354",
-        "HMDB:HMDB0000097",
-        "HMDB:HMDB00097",
-        "P2057:HMDB0000097",
-        "P2057:HMDB00097",
-        "Wikidata:Q193166"
+        "ChEBI:15354",
+        "InChI:OEYIOHPDSNJKLS-UHFFFAOYSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2794,7 +2786,6 @@
               0.5
             ]
           },
-          "id": "b49b8",
           "isAttachedTo": "f6cc5",
           "orientation": [
             1,
@@ -2814,14 +2805,13 @@
               0
             ]
           },
-          "id": "b10a6",
           "isAttachedTo": "f7532",
           "orientation": [
             0,
             1
           ],
           "x": 1196.7069739219166,
-          "y": 1085.713951315413
+          "y": 1083.8607619996328
         }
       ],
       "stroke": "#00ff33",
@@ -2867,14 +2857,12 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:15710",
         "Metabolite",
+        "CompactIdentifier:chebi:15710",
+        "Betaine aldehyde",
+        "Wikidata:Q10859645",
         "ChEBI:15710",
-        "P683:CHEBI:15710",
-        "P683:15710",
-        "HMDB:HMDB0001252",
-        "HMDB:HMDB01252",
-        "P2057:HMDB0001252",
-        "P2057:HMDB01252",
-        "Wikidata:Q10859645"
+        "ChEBI:15710",
+        "InChI:SXKNCCSPZDCRFD-UHFFFAOYSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2884,6 +2872,46 @@
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "CHEBI:15710",
       "y": 948.863903388878,
+      "zIndex": 32768
+    },
+    "dc616": {
+      "citations": [
+        "publicationXreffc0"
+      ],
+      "contains": [
+        "a6222",
+        "bc135",
+        "da4cb",
+        "e0744",
+        "f340f",
+        "f8439",
+        "fa6ef",
+        "d77d7",
+        "a6d53",
+        "cc23c"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 116,
+      "id": "dc616",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 400.69697904646773,
+      "x": 1528.8686806356882,
+      "y": 582.5,
       "zIndex": 32768
     },
     "deae7": {
@@ -2911,12 +2939,12 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:17750",
         "Metabolite",
+        "CompactIdentifier:chebi:17750",
+        "betaine",
+        "Wikidata:Q10860583",
         "ChEBI:17750",
-        "P683:CHEBI:17750",
-        "P683:17750",
-        "HMDB:HMDB00043",
-        "P2057:HMDB00043",
-        "Wikidata:Q10860583"
+        "ChEBI:17750",
+        "InChI:KWIUHFFTVRNATP-UHFFFAOYSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2992,14 +3020,14 @@
         "SingleFreeNode",
         "Uniprot-TrEMBL:Q8NE62",
         "Protein",
-        "Ensembl:ENSG00000016391",
-        "P594:ENSG00000016391",
-        "Entrez Gene:55349",
-        "P351:55349",
-        "HGNC:CHDH",
+        "CompactIdentifier:uniprot:Q8NE62",
         "CHDH",
-        "P353:CHDH",
-        "Wikidata:Q21115651"
+        "Ensembl:ENSG00000016391",
+        "Entrez Gene:55349",
+        "HGNC:CHDH",
+        "UniProt:C9J7D8",
+        "UniProt:C9JYW4",
+        "UniProt:Q8NE62"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3036,12 +3064,12 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:1989",
         "Metabolite",
+        "CompactIdentifier:chebi:1989",
+        "5,10-Methylene-THF",
+        "Wikidata:Q26995704",
         "ChEBI:1989",
-        "P683:1989",
-        "P683:CHEBI:1989",
-        "HMDB:HMDB01533",
-        "P2057:HMDB01533",
-        "Wikidata:Q26995704"
+        "ChEBI:1989",
+        "InChI:QYNUQALWYRSVHF-OLZOCXBDSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3068,7 +3096,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "e0744",
-      "isPartOf": "a9d3e",
+      "isPartOf": "dc616",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -3084,13 +3112,15 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000088305",
         "GeneProduct",
-        "P594:ENSG00000088305",
-        "Entrez Gene:1789",
-        "P351:1789",
-        "HGNC:DNMT3B",
+        "CompactIdentifier:ensembl:ENSG00000088305",
         "DNMT3B",
-        "P353:DNMT3B",
-        "Wikidata:Q15313456"
+        "Ensembl:ENSG00000088305",
+        "Entrez Gene:1789",
+        "HGNC:DNMT3B",
+        "UniProt:B4DSJ7",
+        "UniProt:Q9UBC3",
+        "UniProt:A0A2Z2CIT2",
+        "UniProt:Q2PJS8"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3132,10 +3162,11 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:18035",
         "Metabolite",
+        "CompactIdentifier:chebi:18035",
+        "DAG",
+        "Wikidata:Q161466",
         "ChEBI:18035",
-        "P683:18035",
-        "P683:CHEBI:18035",
-        "Wikidata:Q161466"
+        "ChEBI:18035"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3149,7 +3180,7 @@
     },
     "e0ff6": {
       "drawAs": "rect",
-      "fill": "#0000cc",
+      "fill": "#5555cc",
       "fontFamily": "Arial",
       "fontSize": 18,
       "fontStyle": "normal",
@@ -3208,14 +3239,15 @@
         "SingleFreeNode",
         "Uniprot-TrEMBL:Q9UBM1",
         "Protein",
-        "Ensembl:ENSG00000133027",
-        "P594:ENSG00000133027",
-        "Entrez Gene:10400",
-        "P351:10400",
-        "HGNC:PEMT",
+        "CompactIdentifier:uniprot:Q9UBM1",
         "PEMT",
-        "P353:PEMT",
-        "Wikidata:Q3266424"
+        "Ensembl:ENSG00000133027",
+        "Entrez Gene:10400",
+        "HGNC:PEMT",
+        "UniProt:J3QLU8",
+        "UniProt:D3YTC7",
+        "UniProt:J3KTR2",
+        "UniProt:Q9UBM1"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3229,7 +3261,7 @@
     },
     "e42a5": {
       "drawAs": "rect",
-      "fill": "#ffcccc",
+      "fill": "#ffdddd",
       "fontFamily": "Arial",
       "fontSize": 22,
       "fontStyle": "normal",
@@ -3366,13 +3398,18 @@
         "SingleFreeNode",
         "Uniprot-TrEMBL:B4E0W7",
         "Protein",
+        "CompactIdentifier:uniprot:B4E0W7",
+        "PRMT",
         "Ensembl:ENSG00000003509",
-        "P594:ENSG00000003509",
         "Entrez Gene:55471",
-        "P351:55471",
         "HGNC:NDUFAF7",
-        "NDUFAF7",
-        "P353:NDUFAF7"
+        "UniProt:Q7L592",
+        "UniProt:B4E0W7",
+        "UniProt:C9JP36",
+        "UniProt:H7C3N5",
+        "UniProt:C9JEL7",
+        "UniProt:C9J236",
+        "UniProt:C9JS27"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3446,8 +3483,7 @@
         "DataNode",
         "SingleFreeNode",
         "WikiPathways:WP254",
-        "Pathway",
-        "Wikidata:Q29892216"
+        "Pathway"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3471,7 +3507,7 @@
       "id": "e8093",
       "isAttachedTo": [
         "f0b0a",
-        "a9d3e"
+        "dc616"
       ],
       "kaavioType": "Edge",
       "markerEnd": "MimInhibition",
@@ -3487,7 +3523,6 @@
               1
             ]
           },
-          "id": "ff4be",
           "isAttachedTo": "f0b0a",
           "orientation": [
             0,
@@ -3507,8 +3542,7 @@
               0
             ]
           },
-          "id": "cde42",
-          "isAttachedTo": "a9d3e",
+          "isAttachedTo": "dc616",
           "orientation": [
             0,
             1
@@ -3547,7 +3581,7 @@
       "stroke": "#0000ff",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "sphingomyelin",
+      "textContent": "Sphingomyelin",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -3555,10 +3589,11 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:64583",
         "Metabolite",
+        "CompactIdentifier:chebi:64583",
+        "Sphingomyelin",
+        "Wikidata:Q423143",
         "ChEBI:64583",
-        "P683:64583",
-        "P683:CHEBI:64583",
-        "Wikidata:Q423143"
+        "ChEBI:64583"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3595,14 +3630,13 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:15641",
         "Metabolite",
+        "CompactIdentifier:chebi:15641",
+        "5-Methyl-THF",
+        "Wikidata:Q192553",
         "ChEBI:15641",
-        "P683:CHEBI:15641",
-        "P683:15641",
-        "HMDB:HMDB0001396",
-        "HMDB:HMDB01396",
-        "P2057:HMDB0001396",
-        "P2057:HMDB01396",
-        "Wikidata:Q192553"
+        "ChEBI:15641",
+        "InChI:ZNOVTXRBGFNYRX-STQMWFEESA-N",
+        "InChI:ZNOVTXRBGFNYRX-ZGTCLIOFSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3636,7 +3670,7 @@
       "stroke": "#0000ff",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "betaine",
+      "textContent": "Betaine",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -3644,12 +3678,12 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:17750",
         "Metabolite",
+        "CompactIdentifier:chebi:17750",
+        "Betaine",
+        "Wikidata:Q10860583",
         "ChEBI:17750",
-        "P683:CHEBI:17750",
-        "P683:17750",
-        "HMDB:HMDB00043",
-        "P2057:HMDB00043",
-        "Wikidata:Q10860583"
+        "ChEBI:17750",
+        "InChI:KWIUHFFTVRNATP-UHFFFAOYSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3691,13 +3725,19 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000132906",
         "GeneProduct",
-        "P594:ENSG00000132906",
-        "Entrez Gene:842",
-        "P351:842",
-        "HGNC:CASP9",
+        "CompactIdentifier:ensembl:ENSG00000132906",
         "CASP9",
-        "P353:CASP9",
-        "Wikidata:Q14907714"
+        "Ensembl:ENSG00000132906",
+        "Entrez Gene:842",
+        "HGNC:CASP9",
+        "UniProt:H0Y6Y2",
+        "UniProt:Q5JRU2",
+        "UniProt:F8VWA5",
+        "UniProt:F8VVS7",
+        "UniProt:Q5JRU8",
+        "UniProt:A0A087WX72",
+        "UniProt:H0Y3S8",
+        "UniProt:P55211"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3708,36 +3748,6 @@
       "xrefIdentifier": "ENSG00000132906",
       "y": 1219.5224330173885,
       "zIndex": 32768
-    },
-    "f0244": {
-      "contains": [
-        "f5282",
-        "c6ffb",
-        "c0226"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 91,
-      "id": "f0244",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 106,
-      "x": 1566.5279580921392,
-      "y": 1159.2246217932186,
-      "zIndex": 32775
     },
     "f0b0a": {
       "comments": [
@@ -3769,18 +3779,12 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:16680",
         "Metabolite",
-        "ChEBI:CHEBI:57856",
+        "CompactIdentifier:chebi:16680",
+        "SAH",
+        "Wikidata:Q307434",
         "ChEBI:16680",
-        "ChEBI:57856",
-        "P683:CHEBI:57856",
-        "P683:CHEBI:16680",
-        "P683:16680",
-        "P683:57856",
-        "HMDB:HMDB00939",
-        "HMDB:HMDB0000939",
-        "P2057:HMDB00939",
-        "P2057:HMDB0000939",
-        "Wikidata:Q307434"
+        "ChEBI:16680",
+        "InChI:ZJUKTBDSGOFHSH-WFMPWKQPSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3836,15 +3840,14 @@
       "stroke": "#14961e",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "Oxidative Damage",
+      "textContent": "Oxidative damage",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
         "DataNode",
         "SingleFreeNode",
         "WikiPathways:WP3941",
-        "Pathway",
-        "Wikidata:Q30225538"
+        "Pathway"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3906,7 +3909,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "f340f",
-      "isPartOf": "a9d3e",
+      "isPartOf": "dc616",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -3922,13 +3925,16 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000196433",
         "GeneProduct",
-        "P594:ENSG00000196433",
-        "Entrez Gene:438",
-        "P351:438",
-        "HGNC:ASMT",
+        "CompactIdentifier:ensembl:ENSG00000196433",
         "ASMT",
-        "P353:ASMT",
-        "Wikidata:Q14913316"
+        "Ensembl:ENSG00000196433",
+        "Entrez Gene:438",
+        "HGNC:ASMT",
+        "UniProt:X5D784",
+        "UniProt:I7HFW6",
+        "UniProt:X5D2A4",
+        "UniProt:A0A024RBT9",
+        "UniProt:P46597"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3970,14 +3976,16 @@
         "SingleFreeNode",
         "Uniprot-TrEMBL:Q8WUD6",
         "Protein",
+        "CompactIdentifier:uniprot:Q8WUD6",
+        "CHPT-1",
         "Ensembl:ENSG00000111666",
-        "P594:ENSG00000111666",
         "Entrez Gene:56994",
-        "P351:56994",
         "HGNC:CHPT1",
-        "CHPT1",
-        "P353:CHPT1",
-        "Wikidata:Q21106764"
+        "UniProt:H0YI24",
+        "UniProt:H0YHV7",
+        "UniProt:H0YI84",
+        "UniProt:F8W1B3",
+        "UniProt:Q8WUD6"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -4019,12 +4027,12 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:17230",
         "Metabolite",
+        "CompactIdentifier:chebi:17230",
+        "Homocysteine",
+        "Wikidata:Q192466",
         "ChEBI:17230",
-        "P683:CHEBI:17230",
-        "P683:17230",
-        "HMDB:HMDB00742",
-        "P2057:HMDB00742",
-        "Wikidata:Q192466"
+        "ChEBI:17230",
+        "InChI:FFFHZYDWPBMWHY-UHFFFAOYSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -4058,7 +4066,7 @@
       "stroke": "#0000ff",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "phosphatidylethanolamine",
+      "textContent": "Phosphatidylethanolamine",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -4066,10 +4074,11 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:16038",
         "Metabolite",
+        "CompactIdentifier:chebi:16038",
+        "Phosphatidylethanolamine",
+        "Wikidata:Q426095",
         "ChEBI:16038",
-        "P683:16038",
-        "P683:CHEBI:16038",
-        "Wikidata:Q426095"
+        "ChEBI:16038"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -4104,7 +4113,6 @@
               0.5
             ]
           },
-          "id": "cc368",
           "isAttachedTo": "e42a5",
           "orientation": [
             1,
@@ -4125,7 +4133,6 @@
               0
             ]
           },
-          "id": "b6867",
           "isAttachedTo": "b1252",
           "orientation": [],
           "x": 1121.4754760408832,
@@ -4159,7 +4166,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "f5282",
-      "isPartOf": "f0244",
+      "isPartOf": "a3388",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -4175,12 +4182,12 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:67040",
         "Metabolite",
+        "CompactIdentifier:chebi:67040",
+        "SAM",
+        "Wikidata:Q27135598",
         "ChEBI:67040",
-        "P683:CHEBI:67040",
-        "P683:67040",
-        "HMDB:HMDB01185",
-        "P2057:HMDB01185",
-        "Wikidata:Q27135598"
+        "ChEBI:67040",
+        "InChI:MEFKEPWMEQBLKI-AIRLBKTGSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -4200,7 +4207,7 @@
       "fontStyle": "normal",
       "fontWeight": "bold",
       "gpmlElementName": "DataNode",
-      "height": 52.12264150943432,
+      "height": 60,
       "id": "f5882",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
@@ -4218,8 +4225,7 @@
         "DataNode",
         "SingleFreeNode",
         "WikiPathways:WP4259",
-        "Pathway",
-        "Wikidata:Q54989003"
+        "Pathway"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -4228,7 +4234,7 @@
       "x": 424.528301886793,
       "xrefDataSource": "WikiPathways",
       "xrefIdentifier": "WP4259",
-      "y": 287.4999999999997,
+      "y": 283.56132075471686,
       "zIndex": 32768
     },
     "f5ab9": {
@@ -4238,7 +4244,7 @@
         }
       ],
       "drawAs": "rect",
-      "fill": "#ff00cc",
+      "fill": "#ff88dd",
       "fontFamily": "Arial",
       "fontSize": 18,
       "fontStyle": "normal",
@@ -4289,7 +4295,7 @@
       "stroke": "#0000ff",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "reactive oxygen species",
+      "textContent": "Reactive oxygen species",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -4297,10 +4303,11 @@
         "SingleFreeNode",
         "Wikidata:Q424361",
         "Metabolite",
+        "CompactIdentifier:wikidata:Q424361",
+        "Reactive oxygen species",
+        "Wikidata:Q424361",
         "ChEBI:26523",
-        "ChEBI:CHEBI:26523",
-        "P683:26523",
-        "P683:CHEBI:26523"
+        "ChEBI:26523"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -4341,7 +4348,9 @@
         "DataNode",
         "SingleFreeNode",
         "Uniprot-TrEMBL:D3DWC4",
-        "Protein"
+        "Protein",
+        "CompactIdentifier:uniprot:D3DWC4",
+        "SGMS 1"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -4380,13 +4389,13 @@
     },
     "f7532": {
       "drawAs": "rect",
-      "fill": "#00ff33",
+      "fill": "#55ffaa",
       "fontFamily": "Arial",
       "fontSize": 18,
       "fontStyle": "normal",
       "fontWeight": "bold",
       "gpmlElementName": "Label",
-      "height": 46.293621368439545,
+      "height": 50,
       "id": "f7532",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
@@ -4395,7 +4404,7 @@
       "stroke": "#000000",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "Lipid & Protein \noxidation",
+      "textContent": "Lipid and protein \noxidation",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -4406,7 +4415,7 @@
       "whiteSpace": "pre",
       "width": 169.2982892685837,
       "x": 1112.0578292876248,
-      "y": 1085.713951315413,
+      "y": 1083.8607619996328,
       "zIndex": 32796
     },
     "f7901": {
@@ -4498,14 +4507,24 @@
         "SingleFreeNode",
         "Uniprot-TrEMBL:P56192",
         "Protein",
+        "CompactIdentifier:uniprot:P56192",
+        "MetRS",
         "Ensembl:ENSG00000166986",
-        "P594:ENSG00000166986",
         "Entrez Gene:4141",
-        "P351:4141",
         "HGNC:MARS1",
-        "MARS1",
-        "P353:MARS1",
-        "Wikidata:Q21123929"
+        "UniProt:F8VS26",
+        "UniProt:F8VPL7",
+        "UniProt:F8VZZ9",
+        "UniProt:F8W0M7",
+        "UniProt:F8W0S4",
+        "UniProt:H0YHV5",
+        "UniProt:F5H2V6",
+        "UniProt:H0YIP0",
+        "UniProt:H0YI94",
+        "UniProt:H0YI27",
+        "UniProt:P56192",
+        "UniProt:H0YIC2",
+        "UniProt:H0YHL6"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -4527,7 +4546,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "f8439",
-      "isPartOf": "a9d3e",
+      "isPartOf": "dc616",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -4543,13 +4562,16 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000204371",
         "GeneProduct",
-        "P594:ENSG00000204371",
-        "Entrez Gene:10919",
-        "P351:10919",
-        "HGNC:EHMT2",
+        "CompactIdentifier:ensembl:ENSG00000204371",
         "EHMT2",
-        "P353:EHMT2",
-        "Wikidata:Q18035948"
+        "Ensembl:ENSG00000204371",
+        "Entrez Gene:10919",
+        "HGNC:EHMT2",
+        "UniProt:H0Y4K5",
+        "UniProt:A0A024RCN9",
+        "UniProt:A2ABF9",
+        "UniProt:Q96KQ7",
+        "UniProt:A2ABF8"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -4576,7 +4598,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "fa6ef",
-      "isPartOf": "a9d3e",
+      "isPartOf": "dc616",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -4592,13 +4614,19 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000093010",
         "GeneProduct",
-        "P594:ENSG00000093010",
-        "Entrez Gene:1312",
-        "P351:1312",
-        "HGNC:COMT",
+        "CompactIdentifier:ensembl:ENSG00000093010",
         "COMT",
-        "P353:COMT",
-        "Wikidata:Q14863656"
+        "Ensembl:ENSG00000093010",
+        "Entrez Gene:1312",
+        "HGNC:COMT",
+        "UniProt:H7BZ45",
+        "UniProt:A0A7I2V3G7",
+        "UniProt:E7EMS6",
+        "UniProt:P21964",
+        "UniProt:A0A7I2V370",
+        "UniProt:A0A140VJG8",
+        "UniProt:E7EUU8",
+        "UniProt:F8WBW9"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -4627,7 +4655,7 @@
       "rotation": 0,
       "rx": 15,
       "ry": 15,
-      "stroke": "#ffff00",
+      "stroke": "#eeee00",
       "strokeStyle": "double",
       "strokeWidth": 3,
       "textAlign": "center",
@@ -4674,14 +4702,29 @@
         "SingleFreeNode",
         "Uniprot-TrEMBL:P49419",
         "Protein",
+        "CompactIdentifier:uniprot:P49419",
+        "BADH",
         "Ensembl:ENSG00000164904",
-        "P594:ENSG00000164904",
         "Entrez Gene:501",
-        "P351:501",
         "HGNC:ALDH7A1",
-        "ALDH7A1",
-        "P353:ALDH7A1",
-        "Wikidata:Q21097150"
+        "UniProt:A0A1B0GW77",
+        "UniProt:A0A1B0GW65",
+        "UniProt:A0A1B0GTY9",
+        "UniProt:P49419",
+        "UniProt:A0A1B0GTG2",
+        "UniProt:A0A1B0GTJ4",
+        "UniProt:A0A0J9YWF7",
+        "UniProt:A0A1B0GV49",
+        "UniProt:H0YHM6",
+        "UniProt:A0A0J9YWM6",
+        "UniProt:A0A1B0GUA1",
+        "UniProt:A0A0J9YWK1",
+        "UniProt:F8WDY6",
+        "UniProt:A0A1B0GVU0",
+        "UniProt:A0A1B0GW82",
+        "UniProt:F8WD33",
+        "UniProt:A0A1B0GUY0",
+        "UniProt:F8VVF2"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -4774,7 +4817,7 @@
       "stroke": "#000000",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "This is just a example of a inhibited methylation. \nDue to SAM deficiency all methylation reactions are inhibited.",
+      "textContent": "This is only one example of an inhibited methylation. \nDue to SAM deficiency all methylation reactions are inhibited.",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -4787,6 +4830,26 @@
       "x": 1609.5238095238094,
       "y": 130.4206298952722,
       "zIndex": 28672
+    },
+    "http://identifiers.org/cl/CL:0000128": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/cl/CL:0000128",
+      "ontology": "Cell Type",
+      "term": "oligodendrocyte",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "CL:0000128"
+    },
+    "http://identifiers.org/doid/DOID:655": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/doid/DOID:655",
+      "ontology": "Disease",
+      "term": "inherited metabolic disorder",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "DOID:655"
     },
     "http://identifiers.org/pw/PW:0000013": {
       "gpmlElementName": "openControlledVocabulary",
@@ -4861,7 +4924,6 @@
               0.5
             ]
           },
-          "id": "aaf91",
           "isAttachedTo": "d1235",
           "orientation": [
             -1,
@@ -4882,7 +4944,6 @@
               0
             ]
           },
-          "id": "f6f3e",
           "isAttachedTo": "f7951",
           "orientation": [],
           "x": 1951.1115458466836,
@@ -4926,7 +4987,6 @@
               0.5
             ]
           },
-          "id": "c3ad0",
           "isAttachedTo": "f44a8",
           "orientation": [
             1,
@@ -4946,7 +5006,6 @@
               0.5
             ]
           },
-          "id": "bb3e7",
           "isAttachedTo": "ad978",
           "orientation": [
             1,
@@ -4988,7 +5047,6 @@
               0
             ]
           },
-          "id": "fd751",
           "isAttachedTo": "c6246",
           "orientation": [
             0,
@@ -4998,7 +5056,6 @@
           "y": 284.6249811091096
         },
         {
-          "id": "fec22",
           "x": 1448.5197201164824,
           "y": 148.4437474221479
         },
@@ -5013,7 +5070,6 @@
               0
             ]
           },
-          "id": "ed360",
           "isAttachedTo": "a5049",
           "orientation": [
             0,
@@ -5054,7 +5110,6 @@
               1
             ]
           },
-          "id": "a2328",
           "isAttachedTo": "f6cc5",
           "orientation": [
             0,
@@ -5074,7 +5129,6 @@
               0
             ]
           },
-          "id": "e802c",
           "isAttachedTo": "f2c4d",
           "orientation": [
             0,
@@ -5119,7 +5173,6 @@
               0.5
             ]
           },
-          "id": "c2245",
           "isAttachedTo": "e6c53",
           "orientation": [
             1,
@@ -5140,7 +5193,6 @@
               0
             ]
           },
-          "id": "a497e",
           "isAttachedTo": "a3d55",
           "orientation": [],
           "x": 1880.7007398014139,
@@ -5178,7 +5230,6 @@
               1
             ]
           },
-          "id": "e6c57",
           "isAttachedTo": "f6f39",
           "orientation": [
             0,
@@ -5199,7 +5250,6 @@
               0
             ]
           },
-          "id": "d43a1",
           "isAttachedTo": "c46f9",
           "orientation": [],
           "x": 1916.7466190898256,
@@ -5242,7 +5292,6 @@
               0.5
             ]
           },
-          "id": "ffaf6",
           "isAttachedTo": "a7260",
           "orientation": [
             -1,
@@ -5262,7 +5311,6 @@
               0
             ]
           },
-          "id": "ab75f",
           "isAttachedTo": "a8879",
           "orientation": [
             0,
@@ -5308,7 +5356,6 @@
               1
             ]
           },
-          "id": "f2a1e",
           "isAttachedTo": "a4b3c",
           "orientation": [
             0,
@@ -5328,7 +5375,6 @@
               0
             ]
           },
-          "id": "c0693",
           "isAttachedTo": "f6cc5",
           "orientation": [
             0,
@@ -5375,7 +5421,6 @@
               1
             ]
           },
-          "id": "bfaa8",
           "isAttachedTo": "bc3c6",
           "orientation": [
             0,
@@ -5395,7 +5440,6 @@
               0
             ]
           },
-          "id": "b6979",
           "isAttachedTo": "cadad",
           "orientation": [
             0,
@@ -5445,7 +5489,6 @@
               1
             ]
           },
-          "id": "fe71d",
           "isAttachedTo": "cadad",
           "orientation": [
             0,
@@ -5465,7 +5508,6 @@
               0
             ]
           },
-          "id": "c6bbd",
           "isAttachedTo": "ad978",
           "orientation": [
             0,
@@ -5506,7 +5548,6 @@
               0
             ]
           },
-          "id": "d9ec5",
           "isAttachedTo": "e9371",
           "orientation": [
             0,
@@ -5526,7 +5567,6 @@
               1
             ]
           },
-          "id": "a56d2",
           "isAttachedTo": "a42c9",
           "orientation": [
             0,
@@ -5572,7 +5612,6 @@
               0.5
             ]
           },
-          "id": "df0ef",
           "isAttachedTo": "ad978",
           "orientation": [
             1,
@@ -5592,7 +5631,6 @@
               0.5
             ]
           },
-          "id": "ad696",
           "isAttachedTo": "a42c9",
           "orientation": [
             1,
@@ -5639,7 +5677,6 @@
               0
             ]
           },
-          "id": "a78e4",
           "isAttachedTo": "d184f",
           "orientation": [],
           "x": 1294.4567081290313,
@@ -5656,7 +5693,6 @@
               1
             ]
           },
-          "id": "bb500",
           "isAttachedTo": "e01da",
           "orientation": [
             0,
@@ -5701,7 +5737,6 @@
               1
             ]
           },
-          "id": "da071",
           "isAttachedTo": "b9ca3",
           "orientation": [
             0,
@@ -5721,7 +5756,6 @@
               0
             ]
           },
-          "id": "caa6c",
           "isAttachedTo": "b0961",
           "orientation": [
             0,
@@ -5751,7 +5785,7 @@
       "id": "id646f2d5f",
       "isAttachedTo": [
         "a6160",
-        "ae212"
+        "c33eb"
       ],
       "kaavioType": "Edge",
       "markerEnd": "MimBinding",
@@ -5767,7 +5801,6 @@
               1
             ]
           },
-          "id": "ab169",
           "isAttachedTo": "a6160",
           "orientation": [
             0,
@@ -5787,8 +5820,7 @@
               0
             ]
           },
-          "id": "b34e1",
-          "isAttachedTo": "ae212",
+          "isAttachedTo": "c33eb",
           "orientation": [
             0,
             1
@@ -5828,7 +5860,6 @@
               0
             ]
           },
-          "id": "a4b97",
           "isAttachedTo": "ec495",
           "orientation": [
             0,
@@ -5849,7 +5880,6 @@
               0
             ]
           },
-          "id": "b4d05",
           "isAttachedTo": "d184f",
           "orientation": [],
           "x": 1294.4567081290313,
@@ -5888,7 +5918,6 @@
               1
             ]
           },
-          "id": "a76ca",
           "isAttachedTo": "df8a2",
           "orientation": [
             0,
@@ -5909,7 +5938,6 @@
               0
             ]
           },
-          "id": "ca7d0",
           "isAttachedTo": "f7491",
           "orientation": [],
           "x": 1896.719387393481,
@@ -5948,7 +5976,6 @@
               0
             ]
           },
-          "id": "bf1a1",
           "isAttachedTo": "a3d55",
           "orientation": [],
           "x": 1880.7007398014139,
@@ -5965,7 +5992,6 @@
               0
             ]
           },
-          "id": "fb6c3",
           "isAttachedTo": "f0b0a",
           "orientation": [
             0,
@@ -6012,7 +6038,6 @@
               0.5
             ]
           },
-          "id": "cce3f",
           "isAttachedTo": "c2f66",
           "orientation": [
             1,
@@ -6032,7 +6057,6 @@
               0.5
             ]
           },
-          "id": "da1f3",
           "isAttachedTo": "e9371",
           "orientation": [
             1,
@@ -6060,7 +6084,6 @@
         "deae7"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "mim-translocation",
       "points": [
         {
           "attachmentDisplay": {
@@ -6073,7 +6096,6 @@
               0
             ]
           },
-          "id": "fbabb",
           "isAttachedTo": "ed24c",
           "orientation": [
             0,
@@ -6097,7 +6119,6 @@
               1
             ]
           },
-          "id": "b7087",
           "isAttachedTo": "deae7",
           "orientation": [
             0,
@@ -6139,7 +6160,6 @@
               0.5
             ]
           },
-          "id": "c239a",
           "isAttachedTo": "cefa7",
           "orientation": [
             -1,
@@ -6160,7 +6180,6 @@
               0
             ]
           },
-          "id": "cd25f",
           "isAttachedTo": "d184f",
           "orientation": [],
           "x": 1294.4567081290313,
@@ -6198,7 +6217,6 @@
               1
             ]
           },
-          "id": "e5c02",
           "isAttachedTo": "f2c4d",
           "orientation": [
             0,
@@ -6218,7 +6236,6 @@
               0.5
             ]
           },
-          "id": "a526f",
           "isAttachedTo": "e71c0",
           "orientation": [
             -1,
@@ -6263,7 +6280,6 @@
               0.5
             ]
           },
-          "id": "d7ae1",
           "isAttachedTo": "b81d4",
           "orientation": [
             1,
@@ -6283,7 +6299,6 @@
               0.5
             ]
           },
-          "id": "d2261",
           "isAttachedTo": "efab9",
           "orientation": [
             1,
@@ -6327,7 +6342,6 @@
               1
             ]
           },
-          "id": "a9f08",
           "isAttachedTo": "f40fb",
           "orientation": [
             0,
@@ -6347,7 +6361,6 @@
               0
             ]
           },
-          "id": "b3b5f",
           "isAttachedTo": "a7260",
           "orientation": [
             0,
@@ -6376,7 +6389,7 @@
       "gpmlElementName": "Interaction",
       "id": "id869de591",
       "isAttachedTo": [
-        "ae212",
+        "c33eb",
         "bc5e0"
       ],
       "kaavioType": "Edge",
@@ -6393,8 +6406,7 @@
               1
             ]
           },
-          "id": "c2b76",
-          "isAttachedTo": "ae212",
+          "isAttachedTo": "c33eb",
           "orientation": [
             0,
             1
@@ -6413,7 +6425,6 @@
               0
             ]
           },
-          "id": "c2a04",
           "isAttachedTo": "bc5e0",
           "orientation": [
             0,
@@ -6464,7 +6475,6 @@
               0.5
             ]
           },
-          "id": "b53a9",
           "isAttachedTo": "db297",
           "orientation": [
             -1,
@@ -6484,7 +6494,6 @@
               0.5
             ]
           },
-          "id": "b9fb9",
           "isAttachedTo": "ed24c",
           "orientation": [
             -1,
@@ -6534,7 +6543,6 @@
               1
             ]
           },
-          "id": "d3d2f",
           "isAttachedTo": "daa71",
           "orientation": [
             0,
@@ -6554,7 +6562,6 @@
               0
             ]
           },
-          "id": "dfd25",
           "isAttachedTo": "bc3c6",
           "orientation": [
             0,
@@ -6598,7 +6605,6 @@
               0.5
             ]
           },
-          "id": "e4dbb",
           "isAttachedTo": "af490",
           "orientation": [
             1,
@@ -6618,7 +6624,6 @@
               0.5
             ]
           },
-          "id": "cb1f1",
           "isAttachedTo": "e71c0",
           "orientation": [
             1,
@@ -6663,7 +6668,6 @@
               0.5
             ]
           },
-          "id": "b189f",
           "isAttachedTo": "cf52a",
           "orientation": [
             -1,
@@ -6684,7 +6688,6 @@
               0
             ]
           },
-          "id": "e2a21",
           "isAttachedTo": "a0cd2",
           "orientation": [],
           "x": 1951.1115458466836,
@@ -6705,7 +6708,7 @@
       "gpmlElementName": "Interaction",
       "id": "idb35d1596",
       "isAttachedTo": [
-        "f0244",
+        "a3388",
         "idfea47fd6"
       ],
       "kaavioType": "Edge",
@@ -6722,8 +6725,7 @@
               0.5
             ]
           },
-          "id": "cc9dd",
-          "isAttachedTo": "f0244",
+          "isAttachedTo": "a3388",
           "orientation": [
             1,
             0
@@ -6747,7 +6749,6 @@
               0
             ]
           },
-          "id": "b39ff",
           "isAttachedTo": "ba3d6",
           "orientation": [
             1,
@@ -6789,7 +6790,6 @@
               0.5
             ]
           },
-          "id": "a1a29",
           "isAttachedTo": "f361b",
           "orientation": [
             -1,
@@ -6810,7 +6810,6 @@
               0
             ]
           },
-          "id": "ab5a1",
           "isAttachedTo": "b694f",
           "orientation": [],
           "x": 1948.392074749046,
@@ -6848,7 +6847,6 @@
               1
             ]
           },
-          "id": "cf04f",
           "isAttachedTo": "fc5a6",
           "orientation": [
             0,
@@ -6869,7 +6867,6 @@
               0
             ]
           },
-          "id": "cad49",
           "isAttachedTo": "c16e0",
           "orientation": [],
           "x": 1707.6350687228905,
@@ -6907,7 +6904,6 @@
               1
             ]
           },
-          "id": "ffa45",
           "isAttachedTo": "f0b0a",
           "orientation": [
             0,
@@ -6917,7 +6913,6 @@
           "y": 479.07209537029416
         },
         {
-          "id": "f0892",
           "x": 1449.2952239169308,
           "y": 596.3310713658099
         },
@@ -6932,7 +6927,6 @@
               1
             ]
           },
-          "id": "bb235",
           "isAttachedTo": "b6f13",
           "orientation": [
             0,
@@ -6977,7 +6971,6 @@
               0
             ]
           },
-          "id": "e246f",
           "isAttachedTo": "d184f",
           "orientation": [],
           "x": 1294.4567081290313,
@@ -6994,7 +6987,6 @@
               0.5
             ]
           },
-          "id": "ffe17",
           "isAttachedTo": "b0f40",
           "orientation": [
             1,
@@ -7019,7 +7011,7 @@
       "id": "idbe61ba75",
       "isAttachedTo": [
         "b57a3",
-        "ae212"
+        "c33eb"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -7035,7 +7027,6 @@
               0.5
             ]
           },
-          "id": "dde3d",
           "isAttachedTo": "b57a3",
           "orientation": [
             1,
@@ -7055,8 +7046,7 @@
               0
             ]
           },
-          "id": "e6b3b",
-          "isAttachedTo": "ae212",
+          "isAttachedTo": "c33eb",
           "orientation": [
             0,
             1
@@ -7100,7 +7090,6 @@
               1
             ]
           },
-          "id": "f0d25",
           "isAttachedTo": "b6f13",
           "orientation": [
             0,
@@ -7124,7 +7113,6 @@
               0
             ]
           },
-          "id": "f01eb",
           "isAttachedTo": "c37fc",
           "orientation": [
             0,
@@ -7170,7 +7158,6 @@
               0.5
             ]
           },
-          "id": "f12b2",
           "isAttachedTo": "efab9",
           "orientation": [
             1,
@@ -7190,7 +7177,6 @@
               0.5
             ]
           },
-          "id": "fac86",
           "isAttachedTo": "af490",
           "orientation": [
             1,
@@ -7234,7 +7220,6 @@
               1
             ]
           },
-          "id": "af476",
           "isAttachedTo": "e01da",
           "orientation": [
             0,
@@ -7254,7 +7239,6 @@
               0
             ]
           },
-          "id": "dd07f",
           "isAttachedTo": "ec495",
           "orientation": [
             0,
@@ -7298,7 +7282,6 @@
               0.5
             ]
           },
-          "id": "ae1b8",
           "isAttachedTo": "f83c0",
           "orientation": [
             1,
@@ -7319,7 +7302,6 @@
               0
             ]
           },
-          "id": "adfd2",
           "isAttachedTo": "fc9b3",
           "orientation": [],
           "x": 588.4773621372532,
@@ -7357,7 +7339,6 @@
               1
             ]
           },
-          "id": "f3a4e",
           "isAttachedTo": "c37fc",
           "orientation": [
             0,
@@ -7377,7 +7358,6 @@
               0
             ]
           },
-          "id": "ddbd3",
           "isAttachedTo": "a6160",
           "orientation": [
             0,
@@ -7429,7 +7409,6 @@
               0.5
             ]
           },
-          "id": "bc3b9",
           "isAttachedTo": "a3294",
           "orientation": [
             -1,
@@ -7449,7 +7428,6 @@
               0.5
             ]
           },
-          "id": "cf3d5",
           "isAttachedTo": "db297",
           "orientation": [
             -1,
@@ -7480,8 +7458,6 @@
         "daa71"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "mim-translocation",
-      "markerStart": "mim-translocation",
       "points": [
         {
           "attachmentDisplay": {
@@ -7494,7 +7470,6 @@
               1
             ]
           },
-          "id": "b1d8e",
           "isAttachedTo": "a3294",
           "orientation": [
             0,
@@ -7514,7 +7489,6 @@
               0
             ]
           },
-          "id": "b5c51",
           "isAttachedTo": "daa71",
           "orientation": [
             0,
@@ -7556,7 +7530,6 @@
               1
             ]
           },
-          "id": "c2ebb",
           "isAttachedTo": "ad978",
           "orientation": [
             0,
@@ -7577,7 +7550,6 @@
               0
             ]
           },
-          "id": "d0b70",
           "isAttachedTo": "c46f9",
           "orientation": [],
           "x": 1916.7466190898256,
@@ -7618,7 +7590,6 @@
               0
             ]
           },
-          "id": "c0a68",
           "isAttachedTo": "b6f13",
           "orientation": [
             0,
@@ -7638,7 +7609,6 @@
               1
             ]
           },
-          "id": "aa7a6",
           "isAttachedTo": "c6246",
           "orientation": [
             0,
@@ -7683,7 +7653,6 @@
               0
             ]
           },
-          "id": "f2d08",
           "isAttachedTo": "c46f9",
           "orientation": [],
           "x": 1916.7466190898256,
@@ -7700,7 +7669,6 @@
               1
             ]
           },
-          "id": "c6eee",
           "isAttachedTo": "e0eb8",
           "orientation": [
             0,
@@ -7741,7 +7709,6 @@
               1
             ]
           },
-          "id": "bdab4",
           "isAttachedTo": "a5049",
           "orientation": [
             0,
@@ -7762,7 +7729,6 @@
               0
             ]
           },
-          "id": "f0f94",
           "isAttachedTo": "a3d55",
           "orientation": [],
           "x": 1880.7007398014139,
@@ -7800,7 +7766,6 @@
               0.5
             ]
           },
-          "id": "bf967",
           "isAttachedTo": "e42a5",
           "orientation": [
             -1,
@@ -7820,14 +7785,13 @@
               0.5
             ]
           },
-          "id": "c684e",
           "isAttachedTo": "f5882",
           "orientation": [
             -1,
             0
           ],
           "x": 695.9433962264154,
-          "y": 313.5613207547169
+          "y": 313.56132075471686
         }
       ],
       "stroke": "#000000",
@@ -7869,7 +7833,6 @@
               0
             ]
           },
-          "id": "f73c4",
           "isAttachedTo": "deae7",
           "orientation": [
             0,
@@ -7890,7 +7853,6 @@
               0
             ]
           },
-          "id": "d56c0",
           "isAttachedTo": "d184f",
           "orientation": [],
           "x": 1294.4567081290313,
@@ -7915,7 +7877,6 @@
         "d7a26"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "mim-translocation",
       "points": [
         {
           "attachmentDisplay": {
@@ -7928,7 +7889,6 @@
               0.5
             ]
           },
-          "id": "f5e48",
           "isAttachedTo": "bc5e0",
           "orientation": [
             -1,
@@ -7938,7 +7898,6 @@
           "y": 937.394122361301
         },
         {
-          "id": "ba668",
           "x": 726.8978283687376,
           "y": 983.7549367926024
         },
@@ -7953,7 +7912,6 @@
               0.5
             ]
           },
-          "id": "db642",
           "isAttachedTo": "d7a26",
           "orientation": [
             -1,
@@ -7995,7 +7953,6 @@
               0.5
             ]
           },
-          "id": "d005a",
           "isAttachedTo": "a73c9",
           "orientation": [
             1,
@@ -8016,7 +7973,6 @@
               0
             ]
           },
-          "id": "e5359",
           "isAttachedTo": "b1252",
           "orientation": [],
           "x": 1121.4754760408832,
@@ -8057,7 +8013,6 @@
               1
             ]
           },
-          "id": "ed55c",
           "isAttachedTo": "e3701",
           "orientation": [
             0,
@@ -8078,7 +8033,6 @@
               0
             ]
           },
-          "id": "ab508",
           "isAttachedTo": "f111c",
           "orientation": [],
           "x": 1812.9665399105006,
@@ -8116,7 +8070,6 @@
               0.5
             ]
           },
-          "id": "a9bd4",
           "isAttachedTo": "bc5e0",
           "orientation": [
             1,
@@ -8136,7 +8089,6 @@
               0.5
             ]
           },
-          "id": "ef553",
           "isAttachedTo": "f6cc5",
           "orientation": [
             1,
@@ -8170,8 +8122,7 @@
       "textContent": "10",
       "type": [
         "PublicationXref",
-        "PubMed:28003096",
-        "Wikidata:Q46442039"
+        "PubMed:28003096"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "28003096",
@@ -8231,8 +8182,7 @@
       "textContent": "8",
       "type": [
         "PublicationXref",
-        "PubMed:24959120",
-        "Wikidata:Q26992363"
+        "PubMed:24959120"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "24959120",
@@ -8250,8 +8200,7 @@
       "textContent": "3",
       "type": [
         "PublicationXref",
-        "PubMed:18204095",
-        "Wikidata:Q37060124"
+        "PubMed:18204095"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "18204095",
@@ -8265,11 +8214,10 @@
       "id": "publicationXrefe47",
       "source": "J Inherit Metab Dis",
       "standardName": "Choline and betaine in health and disease.",
-      "textContent": "6",
+      "textContent": "5",
       "type": [
         "PublicationXref",
-        "PubMed:20446114",
-        "Wikidata:Q37743322"
+        "PubMed:20446114"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "20446114",
@@ -8287,8 +8235,7 @@
       "textContent": "2",
       "type": [
         "PublicationXref",
-        "PubMed:17086380",
-        "Wikidata:Q28272513"
+        "PubMed:17086380"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "17086380",
@@ -8307,8 +8254,7 @@
       "textContent": "4",
       "type": [
         "PublicationXref",
-        "PubMed:20919643",
-        "Wikidata:Q24628769"
+        "PubMed:20919643"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "20919643",
@@ -8324,11 +8270,10 @@
       "id": "publicationXreffae",
       "source": "Brain Dev",
       "standardName": "Methylenetetrahydrofolate reductase (MTHFR) deficiency and infantile epilepsy.",
-      "textContent": "5",
+      "textContent": "6",
       "type": [
         "PublicationXref",
-        "PubMed:21778025",
-        "Wikidata:Q37903525"
+        "PubMed:21778025"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "21778025",
@@ -8363,7 +8308,7 @@
         "@base": "WP4288/"
       }
     ],
-    "author": "[Jessev1993, DeSl, Egonw, Khanspers, IreneHemel, Josienlandman, MaintBot, Fehrhart]",
+    "author": "[Jessev1993, DeSl, Egonw, Khanspers, IreneHemel, Josienlandman, MaintBot, Fehrhart, Eweitz]",
     "comments": [
       {
         "content": "There are currently three hypothesis for demyelination in the Central Nervous System (CNS) of methylenetetrahydrofolate reductase (MTHFR) deficient patients. These three possible mechanisms are: inadequate methionine synthesis, a deficiency of S-adenosylmethionine or accumulation of toxic intermediates from the elevated levels of homocysteine. This pathway includes all three of these possible mechanisms. This pathway was inspired by Chapter 10 of the book of Blau(ISBN 3642403360 (978-3642403361)) and the paper by Prasad et al. (2011, https://www.ncbi.nlm.nih.gov/pubmed/21778025).\r\n\r\nFor an overview of disorders related to folate metabolism and transport, please see [https://www.wikipathways.org/index.php/Pathway:WP4259].",
@@ -8486,15 +8431,15 @@
       "f6f39",
       "f83c0",
       "fc5a6",
-      "ae212",
-      "a9d3e",
+      "c33eb",
+      "dc616",
       "ed24c",
       "idb8c36096",
       "id6cf3e700",
       "daa71",
       "f361b",
       "d1235",
-      "f0244",
+      "a3388",
       "b1eb5",
       "ab4de",
       "c37fc",
@@ -8508,7 +8453,7 @@
       "b57a3",
       "e8093"
     ],
-    "dataSourceVersion": "WP4288_r124269",
+    "dataSourceVersion": "WP4288_r128288",
     "displayName": "MTHFR deficiency",
     "drawAs": "rect",
     "fill": "white",
@@ -8518,7 +8463,7 @@
     "height": 1450.966427989538,
     "id": "WP4288",
     "kaavioType": "Group",
-    "lastModified": "20221006123416",
+    "lastModified": "20240130015950",
     "name": "MTHFR deficiency",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -8527,14 +8472,14 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: MTHFR deficiency\nLast Modified: 20221006123416\nOrganism: Homo sapiens",
+    "textContent": "Name: MTHFR deficiency\nLast Modified: 20240130015950\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0000013",
-      "http://identifiers.org/pw/PW:0001693",
-      "http://identifiers.org/pw/PW:0002343",
       "http://identifiers.org/pw/PW:0001840",
-      "http://identifiers.org/pw/PW:0000140"
+      "http://identifiers.org/pw/PW:0000013",
+      "http://identifiers.org/pw/PW:0002343",
+      "http://identifiers.org/pw/PW:0000140",
+      "http://identifiers.org/pw/PW:0001693"
     ],
     "verticalAlign": "top",
     "width": 2262.1092229178735,
