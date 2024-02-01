@@ -31,50 +31,16 @@
         "DataNode",
         "SingleFreeNode",
         "WikiPathways:WP111",
-        "Pathway",
-        "Wikidata:Q28031254"
+        "Pathway"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 58,
       "wpType": "Pathway",
-      "x": 558.9259259259264,
+      "x": 368.92592592592644,
       "xrefDataSource": "WikiPathways",
       "xrefIdentifier": "WP111",
       "y": 453.19589468987016,
-      "zIndex": 32768
-    },
-    "a13b2": {
-      "drawAs": "rect",
-      "fill": "#ffffff",
-      "fontFamily": "Arial",
-      "fontSize": 12,
-      "fontStyle": "normal",
-      "fontWeight": "normal",
-      "gpmlElementName": "DataNode",
-      "height": 35.64814814814814,
-      "id": "a13b2",
-      "kaavioType": "SingleFreeNode",
-      "lineHeight": 1.1,
-      "overflow": "hidden",
-      "padding": 8,
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "textContent": "SNAP\nProteins",
-      "textDecoration": "none",
-      "textOverflow": "clip",
-      "type": [
-        "DataNode",
-        "SingleFreeNode",
-        "Protein"
-      ],
-      "verticalAlign": "middle",
-      "whiteSpace": "pre",
-      "width": 90,
-      "wpType": "Protein",
-      "x": 958.4722222222229,
-      "y": 298.23842592592604,
       "zIndex": 32768
     },
     "a14b1": {
@@ -102,19 +68,20 @@
         "SingleFreeNode",
         "ChEBI:26523",
         "Metabolite",
-        "ChEBI:CHEBI:26523",
-        "P683:26523",
-        "P683:CHEBI:26523",
-        "Wikidata:Q424361"
+        "CompactIdentifier:chebi:26523",
+        "ROS",
+        "Wikidata:Q424361",
+        "ChEBI:26523",
+        "ChEBI:26523"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 54.59874698114163,
       "wpType": "Metabolite",
-      "x": 1529.4753270929332,
+      "x": 938.9753270929332,
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "26523",
-      "y": 386.92815622115404,
+      "y": 480.92815622115404,
       "zIndex": 32808
     },
     "a1dea": {
@@ -134,7 +101,7 @@
       "stroke": "#000000",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "from Glia",
+      "textContent": "From glia",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -144,8 +111,8 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 71.62037037037004,
-      "x": 1481.964515398319,
-      "y": 181.11111111111126,
+      "x": 979.464515398319,
+      "y": 203.61111111111126,
       "zIndex": 32828
     },
     "a28fe": {
@@ -178,13 +145,14 @@
         "SingleFreeNode",
         "Enzyme Nomenclature:2.7.11.13",
         "Protein",
-        "Wikidata:Q420877\nQ14912628"
+        "CompactIdentifier:eccode:2.7.11.13",
+        "PKC"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 47,
       "wpType": "Protein",
-      "x": 494.6632083891118,
+      "x": 344.6632083891118,
       "xrefDataSource": "Enzyme Nomenclature",
       "xrefIdentifier": "2.7.11.13",
       "y": 205.5,
@@ -220,17 +188,49 @@
         "SingleFreeNode",
         "Enzyme Nomenclature:7.2.2.13",
         "Protein",
-        "Wikidata:Q59143\nQ14904836"
+        "CompactIdentifier:eccode:7.2.2.13",
+        "Na⁺/K⁺-ATPase"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 136,
       "wpType": "Protein",
-      "x": 309,
+      "x": 154,
       "xrefDataSource": "Enzyme Nomenclature",
       "xrefIdentifier": "7.2.2.13",
       "y": 377.5,
       "zIndex": 32768
+    },
+    "a35fb": {
+      "drawAs": "none",
+      "fill": "transparent",
+      "fontFamily": "Arial",
+      "fontSize": 14,
+      "fontStyle": "normal",
+      "fontWeight": "bold",
+      "gpmlElementName": "Label",
+      "height": 25,
+      "id": "a35fb",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#000000",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "textContent": "Neuron",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "Label",
+        "SingleFreeNode"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 60,
+      "x": 837,
+      "y": 698.5,
+      "zIndex": 28672
     },
     "a3a26": {
       "drawAs": "StraightLine",
@@ -238,12 +238,28 @@
       "gpmlElementName": "Interaction",
       "id": "a3a26",
       "isAttachedTo": [
+        "a8004",
         "idf089d356"
       ],
       "kaavioType": "Edge",
       "points": [
         {
-          "x": 529,
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "a8004",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 399,
           "y": 84
         },
         {
@@ -260,8 +276,8 @@
           },
           "isAttachedTo": "bec0c",
           "orientation": [],
-          "x": 623,
-          "y": 128
+          "x": 466.25,
+          "y": 151.25
         }
       ],
       "stroke": "#000000",
@@ -297,19 +313,20 @@
         "SingleFreeNode",
         "Wikidata:Q12499775",
         "Metabolite",
+        "CompactIdentifier:wikidata:Q12499775",
+        "NAD",
+        "Wikidata:Q12499775",
         "ChEBI:13389",
-        "ChEBI:CHEBI:13389",
-        "P683:13389",
-        "P683:CHEBI:13389"
+        "ChEBI:13389"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 80,
+      "width": 40,
       "wpType": "Metabolite",
-      "x": 912.8408034172352,
+      "x": 642.8408034172352,
       "xrefDataSource": "Wikidata",
       "xrefIdentifier": "Q12499775",
-      "y": 648.5611044687706,
+      "y": 614.5611044687706,
       "zIndex": 32768
     },
     "a4c84": {
@@ -327,12 +344,13 @@
       "lineHeight": 1.1,
       "overflow": "hidden",
       "padding": 8,
-      "rotation": 0,
+      "rotation": 88.4744688879693,
       "stroke": "#c0c0c0",
       "strokeWidth": 3,
       "textAlign": "center",
       "textDecoration": "none",
       "textOverflow": "clip",
+      "textRotation": -88.4744688879693,
       "type": [
         "Shape",
         "SingleFreeNode",
@@ -343,7 +361,7 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 149.23025435073623,
-      "x": 514.3128067826868,
+      "x": 324.31280678268683,
       "y": 428.1958946898707,
       "zIndex": 16384
     },
@@ -353,14 +371,30 @@
       "gpmlElementName": "Interaction",
       "id": "a547d",
       "isAttachedTo": [
+        "fd84d",
         "f7db7"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
       "points": [
         {
-          "x": 1094.7299428843437,
-          "y": 706.3726006655974
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "fd84d",
+          "orientation": [
+            0,
+            -1
+          ],
+          "x": 766.0802561390583,
+          "y": 636.3726006655974
         },
         {
           "attachmentDisplay": {
@@ -378,12 +412,12 @@
             0,
             -1
           ],
-          "x": 1201.0339598427638,
+          "x": 830.5339598427638,
           "y": 442.39111918411714
         }
       ],
       "stroke": "#000000",
-      "strokeWidth": 1,
+      "strokeWidth": 2,
       "type": [
         "Interaction",
         "Edge",
@@ -411,7 +445,7 @@
       "stroke": "#000000",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "from Glia",
+      "textContent": "From glia",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -421,8 +455,8 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 71.62037037037004,
-      "x": 1520.964515398319,
-      "y": 411.11111111111126,
+      "x": 930.964515398319,
+      "y": 501.1111111111113,
       "zIndex": 28672
     },
     "a646f": {
@@ -453,7 +487,7 @@
             0,
             -1
           ],
-          "x": 813.4259259259264,
+          "x": 633.4259259259264,
           "y": 299
         },
         {
@@ -472,12 +506,12 @@
             0,
             -1
           ],
-          "x": 813.4259259259264,
+          "x": 633.4259259259264,
           "y": 245
         }
       ],
       "stroke": "#000000",
-      "strokeWidth": 1,
+      "strokeWidth": 2,
       "type": [
         "Interaction",
         "Edge",
@@ -519,8 +553,8 @@
             1,
             0
           ],
-          "x": 661.7492190986171,
-          "y": 643.5519857206596
+          "x": 431.7492190986171,
+          "y": 597.5185185185178
         },
         {
           "attachmentDisplay": {
@@ -538,12 +572,12 @@
             1,
             0
           ],
-          "x": 810.478640601424,
-          "y": 643.5519857206597
+          "x": 557.478640601424,
+          "y": 599.5519857206597
         }
       ],
       "stroke": "#000000",
-      "strokeWidth": 1,
+      "strokeWidth": 2,
       "type": [
         "Interaction",
         "Edge"
@@ -575,21 +609,21 @@
         "SingleFreeNode",
         "Wikidata:Q26987754",
         "Metabolite",
+        "CompactIdentifier:wikidata:Q26987754",
+        "NADP",
+        "Wikidata:Q26987754",
         "ChEBI:18009",
-        "ChEBI:CHEBI:18009",
-        "P683:18009",
-        "P683:CHEBI:18009",
-        "HMDB:HMDB00217",
-        "P2057:HMDB00217"
+        "ChEBI:18009",
+        "InChI:XJLXINKUBYWONI-NNYOXOHSSA-O"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 80,
+      "width": 40,
       "wpType": "Metabolite",
-      "x": 750.2160678336742,
+      "x": 502.2160678336742,
       "xrefDataSource": "Wikidata",
       "xrefIdentifier": "Q26987754",
-      "y": 671.3263043693013,
+      "y": 622.9587229324428,
       "zIndex": 32768
     },
     "a8004": {
@@ -654,8 +688,8 @@
             -1,
             0
           ],
-          "x": 1327.457942882643,
-          "y": 114.16086568496254
+          "x": 890.957942882643,
+          "y": 94.16086568496254
         },
         {
           "attachmentDisplay": {
@@ -673,7 +707,7 @@
             -1,
             0
           ],
-          "x": 985.9259259259264,
+          "x": 795.9259259259264,
           "y": 224.7685185185185
         }
       ],
@@ -714,21 +748,21 @@
         "SingleFreeNode",
         "Wikidata:Q416554",
         "Metabolite",
-        "ChEBI:CHEBI:15551",
+        "CompactIdentifier:wikidata:Q416554",
+        "PGE2",
+        "Wikidata:Q416554",
         "ChEBI:15551",
-        "P683:CHEBI:15551",
-        "P683:15551",
-        "HMDB:HMDB01220",
-        "P2057:HMDB01220"
+        "ChEBI:15551",
+        "InChI:XEYBRNLFEZDVAW-ARSRFYASSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 64.00000000000004,
+      "width": 50,
       "wpType": "Metabolite",
-      "x": 1437.7084989661814,
+      "x": 983.2084989661814,
       "xrefDataSource": "Wikidata",
       "xrefIdentifier": "Q416554",
-      "y": 146.28966970511456,
+      "y": 126.28966970511456,
       "zIndex": 32768
     },
     "ad6c2": {
@@ -756,19 +790,20 @@
         "SingleFreeNode",
         "ChEBI:61073",
         "Metabolite",
-        "ChEBI:CHEBI:61073",
-        "P683:61073",
-        "P683:CHEBI:61073",
-        "Wikidata:Q74509640"
+        "CompactIdentifier:chebi:61073",
+        "O2- radical",
+        "Wikidata:Q74509640",
+        "ChEBI:61073",
+        "ChEBI:61073"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 90,
+      "width": 70,
       "wpType": "Metabolite",
-      "x": 281.9259259259262,
+      "x": 146.4259259259262,
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "61073",
-      "y": 718.0185185185178,
+      "y": 692.0185185185178,
       "zIndex": 32768
     },
     "ae354": {
@@ -796,22 +831,53 @@
         "SingleFreeNode",
         "Wikidata:Q245280",
         "Metabolite",
-        "ChEBI:CHEBI:17924",
+        "CompactIdentifier:wikidata:Q245280",
+        "Sorbitol",
+        "Wikidata:Q245280",
         "ChEBI:17924",
-        "P683:CHEBI:17924",
-        "P683:17924",
-        "HMDB:HMDB00247",
-        "P2057:HMDB00247"
+        "ChEBI:17924",
+        "InChI:FBPFZTCFMRRESA-JGWLITMVSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 80,
+      "width": 70,
       "wpType": "Metabolite",
-      "x": 810.478640601424,
+      "x": 557.478640601424,
       "xrefDataSource": "Wikidata",
       "xrefIdentifier": "Q245280",
-      "y": 633.5519857206597,
+      "y": 589.5519857206597,
       "zIndex": 32768
+    },
+    "ae6a2": {
+      "drawAs": "none",
+      "fill": "transparent",
+      "fontFamily": "Arial",
+      "fontSize": 14,
+      "fontStyle": "normal",
+      "fontWeight": "bold",
+      "gpmlElementName": "Label",
+      "height": 25,
+      "id": "ae6a2",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#000000",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "textContent": "Legend",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "Label",
+        "SingleFreeNode"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 90,
+      "x": 1118,
+      "y": 74.5,
+      "zIndex": 28672
     },
     "aec5f": {
       "drawAs": "rect",
@@ -839,14 +905,13 @@
         "DataNode",
         "SingleFreeNode",
         "WikiPathways:WP466",
-        "Pathway",
-        "Wikidata:Q30230922"
+        "Pathway"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 46,
       "wpType": "Pathway",
-      "x": 790.4259259259264,
+      "x": 610.4259259259264,
       "xrefDataSource": "WikiPathways",
       "xrefIdentifier": "WP466",
       "y": 448.0185185185182,
@@ -877,19 +942,20 @@
         "SingleFreeNode",
         "ChEBI:26523",
         "Metabolite",
-        "ChEBI:CHEBI:26523",
-        "P683:26523",
-        "P683:CHEBI:26523",
-        "Wikidata:Q424361"
+        "CompactIdentifier:chebi:26523",
+        "ROS",
+        "Wikidata:Q424361",
+        "ChEBI:26523",
+        "ChEBI:26523"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 58,
       "wpType": "Metabolite",
-      "x": 131.9259259259257,
+      "x": 39.425925925925696,
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "26523",
-      "y": 718.0185185185178,
+      "y": 692.0185185185178,
       "zIndex": 32779
     },
     "b04ba": {
@@ -909,7 +975,7 @@
       "stroke": "#14961e",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "Sensitization\nHyperexcitation",
+      "textContent": "Sensitization and\nhyperexcitation",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -921,7 +987,7 @@
       "whiteSpace": "pre",
       "width": 107,
       "wpType": "Pathway",
-      "x": 759.9259259259264,
+      "x": 579.9259259259264,
       "y": 212.26851851851848,
       "zIndex": 32768
     },
@@ -950,21 +1016,21 @@
         "SingleFreeNode",
         "Wikidata:Q185253",
         "Metabolite",
-        "ChEBI:CHEBI:16761",
+        "CompactIdentifier:wikidata:Q185253",
+        "ADP",
+        "Wikidata:Q185253",
         "ChEBI:16761",
-        "P683:CHEBI:16761",
-        "P683:16761",
-        "HMDB:HMDB01341",
-        "P2057:HMDB01341"
+        "ChEBI:16761",
+        "InChI:XTWYTFMLZFPYCI-KQYNXXCUSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 55.59081108147495,
       "wpType": "Metabolite",
-      "x": 422.0017815111178,
+      "x": 264.5017815111178,
       "xrefDataSource": "Wikidata",
       "xrefIdentifier": "Q185253",
-      "y": 435.50633662725414,
+      "y": 451.50633662725414,
       "zIndex": 32768
     },
     "b1112": {
@@ -992,22 +1058,54 @@
         "SingleFreeNode",
         "Wikidata:Q26841327",
         "Metabolite",
-        "ChEBI:CHEBI:16474",
+        "CompactIdentifier:wikidata:Q26841327",
+        "NADPH",
+        "Wikidata:Q26841327",
         "ChEBI:16474",
-        "P683:CHEBI:16474",
-        "P683:16474",
-        "HMDB:HMDB00221",
-        "P2057:HMDB00221"
+        "ChEBI:16474",
+        "InChI:ACFIXJIJDZMPPO-NNYOXOHSSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 80,
+      "width": 60,
       "wpType": "Metabolite",
-      "x": 652.5615609171189,
+      "x": 434.56156091711887,
       "xrefDataSource": "Wikidata",
       "xrefIdentifier": "Q26841327",
-      "y": 670.9587229324428,
+      "y": 622.9587229324428,
       "zIndex": 32768
+    },
+    "b144f": {
+      "drawAs": "rect",
+      "fill": "transparent",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "Shape",
+      "height": 35,
+      "id": "b144f",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rotation": 0,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "SNAP\nproteins",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "Shape",
+        "SingleFreeNode"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 60,
+      "x": 705,
+      "y": 298.5625000000001,
+      "zIndex": 32840
     },
     "b1f18": {
       "drawAs": "StraightLine",
@@ -1036,7 +1134,7 @@
             0,
             1
           ],
-          "x": 443,
+          "x": 313,
           "y": 84
         },
         {
@@ -1053,8 +1151,8 @@
           },
           "isAttachedTo": "bec0c",
           "orientation": [],
-          "x": 623,
-          "y": 128
+          "x": 466.25,
+          "y": 151.25
         }
       ],
       "stroke": "#000000",
@@ -1095,10 +1193,10 @@
       "whiteSpace": "pre",
       "width": 55.41666666666629,
       "wpType": "Protein",
-      "x": 634.2592592592597,
+      "x": 396.2592592592597,
       "xrefDataSource": "Wikidata",
       "xrefIdentifier": "Q97651124",
-      "y": 709.4907407407409,
+      "y": 657.4907407407409,
       "zIndex": 32768
     },
     "b3b66": {
@@ -1129,7 +1227,7 @@
             0,
             1
           ],
-          "x": 518.1632083891118,
+          "x": 368.1632083891118,
           "y": 182.58668005354744
         },
         {
@@ -1148,7 +1246,7 @@
             0,
             1
           ],
-          "x": 518.1632083891118,
+          "x": 368.1632083891118,
           "y": 205.5
         }
       ],
@@ -1192,7 +1290,7 @@
             0,
             1
           ],
-          "x": 412,
+          "x": 282,
           "y": 76.5
         },
         {
@@ -1211,7 +1309,7 @@
             0,
             1
           ],
-          "x": 507.1632083891118,
+          "x": 357.1632083891118,
           "y": 157.58668005354744
         }
       ],
@@ -1226,6 +1324,39 @@
         "DirectedInteraction"
       ],
       "zIndex": 32819
+    },
+    "b413e": {
+      "drawAs": "rect",
+      "fill": "transparent",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "Shape",
+      "height": 35,
+      "id": "b413e",
+      "isPartOf": "pvjsgeneratedidffee1",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rotation": 0,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "SNAP\nproteins",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "Shape",
+        "SingleFreeNode"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 60,
+      "x": 15.525938506879129,
+      "y": 8,
+      "zIndex": 32841
     },
     "b45d7": {
       "comments": [
@@ -1257,22 +1388,24 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000007350",
         "Protein",
-        "P594:ENSG00000007350",
+        "CompactIdentifier:ensembl:ENSG00000007350",
+        "TKR",
+        "Ensembl:ENSG00000007350",
         "Entrez Gene:8277",
-        "P351:8277",
         "HGNC:TKTL1",
-        "TKTL1",
-        "P353:TKTL1",
-        "Wikidata:Q18032794"
+        "UniProt:P51854",
+        "UniProt:H0Y808",
+        "UniProt:A2ID95",
+        "UniProt:F8WF97"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 49,
       "wpType": "Protein",
-      "x": 1327.457942882643,
+      "x": 890.957942882643,
       "xrefDataSource": "Ensembl",
       "xrefIdentifier": "ENSG00000007350",
-      "y": 102.3987059348511,
+      "y": 82.3987059348511,
       "zIndex": 32768
     },
     "b47ff": {
@@ -1303,7 +1436,7 @@
             1,
             0
           ],
-          "x": 486.15227576974564,
+          "x": 336.15227576974564,
           "y": 262.59147701918755
         },
         {
@@ -1322,7 +1455,7 @@
             1,
             0
           ],
-          "x": 759.9259259259264,
+          "x": 579.9259259259264,
           "y": 228.63425925925924
         }
       ],
@@ -1365,8 +1498,8 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 90,
-      "x": 113.8576528335563,
-      "y": 900.2621597501109,
+      "x": 21.3576528335563,
+      "y": 553.2621597501109,
       "zIndex": 28672
     },
     "b8e7c": {
@@ -1396,8 +1529,8 @@
             0,
             -1
           ],
-          "x": 952.8408034172352,
-          "y": 648.5611044687706
+          "x": 662.8408034172352,
+          "y": 614.5611044687706
         },
         {
           "attachmentDisplay": {
@@ -1413,8 +1546,8 @@
           },
           "isAttachedTo": "f7409",
           "orientation": [],
-          "x": 952.5695233463944,
-          "y": 608.4594926692239
+          "x": 675.2737957256387,
+          "y": 580.3436344700635
         }
       ],
       "stroke": "#000000",
@@ -1455,23 +1588,22 @@
         "SingleFreeNode",
         "Uniprot-TrEMBL:P35228",
         "Protein",
+        "CompactIdentifier:uniprot:P35228",
+        "INOS",
         "Ensembl:ENSG00000007171",
-        "P594:ENSG00000007171",
         "Entrez Gene:4843",
-        "P351:4843",
         "HGNC:NOS2",
-        "NOS2",
-        "P353:NOS2",
-        "Wikidata:Q21114547"
+        "UniProt:A0A2R8YDS4",
+        "UniProt:P35228"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 50,
       "wpType": "Protein",
-      "x": 1103.9351851851854,
+      "x": 746.9351851851854,
       "xrefDataSource": "Uniprot-TrEMBL",
       "xrefIdentifier": "P35228",
-      "y": 789.0740740740731,
+      "y": 723.0740740740731,
       "zIndex": 32804
     },
     "b9996": {
@@ -1502,7 +1634,7 @@
             0,
             1
           ],
-          "x": 498,
+          "x": 368,
           "y": 76.5
         },
         {
@@ -1521,7 +1653,7 @@
             0,
             1
           ],
-          "x": 518.1632083891118,
+          "x": 368.1632083891118,
           "y": 157.58668005354744
         }
       ],
@@ -1539,7 +1671,7 @@
     },
     "bb272": {
       "drawAs": "Ellipse",
-      "fill": "#ffffff",
+      "fill": "#fdcf45",
       "fontFamily": "Arial",
       "fontSize": 12,
       "fontStyle": "normal",
@@ -1564,7 +1696,7 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 210.6018518518522,
-      "x": 1261.620370370372,
+      "x": 807.620370370372,
       "y": 213.07638888888908,
       "zIndex": 16384
     },
@@ -1592,16 +1724,18 @@
         "DataNode",
         "SingleFreeNode",
         "Wikidata:Q31541104",
-        "Metabolite"
+        "Metabolite",
+        "CompactIdentifier:wikidata:Q31541104",
+        "Na+"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 44,
       "wpType": "Metabolite",
-      "x": 791.4259259259264,
+      "x": 612.6759259259264,
       "xrefDataSource": "Wikidata",
       "xrefIdentifier": "Q31541104",
-      "y": 134.01851851851865,
+      "y": 130.26851851851865,
       "zIndex": 32768
     },
     "bb35e": {
@@ -1612,7 +1746,7 @@
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
-      "height": 26.5,
+      "height": 35,
       "id": "bb35e",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
@@ -1628,24 +1762,16 @@
         "DataNode",
         "SingleFreeNode",
         "Uniprot-TrEMBL:Q00796",
-        "Protein",
-        "Ensembl:ENSG00000140263",
-        "P594:ENSG00000140263",
-        "Entrez Gene:6652",
-        "P351:6652",
-        "HGNC:SORD",
-        "SORD",
-        "P353:SORD",
-        "Wikidata:Q22680170"
+        "Protein"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 86.5,
+      "width": 95,
       "wpType": "Protein",
-      "x": 868.5,
+      "x": 588.25,
       "xrefDataSource": "Uniprot-TrEMBL",
       "xrefIdentifier": "Q00796",
-      "y": 550.5,
+      "y": 532.25,
       "zIndex": 32768
     },
     "bbc8e": {
@@ -1683,6 +1809,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "bc233",
+      "isPartOf": "pvjsgeneratedidffee0",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1702,9 +1829,42 @@
       "whiteSpace": "pre",
       "width": 47,
       "wpType": "Protein",
-      "x": 1713.9740614931209,
-      "y": 473.10028608506076,
+      "x": 62.873009729784826,
+      "y": 8,
       "zIndex": 32829
+    },
+    "bc889": {
+      "drawAs": "rect",
+      "fill": "transparent",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "Shape",
+      "height": 25,
+      "id": "bc889",
+      "isPartOf": "pvjsgeneratedidffee2",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rotation": 0,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "MMP",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "Shape",
+        "SingleFreeNode"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 60,
+      "x": 56.33060448456172,
+      "y": 8,
+      "zIndex": 32838
     },
     "bcbcf": {
       "drawAs": "StraightLine",
@@ -1725,17 +1885,17 @@
               0
             ],
             "position": [
-              0.5,
-              1
+              0,
+              0.5
             ]
           },
           "isAttachedTo": "d77f8",
           "orientation": [
-            0,
-            1
+            -1,
+            0
           ],
-          "x": 1517,
-          "y": 230.5
+          "x": 989,
+          "y": 193
         },
         {
           "attachmentDisplay": {
@@ -1744,17 +1904,17 @@
               0
             ],
             "position": [
-              1,
-              0.25
+              0.75,
+              0
             ]
           },
           "isAttachedTo": "bb272",
           "orientation": [
-            -1,
-            0
+            0,
+            1
           ],
-          "x": 1472.2222222222242,
-          "y": 264.56944444444457
+          "x": 965.5717592592612,
+          "y": 213.07638888888908
         }
       ],
       "stroke": "#000000",
@@ -1794,53 +1954,21 @@
         "SingleFreeNode",
         "ChEBI:84123",
         "Metabolite",
-        "ChEBI:CHEBI:84123",
-        "P683:84123",
-        "P683:CHEBI:84123",
-        "Wikidata:Q2556837"
+        "CompactIdentifier:chebi:84123",
+        "AGE",
+        "Wikidata:Q2556837",
+        "ChEBI:84123",
+        "ChEBI:84123"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 51.9444444444448,
+      "width": 40,
       "wpType": "Metabolite",
-      "x": 1021.7759886024198,
+      "x": 760.2482108246422,
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "84123",
       "y": 446.9907407407408,
       "zIndex": 32768
-    },
-    "bd664": {
-      "drawAs": "rect",
-      "fill": "#ffffff",
-      "fontFamily": "Arial",
-      "fontSize": 12,
-      "fontStyle": "normal",
-      "fontWeight": "normal",
-      "gpmlElementName": "DataNode",
-      "height": 35.64814814814814,
-      "id": "bd664",
-      "kaavioType": "SingleFreeNode",
-      "lineHeight": 1.1,
-      "overflow": "hidden",
-      "padding": 8,
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "textContent": "SNAP\nProteins",
-      "textDecoration": "none",
-      "textOverflow": "clip",
-      "type": [
-        "DataNode",
-        "SingleFreeNode",
-        "Protein"
-      ],
-      "verticalAlign": "middle",
-      "whiteSpace": "pre",
-      "width": 60,
-      "wpType": "Protein",
-      "x": 1707.4740614931204,
-      "y": 634.917191806143,
-      "zIndex": 32830
     },
     "bd6f9": {
       "drawAs": "rect",
@@ -1867,20 +1995,18 @@
         "SingleFreeNode",
         "ChEBI:29103",
         "Metabolite",
-        "ChEBI:CHEBI:29103",
-        "P683:29103",
-        "P683:CHEBI:29103",
-        "HMDB:HMDB0000586",
-        "HMDB:HMDB00586",
-        "P2057:HMDB0000586",
-        "P2057:HMDB00586",
-        "Wikidata:Q15901933"
+        "CompactIdentifier:chebi:29103",
+        "K+",
+        "Wikidata:Q15901933",
+        "ChEBI:29103",
+        "ChEBI:29103",
+        "InChI:NPYPAHLBTDXSSS-UHFFFAOYSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 44,
       "wpType": "Metabolite",
-      "x": 312.4734493529676,
+      "x": 157.47344935296758,
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "29103",
       "y": 313.4618473895582,
@@ -1936,20 +2062,18 @@
         "SingleFreeNode",
         "ChEBI:29103",
         "Metabolite",
-        "ChEBI:CHEBI:29103",
-        "P683:29103",
-        "P683:CHEBI:29103",
-        "HMDB:HMDB0000586",
-        "HMDB:HMDB00586",
-        "P2057:HMDB0000586",
-        "P2057:HMDB00586",
-        "Wikidata:Q15901933"
+        "CompactIdentifier:chebi:29103",
+        "K+",
+        "Wikidata:Q15901933",
+        "ChEBI:29103",
+        "ChEBI:29103",
+        "InChI:NPYPAHLBTDXSSS-UHFFFAOYSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 44,
       "wpType": "Metabolite",
-      "x": 442.15227576974564,
+      "x": 292.15227576974564,
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "29103",
       "y": 250.09147701918755,
@@ -1983,7 +2107,7 @@
             0,
             -1
           ],
-          "x": 377,
+          "x": 222,
           "y": 377.5
         },
         {
@@ -2000,7 +2124,7 @@
           },
           "isAttachedTo": "f23af",
           "orientation": [],
-          "x": 384.2597947344936,
+          "x": 229.2597947344936,
           "y": 325.9618473895582
         }
       ],
@@ -2031,25 +2155,90 @@
       "stroke": "#14961e",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "Urea Cycle",
+      "textContent": "Urea cycle",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
         "DataNode",
         "SingleFreeNode",
         "WikiPathways:WP4595",
-        "Pathway",
-        "Wikidata:Q66104024"
+        "Pathway"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 90,
       "wpType": "Pathway",
-      "x": 1016.505832449629,
+      "x": 659.505832449629,
       "xrefDataSource": "WikiPathways",
       "xrefIdentifier": "WP4595",
-      "y": 828.9634146341464,
+      "y": 772.9634146341464,
       "zIndex": 32768
+    },
+    "c286e": {
+      "drawAs": "rect",
+      "fill": "transparent",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "Shape",
+      "height": 25,
+      "id": "c286e",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rotation": 0,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "MMP",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "Shape",
+        "SingleFreeNode"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 60,
+      "x": 714,
+      "y": 354.5,
+      "zIndex": 16384
+    },
+    "c2ee2": {
+      "drawAs": "rect",
+      "fill": "transparent",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "Shape",
+      "height": 622.75,
+      "id": "c2ee2",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rotation": 0,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#a0a0a0",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "Shape",
+        "SingleFreeNode"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 195,
+      "x": 1073,
+      "y": 66,
+      "zIndex": 16384
     },
     "c355f": {
       "drawAs": "rect",
@@ -2077,12 +2266,12 @@
         "SingleFreeNode",
         "Wikidata:Q80863",
         "Metabolite",
-        "ChEBI:CHEBI:15422",
+        "CompactIdentifier:wikidata:Q80863",
+        "ATP",
+        "Wikidata:Q80863",
         "ChEBI:15422",
-        "P683:CHEBI:15422",
-        "P683:15422",
-        "HMDB:HMDB00538",
-        "P2057:HMDB00538"
+        "ChEBI:15422",
+        "InChI:ZKHQWZAMYRWXGA-KQYNXXCUSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2119,19 +2308,20 @@
         "SingleFreeNode",
         "ChEBI:26523",
         "Metabolite",
-        "ChEBI:CHEBI:26523",
-        "P683:26523",
-        "P683:CHEBI:26523",
-        "Wikidata:Q424361"
+        "CompactIdentifier:chebi:26523",
+        "ROS",
+        "Wikidata:Q424361",
+        "ChEBI:26523",
+        "ChEBI:26523"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 54.59874698114163,
       "wpType": "Metabolite",
-      "x": 777.5771789447853,
+      "x": 547.5771789447853,
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "26523",
-      "y": 766.9744525174483,
+      "y": 696.9744525174483,
       "zIndex": 32798
     },
     "c413e": {
@@ -2193,7 +2383,7 @@
             0,
             1
           ],
-          "x": 817.5,
+          "x": 632.5,
           "y": 76.5
         },
         {
@@ -2212,8 +2402,8 @@
             0,
             1
           ],
-          "x": 813.4259259259264,
-          "y": 134.01851851851865
+          "x": 634.6759259259264,
+          "y": 130.26851851851865
         }
       ],
       "stroke": "#000000",
@@ -2227,39 +2417,6 @@
         "DirectedInteraction"
       ],
       "zIndex": 32817
-    },
-    "c5636": {
-      "drawAs": "rect",
-      "fill": "#ffffff",
-      "fontFamily": "Arial",
-      "fontSize": 12,
-      "fontStyle": "normal",
-      "fontWeight": "normal",
-      "gpmlElementName": "DataNode",
-      "height": 25,
-      "id": "c5636",
-      "kaavioType": "SingleFreeNode",
-      "lineHeight": 1.1,
-      "overflow": "hidden",
-      "padding": 8,
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "textContent": "MMP",
-      "textDecoration": "none",
-      "textOverflow": "clip",
-      "type": [
-        "DataNode",
-        "SingleFreeNode",
-        "Protein"
-      ],
-      "verticalAlign": "middle",
-      "whiteSpace": "pre",
-      "width": 51.9444444444448,
-      "wpType": "Protein",
-      "x": 1492.007470083901,
-      "y": 474.0077271013947,
-      "zIndex": 32810
     },
     "c6197": {
       "drawAs": "rect",
@@ -2286,19 +2443,24 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000169432",
         "Protein",
-        "P594:ENSG00000169432",
+        "CompactIdentifier:ensembl:ENSG00000169432",
+        "Nav1.7",
+        "Ensembl:ENSG00000169432",
         "Entrez Gene:6335",
-        "P351:6335",
         "HGNC:SCN9A",
-        "SCN9A",
-        "P353:SCN9A",
-        "Wikidata:Q14907685"
+        "UniProt:A0A590UK23",
+        "UniProt:Q15858",
+        "UniProt:A0A2R8Y7G0",
+        "UniProt:A0A2R8YCX9",
+        "UniProt:A0A590UJB2",
+        "UniProt:A0A0C4DG82",
+        "UniProt:H7C064"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 57,
       "wpType": "Protein",
-      "x": 789,
+      "x": 604,
       "xrefDataSource": "Ensembl",
       "xrefIdentifier": "ENSG00000169432",
       "y": 51.5,
@@ -2332,7 +2494,7 @@
             0,
             1
           ],
-          "x": 582,
+          "x": 452,
           "y": 76.5
         },
         {
@@ -2351,7 +2513,7 @@
             0,
             1
           ],
-          "x": 529.1632083891118,
+          "x": 379.1632083891118,
           "y": 157.58668005354744
         }
       ],
@@ -2368,8 +2530,8 @@
       "zIndex": 32821
     },
     "c7cb0": {
-      "drawAs": "none",
-      "fill": "transparent",
+      "drawAs": "rect",
+      "fill": "#ffffff",
       "fontFamily": "Arial",
       "fontSize": 12,
       "fontStyle": "normal",
@@ -2381,22 +2543,27 @@
       "lineHeight": 1.1,
       "overflow": "hidden",
       "padding": 8,
+      "rx": 15,
+      "ry": 15,
       "stroke": "#14961e",
-      "strokeWidth": 0,
+      "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "Protein\nSynthesis",
+      "textContent": "Protein\nsynthesis",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
         "DataNode",
         "SingleFreeNode",
+        "WikiPathways:WP1812",
         "Pathway"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 107,
+      "width": 90,
       "wpType": "Pathway",
-      "x": 759.9259259259264,
+      "x": 588.4259259259264,
+      "xrefDataSource": "WikiPathways",
+      "xrefIdentifier": "WP1812",
       "y": 299,
       "zIndex": 32781
     },
@@ -2424,16 +2591,18 @@
         "DataNode",
         "SingleFreeNode",
         "Wikidata:Q38173",
-        "Protein"
+        "Protein",
+        "CompactIdentifier:wikidata:Q38173",
+        "GPCR"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 44.99999999999909,
       "wpType": "Protein",
-      "x": 1329.4579428826437,
+      "x": 892.9579428826437,
       "xrefDataSource": "Wikidata",
       "xrefIdentifier": "Q38173",
-      "y": 142.59259259259287,
+      "y": 122.59259259259287,
       "zIndex": 32768
     },
     "caa0a": {
@@ -2462,10 +2631,11 @@
         "SingleFreeNode",
         "ChEBI:10545",
         "Metabolite",
-        "ChEBI:CHEBI:10545",
-        "P683:10545",
-        "P683:CHEBI:10545",
-        "Wikidata:Q2225"
+        "CompactIdentifier:chebi:10545",
+        "e-",
+        "Wikidata:Q2225",
+        "ChEBI:10545",
+        "ChEBI:10545"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2501,13 +2671,15 @@
         "DataNode",
         "SingleFreeNode",
         "Wikidata:Q31541104",
-        "Metabolite"
+        "Metabolite",
+        "CompactIdentifier:wikidata:Q31541104",
+        "Na+"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 44,
       "wpType": "Metabolite",
-      "x": 312.4734493529676,
+      "x": 157.47344935296758,
       "xrefDataSource": "Wikidata",
       "xrefIdentifier": "Q31541104",
       "y": 345.4525881302989,
@@ -2539,8 +2711,8 @@
           },
           "isAttachedTo": "f7409",
           "orientation": [],
-          "x": 952.5695233463944,
-          "y": 608.4594926692239
+          "x": 675.2737957256387,
+          "y": 580.3436344700635
         },
         {
           "attachmentDisplay": {
@@ -2558,8 +2730,8 @@
             1,
             0
           ],
-          "x": 1007.7482108246418,
-          "y": 623.9314748391406
+          "x": 702.7482108246418,
+          "y": 603.9314748391406
         }
       ],
       "stroke": "#000000",
@@ -2600,14 +2772,13 @@
         "DataNode",
         "SingleFreeNode",
         "WikiPathways:WP3676",
-        "Pathway",
-        "Wikidata:Q30225415"
+        "Pathway"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 98,
+      "width": 80,
       "wpType": "Pathway",
-      "x": 1140,
+      "x": 837.5,
       "xrefDataSource": "WikiPathways",
       "xrefIdentifier": "WP3676",
       "y": 11.5,
@@ -2669,31 +2840,32 @@
         "SingleFreeNode",
         "ChEBI:61073",
         "Metabolite",
-        "ChEBI:CHEBI:61073",
-        "P683:61073",
-        "P683:CHEBI:61073",
-        "Wikidata:Q74509640"
+        "CompactIdentifier:chebi:61073",
+        "O2- radical",
+        "Wikidata:Q74509640",
+        "ChEBI:61073",
+        "ChEBI:61073"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 74.53815261044178,
+      "width": 70,
       "wpType": "Metabolite",
-      "x": 452.45872378402555,
+      "x": 264.72780008924644,
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "61073",
-      "y": 717.9368585452917,
+      "y": 691.9368585452917,
       "zIndex": 32769
     },
     "d1012": {
       "cellularComponent": "none",
       "drawAs": "rect",
-      "fill": "transparent",
+      "fill": "#ffc1a7",
       "fontFamily": "Arial",
       "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "Shape",
-      "height": 541,
+      "height": 274,
       "id": "d1012",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
@@ -2717,10 +2889,44 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 111,
-      "x": 106.42592592592575,
-      "y": 467.0185185185178,
+      "width": 85.32407407407425,
+      "x": 27.425925925925753,
+      "y": 465.5,
       "zIndex": 16384
+    },
+    "d1b81": {
+      "drawAs": "rect",
+      "fill": "#ffdddd",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "Label",
+      "height": 25,
+      "href": "https://www.wikidata.org/wiki/Q1412400",
+      "id": "d1b81",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#0000ff",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Microangiopathy",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "Label",
+        "SingleFreeNode"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 110,
+      "x": 28,
+      "y": 752.5,
+      "zIndex": 28672
     },
     "d2060": {
       "drawAs": "StraightLine",
@@ -2750,8 +2956,8 @@
             1,
             0
           ],
-          "x": 477.5925925925928,
-          "y": 445.50633662725414
+          "x": 320.0925925925928,
+          "y": 461.50633662725414
         },
         {
           "attachmentDisplay": {
@@ -2769,8 +2975,8 @@
             1,
             0
           ],
-          "x": 514.3128067826868,
-          "y": 465.1958946898707
+          "x": 359.95461480658423,
+          "y": 465.1958946898708
         }
       ],
       "stroke": "#000000",
@@ -2815,22 +3021,26 @@
         "SingleFreeNode",
         "Entrez Gene:177",
         "Protein",
+        "CompactIdentifier:ncbigene:177",
+        "RAGE",
         "Ensembl:ENSG00000204305",
-        "P594:ENSG00000204305",
-        "P351:177",
+        "Entrez Gene:177",
         "HGNC:AGER",
-        "AGER",
-        "P353:AGER",
-        "Wikidata:Q18247639"
+        "UniProt:Q5SSZ3",
+        "UniProt:Q15109",
+        "UniProt:Q5SSZ2",
+        "UniProt:B5A982",
+        "UniProt:A8MS87",
+        "UniProt:A0A1U9X785"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 50,
       "wpType": "Protein",
-      "x": 740.9259259259264,
+      "x": 552.9259259259264,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "177",
-      "y": 411.01851851851865,
+      "y": 409.01851851851865,
       "zIndex": 32768
     },
     "d77f8": {
@@ -2858,22 +3068,26 @@
         "SingleFreeNode",
         "Entrez Gene:718",
         "Protein",
-        "Ensembl:ENSG00000125730",
-        "P594:ENSG00000125730",
-        "P351:718",
-        "HGNC:C3",
+        "CompactIdentifier:ncbigene:718",
         "C3",
-        "P353:C3",
-        "Wikidata:Q14874317"
+        "Ensembl:ENSG00000125730",
+        "Entrez Gene:718",
+        "HGNC:C3",
+        "UniProt:M0QXZ3",
+        "UniProt:V9HWA9",
+        "UniProt:P01024",
+        "UniProt:M0R1Q1",
+        "UniProt:M0R0Q9",
+        "UniProt:M0QYC8"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 46,
       "wpType": "Protein",
-      "x": 1494,
+      "x": 989,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "718",
-      "y": 205.5,
+      "y": 180.5,
       "zIndex": 32768
     },
     "d793e": {
@@ -2908,7 +3122,7 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 132.5,
-      "x": 747.1759259259264,
+      "x": 567.1759259259264,
       "y": 403.51851851851865,
       "zIndex": 16384
     },
@@ -2929,23 +3143,25 @@
       "stroke": "#000000",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "cytokines",
+      "textContent": "Cytokines",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
         "DataNode",
         "SingleFreeNode",
         "Wikidata:Q212354",
-        "Protein"
+        "Protein",
+        "CompactIdentifier:wikidata:Q212354",
+        "Cytokines"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 64,
       "wpType": "Protein",
-      "x": 1437.7084989661812,
+      "x": 971.2084989661812,
       "xrefDataSource": "Wikidata",
       "xrefIdentifier": "Q212354",
-      "y": 101.66086568496254,
+      "y": 81.66086568496254,
       "zIndex": 32768
     },
     "d914b": {
@@ -2965,7 +3181,7 @@
       "stroke": "#14961e",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "ion\nimbalance",
+      "textContent": "Ion\nimbalance",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -2977,8 +3193,8 @@
       "whiteSpace": "pre",
       "width": 88.87037037036993,
       "wpType": "Unknown",
-      "x": 489.8333333333338,
-      "y": 300.2800925925927,
+      "x": 331.8333333333338,
+      "y": 308.2800925925927,
       "zIndex": 32795
     },
     "d91b5": {
@@ -2991,6 +3207,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "d91b5",
+      "isPartOf": "f66f6",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -3006,22 +3223,26 @@
         "SingleFreeNode",
         "Entrez Gene:6513",
         "Protein",
+        "CompactIdentifier:ncbigene:6513",
+        "Glut-1",
         "Ensembl:ENSG00000117394",
-        "P594:ENSG00000117394",
-        "P351:6513",
+        "Entrez Gene:6513",
         "HGNC:SLC2A1",
-        "SLC2A1",
-        "P353:SLC2A1",
-        "Wikidata:Q14904883"
+        "UniProt:P11166",
+        "UniProt:A0A6Q8PFI8",
+        "UniProt:A0A0D9SFK9",
+        "UniProt:A0A0D9SG74",
+        "UniProt:A0A1W2PQ59",
+        "UniProt:A6NL68"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 54,
       "wpType": "Protein",
-      "x": 468.00758589915284,
+      "x": 8,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "6513",
-      "y": 776.0185185185178,
+      "y": 8,
       "zIndex": 32768
     },
     "d952c": {
@@ -3041,7 +3262,7 @@
       "stroke": "#0000ff",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "glucose",
+      "textContent": "Glucose",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -3049,19 +3270,20 @@
         "SingleFreeNode",
         "Wikidata:Q37525",
         "Metabolite",
-        "ChEBI:CHEBI:17234",
+        "CompactIdentifier:wikidata:Q37525",
+        "Glucose",
+        "Wikidata:Q37525",
         "ChEBI:17234",
-        "P683:CHEBI:17234",
-        "P683:17234"
+        "ChEBI:17234"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 58,
       "wpType": "Metabolite",
-      "x": 392.9259259259262,
+      "x": 152.4259259259262,
       "xrefDataSource": "Wikidata",
       "xrefIdentifier": "Q37525",
-      "y": 857.0185185185178,
+      "y": 585.0185185185178,
       "zIndex": 32772
     },
     "da028": {
@@ -3089,8 +3311,8 @@
       ],
       "verticalAlign": "middle",
       "width": 72.72629023302602,
-      "x": 413.4340419353423,
-      "y": 484.91062298387476,
+      "x": 279.4340419353423,
+      "y": 524.9106229838748,
       "zIndex": 32768
     },
     "da7e2": {
@@ -3118,19 +3340,20 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000185313",
         "Protein",
-        "P594:ENSG00000185313",
+        "CompactIdentifier:ensembl:ENSG00000185313",
+        "Nav1.8",
+        "Ensembl:ENSG00000185313",
         "Entrez Gene:6336",
-        "P351:6336",
         "HGNC:SCN10A",
-        "SCN10A",
-        "P353:SCN10A",
-        "Wikidata:Q18031401"
+        "UniProt:A0A590UJM0",
+        "UniProt:A0A2R8Y6J6",
+        "UniProt:Q9Y5Y9"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 57,
       "wpType": "Protein",
-      "x": 846,
+      "x": 661,
       "xrefDataSource": "Ensembl",
       "xrefIdentifier": "ENSG00000185313",
       "y": 51.5,
@@ -3145,7 +3368,7 @@
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "Shape",
-      "height": 737.3888888888887,
+      "height": 671.8703703703701,
       "id": "dd492",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
@@ -3169,10 +3392,10 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 966.8554216867471,
-      "x": 388.9506916555116,
-      "y": 65.6296296296299,
-      "zIndex": 16384
+      "width": 678,
+      "x": 236,
+      "y": 63.6296296296299,
+      "zIndex": -2
     },
     "ddd0b": {
       "drawAs": "rect",
@@ -3191,7 +3414,7 @@
       "stroke": "#000000",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "Protein\nKinases",
+      "textContent": "Protein\nkinases",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -3203,7 +3426,7 @@
       "whiteSpace": "pre",
       "width": 62,
       "wpType": "Protein",
-      "x": 923.9259259259264,
+      "x": 733.9259259259264,
       "y": 207.0185185185185,
       "zIndex": 32768
     },
@@ -3240,20 +3463,22 @@
         "SingleFreeNode",
         "Uniprot-TrEMBL:Q8NER1",
         "Protein",
-        "Ensembl:ENSG00000196689",
-        "P594:ENSG00000196689",
-        "Entrez Gene:7442",
-        "P351:7442",
-        "HGNC:TRPV1",
+        "CompactIdentifier:uniprot:Q8NER1",
         "TRPV1",
-        "P353:TRPV1",
-        "Wikidata:Q413209"
+        "Ensembl:ENSG00000196689",
+        "Entrez Gene:7442",
+        "HGNC:TRPV1",
+        "UniProt:I3L1R6",
+        "UniProt:E7EQ78",
+        "UniProt:Q8NER1",
+        "UniProt:A0A3B3ISI9",
+        "UniProt:E7ESJ2"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 62,
       "wpType": "Protein",
-      "x": 381,
+      "x": 251,
       "xrefDataSource": "Uniprot-TrEMBL",
       "xrefIdentifier": "Q8NER1",
       "y": 51.5,
@@ -3287,8 +3512,8 @@
             0,
             -1
           ],
-          "x": 626.235497545739,
-          "y": 428.1958946898707
+          "x": 418.41459353379014,
+          "y": 389.62218539474304
         },
         {
           "attachmentDisplay": {
@@ -3306,12 +3531,12 @@
             1,
             0
           ],
-          "x": 759.9259259259264,
+          "x": 588.4259259259264,
           "y": 316.0625000000001
         }
       ],
       "stroke": "#000000",
-      "strokeWidth": 1,
+      "strokeWidth": 2,
       "type": [
         "Interaction",
         "Edge",
@@ -3347,20 +3572,18 @@
         "SingleFreeNode",
         "ChEBI:29103",
         "Metabolite",
-        "ChEBI:CHEBI:29103",
-        "P683:29103",
-        "P683:CHEBI:29103",
-        "HMDB:HMDB0000586",
-        "HMDB:HMDB00586",
-        "P2057:HMDB0000586",
-        "P2057:HMDB00586",
-        "Wikidata:Q15901933"
+        "CompactIdentifier:chebi:29103",
+        "K+",
+        "Wikidata:Q15901933",
+        "ChEBI:29103",
+        "ChEBI:29103",
+        "InChI:NPYPAHLBTDXSSS-UHFFFAOYSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 44,
       "wpType": "Metabolite",
-      "x": 425.9393128067826,
+      "x": 270.9393128067826,
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "29103",
       "y": 313.4618473895582,
@@ -3394,8 +3617,8 @@
             0,
             1
           ],
-          "x": 813.4259259259264,
-          "y": 159.01851851851865
+          "x": 634.6759259259264,
+          "y": 155.26851851851865
         },
         {
           "attachmentDisplay": {
@@ -3413,7 +3636,7 @@
             0,
             1
           ],
-          "x": 813.4259259259264,
+          "x": 633.4259259259264,
           "y": 212.26851851851848
         }
       ],
@@ -3457,8 +3680,8 @@
             1,
             0
           ],
-          "x": 689.675925925926,
-          "y": 726.1574074074075
+          "x": 451.675925925926,
+          "y": 674.1574074074075
         },
         {
           "attachmentDisplay": {
@@ -3476,12 +3699,12 @@
             0,
             1
           ],
-          "x": 791.2268656900707,
-          "y": 766.9744525174483
+          "x": 561.2268656900707,
+          "y": 696.9744525174483
         }
       ],
       "stroke": "#000000",
-      "strokeWidth": 1,
+      "strokeWidth": 2,
       "type": [
         "Interaction",
         "Edge",
@@ -3509,7 +3732,7 @@
       "stroke": "#0000ff",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "glucose",
+      "textContent": "Glucose",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -3517,19 +3740,20 @@
         "SingleFreeNode",
         "Wikidata:Q37525",
         "Metabolite",
-        "ChEBI:CHEBI:17234",
+        "CompactIdentifier:wikidata:Q37525",
+        "Glucose",
+        "Wikidata:Q37525",
         "ChEBI:17234",
-        "P683:CHEBI:17234",
-        "P683:17234"
+        "ChEBI:17234"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 58,
       "wpType": "Metabolite",
-      "x": 131.9259259259257,
+      "x": 39.425925925925696,
       "xrefDataSource": "Wikidata",
       "xrefIdentifier": "Q37525",
-      "y": 857.0185185185178,
+      "y": 585.0185185185178,
       "zIndex": 32771
     },
     "e38ea": {
@@ -3557,21 +3781,21 @@
         "SingleFreeNode",
         "Wikidata:Q26987453",
         "Metabolite",
+        "CompactIdentifier:wikidata:Q26987453",
+        "NADH",
+        "Wikidata:Q26987453",
         "ChEBI:16908",
-        "ChEBI:CHEBI:16908",
-        "P683:16908",
-        "P683:CHEBI:16908",
-        "HMDB:HMDB01487",
-        "P2057:HMDB01487"
+        "ChEBI:16908",
+        "InChI:BOPGDPNILDQYTO-NNYOXOHSSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 80,
+      "width": 50,
       "wpType": "Metabolite",
-      "x": 1007.7482108246418,
+      "x": 702.7482108246418,
       "xrefDataSource": "Wikidata",
       "xrefIdentifier": "Q26987453",
-      "y": 613.9314748391406,
+      "y": 593.9314748391406,
       "zIndex": 32768
     },
     "e3e66": {
@@ -3602,7 +3826,7 @@
             0,
             1
           ],
-          "x": 1097,
+          "x": 797,
           "y": 76.5
         },
         {
@@ -3621,7 +3845,7 @@
             0,
             1
           ],
-          "x": 840.1759259259264,
+          "x": 660.1759259259264,
           "y": 212.26851851851848
         }
       ],
@@ -3637,46 +3861,13 @@
       ],
       "zIndex": 32826
     },
-    "e4067": {
-      "drawAs": "rect",
-      "fill": "#ffffff",
-      "fontFamily": "Arial",
-      "fontSize": 12,
-      "fontStyle": "normal",
-      "fontWeight": "normal",
-      "gpmlElementName": "DataNode",
-      "height": 25,
-      "id": "e4067",
-      "kaavioType": "SingleFreeNode",
-      "lineHeight": 1.1,
-      "overflow": "hidden",
-      "padding": 8,
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "textContent": "MMP",
-      "textDecoration": "none",
-      "textOverflow": "clip",
-      "type": [
-        "DataNode",
-        "SingleFreeNode",
-        "Protein"
-      ],
-      "verticalAlign": "middle",
-      "whiteSpace": "pre",
-      "width": 51.9444444444448,
-      "wpType": "Protein",
-      "x": 1040.1926552690863,
-      "y": 354.7685185185191,
-      "zIndex": 32807
-    },
     "e6087": {
       "drawAs": "StraightLine",
       "fill": "none",
       "gpmlElementName": "Interaction",
       "id": "e6087",
       "isAttachedTo": [
-        "a13b2",
+        "b144f",
         "bb272"
       ],
       "kaavioType": "Edge",
@@ -3693,12 +3884,12 @@
               0.5
             ]
           },
-          "isAttachedTo": "a13b2",
+          "isAttachedTo": "b144f",
           "orientation": [
             1,
             0
           ],
-          "x": 1048.4722222222229,
+          "x": 765,
           "y": 316.0625000000001
         },
         {
@@ -3717,7 +3908,7 @@
             1,
             0
           ],
-          "x": 1261.620370370372,
+          "x": 807.620370370372,
           "y": 316.0625000000001
         }
       ],
@@ -3746,7 +3937,7 @@
       "stroke": "#0000ff",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "glucose",
+      "textContent": "Glucose",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -3754,20 +3945,46 @@
         "SingleFreeNode",
         "Wikidata:Q37525",
         "Metabolite",
-        "ChEBI:CHEBI:17234",
+        "CompactIdentifier:wikidata:Q37525",
+        "Glucose",
+        "Wikidata:Q37525",
         "ChEBI:17234",
-        "P683:CHEBI:17234",
-        "P683:17234"
+        "ChEBI:17234"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 58,
       "wpType": "Metabolite",
-      "x": 603.7492190986171,
+      "x": 373.7492190986171,
       "xrefDataSource": "Wikidata",
       "xrefIdentifier": "Q37525",
-      "y": 631.0519857206596,
+      "y": 585.0185185185178,
       "zIndex": 32773
+    },
+    "e6ae0": {
+      "attachmentDisplay": {
+        "offset": [
+          0,
+          0
+        ],
+        "position": [
+          0.15811629543110267,
+          0
+        ]
+      },
+      "drawAs": "none",
+      "gpmlElementName": "Anchor",
+      "height": 0,
+      "id": "e6ae0",
+      "isAttachedTo": "e9e3a",
+      "kaavioType": "Burr",
+      "strokeWidth": 0,
+      "type": [
+        "Anchor",
+        "Burr"
+      ],
+      "width": 0,
+      "zIndex": 12288
     },
     "e8394": {
       "drawAs": "rect",
@@ -3794,19 +4011,20 @@
         "SingleFreeNode",
         "Wikidata:Q61738075",
         "Metabolite",
-        "ChEBI:CHEBI:28757",
+        "CompactIdentifier:wikidata:Q61738075",
+        "Fructose",
+        "Wikidata:Q61738075",
         "ChEBI:28757",
-        "P683:CHEBI:28757",
-        "P683:28757"
+        "ChEBI:28757"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 80,
+      "width": 60,
       "wpType": "Metabolite",
-      "x": 1007.7482108246418,
+      "x": 717.7482108246418,
       "xrefDataSource": "Wikidata",
       "xrefIdentifier": "Q61738075",
-      "y": 567.2736305697742,
+      "y": 553.2736305697742,
       "zIndex": 32768
     },
     "e978f": {
@@ -3843,11 +4061,14 @@
       "whiteSpace": "pre",
       "width": 62,
       "wpType": "Protein",
-      "x": 1066,
+      "x": 766,
       "y": 51.5,
       "zIndex": 32816
     },
     "e9e3a": {
+      "burrs": [
+        "e6ae0"
+      ],
       "drawAs": "StraightLine",
       "fill": "none",
       "gpmlElementName": "Interaction",
@@ -3875,8 +4096,8 @@
             1,
             0
           ],
-          "x": 450.9259259259262,
-          "y": 869.5185185185178
+          "x": 210.4259259259262,
+          "y": 597.5185185185178
         },
         {
           "attachmentDisplay": {
@@ -3885,21 +4106,21 @@
               0
             ],
             "position": [
-              0.5,
-              1
+              0,
+              0.5
             ]
           },
           "isAttachedTo": "e6a15",
           "orientation": [
-            0,
-            -1
+            1,
+            0
           ],
-          "x": 632.7492190986171,
-          "y": 656.0519857206596
+          "x": 373.7492190986171,
+          "y": 597.5185185185178
         }
       ],
       "stroke": "#000000",
-      "strokeWidth": 1,
+      "strokeWidth": 2,
       "type": [
         "Interaction",
         "Edge",
@@ -3916,7 +4137,7 @@
       "fontFamily": "Arial",
       "fontSize": 12,
       "fontStyle": "normal",
-      "fontWeight": "normal",
+      "fontWeight": "bold",
       "gpmlElementName": "Label",
       "height": 37.96296296296306,
       "id": "ebcc6",
@@ -3937,7 +4158,7 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 90,
-      "x": 1319.5833333333342,
+      "x": 864.5833333333342,
       "y": 297.0810185185186,
       "zIndex": 28672
     },
@@ -3969,7 +4190,7 @@
             -1,
             0
           ],
-          "x": 923.9259259259264,
+          "x": 733.9259259259264,
           "y": 224.7685185185185
         },
         {
@@ -3988,7 +4209,7 @@
             -1,
             0
           ],
-          "x": 866.9259259259264,
+          "x": 686.9259259259264,
           "y": 228.63425925925924
         }
       ],
@@ -4057,8 +4278,8 @@
             1,
             0
           ],
-          "x": 189.9259259259257,
-          "y": 869.5185185185178
+          "x": 97.4259259259257,
+          "y": 597.5185185185178
         },
         {
           "attachmentDisplay": {
@@ -4076,12 +4297,12 @@
             1,
             0
           ],
-          "x": 392.9259259259262,
-          "y": 869.5185185185178
+          "x": 152.4259259259262,
+          "y": 597.5185185185178
         }
       ],
       "stroke": "#000000",
-      "strokeWidth": 1,
+      "strokeWidth": 2,
       "type": [
         "Interaction",
         "Edge",
@@ -4116,13 +4337,15 @@
         "DataNode",
         "SingleFreeNode",
         "Wikidata:Q31541104",
-        "Metabolite"
+        "Metabolite",
+        "CompactIdentifier:wikidata:Q31541104",
+        "Na+"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 44,
       "wpType": "Metabolite",
-      "x": 425.9393128067826,
+      "x": 270.9393128067826,
       "xrefDataSource": "Wikidata",
       "xrefIdentifier": "Q31541104",
       "y": 345.4525881302989,
@@ -4186,7 +4409,7 @@
       "fontStyle": "normal",
       "fontWeight": "bold",
       "gpmlElementName": "Label",
-      "height": 25,
+      "height": 30,
       "id": "f3817",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
@@ -4195,7 +4418,7 @@
       "stroke": "#000000",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "Blood Vessel",
+      "textContent": "Blood \nvessel",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -4204,43 +4427,39 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 99.27097278000883,
-      "x": 113.69199018295399,
-      "y": 431.19310575635797,
+      "width": 60,
+      "x": 38.8274765729584,
+      "y": 477.6931057563579,
       "zIndex": 32785
     },
-    "f4fc8": {
+    "f66f6": {
+      "contains": [
+        "d91b5",
+        "ffedf"
+      ],
       "drawAs": "none",
       "fill": "transparent",
-      "fontFamily": "Arial",
-      "fontSize": 12,
-      "fontStyle": "normal",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
       "fontWeight": "bold",
-      "gpmlElementName": "DataNode",
-      "height": 25,
-      "id": "f4fc8",
-      "kaavioType": "SingleFreeNode",
-      "lineHeight": 1.1,
-      "overflow": "hidden",
+      "gpmlElementName": "Group",
+      "height": 66.32262382864792,
+      "id": "f66f6",
+      "kaavioType": "Group",
       "padding": 8,
-      "stroke": "#14961e",
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "Microangiopathy",
-      "textDecoration": "none",
-      "textOverflow": "clip",
       "type": [
-        "DataNode",
-        "SingleFreeNode",
-        "Pathway"
+        "Group",
+        "GroupGroup"
       ],
       "verticalAlign": "middle",
-      "whiteSpace": "pre",
-      "width": 129.15436241610632,
-      "wpType": "Pathway",
-      "x": 164.6682060082243,
-      "y": 1025.9880678568109,
-      "zIndex": 32784
+      "width": 70,
+      "x": 201.8,
+      "y": 494.2685185185178,
+      "zIndex": 32768
     },
     "f671e": {
       "drawAs": "rect",
@@ -4267,20 +4486,18 @@
         "SingleFreeNode",
         "ChEBI:29108",
         "Metabolite",
-        "ChEBI:CHEBI:29108",
-        "P683:29108",
-        "P683:CHEBI:29108",
-        "HMDB:HMDB0000464",
-        "HMDB:HMDB00464",
-        "P2057:HMDB0000464",
-        "P2057:HMDB00464",
-        "Wikidata:Q23905776"
+        "CompactIdentifier:chebi:29108",
+        "Ca2+",
+        "Wikidata:Q23905776",
+        "ChEBI:29108",
+        "ChEBI:29108",
+        "InChI:BHPQYMZQTOCNFJ-UHFFFAOYSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 44,
       "wpType": "Metabolite",
-      "x": 496.1632083891118,
+      "x": 346.1632083891118,
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "29108",
       "y": 157.58668005354744,
@@ -4339,7 +4556,7 @@
             0,
             1
           ],
-          "x": 874.5,
+          "x": 689.5,
           "y": 76.5
         },
         {
@@ -4358,8 +4575,8 @@
             0,
             1
           ],
-          "x": 824.4259259259264,
-          "y": 134.01851851851865
+          "x": 645.6759259259264,
+          "y": 130.26851851851865
         }
       ],
       "stroke": "#000000",
@@ -4431,9 +4648,9 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 54.59874698114163,
+      "width": 40,
       "wpType": "Metabolite",
-      "x": 1173.734586352193,
+      "x": 810.5339598427638,
       "y": 422.39111918411714,
       "zIndex": 32803
     },
@@ -4466,16 +4683,17 @@
         "SingleFreeNode",
         "ChEBI:84123",
         "Metabolite",
-        "ChEBI:CHEBI:84123",
-        "P683:84123",
-        "P683:CHEBI:84123",
-        "Wikidata:Q2556837"
+        "CompactIdentifier:chebi:84123",
+        "AGE",
+        "Wikidata:Q2556837",
+        "ChEBI:84123",
+        "ChEBI:84123"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 51.9444444444448,
       "wpType": "Metabolite",
-      "x": 678.7667293431599,
+      "x": 468.7667293431599,
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "84123",
       "y": 445.41666666666714,
@@ -4514,20 +4732,19 @@
         "SingleFreeNode",
         "Uniprot-TrEMBL:O75762",
         "Protein",
-        "Ensembl:ENSG00000104321",
-        "P594:ENSG00000104321",
-        "Entrez Gene:8989",
-        "P351:8989",
-        "HGNC:TRPA1",
+        "CompactIdentifier:uniprot:O75762",
         "TRPA1",
-        "P353:TRPA1",
-        "Wikidata:Q7834290"
+        "Ensembl:ENSG00000104321",
+        "Entrez Gene:8989",
+        "HGNC:TRPA1",
+        "UniProt:O75762",
+        "UniProt:H0YAW0"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 62,
       "wpType": "Protein",
-      "x": 467,
+      "x": 337,
       "xrefDataSource": "Uniprot-TrEMBL",
       "xrefIdentifier": "O75762",
       "y": 51.5,
@@ -4558,19 +4775,25 @@
         "SingleFreeNode",
         "Ensembl:ENSG00000196876",
         "Protein",
-        "P594:ENSG00000196876",
+        "CompactIdentifier:ensembl:ENSG00000196876",
+        "Nav1.6",
+        "Ensembl:ENSG00000196876",
         "Entrez Gene:6334",
-        "P351:6334",
         "HGNC:SCN8A",
-        "SCN8A",
-        "P353:SCN8A",
-        "Wikidata:Q18031400"
+        "UniProt:A0A590UJP2",
+        "UniProt:A0A1W2PQI5",
+        "UniProt:A0A590UK68",
+        "UniProt:A0A1B0GVD4",
+        "UniProt:A0A1B0GVM8",
+        "UniProt:Q9UQD0",
+        "UniProt:F8W0Q0",
+        "UniProt:A0A590UK43"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 57,
       "wpType": "Protein",
-      "x": 732,
+      "x": 547,
       "xrefDataSource": "Ensembl",
       "xrefIdentifier": "ENSG00000196876",
       "y": 51.5,
@@ -4604,8 +4827,8 @@
             1,
             0
           ],
-          "x": 189.9259259259257,
-          "y": 730.5185185185178
+          "x": 97.4259259259257,
+          "y": 704.5185185185178
         },
         {
           "attachmentDisplay": {
@@ -4623,8 +4846,8 @@
             1,
             0
           ],
-          "x": 281.9259259259262,
-          "y": 730.5185185185178
+          "x": 146.4259259259262,
+          "y": 704.5185185185178
         }
       ],
       "stroke": "#000000",
@@ -4664,23 +4887,21 @@
         "SingleFreeNode",
         "ChEBI:16480",
         "Metabolite",
-        "ChEBI:CHEBI:16480",
-        "P683:16480",
-        "P683:CHEBI:16480",
-        "HMDB:HMDB0003378",
-        "HMDB:HMDB03378",
-        "P2057:HMDB0003378",
-        "P2057:HMDB03378",
-        "Wikidata:Q207843"
+        "CompactIdentifier:chebi:16480",
+        "NO",
+        "Wikidata:Q207843",
+        "ChEBI:16480",
+        "ChEBI:16480",
+        "InChI:MWUXSHHQAYIFBG-UHFFFAOYSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 54.59874698114163,
       "wpType": "Metabolite",
-      "x": 1053.7808826484875,
+      "x": 738.7808826484875,
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "16480",
-      "y": 706.3726006655974,
+      "y": 636.3726006655974,
       "zIndex": 32802
     },
     "fe1ae": {
@@ -4719,13 +4940,14 @@
         "SingleFreeNode",
         "InterPro:IPR018882",
         "Protein",
-        "Wikidata:Q24774792\nQ83141738"
+        "CompactIdentifier:interpro:IPR018882",
+        "NMDA"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 62,
       "wpType": "Protein",
-      "x": 551,
+      "x": 421,
       "xrefDataSource": "InterPro",
       "xrefIdentifier": "IPR018882",
       "y": 51.5,
@@ -4756,22 +4978,23 @@
         "SingleFreeNode",
         "Entrez Gene:627",
         "Protein",
-        "Ensembl:ENSG00000176697",
-        "P594:ENSG00000176697",
-        "P351:627",
-        "HGNC:BDNF",
+        "CompactIdentifier:ncbigene:627",
         "BDNF",
-        "P353:BDNF",
-        "Wikidata:Q14863330"
+        "Ensembl:ENSG00000176697",
+        "Entrez Gene:627",
+        "HGNC:BDNF",
+        "UniProt:P23560",
+        "UniProt:A0A0E3SU01",
+        "UniProt:E9PMP3"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 58,
       "wpType": "Protein",
-      "x": 1068,
+      "x": 768,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "627",
-      "y": 0.5,
+      "y": 4.5,
       "zIndex": 32768
     },
     "ffedf": {
@@ -4784,6 +5007,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "ffedf",
+      "isPartOf": "f66f6",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -4799,22 +5023,23 @@
         "SingleFreeNode",
         "Entrez Gene:6515",
         "Protein",
+        "CompactIdentifier:ncbigene:6515",
+        "Glut-3",
         "Ensembl:ENSG00000059804",
-        "P594:ENSG00000059804",
-        "P351:6515",
+        "Entrez Gene:6515",
         "HGNC:SLC2A3",
-        "SLC2A3",
-        "P353:SLC2A3",
-        "Wikidata:Q18031526"
+        "UniProt:F5GYR5",
+        "UniProt:P11169",
+        "UniProt:F5GYX0"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 54,
       "wpType": "Protein",
-      "x": 507.3623382418566,
+      "x": 8,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "6515",
-      "y": 798.3411423471657,
+      "y": 33.32262382864792,
       "zIndex": 32770
     },
     "http://identifiers.org/cl/CL:0000540": {
@@ -4826,6 +5051,16 @@
         "openControlledVocabulary"
       ],
       "xrefIdentifier": "CL:0000540"
+    },
+    "http://identifiers.org/doid/DOID:0112313": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/doid/DOID:0112313",
+      "ontology": "Disease",
+      "term": "brain small vessel disease",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "DOID:0112313"
     },
     "http://identifiers.org/doid/DOID:4195": {
       "gpmlElementName": "openControlledVocabulary",
@@ -4883,8 +5118,8 @@
           },
           "isAttachedTo": "f6aed",
           "orientation": [],
-          "x": 733.5327311571743,
-          "y": 643.5519857206596
+          "x": 492.4318960926363,
+          "y": 598.4999613020015
         },
         {
           "attachmentDisplay": {
@@ -4902,8 +5137,8 @@
             0,
             1
           ],
-          "x": 790.2160678336742,
-          "y": 671.3263043693013
+          "x": 522.2160678336742,
+          "y": 622.9587229324428
         }
       ],
       "stroke": "#000000",
@@ -4946,8 +5181,8 @@
             0,
             -1
           ],
-          "x": 1128.9351851851854,
-          "y": 789.0740740740731
+          "x": 771.9351851851854,
+          "y": 723.0740740740731
         },
         {
           "attachmentDisplay": {
@@ -4965,8 +5200,8 @@
             0,
             -1
           ],
-          "x": 1094.7299428843437,
-          "y": 726.3726006655974
+          "x": 779.7299428843437,
+          "y": 656.3726006655974
         }
       ],
       "stroke": "#000000",
@@ -5008,8 +5243,8 @@
             0,
             1
           ],
-          "x": 449.7971870518553,
-          "y": 532.169882243134
+          "x": 315.7971870518553,
+          "y": 572.169882243134
         },
         {
           "attachmentDisplay": {
@@ -5025,8 +5260,8 @@
           },
           "isAttachedTo": "ef332",
           "orientation": [],
-          "x": 550.7312021919108,
-          "y": 734.84478050054
+          "x": 354.8883492310785,
+          "y": 704.6772129604784
         }
       ],
       "stroke": "#000000",
@@ -5068,8 +5303,8 @@
             1,
             0
           ],
-          "x": 890.478640601424,
-          "y": 643.5519857206597
+          "x": 627.478640601424,
+          "y": 599.5519857206597
         },
         {
           "attachmentDisplay": {
@@ -5087,12 +5322,12 @@
             1,
             0
           ],
-          "x": 1007.7482108246418,
-          "y": 577.2736305697742
+          "x": 717.7482108246418,
+          "y": 563.2736305697742
         }
       ],
       "stroke": "#000000",
-      "strokeWidth": 1,
+      "strokeWidth": 2,
       "type": [
         "Interaction",
         "Edge",
@@ -5130,7 +5365,7 @@
             -1,
             0
           ],
-          "x": 1021.7759886024198,
+          "x": 760.2482108246422,
           "y": 459.4907407407408
         },
         {
@@ -5149,12 +5384,12 @@
             -1,
             0
           ],
-          "x": 878.1759259259264,
+          "x": 698.1759259259264,
           "y": 459.7685185185187
         }
       ],
       "stroke": "#000000",
-      "strokeWidth": 1,
+      "strokeWidth": 2,
       "type": [
         "Interaction",
         "Edge",
@@ -5193,8 +5428,8 @@
             0,
             1
           ],
-          "x": 1097,
-          "y": 25.5
+          "x": 797,
+          "y": 29.5
         },
         {
           "attachmentDisplay": {
@@ -5212,7 +5447,7 @@
             0,
             1
           ],
-          "x": 1097,
+          "x": 797,
           "y": 51.5
         }
       ],
@@ -5251,7 +5486,7 @@
             0,
             1
           ],
-          "x": 613,
+          "x": 483,
           "y": 84
         },
         {
@@ -5268,8 +5503,8 @@
           },
           "isAttachedTo": "bec0c",
           "orientation": [],
-          "x": 623,
-          "y": 128
+          "x": 466.25,
+          "y": 151.25
         }
       ],
       "stroke": "#000000",
@@ -5307,8 +5542,8 @@
             0,
             -1
           ],
-          "x": 692.5615609171189,
-          "y": 670.9587229324428
+          "x": 464.56156091711887,
+          "y": 622.9587229324428
         },
         {
           "attachmentDisplay": {
@@ -5324,8 +5559,8 @@
           },
           "isAttachedTo": "f6aed",
           "orientation": [],
-          "x": 733.5327311571743,
-          "y": 643.5519857206596
+          "x": 492.4318960926363,
+          "y": 598.4999613020015
         }
       ],
       "stroke": "#000000",
@@ -5364,7 +5599,7 @@
             0,
             -1
           ],
-          "x": 813.4259259259264,
+          "x": 633.4259259259264,
           "y": 405.0185185185187
         },
         {
@@ -5383,12 +5618,12 @@
             0,
             -1
           ],
-          "x": 813.4259259259264,
+          "x": 633.4259259259264,
           "y": 333.1250000000002
         }
       ],
       "stroke": "#000000",
-      "strokeWidth": 1,
+      "strokeWidth": 2,
       "type": [
         "Interaction",
         "Edge",
@@ -5427,8 +5662,8 @@
             0,
             -1
           ],
-          "x": 632.7492190986171,
-          "y": 631.0519857206596
+          "x": 402.7492190986171,
+          "y": 585.0185185185178
         },
         {
           "attachmentDisplay": {
@@ -5446,12 +5681,12 @@
             0,
             -1
           ],
-          "x": 588.927933958055,
-          "y": 502.1958946898707
+          "x": 398.92793395805484,
+          "y": 540.7696039849985
         }
       ],
       "stroke": "#000000",
-      "strokeWidth": 1,
+      "strokeWidth": 2,
       "type": [
         "Interaction",
         "Edge",
@@ -5490,8 +5725,8 @@
             1,
             0
           ],
-          "x": 663.5430611334231,
-          "y": 465.1958946898707
+          "x": 437.90125310952544,
+          "y": 465.1958946898708
         },
         {
           "attachmentDisplay": {
@@ -5509,7 +5744,7 @@
             1,
             0
           ],
-          "x": 678.7667293431599,
+          "x": 468.7667293431599,
           "y": 457.91666666666714
         }
       ],
@@ -5553,8 +5788,8 @@
             -1,
             0
           ],
-          "x": 1437.7084989661814,
-          "y": 155.09259259259287
+          "x": 983.2084989661814,
+          "y": 135.09259259259287
         },
         {
           "attachmentDisplay": {
@@ -5572,8 +5807,8 @@
             -1,
             0
           ],
-          "x": 1374.4579428826428,
-          "y": 155.09259259259287
+          "x": 937.9579428826428,
+          "y": 135.09259259259287
         }
       ],
       "stroke": "#000000",
@@ -5616,7 +5851,7 @@
             -1,
             0
           ],
-          "x": 494.6632083891118,
+          "x": 344.6632083891118,
           "y": 218
         },
         {
@@ -5635,7 +5870,7 @@
             0,
             1
           ],
-          "x": 411,
+          "x": 256,
           "y": 377.5
         }
       ],
@@ -5679,8 +5914,8 @@
             -1,
             0
           ],
-          "x": 514.3128067826868,
-          "y": 483.6958946898707
+          "x": 359.95461480658423,
+          "y": 502.98274933743465
         },
         {
           "attachmentDisplay": {
@@ -5689,17 +5924,17 @@
               0
             ],
             "position": [
-              1,
-              0.25
+              0.5,
+              0
             ]
           },
           "isAttachedTo": "da028",
           "orientation": [
-            -1,
-            0
+            0,
+            1
           ],
-          "x": 486.1603321683683,
-          "y": 498.72543779868965
+          "x": 315.7971870518553,
+          "y": 524.9106229838749
         }
       ],
       "stroke": "#000000",
@@ -5721,7 +5956,7 @@
       "id": "id5f2f6416",
       "isAttachedTo": [
         "c7cb0",
-        "a13b2"
+        "b144f"
       ],
       "kaavioType": "Edge",
       "markerEnd": "MimInhibition",
@@ -5742,7 +5977,7 @@
             1,
             0
           ],
-          "x": 866.9259259259264,
+          "x": 678.4259259259264,
           "y": 316.0625000000001
         },
         {
@@ -5756,12 +5991,12 @@
               0.5
             ]
           },
-          "isAttachedTo": "a13b2",
+          "isAttachedTo": "b144f",
           "orientation": [
             1,
             0
           ],
-          "x": 958.4722222222229,
+          "x": 705,
           "y": 316.0625000000001
         }
       ],
@@ -5804,7 +6039,7 @@
             1,
             0
           ],
-          "x": 356.4734493529676,
+          "x": 201.47344935296758,
           "y": 325.9618473895582
         },
         {
@@ -5823,7 +6058,7 @@
             1,
             0
           ],
-          "x": 425.9393128067826,
+          "x": 270.9393128067826,
           "y": 325.9618473895582
         }
       ],
@@ -5864,8 +6099,8 @@
           },
           "isAttachedTo": "bbc8e",
           "orientation": [],
-          "x": 1190.8451360999563,
-          "y": 158.40392681838495
+          "x": 852.9451360999564,
+          "y": 146.40392681838495
         },
         {
           "attachmentDisplay": {
@@ -5883,8 +6118,8 @@
             1,
             0
           ],
-          "x": 1329.4579428826437,
-          "y": 155.09259259259287
+          "x": 892.9579428826437,
+          "y": 135.09259259259287
         }
       ],
       "stroke": "#000000",
@@ -5923,8 +6158,8 @@
             0,
             -1
           ],
-          "x": 1047.7482108246418,
-          "y": 567.2736305697742
+          "x": 747.7482108246418,
+          "y": 553.2736305697742
         },
         {
           "attachmentDisplay": {
@@ -5942,12 +6177,12 @@
             0,
             -1
           ],
-          "x": 1047.7482108246422,
+          "x": 780.2482108246422,
           "y": 471.9907407407408
         }
       ],
       "stroke": "#000000",
-      "strokeWidth": 1,
+      "strokeWidth": 2,
       "type": [
         "Interaction",
         "Edge",
@@ -5986,7 +6221,7 @@
             0,
             -1
           ],
-          "x": 447.9393128067826,
+          "x": 292.9393128067826,
           "y": 313.4618473895582
         },
         {
@@ -6005,7 +6240,7 @@
             0,
             -1
           ],
-          "x": 464.15227576974564,
+          "x": 314.15227576974564,
           "y": 275.09147701918755
         }
       ],
@@ -6027,7 +6262,7 @@
       "gpmlElementName": "Interaction",
       "id": "id72a46087",
       "isAttachedTo": [
-        "e4067",
+        "c286e",
         "bb272"
       ],
       "kaavioType": "Edge",
@@ -6044,13 +6279,13 @@
               0.5
             ]
           },
-          "isAttachedTo": "e4067",
+          "isAttachedTo": "c286e",
           "orientation": [
             1,
             0
           ],
-          "x": 1092.1370997135311,
-          "y": 367.2685185185191
+          "x": 774,
+          "y": 367
         },
         {
           "attachmentDisplay": {
@@ -6068,7 +6303,7 @@
             1,
             0
           ],
-          "x": 1261.620370370372,
+          "x": 807.620370370372,
           "y": 367.55555555555566
         }
       ],
@@ -6108,7 +6343,7 @@
             0,
             1
           ],
-          "x": 760.5,
+          "x": 575.5,
           "y": 76.5
         },
         {
@@ -6127,8 +6362,8 @@
             0,
             1
           ],
-          "x": 802.4259259259264,
-          "y": 134.01851851851865
+          "x": 623.6759259259264,
+          "y": 130.26851851851865
         }
       ],
       "stroke": "#000000",
@@ -6171,8 +6406,8 @@
             0,
             1
           ],
-          "x": 911.75,
-          "y": 577
+          "x": 635.75,
+          "y": 567.25
         },
         {
           "attachmentDisplay": {
@@ -6188,8 +6423,8 @@
           },
           "isAttachedTo": "f7409",
           "orientation": [],
-          "x": 952.5695233463944,
-          "y": 608.4594926692239
+          "x": 675.2737957256387,
+          "y": 580.3436344700635
         }
       ],
       "stroke": "#000000",
@@ -6228,8 +6463,8 @@
             0,
             1
           ],
-          "x": 1128.9351851851854,
-          "y": 814.0740740740731
+          "x": 771.9351851851854,
+          "y": 748.0740740740731
         },
         {
           "attachmentDisplay": {
@@ -6247,8 +6482,8 @@
             -1,
             0
           ],
-          "x": 1106.505832449629,
-          "y": 835.2134146341464
+          "x": 749.505832449629,
+          "y": 779.2134146341464
         }
       ],
       "stroke": "#000000",
@@ -6295,7 +6530,7 @@
             -1,
             0
           ],
-          "x": 425.9393128067826,
+          "x": 270.9393128067826,
           "y": 357.9525881302989
         },
         {
@@ -6314,7 +6549,7 @@
             -1,
             0
           ],
-          "x": 356.4734493529676,
+          "x": 201.47344935296758,
           "y": 357.9525881302989
         }
       ],
@@ -6361,8 +6596,8 @@
             1,
             0
           ],
-          "x": 526.9968763944673,
-          "y": 730.4368585452917
+          "x": 334.72780008924644,
+          "y": 704.4368585452917
         },
         {
           "attachmentDisplay": {
@@ -6380,8 +6615,8 @@
             1,
             0
           ],
-          "x": 777.5771789447853,
-          "y": 776.9744525174483
+          "x": 547.5771789447853,
+          "y": 706.9744525174483
         }
       ],
       "stroke": "#000000",
@@ -6415,17 +6650,17 @@
               0
             ],
             "position": [
-              0,
-              0.5
+              0.5,
+              0
             ]
           },
           "isAttachedTo": "a14b1",
           "orientation": [
-            -1,
-            0
+            0,
+            -1
           ],
-          "x": 1529.4753270929332,
-          "y": 396.92815622115404
+          "x": 966.274700583504,
+          "y": 480.92815622115404
         },
         {
           "attachmentDisplay": {
@@ -6434,17 +6669,17 @@
               0
             ],
             "position": [
-              1,
-              0.75
+              0.75,
+              1
             ]
           },
           "isAttachedTo": "bb272",
           "orientation": [
-            -1,
-            0
+            0,
+            -1
           ],
-          "x": 1472.2222222222242,
-          "y": 367.55555555555566
+          "x": 965.5717592592612,
+          "y": 419.04861111111114
         }
       ],
       "stroke": "#000000",
@@ -6483,8 +6718,8 @@
             -1,
             0
           ],
-          "x": 1437.7084989661812,
-          "y": 114.16086568496254
+          "x": 971.2084989661812,
+          "y": 94.16086568496254
         },
         {
           "attachmentDisplay": {
@@ -6502,8 +6737,8 @@
             -1,
             0
           ],
-          "x": 1376.457942882643,
-          "y": 114.16086568496254
+          "x": 939.957942882643,
+          "y": 94.16086568496254
         }
       ],
       "stroke": "#000000",
@@ -6515,6 +6750,63 @@
         "SBO:0000393",
         "SBO:0000394",
         "DirectedInteraction"
+      ],
+      "zIndex": 12288
+    },
+    "idbc545b97": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "idbc545b97",
+      "isAttachedTo": [
+        "f66f6",
+        "e9e3a"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "MimCatalysis",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "f66f6",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 236.8,
+          "y": 560.5911423471657
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [],
+            "position": [
+              0.15811629543110267,
+              0
+            ],
+            "relativeOffset": [
+              0,
+              0
+            ]
+          },
+          "isAttachedTo": "e6ae0",
+          "orientation": [],
+          "x": 236.25,
+          "y": 597.5185185185178
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
       ],
       "zIndex": 12288
     },
@@ -6546,8 +6838,8 @@
             0,
             1
           ],
-          "x": 632.7492190986171,
-          "y": 656.0519857206596
+          "x": 402.7492190986171,
+          "y": 610.0185185185178
         },
         {
           "attachmentDisplay": {
@@ -6565,12 +6857,12 @@
             0,
             1
           ],
-          "x": 648.1134259259263,
-          "y": 709.4907407407409
+          "x": 410.11342592592626,
+          "y": 657.4907407407409
         }
       ],
       "stroke": "#000000",
-      "strokeWidth": 1,
+      "strokeWidth": 2,
       "type": [
         "Interaction",
         "Edge",
@@ -6609,8 +6901,8 @@
             1,
             0
           ],
-          "x": 371.9259259259262,
-          "y": 730.5185185185178
+          "x": 216.4259259259262,
+          "y": 704.5185185185178
         },
         {
           "attachmentDisplay": {
@@ -6628,8 +6920,8 @@
             1,
             0
           ],
-          "x": 452.45872378402555,
-          "y": 730.4368585452917
+          "x": 264.72780008924644,
+          "y": 704.4368585452917
         }
       ],
       "stroke": "#000000",
@@ -6672,7 +6964,7 @@
             0,
             1
           ],
-          "x": 475.15227576974564,
+          "x": 325.15227576974564,
           "y": 275.09147701918755
         },
         {
@@ -6691,8 +6983,8 @@
             0,
             1
           ],
-          "x": 534.2685185185187,
-          "y": 300.2800925925927
+          "x": 376.2685185185188,
+          "y": 308.2800925925927
         }
       ],
       "stroke": "#000000",
@@ -6735,8 +7027,8 @@
             1,
             0
           ],
-          "x": 832.1759259259269,
-          "y": 776.9744525174483
+          "x": 602.1759259259269,
+          "y": 706.9744525174483
         },
         {
           "attachmentDisplay": {
@@ -6754,12 +7046,12 @@
             1,
             0
           ],
-          "x": 1053.7808826484875,
-          "y": 716.3726006655974
+          "x": 738.7808826484875,
+          "y": 646.3726006655974
         }
       ],
       "stroke": "#000000",
-      "strokeWidth": 1,
+      "strokeWidth": 2,
       "type": [
         "Interaction",
         "Edge",
@@ -6779,7 +7071,8 @@
       "gpmlElementName": "Interaction",
       "id": "idd141e86a",
       "isAttachedTo": [
-        "f9b5d"
+        "f9b5d",
+        "d4e95"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -6800,12 +7093,27 @@
             0,
             -1
           ],
-          "x": 717.7250626764935,
+          "x": 507.7250626764935,
           "y": 445.41666666666714
         },
         {
-          "x": 740.9259259259264,
-          "y": 429.76851851851853
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0,
+              0.75
+            ]
+          },
+          "isAttachedTo": "d4e95",
+          "orientation": [
+            1,
+            0
+          ],
+          "x": 552.9259259259264,
+          "y": 427.76851851851865
         }
       ],
       "stroke": "#000000",
@@ -6827,7 +7135,7 @@
       "id": "idd3949b64",
       "isAttachedTo": [
         "d793e",
-        "e4067"
+        "c286e"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -6848,7 +7156,7 @@
             0,
             -1
           ],
-          "x": 845.8009259259264,
+          "x": 665.8009259259264,
           "y": 405.0185185185187
         },
         {
@@ -6862,13 +7170,13 @@
               0.5
             ]
           },
-          "isAttachedTo": "e4067",
+          "isAttachedTo": "c286e",
           "orientation": [
             1,
             0
           ],
-          "x": 1040.1926552690863,
-          "y": 367.2685185185191
+          "x": 714,
+          "y": 367
         }
       ],
       "stroke": "#000000",
@@ -6911,7 +7219,7 @@
             -1,
             0
           ],
-          "x": 1173.734586352193,
+          "x": 810.5339598427638,
           "y": 432.39111918411714
         },
         {
@@ -6930,12 +7238,12 @@
             -1,
             0
           ],
-          "x": 878.1759259259264,
+          "x": 698.1759259259264,
           "y": 432.3935185185187
         }
       ],
       "stroke": "#000000",
-      "strokeWidth": 1,
+      "strokeWidth": 2,
       "type": [
         "Interaction",
         "Edge",
@@ -6974,7 +7282,7 @@
             0,
             -1
           ],
-          "x": 377,
+          "x": 222,
           "y": 377.5
         },
         {
@@ -6991,7 +7299,7 @@
           },
           "isAttachedTo": "f304e",
           "orientation": [],
-          "x": 398.1529674252566,
+          "x": 243.15296742525658,
           "y": 357.9525881302989
         }
       ],
@@ -7031,8 +7339,8 @@
             0,
             1
           ],
-          "x": 534.2685185185187,
-          "y": 331.8449074074075
+          "x": 376.2685185185188,
+          "y": 339.8449074074075
         },
         {
           "attachmentDisplay": {
@@ -7050,8 +7358,8 @@
             0,
             1
           ],
-          "x": 551.6203703703709,
-          "y": 428.1958946898707
+          "x": 379.44127438231953,
+          "y": 389.62218539474304
         }
       ],
       "stroke": "#000000",
@@ -7076,8 +7384,8 @@
       "kaavioType": "Edge",
       "points": [
         {
-          "x": 623,
-          "y": 128
+          "x": 466.25,
+          "y": 151.25
         },
         {
           "attachmentDisplay": {
@@ -7095,7 +7403,7 @@
             0,
             1
           ],
-          "x": 939.4259259259264,
+          "x": 749.4259259259264,
           "y": 207.0185185185185
         }
       ],
@@ -7197,6 +7505,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "pvjsgeneratedida01",
+      "isPartOf": "pvjsgeneratedidffee0",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7212,25 +7521,24 @@
         "SingleFreeNode",
         "Entrez Gene:5588",
         "GeneProduct",
-        "Ensembl:ENSG00000065675",
-        "P594:ENSG00000065675",
-        "P351:5588",
-        "HGNC:PRKCQ",
+        "CompactIdentifier:ncbigene:5588",
         "PRKCQ",
-        "P353:PRKCQ",
-        "Wikidata:Q18030780"
+        "Ensembl:ENSG00000065675",
+        "Entrez Gene:5588",
+        "HGNC:PRKCQ",
+        "UniProt:Q04759"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1659.101051763336,
+      "x": 8,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "5588",
-      "y": 512.2368961568109,
+      "y": 47.13661007175011,
       "zIndex": 32768
     },
-    "pvjsgeneratedidce15b": {
+    "pvjsgeneratediddd493": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -7239,7 +7547,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidce15b",
+      "id": "pvjsgeneratediddd493",
+      "isPartOf": "pvjsgeneratedidffee0",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7255,25 +7564,39 @@
         "SingleFreeNode",
         "Entrez Gene:5590",
         "GeneProduct",
-        "Ensembl:ENSG00000067606",
-        "P594:ENSG00000067606",
-        "P351:5590",
-        "HGNC:PRKCZ",
+        "CompactIdentifier:ncbigene:5590",
         "PRKCZ",
-        "P353:PRKCZ",
-        "Wikidata:Q18030782"
+        "Ensembl:ENSG00000067606",
+        "Entrez Gene:5590",
+        "HGNC:PRKCZ",
+        "UniProt:D6RCN4",
+        "UniProt:E9PBE1",
+        "UniProt:Q05513",
+        "UniProt:D6RBD4",
+        "UniProt:D6RGG1",
+        "UniProt:D6RJG4",
+        "UniProt:F2Z2H9",
+        "UniProt:D6RC84",
+        "UniProt:F2Z3C5",
+        "UniProt:D6RAU1",
+        "UniProt:D6REZ8",
+        "UniProt:D6RD31",
+        "UniProt:D6RAN5",
+        "UniProt:D6RG01",
+        "UniProt:D6RDM0",
+        "UniProt:J3KRP7"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1659.101051763336,
+      "x": 8,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "5590",
-      "y": 532.2368961568109,
+      "y": 67.13661007175011,
       "zIndex": 32768
     },
-    "pvjsgeneratedidce15c": {
+    "pvjsgeneratediddd494": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -7282,7 +7605,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidce15c",
+      "id": "pvjsgeneratediddd494",
+      "isPartOf": "pvjsgeneratedidffee2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7298,25 +7622,24 @@
         "SingleFreeNode",
         "Entrez Gene:4316",
         "GeneProduct",
-        "Ensembl:ENSG00000137673",
-        "P594:ENSG00000137673",
-        "P351:4316",
-        "HGNC:MMP7",
+        "CompactIdentifier:ncbigene:4316",
         "MMP7",
-        "P353:MMP7",
-        "Wikidata:Q18029191"
+        "Ensembl:ENSG00000137673",
+        "Entrez Gene:4316",
+        "HGNC:MMP7",
+        "UniProt:P09237"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1441.6693955154385,
+      "x": 8.000000000000227,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "4316",
-      "y": 571.9055287722366,
+      "y": 103.40552877223661,
       "zIndex": 32768
     },
-    "pvjsgeneratedidebcc7": {
+    "pvjsgeneratediddd495": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -7325,7 +7648,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidebcc7",
+      "id": "pvjsgeneratediddd495",
+      "isPartOf": "pvjsgeneratedidffee2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7341,25 +7665,28 @@
         "SingleFreeNode",
         "Entrez Gene:79148",
         "GeneProduct",
-        "Ensembl:ENSG00000271447",
-        "P594:ENSG00000271447",
-        "P351:79148",
-        "HGNC:MMP28",
+        "CompactIdentifier:ncbigene:79148",
         "MMP28",
-        "P353:MMP28",
-        "Wikidata:Q18046026"
+        "Ensembl:ENSG00000271447",
+        "Entrez Gene:79148",
+        "HGNC:MMP28",
+        "UniProt:A0A087WZ56",
+        "UniProt:B3KV06",
+        "UniProt:A0A087X1Y9",
+        "UniProt:Q9H239",
+        "UniProt:C0H5X0"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1441.6693955154385,
+      "x": 8.000000000000227,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "79148",
-      "y": 591.9055287722365,
+      "y": 123.4055287722365,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf3818": {
+    "pvjsgeneratediddd496": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -7368,7 +7695,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf3818",
+      "id": "pvjsgeneratediddd496",
+      "isPartOf": "pvjsgeneratedidffee0",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7384,25 +7712,31 @@
         "SingleFreeNode",
         "Entrez Gene:5580",
         "GeneProduct",
-        "Ensembl:ENSG00000163932",
-        "P594:ENSG00000163932",
-        "P351:5580",
-        "HGNC:PRKCD",
+        "CompactIdentifier:ncbigene:5580",
         "PRKCD",
-        "P353:PRKCD",
-        "Wikidata:Q15329434"
+        "Ensembl:ENSG00000163932",
+        "Entrez Gene:5580",
+        "HGNC:PRKCD",
+        "UniProt:A0A494C125",
+        "UniProt:A0A494C1T7",
+        "UniProt:A0A494BZX2",
+        "UniProt:C9JZU8",
+        "UniProt:C9K0E3",
+        "UniProt:Q05655",
+        "UniProt:C9J9P1",
+        "UniProt:A0A024R328"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1659.101051763336,
+      "x": 8,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "5580",
-      "y": 552.2368961568109,
+      "y": 87.13661007175011,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf3819": {
+    "pvjsgeneratediddd497": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -7411,7 +7745,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf3819",
+      "id": "pvjsgeneratediddd497",
+      "isPartOf": "pvjsgeneratedidffee2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7427,25 +7762,26 @@
         "SingleFreeNode",
         "Entrez Gene:4324",
         "GeneProduct",
-        "Ensembl:ENSG00000102996",
-        "P594:ENSG00000102996",
-        "P351:4324",
-        "HGNC:MMP15",
+        "CompactIdentifier:ncbigene:4324",
         "MMP15",
-        "P353:MMP15",
-        "Wikidata:Q18029213"
+        "Ensembl:ENSG00000102996",
+        "Entrez Gene:4324",
+        "HGNC:MMP15",
+        "UniProt:P51511",
+        "UniProt:H3BT97",
+        "UniProt:A0A024R6U8"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1441.6693955154385,
+      "x": 8.000000000000227,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "4324",
-      "y": 691.9055287722363,
+      "y": 223.40552877223627,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf381a": {
+    "pvjsgeneratedidebcc7": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -7454,7 +7790,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf381a",
+      "id": "pvjsgeneratedidebcc7",
+      "isPartOf": "pvjsgeneratedidffee2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7470,25 +7807,25 @@
         "SingleFreeNode",
         "Entrez Gene:4325",
         "GeneProduct",
-        "Ensembl:ENSG00000156103",
-        "P594:ENSG00000156103",
-        "P351:4325",
-        "HGNC:MMP16",
+        "CompactIdentifier:ncbigene:4325",
         "MMP16",
-        "P353:MMP16",
-        "Wikidata:Q18029215"
+        "Ensembl:ENSG00000156103",
+        "Entrez Gene:4325",
+        "HGNC:MMP16",
+        "UniProt:P51512",
+        "UniProt:E5RJA7"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1521.669395515438,
+      "x": 87.99999999999977,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "4325",
-      "y": 691.4388062492467,
+      "y": 222.93880624924668,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf381b": {
+    "pvjsgeneratedidf3818": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -7497,7 +7834,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf381b",
+      "id": "pvjsgeneratedidf3818",
+      "isPartOf": "pvjsgeneratedidffee0",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7513,25 +7851,36 @@
         "SingleFreeNode",
         "Entrez Gene:5583",
         "GeneProduct",
-        "Ensembl:ENSG00000027075",
-        "P594:ENSG00000027075",
-        "P351:5583",
-        "HGNC:PRKCH",
+        "CompactIdentifier:ncbigene:5583",
         "PRKCH",
-        "P353:PRKCH",
-        "Wikidata:Q18030775"
+        "Ensembl:ENSG00000027075",
+        "Entrez Gene:5583",
+        "HGNC:PRKCH",
+        "UniProt:G3V4X4",
+        "UniProt:G3V5Y6",
+        "UniProt:G3V4G6",
+        "UniProt:P24723",
+        "UniProt:G3V3E7",
+        "UniProt:G3V5F8",
+        "UniProt:G3V4H0",
+        "UniProt:G3V4Q9",
+        "UniProt:G3V4L3",
+        "UniProt:G3V520",
+        "UniProt:G3V5U5",
+        "UniProt:G3V304",
+        "UniProt:G3V4Q6"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1659.101051763336,
+      "x": 8,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "5583",
-      "y": 572.2368961568109,
+      "y": 107.13661007175011,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf381c": {
+    "pvjsgeneratedidf3819": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -7540,7 +7889,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf381c",
+      "id": "pvjsgeneratedidf3819",
+      "isPartOf": "pvjsgeneratedidffee0",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7556,25 +7906,24 @@
         "SingleFreeNode",
         "Entrez Gene:5584",
         "GeneProduct",
-        "Ensembl:ENSG00000163558",
-        "P594:ENSG00000163558",
-        "P351:5584",
-        "HGNC:PRKCI",
+        "CompactIdentifier:ncbigene:5584",
         "PRKCI",
-        "P353:PRKCI",
-        "Wikidata:Q18030776"
+        "Ensembl:ENSG00000163558",
+        "Entrez Gene:5584",
+        "HGNC:PRKCI",
+        "UniProt:P41743"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1659.101051763336,
+      "x": 8,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "5584",
-      "y": 592.2368961568109,
+      "y": 127.13661007175011,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf381d": {
+    "pvjsgeneratedidf381a": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -7583,7 +7932,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf381d",
+      "id": "pvjsgeneratedidf381a",
+      "isPartOf": "pvjsgeneratedidffee0",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7599,25 +7949,27 @@
         "SingleFreeNode",
         "Entrez Gene:5581",
         "GeneProduct",
-        "Ensembl:ENSG00000171132",
-        "P594:ENSG00000171132",
-        "P351:5581",
-        "HGNC:PRKCE",
+        "CompactIdentifier:ncbigene:5581",
         "PRKCE",
-        "P353:PRKCE",
-        "Wikidata:Q18030773"
+        "Ensembl:ENSG00000171132",
+        "Entrez Gene:5581",
+        "HGNC:PRKCE",
+        "UniProt:C9JR22",
+        "UniProt:E9PBI2",
+        "UniProt:L7RTI5",
+        "UniProt:Q02156"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1739.206976359386,
+      "x": 88.10592459605004,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "5581",
-      "y": 512.2117615069026,
+      "y": 47.11147542184182,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf381e": {
+    "pvjsgeneratedidf381b": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -7626,7 +7978,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf381e",
+      "id": "pvjsgeneratedidf381b",
+      "isPartOf": "pvjsgeneratedidffee2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7642,25 +7995,26 @@
         "SingleFreeNode",
         "Entrez Gene:4314",
         "GeneProduct",
-        "Ensembl:ENSG00000149968",
-        "P594:ENSG00000149968",
-        "P351:4314",
-        "HGNC:MMP3",
+        "CompactIdentifier:ncbigene:4314",
         "MMP3",
-        "P353:MMP3",
-        "Wikidata:Q13033724"
+        "Ensembl:ENSG00000149968",
+        "Entrez Gene:4314",
+        "HGNC:MMP3",
+        "UniProt:E9PKX2",
+        "UniProt:H7C139",
+        "UniProt:P08254"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1441.6693955154383,
+      "x": 8,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "4314",
-      "y": 711.9055287722363,
+      "y": 243.40552877223627,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf381f": {
+    "pvjsgeneratedidf381c": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -7669,7 +8023,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf381f",
+      "id": "pvjsgeneratedidf381c",
+      "isPartOf": "pvjsgeneratedidffee2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7685,25 +8040,31 @@
         "SingleFreeNode",
         "Entrez Gene:8510",
         "GeneProduct",
-        "Ensembl:ENSG00000189409",
-        "P594:ENSG00000189409",
-        "P351:8510",
-        "HGNC:MMP23B",
+        "CompactIdentifier:ncbigene:8510",
         "MMP23B",
-        "P353:MMP23B",
-        "Wikidata:Q18033012"
+        "Ensembl:ENSG00000189409",
+        "Entrez Gene:8510",
+        "HGNC:MMP23B",
+        "UniProt:D6REP6",
+        "UniProt:O75086",
+        "UniProt:H0Y6I4",
+        "UniProt:H0YAE5",
+        "UniProt:B4DMZ6",
+        "UniProt:O75900",
+        "UniProt:J3KRS4",
+        "UniProt:H0YA69"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1521.6693955154383,
+      "x": 88,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "8510",
-      "y": 571.4388062492468,
+      "y": 102.9388062492468,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf3820": {
+    "pvjsgeneratedidf381d": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -7712,7 +8073,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf3820",
+      "id": "pvjsgeneratedidf381d",
+      "isPartOf": "pvjsgeneratedidffee2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7728,25 +8090,24 @@
         "SingleFreeNode",
         "Entrez Gene:9313",
         "GeneProduct",
-        "Ensembl:ENSG00000137674",
-        "P594:ENSG00000137674",
-        "P351:9313",
-        "HGNC:MMP20",
+        "CompactIdentifier:ncbigene:9313",
         "MMP20",
-        "P353:MMP20",
-        "Wikidata:Q18033992"
+        "Ensembl:ENSG00000137674",
+        "Entrez Gene:9313",
+        "HGNC:MMP20",
+        "UniProt:O60882"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1521.6693955154383,
+      "x": 88,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "9313",
-      "y": 591.4388062492468,
+      "y": 122.9388062492468,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf3821": {
+    "pvjsgeneratedidf381e": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -7755,7 +8116,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf3821",
+      "id": "pvjsgeneratedidf381e",
+      "isPartOf": "pvjsgeneratedidffee0",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7771,25 +8133,29 @@
         "SingleFreeNode",
         "Entrez Gene:5582",
         "GeneProduct",
-        "Ensembl:ENSG00000126583",
-        "P594:ENSG00000126583",
-        "P351:5582",
-        "HGNC:PRKCG",
+        "CompactIdentifier:ncbigene:5582",
         "PRKCG",
-        "P353:PRKCG",
-        "Wikidata:Q18030774"
+        "Ensembl:ENSG00000126583",
+        "Entrez Gene:5582",
+        "HGNC:PRKCG",
+        "UniProt:P05129",
+        "UniProt:M0R0I9",
+        "UniProt:A0A804HIU5",
+        "UniProt:H7BZ60",
+        "UniProt:M0R0Z4",
+        "UniProt:A0A804HHY0"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1739.206976359386,
+      "x": 88.10592459605004,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "5582",
-      "y": 552.2117615069026,
+      "y": 87.11147542184182,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf3822": {
+    "pvjsgeneratedidf381f": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -7798,7 +8164,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf3822",
+      "id": "pvjsgeneratedidf381f",
+      "isPartOf": "pvjsgeneratedidffee2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7814,25 +8181,24 @@
         "SingleFreeNode",
         "Entrez Gene:4312",
         "GeneProduct",
-        "Ensembl:ENSG00000196611",
-        "P594:ENSG00000196611",
-        "P351:4312",
-        "HGNC:MMP1",
+        "CompactIdentifier:ncbigene:4312",
         "MMP1",
-        "P353:MMP1",
-        "Wikidata:Q18029185"
+        "Ensembl:ENSG00000196611",
+        "Entrez Gene:4312",
+        "HGNC:MMP1",
+        "UniProt:P03956"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1441.6693955154383,
+      "x": 8,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "4312",
-      "y": 611.9055287722364,
+      "y": 143.40552877223638,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf3823": {
+    "pvjsgeneratedidf3820": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -7841,7 +8207,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf3823",
+      "id": "pvjsgeneratedidf3820",
+      "isPartOf": "pvjsgeneratedidffee2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7857,25 +8224,29 @@
         "SingleFreeNode",
         "Entrez Gene:4313",
         "GeneProduct",
-        "Ensembl:ENSG00000087245",
-        "P594:ENSG00000087245",
-        "P351:4313",
-        "HGNC:MMP2",
+        "CompactIdentifier:ncbigene:4313",
         "MMP2",
-        "P353:MMP2",
-        "Wikidata:Q15327913"
+        "Ensembl:ENSG00000087245",
+        "Entrez Gene:4313",
+        "HGNC:MMP2",
+        "UniProt:H3BS34",
+        "UniProt:P08253",
+        "UniProt:H3BR66",
+        "UniProt:A0A024R6R4",
+        "UniProt:H3BV48",
+        "UniProt:J3KRB7"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1441.6693955154383,
+      "x": 8,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "4313",
-      "y": 631.9055287722364,
+      "y": 163.40552877223638,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf3824": {
+    "pvjsgeneratedidf3821": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -7884,7 +8255,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf3824",
+      "id": "pvjsgeneratedidf3821",
+      "isPartOf": "pvjsgeneratedidffee1",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7900,25 +8272,25 @@
         "SingleFreeNode",
         "Entrez Gene:6616",
         "GeneProduct",
-        "Ensembl:ENSG00000132639",
-        "P594:ENSG00000132639",
-        "P351:6616",
-        "HGNC:SNAP25",
+        "CompactIdentifier:ncbigene:6616",
         "SNAP25",
-        "P353:SNAP25",
-        "Wikidata:Q14897641"
+        "Ensembl:ENSG00000132639",
+        "Entrez Gene:6616",
+        "HGNC:SNAP25",
+        "UniProt:P60880",
+        "UniProt:A0A0A0MSS0"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1697.4740614931209,
+      "x": 8,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "6616",
-      "y": 680.3659010225765,
+      "y": 54.803401022576395,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf3825": {
+    "pvjsgeneratedidf3822": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -7927,7 +8299,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf3825",
+      "id": "pvjsgeneratedidf3822",
+      "isPartOf": "pvjsgeneratedidffee2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7943,25 +8316,25 @@
         "SingleFreeNode",
         "Entrez Gene:4319",
         "GeneProduct",
-        "Ensembl:ENSG00000166670",
-        "P594:ENSG00000166670",
-        "P351:4319",
-        "HGNC:MMP10",
+        "CompactIdentifier:ncbigene:4319",
         "MMP10",
-        "P353:MMP10",
-        "Wikidata:Q18029199"
+        "Ensembl:ENSG00000166670",
+        "Entrez Gene:4319",
+        "HGNC:MMP10",
+        "UniProt:P09238",
+        "UniProt:F5GYX7"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1521.6693955154383,
+      "x": 88,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "4319",
-      "y": 611.4388062492468,
+      "y": 142.9388062492468,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf3826": {
+    "pvjsgeneratedidf3823": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -7970,7 +8343,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf3826",
+      "id": "pvjsgeneratedidf3823",
+      "isPartOf": "pvjsgeneratedidffee2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -7986,25 +8360,26 @@
         "SingleFreeNode",
         "Entrez Gene:4320",
         "GeneProduct",
-        "Ensembl:ENSG00000099953",
-        "P594:ENSG00000099953",
-        "P351:4320",
-        "HGNC:MMP11",
+        "CompactIdentifier:ncbigene:4320",
         "MMP11",
-        "P353:MMP11",
-        "Wikidata:Q18029202"
+        "Ensembl:ENSG00000099953",
+        "Entrez Gene:4320",
+        "HGNC:MMP11",
+        "UniProt:E9PED7",
+        "UniProt:H7C3I7",
+        "UniProt:P24347"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1521.6693955154383,
+      "x": 88,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "4320",
-      "y": 631.4388062492468,
+      "y": 162.9388062492468,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf3827": {
+    "pvjsgeneratedidf3824": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -8013,7 +8388,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf3827",
+      "id": "pvjsgeneratedidf3824",
+      "isPartOf": "pvjsgeneratedidffee0",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -8029,25 +8405,27 @@
         "SingleFreeNode",
         "Entrez Gene:23683",
         "GeneProduct",
-        "Ensembl:ENSG00000115825",
-        "P594:ENSG00000115825",
-        "P351:23683",
-        "HGNC:PRKD3",
+        "CompactIdentifier:ncbigene:23683",
         "PRKD3",
-        "P353:PRKD3",
-        "Wikidata:Q18037586"
+        "Ensembl:ENSG00000115825",
+        "Entrez Gene:23683",
+        "HGNC:PRKD3",
+        "UniProt:H0Y5M6",
+        "UniProt:H7C172",
+        "UniProt:C9JKP8",
+        "UniProt:O94806"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1739.206976359386,
+      "x": 88.10592459605004,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "23683",
-      "y": 572.2117615069026,
+      "y": 107.11147542184182,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf3828": {
+    "pvjsgeneratedidf3825": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -8056,7 +8434,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf3828",
+      "id": "pvjsgeneratedidf3825",
+      "isPartOf": "pvjsgeneratedidffee0",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -8072,25 +8451,27 @@
         "SingleFreeNode",
         "Entrez Gene:5578",
         "GeneProduct",
-        "Ensembl:ENSG00000154229",
-        "P594:ENSG00000154229",
-        "P351:5578",
-        "HGNC:PRKCA",
+        "CompactIdentifier:ncbigene:5578",
         "PRKCA",
-        "P353:PRKCA",
-        "Wikidata:Q14912643"
+        "Ensembl:ENSG00000154229",
+        "Entrez Gene:5578",
+        "HGNC:PRKCA",
+        "UniProt:J3KN97",
+        "UniProt:L7RSM7",
+        "UniProt:P17252",
+        "UniProt:J3KRN5"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1739.206976359386,
+      "x": 88.10592459605004,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "5578",
-      "y": 592.2117615069026,
+      "y": 127.11147542184182,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf3829": {
+    "pvjsgeneratedidf3826": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -8099,7 +8480,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf3829",
+      "id": "pvjsgeneratedidf3826",
+      "isPartOf": "pvjsgeneratedidffee2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -8115,25 +8497,28 @@
         "SingleFreeNode",
         "Entrez Gene:4317",
         "GeneProduct",
-        "Ensembl:ENSG00000118113",
-        "P594:ENSG00000118113",
-        "P351:4317",
-        "HGNC:MMP8",
+        "CompactIdentifier:ncbigene:4317",
         "MMP8",
-        "P353:MMP8",
-        "Wikidata:Q18029194"
+        "Ensembl:ENSG00000118113",
+        "Entrez Gene:4317",
+        "HGNC:MMP8",
+        "UniProt:E9PIY7",
+        "UniProt:E9PJB3",
+        "UniProt:E9PL87",
+        "UniProt:H7C1M3",
+        "UniProt:P22894"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1441.6693955154383,
+      "x": 8,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "4317",
-      "y": 511.9055287722367,
+      "y": 43.40552877223672,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf382a": {
+    "pvjsgeneratedidf3827": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -8142,7 +8527,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf382a",
+      "id": "pvjsgeneratedidf3827",
+      "isPartOf": "pvjsgeneratedidffee2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -8158,25 +8544,24 @@
         "SingleFreeNode",
         "Entrez Gene:4318",
         "GeneProduct",
-        "Ensembl:ENSG00000100985",
-        "P594:ENSG00000100985",
-        "P351:4318",
-        "HGNC:MMP9",
+        "CompactIdentifier:ncbigene:4318",
         "MMP9",
-        "P353:MMP9",
-        "Wikidata:Q18029196"
+        "Ensembl:ENSG00000100985",
+        "Entrez Gene:4318",
+        "HGNC:MMP9",
+        "UniProt:P14780"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1441.6693955154383,
+      "x": 8,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "4318",
-      "y": 531.9055287722365,
+      "y": 63.405528772236494,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf382b": {
+    "pvjsgeneratedidf3828": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -8185,7 +8570,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf382b",
+      "id": "pvjsgeneratedidf3828",
+      "isPartOf": "pvjsgeneratedidffee2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -8201,25 +8587,25 @@
         "SingleFreeNode",
         "Entrez Gene:4322",
         "GeneProduct",
-        "Ensembl:ENSG00000137745",
-        "P594:ENSG00000137745",
-        "P351:4322",
-        "HGNC:MMP13",
+        "CompactIdentifier:ncbigene:4322",
         "MMP13",
-        "P353:MMP13",
-        "Wikidata:Q18029207"
+        "Ensembl:ENSG00000137745",
+        "Entrez Gene:4322",
+        "HGNC:MMP13",
+        "UniProt:P45452",
+        "UniProt:G5E971"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1441.6693955154383,
+      "x": 8,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "4322",
-      "y": 551.9055287722366,
+      "y": 83.40552877223661,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf382c": {
+    "pvjsgeneratedidf3829": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -8228,7 +8614,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf382c",
+      "id": "pvjsgeneratedidf3829",
+      "isPartOf": "pvjsgeneratedidffee0",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -8244,25 +8631,27 @@
         "SingleFreeNode",
         "Entrez Gene:5579",
         "GeneProduct",
-        "Ensembl:ENSG00000166501",
-        "P594:ENSG00000166501",
-        "P351:5579",
-        "HGNC:PRKCB",
+        "CompactIdentifier:ncbigene:5579",
         "PRKCB",
-        "P353:PRKCB",
-        "Wikidata:Q18030771"
+        "Ensembl:ENSG00000166501",
+        "Entrez Gene:5579",
+        "HGNC:PRKCB",
+        "UniProt:I3L1Z0",
+        "UniProt:I3L148",
+        "UniProt:H3BV73",
+        "UniProt:P05771"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1739.206976359386,
+      "x": 88.10592459605004,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "5579",
-      "y": 532.2117615069026,
+      "y": 67.11147542184182,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf382d": {
+    "pvjsgeneratedidf382a": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -8271,7 +8660,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf382d",
+      "id": "pvjsgeneratedidf382a",
+      "isPartOf": "pvjsgeneratedidffee2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -8287,25 +8677,24 @@
         "SingleFreeNode",
         "Entrez Gene:4321",
         "GeneProduct",
-        "Ensembl:ENSG00000262406",
-        "P594:ENSG00000262406",
-        "P351:4321",
-        "HGNC:MMP12",
+        "CompactIdentifier:ncbigene:4321",
         "MMP12",
-        "P353:MMP12",
-        "Wikidata:Q18029204"
+        "Ensembl:ENSG00000262406",
+        "Entrez Gene:4321",
+        "HGNC:MMP12",
+        "UniProt:P39900"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1441.6693955154385,
+      "x": 8.000000000000227,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "4321",
-      "y": 651.9055287722364,
+      "y": 183.40552877223638,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf382e": {
+    "pvjsgeneratedidf382b": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -8314,7 +8703,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf382e",
+      "id": "pvjsgeneratedidf382b",
+      "isPartOf": "pvjsgeneratedidffee2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -8330,25 +8720,24 @@
         "SingleFreeNode",
         "Entrez Gene:10893",
         "GeneProduct",
-        "Ensembl:ENSG00000125966",
-        "P594:ENSG00000125966",
-        "P351:10893",
-        "HGNC:MMP24",
+        "CompactIdentifier:ncbigene:10893",
         "MMP24",
-        "P353:MMP24",
-        "Wikidata:Q18035924"
+        "Ensembl:ENSG00000125966",
+        "Entrez Gene:10893",
+        "HGNC:MMP24",
+        "UniProt:Q9Y5R2"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1441.6693955154385,
+      "x": 8.000000000000227,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "10893",
-      "y": 671.9055287722363,
+      "y": 203.40552877223627,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf382f": {
+    "pvjsgeneratedidf382c": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -8357,7 +8746,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf382f",
+      "id": "pvjsgeneratedidf382c",
+      "isPartOf": "pvjsgeneratedidffee2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -8373,25 +8763,27 @@
         "SingleFreeNode",
         "Entrez Gene:118856",
         "GeneProduct",
-        "Ensembl:ENSG00000154485",
-        "P594:ENSG00000154485",
-        "P351:118856",
-        "HGNC:MMP21",
+        "CompactIdentifier:ncbigene:118856",
         "MMP21",
-        "P353:MMP21",
-        "Wikidata:Q18049335"
+        "Ensembl:ENSG00000154485",
+        "Entrez Gene:118856",
+        "HGNC:MMP21",
+        "UniProt:A0A494C0E5",
+        "UniProt:Q8N119",
+        "UniProt:A0A494C1E5",
+        "UniProt:A0A494C1J6"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1521.669395515438,
+      "x": 87.99999999999977,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "118856",
-      "y": 651.4388062492468,
+      "y": 182.9388062492468,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf3830": {
+    "pvjsgeneratedidf382d": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -8400,7 +8792,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf3830",
+      "id": "pvjsgeneratedidf382d",
+      "isPartOf": "pvjsgeneratedidffee2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -8416,25 +8809,28 @@
         "SingleFreeNode",
         "Entrez Gene:4323",
         "GeneProduct",
-        "Ensembl:ENSG00000157227",
-        "P594:ENSG00000157227",
-        "P351:4323",
-        "HGNC:MMP14",
+        "CompactIdentifier:ncbigene:4323",
         "MMP14",
-        "P353:MMP14",
-        "Wikidata:Q18029210"
+        "Ensembl:ENSG00000157227",
+        "Entrez Gene:4323",
+        "HGNC:MMP14",
+        "UniProt:A0A7P0TBK8",
+        "UniProt:F8VP90",
+        "UniProt:A0A7P0TAG0",
+        "UniProt:P50281",
+        "UniProt:A0A7P0TAV6"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1521.669395515438,
+      "x": 87.99999999999977,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "4323",
-      "y": 671.4388062492468,
+      "y": 202.9388062492468,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf3831": {
+    "pvjsgeneratedidf382e": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -8443,7 +8839,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf3831",
+      "id": "pvjsgeneratedidf382e",
+      "isPartOf": "pvjsgeneratedidffee2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -8459,25 +8856,25 @@
         "SingleFreeNode",
         "Entrez Gene:64386",
         "GeneProduct",
-        "Ensembl:ENSG00000008516",
-        "P594:ENSG00000008516",
-        "P351:64386",
-        "HGNC:MMP25",
+        "CompactIdentifier:ncbigene:64386",
         "MMP25",
-        "P353:MMP25",
-        "Wikidata:Q18045648"
+        "Ensembl:ENSG00000008516",
+        "Entrez Gene:64386",
+        "HGNC:MMP25",
+        "UniProt:A0A087WZS5",
+        "UniProt:Q9NPA2"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1521.669395515438,
+      "x": 87.99999999999977,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "64386",
-      "y": 711.4388062492467,
+      "y": 242.93880624924668,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf3832": {
+    "pvjsgeneratedidf382f": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -8486,7 +8883,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf3832",
+      "id": "pvjsgeneratedidf382f",
+      "isPartOf": "pvjsgeneratedidffee2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -8502,25 +8900,27 @@
         "SingleFreeNode",
         "Entrez Gene:4327",
         "GeneProduct",
-        "Ensembl:ENSG00000123342",
-        "P594:ENSG00000123342",
-        "P351:4327",
-        "HGNC:MMP19",
+        "CompactIdentifier:ncbigene:4327",
         "MMP19",
-        "P353:MMP19",
-        "Wikidata:Q18029222"
+        "Ensembl:ENSG00000123342",
+        "Entrez Gene:4327",
+        "HGNC:MMP19",
+        "UniProt:A6ND33",
+        "UniProt:B4DNP3",
+        "UniProt:F8W1C3",
+        "UniProt:Q99542"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1521.6693955154383,
+      "x": 88,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "4327",
-      "y": 511.9055287722365,
+      "y": 43.405528772236494,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf3833": {
+    "pvjsgeneratedidf3830": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -8529,7 +8929,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf3833",
+      "id": "pvjsgeneratedidf3830",
+      "isPartOf": "pvjsgeneratedidffee2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -8545,25 +8946,24 @@
         "SingleFreeNode",
         "Entrez Gene:64066",
         "GeneProduct",
-        "Ensembl:ENSG00000137675",
-        "P594:ENSG00000137675",
-        "P351:64066",
-        "HGNC:MMP27",
+        "CompactIdentifier:ncbigene:64066",
         "MMP27",
-        "P353:MMP27",
-        "Wikidata:Q18045542"
+        "Ensembl:ENSG00000137675",
+        "Entrez Gene:64066",
+        "HGNC:MMP27",
+        "UniProt:Q9H306"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1521.6693955154383,
+      "x": 88,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "64066",
-      "y": 531.4388062492469,
+      "y": 62.93880624924691,
       "zIndex": 32768
     },
-    "pvjsgeneratedidf3834": {
+    "pvjsgeneratedidf3831": {
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -8572,7 +8972,8 @@
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
-      "id": "pvjsgeneratedidf3834",
+      "id": "pvjsgeneratedidf3831",
+      "isPartOf": "pvjsgeneratedidffee2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -8588,22 +8989,141 @@
         "SingleFreeNode",
         "Entrez Gene:4326",
         "GeneProduct",
-        "Ensembl:ENSG00000198598",
-        "P594:ENSG00000198598",
-        "P351:4326",
-        "HGNC:MMP17",
+        "CompactIdentifier:ncbigene:4326",
         "MMP17",
-        "P353:MMP17",
-        "Wikidata:Q18029218"
+        "Ensembl:ENSG00000198598",
+        "Entrez Gene:4326",
+        "HGNC:MMP17",
+        "UniProt:F5H209",
+        "UniProt:F5GZA7",
+        "UniProt:Q9ULZ9",
+        "UniProt:F5GWR3"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 1521.6693955154383,
+      "x": 88,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "4326",
-      "y": 551.4388062492468,
+      "y": 82.9388062492468,
+      "zIndex": 32768
+    },
+    "pvjsgeneratedidffee0": {
+      "contains": [
+        "pvjsgeneratedida01",
+        "pvjsgeneratediddd493",
+        "pvjsgeneratediddd496",
+        "pvjsgeneratedidf3818",
+        "pvjsgeneratedidf3819",
+        "pvjsgeneratedidf381a",
+        "pvjsgeneratedidf381e",
+        "pvjsgeneratedidf3824",
+        "pvjsgeneratedidf3825",
+        "pvjsgeneratedidf3829",
+        "bc233"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 155.1366100717501,
+      "id": "pvjsgeneratedidffee0",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 176.10592459605004,
+      "x": 1084.351051763336,
+      "y": 417.85028608506076,
+      "zIndex": 32768
+    },
+    "pvjsgeneratedidffee1": {
+      "contains": [
+        "pvjsgeneratedidf3821",
+        "b413e"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 82.8034010225764,
+      "id": "pvjsgeneratedidffee1",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 96,
+      "x": 1124.2240614931209,
+      "y": 600.3125000000001,
+      "zIndex": 32768
+    },
+    "pvjsgeneratedidffee2": {
+      "contains": [
+        "pvjsgeneratediddd494",
+        "pvjsgeneratediddd495",
+        "pvjsgeneratediddd497",
+        "pvjsgeneratedidebcc7",
+        "pvjsgeneratedidf381b",
+        "pvjsgeneratedidf381c",
+        "pvjsgeneratedidf381d",
+        "pvjsgeneratedidf381f",
+        "pvjsgeneratedidf3820",
+        "pvjsgeneratedidf3822",
+        "pvjsgeneratedidf3823",
+        "pvjsgeneratedidf3826",
+        "pvjsgeneratedidf3827",
+        "pvjsgeneratedidf3828",
+        "pvjsgeneratedidf382a",
+        "pvjsgeneratedidf382b",
+        "pvjsgeneratedidf382c",
+        "pvjsgeneratedidf382d",
+        "pvjsgeneratedidf382e",
+        "pvjsgeneratedidf382f",
+        "pvjsgeneratedidf3830",
+        "pvjsgeneratedidf3831",
+        "bc889"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 271.40552877223627,
+      "id": "pvjsgeneratedidffee2",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 176,
+      "x": 1082.9193955154383,
+      "y": 123.5,
       "zIndex": 32768
     }
   },
@@ -8622,6 +9142,7 @@
       }
     ],
     "contains": [
+      "dd492",
       "id1b0020c3",
       "id1fe4b57f",
       "id200ef065",
@@ -8656,49 +9177,20 @@
       "id1962b0c",
       "id448549ff",
       "id5e58e9f7",
+      "idbc545b97",
       "a4c84",
       "bb272",
+      "c286e",
+      "c2ee2",
       "d1012",
       "d793e",
-      "dd492",
+      "a35fb",
       "a5da3",
+      "ae6a2",
       "b58c6",
+      "d1b81",
       "ebcc6",
-      "pvjsgeneratedida01",
-      "pvjsgeneratedidce15b",
-      "pvjsgeneratedidce15c",
-      "pvjsgeneratedidebcc7",
-      "pvjsgeneratedidf3818",
-      "pvjsgeneratedidf3819",
-      "pvjsgeneratedidf381a",
-      "pvjsgeneratedidf381b",
-      "pvjsgeneratedidf381c",
-      "pvjsgeneratedidf381d",
-      "pvjsgeneratedidf381e",
-      "pvjsgeneratedidf381f",
-      "pvjsgeneratedidf3820",
-      "pvjsgeneratedidf3821",
-      "pvjsgeneratedidf3822",
-      "pvjsgeneratedidf3823",
-      "pvjsgeneratedidf3824",
-      "pvjsgeneratedidf3825",
-      "pvjsgeneratedidf3826",
-      "pvjsgeneratedidf3827",
-      "pvjsgeneratedidf3828",
-      "pvjsgeneratedidf3829",
-      "pvjsgeneratedidf382a",
-      "pvjsgeneratedidf382b",
-      "pvjsgeneratedidf382c",
-      "pvjsgeneratedidf382d",
-      "pvjsgeneratedidf382e",
-      "pvjsgeneratedidf382f",
-      "pvjsgeneratedidf3830",
-      "pvjsgeneratedidf3831",
-      "pvjsgeneratedidf3832",
-      "pvjsgeneratedidf3833",
-      "pvjsgeneratedidf3834",
       "a0333",
-      "a13b2",
       "a28fe",
       "a29d6",
       "a4b77",
@@ -8721,15 +9213,17 @@
       "d4e95",
       "d77f8",
       "d8552",
-      "d91b5",
       "ddd0b",
       "dfee0",
       "e38ea",
       "e8394",
       "fe2cf",
+      "pvjsgeneratedidffee0",
+      "pvjsgeneratedidffee1",
+      "pvjsgeneratedidffee2",
       "da028",
+      "f66f6",
       "cfeed",
-      "ffedf",
       "e315e",
       "d952c",
       "e6a15",
@@ -8743,7 +9237,6 @@
       "c7cb0",
       "a646f",
       "dff24",
-      "f4fc8",
       "f3817",
       "a6e72",
       "f671e",
@@ -8763,10 +9256,8 @@
       "b94f4",
       "a547d",
       "f9b5d",
-      "e4067",
       "a14b1",
       "d2060",
-      "c5636",
       "fa32d",
       "fe1ae",
       "faf44",
@@ -8785,24 +9276,23 @@
       "e3e66",
       "bcbcf",
       "a1dea",
-      "bc233",
-      "bd664",
       "id923301e0",
       "id6330e88e",
       "ide845cb16",
-      "c16b6"
+      "c16b6",
+      "b144f"
     ],
-    "dataSourceVersion": "WP5283_r126558",
+    "dataSourceVersion": "WP5283_r128332",
     "displayName": "Chronic hyperglycemia impairment of neuron function",
     "drawAs": "rect",
     "fill": "white",
     "fontSize": 12,
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
-    "height": 1080.9880678568109,
+    "height": 827.9634146341464,
     "id": "WP5283",
     "kaavioType": "Group",
-    "lastModified": "20230602094028",
+    "lastModified": "20240201021446",
     "name": "Chronic hyperglycemia impairment of neuron function",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -8811,13 +9301,13 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Chronic hyperglycemia impairment of neuron function\nLast Modified: 20230602094028\nOrganism: Homo sapiens",
+    "textContent": "Name: Chronic hyperglycemia impairment of neuron function\nLast Modified: 20240201021446\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000013"
     ],
     "verticalAlign": "top",
-    "width": 1849.206976359386,
+    "width": 1298,
     "x": 0,
     "y": 0,
     "zIndex": 0
