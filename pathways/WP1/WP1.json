@@ -1,27 +1,5 @@
 {
   "entitiesById": {
-    "293013": {
-      "__HighlandStream__": true,
-      "_can_drain": false,
-      "_consume_waiting_for_next": false,
-      "_consumers": [],
-      "_delegate": null,
-      "_destructors": [],
-      "_events": {},
-      "_eventsCount": 2,
-      "_in_consume_cb": false,
-      "_incoming": [],
-      "_is_observer": false,
-      "_nil_pushed": false,
-      "_observers": [],
-      "_outgoing": [],
-      "_repeat_resume": false,
-      "_send_events": false,
-      "id": "293013",
-      "paused": true,
-      "source": null,
-      "writable": true
-    },
     "a0e3c": {
       "cellularComponent": "Nucleus",
       "drawAs": "Ellipse",
@@ -62,7 +40,7 @@
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
@@ -75,7 +53,7 @@
       "stroke": "#0000ff",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "Cholesterol Ester",
+      "textContent": "Cholesterol ester",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -83,10 +61,11 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:17002",
         "Metabolite",
+        "CompactIdentifier:chebi:17002",
+        "Cholesterol ester",
+        "Wikidata:Q415555",
         "ChEBI:17002",
-        "P683:CHEBI:17002",
-        "P683:17002",
-        "Wikidata:Q415555"
+        "ChEBI:17002"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -128,7 +107,7 @@
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
@@ -149,10 +128,15 @@
         "SingleFreeNode",
         "Entrez Gene:16971",
         "GeneProduct",
+        "CompactIdentifier:ncbigene:16971",
+        "Lrp1",
         "Ensembl:ENSMUSG00000040249",
-        "P594:ENSMUSG00000040249",
-        "P351:16971",
-        "Wikidata:Q18252092"
+        "Entrez Gene:16971",
+        "UniProt:F6UAC8",
+        "UniProt:Q3U5J2",
+        "UniProt:A0A0R4J0I9",
+        "UniProt:D3Z5M3",
+        "UniProt:F6XU19"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -219,13 +203,13 @@
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a5e",
-      "isPartOf": "abe40",
+      "isPartOf": "f90e3",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -241,10 +225,13 @@
         "SingleFreeNode",
         "Entrez Gene:11814",
         "GeneProduct",
+        "CompactIdentifier:ncbigene:11814",
+        "Apoc3",
         "Ensembl:ENSMUSG00000032081",
-        "P594:ENSMUSG00000032081",
-        "P351:11814",
-        "Wikidata:Q14910522"
+        "Entrez Gene:11814",
+        "UniProt:D3YXN8",
+        "UniProt:A0A0R4J1N3",
+        "UniProt:E9QP56"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -261,13 +248,13 @@
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a64",
-      "isPartOf": "abe40",
+      "isPartOf": "f90e3",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -283,10 +270,12 @@
         "SingleFreeNode",
         "Entrez Gene:11813",
         "GeneProduct",
+        "CompactIdentifier:ncbigene:11813",
+        "Apoc2",
         "Ensembl:ENSMUSG00000002992",
-        "P594:ENSMUSG00000002992",
-        "P351:11813",
-        "Wikidata:Q14916273"
+        "Entrez Gene:11813",
+        "UniProt:Q3UJG0",
+        "UniProt:Q05020"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -298,44 +287,12 @@
       "y": 68,
       "zIndex": 32768
     },
-    "abe40": {
-      "contains": [
-        "a5e",
-        "a64",
-        "f9d",
-        "fad"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 96,
-      "id": "abe40",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "textContent": "Group object",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 76,
-      "x": 701.9999999999987,
-      "y": 371.9999999999998,
-      "zIndex": 32768
-    },
     "af7": {
       "backpageHead": "Lipc | lipase hepatic",
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
@@ -356,10 +313,13 @@
         "SingleFreeNode",
         "Entrez Gene:15450",
         "GeneProduct",
+        "CompactIdentifier:ncbigene:15450",
+        "Lipc",
         "Ensembl:ENSMUSG00000032207",
-        "P594:ENSMUSG00000032207",
-        "P351:15450",
-        "Wikidata:Q14914224"
+        "Entrez Gene:15450",
+        "UniProt:P27656",
+        "UniProt:Q3TYU0",
+        "UniProt:A0A1L1SRU8"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -375,7 +335,7 @@
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
@@ -396,14 +356,11 @@
         "SingleFreeNode",
         "HMDB:HMDB0000067",
         "Metabolite",
-        "ChEBI:CHEBI:16113",
+        "CompactIdentifier:hmdb:HMDB0000067",
+        "Cholesterol",
         "ChEBI:16113",
-        "P683:CHEBI:16113",
-        "P683:16113",
-        "HMDB:HMDB00067",
-        "P2057:HMDB0000067",
-        "P2057:HMDB00067",
-        "Wikidata:Q43656"
+        "ChEBI:16113",
+        "InChI:HVYWMOMLDIMFJA-DPAQBDIFSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -437,7 +394,6 @@
               0
             ]
           },
-          "id": "b39ae",
           "isAttachedTo": "c83",
           "orientation": [
             0,
@@ -457,7 +413,6 @@
               1
             ]
           },
-          "id": "ab740",
           "isAttachedTo": "a36",
           "orientation": [
             0,
@@ -479,7 +434,7 @@
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
@@ -500,7 +455,8 @@
         "SingleFreeNode",
         "Entrez Gene:1071",
         "GeneProduct",
-        "Wikidata:Q14878192"
+        "CompactIdentifier:ncbigene:1071",
+        "Cetp"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -573,7 +529,7 @@
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
@@ -594,10 +550,11 @@
         "SingleFreeNode",
         "Entrez Gene:11808",
         "GeneProduct",
+        "CompactIdentifier:ncbigene:11808",
+        "Apoa4",
         "Ensembl:ENSMUSG00000032080",
-        "P594:ENSMUSG00000032080",
-        "P351:11808",
-        "Wikidata:Q18247775"
+        "Entrez Gene:11808",
+        "UniProt:P06728"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -638,7 +595,7 @@
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
@@ -657,24 +614,21 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "ChEBI:CHEBI:16113",
-        "Metabolite",
-        "ChEBI:16113",
-        "P683:CHEBI:16113",
-        "P683:16113",
         "HMDB:HMDB0000067",
-        "HMDB:HMDB00067",
-        "P2057:HMDB0000067",
-        "P2057:HMDB00067",
-        "Wikidata:Q43656"
+        "Metabolite",
+        "CompactIdentifier:hmdb:HMDB0000067",
+        "Cholesterol",
+        "ChEBI:16113",
+        "ChEBI:16113",
+        "InChI:HVYWMOMLDIMFJA-DPAQBDIFSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 124,
       "wpType": "Metabolite",
       "x": 285,
-      "xrefDataSource": "ChEBI",
-      "xrefIdentifier": "CHEBI:16113",
+      "xrefDataSource": "HMDB",
+      "xrefIdentifier": "HMDB0000067",
       "y": 226,
       "zIndex": 32768
     },
@@ -708,7 +662,7 @@
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
@@ -729,10 +683,12 @@
         "SingleFreeNode",
         "Entrez Gene:13350",
         "GeneProduct",
+        "CompactIdentifier:ncbigene:13350",
+        "Dgat1",
         "Ensembl:ENSMUSG00000022555",
-        "P594:ENSMUSG00000022555",
-        "P351:13350",
-        "Wikidata:Q18250175"
+        "Entrez Gene:13350",
+        "UniProt:Q54AA6",
+        "UniProt:Q9Z2A7"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -774,7 +730,7 @@
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
@@ -795,10 +751,11 @@
         "SingleFreeNode",
         "Entrez Gene:16956",
         "GeneProduct",
+        "CompactIdentifier:ncbigene:16956",
+        "Lpl",
         "Ensembl:ENSMUSG00000015568",
-        "P594:ENSMUSG00000015568",
-        "P351:16956",
-        "Wikidata:Q14864756"
+        "Entrez Gene:16956",
+        "UniProt:P11152"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -815,7 +772,7 @@
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
@@ -836,10 +793,13 @@
         "SingleFreeNode",
         "Entrez Gene:20778",
         "GeneProduct",
+        "CompactIdentifier:ncbigene:20778",
+        "Scarb1",
         "Ensembl:ENSMUSG00000037936",
-        "P594:ENSMUSG00000037936",
-        "P351:20778",
-        "Wikidata:Q18254329"
+        "Entrez Gene:20778",
+        "UniProt:F7C5U2",
+        "UniProt:Q61009",
+        "UniProt:D3Z5U8"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -856,7 +816,7 @@
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
@@ -877,10 +837,15 @@
         "SingleFreeNode",
         "Entrez Gene:18830",
         "GeneProduct",
+        "CompactIdentifier:ncbigene:18830",
+        "Pltp",
         "Ensembl:ENSMUSG00000017754",
-        "P594:ENSMUSG00000017754",
-        "P351:18830",
-        "Wikidata:Q18253119"
+        "Entrez Gene:18830",
+        "UniProt:A2A5K3",
+        "UniProt:A2A5K4",
+        "UniProt:P55065",
+        "UniProt:Q3UFS5",
+        "UniProt:A2A5K2"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -917,10 +882,11 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:17855",
         "Metabolite",
+        "CompactIdentifier:chebi:17855",
+        "Triglycerides",
+        "Wikidata:Q186319",
         "ChEBI:17855",
-        "P683:17855",
-        "P683:CHEBI:17855",
-        "Wikidata:Q186319"
+        "ChEBI:17855"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1044,10 +1010,11 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:16247",
         "Metabolite",
+        "CompactIdentifier:chebi:16247",
+        "Phospholipid",
+        "Wikidata:Q186915",
         "ChEBI:16247",
-        "P683:16247",
-        "P683:CHEBI:16247",
-        "Wikidata:Q186915"
+        "ChEBI:16247"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1116,10 +1083,12 @@
         "SingleFreeNode",
         "Entrez Gene:16835",
         "GeneProduct",
+        "CompactIdentifier:ncbigene:16835",
+        "Ldlr",
         "Ensembl:ENSMUSG00000032193",
-        "P594:ENSMUSG00000032193",
-        "P351:16835",
-        "Wikidata:Q14872725"
+        "Entrez Gene:16835",
+        "UniProt:A0A1L1SRE8",
+        "UniProt:P35951"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1161,7 +1130,7 @@
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
@@ -1182,10 +1151,11 @@
         "SingleFreeNode",
         "Entrez Gene:11303",
         "GeneProduct",
+        "CompactIdentifier:ncbigene:11303",
+        "Abca1",
         "Ensembl:ENSMUSG00000015243",
-        "P594:ENSMUSG00000015243",
-        "P351:11303",
-        "Wikidata:Q21129518"
+        "Entrez Gene:11303",
+        "UniProt:P41233"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1202,7 +1172,7 @@
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
@@ -1223,10 +1193,11 @@
         "SingleFreeNode",
         "Entrez Gene:13122",
         "GeneProduct",
+        "CompactIdentifier:ncbigene:13122",
+        "Cyp7a1",
         "Ensembl:ENSMUSG00000028240",
-        "P594:ENSMUSG00000028240",
-        "P351:13122",
-        "Wikidata:Q14907375"
+        "Entrez Gene:13122",
+        "UniProt:Q64505"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1268,7 +1239,7 @@
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
@@ -1289,10 +1260,18 @@
         "SingleFreeNode",
         "Entrez Gene:15357",
         "GeneProduct",
+        "CompactIdentifier:ncbigene:15357",
+        "Hmgcr",
         "Ensembl:ENSMUSG00000021670",
-        "P594:ENSMUSG00000021670",
-        "P351:15357",
-        "Wikidata:Q14864140"
+        "Entrez Gene:15357",
+        "UniProt:E9PVG9",
+        "UniProt:E9Q149",
+        "UniProt:Q01237",
+        "UniProt:E9PY17",
+        "UniProt:E9Q5H3",
+        "UniProt:F7CA39",
+        "UniProt:F2Z470",
+        "UniProt:F6X166"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1309,7 +1288,7 @@
       "drawAs": "rect",
       "fill": "transparent",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "Shape",
@@ -1377,7 +1356,7 @@
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "bold",
       "gpmlElementName": "DataNode",
@@ -1398,16 +1377,17 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:87631",
         "Metabolite",
+        "CompactIdentifier:chebi:87631",
+        "Statin",
+        "Wikidata:Q954845",
         "ChEBI:87631",
-        "P683:87631",
-        "P683:CHEBI:87631",
-        "Wikidata:Q954845"
+        "ChEBI:87631"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 80,
+      "width": 60,
       "wpType": "Metabolite",
-      "x": 58.07717750826917,
+      "x": 68.07717750826917,
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "CHEBI:87631",
       "y": 154.4873208379272,
@@ -1418,7 +1398,7 @@
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
@@ -1439,10 +1419,12 @@
         "SingleFreeNode",
         "Entrez Gene:11806",
         "GeneProduct",
+        "CompactIdentifier:ncbigene:11806",
+        "Apoa1",
         "Ensembl:ENSMUSG00000032083",
-        "P594:ENSMUSG00000032083",
-        "P351:11806",
-        "Wikidata:Q14910016"
+        "Entrez Gene:11806",
+        "UniProt:A0A1L1STX7",
+        "UniProt:Q00623"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1484,7 +1466,7 @@
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
@@ -1505,10 +1487,13 @@
         "SingleFreeNode",
         "Entrez Gene:20652",
         "GeneProduct",
+        "CompactIdentifier:ncbigene:20652",
+        "Soat1",
         "Ensembl:ENSMUSG00000026600",
-        "P594:ENSMUSG00000026600",
-        "P351:20652",
-        "Wikidata:Q18254226"
+        "Entrez Gene:20652",
+        "UniProt:A0A087WSJ5",
+        "UniProt:Q61263",
+        "UniProt:A0A087WNN8"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1549,7 +1534,7 @@
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
@@ -1570,14 +1555,11 @@
         "SingleFreeNode",
         "HMDB:HMDB0000619",
         "Metabolite",
+        "CompactIdentifier:hmdb:HMDB0000619",
+        "Cholic acid",
         "ChEBI:16359",
-        "ChEBI:CHEBI:16359",
-        "P683:16359",
-        "P683:CHEBI:16359",
-        "HMDB:HMDB00619",
-        "P2057:HMDB00619",
-        "P2057:HMDB0000619",
-        "Wikidata:Q287415"
+        "ChEBI:16359",
+        "InChI:BHQCQFFYRZLCQQ-OELDTZBJSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1624,7 +1606,7 @@
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
@@ -1645,20 +1627,17 @@
         "SingleFreeNode",
         "HMDB:HMDB0001206",
         "Metabolite",
-        "ChEBI:CHEBI:15351",
+        "CompactIdentifier:hmdb:HMDB0001206",
+        "Acetyl-CoA",
         "ChEBI:15351",
-        "P683:CHEBI:15351",
-        "P683:15351",
-        "HMDB:HMDB01206",
-        "P2057:HMDB0001206",
-        "P2057:HMDB01206",
-        "Wikidata:Q715317"
+        "ChEBI:15351",
+        "InChI:ZSLZBFCDCINBPY-ZSJPKINUSA-N"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 124,
+      "width": 80,
       "wpType": "Metabolite",
-      "x": 36.07717750826919,
+      "x": 80.07717750826919,
       "xrefDataSource": "HMDB",
       "xrefIdentifier": "HMDB0001206",
       "y": 226,
@@ -1669,7 +1648,7 @@
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
@@ -1690,10 +1669,11 @@
         "SingleFreeNode",
         "Entrez Gene:16816",
         "GeneProduct",
+        "CompactIdentifier:ncbigene:16816",
+        "Lcat",
         "Ensembl:ENSMUSG00000035237",
-        "P594:ENSMUSG00000035237",
-        "P351:16816",
-        "Wikidata:Q14905445"
+        "Entrez Gene:16816",
+        "UniProt:P16301"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1710,7 +1690,7 @@
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
@@ -1731,10 +1711,11 @@
         "SingleFreeNode",
         "Entrez Gene:17777",
         "GeneProduct",
+        "CompactIdentifier:ncbigene:17777",
+        "Mttp",
         "Ensembl:ENSMUSG00000028158",
-        "P594:ENSMUSG00000028158",
-        "P351:17777",
-        "Wikidata:Q18252476"
+        "Entrez Gene:17777",
+        "UniProt:O08601"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1746,18 +1727,50 @@
       "y": 263.9523809523805,
       "zIndex": 32768
     },
+    "f90e3": {
+      "contains": [
+        "a5e",
+        "a64",
+        "f9d",
+        "fad"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 96,
+      "id": "f90e3",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "textContent": "Group object",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 76,
+      "x": 701.9999999999987,
+      "y": 371.9999999999998,
+      "zIndex": 32768
+    },
     "f9d": {
       "backpageHead": "Apoc1 | apolipoprotein C-I",
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "f9d",
-      "isPartOf": "abe40",
+      "isPartOf": "f90e3",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1773,10 +1786,12 @@
         "SingleFreeNode",
         "Entrez Gene:11812",
         "GeneProduct",
+        "CompactIdentifier:ncbigene:11812",
+        "Apoc1",
         "Ensembl:ENSMUSG00000040564",
-        "P594:ENSMUSG00000040564",
-        "P351:11812",
-        "Wikidata:Q14904551"
+        "Entrez Gene:11812",
+        "UniProt:P34928",
+        "UniProt:A0A140LIY8"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1813,10 +1828,11 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:35366",
         "Metabolite",
+        "CompactIdentifier:chebi:35366",
+        "Free FA",
+        "Wikidata:Q61476",
         "ChEBI:35366",
-        "P683:CHEBI:35366",
-        "P683:35366",
-        "Wikidata:Q61476"
+        "ChEBI:35366"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1833,13 +1849,13 @@
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
-      "fontSize": 10,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "fad",
-      "isPartOf": "abe40",
+      "isPartOf": "f90e3",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1855,10 +1871,16 @@
         "SingleFreeNode",
         "Entrez Gene:11816",
         "GeneProduct",
+        "CompactIdentifier:ncbigene:11816",
+        "Apoe",
         "Ensembl:ENSMUSG00000002985",
-        "P594:ENSMUSG00000002985",
-        "P351:11816",
-        "Wikidata:Q14890475"
+        "Entrez Gene:11816",
+        "UniProt:G3UWN5",
+        "UniProt:Q3TXU4",
+        "UniProt:P08226",
+        "UniProt:G3UWW2",
+        "UniProt:G3UZM8",
+        "UniProt:A0A1B0GX15"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1932,6 +1954,26 @@
       "y": 373.8333333333333,
       "zIndex": 28672
     },
+    "http://identifiers.org/cl/CL:0000182": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/cl/CL:0000182",
+      "ontology": "Cell Type",
+      "term": "hepatocyte",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "CL:0000182"
+    },
+    "http://identifiers.org/doid/DOID:1287": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/doid/DOID:1287",
+      "ontology": "Disease",
+      "term": "cardiovascular system disease",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "DOID:1287"
+    },
     "http://identifiers.org/pw/PW:0000724": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000724",
@@ -1975,7 +2017,6 @@
               0
             ]
           },
-          "id": "e041f",
           "isAttachedTo": "af7",
           "orientation": [
             0,
@@ -1996,7 +2037,6 @@
               0
             ]
           },
-          "id": "c47db",
           "isAttachedTo": "e5b31",
           "orientation": [],
           "x": 267.80952380952397,
@@ -2025,7 +2065,7 @@
       "id": "id1e7f7971",
       "isAttachedTo": [
         "a24b2",
-        "abe40"
+        "f90e3"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -2041,7 +2081,6 @@
               1
             ]
           },
-          "id": "bf4f5",
           "isAttachedTo": "a24b2",
           "orientation": [
             0,
@@ -2061,8 +2100,7 @@
               0
             ]
           },
-          "id": "b2b45",
-          "isAttachedTo": "abe40",
+          "isAttachedTo": "f90e3",
           "orientation": [
             0,
             1
@@ -2106,7 +2144,6 @@
               0
             ]
           },
-          "id": "b228e",
           "isAttachedTo": "c40",
           "orientation": [
             0,
@@ -2126,7 +2163,6 @@
               1
             ]
           },
-          "id": "bf2ec",
           "isAttachedTo": "ba3f8",
           "orientation": [
             0,
@@ -2175,7 +2211,6 @@
               0.5
             ]
           },
-          "id": "d085d",
           "isAttachedTo": "fa9",
           "orientation": [
             1,
@@ -2195,7 +2230,6 @@
               0.5
             ]
           },
-          "id": "eb2e7",
           "isAttachedTo": "c66",
           "orientation": [
             1,
@@ -2243,7 +2277,6 @@
               0.5
             ]
           },
-          "id": "b7530",
           "isAttachedTo": "ba3f8",
           "orientation": [
             1,
@@ -2263,7 +2296,6 @@
               0.5
             ]
           },
-          "id": "c7eeb",
           "isAttachedTo": "a24b2",
           "orientation": [
             1,
@@ -2308,7 +2340,6 @@
               1
             ]
           },
-          "id": "b90dc",
           "isAttachedTo": "e04",
           "orientation": [
             0,
@@ -2329,7 +2360,6 @@
               0
             ]
           },
-          "id": "c1a32",
           "isAttachedTo": "b8d41",
           "orientation": [],
           "x": 205.08166969147004,
@@ -2371,7 +2401,6 @@
               0
             ]
           },
-          "id": "abbf4",
           "isAttachedTo": "a36",
           "orientation": [
             0,
@@ -2391,7 +2420,6 @@
               1
             ]
           },
-          "id": "e7668",
           "isAttachedTo": "ba3f8",
           "orientation": [
             0,
@@ -2436,7 +2464,6 @@
               0.5
             ]
           },
-          "id": "e9cc0",
           "isAttachedTo": "da7",
           "orientation": [
             -1,
@@ -2457,7 +2484,6 @@
               0
             ]
           },
-          "id": "fcc9a",
           "isAttachedTo": "a475f",
           "orientation": [],
           "x": 346.4363200446836,
@@ -2502,7 +2528,6 @@
               0
             ]
           },
-          "id": "cb391",
           "isAttachedTo": "ba3f8",
           "orientation": [
             0,
@@ -2522,7 +2547,6 @@
               1
             ]
           },
-          "id": "ce16e",
           "isAttachedTo": "ecd6d",
           "orientation": [
             0,
@@ -2567,7 +2591,6 @@
               0
             ]
           },
-          "id": "e2bc2",
           "isAttachedTo": "ca915",
           "orientation": [],
           "x": 547.0372388652227,
@@ -2584,7 +2607,6 @@
               0
             ]
           },
-          "id": "b8c3c",
           "isAttachedTo": "e58",
           "orientation": [
             0,
@@ -2624,7 +2646,6 @@
               0
             ]
           },
-          "id": "b5308",
           "isAttachedTo": "d57",
           "orientation": [
             0,
@@ -2644,7 +2665,6 @@
               1
             ]
           },
-          "id": "a161e",
           "isAttachedTo": "c40",
           "orientation": [
             0,
@@ -2685,7 +2705,6 @@
               0
             ]
           },
-          "id": "c9b82",
           "isAttachedTo": "b7b",
           "orientation": [
             0,
@@ -2706,7 +2725,6 @@
               0
             ]
           },
-          "id": "dc968",
           "isAttachedTo": "b9f0f",
           "orientation": [],
           "x": 418.8904761904764,
@@ -2735,7 +2753,7 @@
         "e04"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -2748,13 +2766,12 @@
               0.5
             ]
           },
-          "id": "a8b05",
           "isAttachedTo": "e4e59",
           "orientation": [
             1,
             0
           ],
-          "x": 138.0771775082692,
+          "x": 128.0771775082692,
           "y": 164.4873208379272
         },
         {
@@ -2768,7 +2785,6 @@
               0.5
             ]
           },
-          "id": "bde8b",
           "isAttachedTo": "e04",
           "orientation": [
             1,
@@ -2782,7 +2798,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 12288
     },
@@ -2812,7 +2830,6 @@
               0
             ]
           },
-          "id": "e8361",
           "isAttachedTo": "d75",
           "orientation": [
             0,
@@ -2832,7 +2849,6 @@
               1
             ]
           },
-          "id": "a4414",
           "isAttachedTo": "cdf",
           "orientation": [
             0,
@@ -2877,7 +2893,6 @@
               1
             ]
           },
-          "id": "fdd74",
           "isAttachedTo": "c4e",
           "orientation": [
             0,
@@ -2898,7 +2913,6 @@
               0
             ]
           },
-          "id": "ec974",
           "isAttachedTo": "d7423",
           "orientation": [],
           "x": 524.3691362507187,
@@ -2940,7 +2954,6 @@
               1
             ]
           },
-          "id": "b7be0",
           "isAttachedTo": "f82",
           "orientation": [
             0,
@@ -2961,7 +2974,6 @@
               0
             ]
           },
-          "id": "bb20c",
           "isAttachedTo": "df895",
           "orientation": [],
           "x": 437.1183927969269,
@@ -3006,7 +3018,6 @@
               0.5
             ]
           },
-          "id": "dbc0b",
           "isAttachedTo": "d57",
           "orientation": [
             1,
@@ -3026,7 +3037,6 @@
               0.5
             ]
           },
-          "id": "dcc66",
           "isAttachedTo": "c83",
           "orientation": [
             1,
@@ -3072,7 +3082,6 @@
               1
             ]
           },
-          "id": "af827",
           "isAttachedTo": "fca",
           "orientation": [
             0,
@@ -3092,7 +3101,6 @@
               0
             ]
           },
-          "id": "b9498",
           "isAttachedTo": "cdf",
           "orientation": [
             0,
@@ -3140,7 +3148,6 @@
               0.5
             ]
           },
-          "id": "e5d1d",
           "isAttachedTo": "f6a60",
           "orientation": [
             1,
@@ -3160,7 +3167,6 @@
               0.5
             ]
           },
-          "id": "e9b10",
           "isAttachedTo": "ba3f8",
           "orientation": [
             1,
@@ -3204,7 +3210,6 @@
               1
             ]
           },
-          "id": "fed68",
           "isAttachedTo": "d75",
           "orientation": [
             0,
@@ -3224,7 +3229,6 @@
               0
             ]
           },
-          "id": "bec76",
           "isAttachedTo": "afd21",
           "orientation": [
             0,
@@ -3265,7 +3269,6 @@
               0
             ]
           },
-          "id": "b9044",
           "isAttachedTo": "d72",
           "orientation": [
             0,
@@ -3285,7 +3288,6 @@
               1
             ]
           },
-          "id": "b470d",
           "isAttachedTo": "ba3f8",
           "orientation": [
             0,
@@ -3331,7 +3333,6 @@
               0
             ]
           },
-          "id": "a0902",
           "isAttachedTo": "e9293",
           "orientation": [],
           "x": 666.9115312435517,
@@ -3348,7 +3349,6 @@
               0.5
             ]
           },
-          "id": "cdd22",
           "isAttachedTo": "d24",
           "orientation": [
             1,
@@ -3393,7 +3393,6 @@
               1
             ]
           },
-          "id": "df140",
           "isAttachedTo": "fa9",
           "orientation": [
             0,
@@ -3413,7 +3412,6 @@
               0
             ]
           },
-          "id": "ac492",
           "isAttachedTo": "a24b2",
           "orientation": [
             0,
@@ -3461,7 +3459,6 @@
               0.5
             ]
           },
-          "id": "bc0f6",
           "isAttachedTo": "fca",
           "orientation": [
             -1,
@@ -3481,7 +3478,6 @@
               0.5
             ]
           },
-          "id": "e2c3a",
           "isAttachedTo": "c83",
           "orientation": [
             -1,
@@ -3530,7 +3526,6 @@
               1
             ]
           },
-          "id": "b5d34",
           "isAttachedTo": "c83",
           "orientation": [
             0,
@@ -3550,7 +3545,6 @@
               0
             ]
           },
-          "id": "e24ca",
           "isAttachedTo": "cdf",
           "orientation": [
             0,
@@ -3595,7 +3589,6 @@
               1
             ]
           },
-          "id": "aa203",
           "isAttachedTo": "e6e",
           "orientation": [
             0,
@@ -3616,7 +3609,6 @@
               0
             ]
           },
-          "id": "ee077",
           "isAttachedTo": "a259b",
           "orientation": [],
           "x": 454.2,
@@ -3662,7 +3654,6 @@
               0
             ]
           },
-          "id": "adad2",
           "isAttachedTo": "b95",
           "orientation": [
             0,
@@ -3682,7 +3673,6 @@
               1
             ]
           },
-          "id": "e89b3",
           "isAttachedTo": "cdf",
           "orientation": [
             0,
@@ -3726,7 +3716,6 @@
               0
             ]
           },
-          "id": "facf2",
           "isAttachedTo": "d57",
           "orientation": [
             0,
@@ -3746,7 +3735,6 @@
               1
             ]
           },
-          "id": "be30d",
           "isAttachedTo": "d72",
           "orientation": [
             0,
@@ -3787,7 +3775,6 @@
               1
             ]
           },
-          "id": "f340e",
           "isAttachedTo": "f8e",
           "orientation": [
             0,
@@ -3808,7 +3795,6 @@
               0
             ]
           },
-          "id": "c572f",
           "isAttachedTo": "bd45e",
           "orientation": [],
           "x": 646.3999999999995,
@@ -3850,7 +3836,6 @@
               1
             ]
           },
-          "id": "de430",
           "isAttachedTo": "c3e",
           "orientation": [
             0,
@@ -3871,7 +3856,6 @@
               0
             ]
           },
-          "id": "e66d7",
           "isAttachedTo": "a4349",
           "orientation": [],
           "x": 474.2857142857143,
@@ -3913,7 +3897,6 @@
               1
             ]
           },
-          "id": "d388e",
           "isAttachedTo": "be0",
           "orientation": [
             0,
@@ -3934,7 +3917,6 @@
               0
             ]
           },
-          "id": "dc200",
           "isAttachedTo": "bee71",
           "orientation": [],
           "x": 632.4896407396504,
@@ -3967,8 +3949,7 @@
       "textContent": "1",
       "type": [
         "PublicationXref",
-        "PubMed:10770267",
-        "Wikidata:Q28679019"
+        "PubMed:10770267"
       ],
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "10770267",
@@ -3979,7 +3960,7 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "WP1/"
+        "@base": "http://identifiers.org/wikipathways/WP1/"
       }
     ],
     "author": "[Nsalomonis, MaintBot, Khanspers, BruceConklin, TestUser, AlexanderPico, Thomas, Mkutmon, Andra, Egonw, Ddigles, Eweitz]",
@@ -4057,9 +4038,9 @@
       "f6a60",
       "f82",
       "f8e",
-      "abe40"
+      "f90e3"
     ],
-    "dataSourceVersion": "WP1_r117947",
+    "dataSourceVersion": "WP1_r127970",
     "displayName": "Statin pathway",
     "drawAs": "rect",
     "fill": "white",
@@ -4067,9 +4048,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 745.1455026455017,
-    "id": "WP1",
+    "id": "http://identifiers.org/wikipathways/WP1",
     "kaavioType": "Group",
-    "lastModified": "20210523104611",
+    "lastModified": "20240120153008",
     "name": "Statin pathway",
     "organism": "Mus musculus",
     "padding": 5,
@@ -4078,7 +4059,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Statin pathway\nLast Modified: 20210523104611\nOrganism: Mus musculus",
+    "textContent": "Name: Statin pathway\nLast Modified: 20240120153008\nOrganism: Mus musculus",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000724",
