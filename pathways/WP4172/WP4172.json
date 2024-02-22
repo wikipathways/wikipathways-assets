@@ -3803,6 +3803,44 @@
       "y": 8,
       "zIndex": 33148
     },
+    "b03b3": {
+      "drawAs": "rect",
+      "fill": "#ffdddd",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "bold",
+      "gpmlElementName": "DataNode",
+      "height": 25,
+      "id": "b03b3",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#0000ff",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Hypoxia",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Wikidata:Q105688",
+        "Unknown"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 60,
+      "wpType": "Unknown",
+      "x": 1175.9583333333326,
+      "xrefDataSource": "Wikidata",
+      "xrefIdentifier": "Q105688",
+      "y": 62.34190952590171,
+      "zIndex": 34857
+    },
     "b0405": {
       "backpageHead": "Hgf",
       "comments": [
@@ -13644,37 +13682,6 @@
       "x": 246.77522804581275,
       "y": 677.9014568669182,
       "zIndex": 33630
-    },
-    "d8076": {
-      "drawAs": "none",
-      "fill": "transparent",
-      "fontFamily": "Arial",
-      "fontSize": 12,
-      "fontStyle": "normal",
-      "fontWeight": "bold",
-      "gpmlElementName": "Label",
-      "height": 25,
-      "id": "d8076",
-      "kaavioType": "SingleFreeNode",
-      "lineHeight": 1.1,
-      "overflow": "hidden",
-      "padding": 8,
-      "stroke": "#000000",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "textContent": "Hypoxia",
-      "textDecoration": "none",
-      "textOverflow": "clip",
-      "type": [
-        "Label",
-        "SingleFreeNode"
-      ],
-      "verticalAlign": "middle",
-      "whiteSpace": "pre",
-      "width": 66.6920143619613,
-      "x": 1173.3333333333333,
-      "y": 62.63304876640683,
-      "zIndex": 28676
     },
     "d87e8": {
       "backpageHead": "Pdgfb",
@@ -24774,7 +24781,7 @@
       "gpmlElementName": "Interaction",
       "id": "id2983d6a7",
       "isAttachedTo": [
-        "d8076",
+        "b03b3",
         "e8a"
       ],
       "kaavioType": "Edge",
@@ -24791,13 +24798,13 @@
               0.5
             ]
           },
-          "isAttachedTo": "d8076",
+          "isAttachedTo": "b03b3",
           "orientation": [
             1,
             0
           ],
-          "x": 1240.0253476952946,
-          "y": 75.13304876640683
+          "x": 1235.9583333333326,
+          "y": 74.84190952590171
         },
         {
           "attachmentDisplay": {
@@ -29273,7 +29280,7 @@
       "id": "publicationXrefb15",
       "source": "Drug Resist Updat",
       "standardName": "Activation of the PI3K/Akt pathway and chemotherapeutic resistance.",
-      "textContent": "4",
+      "textContent": "5",
       "type": [
         "PublicationXref",
         "PubMed:12531180"
@@ -29406,7 +29413,7 @@
       "id": "publicationXrefd2a",
       "source": "J Biol Chem",
       "standardName": "Regulation of Raf-Akt Cross-talk.",
-      "textContent": "5",
+      "textContent": "4",
       "type": [
         "PublicationXref",
         "PubMed:12048182"
@@ -29609,7 +29616,7 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP4172/"
+        "@base": "WP4172/"
       }
     ],
     "author": "[Khanspers, Ariutta, Egonw, MaintBot, Eweitz]",
@@ -29706,7 +29713,6 @@
       "id2983d6a7",
       "c7b46",
       "c8cfa",
-      "d8076",
       "fba6e",
       "aefbc",
       "e4b1a",
@@ -29814,9 +29820,10 @@
       "b4de4",
       "d5b87",
       "f1c4a",
-      "e2235"
+      "e2235",
+      "b03b3"
     ],
-    "dataSourceVersion": "WP4172_r128035",
+    "dataSourceVersion": "WP4172_r128769",
     "displayName": "PI3K-Akt signaling pathway",
     "drawAs": "rect",
     "fill": "white",
@@ -29824,9 +29831,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 1286.178861788616,
-    "id": "http://identifiers.org/wikipathways/WP4172",
+    "id": "WP4172",
     "kaavioType": "Group",
-    "lastModified": "20240121172806",
+    "lastModified": "20240221230837",
     "name": "PI3K-Akt signaling pathway",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -29835,18 +29842,18 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: PI3K-Akt signaling pathway\nLast Modified: 20240121172806\nOrganism: Homo sapiens",
+    "textContent": "Name: PI3K-Akt signaling pathway\nLast Modified: 20240221230837\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
+      "http://identifiers.org/pw/PW:0000003",
       "http://identifiers.org/pw/PW:0000648",
+      "http://identifiers.org/pw/PW:0000595",
+      "http://identifiers.org/pw/PW:0000595",
       "http://identifiers.org/pw/PW:0000180",
       "http://identifiers.org/pw/PW:0000003",
-      "http://identifiers.org/pw/PW:0000180",
       "http://identifiers.org/pw/PW:0000605",
       "http://identifiers.org/pw/PW:0001317",
-      "http://identifiers.org/pw/PW:0000595",
-      "http://identifiers.org/pw/PW:0000595",
-      "http://identifiers.org/pw/PW:0000003"
+      "http://identifiers.org/pw/PW:0000180"
     ],
     "verticalAlign": "top",
     "width": 2292.8482649050643,

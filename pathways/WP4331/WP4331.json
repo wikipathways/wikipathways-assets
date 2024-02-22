@@ -933,6 +933,8 @@
       "lineHeight": 1.1,
       "overflow": "hidden",
       "padding": 8,
+      "rx": 15,
+      "ry": 15,
       "stroke": "#14961e",
       "strokeStyle": "double",
       "strokeWidth": 1,
@@ -943,6 +945,7 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
+        "WikiPathways:WP1919",
         "Pathway"
       ],
       "verticalAlign": "middle",
@@ -950,6 +953,7 @@
       "width": 175.1252017046388,
       "wpType": "Pathway",
       "x": 1263.8780405559082,
+      "xrefDataSource": "WikiPathways",
       "xrefIdentifier": "WP1919",
       "y": 174.94126806441236,
       "zIndex": 32789
@@ -968,6 +972,8 @@
       "lineHeight": 1.1,
       "overflow": "hidden",
       "padding": 8,
+      "rx": 15,
+      "ry": 15,
       "stroke": "#14961e",
       "strokeStyle": "double",
       "strokeWidth": 1,
@@ -978,6 +984,7 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
+        "WikiPathways:WP366",
         "Pathway"
       ],
       "verticalAlign": "middle",
@@ -985,6 +992,7 @@
       "width": 175.1252017046388,
       "wpType": "Pathway",
       "x": 1377.8170310264736,
+      "xrefDataSource": "WikiPathways",
       "xrefIdentifier": "WP366",
       "y": 1097.1222590597795,
       "zIndex": 32826
@@ -1288,6 +1296,8 @@
       "lineHeight": 1.1,
       "overflow": "hidden",
       "padding": 8,
+      "rx": 15,
+      "ry": 15,
       "stroke": "#14961e",
       "strokeStyle": "double",
       "strokeWidth": 1,
@@ -1298,6 +1308,7 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
+        "WikiPathways:WP268",
         "Pathway"
       ],
       "verticalAlign": "middle",
@@ -1305,6 +1316,7 @@
       "width": 175.1252017046388,
       "wpType": "Pathway",
       "x": 585.6819750302415,
+      "xrefDataSource": "WikiPathways",
       "xrefIdentifier": "WP268",
       "y": 20.906861173708776,
       "zIndex": 32790
@@ -1323,6 +1335,8 @@
       "lineHeight": 1.1,
       "overflow": "hidden",
       "padding": 8,
+      "rx": 15,
+      "ry": 15,
       "stroke": "#14961e",
       "strokeStyle": "double",
       "strokeWidth": 1,
@@ -1333,6 +1347,7 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
+        "WikiPathways:WP1993",
         "Pathway"
       ],
       "verticalAlign": "middle",
@@ -1340,6 +1355,7 @@
       "width": 166.0119047619046,
       "wpType": "Pathway",
       "x": 1670.2195344506556,
+      "xrefDataSource": "WikiPathways",
       "xrefIdentifier": "WP1993",
       "y": 437.7592217009675,
       "zIndex": 32780
@@ -2719,17 +2735,26 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Entrez Gene:ENSG00000142208",
+        "Ensembl:ENSG00000142208",
         "GeneProduct",
-        "CompactIdentifier:ncbigene:ENSG00000142208",
-        "AKT1"
+        "CompactIdentifier:ensembl:ENSG00000142208",
+        "AKT1",
+        "Ensembl:ENSG00000142208",
+        "Entrez Gene:207",
+        "HGNC:AKT1",
+        "UniProt:G3V3X1",
+        "UniProt:P31749",
+        "UniProt:G3V2I6",
+        "UniProt:A0A804HJM6",
+        "UniProt:B0LPE5",
+        "UniProt:A0A087WY56"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 61.843845920311935,
       "wpType": "GeneProduct",
       "x": 8.000000000000227,
-      "xrefDataSource": "Entrez Gene",
+      "xrefDataSource": "Ensembl",
       "xrefIdentifier": "ENSG00000142208",
       "y": 94.75911165231184,
       "zIndex": 32840
@@ -7335,10 +7360,10 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP4331/"
+        "@base": "WP4331/"
       }
     ],
-    "author": "[Carlosaxg, Fehrhart, DeSl, Eweitz]",
+    "author": "[Carlosaxg, Fehrhart, DeSl, Eweitz, Egonw]",
     "comments": [
       {
         "content": "Neovascularization (aka new vessel formation) is a crucial process related to wound healing. It supplies oxygen and nutrients to, and carries waste from, damaged tissue. Angiogenesis is a type of neovascularization, being a vital process in growth, development, and wound healing.",
@@ -7460,7 +7485,7 @@
       "id6b9cef01",
       "id56380431"
     ],
-    "dataSourceVersion": "WP4331_r127967",
+    "dataSourceVersion": "WP4331_r128749",
     "displayName": "Neovascularization processes",
     "drawAs": "rect",
     "fill": "white",
@@ -7468,9 +7493,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 1166.1222590597795,
-    "id": "http://identifiers.org/wikipathways/WP4331",
+    "id": "WP4331",
     "kaavioType": "Group",
-    "lastModified": "20240120144902",
+    "lastModified": "20240221075910",
     "name": "Neovascularization processes",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -7479,7 +7504,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Neovascularization processes\nLast Modified: 20240120144902\nOrganism: Homo sapiens",
+    "textContent": "Name: Neovascularization processes\nLast Modified: 20240221075910\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000476"

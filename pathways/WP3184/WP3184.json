@@ -124,7 +124,7 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 74.50227066303367,
-      "x": 43.42234332425099,
+      "x": 44.089009990917646,
       "y": 8,
       "zIndex": 16384
     },
@@ -1189,8 +1189,7 @@
         "CREBBP",
         "Ensembl:ENSBTAG00000026403",
         "Entrez Gene:505453",
-        "UniProt:F1MD32",
-        "UniProt:M5FJS5"
+        "UniProt:F1MD32"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1255,6 +1254,44 @@
       "xrefIdentifier": "ENSBTAG00000021697",
       "y": 9.999999999999972,
       "zIndex": 32768
+    },
+    "c06c1": {
+      "drawAs": "rect",
+      "fill": "#ffdddd",
+      "fontFamily": "Arial",
+      "fontSize": 10,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 20,
+      "id": "c06c1",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#0000ff",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Hypoxia",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Wikidata:Q105688",
+        "Unknown"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 60,
+      "wpType": "Unknown",
+      "x": 374,
+      "xrefDataSource": "Wikidata",
+      "xrefIdentifier": "Q105688",
+      "y": 25,
+      "zIndex": 32968
     },
     "c1c89": {
       "drawAs": "StraightLine",
@@ -1810,37 +1847,6 @@
       "width": 166.3333333333328,
       "x": 460.6666666666672,
       "y": 581.6666666666667,
-      "zIndex": 28672
-    },
-    "ceb58": {
-      "drawAs": "none",
-      "fill": "transparent",
-      "fontFamily": "Arial",
-      "fontSize": 10,
-      "fontStyle": "normal",
-      "fontWeight": "bold",
-      "gpmlElementName": "Label",
-      "height": 15,
-      "id": "ceb58",
-      "kaavioType": "SingleFreeNode",
-      "lineHeight": 1.1,
-      "overflow": "hidden",
-      "padding": 8,
-      "stroke": "#660066",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "textContent": "Hypoxia",
-      "textDecoration": "none",
-      "textOverflow": "clip",
-      "type": [
-        "Label",
-        "SingleFreeNode"
-      ],
-      "verticalAlign": "middle",
-      "whiteSpace": "pre",
-      "width": 85,
-      "x": 362.3333333333332,
-      "y": 27.66666666666667,
       "zIndex": 28672
     },
     "d3226": {
@@ -2440,7 +2446,7 @@
       "stroke": "#000000",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "Target Genes",
+      "textContent": "Target genes",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -3526,8 +3532,8 @@
         "GroupGroup"
       ],
       "verticalAlign": "middle",
-      "width": 125.92461398728469,
-      "x": 190.91008174386926,
+      "width": 126.59128065395134,
+      "x": 190.2434150772026,
       "y": 141.5397366030882,
       "zIndex": 16384
     },
@@ -3891,7 +3897,7 @@
             0,
             1
           ],
-          "x": 253.87238873751159,
+          "x": 253.53905540417827,
           "y": 141.5397366030882
         }
       ],
@@ -3909,7 +3915,7 @@
       "gpmlElementName": "Interaction",
       "id": "id79aa398",
       "isAttachedTo": [
-        "ceb58",
+        "c06c1",
         "d922a"
       ],
       "kaavioType": "Edge",
@@ -3926,13 +3932,13 @@
               1
             ]
           },
-          "isAttachedTo": "ceb58",
+          "isAttachedTo": "c06c1",
           "orientation": [
             0,
             1
           ],
-          "x": 404.8333333333332,
-          "y": 42.66666666666667
+          "x": 404,
+          "y": 45
         },
         {
           "attachmentDisplay": {
@@ -4746,7 +4752,7 @@
       "id": "publicationXrefc0f",
       "source": "http://www.cst.neb.com/reference/pathway/Angiogenesis.html.",
       "standardName": "Angiogenesis Pathway",
-      "textContent": "10",
+      "textContent": "11",
       "type": [
         "PublicationXref"
       ],
@@ -4867,7 +4873,7 @@
       "id": "publicationXrefe00",
       "source": "http://www.cst.neb.com/reference/pathway/Angiogenesis.html",
       "standardName": "3: Angiogenesis Pathway",
-      "textContent": "11",
+      "textContent": "10",
       "type": [
         "PublicationXref"
       ],
@@ -4916,10 +4922,10 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP3184/"
+        "@base": "WP3184/"
       }
     ],
-    "author": "[Mkutmon]",
+    "author": "[Mkutmon, Eweitz]",
     "comments": [
       {
         "content": "This pathway is a concise and simplified version of the basic proteins involved in angiogenesis. The proces is regulated by hyopoxia, which results in the transcription of eg. VEGF1, FGF2, PDGFbeta, MMP9, MMP2 and Ang1. These proteins bind to their receptors and by doing this they initiate different pathways that result in vessel formation.",
@@ -4976,7 +4982,6 @@
       "c1f27",
       "cd25a",
       "cd8b1",
-      "ceb58",
       "d73b2",
       "d7a49",
       "d8a56",
@@ -5000,9 +5005,10 @@
       "c7256",
       "c7929",
       "e6d65",
-      "f0ee8"
+      "f0ee8",
+      "c06c1"
     ],
-    "dataSourceVersion": "WP3184_r80764",
+    "dataSourceVersion": "WP3184_r128739",
     "displayName": "Angiogenesis",
     "drawAs": "rect",
     "fill": "white",
@@ -5010,8 +5016,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 704,
-    "id": "http://identifiers.org/wikipathways/WP3184",
+    "id": "WP3184",
     "kaavioType": "Group",
+    "lastModified": "20240221044744",
     "name": "Angiogenesis",
     "organism": "Bos taurus",
     "padding": 5,
@@ -5020,7 +5027,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Angiogenesis\nOrganism: Bos taurus",
+    "textContent": "Name: Angiogenesis\nLast Modified: 20240221044744\nOrganism: Bos taurus",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000650"

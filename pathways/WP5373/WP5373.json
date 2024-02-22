@@ -3357,7 +3357,7 @@
       "gpmlElementName": "Interaction",
       "id": "ce707",
       "isAttachedTo": [
-        "de413",
+        "db80c",
         "d405c"
       ],
       "kaavioType": "Edge",
@@ -3374,13 +3374,13 @@
               1
             ]
           },
-          "isAttachedTo": "de413",
+          "isAttachedTo": "db80c",
           "orientation": [
             0,
             1
           ],
-          "x": 906.4282503099226,
-          "y": 168.2918103718568
+          "x": 906.428,
+          "y": 167.5
         },
         {
           "attachmentDisplay": {
@@ -4762,6 +4762,44 @@
       "y": 59.14894473928871,
       "zIndex": 33004
     },
+    "db80c": {
+      "drawAs": "rect",
+      "fill": "#ffdddd",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25,
+      "id": "db80c",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#0000ff",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Hypoxia",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Wikidata:Q105688",
+        "Unknown"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 60,
+      "wpType": "Unknown",
+      "x": 876.428,
+      "xrefDataSource": "Wikidata",
+      "xrefIdentifier": "Q105688",
+      "y": 142.5,
+      "zIndex": 33075
+    },
     "dbf8e": {
       "drawAs": "StraightLine",
       "fill": "none",
@@ -5266,44 +5304,6 @@
       "xrefIdentifier": "ENSG00000075426",
       "y": 81.77415279931415,
       "zIndex": 33001
-    },
-    "de413": {
-      "comments": [
-        {
-          "content": "WikiData Identifier: Q105688"
-        }
-      ],
-      "drawAs": "rect",
-      "fill": "#ffffff",
-      "fontFamily": "Arial",
-      "fontSize": 12,
-      "fontStyle": "normal",
-      "fontWeight": "bold",
-      "gpmlElementName": "DataNode",
-      "height": 25,
-      "id": "de413",
-      "kaavioType": "SingleFreeNode",
-      "lineHeight": 1.1,
-      "overflow": "hidden",
-      "padding": 8,
-      "stroke": "#14961e",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "textContent": "Hypoxia",
-      "textDecoration": "none",
-      "textOverflow": "clip",
-      "type": [
-        "DataNode",
-        "SingleFreeNode",
-        "Pathway"
-      ],
-      "verticalAlign": "middle",
-      "whiteSpace": "pre",
-      "width": 90,
-      "wpType": "Pathway",
-      "x": 861.4282503099226,
-      "y": 143.2918103718568,
-      "zIndex": 32965
     },
     "de942": {
       "citations": [
@@ -5942,8 +5942,8 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 210.38037486218252,
-      "x": 896.866107479844,
+      "width": 180,
+      "x": 912.0562949109353,
       "y": 172.12244455004924,
       "zIndex": 33049
     },
@@ -7982,7 +7982,7 @@
       "id": "publicationXrefbd1",
       "source": "https://doi.org/10.1038/nrrheum.2012.36",
       "standardName": "Hypoxia-driven pathways in bone development, regeneration and disease",
-      "textContent": "7",
+      "textContent": "6",
       "type": [
         "PublicationXref",
         "PubMed:22450551"
@@ -8075,7 +8075,7 @@
       "id": "publicationXrefc77",
       "source": "Hum Mol Genet",
       "standardName": "C/EBPβ and RUNX2 cooperate to degrade cartilage with MMP-13 as the target and HIF-2α as the inducer in chondrocytes.",
-      "textContent": "6",
+      "textContent": "7",
       "type": [
         "PublicationXref",
         "PubMed:22095691"
@@ -8148,7 +8148,7 @@
       "id": "publicationXrefe94",
       "source": "Osteoarthritis Cartilage",
       "standardName": "Consequences of chondrocyte hypertrophy on osteoarthritic cartilage: potential effect on angiogenesis.",
-      "textContent": "9",
+      "textContent": "8",
       "type": [
         "PublicationXref",
         "PubMed:23973427"
@@ -8172,7 +8172,7 @@
       "id": "publicationXreff0c",
       "source": "Osteoarthritis Cartilage",
       "standardName": "Deiodinase 2 upregulation demonstrated in osteoarthritis patients cartilage causes cartilage destruction in tissue-specific transgenic rats.",
-      "textContent": "8",
+      "textContent": "9",
       "type": [
         "PublicationXref",
         "PubMed:23296253"
@@ -8311,7 +8311,7 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP5373/"
+        "@base": "WP5373/"
       }
     ],
     "author": "[Phil Hit, Uday as, Thanos Oikonomou, DeSl, Eweitz]",
@@ -8355,7 +8355,6 @@
       "bc3b2",
       "f57f3",
       "ec43d",
-      "de413",
       "fbf8d",
       "bd177",
       "a3f88",
@@ -8426,9 +8425,10 @@
       "c7e19",
       "dabdd",
       "f9a1a",
-      "c6c8d"
+      "c6c8d",
+      "db80c"
     ],
-    "dataSourceVersion": "WP5373_r128546",
+    "dataSourceVersion": "WP5373_r128732",
     "displayName": "Osteoarthritic chondrocyte hypertrophy",
     "drawAs": "rect",
     "fill": "white",
@@ -8436,9 +8436,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 945,
-    "id": "http://identifiers.org/wikipathways/WP5373",
+    "id": "WP5373",
     "kaavioType": "Group",
-    "lastModified": "20240211222839",
+    "lastModified": "20240221025841",
     "name": "Osteoarthritic chondrocyte hypertrophy",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -8447,13 +8447,13 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Osteoarthritic chondrocyte hypertrophy\nLast Modified: 20240211222839\nOrganism: Homo sapiens",
+    "textContent": "Name: Osteoarthritic chondrocyte hypertrophy\nLast Modified: 20240221025841\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0000328",
+      "http://identifiers.org/pw/PW:0000360",
       "http://identifiers.org/pw/PW:0000007",
-      "http://identifiers.org/pw/PW:0002521",
-      "http://identifiers.org/pw/PW:0000360"
+      "http://identifiers.org/pw/PW:0000328",
+      "http://identifiers.org/pw/PW:0002521"
     ],
     "verticalAlign": "top",
     "width": 1287.5,

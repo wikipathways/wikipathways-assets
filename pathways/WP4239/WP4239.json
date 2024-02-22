@@ -7550,6 +7550,44 @@
       "y": 964.9813496806017,
       "zIndex": 32869
     },
+    "d9b43": {
+      "drawAs": "rect",
+      "fill": "#ffdddd",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25,
+      "id": "d9b43",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#0000ff",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Hypoxia",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Wikidata:Q105688",
+        "Unknown"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 60,
+      "wpType": "Unknown",
+      "x": 1513,
+      "xrefDataSource": "Wikidata",
+      "xrefIdentifier": "Q105688",
+      "y": 78.5,
+      "zIndex": 32993
+    },
     "d9e99": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -9633,37 +9671,6 @@
       "xrefIdentifier": "ENSG00000066405",
       "y": 133.5,
       "zIndex": 32947
-    },
-    "eb88c": {
-      "drawAs": "none",
-      "fill": "transparent",
-      "fontFamily": "Arial",
-      "fontSize": 12,
-      "fontStyle": "normal",
-      "fontWeight": "bold",
-      "gpmlElementName": "Label",
-      "height": 25,
-      "id": "eb88c",
-      "kaavioType": "SingleFreeNode",
-      "lineHeight": 1.1,
-      "overflow": "hidden",
-      "padding": 8,
-      "stroke": "#000000",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "textContent": "Hypoxia",
-      "textDecoration": "none",
-      "textOverflow": "clip",
-      "type": [
-        "Label",
-        "SingleFreeNode"
-      ],
-      "verticalAlign": "middle",
-      "whiteSpace": "pre",
-      "width": 90,
-      "x": 1499.1497708381878,
-      "y": 75.977560874188,
-      "zIndex": 28672
     },
     "eba85": {
       "contains": [
@@ -15435,7 +15442,7 @@
       "gpmlElementName": "Interaction",
       "id": "idb4ceb3a0",
       "isAttachedTo": [
-        "eb88c",
+        "d9b43",
         "bae7d"
       ],
       "kaavioType": "Edge",
@@ -15452,13 +15459,13 @@
               1
             ]
           },
-          "isAttachedTo": "eb88c",
+          "isAttachedTo": "d9b43",
           "orientation": [
             0,
             1
           ],
-          "x": 1544.1497708381878,
-          "y": 100.977560874188
+          "x": 1543,
+          "y": 103.5
         },
         {
           "attachmentDisplay": {
@@ -16394,7 +16401,7 @@
       "id": "publicationXrefa6f",
       "source": "Mol Cancer Res",
       "standardName": "Unraveling the role of FOXQ1 in colorectal cancer metastasis.",
-      "textContent": "9",
+      "textContent": "10",
       "type": [
         "PublicationXref",
         "PubMed:23723077"
@@ -16485,7 +16492,7 @@
       "id": "publicationXrefac2",
       "source": "Am J Cancer Res",
       "standardName": "Overexpression of forkhead Box C2 promotes tumor metastasis and indicates poor prognosis in colon cancer via regulating epithelial-mesenchymal transition.",
-      "textContent": "14",
+      "textContent": "12",
       "type": [
         "PublicationXref",
         "PubMed:26269761"
@@ -16527,7 +16534,7 @@
       "id": "publicationXrefafe",
       "source": "Cancer Lett",
       "standardName": "FOXM1 promotes the epithelial to mesenchymal transition by stimulating the transcription of Slug in human breast cancer.",
-      "textContent": "10",
+      "textContent": "9",
       "type": [
         "PublicationXref",
         "PubMed:23856032"
@@ -16586,7 +16593,7 @@
       "id": "publicationXrefc20",
       "source": "Cancer Discov",
       "standardName": "Prometastatic NOTCH Signaling in Colon Cancer.",
-      "textContent": "13",
+      "textContent": "14",
       "type": [
         "PublicationXref",
         "PubMed:25656897"
@@ -16693,7 +16700,7 @@
       "id": "publicationXrefea0",
       "source": "Nucleic Acids Res",
       "standardName": "PhosphoSitePlus, 2014: mutations, PTMs and recalibrations.",
-      "textContent": "12",
+      "textContent": "13",
       "type": [
         "PublicationXref",
         "PubMed:25514926"
@@ -16828,10 +16835,10 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP4239/"
+        "@base": "WP4239/"
       }
     ],
-    "author": "[Khanspers, AlexanderPico, AMTan, Fehrhart, Finterly]",
+    "author": "[Khanspers, AlexanderPico, AMTan, Fehrhart, Finterly, Eweitz]",
     "comments": [
       {
         "content": "Epithelial to mesenchymal transition (EMT) is a process during which cells lose their epithelial characteristics, and gain mesenchymal properties, such as increased motility. In colorectal cancer (CRC), EMT is associated with an invasive or metastatic phenotype. During EMT, tumor cells undergo tight junction dissolution, disruption of apical–basal polarity, and reorganization of the cytoskeletal architecture, which enable cells to develop an invasive phenotype. In cancer cells, EMT is abnormally regulated by extracellular stimuli derived from the tumor microenvironment, including growth factors and inflammatory cytokines, along with intra-tumoral physical stresses such as hypoxia. Therefore, EMT programming allows tumor cells to adapt to the constant changes of the human tumor microenvironment, and thus to successfully metastasize. This pathway summarizes the major signaling pathways and inducers that promote EMT in CRC. \r\nA set of core transcription factors regulate EMT: SNAIL family of zinc-finger transcription factors SNAIL/SLUG; the zinc finger E-box binding homeobox (ZEB) family of transcription factors ZEB1/ZEB2, and the TWIST family of basic helix-loop-helix (bHLH) transcription factors TWIST1/TWIST2. \r\n(Adapted from Vu et al.) Phosphorylation sites were added based on information from PhosphoSitePlus (R), www.phosphosite.org.\r\n\r\nProteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP4239 CPTAC Assay Portal]",
@@ -16910,7 +16917,6 @@
       "pvjsgeneratedidff546",
       "pvjsgeneratedidff547",
       "ca985",
-      "eb88c",
       "ef3de",
       "f191a",
       "b098f",
@@ -16994,9 +17000,10 @@
       "c3732",
       "b509a",
       "a0958",
-      "ee85f"
+      "ee85f",
+      "d9b43"
     ],
-    "dataSourceVersion": "WP4239_r127351",
+    "dataSourceVersion": "WP4239_r128751",
     "displayName": "Epithelial to mesenchymal transition in colorectal cancer",
     "drawAs": "rect",
     "fill": "white",
@@ -17004,9 +17011,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 1716.7924528301885,
-    "id": "http://identifiers.org/wikipathways/WP4239",
+    "id": "WP4239",
     "kaavioType": "Group",
-    "lastModified": "20230920182539",
+    "lastModified": "20240221123604",
     "name": "Epithelial to mesenchymal transition in colorectal cancer",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -17015,7 +17022,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Epithelial to mesenchymal transition in colorectal cancer\nLast Modified: 20230920182539\nOrganism: Homo sapiens",
+    "textContent": "Name: Epithelial to mesenchymal transition in colorectal cancer\nLast Modified: 20240221123604\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000605"
