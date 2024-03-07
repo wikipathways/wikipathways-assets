@@ -1,49 +1,5 @@
 {
   "entitiesById": {
-    "217645": {
-      "__HighlandStream__": true,
-      "_can_drain": false,
-      "_consume_waiting_for_next": false,
-      "_consumers": [],
-      "_delegate": null,
-      "_destructors": [],
-      "_events": {},
-      "_eventsCount": 2,
-      "_in_consume_cb": false,
-      "_incoming": [],
-      "_is_observer": false,
-      "_nil_pushed": false,
-      "_observers": [],
-      "_outgoing": [],
-      "_repeat_resume": false,
-      "_send_events": false,
-      "id": "217645",
-      "paused": true,
-      "source": null,
-      "writable": true
-    },
-    "338475": {
-      "__HighlandStream__": true,
-      "_can_drain": false,
-      "_consume_waiting_for_next": false,
-      "_consumers": [],
-      "_delegate": null,
-      "_destructors": [],
-      "_events": {},
-      "_eventsCount": 2,
-      "_in_consume_cb": false,
-      "_incoming": [],
-      "_is_observer": false,
-      "_nil_pushed": false,
-      "_observers": [],
-      "_outgoing": [],
-      "_repeat_resume": false,
-      "_send_events": false,
-      "id": "338475",
-      "paused": true,
-      "source": null,
-      "writable": true
-    },
     "ab2a6": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -346,6 +302,36 @@
       "y": 225.333333333333,
       "zIndex": 32768
     },
+    "http://identifiers.org/doid/DOID:0080600": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/doid/DOID:0080600",
+      "ontology": "Disease",
+      "term": "COVID-19",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "DOID:0080600"
+    },
+    "http://identifiers.org/doid/DOID:11162": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/doid/DOID:11162",
+      "ontology": "Disease",
+      "term": "respiratory failure",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "DOID:11162"
+    },
+    "http://identifiers.org/doid/DOID:934": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/doid/DOID:934",
+      "ontology": "Disease",
+      "term": "viral infectious disease",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "DOID:934"
+    },
     "http://identifiers.org/pw/PW:0000013": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000013",
@@ -379,7 +365,6 @@
               1
             ]
           },
-          "id": "a6b89",
           "isAttachedTo": "d08ac",
           "orientation": [
             0,
@@ -399,7 +384,6 @@
               0
             ]
           },
-          "id": "b0c16",
           "isAttachedTo": "b733a",
           "orientation": [
             0,
@@ -444,7 +428,6 @@
               1
             ]
           },
-          "id": "a4d5c",
           "isAttachedTo": "b733a",
           "orientation": [
             0,
@@ -468,7 +451,6 @@
               0
             ]
           },
-          "id": "e5b3f",
           "isAttachedTo": "ee6b1",
           "orientation": [
             0,
@@ -513,7 +495,6 @@
               1
             ]
           },
-          "id": "a1bd2",
           "isAttachedTo": "ee6b1",
           "orientation": [
             0,
@@ -533,7 +514,6 @@
               0
             ]
           },
-          "id": "dc954",
           "isAttachedTo": "dd819",
           "orientation": [
             0,
@@ -574,7 +554,6 @@
               1
             ]
           },
-          "id": "fd0cb",
           "isAttachedTo": "b733a",
           "orientation": [
             0,
@@ -598,7 +577,6 @@
               0
             ]
           },
-          "id": "fb46c",
           "isAttachedTo": "ab2a6",
           "orientation": [
             0,
@@ -643,7 +621,6 @@
               1
             ]
           },
-          "id": "d7658",
           "isAttachedTo": "cfddc",
           "orientation": [
             0,
@@ -663,7 +640,6 @@
               0
             ]
           },
-          "id": "c150f",
           "isAttachedTo": "d051e",
           "orientation": [
             0,
@@ -704,7 +680,6 @@
               1
             ]
           },
-          "id": "d19da",
           "isAttachedTo": "ab2a6",
           "orientation": [
             0,
@@ -724,7 +699,6 @@
               0
             ]
           },
-          "id": "a0702",
           "isAttachedTo": "dd819",
           "orientation": [
             0,
@@ -765,7 +739,6 @@
               1
             ]
           },
-          "id": "aa7ff",
           "isAttachedTo": "d051e",
           "orientation": [
             0,
@@ -785,7 +758,6 @@
               0
             ]
           },
-          "id": "eb132",
           "isAttachedTo": "b733a",
           "orientation": [
             0,
@@ -848,7 +820,7 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP4799/"
+        "@base": "WP4799/"
       }
     ],
     "author": "[Amber, Fehrhart, AlexanderPico, Egonw, NhungP, Eweitz]",
@@ -874,17 +846,17 @@
       "d08ac",
       "ee6b1"
     ],
-    "dataSourceVersion": "WP4799_r120793",
+    "dataSourceVersion": "WP4799_r129018",
     "displayName": "Downregulation of ACE2 by SARS-CoV-2 spike protein",
     "drawAs": "rect",
     "fill": "white",
     "fontSize": 12,
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
-    "height": 345.3333333333335,
-    "id": "http://identifiers.org/wikipathways/WP4799",
+    "height": 330,
+    "id": "WP4799",
     "kaavioType": "Group",
-    "lastModified": "20220108205501",
+    "lastModified": "20240306231016",
     "name": "Downregulation of ACE2 by SARS-CoV-2 spike protein",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -893,7 +865,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Downregulation of ACE2 by SARS-CoV-2 spike protein\nLast Modified: 20220108205501\nOrganism: Homo sapiens",
+    "textContent": "Name: Downregulation of ACE2 by SARS-CoV-2 spike protein\nLast Modified: 20240306231016\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000013"
