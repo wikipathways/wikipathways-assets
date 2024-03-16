@@ -2230,16 +2230,53 @@
       "xrefIdentifier": "C26F1.5",
       "y": 221,
       "zIndex": 32768
+    },
+    "http://identifiers.org/pw/PW:0000004": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000004",
+      "ontology": "Pathway Ontology",
+      "term": "regulatory pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000004"
+    },
+    "publicationXrefe29": {
+      "authors": [
+        "Kume M",
+        "Chiyoda H",
+        "Kontani K",
+        "Katada T",
+        "Fukuyama M"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefe29",
+      "source": "Biochem Biophys Res Commun",
+      "standardName": "Hedgehog-related genes regulate reactivation of quiescent neural progenitors in Caenorhabditis elegans.",
+      "textContent": "1",
+      "type": [
+        "PublicationXref",
+        "PubMed:31615656"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "31615656",
+      "year": 2019
     }
   },
   "pathway": {
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP1497/"
+        "@base": "WP1497/"
       }
     ],
     "author": "[Pieter Giesbertz, Khanspers, MaintBot, RaatsS, Egonw]",
+    "comments": [
+      {
+        "content": "List of hedgehog-related genes and their activation in several life stages from embryonic to adult.",
+        "source": "WikiPathways-description"
+      }
+    ],
     "contains": [
       "d37e2",
       "d9854",
@@ -2255,7 +2292,7 @@
       "d40a5",
       "d6a4a"
     ],
-    "dataSourceVersion": "WP1497_r126386",
+    "dataSourceVersion": "WP1497_r129251",
     "displayName": "Hedgehog-related genes",
     "drawAs": "rect",
     "fill": "white",
@@ -2263,9 +2300,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 794,
-    "id": "http://identifiers.org/wikipathways/WP1497",
+    "id": "WP1497",
     "kaavioType": "Group",
-    "lastModified": "20230426101233",
+    "lastModified": "20240316100946",
     "name": "Hedgehog-related genes",
     "organism": "Caenorhabditis elegans",
     "padding": 5,
@@ -2274,9 +2311,10 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Hedgehog-related genes\nLast Modified: 20230426101233\nOrganism: Caenorhabditis elegans",
+    "textContent": "Name: Hedgehog-related genes\nLast Modified: 20240316100946\nOrganism: Caenorhabditis elegans",
     "type": [
-      "Pathway"
+      "Pathway",
+      "http://identifiers.org/pw/PW:0000004"
     ],
     "verticalAlign": "top",
     "width": 747,
