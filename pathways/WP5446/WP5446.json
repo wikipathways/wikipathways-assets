@@ -213,7 +213,7 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 90,
-      "x": 548,
+      "x": 8,
       "y": 391.5,
       "zIndex": 28672
     },
@@ -270,7 +270,7 @@
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "DataNode",
-      "height": 70,
+      "height": 93,
       "id": "ba809",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
@@ -382,7 +382,7 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 90,
-      "x": 549,
+      "x": 9,
       "y": 350.5,
       "zIndex": 32776
     },
@@ -869,6 +869,44 @@
       "y": 148,
       "zIndex": 32773
     },
+    "e3cf9": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "bold",
+      "gpmlElementName": "DataNode",
+      "height": 35,
+      "id": "e3cf9",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#14961e",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Decrease hunger\nin hypothalamus",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "WikiPathways:WP5445",
+        "Pathway"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 120,
+      "wpType": "Pathway",
+      "x": 479.75,
+      "xrefDataSource": "WikiPathways",
+      "xrefIdentifier": "WP5445",
+      "y": 394.25,
+      "zIndex": 32793
+    },
     "e4a17": {
       "drawAs": "StraightLine",
       "fill": "none",
@@ -927,6 +965,69 @@
         "Edge"
       ],
       "zIndex": 32779
+    },
+    "e523a": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "e523a",
+      "isAttachedTo": [
+        "fe87c",
+        "e3cf9"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              1,
+              0.5
+            ]
+          },
+          "isAttachedTo": "fe87c",
+          "orientation": [
+            1,
+            0
+          ],
+          "x": 408.5,
+          "y": 434.75
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0,
+              0.5
+            ]
+          },
+          "isAttachedTo": "e3cf9",
+          "orientation": [
+            1,
+            0
+          ],
+          "x": 479.75,
+          "y": 411.75
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 32794
     },
     "e6304": {
       "drawAs": "rect",
@@ -1008,6 +1109,44 @@
       "xrefIdentifier": "ENSG00000115263",
       "y": 292.25,
       "zIndex": 32777
+    },
+    "eb173": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "bold",
+      "gpmlElementName": "DataNode",
+      "height": 35,
+      "id": "eb173",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#14961e",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Insulin secretion \nin pancreas",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "WikiPathways:WP5452",
+        "Pathway"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 120,
+      "wpType": "Pathway",
+      "x": 479.75,
+      "xrefDataSource": "WikiPathways",
+      "xrefIdentifier": "WP5452",
+      "y": 435.25,
+      "zIndex": 32768
     },
     "ec5de": {
       "drawAs": "rect",
@@ -1303,7 +1442,7 @@
       "x": 348.5,
       "xrefDataSource": "Wikidata",
       "xrefIdentifier": "Q424611",
-      "y": 416.25,
+      "y": 422.25,
       "zIndex": 32782
     },
     "http://identifiers.org/cl/CL:0000164": {
@@ -1345,6 +1484,69 @@
         "openControlledVocabulary"
       ],
       "xrefIdentifier": "PW:0000553"
+    },
+    "id41f0dffc": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "id41f0dffc",
+      "isAttachedTo": [
+        "fe87c",
+        "eb173"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              1,
+              0.5
+            ]
+          },
+          "isAttachedTo": "fe87c",
+          "orientation": [
+            1,
+            0
+          ],
+          "x": 408.5,
+          "y": 434.75
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0,
+              0.5
+            ]
+          },
+          "isAttachedTo": "eb173",
+          "orientation": [
+            1,
+            0
+          ],
+          "x": 479.75,
+          "y": 452.75
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12288
     },
     "id71d3b2ae": {
       "drawAs": "StraightLine",
@@ -1453,7 +1655,7 @@
             1
           ],
           "x": 378.5,
-          "y": 416.25
+          "y": 422.25
         }
       ],
       "stroke": "#000000",
@@ -1740,11 +1942,13 @@
     "contains": [
       "d57c6",
       "ba809",
+      "id41f0dffc",
       "idb4408842",
       "idc7bc73b7",
       "ide1cd5b",
       "b3695",
       "af1ba",
+      "eb173",
       "ec5de",
       "ee1cd",
       "f182e",
@@ -1764,19 +1968,21 @@
       "d9422",
       "id71d3b2ae",
       "id8cac31c7",
-      "da5f7"
+      "da5f7",
+      "e3cf9",
+      "e523a"
     ],
-    "dataSourceVersion": "WP5446_r129189",
+    "dataSourceVersion": "WP5446_r129278",
     "displayName": "GLP-1 secretion from intestine to portal vein",
     "drawAs": "rect",
     "fill": "white",
     "fontSize": 12,
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
-    "height": 486,
+    "height": 509,
     "id": "WP5446",
     "kaavioType": "Group",
-    "lastModified": "20240315100156",
+    "lastModified": "20240317235952",
     "name": "GLP-1 secretion from intestine to portal vein",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -1785,7 +1991,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: GLP-1 secretion from intestine to portal vein\nLast Modified: 20240315100156\nOrganism: Homo sapiens",
+    "textContent": "Name: GLP-1 secretion from intestine to portal vein\nLast Modified: 20240317235952\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000176",
