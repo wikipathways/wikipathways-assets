@@ -1,26 +1,72 @@
 {
   "entitiesById": {
-    "666287": {
-      "__HighlandStream__": true,
-      "_can_drain": false,
-      "_consume_waiting_for_next": false,
-      "_consumers": [],
-      "_delegate": null,
-      "_destructors": [],
-      "_events": {},
-      "_eventsCount": 2,
-      "_in_consume_cb": false,
-      "_incoming": [],
-      "_is_observer": false,
-      "_nil_pushed": false,
-      "_observers": [],
-      "_outgoing": [],
-      "_repeat_resume": false,
-      "_send_events": false,
-      "id": "666287",
-      "paused": true,
-      "source": null,
-      "writable": true
+    "a042f": {
+      "comments": [
+        {
+          "content": "Identifier Not Found"
+        }
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 13,
+      "id": "a042f",
+      "isPartOf": "cdfe8",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#14961e",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "textContent": "EMT",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Pathway"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 104,
+      "wpType": "Pathway",
+      "x": 8,
+      "y": 35,
+      "zIndex": 32769
+    },
+    "a1bd3": {
+      "contains": [
+        "a4e9f",
+        "d8cd5"
+      ],
+      "drawAs": "Octagon",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 64,
+      "id": "a1bd3",
+      "kaavioType": "Group",
+      "padding": 11,
+      "stroke": "#808080",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "Complex",
+        "GroupComplex"
+      ],
+      "verticalAlign": "middle",
+      "width": 104,
+      "x": 173,
+      "y": 202,
+      "zIndex": 32768
     },
     "a4e9f": {
       "drawAs": "rect",
@@ -32,7 +78,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a4e9f",
-      "isPartOf": "db5cc",
+      "isPartOf": "a1bd3",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -40,16 +86,16 @@
       "stroke": "#000000",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "RhoA",
+      "textContent": "RHOA",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Ensembl:ENSG00000067560",
+        "HGNC:RHOA",
         "GeneProduct",
-        "CompactIdentifier:ensembl:ENSG00000067560",
-        "RhoA",
+        "CompactIdentifier:hgnc.symbol:RHOA",
+        "RHOA",
         "Ensembl:ENSG00000067560",
         "Entrez Gene:387",
         "HGNC:RHOA",
@@ -67,8 +113,8 @@
       "width": 80,
       "wpType": "GeneProduct",
       "x": 12,
-      "xrefDataSource": "Ensembl",
-      "xrefIdentifier": "ENSG00000067560",
+      "xrefDataSource": "HGNC",
+      "xrefIdentifier": "RHOA",
       "y": 12,
       "zIndex": 32768
     },
@@ -95,11 +141,12 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Ensembl:ENSG00000137962",
+        "HGNC:ARHGAP29",
         "GeneProduct",
-        "CompactIdentifier:ensembl:ENSG00000137962",
+        "CompactIdentifier:hgnc.symbol:ARHGAP29",
         "ARHGAP29",
         "Ensembl:ENSG00000137962",
+        "Entrez Gene:105378858",
         "Entrez Gene:9411",
         "HGNC:ARHGAP29",
         "UniProt:F8VWZ8",
@@ -110,8 +157,8 @@
       "width": 80,
       "wpType": "GeneProduct",
       "x": 314,
-      "xrefDataSource": "Ensembl",
-      "xrefIdentifier": "ENSG00000137962",
+      "xrefDataSource": "HGNC",
+      "xrefIdentifier": "ARHGAP29",
       "y": 162,
       "zIndex": 32768
     },
@@ -163,9 +210,9 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Ensembl:ENSG00000117595",
+        "HGNC:IRF6",
         "GeneProduct",
-        "CompactIdentifier:ensembl:ENSG00000117595",
+        "CompactIdentifier:hgnc.symbol:IRF6",
         "IRF6",
         "Ensembl:ENSG00000117595",
         "Entrez Gene:3664",
@@ -180,8 +227,8 @@
       "width": 80,
       "wpType": "GeneProduct",
       "x": 314,
-      "xrefDataSource": "Ensembl",
-      "xrefIdentifier": "ENSG00000117595",
+      "xrefDataSource": "HGNC",
+      "xrefIdentifier": "IRF6",
       "y": 117,
       "zIndex": 32768
     },
@@ -208,22 +255,61 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Ensembl:ENSG00000275340",
+        "HGNC:ARHGEF2",
         "GeneProduct",
-        "CompactIdentifier:ensembl:ENSG00000275340",
+        "CompactIdentifier:hgnc.symbol:ARHGEF2",
         "GEF",
-        "Ensembl:ENSG00000275340",
-        "Entrez Gene:100132526",
-        "HGNC:FGD5P1"
+        "Ensembl:ENSG00000116584",
+        "Entrez Gene:9181",
+        "HGNC:ARHGEF2",
+        "UniProt:A0A1Y8EN19",
+        "UniProt:V9GZ14",
+        "UniProt:V9GZ58",
+        "UniProt:A0A5F9ZI21",
+        "UniProt:V9GYF0",
+        "UniProt:V9GY94",
+        "UniProt:V9GYM8",
+        "UniProt:V9GYG5",
+        "UniProt:V9GYF5",
+        "UniProt:Q92974"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
       "x": 314.25,
-      "xrefDataSource": "Ensembl",
-      "xrefIdentifier": "ENSG00000275340",
+      "xrefDataSource": "HGNC",
+      "xrefIdentifier": "ARHGEF2",
       "y": 289.75,
+      "zIndex": 32768
+    },
+    "b236e": {
+      "contains": [
+        "d0426",
+        "e98ab"
+      ],
+      "drawAs": "Octagon",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 64,
+      "id": "b236e",
+      "kaavioType": "Group",
+      "padding": 11,
+      "stroke": "#808080",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "Complex",
+        "GroupComplex"
+      ],
+      "verticalAlign": "middle",
+      "width": 104,
+      "x": 429,
+      "y": 203,
       "zIndex": 32768
     },
     "b3278": {
@@ -237,10 +323,11 @@
       "fontFamily": "Arial",
       "fontSize": 12,
       "fontStyle": "normal",
-      "fontWeight": "bold",
+      "fontWeight": "normal",
       "gpmlElementName": "DataNode",
       "height": 13,
       "id": "b3278",
+      "isPartOf": "cdfe8",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -260,37 +347,8 @@
       "whiteSpace": "pre",
       "width": 104,
       "wpType": "Pathway",
-      "x": 632,
-      "y": 228,
-      "zIndex": 32768
-    },
-    "b71c2": {
-      "contains": [
-        "d0426",
-        "e98ab"
-      ],
-      "drawAs": "Octagon",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 64,
-      "id": "b71c2",
-      "kaavioType": "Group",
-      "padding": 11,
-      "stroke": "#808080",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "Complex",
-        "GroupComplex"
-      ],
-      "verticalAlign": "middle",
-      "width": 104,
-      "x": 429,
-      "y": 203,
+      "x": 11,
+      "y": 8,
       "zIndex": 32768
     },
     "b8de4": {
@@ -316,9 +374,9 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Ensembl:ENSG00000137203",
+        "HGNC:TFAP2A",
         "GeneProduct",
-        "CompactIdentifier:ensembl:ENSG00000137203",
+        "CompactIdentifier:hgnc.symbol:TFAP2A",
         "TFAP2A",
         "Ensembl:ENSG00000137203",
         "Entrez Gene:7020",
@@ -337,10 +395,10 @@
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 217,
-      "xrefDataSource": "Ensembl",
-      "xrefIdentifier": "ENSG00000137203",
-      "y": 65,
+      "x": 262,
+      "xrefDataSource": "HGNC",
+      "xrefIdentifier": "TFAP2A",
+      "y": 57,
       "zIndex": 32768
     },
     "b9a7c": {
@@ -366,9 +424,9 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Ensembl:ENSG00000073282",
+        "HGNC:TP63",
         "GeneProduct",
-        "CompactIdentifier:ensembl:ENSG00000073282",
+        "CompactIdentifier:hgnc.symbol:TP63",
         "TP63",
         "Ensembl:ENSG00000073282",
         "Entrez Gene:8626",
@@ -383,10 +441,10 @@
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 415,
-      "xrefDataSource": "Ensembl",
-      "xrefIdentifier": "ENSG00000073282",
-      "y": 63,
+      "x": 427,
+      "xrefDataSource": "HGNC",
+      "xrefIdentifier": "TP63",
+      "y": 59,
       "zIndex": 32768
     },
     "c0888": {
@@ -408,32 +466,55 @@
       "lineHeight": 1.1,
       "overflow": "hidden",
       "padding": 8,
-      "stroke": "#000000",
+      "stroke": "#14961e",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "WNT",
+      "textContent": "WNT Signaling",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Ensembl:ENSG00000125084",
-        "GeneProduct",
-        "CompactIdentifier:ensembl:ENSG00000125084",
-        "WNT",
-        "Ensembl:ENSG00000125084",
-        "Entrez Gene:7471",
-        "HGNC:WNT1",
-        "UniProt:P04628"
+        "WikiPathways:WP428",
+        "Pathway"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
-      "wpType": "GeneProduct",
-      "x": 66,
-      "xrefDataSource": "Ensembl",
-      "xrefIdentifier": "ENSG00000125084",
-      "y": 174,
+      "wpType": "Pathway",
+      "x": 52,
+      "xrefDataSource": "WikiPathways",
+      "xrefIdentifier": "WP428",
+      "y": 193,
+      "zIndex": 32768
+    },
+    "cdfe8": {
+      "contains": [
+        "b3278",
+        "a042f"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 56,
+      "id": "cdfe8",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 123,
+      "x": 588,
+      "y": 207,
       "zIndex": 32768
     },
     "d0426": {
@@ -446,7 +527,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "d0426",
-      "isPartOf": "b71c2",
+      "isPartOf": "b236e",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -460,9 +541,9 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Ensembl:ENSG00000067560",
+        "HGNC:RHOA",
         "GeneProduct",
-        "CompactIdentifier:ensembl:ENSG00000067560",
+        "CompactIdentifier:hgnc.symbol:RHOA",
         "RHOA",
         "Ensembl:ENSG00000067560",
         "Entrez Gene:387",
@@ -481,8 +562,8 @@
       "width": 80,
       "wpType": "GeneProduct",
       "x": 12,
-      "xrefDataSource": "Ensembl",
-      "xrefIdentifier": "ENSG00000067560",
+      "xrefDataSource": "HGNC",
+      "xrefIdentifier": "RHOA",
       "y": 12,
       "zIndex": 32768
     },
@@ -496,7 +577,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "d8cd5",
-      "isPartOf": "db5cc",
+      "isPartOf": "a1bd3",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -526,35 +607,6 @@
       "xrefDataSource": "HMDB",
       "xrefIdentifier": "HMDB0001440",
       "y": 32,
-      "zIndex": 32768
-    },
-    "db5cc": {
-      "contains": [
-        "a4e9f",
-        "d8cd5"
-      ],
-      "drawAs": "Octagon",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 64,
-      "id": "db5cc",
-      "kaavioType": "Group",
-      "padding": 11,
-      "stroke": "#808080",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "Complex",
-        "GroupComplex"
-      ],
-      "verticalAlign": "middle",
-      "width": 104,
-      "x": 173,
-      "y": 202,
       "zIndex": 32768
     },
     "dfa8e": {
@@ -605,9 +657,9 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Ensembl:ENSG00000119699",
+        "HGNC:TGFB3",
         "GeneProduct",
-        "CompactIdentifier:ensembl:ENSG00000119699",
+        "CompactIdentifier:hgnc.symbol:TGFB3",
         "TGFB3",
         "Ensembl:ENSG00000119699",
         "Entrez Gene:7043",
@@ -620,10 +672,10 @@
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 120,
-      "xrefDataSource": "Ensembl",
-      "xrefIdentifier": "ENSG00000119699",
-      "y": 141,
+      "x": 186,
+      "xrefDataSource": "HGNC",
+      "xrefIdentifier": "TGFB3",
+      "y": 117,
       "zIndex": 32768
     },
     "e98ab": {
@@ -636,7 +688,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "e98ab",
-      "isPartOf": "b71c2",
+      "isPartOf": "b236e",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -667,6 +719,16 @@
       "xrefIdentifier": "HMDB0000960",
       "y": 32,
       "zIndex": 32768
+    },
+    "http://identifiers.org/doid/DOID:9296": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/doid/DOID:9296",
+      "ontology": "Disease",
+      "term": "cleft lip",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "DOID:9296"
     },
     "http://identifiers.org/pw/PW:0000003": {
       "gpmlElementName": "openControlledVocabulary",
@@ -711,7 +773,6 @@
               0
             ]
           },
-          "id": "d3ca5",
           "isAttachedTo": "b2267",
           "orientation": [
             0,
@@ -732,7 +793,6 @@
               0
             ]
           },
-          "id": "d910d",
           "isAttachedTo": "dfa8e",
           "orientation": [],
           "x": 355.0032027699632,
@@ -770,14 +830,13 @@
               0.5
             ]
           },
-          "id": "b1847",
           "isAttachedTo": "c0888",
           "orientation": [
             1,
             0
           ],
-          "x": 146,
-          "y": 184
+          "x": 132,
+          "y": 203
         },
         {
           "attachmentDisplay": {
@@ -790,7 +849,6 @@
               0.5
             ]
           },
-          "id": "d479f",
           "isAttachedTo": "a4e9f",
           "orientation": [
             1,
@@ -818,8 +876,8 @@
       "gpmlElementName": "Interaction",
       "id": "id2be573a9",
       "isAttachedTo": [
-        "b71c2",
-        "b3278"
+        "b236e",
+        "cdfe8"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -835,8 +893,7 @@
               0.5
             ]
           },
-          "id": "d3bf6",
-          "isAttachedTo": "b71c2",
+          "isAttachedTo": "b236e",
           "orientation": [
             1,
             0
@@ -855,14 +912,13 @@
               0.5
             ]
           },
-          "id": "c86e0",
-          "isAttachedTo": "b3278",
+          "isAttachedTo": "cdfe8",
           "orientation": [
             1,
             0
           ],
-          "x": 632,
-          "y": 234.5
+          "x": 588,
+          "y": 235
         }
       ],
       "stroke": "#000000",
@@ -886,8 +942,8 @@
       "gpmlElementName": "Interaction",
       "id": "id4c803e5e",
       "isAttachedTo": [
-        "db5cc",
-        "b71c2"
+        "a1bd3",
+        "b236e"
       ],
       "kaavioType": "Edge",
       "markerEnd": "MimConversion",
@@ -903,8 +959,7 @@
               0.25
             ]
           },
-          "id": "beba2",
-          "isAttachedTo": "db5cc",
+          "isAttachedTo": "a1bd3",
           "orientation": [
             1,
             0
@@ -923,8 +978,7 @@
               0.25
             ]
           },
-          "id": "e080a",
-          "isAttachedTo": "b71c2",
+          "isAttachedTo": "b236e",
           "orientation": [
             1,
             0
@@ -964,14 +1018,13 @@
               1
             ]
           },
-          "id": "a5e78",
           "isAttachedTo": "e8c22",
           "orientation": [
             0,
             1
           ],
-          "x": 160,
-          "y": 161
+          "x": 226,
+          "y": 137
         },
         {
           "attachmentDisplay": {
@@ -984,7 +1037,6 @@
               0
             ]
           },
-          "id": "b6ad9",
           "isAttachedTo": "a4e9f",
           "orientation": [
             0,
@@ -1029,14 +1081,13 @@
               0.5
             ]
           },
-          "id": "d670b",
           "isAttachedTo": "e8c22",
           "orientation": [
             1,
             0
           ],
-          "x": 200,
-          "y": 151
+          "x": 266,
+          "y": 127
         },
         {
           "attachmentDisplay": {
@@ -1049,7 +1100,6 @@
               0.5
             ]
           },
-          "id": "e22e9",
           "isAttachedTo": "b1d3c",
           "orientation": [
             1,
@@ -1090,18 +1140,17 @@
               0
             ],
             "position": [
-              0.75,
+              0.5,
               1
             ]
           },
-          "id": "dc677",
           "isAttachedTo": "b8de4",
           "orientation": [
             0,
             1
           ],
-          "x": 277,
-          "y": 85
+          "x": 302,
+          "y": 77
         },
         {
           "attachmentDisplay": {
@@ -1114,7 +1163,6 @@
               0
             ]
           },
-          "id": "f8fc3",
           "isAttachedTo": "b1d3c",
           "orientation": [
             0,
@@ -1159,14 +1207,13 @@
               1
             ]
           },
-          "id": "b118c",
           "isAttachedTo": "b9a7c",
           "orientation": [
             0,
             1
           ],
-          "x": 435,
-          "y": 83
+          "x": 447,
+          "y": 79
         },
         {
           "attachmentDisplay": {
@@ -1179,7 +1226,6 @@
               0
             ]
           },
-          "id": "fdad6",
           "isAttachedTo": "b1d3c",
           "orientation": [
             0,
@@ -1210,8 +1256,8 @@
       "gpmlElementName": "Interaction",
       "id": "id93d15a46",
       "isAttachedTo": [
-        "b71c2",
-        "db5cc"
+        "b236e",
+        "a1bd3"
       ],
       "kaavioType": "Edge",
       "markerEnd": "MimConversion",
@@ -1227,8 +1273,7 @@
               0.75
             ]
           },
-          "id": "cd8e4",
-          "isAttachedTo": "b71c2",
+          "isAttachedTo": "b236e",
           "orientation": [
             -1,
             0
@@ -1247,8 +1292,7 @@
               0.75
             ]
           },
-          "id": "ae966",
-          "isAttachedTo": "db5cc",
+          "isAttachedTo": "a1bd3",
           "orientation": [
             -1,
             0
@@ -1288,7 +1332,6 @@
               1
             ]
           },
-          "id": "d0c8b",
           "isAttachedTo": "b1d3c",
           "orientation": [
             0,
@@ -1308,7 +1351,6 @@
               0
             ]
           },
-          "id": "e8cfd",
           "isAttachedTo": "a8d97",
           "orientation": [
             0,
@@ -1353,7 +1395,6 @@
               0.5
             ]
           },
-          "id": "d43f1",
           "isAttachedTo": "b1d3c",
           "orientation": [
             1,
@@ -1373,14 +1414,13 @@
               1
             ]
           },
-          "id": "d39f8",
           "isAttachedTo": "b9a7c",
           "orientation": [
             0,
             -1
           ],
-          "x": 475,
-          "y": 83
+          "x": 487,
+          "y": 79
         }
       ],
       "stroke": "#000000",
@@ -1414,7 +1454,6 @@
               1
             ]
           },
-          "id": "f1a59",
           "isAttachedTo": "a8d97",
           "orientation": [
             0,
@@ -1435,7 +1474,6 @@
               0
             ]
           },
-          "id": "a194e",
           "isAttachedTo": "ad504",
           "orientation": [],
           "x": 354.0032460506384,
@@ -1482,10 +1520,10 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP3655/"
+        "@base": "WP3655/"
       }
     ],
-    "author": "[AAR&Co, MaintBot, Eweitz]",
+    "author": "[AAR&Co, MaintBot, Eweitz, Khanspers]",
     "comments": [
       {
         "content": "Hypothetical pathway linking cranio-facial development pathway (IRF6, TP63, TFAP2A, and TGFB3) to Rho signaling pathway through ARHGAP29 regulation. Authors of literature suspect that a decrease of ARHGAP29 concentration would result in more active form, Rho-GTP, which would down-regulate cranio-facial development genes. An implication of this active Rho-GTP may be the formation of cleft lip. This pathway is based on figure 4 from Leslie et al.",
@@ -1500,23 +1538,23 @@
       "id8c81ce6b",
       "ida367b569",
       "idb4368bec",
-      "id2be573a9",
       "id4c803e5e",
       "id93d15a46",
+      "id2be573a9",
       "id10b46316",
       "idcddefa6b",
       "a8d97",
       "b1d3c",
       "b2267",
-      "b3278",
       "b8de4",
       "b9a7c",
       "c0888",
       "e8c22",
-      "db5cc",
-      "b71c2"
+      "a1bd3",
+      "b236e",
+      "cdfe8"
     ],
-    "dataSourceVersion": "WP3655_r117757",
+    "dataSourceVersion": "WP3655_r129299",
     "displayName": "Hypothetical craniofacial development pathway",
     "drawAs": "rect",
     "fill": "white",
@@ -1524,9 +1562,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 339.75,
-    "id": "http://identifiers.org/wikipathways/WP3655",
+    "id": "WP3655",
     "kaavioType": "Group",
-    "lastModified": "20210522125249",
+    "lastModified": "20240325225641",
     "name": "Hypothetical craniofacial development pathway",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -1535,14 +1573,14 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Hypothetical craniofacial development pathway\nLast Modified: 20210522125249\nOrganism: Homo sapiens",
+    "textContent": "Name: Hypothetical craniofacial development pathway\nLast Modified: 20240325225641\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000003",
       "http://identifiers.org/pw/PW:0000650"
     ],
     "verticalAlign": "top",
-    "width": 766,
+    "width": 733,
     "x": 0,
     "y": 0,
     "zIndex": 0

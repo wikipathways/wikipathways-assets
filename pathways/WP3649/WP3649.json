@@ -1,49 +1,5 @@
 {
   "entitiesById": {
-    "200291": {
-      "__HighlandStream__": true,
-      "_can_drain": false,
-      "_consume_waiting_for_next": false,
-      "_consumers": [],
-      "_delegate": null,
-      "_destructors": [],
-      "_events": {},
-      "_eventsCount": 2,
-      "_in_consume_cb": false,
-      "_incoming": [],
-      "_is_observer": false,
-      "_nil_pushed": false,
-      "_observers": [],
-      "_outgoing": [],
-      "_repeat_resume": false,
-      "_send_events": false,
-      "id": "200291",
-      "paused": true,
-      "source": null,
-      "writable": true
-    },
-    "899548": {
-      "__HighlandStream__": true,
-      "_can_drain": false,
-      "_consume_waiting_for_next": false,
-      "_consumers": [],
-      "_delegate": null,
-      "_destructors": [],
-      "_events": {},
-      "_eventsCount": 2,
-      "_in_consume_cb": false,
-      "_incoming": [],
-      "_is_observer": false,
-      "_nil_pushed": false,
-      "_observers": [],
-      "_outgoing": [],
-      "_repeat_resume": false,
-      "_send_events": false,
-      "id": "899548",
-      "paused": true,
-      "source": null,
-      "writable": true
-    },
     "a21ec": {
       "drawAs": "none",
       "fill": "transparent",
@@ -71,7 +27,7 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 145,
-      "x": 408,
+      "x": 447,
       "y": 274,
       "zIndex": 28672
     },
@@ -151,7 +107,7 @@
       "whiteSpace": "pre",
       "width": 93,
       "wpType": "Protein",
-      "x": 355,
+      "x": 354,
       "y": 177,
       "zIndex": 32768
     },
@@ -178,9 +134,9 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Ensembl:ENSRNOG00000008839",
+        "Entrez Gene:25664",
         "Protein",
-        "CompactIdentifier:ensembl:ENSRNOG00000008839",
+        "CompactIdentifier:ncbigene:25664",
         "Ppar-y",
         "Ensembl:ENSRNOG00000008839",
         "Entrez Gene:25664",
@@ -190,10 +146,10 @@
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "Protein",
-      "x": 361,
-      "xrefDataSource": "Ensembl",
-      "xrefIdentifier": "ENSRNOG00000008839",
-      "y": 305,
+      "x": 360.5,
+      "xrefDataSource": "Entrez Gene",
+      "xrefIdentifier": "25664",
+      "y": 306,
       "zIndex": 32768
     },
     "b5ba0": {
@@ -219,18 +175,21 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Ensembl:ENSRNOT00000064505",
+        "Entrez Gene:303181",
         "Protein",
-        "CompactIdentifier:ensembl:ENSRNOT00000064505",
-        "Wnt-3a"
+        "CompactIdentifier:ncbigene:303181",
+        "Wnt-3a",
+        "Ensembl:ENSRNOG00000003039",
+        "Entrez Gene:303181",
+        "UniProt:F1M077"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "Protein",
-      "x": 361,
-      "xrefDataSource": "Ensembl",
-      "xrefIdentifier": "ENSRNOT00000064505",
+      "x": 360.5,
+      "xrefDataSource": "Entrez Gene",
+      "xrefIdentifier": "303181",
       "y": 53,
       "zIndex": 32768
     },
@@ -362,20 +321,18 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Ensembl:ENSRNOG00000056659",
+        "Entrez Gene:29386",
         "Protein",
-        "CompactIdentifier:ensembl:ENSRNOG00000056659",
-        "MeCP2",
-        "Ensembl:ENSRNOG00000056659",
-        "UniProt:A0A0G2JWK2"
+        "CompactIdentifier:ncbigene:29386",
+        "MeCP2"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "Protein",
-      "x": 361,
-      "xrefDataSource": "Ensembl",
-      "xrefIdentifier": "ENSRNOG00000056659",
+      "x": 360.5,
+      "xrefDataSource": "Entrez Gene",
+      "xrefIdentifier": "29386",
       "y": 245,
       "zIndex": 32768
     },
@@ -396,7 +353,7 @@
       "stroke": "#000000",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "HSC myofibroblastic activation",
+      "textContent": "Hepatic stellate cells activation",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -442,11 +399,31 @@
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "GeneProduct",
-      "x": 361,
+      "x": 360.5,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "84353",
       "y": 114,
       "zIndex": 32768
+    },
+    "http://identifiers.org/cl/CL:0000632": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/cl/CL:0000632",
+      "ontology": "Cell Type",
+      "term": "hepatic stellate cell",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "CL:0000632"
+    },
+    "http://identifiers.org/doid/DOID:5082": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/doid/DOID:5082",
+      "ontology": "Disease",
+      "term": "liver cirrhosis",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "DOID:5082"
     },
     "http://identifiers.org/pw/PW:0000003": {
       "gpmlElementName": "openControlledVocabulary",
@@ -481,7 +458,6 @@
               0.5
             ]
           },
-          "id": "cf4e1",
           "isAttachedTo": "bf3a9",
           "orientation": [
             -1,
@@ -502,10 +478,9 @@
               0
             ]
           },
-          "id": "abf33",
           "isAttachedTo": "bc557",
           "orientation": [],
-          "x": 401,
+          "x": 400.5,
           "y": 89.4
         }
       ],
@@ -540,14 +515,13 @@
               1
             ]
           },
-          "id": "b842b",
           "isAttachedTo": "b4227",
           "orientation": [
             0,
             1
           ],
-          "x": 401,
-          "y": 325
+          "x": 400.5,
+          "y": 326
         },
         {
           "attachmentDisplay": {
@@ -560,7 +534,6 @@
               0
             ]
           },
-          "id": "d8222",
           "isAttachedTo": "f27f1",
           "orientation": [
             0,
@@ -601,7 +574,6 @@
               0.5
             ]
           },
-          "id": "d301a",
           "isAttachedTo": "e478e",
           "orientation": [
             1,
@@ -621,13 +593,12 @@
               0.5
             ]
           },
-          "id": "fde28",
           "isAttachedTo": "f5ccf",
           "orientation": [
             1,
             0
           ],
-          "x": 361,
+          "x": 360.5,
           "y": 124
         }
       ],
@@ -665,13 +636,12 @@
               1
             ]
           },
-          "id": "b307d",
           "isAttachedTo": "b5ba0",
           "orientation": [
             0,
             1
           ],
-          "x": 401,
+          "x": 400.5,
           "y": 73
         },
         {
@@ -685,13 +655,12 @@
               0
             ]
           },
-          "id": "f5cb5",
           "isAttachedTo": "f5ccf",
           "orientation": [
             0,
             1
           ],
-          "x": 401,
+          "x": 400.5,
           "y": 114
         }
       ],
@@ -730,13 +699,12 @@
               1
             ]
           },
-          "id": "d3c27",
           "isAttachedTo": "f5ccf",
           "orientation": [
             0,
             1
           ],
-          "x": 401,
+          "x": 400.5,
           "y": 134
         },
         {
@@ -750,13 +718,12 @@
               0
             ]
           },
-          "id": "e21c7",
           "isAttachedTo": "b2e79",
           "orientation": [
             0,
             1
           ],
-          "x": 401.5,
+          "x": 400.5,
           "y": 177
         }
       ],
@@ -791,13 +758,12 @@
               1
             ]
           },
-          "id": "c09a8",
           "isAttachedTo": "b2e79",
           "orientation": [
             0,
             1
           ],
-          "x": 401.5,
+          "x": 400.5,
           "y": 197
         },
         {
@@ -811,13 +777,12 @@
               0
             ]
           },
-          "id": "e3867",
           "isAttachedTo": "ebb25",
           "orientation": [
             0,
             1
           ],
-          "x": 401,
+          "x": 400.5,
           "y": 245
         }
       ],
@@ -852,13 +817,12 @@
               1
             ]
           },
-          "id": "e8ea8",
           "isAttachedTo": "ebb25",
           "orientation": [
             0,
             1
           ],
-          "x": 401,
+          "x": 400.5,
           "y": 265
         },
         {
@@ -872,14 +836,13 @@
               0
             ]
           },
-          "id": "c05c8",
           "isAttachedTo": "b4227",
           "orientation": [
             0,
             1
           ],
-          "x": 401,
-          "y": 305
+          "x": 400.5,
+          "y": 306
         }
       ],
       "stroke": "#000000",
@@ -913,7 +876,6 @@
               0.5
             ]
           },
-          "id": "f61b9",
           "isAttachedTo": "a71d9",
           "orientation": [
             -1,
@@ -933,13 +895,12 @@
               0.5
             ]
           },
-          "id": "da3fd",
           "isAttachedTo": "b2e79",
           "orientation": [
             -1,
             0
           ],
-          "x": 448,
+          "x": 447,
           "y": 187
         }
       ],
@@ -977,7 +938,7 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP3649/"
+        "@base": "WP3649/"
       }
     ],
     "author": "[AAR&Co, Egonw, MirellaKalafati, Khanspers, Eweitz]",
@@ -988,26 +949,26 @@
       }
     ],
     "contains": [
+      "id5eb85429",
+      "id70608c4c",
       "id71b14d33",
       "id25d152a2",
-      "id70608c4c",
       "id95661fd7",
       "idb571d4b6",
       "idb829c7c2",
-      "id5eb85429",
       "idd5379ef",
       "a21ec",
       "f27f1",
+      "a71d9",
+      "b2e79",
+      "b4227",
       "b5ba0",
-      "f5ccf",
       "bf3a9",
       "e478e",
-      "b2e79",
       "ebb25",
-      "b4227",
-      "a71d9"
+      "f5ccf"
     ],
-    "dataSourceVersion": "WP3649_r116515",
+    "dataSourceVersion": "WP3649_r129294",
     "displayName": "Wnt myofibroblastic activation of hepatic stellate cells",
     "drawAs": "rect",
     "fill": "white",
@@ -1015,9 +976,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 430,
-    "id": "http://identifiers.org/wikipathways/WP3649",
+    "id": "WP3649",
     "kaavioType": "Group",
-    "lastModified": "20210507105122",
+    "lastModified": "20240325173122",
     "name": "Wnt myofibroblastic activation of hepatic stellate cells",
     "organism": "Rattus norvegicus",
     "padding": 5,
@@ -1026,13 +987,13 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Wnt myofibroblastic activation of hepatic stellate cells\nLast Modified: 20210507105122\nOrganism: Rattus norvegicus",
+    "textContent": "Name: Wnt myofibroblastic activation of hepatic stellate cells\nLast Modified: 20240325173122\nOrganism: Rattus norvegicus",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000003"
     ],
     "verticalAlign": "top",
-    "width": 617,
+    "width": 622,
     "x": 0,
     "y": 0,
     "zIndex": 0
