@@ -792,6 +792,26 @@
       ],
       "xrefIdentifier": "DOID:3068"
     },
+    "http://identifiers.org/pw/PW:0000013": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000013",
+      "ontology": "Pathway Ontology",
+      "term": "disease pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000013"
+    },
+    "http://identifiers.org/pw/PW:0000605": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000605",
+      "ontology": "Pathway Ontology",
+      "term": "cancer pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000605"
+    },
     "http://identifiers.org/pw/PW:0000711": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000711",
@@ -1147,10 +1167,10 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP3593/"
+        "@base": "WP3593/"
       }
     ],
-    "author": "[Khanspers, Ryanmiller, AlexanderPico, Fehrhart, Eweitz]",
+    "author": "[Khanspers, Ryanmiller, AlexanderPico, Fehrhart, Eweitz, Mkutmon]",
     "comments": [
       {
         "content": "miR-148a and miR-31 target the factor inhibiting hypoxia (FIH1) to promote downstream HIF1α and Notch signaling",
@@ -1174,7 +1194,7 @@
       "b02a9",
       "bcc50"
     ],
-    "dataSourceVersion": "WP3593_r128547",
+    "dataSourceVersion": "WP3593_r129317",
     "displayName": "MicroRNA for targeting cancer growth and vascularization in glioblastoma",
     "drawAs": "rect",
     "fill": "white",
@@ -1182,9 +1202,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 417,
-    "id": "http://identifiers.org/wikipathways/WP3593",
+    "id": "WP3593",
     "kaavioType": "Group",
-    "lastModified": "20240211223622",
+    "lastModified": "20240326135441",
     "name": "MicroRNA for targeting cancer growth and vascularization in glioblastoma",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -1193,11 +1213,13 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: MicroRNA for targeting cancer growth and vascularization in glioblastoma\nLast Modified: 20240211223622\nOrganism: Homo sapiens",
+    "textContent": "Name: MicroRNA for targeting cancer growth and vascularization in glioblastoma\nLast Modified: 20240326135441\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0000808",
-      "http://identifiers.org/pw/PW:0000711"
+      "http://identifiers.org/pw/PW:0000605",
+      "http://identifiers.org/pw/PW:0000013",
+      "http://identifiers.org/pw/PW:0000711",
+      "http://identifiers.org/pw/PW:0000808"
     ],
     "verticalAlign": "top",
     "width": 466,

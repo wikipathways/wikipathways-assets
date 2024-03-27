@@ -2311,6 +2311,16 @@
       "width": 0,
       "zIndex": 12288
     },
+    "http://identifiers.org/doid/DOID:10283": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/doid/DOID:10283",
+      "ontology": "Disease",
+      "term": "prostate cancer",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "DOID:10283"
+    },
     "http://identifiers.org/pw/PW:0000003": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000003",
@@ -2320,6 +2330,16 @@
         "openControlledVocabulary"
       ],
       "xrefIdentifier": "PW:0000003"
+    },
+    "http://identifiers.org/pw/PW:0000013": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000013",
+      "ontology": "Pathway Ontology",
+      "term": "disease pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000013"
     },
     "http://identifiers.org/pw/PW:0000232": {
       "gpmlElementName": "openControlledVocabulary",
@@ -2340,6 +2360,16 @@
         "openControlledVocabulary"
       ],
       "xrefIdentifier": "PW:0000595"
+    },
+    "http://identifiers.org/pw/PW:0000605": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000605",
+      "ontology": "Pathway Ontology",
+      "term": "cancer pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000605"
     },
     "id1b0f3ad1": {
       "drawAs": "StraightLine",
@@ -3745,7 +3775,7 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP3844/"
+        "@base": "WP3844/"
       }
     ],
     "author": "[AAR&Co, Fehrhart, AlexanderPico, Khanspers, Mkutmon, MaintBot, Liling, DeSl]",
@@ -3802,7 +3832,7 @@
       "fa884",
       "c6e90"
     ],
-    "dataSourceVersion": "WP3844_r127077",
+    "dataSourceVersion": "WP3844_r129324",
     "displayName": "PI3K-AKT-mTOR signaling pathway and therapeutic opportunities in prostate cancer",
     "drawAs": "rect",
     "fill": "white",
@@ -3810,9 +3840,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 771,
-    "id": "http://identifiers.org/wikipathways/WP3844",
+    "id": "WP3844",
     "kaavioType": "Group",
-    "lastModified": "20230728002557",
+    "lastModified": "20240326135839",
     "name": "PI3K-AKT-mTOR signaling pathway and therapeutic opportunities in prostate cancer",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -3821,12 +3851,14 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: PI3K-AKT-mTOR signaling pathway and therapeutic opportunities in prostate cancer\nLast Modified: 20230728002557\nOrganism: Homo sapiens",
+    "textContent": "Name: PI3K-AKT-mTOR signaling pathway and therapeutic opportunities in prostate cancer\nLast Modified: 20240326135839\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
+      "http://identifiers.org/pw/PW:0000232",
+      "http://identifiers.org/pw/PW:0000013",
+      "http://identifiers.org/pw/PW:0000605",
       "http://identifiers.org/pw/PW:0000003",
-      "http://identifiers.org/pw/PW:0000595",
-      "http://identifiers.org/pw/PW:0000232"
+      "http://identifiers.org/pw/PW:0000595"
     ],
     "verticalAlign": "top",
     "width": 649,

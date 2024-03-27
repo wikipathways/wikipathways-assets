@@ -2030,6 +2030,16 @@
       ],
       "xrefIdentifier": "DOID:0060081"
     },
+    "http://identifiers.org/pw/PW:0000013": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000013",
+      "ontology": "Pathway Ontology",
+      "term": "disease pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000013"
+    },
     "http://identifiers.org/pw/PW:0000440": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000440",
@@ -2039,6 +2049,16 @@
         "openControlledVocabulary"
       ],
       "xrefIdentifier": "PW:0000440"
+    },
+    "http://identifiers.org/pw/PW:0000605": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000605",
+      "ontology": "Pathway Ontology",
+      "term": "cancer pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000605"
     },
     "http://identifiers.org/pw/PW:0001084": {
       "gpmlElementName": "openControlledVocabulary",
@@ -4465,7 +4485,7 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP5213/"
+        "@base": "WP5213/"
       }
     ],
     "author": "[Andra, Egonw, Mkutmon]",
@@ -4553,7 +4573,7 @@
       "c4d04",
       "ce662"
     ],
-    "dataSourceVersion": "WP5213_r126591",
+    "dataSourceVersion": "WP5213_r129313",
     "displayName": "Amino acid metabolism in triple-negative breast cancer cells",
     "drawAs": "rect",
     "fill": "white",
@@ -4561,9 +4581,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 992.6666666666666,
-    "id": "http://identifiers.org/wikipathways/WP5213",
+    "id": "WP5213",
     "kaavioType": "Group",
-    "lastModified": "20230606073801",
+    "lastModified": "20240326135307",
     "name": "Amino acid metabolism in triple-negative breast cancer cells",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -4572,12 +4592,14 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Amino acid metabolism in triple-negative breast cancer cells\nLast Modified: 20230606073801\nOrganism: Homo sapiens",
+    "textContent": "Name: Amino acid metabolism in triple-negative breast cancer cells\nLast Modified: 20240326135307\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0001086",
       "http://identifiers.org/pw/PW:0000440",
-      "http://identifiers.org/pw/PW:0001084"
+      "http://identifiers.org/pw/PW:0000013",
+      "http://identifiers.org/pw/PW:0000605",
+      "http://identifiers.org/pw/PW:0001084",
+      "http://identifiers.org/pw/PW:0001086"
     ],
     "verticalAlign": "top",
     "width": 1434,
