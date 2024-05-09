@@ -163,6 +163,44 @@
       ],
       "zIndex": 32770
     },
+    "a2be8": {
+      "drawAs": "rect",
+      "fill": "#ffdddd",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25,
+      "id": "a2be8",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#0000ff",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Alzheimer's disease",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Wikidata:Q11081",
+        "Unknown"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 120,
+      "wpType": "Unknown",
+      "x": 848.5,
+      "xrefDataSource": "Wikidata",
+      "xrefIdentifier": "Q11081",
+      "y": 792.5,
+      "zIndex": 32768
+    },
     "a4576": {
       "contains": [
         "a0160",
@@ -210,7 +248,7 @@
       "stroke": "#0000ff",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "Beta-amyloid",
+      "textContent": "Amyloid-beta",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -219,7 +257,7 @@
         "ChEBI:CHEBI:64645",
         "Metabolite",
         "CompactIdentifier:chebi:64645",
-        "Beta-amyloid",
+        "Amyloid-beta",
         "Wikidata:Q417667",
         "ChEBI:64645",
         "ChEBI:64645"
@@ -228,10 +266,10 @@
       "whiteSpace": "pre",
       "width": 90,
       "wpType": "Metabolite",
-      "x": 1045.395406729303,
+      "x": 1023.395406729303,
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "CHEBI:64645",
-      "y": 875.203043443347,
+      "y": 833.203043443347,
       "zIndex": 32768
     },
     "a53c8": {
@@ -380,30 +418,34 @@
       "y": 149.9474319200275,
       "zIndex": 28672
     },
-    "aaab1": {
-      "attachmentDisplay": {
-        "offset": [
-          0,
-          0
-        ],
-        "position": [
-          0.5880968392737139,
-          0
-        ]
-      },
-      "drawAs": "none",
-      "gpmlElementName": "Anchor",
-      "height": 0,
-      "id": "aaab1",
-      "isAttachedTo": "id2960d61b",
-      "kaavioType": "Burr",
-      "strokeWidth": 0,
-      "type": [
-        "Anchor",
-        "Burr"
+    "ada85": {
+      "contains": [
+        "db869",
+        "f22e6"
       ],
-      "width": 0,
-      "zIndex": 12288
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 80,
+      "id": "ada85",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 166,
+      "x": 1009.3711843711831,
+      "y": 580.5,
+      "zIndex": 32782
     },
     "af270": {
       "attachmentDisplay": {
@@ -672,8 +714,8 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 185.7,
-      "x": 413.7373015873003,
-      "y": 134.4444444444444,
+      "x": 273.7373015873003,
+      "y": 214.4444444444444,
       "zIndex": 28672
     },
     "b73f1": {
@@ -717,10 +759,10 @@
       "whiteSpace": "pre",
       "width": 90,
       "wpType": "Protein",
-      "x": 1043.9668353007307,
+      "x": 1021.9668353007307,
       "xrefDataSource": "Uniprot-TrEMBL",
       "xrefIdentifier": "P05067",
-      "y": 760.3704729783988,
+      "y": 720.3704729783988,
       "zIndex": 32768
     },
     "b7788": {
@@ -830,7 +872,7 @@
       "whiteSpace": "pre",
       "width": 90,
       "wpType": "Protein",
-      "x": 526.3702471978328,
+      "x": 526.1526433064302,
       "xrefDataSource": "Uniprot-TrEMBL",
       "xrefIdentifier": "P42224",
       "y": 773.1054018238398,
@@ -1039,6 +1081,69 @@
       "y": 541.4893162393157,
       "zIndex": 32768
     },
+    "bfd5e": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "bfd5e",
+      "isAttachedTo": [
+        "cf07c",
+        "ada85"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "cf07c",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 1092.371184371183,
+          "y": 540.0952380952349
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "ada85",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 1092.371184371183,
+          "y": 580.5
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 32781
+    },
     "c1260": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -1086,10 +1191,10 @@
       "whiteSpace": "pre",
       "width": 90,
       "wpType": "GeneProduct",
-      "x": 525.1526433064302,
+      "x": 526.1526433064302,
       "xrefDataSource": "Uniprot-TrEMBL",
       "xrefIdentifier": "P56817",
-      "y": 833.4000125809906,
+      "y": 830.8682176500525,
       "zIndex": 32768
     },
     "c172b": {
@@ -1590,7 +1695,7 @@
       "whiteSpace": "pre",
       "width": 111.58586402576998,
       "wpType": "Protein",
-      "x": 1036.8694340794555,
+      "x": 1036.578252358298,
       "y": 519.902930402927,
       "zIndex": 32768
     },
@@ -1721,7 +1826,7 @@
       "whiteSpace": "pre",
       "width": 142.85714285714306,
       "x": 699.0614886731395,
-      "y": 854.8878871937142,
+      "y": 874.8878871937142,
       "zIndex": 28672
     },
     "d8315": {
@@ -1754,6 +1859,45 @@
       "x": 12.11280628756353,
       "y": 388.782555093235,
       "zIndex": 28672
+    },
+    "db869": {
+      "drawAs": "rect",
+      "fill": "#ffdddd",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25,
+      "id": "db869",
+      "isPartOf": "ada85",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#0000ff",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Frontotemporal dementia",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Wikidata:Q18592",
+        "Unknown"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 150,
+      "wpType": "Unknown",
+      "x": 8,
+      "xrefDataSource": "Wikidata",
+      "xrefIdentifier": "Q18592",
+      "y": 8,
+      "zIndex": 32782
     },
     "dcf47": {
       "attachmentDisplay": {
@@ -2067,6 +2211,44 @@
       "y": 791.2121074718193,
       "zIndex": 32768
     },
+    "e69af": {
+      "drawAs": "rect",
+      "fill": "#ffdddd",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25,
+      "id": "e69af",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#0000ff",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Parkinson's disease",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Wikidata:Q11085",
+        "Unknown"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 120,
+      "wpType": "Unknown",
+      "x": 558.5,
+      "xrefDataSource": "Wikidata",
+      "xrefIdentifier": "Q11085",
+      "y": 120.5,
+      "zIndex": 32784
+    },
     "e86bc": {
       "attachmentDisplay": {
         "offset": [
@@ -2304,7 +2486,7 @@
       "x": 723.5509768009763,
       "xrefDataSource": "Uniprot-TrEMBL",
       "xrefIdentifier": "P27338",
-      "y": 120.77991452991444,
+      "y": 120.5,
       "zIndex": 32768
     },
     "ed7de": {
@@ -2348,6 +2530,69 @@
       "xrefIdentifier": "27978",
       "y": 199.24358974358967,
       "zIndex": 32768
+    },
+    "ef15b": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "ef15b",
+      "isAttachedTo": [
+        "a0b29",
+        "a2be8"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.75,
+              1
+            ]
+          },
+          "isAttachedTo": "a0b29",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 907.1005952380947,
+          "y": 741.0428571428575
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "a2be8",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 908.5,
+          "y": 792.5
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 32780
     },
     "f14b9": {
       "drawAs": "rect",
@@ -2397,6 +2642,45 @@
       "xrefIdentifier": "P37840",
       "y": 269.6282051282053,
       "zIndex": 32768
+    },
+    "f22e6": {
+      "drawAs": "rect",
+      "fill": "#ffdddd",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 35,
+      "id": "f22e6",
+      "isPartOf": "ada85",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#0000ff",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Amyotrophic lateral \nsclerosis",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Wikidata:Q206901",
+        "Unknown"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 120,
+      "wpType": "Unknown",
+      "x": 23,
+      "xrefDataSource": "Wikidata",
+      "xrefIdentifier": "Q206901",
+      "y": 37,
+      "zIndex": 32783
     },
     "f3785": {
       "drawAs": "none",
@@ -2687,6 +2971,16 @@
       "y": 454.3809523809524,
       "zIndex": 32774
     },
+    "http://identifiers.org/cl/CL:0000540": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/cl/CL:0000540",
+      "ontology": "Cell Type",
+      "term": "neuron",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "CL:0000540"
+    },
     "http://identifiers.org/doid/DOID:10652": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/doid/DOID:10652",
@@ -2737,6 +3031,16 @@
       ],
       "xrefIdentifier": "DOID:9255"
     },
+    "http://identifiers.org/pw/PW:0000014": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000014",
+      "ontology": "Pathway Ontology",
+      "term": "neurodegenerative pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000014"
+    },
     "http://identifiers.org/pw/PW:0000015": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000015",
@@ -2746,6 +3050,16 @@
         "openControlledVocabulary"
       ],
       "xrefIdentifier": "PW:0000015"
+    },
+    "http://identifiers.org/pw/PW:0000016": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000016",
+      "ontology": "Pathway Ontology",
+      "term": "amyotrophic lateral sclerosis pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000016"
     },
     "http://identifiers.org/pw/PW:0000018": {
       "gpmlElementName": "openControlledVocabulary",
@@ -2866,7 +3180,7 @@
             0,
             1
           ],
-          "x": 1092.6623660923406,
+          "x": 1092.371184371183,
           "y": 519.902930402927
         }
       ],
@@ -3129,8 +3443,7 @@
     },
     "id2960d61b": {
       "burrs": [
-        "af270",
-        "aaab1"
+        "af270"
       ],
       "drawAs": "StraightLine",
       "fill": "none",
@@ -3159,8 +3472,8 @@
             0,
             1
           ],
-          "x": 1088.9668353007307,
-          "y": 785.3704729783988
+          "x": 1066.9668353007307,
+          "y": 745.3704729783988
         },
         {
           "attachmentDisplay": {
@@ -3178,8 +3491,8 @@
             0,
             1
           ],
-          "x": 1090.395406729303,
-          "y": 875.203043443347
+          "x": 1068.395406729303,
+          "y": 833.203043443347
         }
       ],
       "stroke": "#000000",
@@ -3187,6 +3500,69 @@
       "type": [
         "Interaction",
         "Edge"
+      ],
+      "zIndex": 12288
+    },
+    "id3621fe50": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "id3621fe50",
+      "isAttachedTo": [
+        "ddc80",
+        "e69af"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.25,
+              0
+            ]
+          },
+          "isAttachedTo": "ddc80",
+          "orientation": [
+            0,
+            -1
+          ],
+          "x": 723.5942460317467,
+          "y": 179.01923076923129
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              1,
+              0.75
+            ]
+          },
+          "isAttachedTo": "e69af",
+          "orientation": [
+            -1,
+            0
+          ],
+          "x": 678.5,
+          "y": 139.25
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
       ],
       "zIndex": 12288
     },
@@ -3400,7 +3776,7 @@
             0,
             1
           ],
-          "x": 571.3702471978328,
+          "x": 571.1526433064302,
           "y": 804.7540106137652
         },
         {
@@ -3419,8 +3795,8 @@
             0,
             1
           ],
-          "x": 570.1526433064302,
-          "y": 833.4000125809906
+          "x": 571.1526433064302,
+          "y": 830.8682176500525
         }
       ],
       "stroke": "#000000",
@@ -3492,8 +3868,8 @@
             -1,
             0
           ],
-          "x": 1089.2144863719193,
-          "y": 800.9434655906755
+          "x": 1067.2144863719193,
+          "y": 760.5967540910117
         }
       ],
       "stroke": "#000000",
@@ -3745,17 +4121,17 @@
       ],
       "zIndex": 12288
     },
-    "id6e4bb3c4": {
+    "id763c970c": {
       "drawAs": "StraightLine",
       "fill": "none",
       "gpmlElementName": "Interaction",
-      "id": "id6e4bb3c4",
+      "id": "id763c970c",
       "isAttachedTo": [
         "c1260",
-        "id2960d61b"
+        "a4b6b"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimCatalysis",
+      "markerEnd": "MimStimulation",
       "points": [
         {
           "attachmentDisplay": {
@@ -3765,7 +4141,7 @@
             ],
             "position": [
               1,
-              0.25
+              0.5
             ]
           },
           "isAttachedTo": "c1260",
@@ -3773,25 +4149,27 @@
             1,
             0
           ],
-          "x": 615.1526433064302,
-          "y": 840.8174254776379
+          "x": 616.1526433064302,
+          "y": 845.703043443347
         },
         {
           "attachmentDisplay": {
-            "offset": [],
-            "position": [
-              0.5880968392737139,
-              0
-            ],
-            "relativeOffset": [
+            "offset": [
               0,
               0
+            ],
+            "position": [
+              0,
+              0.5
             ]
           },
-          "isAttachedTo": "aaab1",
-          "orientation": [],
-          "x": 1089.8069736425507,
-          "y": 838.200723732668
+          "isAttachedTo": "a4b6b",
+          "orientation": [
+            1,
+            0
+          ],
+          "x": 1023.395406729303,
+          "y": 845.703043443347
         }
       ],
       "stroke": "#000000",
@@ -4040,7 +4418,7 @@
             1,
             0
           ],
-          "x": 1092.4876570596462,
+          "x": 1092.371184371183,
           "y": 492.95421245421016
         }
       ],
@@ -4328,7 +4706,7 @@
             0
           ],
           "x": 813.5509768009763,
-          "y": 133.27991452991444
+          "y": 133
         },
         {
           "attachmentDisplay": {
@@ -4760,7 +5138,7 @@
           "y": 741.0428571428575
         },
         {
-          "x": 723.9666712179637,
+          "x": 723.8578692722624,
           "y": 761.0428571428575
         },
         {
@@ -4779,7 +5157,7 @@
             0,
             1
           ],
-          "x": 571.3702471978328,
+          "x": 571.1526433064302,
           "y": 773.1054018238398
         }
       ],
@@ -4960,7 +5338,7 @@
             -1
           ],
           "x": 768.5509768009763,
-          "y": 145.77991452991444
+          "y": 145.5
         }
       ],
       "stroke": "#000000",
@@ -4999,16 +5377,16 @@
             0,
             1
           ],
-          "x": 1090.395406729303,
-          "y": 900.203043443347
+          "x": 1068.395406729303,
+          "y": 858.203043443347
         },
         {
-          "x": 803.4304819129645,
-          "y": 920.203043443347
+          "x": 792.4304819129645,
+          "y": 878.203043443347
         },
         {
           "x": 516.465557096626,
-          "y": 839.4447371631895
+          "y": 818.4447371631895
         },
         {
           "attachmentDisplay": {
@@ -5035,6 +5413,69 @@
       "type": [
         "Interaction",
         "Edge"
+      ],
+      "zIndex": 12288
+    },
+    "idfa2f844b": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "idfa2f844b",
+      "isAttachedTo": [
+        "a4b6b",
+        "a2be8"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.25,
+              0
+            ]
+          },
+          "isAttachedTo": "a4b6b",
+          "orientation": [
+            0,
+            -1
+          ],
+          "x": 1045.895406729303,
+          "y": 833.203043443347
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              1,
+              0.5
+            ]
+          },
+          "isAttachedTo": "a2be8",
+          "orientation": [
+            -1,
+            0
+          ],
+          "x": 968.5,
+          "y": 805
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
       ],
       "zIndex": 12288
     },
@@ -5111,7 +5552,7 @@
     "author": "[Pat hofer, Tamara Fitzinger, Marlenef97, DeSl, Eweitz]",
     "comments": [
       {
-        "content": "Mammalian asparagine endopeptidase, also known as δ-secretase , is a key player in a number of neurodegenerative illnesses, including Alzheimer's, Parkinson's or ALS. The enzyme can get activated in the aging brain and starts to cleave amyloid precursor protein (APP) and promotes the production of amyloid-β (Aβ). δ-secretase also breaks down tau, alpha-synuclein, SET, and TAR DNA-binding protein 43, generating neurotoxic fragments and impairing their physiological processes. Each fragment has either been identified in patient samples with the relevant disease or has undergone testing to determine whether it can cause the disease pathology.\r\nThis pathway is based on Figure 1 from the paper:\"δ-secretase in neurodegenerative diseases: mechanisms, regulators and therapeutic opportunities. published by Zhang Z, Tian Y, Ye K.",
+        "content": "Mammalian asparagine endopeptidase, also known as δ-secretase, is a key player in a number of neurodegenerative illnesses, including Alzheimer's, Parkinson's or ALS. The enzyme can get activated in the aging brain and starts to cleave amyloid precursor protein (APP) and promotes the production of amyloid-β (Aβ). δ-secretase also breaks down tau, alpha-synuclein, SET, and TAR DNA-binding protein 43, generating neurotoxic fragments and impairing their physiological processes. Each fragment has either been identified in patient samples with the relevant disease or has undergone testing to determine whether it can cause the disease pathology.\r\nThis pathway is based on Figure 1 from the paper:\"δ-secretase in neurodegenerative diseases: mechanisms, regulators and therapeutic opportunities. Published by Zhang Z, Tian Y, Ye K.",
         "source": "WikiPathways-description"
       }
     ],
@@ -5121,6 +5562,7 @@
       "id1e78bfcf",
       "id27acc3ef",
       "id2960d61b",
+      "id3621fe50",
       "id446c1dfc",
       "id48dc0e91",
       "id4bea0ac7",
@@ -5128,7 +5570,7 @@
       "id5a3c0603",
       "id685eec5d",
       "id6bc4cd45",
-      "id6e4bb3c4",
+      "id763c970c",
       "id7e27ba5b",
       "id7e726fcb",
       "id7e826601",
@@ -5150,6 +5592,7 @@
       "ide84b785d",
       "ideda33385",
       "idf9476c0a",
+      "idfa2f844b",
       "id1f63675d",
       "id76f5d713",
       "id67496e34",
@@ -5166,6 +5609,7 @@
       "e3206",
       "f3785",
       "a0b29",
+      "a2be8",
       "a4b6b",
       "a53c8",
       "b5765",
@@ -5194,9 +5638,13 @@
       "f9258",
       "a4576",
       "a1843",
-      "f979e"
+      "f979e",
+      "ef15b",
+      "bfd5e",
+      "ada85",
+      "e69af"
     ],
-    "dataSourceVersion": "WP5372_r128695",
+    "dataSourceVersion": "WP5372_r129533",
     "displayName": "Involvement of δ-secretase in neurodegenerative diseases",
     "drawAs": "rect",
     "fill": "white",
@@ -5206,7 +5654,7 @@
     "height": 1016.6666666666665,
     "id": "WP5372",
     "kaavioType": "Group",
-    "lastModified": "20240219212055",
+    "lastModified": "20240509012836",
     "name": "Involvement of δ-secretase in neurodegenerative diseases",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -5215,11 +5663,13 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Involvement of δ-secretase in neurodegenerative diseases\nLast Modified: 20240219212055\nOrganism: Homo sapiens",
+    "textContent": "Name: Involvement of δ-secretase in neurodegenerative diseases\nLast Modified: 20240509012836\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0000018",
-      "http://identifiers.org/pw/PW:0000015"
+      "http://identifiers.org/pw/PW:0000016",
+      "http://identifiers.org/pw/PW:0000015",
+      "http://identifiers.org/pw/PW:0000014",
+      "http://identifiers.org/pw/PW:0000018"
     ],
     "verticalAlign": "top",
     "width": 1261.5873015873012,
