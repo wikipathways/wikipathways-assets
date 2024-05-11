@@ -17675,6 +17675,26 @@
       ],
       "xrefIdentifier": "DOID:2043"
     },
+    "http://identifiers.org/pw/PW:0000013": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000013",
+      "ontology": "Pathway Ontology",
+      "term": "disease pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000013"
+    },
+    "http://identifiers.org/pw/PW:0001028": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0001028",
+      "ontology": "Pathway Ontology",
+      "term": "infectious disease pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0001028"
+    },
     "id12414a79": {
       "drawAs": "StraightLine",
       "fill": "none",
@@ -24448,13 +24468,13 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP4666/"
+        "@base": "WP4666/"
       }
     ],
-    "author": "[Khanspers, Finterly, Egonw]",
+    "author": "[Khanspers, Finterly, Egonw, Mkutmon, Eweitz]",
     "comments": [
       {
-        "content": "The Hepatitis B virus (HBV) is a virus in the Hepadnaviridae family which infects hepatocytes in the liver. It causes both acute and chronic infections, and prolonged chronic infection can lead to complications such as cirrhosis and an increased risk of hepatocellular carcinoma (HCC). \r\nThe left side of the pathway describes the pathogenesis of HBV. The virus binds NTCP (SLC10A1) and is subsequently endocytosed. It is transported to the nucleus where viral polymerase creates covalently closed circular DNA (cccDNA). Using the host RNA polymerase, this is transcribed into viral mRNAs. Viral DNA polymerase then synthesizes viral DNA via its reverse transcriptase activity. Assembled viral particles exit the cell via the ESCRT pathway.\r\n\r\nThe HBV regulatory protein HBx interferes with many cellular processes including transcription, signal transduction, cell cycle progress, protein degradation, apoptosis and chromosomal stability. \r\nThis pathway was developed based on https://www.kegg.jp/dbget-bin/www_bget?pathway+hsa05161. Protein phosphorylation sites were added based on information from PhosphoSitePlus (R), www.phosphosite.org",
+        "content": "The bepatitis B virus (HBV) is a virus in the Hepadnaviridae family which infects hepatocytes in the liver. It causes both acute and chronic infections, and prolonged chronic infection can lead to complications such as cirrhosis and an increased risk of hepatocellular carcinoma (HCC). \r\nThe left side of the pathway describes the pathogenesis of HBV. The virus binds NTCP (SLC10A1) and is subsequently endocytosed. It is transported to the nucleus where viral polymerase creates covalently closed circular DNA (cccDNA). Using the host RNA polymerase, this is transcribed into viral mRNAs. Viral DNA polymerase then synthesizes viral DNA via its reverse transcriptase activity. Assembled viral particles exit the cell via the ESCRT pathway.\r\n\r\nThe HBV regulatory protein HBx interferes with many cellular processes including transcription, signal transduction, cell cycle progress, protein degradation, apoptosis and chromosomal stability. \r\nThis pathway was developed based on https://www.kegg.jp/dbget-bin/www_bget?pathway+hsa05161. Protein phosphorylation sites were added based on information from PhosphoSitePlus (R), www.phosphosite.org",
         "source": "WikiPathways-description"
       }
     ],
@@ -24748,7 +24768,7 @@
       "e60d7",
       "b19d7"
     ],
-    "dataSourceVersion": "WP4666_r127759",
+    "dataSourceVersion": "WP4666_r129538",
     "displayName": "Hepatitis B infection",
     "drawAs": "rect",
     "fill": "white",
@@ -24756,9 +24776,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 1670.3129231284072,
-    "id": "http://identifiers.org/wikipathways/WP4666",
+    "id": "WP4666",
     "kaavioType": "Group",
-    "lastModified": "20231203092514",
+    "lastModified": "20240510154504",
     "name": "Hepatitis B infection",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -24767,9 +24787,11 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Hepatitis B infection\nLast Modified: 20231203092514\nOrganism: Homo sapiens",
+    "textContent": "Name: Hepatitis B infection\nLast Modified: 20240510154504\nOrganism: Homo sapiens",
     "type": [
-      "Pathway"
+      "Pathway",
+      "http://identifiers.org/pw/PW:0000013",
+      "http://identifiers.org/pw/PW:0001028"
     ],
     "verticalAlign": "top",
     "width": 3138,
