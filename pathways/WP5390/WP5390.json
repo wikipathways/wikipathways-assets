@@ -2227,6 +2227,16 @@
       "y": 377.5,
       "zIndex": 32768
     },
+    "http://identifiers.org/doid/DOID:162": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/doid/DOID:162",
+      "ontology": "Disease",
+      "term": "cancer",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "DOID:162"
+    },
     "http://identifiers.org/doid/DOID:1793": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/doid/DOID:1793",
@@ -2236,6 +2246,16 @@
         "openControlledVocabulary"
       ],
       "xrefIdentifier": "DOID:1793"
+    },
+    "http://identifiers.org/pw/PW:0000605": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000605",
+      "ontology": "Pathway Ontology",
+      "term": "cancer pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000605"
     },
     "http://identifiers.org/pw/PW:0000626": {
       "gpmlElementName": "openControlledVocabulary",
@@ -2286,10 +2306,10 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP5390/"
+        "@base": "WP5390/"
       }
     ],
-    "author": "[IsabelWassink]",
+    "author": "[IsabelWassink, Eweitz]",
     "comments": [
       {
         "content": "This is an annotated list of genes associated with the classical and basal-like subtypes of pancreatic cancer. Based on: Moffitt et al., 2015 (doi:10.1038/ng.3398).",
@@ -2350,7 +2370,7 @@
       "fe45e",
       "fef88"
     ],
-    "dataSourceVersion": "WP5390_r126766",
+    "dataSourceVersion": "WP5390_r134442",
     "displayName": "Pancreatic cancer subtypes",
     "drawAs": "rect",
     "fill": "white",
@@ -2358,9 +2378,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 532.5,
-    "id": "http://identifiers.org/wikipathways/WP5390",
+    "id": "WP5390",
     "kaavioType": "Group",
-    "lastModified": "20230619142749",
+    "lastModified": "20240721234956",
     "name": "Pancreatic cancer subtypes",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -2369,9 +2389,10 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Pancreatic cancer subtypes\nLast Modified: 20230619142749\nOrganism: Homo sapiens",
+    "textContent": "Name: Pancreatic cancer subtypes\nLast Modified: 20240721234956\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
+      "http://identifiers.org/pw/PW:0000605",
       "http://identifiers.org/pw/PW:0000626"
     ],
     "verticalAlign": "top",

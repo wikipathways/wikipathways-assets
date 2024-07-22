@@ -2935,9 +2935,6 @@
       "comments": [
         {
           "content": "S_id 371"
-        },
-        {
-          "content": "Type your comment here"
         }
       ],
       "drawAs": "rect",
@@ -3109,7 +3106,8 @@
         "LacCer",
         "Wikidata:Q39905739",
         "ChEBI:17950",
-        "ChEBI:17950"
+        "",
+        ""
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -4150,6 +4148,16 @@
       "xrefIdentifier": "LMSP0506BB00",
       "y": 373.66548042704625,
       "zIndex": 32768
+    },
+    "http://identifiers.org/pw/PW:0000010": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000010",
+      "ontology": "Pathway Ontology",
+      "term": "lipid metabolic pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000010"
     },
     "http://identifiers.org/pw/PW:0000197": {
       "gpmlElementName": "openControlledVocabulary",
@@ -7654,10 +7662,10 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP5311/"
+        "@base": "WP5311/"
       }
     ],
-    "author": "[Conroy lipids, Egonw, Andra, DeSl]",
+    "author": "[Conroy lipids, Egonw, Andra, DeSl, Eweitz]",
     "comments": [
       {
         "content": "Isoglobo pathway in its entirety from [https://www.lipidmaps.org/resources/sphingomap SphinGOMAP].\r\n\r\nSolid conversion arrows are documented according to Sphingomap. \r\nDotted conversions are hypothetical, either not occurring or undocumented (Sphingomap details all possible permutations of a pathway to the final glycolipid).\r\n\r\nNumbers represent the sphingomap IDs, to be converted.\r\nMetabolites coloured red are not yet in LIPIDMAPS\r\n\r\nMetabolites with a dotted box are hypothetical. These may or may not exist on the pathway to the final product as several different routes could occur.",
@@ -7808,7 +7816,7 @@
       "a1e56",
       "bdc8b"
     ],
-    "dataSourceVersion": "WP5311_r127501",
+    "dataSourceVersion": "WP5311_r134475",
     "displayName": "Isoglobo series sphingolipids",
     "drawAs": "rect",
     "fill": "white",
@@ -7816,9 +7824,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 1068.9610389610389,
-    "id": "http://identifiers.org/wikipathways/WP5311",
+    "id": "WP5311",
     "kaavioType": "Group",
-    "lastModified": "20231013130404",
+    "lastModified": "20240722005403",
     "name": "Isoglobo series sphingolipids",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -7827,9 +7835,10 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Isoglobo series sphingolipids\nLast Modified: 20231013130404\nOrganism: Homo sapiens",
+    "textContent": "Name: Isoglobo series sphingolipids\nLast Modified: 20240722005403\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
+      "http://identifiers.org/pw/PW:0000010",
       "http://identifiers.org/pw/PW:0000197"
     ],
     "verticalAlign": "top",

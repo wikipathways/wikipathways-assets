@@ -1084,6 +1084,16 @@
       ],
       "xrefIdentifier": "DOID:5419"
     },
+    "http://identifiers.org/pw/PW:0000004": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000004",
+      "ontology": "Pathway Ontology",
+      "term": "regulatory pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000004"
+    },
     "http://identifiers.org/pw/PW:0000013": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000013",
@@ -1093,6 +1103,16 @@
         "openControlledVocabulary"
       ],
       "xrefIdentifier": "PW:0000013"
+    },
+    "http://identifiers.org/pw/PW:0000278": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000278",
+      "ontology": "Pathway Ontology",
+      "term": "autophagy pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000278"
     },
     "id184e6a27": {
       "citations": [
@@ -2149,7 +2169,7 @@
       "id": "publicationXrefe6d",
       "source": "Transl Psychiatry",
       "standardName": "Duplications in RB1CC1 are associated with schizophrenia; identification in large European sample sets.",
-      "textContent": "9",
+      "textContent": "8",
       "type": [
         "PublicationXref",
         "PubMed:26151896"
@@ -2169,7 +2189,7 @@
       "id": "publicationXreff07",
       "source": "Nat Struct Mol Biol",
       "standardName": "Interaction between FIP200 and ATG16L1 distinguishes ULK1 complex-dependent and -independent autophagy.",
-      "textContent": "8",
+      "textContent": "9",
       "type": [
         "PublicationXref",
         "PubMed:23262492"
@@ -2183,10 +2203,10 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP5412/"
+        "@base": "WP5412/"
       }
     ],
-    "author": "[Fehrhart]",
+    "author": "[Fehrhart, Eweitz]",
     "comments": [
       {
         "content": "RB1CC1, located on chromosome 8q11.23, is mainly involved in autophagy regulation. A loss of function or mutation in the gene can result in increased risk for schizophrenia (Degenhardt et al. 2013).",
@@ -2222,7 +2242,7 @@
       "f6442",
       "a3962"
     ],
-    "dataSourceVersion": "WP5412_r127218",
+    "dataSourceVersion": "WP5412_r134417",
     "displayName": "RB1CC1 copy number variation",
     "drawAs": "rect",
     "fill": "white",
@@ -2230,9 +2250,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 507.5,
-    "id": "http://identifiers.org/wikipathways/WP5412",
+    "id": "WP5412",
     "kaavioType": "Group",
-    "lastModified": "20230821150508",
+    "lastModified": "20240721225523",
     "name": "8q11.23 (RB1CC1) copy number variation",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -2241,10 +2261,12 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: 8q11.23 (RB1CC1) copy number variation\nLast Modified: 20230821150508\nOrganism: Homo sapiens",
+    "textContent": "Name: 8q11.23 (RB1CC1) copy number variation\nLast Modified: 20240721225523\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0000013"
+      "http://identifiers.org/pw/PW:0000013",
+      "http://identifiers.org/pw/PW:0000004",
+      "http://identifiers.org/pw/PW:0000278"
     ],
     "verticalAlign": "top",
     "width": 914,

@@ -502,6 +502,16 @@
       "y": 231.5,
       "zIndex": 32860
     },
+    "http://identifiers.org/doid/DOID:1074": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/doid/DOID:1074",
+      "ontology": "Disease",
+      "term": "kidney failure",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "DOID:1074"
+    },
     "http://identifiers.org/doid/DOID:557": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/doid/DOID:557",
@@ -521,6 +531,16 @@
         "openControlledVocabulary"
       ],
       "xrefIdentifier": "PW:0000013"
+    },
+    "http://identifiers.org/pw/PW:0000300": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000300",
+      "ontology": "Pathway Ontology",
+      "term": "kidney disease pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000300"
     },
     "id177ac4c9": {
       "drawAs": "StraightLine",
@@ -1422,10 +1442,10 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP5389/"
+        "@base": "WP5389/"
       }
     ],
-    "author": "[Marvin M2, Egonw]",
+    "author": "[Marvin M2, Egonw, Eweitz]",
     "comments": [
       {
         "content": "Adverse Outcome Pathway of DNA adduct formation leading to kidney failure. Stressors of this AOP include cisplatin and carboplatin.",
@@ -1463,7 +1483,7 @@
       "d83e9",
       "dae60"
     ],
-    "dataSourceVersion": "WP5389_r126906",
+    "dataSourceVersion": "WP5389_r134444",
     "displayName": "DNA adduct formation leading to kidney failure",
     "drawAs": "rect",
     "fill": "white",
@@ -1471,9 +1491,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 577.5,
-    "id": "http://identifiers.org/wikipathways/WP5389",
+    "id": "WP5389",
     "kaavioType": "Group",
-    "lastModified": "20230701101724",
+    "lastModified": "20240721235148",
     "name": "DNA adduct formation leading to kidney failure",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -1482,10 +1502,11 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: DNA adduct formation leading to kidney failure\nLast Modified: 20230701101724\nOrganism: Homo sapiens",
+    "textContent": "Name: DNA adduct formation leading to kidney failure\nLast Modified: 20240721235148\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0000013"
+      "http://identifiers.org/pw/PW:0000013",
+      "http://identifiers.org/pw/PW:0000300"
     ],
     "verticalAlign": "top",
     "width": 699,
