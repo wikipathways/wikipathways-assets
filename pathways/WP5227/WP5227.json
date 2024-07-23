@@ -759,7 +759,7 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "AOP-Wiki:381",
+        "AOP-Wiki KE:381",
         "Key Event"
       ],
       "verticalAlign": "middle",
@@ -767,7 +767,7 @@
       "width": 186.5831618525529,
       "wpType": "Key Event",
       "x": 215.99434088598557,
-      "xrefDataSource": "AOP-Wiki",
+      "xrefDataSource": "AOP-Wiki KE",
       "xrefIdentifier": "381",
       "y": 516.3543736994953,
       "zIndex": 32776
@@ -1236,6 +1236,26 @@
       "y": 641.1450447651407,
       "zIndex": 32782
     },
+    "http://identifiers.org/cl/CL:0000128": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/cl/CL:0000128",
+      "ontology": "Cell Type",
+      "term": "oligodendrocyte",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "CL:0000128"
+    },
+    "http://identifiers.org/cl/CL:0011005": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/cl/CL:0011005",
+      "ontology": "Cell Type",
+      "term": "GABAergic interneuron",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "CL:0011005"
+    },
     "http://identifiers.org/pw/PW:0000501": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000501",
@@ -1245,6 +1265,16 @@
         "openControlledVocabulary"
       ],
       "xrefIdentifier": "PW:0000501"
+    },
+    "http://identifiers.org/pw/PW:0002521": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0002521",
+      "ontology": "Pathway Ontology",
+      "term": "thyroid hormone biosynthetic pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0002521"
     },
     "id175b66e6": {
       "drawAs": "StraightLine",
@@ -3566,10 +3596,10 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP5227/"
+        "@base": "WP5227/"
       }
     ],
-    "author": "[CMalyar, Marvin M2, Eweitz]",
+    "author": "[CMalyar, Marvin M2, Eweitz, Egonw]",
     "comments": [
       {
         "content": "Adverse outcome pathway for the effect of thyroid hormone disruption. This AOP network is based on the human-relevant AOPs in AOP-Wiki that involve thyroid hormone and neurological adverse outcomes.",
@@ -3648,7 +3678,7 @@
       "a59e2",
       "de245"
     ],
-    "dataSourceVersion": "WP5227_r128159",
+    "dataSourceVersion": "WP5227_r134542",
     "displayName": "Thyroid hormone imbalance leading to neurodevelopmental abnormalities",
     "drawAs": "rect",
     "fill": "white",
@@ -3656,9 +3686,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 980.7843435881805,
-    "id": "http://identifiers.org/wikipathways/WP5227",
+    "id": "WP5227",
     "kaavioType": "Group",
-    "lastModified": "20240128170715",
+    "lastModified": "20240722211620",
     "name": "Thyroid hormone imbalance leading to neurodevelopmental abnormalities",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -3667,9 +3697,10 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Thyroid hormone imbalance leading to neurodevelopmental abnormalities\nLast Modified: 20240128170715\nOrganism: Homo sapiens",
+    "textContent": "Name: Thyroid hormone imbalance leading to neurodevelopmental abnormalities\nLast Modified: 20240722211620\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
+      "http://identifiers.org/pw/PW:0002521",
       "http://identifiers.org/pw/PW:0000501"
     ],
     "verticalAlign": "top",

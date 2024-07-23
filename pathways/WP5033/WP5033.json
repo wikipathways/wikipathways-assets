@@ -1,27 +1,5 @@
 {
   "entitiesById": {
-    "857929": {
-      "__HighlandStream__": true,
-      "_can_drain": false,
-      "_consume_waiting_for_next": false,
-      "_consumers": [],
-      "_delegate": null,
-      "_destructors": [],
-      "_events": {},
-      "_eventsCount": 2,
-      "_in_consume_cb": false,
-      "_incoming": [],
-      "_is_observer": false,
-      "_nil_pushed": false,
-      "_observers": [],
-      "_outgoing": [],
-      "_repeat_resume": false,
-      "_send_events": false,
-      "id": "857929",
-      "paused": true,
-      "source": null,
-      "writable": true
-    },
     "a31a0": {
       "citations": [
         "publicationXrefb38"
@@ -570,7 +548,7 @@
       "stroke": "#14961e",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "chronic\ninflammation",
+      "textContent": "Chronic\ninflammation",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -893,7 +871,6 @@
         "UniProt:C9JB67",
         "UniProt:C9JYP7",
         "UniProt:Q13568",
-        "UniProt:A0A087WWA0",
         "UniProt:C9J7M2",
         "UniProt:F8WDH6"
       ],
@@ -962,7 +939,7 @@
       "stroke": "#14961e",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "citrullination",
+      "textContent": "Citrullination",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -1189,6 +1166,7 @@
         "Entrez Gene:3572",
         "HGNC:IL6ST",
         "UniProt:Q5FC07",
+        "UniProt:A0A0A0N0L5",
         "UniProt:D6RH03",
         "UniProt:A0A0A0N0L2",
         "UniProt:Q5FC05",
@@ -1205,6 +1183,16 @@
       "xrefIdentifier": "ENSG00000134352",
       "y": 188.4146715776549,
       "zIndex": 32771
+    },
+    "http://identifiers.org/doid/DOID:7148": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/doid/DOID:7148",
+      "ontology": "Disease",
+      "term": "rheumatoid arthritis",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "DOID:7148"
     },
     "http://identifiers.org/pw/PW:0000013": {
       "gpmlElementName": "openControlledVocabulary",
@@ -1264,7 +1252,7 @@
       "id": "publicationXrefaa0",
       "source": "Am J Hum Genet",
       "standardName": "PTPN22 genetic variation: evidence for multiple variants associated with rheumatoid arthritis.",
-      "textContent": "6",
+      "textContent": "8",
       "type": [
         "PublicationXref",
         "PubMed:16175503"
@@ -1318,7 +1306,7 @@
       "id": "publicationXrefbe3",
       "source": "Immunol Rev",
       "standardName": "Pathways to gene identification in rheumatoid arthritis: PTPN22 and beyond.",
-      "textContent": "5",
+      "textContent": "6",
       "type": [
         "PublicationXref",
         "PubMed:15790351"
@@ -1347,7 +1335,7 @@
       "id": "publicationXrefc22",
       "source": "Ann Rheum Dis",
       "standardName": "A family based study shows no association between rheumatoid arthritis and the PADI4 gene in a white French population.",
-      "textContent": "9",
+      "textContent": "7",
       "type": [
         "PublicationXref",
         "PubMed:15485997"
@@ -1442,7 +1430,7 @@
       "id": "publicationXrefe32",
       "source": "Arthritis Rheum",
       "standardName": "Association of the lymphoid tyrosine phosphatase R620W variant with rheumatoid arthritis, but not Crohn's disease, in Canadian populations.",
-      "textContent": "10",
+      "textContent": "9",
       "type": [
         "PublicationXref",
         "PubMed:15986374"
@@ -1478,7 +1466,7 @@
       "id": "publicationXrefead",
       "source": "Nat Genet",
       "standardName": "MHC2TA is associated with differential MHC molecule expression and susceptibility to rheumatoid arthritis, multiple sclerosis and myocardial infarction.",
-      "textContent": "7",
+      "textContent": "10",
       "type": [
         "PublicationXref",
         "PubMed:15821736"
@@ -1591,7 +1579,7 @@
       "id": "publicationXreffcb",
       "source": "Ann Rheum Dis",
       "standardName": "Investigation of polymorphisms in the PADI4 gene in determining severity of inflammatory polyarthritis.",
-      "textContent": "8",
+      "textContent": "5",
       "type": [
         "PublicationXref",
         "PubMed:15731287"
@@ -1605,10 +1593,10 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP5033/"
+        "@base": "WP5033/"
       }
     ],
-    "author": "[Egonw, Marvin M2, Finterly]",
+    "author": "[Egonw, Marvin M2, Finterly, Eweitz]",
     "comments": [
       {
         "content": "Some initial seed info about rheumatoid arthritis and the four genes that may be involved in the disease. Of these, the cited literature is not clear about the role (if any) of PADI4.",
@@ -1641,7 +1629,7 @@
       "c04ff",
       "eb5d3"
     ],
-    "dataSourceVersion": "WP5033_r118996",
+    "dataSourceVersion": "WP5033_r134599",
     "displayName": "Genes associated with the development of rheumatoid arthritis",
     "drawAs": "rect",
     "fill": "white",
@@ -1649,9 +1637,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 636.3805970149247,
-    "id": "http://identifiers.org/wikipathways/WP5033",
+    "id": "WP5033",
     "kaavioType": "Group",
-    "lastModified": "20210608092833",
+    "lastModified": "20240723011633",
     "name": "Genes associated with the development of rheumatoid arthritis",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -1660,13 +1648,13 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Genes associated with the development of rheumatoid arthritis\nLast Modified: 20210608092833\nOrganism: Homo sapiens",
+    "textContent": "Name: Genes associated with the development of rheumatoid arthritis\nLast Modified: 20240723011633\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000013"
     ],
     "verticalAlign": "top",
-    "width": 577.1485573971762,
+    "width": 577.1485573971761,
     "x": 0,
     "y": 0,
     "zIndex": 0

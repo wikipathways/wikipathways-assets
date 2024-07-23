@@ -1054,6 +1054,16 @@
       ],
       "xrefIdentifier": "DOID:3770"
     },
+    "http://identifiers.org/pw/PW:0000526": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000526",
+      "ontology": "Pathway Ontology",
+      "term": "kallikrein-kinin cascade pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000526"
+    },
     "http://identifiers.org/pw/PW:0000527": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000527",
@@ -2420,7 +2430,7 @@
       "id": "publicationXreff38",
       "source": "ALTEX",
       "standardName": "Understanding COVID-19 through adverse outcome pathways - 2nd CIAO AOP Design Workshop.",
-      "textContent": "1",
+      "textContent": "2",
       "type": [
         "PublicationXref",
         "PubMed:33677612"
@@ -2521,7 +2531,7 @@
       "id": "publicationXreffed",
       "source": "Front Public Health",
       "standardName": "Systematic Organization of COVID-19 Data Supported by the Adverse Outcome Pathway Framework.",
-      "textContent": "2",
+      "textContent": "1",
       "type": [
         "PublicationXref",
         "PubMed:34095051"
@@ -2535,10 +2545,10 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP5035/"
+        "@base": "WP5035/"
       }
     ],
-    "author": "[Marvin M2, Finterly, AlexanderPico]",
+    "author": "[Marvin M2, Finterly, AlexanderPico, Eweitz]",
     "comments": [
       {
         "content": "This AOP outlines how ACE-2 plays a detrimental role in causing fibrotic damage to the lung by influencing various factors such as fibrogenic components, proinflammatory cytokines, and a lack of oxygen. When the activity of ACE2 is suppressed, the conversion of Ang II into Ang-(1-7) is not properly facilitated. Consequently, the levels of proinflammatory Ang II rise, while the levels of anti-inflammatory Ang-(1-7) decrease. Notably, ACE2 inhibition has been observed to raise the levels of Ang II peptides, which are a ligand for the type 1 angiotensin receptor (AT1R). This phenomenon is considered a significant risk factor for lung fibrosis, vasoconstriction, endothelial dysfunction, and cell death.",
@@ -2595,7 +2605,7 @@
       "dce22",
       "db290"
     ],
-    "dataSourceVersion": "WP5035_r125622",
+    "dataSourceVersion": "WP5035_r134596",
     "displayName": "ACE2 inhibition leads to pulmonary fibrosis",
     "drawAs": "rect",
     "fill": "white",
@@ -2603,9 +2613,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 989.7453760093829,
-    "id": "http://identifiers.org/wikipathways/WP5035",
+    "id": "WP5035",
     "kaavioType": "Group",
-    "lastModified": "20230305200012",
+    "lastModified": "20240723010725",
     "name": "ACE2 inhibition leads to pulmonary fibrosis",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -2614,10 +2624,11 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: ACE2 inhibition leads to pulmonary fibrosis\nLast Modified: 20230305200012\nOrganism: Homo sapiens",
+    "textContent": "Name: ACE2 inhibition leads to pulmonary fibrosis\nLast Modified: 20240723010725\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0000527"
+      "http://identifiers.org/pw/PW:0000527",
+      "http://identifiers.org/pw/PW:0000526"
     ],
     "verticalAlign": "top",
     "width": 1352,

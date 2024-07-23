@@ -14,7 +14,7 @@
       "lineHeight": 1.1,
       "overflow": "hidden",
       "padding": 8,
-      "stroke": "#000000",
+      "stroke": "#0000ff",
       "strokeWidth": 1,
       "textAlign": "center",
       "textContent": "ROS",
@@ -34,7 +34,7 @@
       "whiteSpace": "pre",
       "width": 65.71739130434806,
       "wpType": "Metabolite",
-      "x": 1580.7933869199844,
+      "x": 1480.7933869199844,
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "26523",
       "y": 646.5348008768725,
@@ -207,7 +207,7 @@
       "gpmlElementName": "DataNode",
       "height": 51.782051282052464,
       "id": "a637e",
-      "isPartOf": "pvjsgeneratedidfd41e",
+      "isPartOf": "cd636",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -317,7 +317,7 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 133.53251300777094,
-      "x": 1413.6419635514847,
+      "x": 1313.6419635514847,
       "y": 642.8847597064681,
       "zIndex": 16384
     },
@@ -346,38 +346,6 @@
       "width": 0,
       "zIndex": 12288
     },
-    "b34fd": {
-      "drawAs": "Brace",
-      "fill": "transparent",
-      "fontFamily": "Arial",
-      "fontSize": 12,
-      "fontStyle": "normal",
-      "fontWeight": "normal",
-      "gpmlElementName": "Shape",
-      "height": 31.97480520961806,
-      "id": "b34fd",
-      "kaavioType": "SingleFreeNode",
-      "lineHeight": 1.1,
-      "overflow": "hidden",
-      "padding": 8,
-      "rotation": 88.45696176440063,
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "textDecoration": "none",
-      "textOverflow": "clip",
-      "textRotation": -88.45696176440063,
-      "type": [
-        "Shape",
-        "SingleFreeNode"
-      ],
-      "verticalAlign": "middle",
-      "whiteSpace": "pre",
-      "width": 206.95374665887476,
-      "x": 1233.0152969896887,
-      "y": 330.3193121321892,
-      "zIndex": 16384
-    },
     "b4bbb": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -395,7 +363,7 @@
       "stroke": "#0000ff",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "arsenic",
+      "textContent": "Arsenic",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -404,7 +372,7 @@
         "ChEBI:CHEBI:27563",
         "Metabolite",
         "CompactIdentifier:chebi:27563",
-        "arsenic",
+        "Arsenic",
         "Wikidata:Q871",
         "ChEBI:27563",
         "InChI:RQNWIZPPADIBDY-UHFFFAOYSA-N",
@@ -541,7 +509,7 @@
       "whiteSpace": "pre",
       "width": 217.39130434782584,
       "wpType": "Unknown",
-      "x": 1571.4285714285716,
+      "x": 1403.4285714285716,
       "y": 765.0279503105598,
       "zIndex": 32768
     },
@@ -577,7 +545,7 @@
       "whiteSpace": "pre",
       "width": 74.5,
       "wpType": "Pathway",
-      "x": 1501.5,
+      "x": 1401.5,
       "xrefDataSource": "WikiPathways",
       "xrefIdentifier": "WP111",
       "y": 238.5,
@@ -659,9 +627,9 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 555.5555555555558,
-      "x": 1167.5213675213752,
+      "x": 1067.5213675213752,
       "y": 154.7399673358759,
-      "zIndex": 16384
+      "zIndex": -2
     },
     "bc668": {
       "drawAs": "rect",
@@ -707,6 +675,70 @@
       "xrefIdentifier": "161508",
       "y": 626.6785714285713,
       "zIndex": 32768
+    },
+    "bc960": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "bc960",
+      "isAttachedTo": [
+        "cd636",
+        "c9834"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              1,
+              0.5
+            ]
+          },
+          "isAttachedTo": "cd636",
+          "orientation": [
+            1,
+            0
+          ],
+          "x": 1211.5,
+          "y": 346.1538461538454
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0,
+              0.5
+            ]
+          },
+          "isAttachedTo": "c9834",
+          "orientation": [
+            1,
+            0
+          ],
+          "x": 1273.1995798319329,
+          "y": 346.3508403361344
+        }
+      ],
+      "stroke": "#000000",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 32781
     },
     "bcbdf": {
       "attachmentDisplay": {
@@ -766,7 +798,7 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 1641.2003446623698,
+      "width": 1470.7717732337985,
       "x": 181.7282267662015,
       "y": 58.975873634101504,
       "zIndex": 16384
@@ -788,7 +820,7 @@
       "stroke": "#0000ff",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "arsenic(3+)",
+      "textContent": "Arsenic(3+)",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -797,7 +829,7 @@
         "ChEBI:CHEBI:35828",
         "Metabolite",
         "CompactIdentifier:chebi:35828",
-        "arsenic(3+)",
+        "Arsenic(3+)",
         "Wikidata:Q27116590",
         "ChEBI:35828",
         "InChI:LULLIKNODDLMDQ-UHFFFAOYSA-N",
@@ -928,7 +960,7 @@
       "whiteSpace": "pre",
       "width": 73.5,
       "wpType": "Metabolite",
-      "x": 1373.1995798319329,
+      "x": 1273.1995798319329,
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "18421",
       "y": 323.77941176470574,
@@ -972,10 +1004,42 @@
       "whiteSpace": "pre",
       "width": 78.13975155279482,
       "wpType": "GeneProduct",
-      "x": 1370.8797040555353,
+      "x": 1270.8797040555353,
       "xrefDataSource": "Ensembl",
       "xrefIdentifier": "ENSG00000213585",
       "y": 538.8679210814771,
+      "zIndex": 32768
+    },
+    "cd636": {
+      "contains": [
+        "a637e",
+        "cdd24",
+        "ce140",
+        "e9e32",
+        "fd41d"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 274.9102564102625,
+      "id": "cd636",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 98.98717948719013,
+      "x": 1112.5128205128099,
+      "y": 208.69871794871412,
       "zIndex": 32768
     },
     "cdc53": {
@@ -995,7 +1059,7 @@
       "stroke": "#0000ff",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "arsenic(5+)",
+      "textContent": "Arsenic(5+)",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -1004,7 +1068,7 @@
         "ChEBI:CHEBI:35829",
         "Metabolite",
         "CompactIdentifier:chebi:35829",
-        "arsenic(5+)",
+        "Arsenic(5+)",
         "Wikidata:Q26840818",
         "ChEBI:35829",
         "InChI:HAYXDMNJJFVXCI-UHFFFAOYSA-N",
@@ -1031,7 +1095,7 @@
       "gpmlElementName": "DataNode",
       "height": 51.782051282052464,
       "id": "cdd24",
-      "isPartOf": "pvjsgeneratedidfd41e",
+      "isPartOf": "cd636",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1079,7 +1143,7 @@
       "gpmlElementName": "DataNode",
       "height": 51.782051282052464,
       "id": "ce140",
-      "isPartOf": "pvjsgeneratedidfd41e",
+      "isPartOf": "cd636",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1246,7 +1310,7 @@
       "whiteSpace": "pre",
       "width": 73.5,
       "wpType": "Metabolite",
-      "x": 1373.1995798319324,
+      "x": 1273.1995798319324,
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "CHEBI:15377",
       "y": 792.1785714285713,
@@ -1329,7 +1393,7 @@
       "whiteSpace": "pre",
       "width": 65.71739130434806,
       "wpType": "GeneProduct",
-      "x": 1516.5807453416144,
+      "x": 1416.5807453416144,
       "xrefDataSource": "Ensembl",
       "xrefIdentifier": "ENSG00000112096",
       "y": 346.82371209353465,
@@ -1469,7 +1533,7 @@
       "whiteSpace": "pre",
       "width": 73.5,
       "wpType": "Metabolite",
-      "x": 1373.1995798319329,
+      "x": 1273.1995798319329,
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "18421",
       "y": 603.7289915966386,
@@ -1514,7 +1578,7 @@
       "whiteSpace": "pre",
       "width": 73.5,
       "wpType": "Metabolite",
-      "x": 1373.1995798319326,
+      "x": 1273.1995798319326,
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "16240",
       "y": 692.4789915966386,
@@ -1574,7 +1638,7 @@
       "whiteSpace": "pre",
       "width": 159.47435897435878,
       "wpType": "Unknown",
-      "x": 1562.2777777777699,
+      "x": 1462.2777777777699,
       "y": 131.55982905982523,
       "zIndex": 32768
     },
@@ -1588,7 +1652,7 @@
       "gpmlElementName": "DataNode",
       "height": 51.782051282052464,
       "id": "e9e32",
-      "isPartOf": "pvjsgeneratedidfd41e",
+      "isPartOf": "cd636",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1659,7 +1723,7 @@
       "whiteSpace": "pre",
       "width": 65.71739130434806,
       "wpType": "GeneProduct",
-      "x": 1279.8251735476815,
+      "x": 1179.8251735476815,
       "xrefDataSource": "Ensembl",
       "xrefIdentifier": "ENSG00000121691",
       "y": 737.0319693094636,
@@ -1818,7 +1882,7 @@
       "whiteSpace": "pre",
       "width": 65.71739130434806,
       "wpType": "GeneProduct",
-      "x": 1279.8251735476815,
+      "x": 1179.8251735476815,
       "xrefDataSource": "Ensembl",
       "xrefIdentifier": "ENSG00000142168",
       "y": 644.433960540738,
@@ -1863,7 +1927,7 @@
       "whiteSpace": "pre",
       "width": 73.5,
       "wpType": "Metabolite",
-      "x": 1476,
+      "x": 1376,
       "xrefDataSource": "ChEBI",
       "xrefIdentifier": "16240",
       "y": 413.47899159663854,
@@ -1966,7 +2030,7 @@
       "gpmlElementName": "DataNode",
       "height": 51.782051282052464,
       "id": "fd41d",
-      "isPartOf": "pvjsgeneratedidfd41e",
+      "isPartOf": "cd636",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2111,7 +2175,7 @@
             1,
             0
           ],
-          "x": 1345.5425648520295,
+          "x": 1245.5425648520295,
           "y": 665.6466934599928
         },
         {
@@ -2128,7 +2192,7 @@
           },
           "isAttachedTo": "d7fd8",
           "orientation": [],
-          "x": 1409.9495798319329,
+          "x": 1309.9495798319329,
           "y": 666.314705882353
         }
       ],
@@ -2191,8 +2255,8 @@
             1,
             0
           ],
-          "x": 1220.5128205128099,
-          "y": 413.9358974358978
+          "x": 1120.5128205128099,
+          "y": 397.9358974358978
         }
       ],
       "stroke": "#000000",
@@ -2233,7 +2297,7 @@
             0,
             1
           ],
-          "x": 1409.9495798319326,
+          "x": 1309.9495798319326,
           "y": 585.9517720131546
         },
         {
@@ -2252,7 +2316,7 @@
             0,
             1
           ],
-          "x": 1409.9495798319329,
+          "x": 1309.9495798319329,
           "y": 603.7289915966386
         }
       ],
@@ -2545,7 +2609,7 @@
             0,
             1
           ],
-          "x": 1409.9495798319329,
+          "x": 1309.9495798319329,
           "y": 648.8718487394959
         },
         {
@@ -2564,7 +2628,7 @@
             0,
             1
           ],
-          "x": 1409.9495798319326,
+          "x": 1309.9495798319326,
           "y": 692.4789915966386
         }
       ],
@@ -2736,7 +2800,7 @@
             1,
             0
           ],
-          "x": 1446.6995798319329,
+          "x": 1346.6995798319329,
           "y": 346.3508403361344
         },
         {
@@ -2755,7 +2819,7 @@
             0,
             1
           ],
-          "x": 1512.75,
+          "x": 1412.75,
           "y": 413.47899159663854
         }
       ],
@@ -2863,7 +2927,7 @@
             0,
             1
           ],
-          "x": 1409.9495798319329,
+          "x": 1309.9495798319329,
           "y": 368.9222689075631
         },
         {
@@ -2882,7 +2946,7 @@
             0,
             1
           ],
-          "x": 1409.9495798319326,
+          "x": 1309.9495798319326,
           "y": 538.8679210814771
         }
       ],
@@ -2946,8 +3010,8 @@
             1,
             0
           ],
-          "x": 1220.5128205128099,
-          "y": 362.1538461538453
+          "x": 1120.5128205128099,
+          "y": 346.1538461538453
         }
       ],
       "stroke": "#000000",
@@ -2988,7 +3052,7 @@
             0,
             1
           ],
-          "x": 1613.6520825721584,
+          "x": 1513.6520825721584,
           "y": 688.9602667153821
         },
         {
@@ -3007,7 +3071,7 @@
             0,
             1
           ],
-          "x": 1680.1242236024846,
+          "x": 1512.1242236024846,
           "y": 765.0279503105598
         }
       ],
@@ -3114,7 +3178,7 @@
             0,
             1
           ],
-          "x": 1512.75,
+          "x": 1412.75,
           "y": 458.6218487394959
         },
         {
@@ -3133,7 +3197,7 @@
             -1,
             0
           ],
-          "x": 1446.6995798319326,
+          "x": 1346.6995798319326,
           "y": 715.0504201680673
         }
       ],
@@ -3174,7 +3238,7 @@
             -1,
             0
           ],
-          "x": 1516.5807453416144,
+          "x": 1416.5807453416144,
           "y": 368.03644501278944
         },
         {
@@ -3191,7 +3255,7 @@
           },
           "isAttachedTo": "e265f",
           "orientation": [],
-          "x": 1473.1197478991596,
+          "x": 1373.1197478991596,
           "y": 373.2021008403361
         }
       ],
@@ -3235,7 +3299,7 @@
             1,
             0
           ],
-          "x": 1506.4176370917717,
+          "x": 1406.4176370917717,
           "y": 667.0654741118865
         },
         {
@@ -3254,7 +3318,7 @@
             1,
             0
           ],
-          "x": 1580.7933869199844,
+          "x": 1480.7933869199844,
           "y": 667.7475337961273
         }
       ],
@@ -3747,8 +3811,8 @@
             1,
             0
           ],
-          "x": 1220.5128205128099,
-          "y": 310.37179487179276
+          "x": 1120.5128205128099,
+          "y": 294.37179487179276
         }
       ],
       "stroke": "#000000",
@@ -3889,28 +3953,12 @@
       "gpmlElementName": "Interaction",
       "id": "idca68410f",
       "isAttachedTo": [
-        "b34fd",
         "c9834"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
       "points": [
         {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0,
-              0.5
-            ]
-          },
-          "isAttachedTo": "b34fd",
-          "orientation": [
-            -1,
-            0
-          ],
           "x": 1317.7241561343867,
           "y": 346.30671473699806
         },
@@ -3930,7 +3978,7 @@
             1,
             0
           ],
-          "x": 1373.1995798319329,
+          "x": 1273.1995798319329,
           "y": 346.3508403361344
         }
       ],
@@ -3975,7 +4023,7 @@
             1,
             0
           ],
-          "x": 1345.5425648520295,
+          "x": 1245.5425648520295,
           "y": 758.2447022287184
         },
         {
@@ -3992,7 +4040,7 @@
           },
           "isAttachedTo": "bcbdf",
           "orientation": [],
-          "x": 1409.9495798319326,
+          "x": 1309.9495798319326,
           "y": 759.4445378151261
         }
       ],
@@ -4096,7 +4144,7 @@
             0,
             1
           ],
-          "x": 1409.9495798319326,
+          "x": 1309.9495798319326,
           "y": 737.6218487394959
         },
         {
@@ -4115,7 +4163,7 @@
             0,
             1
           ],
-          "x": 1409.9495798319324,
+          "x": 1309.9495798319324,
           "y": 792.1785714285713
         }
       ],
@@ -4130,38 +4178,6 @@
         "DirectedInteraction"
       ],
       "zIndex": 12288
-    },
-    "pvjsgeneratedidfd41e": {
-      "contains": [
-        "a637e",
-        "cdd24",
-        "ce140",
-        "e9e32",
-        "fd41d"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 274.9102564102625,
-      "id": "pvjsgeneratedidfd41e",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 98.98717948719013,
-      "x": 1212.5128205128099,
-      "y": 224.69871794871412,
-      "zIndex": 32768
     }
   },
   "pathway": {
@@ -4171,7 +4187,7 @@
         "@base": "WP5233/"
       }
     ],
-    "author": "[ZDLech, Egonw, Fehrhart, Mkutmon]",
+    "author": "[ZDLech, Egonw, Fehrhart, Mkutmon, Eweitz]",
     "comments": [
       {
         "content": "Arsenic induced ROS formation may lead to carcinogenic effects.",
@@ -4183,6 +4199,7 @@
       }
     ],
     "contains": [
+      "bbbae",
       "id230648d9",
       "id25a9a5ad",
       "id27c25ab8",
@@ -4218,8 +4235,6 @@
       "idfec50fa",
       "idcc3c6543",
       "b067c",
-      "b34fd",
-      "bbbae",
       "bdfb2",
       "a0111",
       "a54af",
@@ -4245,7 +4260,7 @@
       "f8a2d",
       "f9c5b",
       "fcacc",
-      "pvjsgeneratedidfd41e",
+      "cd636",
       "c870c",
       "b8cd2",
       "a112e",
@@ -4254,9 +4269,10 @@
       "fb251",
       "ae17c",
       "db7a9",
-      "db926"
+      "db926",
+      "bc960"
     ],
-    "dataSourceVersion": "WP5233_r134114",
+    "dataSourceVersion": "WP5233_r134516",
     "displayName": "Arsenic metabolism and reactive oxygen species generation",
     "drawAs": "rect",
     "fill": "white",
@@ -4266,7 +4282,7 @@
     "height": 915.0931677018633,
     "id": "WP5233",
     "kaavioType": "Group",
-    "lastModified": "20240621111350",
+    "lastModified": "20240722123522",
     "name": "Arsenic metabolism and reactive oxygen species generation",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -4275,13 +4291,13 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Arsenic metabolism and reactive oxygen species generation\nLast Modified: 20240621111350\nOrganism: Homo sapiens",
+    "textContent": "Name: Arsenic metabolism and reactive oxygen species generation\nLast Modified: 20240722123522\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000002"
     ],
     "verticalAlign": "top",
-    "width": 1851.4285714285713,
+    "width": 1681,
     "x": 0,
     "y": 0,
     "zIndex": 0
