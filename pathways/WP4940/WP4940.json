@@ -18,7 +18,7 @@
       "stroke": "#000000",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "gamma tubulin complex",
+      "textContent": "Gamma tubulin complex",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -97,7 +97,7 @@
       "stroke": "#666666",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "pseudo gene",
+      "textContent": "Pseudogene",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -332,7 +332,7 @@
       "stroke": "#14961e",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "Fragile X Syndrome",
+      "textContent": "Fragile X syndrome",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -380,8 +380,11 @@
         "Mg2+",
         "Wikidata:Q26987404",
         "ChEBI:18420",
-        "ChEBI:18420",
-        "InChI:JLVVSXFLKOJNIY-UHFFFAOYSA-N"
+        "InChI:JLVVSXFLKOJNIY-UHFFFAOYSA-N",
+        "",
+        "",
+        "",
+        ""
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -838,6 +841,16 @@
       "y": 164.5,
       "zIndex": 32768
     },
+    "http://identifiers.org/doid/DOID:0060388": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/doid/DOID:0060388",
+      "ontology": "Disease",
+      "term": "chromosomal deletion syndrome",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "DOID:0060388"
+    },
     "http://identifiers.org/doid/DOID:0060393": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/doid/DOID:0060393",
@@ -847,6 +860,16 @@
         "openControlledVocabulary"
       ],
       "xrefIdentifier": "DOID:0060393"
+    },
+    "http://identifiers.org/doid/DOID:14261": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/doid/DOID:14261",
+      "ontology": "Disease",
+      "term": "fragile X syndrome",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "DOID:14261"
     },
     "http://identifiers.org/doid/DOID:630": {
       "gpmlElementName": "openControlledVocabulary",
@@ -1303,13 +1326,13 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP4940/"
+        "@base": "WP4940/"
       }
     ],
-    "author": "[Fehrhart, Egonw]",
+    "author": "[Fehrhart, Egonw, Eweitz]",
     "comments": [
       {
-        "content": "This pathway shows the genes known in the 15q11.2 region which can cause a copy number variation syndrome (CNV) if deleted or duplicated (or triplicated). These rare genetic syndromes are called 15q11.2 deletion or duplication syndrome, also known as Burnside Butler syndrome. This region is relatively small compared to other CNVs but it contains with NIPA1 and NIPA2 two important Magnesium transporters which are active in the central nervous system. CYFIP1 is an important interactor with FMR1, which is the causative gene for fragile X syndrome. The breakpoints (chr15:22,805,313-23,094,530 GRCh37/hg19) are defined as given in Kendall et al. 2017: https://doi.org/10.1016/j.biopsych.2016.08.014.",
+        "content": "This pathway shows the genes known in the 15q11.2 region which can cause a copy number variation syndrome (CNV) if deleted or duplicated (or triplicated). These rare genetic syndromes are called 15q11.2 deletion or duplication syndrome, also known as Burnside-Butler syndrome (BBS). This region is relatively small compared to other CNVs but it contains with NIPA1 and NIPA2 two important magnesium transporters which are active in the central nervous system. CYFIP1 is an important interactor with FMR1, which is the causative gene for fragile X syndrome. The breakpoints (chr15:22,805,313-23,094,530 GRCh37/hg19) are defined as given in Kendall et al. 2017: https://doi.org/10.1016/j.biopsych.2016.08.014.",
         "source": "WikiPathways-description"
       }
     ],
@@ -1336,7 +1359,7 @@
       "e45f7",
       "e9a0a"
     ],
-    "dataSourceVersion": "WP4940_r124896",
+    "dataSourceVersion": "WP4940_r134612",
     "displayName": "15q11.2 copy number variation syndrome",
     "drawAs": "rect",
     "fill": "white",
@@ -1344,9 +1367,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 459.5,
-    "id": "http://identifiers.org/wikipathways/WP4940",
+    "id": "WP4940",
     "kaavioType": "Group",
-    "lastModified": "20221229144744",
+    "lastModified": "20240723101737",
     "name": "15q11.2 copy number variation syndrome",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -1355,7 +1378,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: 15q11.2 copy number variation syndrome\nLast Modified: 20221229144744\nOrganism: Homo sapiens",
+    "textContent": "Name: 15q11.2 copy number variation syndrome\nLast Modified: 20240723101737\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000013"
