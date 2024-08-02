@@ -2,20 +2,22 @@
   "entitiesById": {
     "a056d": {
       "cellularComponent": "Nucleus",
-      "drawAs": "Ellipse",
+      "drawAs": "rect",
       "fill": "transparent",
       "fontFamily": "Arial",
       "fontSize": 10,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "Shape",
-      "height": 163.4801719274667,
+      "height": 134,
       "id": "a056d",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
       "padding": 8,
       "rotation": 0,
+      "rx": 15,
+      "ry": 15,
       "stroke": "#c0c0c0",
       "strokeStyle": "double",
       "strokeWidth": 3,
@@ -31,10 +33,10 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 331.5270480094356,
-      "x": 245.20298533812542,
-      "y": 517.0198280725333,
-      "zIndex": 16384
+      "width": 290,
+      "x": 265.5,
+      "y": 524.5,
+      "zIndex": -4
     },
     "a140c": {
       "contains": [
@@ -119,14 +121,17 @@
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "Shape",
-      "height": 331.8417395680776,
+      "height": 346.8417395680776,
       "id": "a533f",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
       "padding": 8,
       "rotation": 0,
-      "stroke": "#000000",
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#a0a0a0",
+      "strokeDasharray": "5,3",
       "strokeWidth": 1,
       "textAlign": "center",
       "textDecoration": "none",
@@ -138,7 +143,7 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 234.51877277735412,
-      "x": 769.9236486356557,
+      "x": 769.9236136113229,
       "y": 91.15826043192237,
       "zIndex": 16384
     },
@@ -150,12 +155,12 @@
       "kaavioType": "Edge",
       "points": [
         {
-          "x": 790.6087796643437,
-          "y": 214.19535664696969
+          "x": 790.609,
+          "y": 220.19535664696969
         },
         {
-          "x": 827.6458167013808,
-          "y": 214.19535664696969
+          "x": 827.646,
+          "y": 220.19535664696969
         }
       ],
       "stroke": "#cc00cc",
@@ -194,7 +199,7 @@
             0,
             1
           ],
-          "x": 511.9006109159052,
+          "x": 489.9006109159052,
           "y": 639.4709351208364
         },
         {
@@ -213,8 +218,8 @@
             0,
             1
           ],
-          "x": 512.4485637698998,
-          "y": 706.7787153844797
+          "x": 489.9006109159052,
+          "y": 686.7787153844797
         }
       ],
       "stroke": "#ff0000",
@@ -390,7 +395,7 @@
       "whiteSpace": "pre",
       "width": 60,
       "wpType": "GeneProduct",
-      "x": 375.1785004299707,
+      "x": 361.1785004299707,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "3558",
       "y": 618.2041917454685,
@@ -438,7 +443,7 @@
       "whiteSpace": "pre",
       "width": 60,
       "wpType": "Metabolite",
-      "x": 366.81913195646626,
+      "x": 350.81913195646626,
       "xrefDataSource": "HMDB",
       "xrefIdentifier": "HMDB0007223",
       "y": 337.99342174708624,
@@ -448,7 +453,7 @@
       "drawAs": "none",
       "fill": "transparent",
       "fontFamily": "Arial",
-      "fontSize": 11,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "Label",
@@ -460,8 +465,8 @@
       "padding": 8,
       "stroke": "#000000",
       "strokeWidth": 0,
-      "textAlign": "center",
-      "textContent": "signaling molecule",
+      "textAlign": "left",
+      "textContent": "Signaling molecule",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -470,9 +475,9 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 125.82061859431138,
-      "x": 843.9256662460576,
-      "y": 274.0147597678316,
+      "width": 149.845,
+      "x": 850.1134409393644,
+      "y": 292.0147597678316,
       "zIndex": 32838
     },
     "b2840": {
@@ -546,7 +551,7 @@
       "drawAs": "none",
       "fill": "transparent",
       "fontFamily": "Arial",
-      "fontSize": 11,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "Label",
@@ -558,8 +563,8 @@
       "padding": 8,
       "stroke": "#000000",
       "strokeWidth": 0,
-      "textAlign": "center",
-      "textContent": "activation / recruitment",
+      "textAlign": "left",
+      "textContent": "Activation / recruitment",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -568,8 +573,8 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 138.55421822256426,
-      "x": 846.079362091282,
+      "width": 149.845,
+      "x": 850.1134409393645,
       "y": 181.84789437516451,
       "zIndex": 32823
     },
@@ -674,6 +679,11 @@
       "zIndex": 32780
     },
     "b78e0": {
+      "comments": [
+        {
+          "content": "PKC-a"
+        }
+      ],
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -690,7 +700,7 @@
       "stroke": "#000000",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "PKC-a",
+      "textContent": "PRKCA",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -699,7 +709,7 @@
         "Entrez Gene:5578",
         "GeneProduct",
         "CompactIdentifier:ncbigene:5578",
-        "PKC-a",
+        "PRKCA",
         "Ensembl:ENSG00000154229",
         "Entrez Gene:5578",
         "HGNC:PRKCA",
@@ -853,7 +863,7 @@
       "whiteSpace": "pre",
       "width": 55.5,
       "x": 785.3783379685782,
-      "y": 280.8186839849835,
+      "y": 293.85292763319546,
       "zIndex": 32835
     },
     "bdd9d": {
@@ -882,9 +892,9 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 125.56149732620293,
-      "x": 340.94385203007874,
-      "y": 706.7787153844796,
+      "width": 110,
+      "x": 336.1785004299707,
+      "y": 686.7787153844796,
       "zIndex": 28672
     },
     "beb89": {
@@ -957,7 +967,7 @@
       "stroke": "#000000",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "RasGRP",
+      "textContent": "RASGRP1",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -966,7 +976,7 @@
         "Entrez Gene:10125",
         "GeneProduct",
         "CompactIdentifier:ncbigene:10125",
-        "RasGRP",
+        "RASGRP1",
         "Ensembl:ENSG00000172575",
         "Entrez Gene:10125",
         "HGNC:RASGRP1",
@@ -981,9 +991,9 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 60,
+      "width": 70,
       "wpType": "GeneProduct",
-      "x": 324.29333725338984,
+      "x": 303.29333725338984,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "10125",
       "y": 390.9332084091923,
@@ -1144,11 +1154,11 @@
       "markerEnd": "Arrow",
       "points": [
         {
-          "x": 790.2432340354474,
+          "x": 790.609,
           "y": 143.22761471148465
         },
         {
-          "x": 827.2802710724844,
+          "x": 827.646,
           "y": 143.22761471148465
         }
       ],
@@ -1194,7 +1204,7 @@
       "whiteSpace": "pre",
       "width": 55.5,
       "x": 786.3873289775687,
-      "y": 321.1859658564621,
+      "y": 339.1859658564621,
       "zIndex": 32836
     },
     "c59c2": {
@@ -1206,7 +1216,7 @@
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "Shape",
-      "height": 668,
+      "height": 637,
       "id": "c59c2",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
@@ -1405,11 +1415,11 @@
       "markerEnd": "TBar",
       "points": [
         {
-          "x": 793.4587670635384,
+          "x": 790.609,
           "y": 166.77600180825846
         },
         {
-          "x": 830.4958041005755,
+          "x": 827.646,
           "y": 166.77600180825846
         }
       ],
@@ -1427,7 +1437,7 @@
       "drawAs": "none",
       "fill": "transparent",
       "fontFamily": "Arial",
-      "fontSize": 11,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "Label",
@@ -1439,8 +1449,8 @@
       "padding": 8,
       "stroke": "#000000",
       "strokeWidth": 0,
-      "textAlign": "center",
-      "textContent": "phosphorylation",
+      "textAlign": "left",
+      "textContent": "Phosphorylation",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -1449,9 +1459,9 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 103.3395460261151,
-      "x": 848.6384374638628,
-      "y": 204.05471980779112,
+      "width": 149.845,
+      "x": 850.1134409393645,
+      "y": 209.21134229235247,
       "zIndex": 32824
     },
     "cc296": {
@@ -1593,7 +1603,7 @@
       "whiteSpace": "pre",
       "width": 60,
       "wpType": "Protein",
-      "x": 375.1785004299707,
+      "x": 359.1785004299707,
       "y": 478.2041917454685,
       "zIndex": 32789
     },
@@ -1677,7 +1687,7 @@
       "whiteSpace": "pre",
       "width": 53.63232812157827,
       "x": 785.9841760082339,
-      "y": 358.10376358017993,
+      "y": 376.10376358017993,
       "zIndex": 32848
     },
     "d1518": {
@@ -1792,7 +1802,7 @@
           0
         ],
         "position": [
-          0.4887144721122671,
+          0.5443072809253615,
           0
         ]
       },
@@ -1836,9 +1846,9 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 125.5614973262029,
-      "x": 449.66781510679834,
-      "y": 706.7787153844797,
+      "width": 90,
+      "x": 444.9006109159052,
+      "y": 686.7787153844797,
       "zIndex": 32831
     },
     "d965c": {
@@ -1887,7 +1897,7 @@
       "x": 566.3783527616621,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "4790",
-      "y": 522.1265735460373,
+      "y": 558.1265735460373,
       "zIndex": 32791
     },
     "d9cd8": {
@@ -1898,12 +1908,12 @@
       "kaavioType": "Edge",
       "points": [
         {
-          "x": 790.6087796643437,
-          "y": 234.51793729213125
+          "x": 790.609,
+          "y": 246.51793729213125
         },
         {
-          "x": 827.6458167013808,
-          "y": 234.51793729213125
+          "x": 827.646,
+          "y": 246.51793729213125
         }
       ],
       "stroke": "#3333ff",
@@ -1918,7 +1928,7 @@
       "drawAs": "none",
       "fill": "transparent",
       "fontFamily": "Arial",
-      "fontSize": 11,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "Label",
@@ -1931,7 +1941,7 @@
       "stroke": "#000000",
       "strokeWidth": 0,
       "textAlign": "left",
-      "textContent": "transcription factor",
+      "textContent": "Transcription factor",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -1940,9 +1950,9 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 129.65255779938474,
-      "x": 858.1158667265805,
-      "y": 316.69352378987867,
+      "width": 149.845,
+      "x": 850.1134409393646,
+      "y": 334.69352378987867,
       "zIndex": 32839
     },
     "da6cd": {
@@ -2052,14 +2062,14 @@
       "whiteSpace": "pre",
       "width": 60,
       "wpType": "Protein",
-      "x": 374.1744013987545,
-      "y": 541.1135907162216,
+      "x": 360.1744013987545,
+      "y": 553.1135907162216,
       "zIndex": 32792
     },
     "dd1b4": {
       "comments": [
         {
-          "content": "IkB is an inhibitory protein which when bound to NFkB holds it in an inactive state."
+          "content": "IkB.  IkB is an inhibitory protein which when bound to NFkB holds it in an inactive state."
         }
       ],
       "drawAs": "rect",
@@ -2078,7 +2088,7 @@
       "stroke": "#000000",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "IkBa",
+      "textContent": "NFKBIA",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -2087,7 +2097,7 @@
         "Uniprot-TrEMBL:P25963",
         "Protein",
         "CompactIdentifier:uniprot:P25963",
-        "IkBa",
+        "NFKBIA",
         "Ensembl:ENSG00000100906",
         "Entrez Gene:4792",
         "HGNC:NFKBIA",
@@ -2216,7 +2226,7 @@
     "e07f7": {
       "comments": [
         {
-          "content": "Calmodulin is a calcium binding protein. Binding Ca ions induces a conformational change allowing calmodulin to bind to and regulate a variety of effector proteins."
+          "content": "Calmodulin.  Calmodulin is a calcium binding protein. Binding Ca ions induces a conformational change allowing calmodulin to bind to and regulate a variety of effector proteins."
         }
       ],
       "drawAs": "rect",
@@ -2235,7 +2245,7 @@
       "stroke": "#000000",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "Calmodulin",
+      "textContent": "CALM1",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -2244,7 +2254,7 @@
         "Entrez Gene:801",
         "Protein",
         "CompactIdentifier:ncbigene:801",
-        "Calmodulin",
+        "CALM1",
         "Ensembl:ENSG00000198668",
         "Entrez Gene:801",
         "HGNC:CALM1",
@@ -2381,7 +2391,7 @@
       "whiteSpace": "pre",
       "width": 60,
       "wpType": "Protein",
-      "x": 281.4525777647799,
+      "x": 265.4525777647799,
       "y": 434.5276895077518,
       "zIndex": 32832
     },
@@ -2389,7 +2399,7 @@
       "drawAs": "none",
       "fill": "transparent",
       "fontFamily": "Arial",
-      "fontSize": 11,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "Label",
@@ -2401,8 +2411,8 @@
       "padding": 8,
       "stroke": "#000000",
       "strokeWidth": 0,
-      "textAlign": "center",
-      "textContent": "dephosphorylation",
+      "textAlign": "left",
+      "textContent": "Dephosphorylation",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -2411,9 +2421,9 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 116.74937712667874,
-      "x": 846.7970315186286,
-      "y": 222.40056750847668,
+      "width": 149.845,
+      "x": 850.1134409393645,
+      "y": 233.5409213589154,
       "zIndex": 32825
     },
     "e47c1": {
@@ -2554,7 +2564,7 @@
       "x": 622.5942045476347,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "5728",
-      "y": 217.26078320765168,
+      "y": 219.26078320765168,
       "zIndex": 32828
     },
     "ea44f": {
@@ -2565,12 +2575,12 @@
       "kaavioType": "Edge",
       "points": [
         {
-          "x": 790.6087796643433,
-          "y": 195.16309858245359
+          "x": 790.609,
+          "y": 194.3304092438455
         },
         {
-          "x": 827.6458167013803,
-          "y": 195.16309858245359
+          "x": 827.646,
+          "y": 194.3304092438455
         }
       ],
       "stroke": "#00cc33",
@@ -2585,11 +2595,11 @@
       "drawAs": "none",
       "fill": "transparent",
       "fontFamily": "Arial",
-      "fontSize": 12,
+      "fontSize": 14,
       "fontStyle": "normal",
       "fontWeight": "bold",
       "gpmlElementName": "Label",
-      "height": 20,
+      "height": 25,
       "id": "ea9bf",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
@@ -2598,7 +2608,7 @@
       "stroke": "#000000",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "LEGEND",
+      "textContent": "Legend",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -2608,15 +2618,15 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
-      "x": 827.285596756186,
-      "y": 97.14163289470093,
+      "x": 847.183,
+      "y": 94.64163289470093,
       "zIndex": 28672
     },
     "eb212": {
       "drawAs": "none",
       "fill": "transparent",
       "fontFamily": "Arial",
-      "fontSize": 11,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "Label",
@@ -2628,8 +2638,8 @@
       "padding": 8,
       "stroke": "#000000",
       "strokeWidth": 0,
-      "textAlign": "center",
-      "textContent": "inhibition",
+      "textAlign": "left",
+      "textContent": "Inhibition",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -2638,9 +2648,9 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 69.52266638833947,
-      "x": 848.2746077451949,
-      "y": 156.61280688200532,
+      "width": 149.845,
+      "x": 850.1134409393646,
+      "y": 155.93748338453577,
       "zIndex": 32822
     },
     "ed30d": {
@@ -2828,7 +2838,7 @@
       "whiteSpace": "pre",
       "width": 60,
       "wpType": "Protein",
-      "x": 481.9006109159052,
+      "x": 459.9006109159052,
       "y": 619.4709351208364,
       "zIndex": 32788
     },
@@ -2836,7 +2846,7 @@
       "drawAs": "none",
       "fill": "transparent",
       "fontFamily": "Arial",
-      "fontSize": 11,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "Label",
@@ -2849,7 +2859,7 @@
       "stroke": "#000000",
       "strokeWidth": 0,
       "textAlign": "left",
-      "textContent": "ligand",
+      "textContent": "Ligand",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -2858,9 +2868,9 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 85.08536159039693,
-      "x": 859.3702873358393,
-      "y": 368.84335709642767,
+      "width": 149.845,
+      "x": 850.1134409393645,
+      "y": 386.84335709642767,
       "zIndex": 32849
     },
     "f002d": {
@@ -2897,14 +2907,14 @@
       "whiteSpace": "pre",
       "width": 60,
       "wpType": "Protein",
-      "x": 374.960625633583,
+      "x": 358.960625633583,
       "y": 434.5276895077518,
       "zIndex": 32797
     },
     "f2340": {
       "comments": [
         {
-          "content": "P13K converts membrane lipid PIP2 to PIP3 by adding a phosphate. P13K activity is dependent upon CD28 co-stimulation because P13K can bind to phosphorylated ITIMs on CD28.\r\n\r\nPI3K can also bind ICOS"
+          "content": "PI3K converts membrane lipid PIP2 to PIP3 by adding a phosphate. PI3K activity is dependent upon CD28 co-stimulation because PI3K can bind to phosphorylated ITIMs on CD28.\r\n\r\nPI3K can also bind ICOS"
         }
       ],
       "drawAs": "rect",
@@ -2920,23 +2930,26 @@
       "lineHeight": 1.1,
       "overflow": "hidden",
       "padding": 8,
-      "stroke": "#000000",
+      "stroke": "#562b00",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "P13K",
+      "textContent": "PI3K",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Protein"
+        "WikiPathways:WP5472",
+        "Unknown"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 60,
-      "wpType": "Protein",
+      "wpType": "Unknown",
       "x": 422.66702864236515,
-      "y": 218.26078320765168,
+      "xrefDataSource": "WikiPathways",
+      "xrefIdentifier": "WP5472",
+      "y": 219.26078320765168,
       "zIndex": 32785
     },
     "f2b94": {
@@ -2961,7 +2974,7 @@
       "stroke": "#000000",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "Ras-GAP",
+      "textContent": "RASA1",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -2970,7 +2983,7 @@
         "Entrez Gene:5921",
         "GeneProduct",
         "CompactIdentifier:ncbigene:5921",
-        "Ras-GAP",
+        "RASA1",
         "Ensembl:ENSG00000145715",
         "Entrez Gene:5921",
         "HGNC:RASA1",
@@ -2981,7 +2994,7 @@
       "whiteSpace": "pre",
       "width": 60,
       "wpType": "GeneProduct",
-      "x": 462.7602317169815,
+      "x": 446.7602317169815,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "5921",
       "y": 434.5276895077518,
@@ -3117,7 +3130,7 @@
       "drawAs": "none",
       "fill": "transparent",
       "fontFamily": "Arial",
-      "fontSize": 11,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "Label",
@@ -3129,8 +3142,8 @@
       "padding": 8,
       "stroke": "#000000",
       "strokeWidth": 0,
-      "textAlign": "center",
-      "textContent": "necessary precursor",
+      "textAlign": "left",
+      "textContent": "Necessary precursor",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -3139,9 +3152,9 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 129.23019409343806,
-      "x": 846.9126792330717,
-      "y": 242.03673778980888,
+      "width": 149.845,
+      "x": 850.1134409393645,
+      "y": 260.03673778980885,
       "zIndex": 32827
     },
     "f5b02": {
@@ -3200,7 +3213,7 @@
       "drawAs": "none",
       "fill": "transparent",
       "fontFamily": "Arial",
-      "fontSize": 11,
+      "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "Label",
@@ -3212,8 +3225,8 @@
       "padding": 8,
       "stroke": "#000000",
       "strokeWidth": 0,
-      "textAlign": "center",
-      "textContent": "protein-protein interaction",
+      "textAlign": "left",
+      "textContent": "Protein-protein interaction",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -3222,9 +3235,9 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 149.84537850209585,
-      "x": 848.2646177352054,
-      "y": 135.10367085674002,
+      "width": 149.845,
+      "x": 850.1134409393645,
+      "y": 133.23222889171373,
       "zIndex": 28672
     },
     "f7b20": {
@@ -3571,7 +3584,7 @@
             1
           ],
           "x": 596.3783527616621,
-          "y": 522.1265735460373
+          "y": 558.1265735460373
         }
       ],
       "stroke": "#ff0033",
@@ -3753,8 +3766,8 @@
             0,
             1
           ],
-          "x": 404.1744013987545,
-          "y": 566.1135907162216
+          "x": 390.1744013987545,
+          "y": 578.1135907162216
         },
         {
           "attachmentDisplay": {
@@ -3772,7 +3785,7 @@
             0,
             1
           ],
-          "x": 405.1785004299707,
+          "x": 391.1785004299707,
           "y": 618.2041917454685
         }
       ],
@@ -3885,7 +3898,7 @@
         },
         {
           "x": 627.3951479512706,
-          "y": 133.74591651542647
+          "y": 128
         },
         {
           "attachmentDisplay": {
@@ -3954,13 +3967,13 @@
             0
           ],
           "x": 622.5942045476347,
-          "y": 227.26078320765168
+          "y": 229.26078320765168
         },
         {
           "attachmentDisplay": {
             "offset": [],
             "position": [
-              0.4887144721122671,
+              0.5443072809253615,
               0
             ],
             "relativeOffset": [
@@ -3970,8 +3983,8 @@
           },
           "isAttachedTo": "d6af8",
           "orientation": [],
-          "x": 591.5239169268408,
-          "y": 227.06496026337402
+          "x": 591.5245087809228,
+          "y": 230.00049910073213
         }
       ],
       "stroke": "#3333ff",
@@ -4015,7 +4028,7 @@
             1,
             0
           ],
-          "x": 341.4525777647799,
+          "x": 325.4525777647799,
           "y": 444.5276895077518
         },
         {
@@ -4034,7 +4047,7 @@
             1,
             0
           ],
-          "x": 374.960625633583,
+          "x": 358.960625633583,
           "y": 444.5276895077518
         }
       ],
@@ -4168,7 +4181,7 @@
             1
           ],
           "x": 437.66702864236515,
-          "y": 218.26078320765168
+          "y": 219.26078320765168
         }
       ],
       "stroke": "#00cc00",
@@ -4218,7 +4231,7 @@
         },
         {
           "x": 507.5402158349516,
-          "y": 119.43001140572805
+          "y": 126
         },
         {
           "attachmentDisplay": {
@@ -4237,7 +4250,7 @@
             1
           ],
           "x": 467.66702864236515,
-          "y": 218.26078320765168
+          "y": 219.26078320765168
         }
       ],
       "stroke": "#00cc00",
@@ -4475,7 +4488,7 @@
             1
           ],
           "x": 596.3783527616621,
-          "y": 547.1265735460373
+          "y": 583.1265735460373
         },
         {
           "attachmentDisplay": {
@@ -4493,7 +4506,7 @@
             -1,
             0
           ],
-          "x": 541.9006109159052,
+          "x": 519.9006109159052,
           "y": 629.4709351208364
         }
       ],
@@ -4667,7 +4680,7 @@
             0,
             1
           ],
-          "x": 354.29333725338984,
+          "x": 338.29333725338984,
           "y": 410.9332084091923
         },
         {
@@ -4684,7 +4697,7 @@
           },
           "isAttachedTo": "c363b",
           "orientation": [],
-          "x": 354.8557969123011,
+          "x": 338.8557969123011,
           "y": 444.5276895077518
         }
       ],
@@ -4844,12 +4857,12 @@
       "kaavioType": "Edge",
       "points": [
         {
-          "x": 790.608779664344,
-          "y": 255.48567922761436
+          "x": 790.609,
+          "y": 273.00878062177424
         },
         {
-          "x": 827.645816701381,
-          "y": 255.48567922761436
+          "x": 827.646,
+          "y": 273.00878062177424
         }
       ],
       "stroke": "#ff9933",
@@ -5086,7 +5099,7 @@
             0,
             1
           ],
-          "x": 404.960625633583,
+          "x": 388.960625633583,
           "y": 454.5276895077518
         },
         {
@@ -5105,7 +5118,7 @@
             0,
             1
           ],
-          "x": 405.1785004299707,
+          "x": 389.1785004299707,
           "y": 478.2041917454685
         }
       ],
@@ -5255,14 +5268,30 @@
       "gpmlElementName": "Interaction",
       "id": "id9e40c182",
       "isAttachedTo": [
+        "aab10",
         "bdd9d"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
       "points": [
         {
-          "x": 404.4285005291818,
-          "y": 641.9709351208364
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "aab10",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 391.1785004299707,
+          "y": 638.2041917454685
         },
         {
           "attachmentDisplay": {
@@ -5280,8 +5309,8 @@
             0,
             1
           ],
-          "x": 403.7246006931802,
-          "y": 706.7787153844797
+          "x": 391.1785004299707,
+          "y": 686.7787153844797
         }
       ],
       "stroke": "#ff0000",
@@ -5411,7 +5440,7 @@
             1,
             0
           ],
-          "x": 375.1785004299707,
+          "x": 361.1785004299707,
           "y": 628.2041917454685
         }
       ],
@@ -5456,7 +5485,7 @@
             1,
             0
           ],
-          "x": 426.81913195646626,
+          "x": 410.81913195646626,
           "y": 347.99342174708624
         },
         {
@@ -5605,7 +5634,7 @@
             1,
             0
           ],
-          "x": 366.81913195646626,
+          "x": 350.81913195646626,
           "y": 347.99342174708624
         }
       ],
@@ -5741,7 +5770,7 @@
             0,
             1
           ],
-          "x": 319.56087928815435,
+          "x": 313.1608792881543,
           "y": 347.99342174708624
         }
       ],
@@ -5791,7 +5820,7 @@
             -1,
             0
           ],
-          "x": 462.7602317169815,
+          "x": 446.7602317169815,
           "y": 444.5276895077518
         },
         {
@@ -5810,7 +5839,7 @@
             -1,
             0
           ],
-          "x": 434.960625633583,
+          "x": 418.960625633583,
           "y": 444.5276895077518
         }
       ],
@@ -5996,13 +6025,13 @@
             0
           ],
           "x": 482.66702864236515,
-          "y": 228.26078320765168
+          "y": 229.26078320765168
         },
         {
           "attachmentDisplay": {
             "offset": [],
             "position": [
-              0.4887144721122671,
+              0.5443072809253615,
               0
             ],
             "relativeOffset": [
@@ -6012,8 +6041,8 @@
           },
           "isAttachedTo": "d6af8",
           "orientation": [],
-          "x": 591.5239169268408,
-          "y": 227.06496026337402
+          "x": 591.5245087809228,
+          "y": 230.00049910073213
         }
       ],
       "stroke": "#cc00cc",
@@ -6126,11 +6155,11 @@
             0
           ],
           "x": 566.3783527616621,
-          "y": 534.6265735460373
+          "y": 570.6265735460373
         },
         {
-          "x": 463,
-          "y": 581.415382645753
+          "x": 449,
+          "y": 599.415382645753
         },
         {
           "attachmentDisplay": {
@@ -6148,7 +6177,7 @@
             -1,
             0
           ],
-          "x": 435.1785004299707,
+          "x": 421.1785004299707,
           "y": 628.2041917454685
         }
       ],
@@ -6197,11 +6226,11 @@
           "y": 198.7215341273256
         },
         {
-          "x": 742.3768928750031,
+          "x": 736,
           "y": 168.86076706366282
         },
         {
-          "x": 501.3755772904966,
+          "x": 498.18713085299504,
           "y": 139
         },
         {
@@ -6263,7 +6292,7 @@
             0,
             1
           ],
-          "x": 405.1785004299707,
+          "x": 389.1785004299707,
           "y": 498.2041917454685
         },
         {
@@ -6282,8 +6311,8 @@
             0,
             1
           ],
-          "x": 404.1744013987545,
-          "y": 541.1135907162216
+          "x": 390.1744013987545,
+          "y": 553.1135907162216
         }
       ],
       "stroke": "#00cc00",
@@ -6721,11 +6750,11 @@
             0,
             1
           ],
-          "x": 396.81913195646626,
+          "x": 380.81913195646626,
           "y": 357.99342174708624
         },
         {
-          "x": 375.556234604928,
+          "x": 359.556234604928,
           "y": 370
         },
         {
@@ -6744,7 +6773,7 @@
             0,
             1
           ],
-          "x": 354.29333725338984,
+          "x": 338.29333725338984,
           "y": 390.9332084091923
         }
       ],
@@ -6814,6 +6843,7 @@
       }
     ],
     "contains": [
+      "a056d",
       "c59c2",
       "id12ffba13",
       "id72961117",
@@ -6865,7 +6895,6 @@
       "idfe2bcb03",
       "id139f5313",
       "id87e48fbb",
-      "a056d",
       "a533f",
       "bdd9d",
       "ea9bf",
@@ -6931,17 +6960,17 @@
       "c9b3a",
       "aab10"
     ],
-    "dataSourceVersion": "WP2583_r135028",
+    "dataSourceVersion": "WP2583_r135033",
     "displayName": "T cell receptor and co-stimulatory signaling",
     "drawAs": "rect",
     "fill": "white",
     "fontSize": 12,
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
-    "height": 784,
+    "height": 753,
     "id": "WP2583",
     "kaavioType": "Group",
-    "lastModified": "20240801024116",
+    "lastModified": "20240801031947",
     "name": "T cell receptor and co-stimulatory signaling",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -6950,15 +6979,15 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: T cell receptor and co-stimulatory signaling\nLast Modified: 20240801024116\nOrganism: Homo sapiens",
+    "textContent": "Name: T cell receptor and co-stimulatory signaling\nLast Modified: 20240801031947\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0000315",
+      "http://identifiers.org/pw/PW:0000814",
       "http://identifiers.org/pw/PW:0000317",
-      "http://identifiers.org/pw/PW:0000814"
+      "http://identifiers.org/pw/PW:0000315"
     ],
     "verticalAlign": "top",
-    "width": 1034.44242141301,
+    "width": 1034.442386388677,
     "x": 0,
     "y": 0,
     "zIndex": 0
