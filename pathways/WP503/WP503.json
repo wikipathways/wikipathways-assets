@@ -183,6 +183,7 @@
         "",
         "",
         "",
+        "",
         ""
       ],
       "verticalAlign": "middle",
@@ -233,6 +234,9 @@
         "",
         "",
         "",
+        "",
+        "",
+        "",
         ""
       ],
       "verticalAlign": "middle",
@@ -275,6 +279,8 @@
         "Wikidata:Q26995161",
         "ChEBI:16015",
         "InChI:WHUUTDBJXJRKMK-VKHMYHEASA-N",
+        "",
+        "",
         "",
         "",
         "",
@@ -437,6 +443,7 @@
         "",
         "",
         "",
+        "",
         ""
       ],
       "verticalAlign": "middle",
@@ -449,15 +456,25 @@
       "y": 92.16666666666667,
       "zIndex": 28672
     },
-    "http://identifiers.org/pw/PW:0001382": {
+    "http://identifiers.org/pw/PW:0000002": {
       "gpmlElementName": "openControlledVocabulary",
-      "id": "http://identifiers.org/pw/PW:0001382",
+      "id": "http://identifiers.org/pw/PW:0000002",
       "ontology": "Pathway Ontology",
-      "term": "glutamate degradation pathway III",
+      "term": "classic metabolic pathway",
       "type": [
         "openControlledVocabulary"
       ],
-      "xrefIdentifier": "PW:0001382"
+      "xrefIdentifier": "PW:0000002"
+    },
+    "http://identifiers.org/pw/PW:0001389": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0001389",
+      "ontology": "Pathway Ontology",
+      "term": "glutamate degradation pathway IX",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0001389"
     },
     "id62c5842a": {
       "drawAs": "StraightLine",
@@ -713,16 +730,18 @@
       ],
       "zIndex": 12288
     },
-    "publicationXrefa90": {
+    "publicationXrefd60": {
       "gpmlElementName": "PublicationXref",
-      "id": "publicationXrefa90",
-      "source": "https://biocyc.org/pathway?orgid=YEAST&id=GLUTAMATE-DEG1-PWY",
-      "standardName": "glutamate degradation to 2-oxoglutarate",
+      "id": "publicationXrefd60",
+      "source": "Yeast Pathways",
+      "standardName": "glutamate degradation IX",
       "textContent": "1",
       "type": [
-        "PublicationXref"
+        "PublicationXref",
+        "URL:https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?type=PATHWAY&object=PWY-3322"
       ],
-      "xrefDataSource": "PubMed"
+      "xrefDataSource": "URL",
+      "xrefIdentifier": "https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?type=PATHWAY&object=PWY-3322"
     }
   },
   "pathway": {
@@ -735,7 +754,7 @@
     "author": "[J.Heckman, MaintBot, Christine Chichester, Egonw, Maxvanson, Khanspers, Eweitz]",
     "comments": [
       {
-        "content": "Based on BioCyc.",
+        "content": "In S. cerevisiae cells, the amino group of glutamate and the amide group of glutamine are the source of nitrogen for all other macromolecules. In order to provide ammonia for the synthesis of glutamine during growth on glutamate-yielding nitrogen sources, cells degrade glutamate into ammonia. The main pathway for S. cerevisiae glutamate degradation is catalyzed by the NAD dependent glutamate dehydrogenase (GDH2). \r\n\r\nDescription adapted from on https://pathway.yeastgenome.org/.",
         "source": "WikiPathways-description"
       }
     ],
@@ -750,8 +769,8 @@
       "c05e6",
       "c2121"
     ],
-    "dataSourceVersion": "WP503_r134374",
-    "displayName": "Glutamate degradation III",
+    "dataSourceVersion": "WP503_r135505",
+    "displayName": "Glutamate degradation IX",
     "drawAs": "rect",
     "fill": "white",
     "fontSize": 12,
@@ -760,19 +779,20 @@
     "height": 252.5,
     "id": "WP503",
     "kaavioType": "Group",
-    "lastModified": "20240721153146",
-    "name": "Glutamate degradation III",
+    "lastModified": "20240920172700",
+    "name": "Glutamate degradation IX",
     "organism": "Saccharomyces cerevisiae",
     "padding": 5,
     "pathwayVersion": "WP503",
-    "standardName": "Glutamate degradation III",
+    "standardName": "Glutamate degradation IX",
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Glutamate degradation III\nLast Modified: 20240721153146\nOrganism: Saccharomyces cerevisiae",
+    "textContent": "Name: Glutamate degradation IX\nLast Modified: 20240920172700\nOrganism: Saccharomyces cerevisiae",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0001382"
+      "http://identifiers.org/pw/PW:0000002",
+      "http://identifiers.org/pw/PW:0001389"
     ],
     "verticalAlign": "top",
     "width": 385.7333333333333,
