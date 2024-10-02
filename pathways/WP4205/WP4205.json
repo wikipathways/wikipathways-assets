@@ -128,8 +128,11 @@
         "Ca2+",
         "Wikidata:Q23905776",
         "ChEBI:29108",
-        "ChEBI:29108",
-        "InChI:BHPQYMZQTOCNFJ-UHFFFAOYSA-N"
+        "InChI:BHPQYMZQTOCNFJ-UHFFFAOYSA-N",
+        "PubChem:271",
+        "ChemSpider:266",
+        "HMDB:HMDB0000464",
+        "KEGG:C00076"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -499,8 +502,10 @@
         "foretinib",
         "Wikidata:Q5469311",
         "ChEBI:91418",
-        "ChEBI:91418",
-        "InChI:CXQHYVUVSFXTMY-UHFFFAOYSA-N"
+        "InChI:CXQHYVUVSFXTMY-UHFFFAOYSA-N",
+        "PubChem:42642645",
+        "ChemSpider:24608641",
+        "HMDB:HMDB0252437"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1048,7 +1053,8 @@
         "DAG",
         "Wikidata:Q161466",
         "ChEBI:18035",
-        "ChEBI:18035"
+        "KEGG:C00165",
+        "LipidMaps:LMGL0201"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1733,8 +1739,10 @@
         "PIP3",
         "Wikidata:Q28797898",
         "ChEBI:16618",
-        "ChEBI:16618",
-        "InChI:RQQIRMLGKSPXSE-UQPICLANSA-N"
+        "InChI:RQQIRMLGKSPXSE-UQPICLANSA-N",
+        "ChemSpider:34980938",
+        "HMDB:HMDB0004249",
+        "KEGG:C05981"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3570,8 +3578,9 @@
         "IP3",
         "Wikidata:Q27157614",
         "ChEBI:84244",
-        "ChEBI:84244",
-        "InChI:ZSZXYWFCIKKZBT-IVYVYLGESA-N"
+        "InChI:ZSZXYWFCIKKZBT-IVYVYLGESA-N",
+        "ChemSpider:26324104",
+        "HMDB:HMDB0010147"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -4170,8 +4179,9 @@
         "tivantinib",
         "Wikidata:Q17123902",
         "ChEBI:91398",
-        "ChEBI:91398",
-        "InChI:UCEQXRCJXIVODC-PMACEKPBSA-N"
+        "InChI:UCEQXRCJXIVODC-PMACEKPBSA-N",
+        "PubChem:11494412",
+        "ChemSpider:9669218"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -5676,6 +5686,26 @@
         "openControlledVocabulary"
       ],
       "xrefIdentifier": "DOID:4465"
+    },
+    "http://identifiers.org/pw/PW:0000013": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000013",
+      "ontology": "Pathway Ontology",
+      "term": "disease pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000013"
+    },
+    "http://identifiers.org/pw/PW:0000605": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000605",
+      "ontology": "Pathway Ontology",
+      "term": "cancer pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000605"
     },
     "id13e03005": {
       "drawAs": "StraightLine",
@@ -9062,7 +9092,7 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP4205/"
+        "@base": "WP4205/"
       }
     ],
     "author": "[Khanspers, Ddigles, Egonw, Mkutmon, Finterly, Eweitz]",
@@ -9173,7 +9203,7 @@
       "b7cbe",
       "pvjsgeneratedidff1b3"
     ],
-    "dataSourceVersion": "WP4205_r127242",
+    "dataSourceVersion": "WP4205_r129356",
     "displayName": "MET in type 1 papillary renal cell carcinoma",
     "drawAs": "rect",
     "fill": "white",
@@ -9181,9 +9211,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 1143.8426966292136,
-    "id": "http://identifiers.org/wikipathways/WP4205",
+    "id": "WP4205",
     "kaavioType": "Group",
-    "lastModified": "20230826002445",
+    "lastModified": "20240327093257",
     "name": "MET in type 1 papillary renal cell carcinoma",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -9192,9 +9222,11 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: MET in type 1 papillary renal cell carcinoma\nLast Modified: 20230826002445\nOrganism: Homo sapiens",
+    "textContent": "Name: MET in type 1 papillary renal cell carcinoma\nLast Modified: 20240327093257\nOrganism: Homo sapiens",
     "type": [
-      "Pathway"
+      "Pathway",
+      "http://identifiers.org/pw/PW:0000605",
+      "http://identifiers.org/pw/PW:0000013"
     ],
     "verticalAlign": "top",
     "width": 1145,
