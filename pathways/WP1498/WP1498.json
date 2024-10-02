@@ -28,8 +28,11 @@
         "CompactIdentifier:hmdb:HMDB0001852",
         "Retinoic acid",
         "ChEBI:15367",
-        "ChEBI:15367",
-        "InChI:SHGAZHPCJJPHSC-YCNIQYBTSA-N"
+        "InChI:SHGAZHPCJJPHSC-YCNIQYBTSA-N",
+        "PubChem:444795",
+        "ChemSpider:392618",
+        "HMDB:HMDB0001852",
+        "KEGG:C00777"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1738,6 +1741,16 @@
       "xrefIdentifier": "15376",
       "y": 238,
       "zIndex": 32768
+    },
+    "http://identifiers.org/pw/PW:0000004": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000004",
+      "ontology": "Pathway Ontology",
+      "term": "regulatory pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000004"
     },
     "id14773e62": {
       "drawAs": "StraightLine",
@@ -4819,13 +4832,13 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP1498/"
+        "@base": "WP1498/"
       }
     ],
     "author": "[Zans, Khanspers, MaintBot, Samuel Sklar, Egonw, Evelo, Mkutmon, Eweitz]",
     "comments": [
       {
-        "content": "https://www.michaeljfox.org/foundation/grant-detail.php?grant_id=141",
+        "content": "Process describing various stages of dopaminergic neurogenesis. See also https://www.michaeljfox.org/foundation/grant-detail.php?grant_id=141",
         "source": "WikiPathways-description"
       }
     ],
@@ -4921,7 +4934,7 @@
       "f8117",
       "facee"
     ],
-    "dataSourceVersion": "WP1498_r126387",
+    "dataSourceVersion": "WP1498_r129253",
     "displayName": "Dopaminergic neurogenesis",
     "drawAs": "rect",
     "fill": "white",
@@ -4929,9 +4942,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 488,
-    "id": "http://identifiers.org/wikipathways/WP1498",
+    "id": "WP1498",
     "kaavioType": "Group",
-    "lastModified": "20230426101312",
+    "lastModified": "20240316101524",
     "name": "Dopaminergic neurogenesis",
     "organism": "Mus musculus",
     "padding": 5,
@@ -4940,9 +4953,10 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Dopaminergic neurogenesis\nLast Modified: 20230426101312\nOrganism: Mus musculus",
+    "textContent": "Name: Dopaminergic neurogenesis\nLast Modified: 20240316101524\nOrganism: Mus musculus",
     "type": [
-      "Pathway"
+      "Pathway",
+      "http://identifiers.org/pw/PW:0000004"
     ],
     "verticalAlign": "top",
     "width": 702,

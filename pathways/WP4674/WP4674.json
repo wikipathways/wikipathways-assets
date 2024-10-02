@@ -1800,8 +1800,11 @@
         "metformin",
         "Wikidata:Q19484",
         "ChEBI:6801",
-        "ChEBI:6801",
-        "InChI:XZWYZXLIPXDOLR-UHFFFAOYSA-N"
+        "InChI:XZWYZXLIPXDOLR-UHFFFAOYSA-N",
+        "PubChem:4091",
+        "ChemSpider:3949",
+        "HMDB:HMDB0001921",
+        "KEGG:C07151"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2911,8 +2914,12 @@
         "rapamycin",
         "Wikidata:Q32089",
         "ChEBI:9168",
-        "ChEBI:9168",
-        "InChI:QFJCIRLUMZQUOT-HPLJOQBZSA-N"
+        "InChI:QFJCIRLUMZQUOT-HPLJOQBZSA-N",
+        "PubChem:5284616",
+        "ChemSpider:10482078",
+        "HMDB:HMDB0015015",
+        "KEGG:C07909",
+        "LipidMaps:LMPK06000003"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3822,8 +3829,10 @@
         "PIP3",
         "Wikidata:Q28797898",
         "ChEBI:16618",
-        "ChEBI:16618",
-        "InChI:RQQIRMLGKSPXSE-UQPICLANSA-N"
+        "InChI:RQQIRMLGKSPXSE-UQPICLANSA-N",
+        "ChemSpider:34980938",
+        "HMDB:HMDB0004249",
+        "KEGG:C05981"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -5787,7 +5796,6 @@
         "CompactIdentifier:chebi:68481",
         "mTOR inhibitors",
         "Wikidata:Q5282002",
-        "ChEBI:68481",
         "ChEBI:68481"
       ],
       "verticalAlign": "middle",
@@ -7332,7 +7340,6 @@
         "CompactIdentifier:chebi:50914",
         "PI3K inhibitors",
         "Wikidata:Q7187512",
-        "ChEBI:50914",
         "ChEBI:50914"
       ],
       "verticalAlign": "middle",
@@ -7637,6 +7644,26 @@
         "openControlledVocabulary"
       ],
       "xrefIdentifier": "DOID:1542"
+    },
+    "http://identifiers.org/pw/PW:0000013": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000013",
+      "ontology": "Pathway Ontology",
+      "term": "disease pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000013"
+    },
+    "http://identifiers.org/pw/PW:0000605": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000605",
+      "ontology": "Pathway Ontology",
+      "term": "cancer pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000605"
     },
     "id1209ef14": {
       "drawAs": "StraightLine",
@@ -11474,7 +11501,7 @@
       "id": "publicationXrefc82",
       "source": "Nucleic Acids Res",
       "standardName": "PhosphoSitePlus, 2014: mutations, PTMs and recalibrations.",
-      "textContent": "3",
+      "textContent": "1",
       "type": [
         "PublicationXref",
         "PubMed:25514926"
@@ -11535,7 +11562,7 @@
       "id": "publicationXrefff8",
       "source": "Cancer Discov",
       "standardName": "Exploiting the head and neck cancer oncogenome: widespread PI3K-mTOR pathway alterations and novel molecular targets.",
-      "textContent": "1",
+      "textContent": "3",
       "type": [
         "PublicationXref",
         "PubMed:23847349"
@@ -11613,10 +11640,10 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP4674/"
+        "@base": "WP4674/"
       }
     ],
-    "author": "[Khanspers, Egonw, DeSl, Marvin M2, MaintBot, Eweitz]",
+    "author": "[Khanspers, Egonw, DeSl, Marvin M2, MaintBot, Eweitz, Mkutmon]",
     "comments": [
       {
         "content": "HNSCC, which includes malignant squamous lesions arising in the oral cavity, larynx and pharynx, is the seventh most common cancer in the world.\r\nHNSCC has a remarkable multiplicity and diversity of genetic alterations. Most genomic alterations in HNSCC converge in a handful of molecular pathways resulting in cell cycle deregulation, genomic instability, cell differentiation defects, and persistent mitogenic signaling, the latter involving aberrant PI3K/mTOR pathway activation thereby rendering HNSCC responsive to PI3K/mTOR inhibitors.\r\n\r\nPathway is based on [https://europepmc.org/articles/PMC4348071 Fig 1 from Iglesias-Bartolome et al], [https://www.nature.com/articles/nature14129 Fig 5 from Li et al] and [https://clinicalgate.com/the-molecular-pathogenesis-of-head-and-neck-cancer/ Fig 33-3 from Clinicalgate]. \r\n\r\nDescription is modified from [https://europepmc.org/articles/PMC4348071 Iglesias-Bartolome et al].\r\nProtein phosphorylation sites were added based on information from PhosphoSitePlus (R), www.phosphosite.org.",
@@ -11769,7 +11796,7 @@
       "f35e2",
       "f93a1"
     ],
-    "dataSourceVersion": "WP4674_r127252",
+    "dataSourceVersion": "WP4674_r129347",
     "displayName": "Head and neck squamous cell carcinoma",
     "drawAs": "rect",
     "fill": "white",
@@ -11777,9 +11804,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 1682,
-    "id": "http://identifiers.org/wikipathways/WP4674",
+    "id": "WP4674",
     "kaavioType": "Group",
-    "lastModified": "20230828174205",
+    "lastModified": "20240327092510",
     "name": "Head and neck squamous cell carcinoma",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -11788,9 +11815,11 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Head and neck squamous cell carcinoma\nLast Modified: 20230828174205\nOrganism: Homo sapiens",
+    "textContent": "Name: Head and neck squamous cell carcinoma\nLast Modified: 20240327092510\nOrganism: Homo sapiens",
     "type": [
-      "Pathway"
+      "Pathway",
+      "http://identifiers.org/pw/PW:0000605",
+      "http://identifiers.org/pw/PW:0000013"
     ],
     "verticalAlign": "top",
     "width": 2190.923076923078,

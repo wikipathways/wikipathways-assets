@@ -536,6 +536,16 @@
       ],
       "xrefIdentifier": "DOID:3571"
     },
+    "http://identifiers.org/pw/PW:0000013": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000013",
+      "ontology": "Pathway Ontology",
+      "term": "disease pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000013"
+    },
     "id1c575b66": {
       "drawAs": "StraightLine",
       "fill": "none",
@@ -1474,10 +1484,10 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP5228/"
+        "@base": "WP5228/"
       }
     ],
-    "author": "[ZDLech, Marvin M2, Eweitz]",
+    "author": "[ZDLech, Marvin M2, Eweitz, Mkutmon]",
     "comments": [
       {
         "content": "This is an adverse outcome pathway of arsenic toxicity on liver including key processes leading to arsenic induced liver cancer.",
@@ -1515,7 +1525,7 @@
       "e91cd",
       "fdf5b"
     ],
-    "dataSourceVersion": "WP5228_r128630",
+    "dataSourceVersion": "WP5228_r129377",
     "displayName": "Arsenic liver toxicity pathway",
     "drawAs": "rect",
     "fill": "white",
@@ -1523,9 +1533,9 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 701.9752584933616,
-    "id": "http://identifiers.org/wikipathways/WP5228",
+    "id": "WP5228",
     "kaavioType": "Group",
-    "lastModified": "20240217031655",
+    "lastModified": "20240327094828",
     "name": "Arsenic liver toxicity pathway",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -1534,9 +1544,10 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Arsenic liver toxicity pathway\nLast Modified: 20240217031655\nOrganism: Homo sapiens",
+    "textContent": "Name: Arsenic liver toxicity pathway\nLast Modified: 20240327094828\nOrganism: Homo sapiens",
     "type": [
-      "Pathway"
+      "Pathway",
+      "http://identifiers.org/pw/PW:0000013"
     ],
     "verticalAlign": "top",
     "width": 549.5665698877895,

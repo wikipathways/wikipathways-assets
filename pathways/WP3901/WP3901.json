@@ -1,6 +1,6 @@
 {
   "entitiesById": {
-    "269745": {
+    "057958": {
       "__HighlandStream__": true,
       "_can_drain": false,
       "_consume_waiting_for_next": false,
@@ -17,12 +17,12 @@
       "_outgoing": [],
       "_repeat_resume": false,
       "_send_events": false,
-      "id": "269745",
+      "id": "057958",
       "paused": true,
       "source": null,
       "writable": true
     },
-    "342422": {
+    "910637": {
       "__HighlandStream__": true,
       "_can_drain": false,
       "_consume_waiting_for_next": false,
@@ -39,7 +39,7 @@
       "_outgoing": [],
       "_repeat_resume": false,
       "_send_events": false,
-      "id": "342422",
+      "id": "910637",
       "paused": true,
       "source": null,
       "writable": true
@@ -223,7 +223,8 @@
         "Cholesterol Esters",
         "Wikidata:Q415555",
         "ChEBI:17002",
-        "ChEBI:17002"
+        "KEGG:C02530",
+        "LipidMaps:LMST01020000"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -772,7 +773,8 @@
         "Fatty Acids",
         "Wikidata:Q61476",
         "ChEBI:35366",
-        "ChEBI:35366"
+        "KEGG:C00162",
+        "LipidMaps:LMFA01010000"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1430,8 +1432,11 @@
         "CompactIdentifier:hmdb:HMDB0001473",
         "DHA-P",
         "ChEBI:16108",
-        "ChEBI:16108",
-        "InChI:GNGACRATGGDKBX-UHFFFAOYSA-N"
+        "InChI:GNGACRATGGDKBX-UHFFFAOYSA-N",
+        "PubChem:668",
+        "ChemSpider:648",
+        "HMDB:HMDB0001473",
+        "KEGG:C00111"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1502,8 +1507,10 @@
         "CompactIdentifier:hmdb:HMDB0000131",
         "Glycerol",
         "ChEBI:17754",
-        "ChEBI:17754",
-        "InChI:PEDCQBHIVMGVHV-UHFFFAOYSA-N"
+        "InChI:PEDCQBHIVMGVHV-UHFFFAOYSA-N",
+        "PubChem:753",
+        "HMDB:HMDB0000131",
+        "KEGG:C00116"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1956,7 +1963,6 @@
         "CompactIdentifier:chebi:58342",
         "Acyl-CoA",
         "Wikidata:Q60029459",
-        "ChEBI:58342",
         "ChEBI:58342"
       ],
       "verticalAlign": "middle",
@@ -2171,7 +2177,9 @@
         "Triglycerides",
         "Wikidata:Q186319",
         "ChEBI:17855",
-        "ChEBI:17855"
+        "KEGG:C00422",
+        "LipidMaps:LMGL0301",
+        "LipidMaps:LMGL03010000"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2253,8 +2261,11 @@
         "CompactIdentifier:hmdb:HMDB0000126",
         "Glycerol-3-P",
         "ChEBI:15978",
-        "ChEBI:15978",
-        "InChI:AWUCVROLDVIAJX-GSVOUGTGSA-N"
+        "InChI:AWUCVROLDVIAJX-GSVOUGTGSA-N",
+        "PubChem:439162",
+        "ChemSpider:388308",
+        "HMDB:HMDB0000126",
+        "KEGG:C00093"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2454,8 +2465,10 @@
         "CompactIdentifier:hmdb:HMDB0000067",
         "Cholesterol",
         "ChEBI:16113",
-        "ChEBI:16113",
-        "InChI:HVYWMOMLDIMFJA-DPAQBDIFSA-N"
+        "InChI:HVYWMOMLDIMFJA-DPAQBDIFSA-N",
+        "PubChem:5997",
+        "HMDB:HMDB0000067",
+        "KEGG:C00187"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3599,7 +3612,7 @@
     "@context": [
       "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
       {
-        "@base": "http://identifiers.org/wikipathways/WP3901/"
+        "@base": "WP3901/"
       }
     ],
     "author": "[AgustinGV, Egonw, AlexanderPico, MaintBot, Eweitz]",
@@ -3665,7 +3678,7 @@
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
     "height": 583,
-    "id": "http://identifiers.org/wikipathways/WP3901",
+    "id": "WP3901",
     "kaavioType": "Group",
     "lastModified": "20210516104839",
     "name": "Lipid droplet metabolism",
