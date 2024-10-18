@@ -22,6 +22,12 @@
       <filter x="0" y="0" height="1257.1666666666667" width="847.1666666666667" id="kaavioblackto000000filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0                   0  -1   0 0 0                   0   0  -1 0 0                   0   0   0 1 0"/>
       </filter>
+      <filter x="0" y="0" height="1257.1666666666667" width="847.1666666666667" id="kaaviowhiteto808080filter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0.5019607843137255                  0  1  0 0 -0.5019607843137255                  0  0  1 0 -0.5019607843137255                  0  0  0 1 0"/>
+      </filter>
+      <filter x="0" y="0" height="1257.1666666666667" width="847.1666666666667" id="kaavioblackto808080filter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0.5019607843137255                   0  -1   0 0 0.5019607843137255                   0   0  -1 0 0.5019607843137255                   0   0   0 1 0"/>
+      </filter>
     </g>
     <g id="jic-defs">
       <clipPath id="ClipPathRoundedRectangle" clipPathUnits="objectBoundingBox">
@@ -436,7 +442,7 @@
       </symbol>
     </g>
   </defs>
-  <g id="WP462" class="Viewport" color="black" name="Name: Pantothenate and coenzyme A biosynthesis Last Modified: 20230612014017 Organism: Saccharomyces cerevisiae">
+  <g id="WP462" class="Viewport" color="black" name="Name: Pantothenate and coenzyme A biosynthesis Last Modified: 20241018012700 Organism: Saccharomyces cerevisiae">
     <rect fill="white" stroke="black" stroke-width="0" fill-opacity="1" height="1257.1666666666667px" id="WP462-icon" width="847.1666666666667px" x="0" y="0" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
     <g id="id1a44ff74" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="115.2, 5.8" stroke-width="1">
@@ -471,11 +477,6 @@
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id58e14a86-path" d="M736.6666666666666,226.66666666666666L726.6666666666666,226.66666666666666" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
-    <g id="id5a2aaeda" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
-      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="7.533333333333343, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id5a2aaeda-path" d="M163.33333333333334,203.33333333333334L150,203.33333333333334" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
-      </g>
-    </g>
     <g id="id6d3f3534" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="0.8666666666666858, 5.8" stroke-width="1">
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id6d3f3534-path" d="M436.6666666666667,1050L430,1050" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
@@ -496,9 +497,12 @@
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id7f95909-path" d="M217.46296296296293,376.6666666666667L456.6666666666667,413.3333333333333" class="EdgeBody"/>
       </g>
     </g>
-    <g id="id8741b1c6" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
+    <g id="id8741b1c6" class="Edge Interaction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="98.53333333333332, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id8741b1c6-path" d="M181.2962962962963,262.83333333333337L181.29629629629625,367.1666666666667" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id8741b1c6-path" d="M181.2962962962963,262.83333333333337L181.29629629629625,367.1666666666667" marker-end="url(#markerEndMimConversion)" class="EdgeBody"/>
+      </g>
+      <g id="b9b4e" class="Burr Anchor" transform="translate(181.2962962962963,304.5666666666667)">
+        <use fill="#141414" stroke-width="0" fill-opacity="1" height="0" id="b9b4e-icon" width="0" x="0" y="0" xlink:href="#none" class="Icon"/>
       </g>
     </g>
     <g id="id92411c7b" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
@@ -536,9 +540,22 @@
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="idceb4ef14-path" d="M426.6666666666667,640L420,640" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
-    <g id="idd5e82027" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
+    <g id="idd5e82027" class="Edge Interaction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="141.86666666666667, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="idd5e82027-path" d="M181.2962962962963,96.16666666666667L181.2962962962963,243.83333333333337" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="idd5e82027-path" d="M181.2962962962963,96.16666666666667L181.2962962962963,243.83333333333337" marker-end="url(#markerEndMimConversion)" class="EdgeBody"/>
+      </g>
+      <g id="b9a85" class="Burr Anchor" transform="translate(181.2962962962963,155.23333333333335)">
+        <use fill="#141414" stroke-width="0" fill-opacity="1" height="0" id="b9a85-icon" width="0" x="0" y="0" xlink:href="#none" class="Icon"/>
+      </g>
+    </g>
+    <g id="id66befc47" class="Edge Interaction" color="#000000">
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="27.03950531138257, 11" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id66befc47-path" d="M219.33333333333331,155.66666666666666L181.2962962962963,155.23333333333335" marker-end="url(#markerEndMimCatalysis)" class="EdgeBody"/>
+      </g>
+    </g>
+    <g id="idd53d94f8" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="52.49303593405287, 5.8" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="idd53d94f8-path" d="M181.2962962962963,155.23333333333335L136.33333333333334,192.33333333333334" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
     <g id="idda0b3f03" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
@@ -549,6 +566,16 @@
     <g id="ide549adc0" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="0.8666666666666858, 5.8" stroke-width="1">
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="ide549adc0-path" d="M440,1183.3333333333333L433.3333333333333,1183.3333333333333" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+      </g>
+    </g>
+    <g id="idec467514" class="Edge Interaction" color="#000000">
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="24.04542398249002, 11" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="idec467514-path" d="M216.33333333333337,305.3333333333333L181.29629629629628,304.5666666666667" marker-end="url(#markerEndMimCatalysis)" class="EdgeBody"/>
+      </g>
+    </g>
+    <g id="id9ec14333" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="26.66318353646727, 5.8" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="id9ec14333-path" d="M154.66666666666669,136.66666666666666L181.2962962962963,155.23333333333335" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
     <g id="a18" class="SingleFreeNode Shape" color="#000000" transform="translate(123.12580666666666,283.3333333333333) rotate(270.0000011238745,26.874193333333334,30)">
@@ -575,12 +602,9 @@
     <g id="fb0" class="SingleFreeNode Shape" color="#000000" transform="translate(403.33332666666666,586.6666666666666) rotate(270.0000011238745,20.000006666666664,33.333333333333336)">
       <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="1" height="66.66666666666667px" id="fb0-icon" width="40.00001333333333px" x="0" y="0" xlink:href="#ArcPathVisio" transform="matrix(0.9756097640293451, 0, 0, 0.9852216748768473, 0.48780488201467165, 0.49261083743841994)" class="Icon"/>
     </g>
-    <g id="fe0" class="SingleFreeNode Shape" color="#000000" transform="translate(123.33333333333334,146.39079333333333) rotate(270.0000011238745,36.666666666666664,20.275873333333333)">
-      <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="1" height="40.551746666666666px" id="fe0-icon" width="73.33333333333333px" x="0" y="0" xlink:href="#ArcPathVisio" transform="matrix(0.9865470852017937, 0, 0, 0.975933623006943, 0.49327354260089606, 0.48796681150347254)" class="Icon"/>
-    </g>
-    <g id="b08fb" class="SingleFreeNode DataNode Metabolite" color="#0000ff" name="2-dehydropantoate" transform="translate(106.12962962962963,243.83333333333334)">
-      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="b08fb-icon" width="150.33333333333334px" x="0" y="0" transform="matrix(0.9933920704845814, 0, 0, 0.95, 0.49669603524229444, 0.47499999999999964)" class="Icon"/>
-      <text id="b08fb-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(75.16666666666667,13.5)">
+    <g id="b08fb" class="SingleFreeNode DataNode Metabolite" color="#0000ff" name="2-dehydropantoate" transform="translate(121.2962962962963,243.83333333333334)">
+      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="b08fb-icon" width="120px" x="0" y="0" transform="matrix(0.9917355371900827, 0, 0, 0.95, 0.49586776859504056, 0.47499999999999964)" class="Icon"/>
+      <text id="b08fb-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(60,13.5)">
         <tspan x="0" y="0">2-dehydropantoate</tspan>
       </text>
     </g>
@@ -608,28 +632,10 @@
         <tspan x="0" y="0">4'-phosphopantothenate</tspan>
       </text>
     </g>
-    <g id="b19" class="SingleFreeNode Label" color="#000000" name="H2O" transform="translate(687.5,143.83333333333334)">
-      <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="19px" id="b19-icon" width="38.333333333333336px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-      <text id="b19-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(19.166666666666668,13.5)">
-        <tspan x="0" y="0">H2O</tspan>
-      </text>
-    </g>
-    <g id="c4028" class="SingleFreeNode DataNode Metabolite" color="#0000ff" name="H2O" transform="translate(114.16666666666667,137.16666666666666)">
-      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="c4028-icon" width="38.333333333333336px" x="0" y="0" transform="matrix(0.9745762711864406, 0, 0, 0.95, 0.4872881355932215, 0.47499999999999964)" class="Icon"/>
-      <text id="c4028-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(19.166666666666668,13.5)">
-        <tspan x="0" y="0">H2O</tspan>
-      </text>
-    </g>
     <g id="c16" class="SingleFreeNode Label" color="#000000" name="CMP" transform="translate(379.3333333333333,770.5)">
       <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="19px" id="c16-icon" width="41.333333333333336px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
       <text id="c16-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(20.666666666666668,13.5)">
         <tspan x="0" y="0">CMP</tspan>
-      </text>
-    </g>
-    <g id="cb656" class="SingleFreeNode DataNode Metabolite" color="#0000ff" name="pantothenate" transform="translate(403.1666666666667,544.8333333333334)">
-      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="cb656-icon" width="106.33333333333333px" x="0" y="0" transform="matrix(0.9906832298136646, 0, 0, 0.95, 0.4953416149068275, 0.47499999999999964)" class="Icon"/>
-      <text id="cb656-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(53.166666666666664,13.5)">
-        <tspan x="0" y="0">pantothenate</tspan>
       </text>
     </g>
     <g id="cdb" class="SingleFreeNode Label" color="#000000" name="CTP" transform="translate(384.16666666666663,720.5)">
@@ -638,10 +644,10 @@
         <tspan x="0" y="0">CTP</tspan>
       </text>
     </g>
-    <g id="cc34f" class="SingleFreeNode DataNode Metabolite" color="#0000ff" name="beta-alanine" transform="translate(700.8333333333334,370.5)">
-      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="cc34f-icon" width="98.33333333333333px" x="0" y="0" transform="matrix(0.9899328859060402, 0, 0, 0.95, 0.4949664429530216, 0.47499999999999964)" class="Icon"/>
-      <text id="cc34f-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(49.166666666666664,13.5)">
-        <tspan x="0" y="0">beta-alanine</tspan>
+    <g id="cb656" class="SingleFreeNode DataNode Metabolite" color="#0000ff" name="pantothenate" transform="translate(403.1666666666667,544.8333333333334)">
+      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="cb656-icon" width="106.33333333333333px" x="0" y="0" transform="matrix(0.9906832298136646, 0, 0, 0.95, 0.4953416149068275, 0.47499999999999964)" class="Icon"/>
+      <text id="cb656-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(53.166666666666664,13.5)">
+        <tspan x="0" y="0">pantothenate</tspan>
       </text>
     </g>
     <g id="cfc" class="SingleFreeNode Label" color="#000000" name="O2" transform="translate(693.5,160.5)">
@@ -650,10 +656,10 @@
         <tspan x="0" y="0">O2</tspan>
       </text>
     </g>
-    <g id="d157b" class="SingleFreeNode DataNode Metabolite" color="#0000ff" name="2-keto-isovalerate" transform="translate(111.12962962962963,77.16666666666667)">
-      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="d157b-icon" width="140.33333333333334px" x="0" y="0" transform="matrix(0.9929245283018868, 0, 0, 0.95, 0.4964622641509351, 0.47499999999999964)" class="Icon"/>
-      <text id="d157b-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(70.16666666666667,13.5)">
-        <tspan x="0" y="0">2-keto-isovalerate</tspan>
+    <g id="cc34f" class="SingleFreeNode DataNode Metabolite" color="#0000ff" name="beta-alanine" transform="translate(700.8333333333334,370.5)">
+      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="cc34f-icon" width="98.33333333333333px" x="0" y="0" transform="matrix(0.9899328859060402, 0, 0, 0.95, 0.4949664429530216, 0.47499999999999964)" class="Icon"/>
+      <text id="cc34f-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(49.166666666666664,13.5)">
+        <tspan x="0" y="0">beta-alanine</tspan>
       </text>
     </g>
     <g id="dc7" class="SingleFreeNode Label" color="#000000" name="H2O2" transform="translate(679.6666666666667,217.16666666666666)">
@@ -662,10 +668,10 @@
         <tspan x="0" y="0">H2O2</tspan>
       </text>
     </g>
-    <g id="d8aea" class="SingleFreeNode DataNode Metabolite" color="#0000ff" name="3-aminopropanal" transform="translate(682.8333333333334,257.1666666666667)">
-      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="d8aea-icon" width="134.33333333333334px" x="0" y="0" transform="matrix(0.9926108374384236, 0, 0, 0.95, 0.4963054187192171, 0.47499999999999964)" class="Icon"/>
-      <text id="d8aea-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(67.16666666666667,13.5)">
-        <tspan x="0" y="0">3-aminopropanal</tspan>
+    <g id="d157b" class="SingleFreeNode DataNode Metabolite" color="#0000ff" name="2-keto-isovalerate" transform="translate(121.2962962962963,77.16666666666667)">
+      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="d157b-icon" width="120px" x="0" y="0" transform="matrix(0.9917355371900827, 0, 0, 0.95, 0.49586776859504056, 0.47499999999999964)" class="Icon"/>
+      <text id="d157b-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(60,13.5)">
+        <tspan x="0" y="0">2-keto-isovalerate</tspan>
       </text>
     </g>
     <g id="e1d" class="SingleFreeNode Label" color="#000000" name="CO2" transform="translate(400.8333333333333,877.1666666666666)">
@@ -674,10 +680,10 @@
         <tspan x="0" y="0">CO2</tspan>
       </text>
     </g>
-    <g id="df4d6" class="SingleFreeNode DataNode Metabolite" color="#0000ff" name="pantoate" transform="translate(145.1296296296296,367.1666666666667)">
-      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="df4d6-icon" width="72.33333333333333px" x="0" y="0" transform="matrix(0.9863636363636363, 0, 0, 0.95, 0.4931818181818173, 0.47499999999999964)" class="Icon"/>
-      <text id="df4d6-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(36.166666666666664,13.5)">
-        <tspan x="0" y="0">pantoate</tspan>
+    <g id="d8aea" class="SingleFreeNode DataNode Metabolite" color="#0000ff" name="3-aminopropanal" transform="translate(682.8333333333334,257.1666666666667)">
+      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="d8aea-icon" width="134.33333333333334px" x="0" y="0" transform="matrix(0.9926108374384236, 0, 0, 0.95, 0.4963054187192171, 0.47499999999999964)" class="Icon"/>
+      <text id="d8aea-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(67.16666666666667,13.5)">
+        <tspan x="0" y="0">3-aminopropanal</tspan>
       </text>
     </g>
     <g id="e9a" class="SingleFreeNode Label" color="#000000" name="NAD" transform="translate(673.1666666666667,303.8333333333333)">
@@ -686,22 +692,10 @@
         <tspan x="0" y="0">NAD</tspan>
       </text>
     </g>
-    <g id="ef2a5" class="SingleFreeNode DataNode Metabolite" color="#0000ff" name="THF" transform="translate(108,193.83333333333334)">
-      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="ef2a5-icon" width="37.333333333333336px" x="0" y="0" transform="matrix(0.9739130434782609, 0, 0, 0.95, 0.4869565217391312, 0.47499999999999964)" class="Icon"/>
-      <text id="ef2a5-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(18.666666666666668,13.5)">
-        <tspan x="0" y="0">THF</tspan>
-      </text>
-    </g>
-    <g id="f91" class="SingleFreeNode Label" color="#000000" name="H2O" transform="translate(674.1666666666667,287.1666666666667)">
-      <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="19px" id="f91-icon" width="38.333333333333336px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-      <text id="f91-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(19.166666666666668,13.5)">
-        <tspan x="0" y="0">H2O</tspan>
-      </text>
-    </g>
-    <g id="f41f7" class="SingleFreeNode DataNode Metabolite" color="#0000ff" name="4'-phospho-N-pantothenoylcysteine" transform="translate(319.16666666666663,823.8333333333334)">
-      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="f41f7-icon" width="274.3333333333333px" x="0" y="0" transform="matrix(0.9963680387409201, 0, 0, 0.95, 0.49818401937045564, 0.47499999999999964)" class="Icon"/>
-      <text id="f41f7-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(137.16666666666666,13.5)">
-        <tspan x="0" y="0">4'-phospho-N-pantothenoylcysteine</tspan>
+    <g id="df4d6" class="SingleFreeNode DataNode Metabolite" color="#0000ff" name="pantoate" transform="translate(145.1296296296296,367.1666666666667)">
+      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="df4d6-icon" width="72.33333333333333px" x="0" y="0" transform="matrix(0.9863636363636363, 0, 0, 0.95, 0.4931818181818173, 0.47499999999999964)" class="Icon"/>
+      <text id="df4d6-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(36.166666666666664,13.5)">
+        <tspan x="0" y="0">pantoate</tspan>
       </text>
     </g>
     <g id="fa0" class="SingleFreeNode Label" color="#000000" name="NH3" transform="translate(684.1666666666667,200.5)">
@@ -709,6 +703,33 @@
       <text id="fa0-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(19.166666666666668,13.5)">
         <tspan x="0" y="0">NH3</tspan>
       </text>
+    </g>
+    <a id="ef2a5" class="SingleFreeNode DataNode KEGG_Compound_C03541 Metabolite CompactIdentifier_kegg_compound_C03541 THF Wikidata_Q46224863 ChEBI_28624 ChEBI_27650 InChI_RXWVHRYZTWZATH-UHFFFAOYSA-N InChI_FYHRVINOXYETMN-HFPXORMNSA-N PubChem_45479706 ChemSpider_21231977 HMDB_HMDB0006826 HMDB_HMDB0006840 KEGG_C03541" color="#0000ff" name="THF" transform="translate(99,182.83333333333334)" xlink:href="https://bioregistry.io/kegg_compound:C03541" target="_blank">
+      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="ef2a5-icon" width="37.333333333333336px" x="0" y="0" transform="matrix(0.9739130434782609, 0, 0, 0.95, 0.4869565217391312, 0.47499999999999964)" class="Icon"/>
+      <text id="ef2a5-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(18.666666666666668,13.5)">
+        <tspan x="0" y="0">THF</tspan>
+      </text>
+    </a>
+    <g id="f41f7" class="SingleFreeNode DataNode Metabolite" color="#0000ff" name="4'-phospho-N-pantothenoylcysteine" transform="translate(319.16666666666663,823.8333333333334)">
+      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="f41f7-icon" width="274.3333333333333px" x="0" y="0" transform="matrix(0.9963680387409201, 0, 0, 0.95, 0.49818401937045564, 0.47499999999999964)" class="Icon"/>
+      <text id="f41f7-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(137.16666666666666,13.5)">
+        <tspan x="0" y="0">4'-phospho-N-pantothenoylcysteine</tspan>
+      </text>
+    </g>
+    <g id="e98cd" class="Group GroupGroup" color="#808080" transform="translate(32,109.16666666666667)">
+      <use fill="transparent" fill-opacity="0" stroke="#808080" stroke-dasharray="5,3" stroke-width="0" height="54.999999999999986px" id="e98cd-icon" width="122.66666666666669px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <a id="c4028" class="SingleFreeNode DataNode HMDB_HMDB02111 Metabolite CompactIdentifier_hmdb_HMDB02111 H2O Wikidata_Q283 ChEBI_15377 InChI_XLYOFNOQVPJJNP-UHFFFAOYSA-N PubChem_22247451 PubChem_962 ChemSpider_937 HMDB_HMDB0002111 KEGG_C00001" color="#0000ff" name="H2O" transform="translate(51.16666666666667,27.999999999999986)" xlink:href="https://bioregistry.io/hmdb:HMDB02111" target="_blank">
+        <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="c4028-icon" width="38.333333333333336px" x="0" y="0" transform="matrix(0.9745762711864406, 0, 0, 0.95, 0.4872881355932215, 0.47499999999999964)" class="Icon"/>
+        <text id="c4028-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(19.166666666666668,13.5)">
+          <tspan x="0" y="0">H2O</tspan>
+        </text>
+      </a>
+      <a id="aaf" class="SingleFreeNode DataNode CAS_31690-11-6 Metabolite CompactIdentifier_cas_31690-11-6 __10-methylene-THF Wikidata_Q26995704 ChEBI_1989 ChEBI_15636 InChI_QYNUQALWYRSVHF-PZORYLMUSA-N InChI_QYNUQALWYRSVHF-OLZOCXBDSA-N PubChem_439175 PubChem_163026560 PubChem_445117 PubChem_135398645 PubChem_163026559 ChemSpider_388320 ChemSpider_392851 HMDB_HMDB0001533 KEGG_C00143" color="#0000ff" name="5,10-methylene-THF" transform="translate(8,8)" xlink:href="https://bioregistry.io/cas:31690-11-6" target="_blank">
+        <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="aaf-icon" width="106.66666666666669px" x="0" y="0" transform="matrix(0.9907120743034056, 0, 0, 0.95, 0.4953560371517014, 0.47499999999999964)" class="Icon"/>
+        <text id="aaf-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(53.33333333333334,12.5)">
+          <tspan x="0" y="0">5,10-methylene-THF</tspan>
+        </text>
+      </a>
     </g>
     <a id="a34" class="SingleFreeNode DataNode SGD_S000002939 GeneProduct CompactIdentifier_sgd_S000002939 YDR531W Ensembl_YDR531W Entrez_Gene_852144 UniProt_Q04430" color="#000000" name="YDR531W" transform="translate(460,610)" xlink:href="https://bioregistry.io/sgd:S000002939" target="_blank">
       <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="a34-icon" width="66.66666666666667px" x="0" y="0" transform="matrix(0.9852216748768473, 0, 0, 0.9523809523809523, 0.49261083743841994, 0.4761904761904763)" class="Icon"/>
@@ -734,12 +755,6 @@
         <tspan x="0" y="0">SIS2</tspan>
       </text>
     </a>
-    <a id="aaf" class="SingleFreeNode DataNode CAS_31690-11-6 Metabolite CompactIdentifier_cas_31690-11-6 __10-methylene-THF Wikidata_Q26995704 ChEBI_1989 ChEBI_15636 InChI_QYNUQALWYRSVHF-PZORYLMUSA-N InChI_QYNUQALWYRSVHF-OLZOCXBDSA-N PubChem_439175 PubChem_163026560 PubChem_445117 PubChem_135398645 PubChem_163026559 ChemSpider_388320 ChemSpider_392851 HMDB_HMDB0001533 KEGG_C00143" color="#0000ff" name="5,10-methylene-THF" transform="translate(1.3333333333333286,117.16666666666667)" xlink:href="https://bioregistry.io/cas:31690-11-6" target="_blank">
-      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="aaf-icon" width="157.33333333333334px" x="0" y="0" transform="matrix(0.9936842105263158, 0, 0, 0.95, 0.49684210526315553, 0.47499999999999964)" class="Icon"/>
-      <text id="aaf-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(78.66666666666667,12.5)">
-        <tspan x="0" y="0">5,10-methylene-THF</tspan>
-      </text>
-    </a>
     <a id="b17" class="SingleFreeNode DataNode CAS_1927-31-7 Metabolite CompactIdentifier_cas_1927-31-7 ATP Wikidata_Q201090 ChEBI_16284 InChI_SUYVUBYJARFZHO-RRKCRQDMSA-N PubChem_15993 ChemSpider_15194 HMDB_HMDB0001532 KEGG_C00131" color="#0000ff" name="ATP" transform="translate(384.66666666666663,590.5)" xlink:href="https://bioregistry.io/cas:1927-31-7" target="_blank">
       <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="b17-icon" width="37.333333333333336px" x="0" y="0" transform="matrix(0.9739130434782609, 0, 0, 0.95, 0.4869565217391312, 0.47499999999999964)" class="Icon"/>
       <text id="b17-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(18.666666666666668,12.5)">
@@ -752,9 +767,9 @@
         <tspan x="0" y="0">VHS3</tspan>
       </text>
     </a>
-    <a id="b44" class="SingleFreeNode DataNode CAS_53-57-6 Metabolite CompactIdentifier_cas_53-57-6 NADPH Wikidata_Q26841327 ChEBI_16474 InChI_ACFIXJIJDZMPPO-NNYOXOHSSA-N PubChem_5884 ChemSpider_5673 HMDB_HMDB0000221 KEGG_C00005" color="#0000ff" name="NADPH" transform="translate(85,277.1666666666667)" xlink:href="https://bioregistry.io/cas:53-57-6" target="_blank">
-      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="b44-icon" width="63.333333333333336px" x="0" y="0" transform="matrix(0.9844559585492227, 0, 0, 0.95, 0.49222797927461315, 0.47499999999999964)" class="Icon"/>
-      <text id="b44-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(31.666666666666668,12.5)">
+    <a id="b44" class="SingleFreeNode DataNode CAS_53-57-6 Metabolite CompactIdentifier_cas_53-57-6 NADPH Wikidata_Q26841327 ChEBI_16474 InChI_ACFIXJIJDZMPPO-NNYOXOHSSA-N PubChem_5884 ChemSpider_5673 HMDB_HMDB0000221 KEGG_C00005" color="#0000ff" name="NADPH" transform="translate(97,277.1666666666667)" xlink:href="https://bioregistry.io/cas:53-57-6" target="_blank">
+      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="b44-icon" width="51.33333333333334px" x="0" y="0" transform="matrix(0.9808917197452229, 0, 0, 0.95, 0.4904458598726116, 0.47499999999999964)" class="Icon"/>
+      <text id="b44-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(25.66666666666667,12.5)">
         <tspan x="0" y="0">NADPH</tspan>
       </text>
     </a>
@@ -794,6 +809,12 @@
         <tspan x="0" y="0">ATP</tspan>
       </text>
     </a>
+    <a id="ce81a" class="SingleFreeNode DataNode ChEBI_15378 Metabolite CompactIdentifier_chebi_15378 H_ Wikidata_Q506710 InChI_GPRLSGONYQIRFK-UHFFFAOYSA-N PubChem_1038 ChemSpider_1010 HMDB_HMDB0059597 KEGG_C00080" color="#0000ff" name="H+" transform="translate(88,299)" xlink:href="https://bioregistry.io/chebi:15378" target="_blank">
+      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="20px" id="ce81a-icon" width="37px" x="0" y="0" transform="matrix(0.9736842105263158, 0, 0, 0.9523809523809523, 0.4868421052631575, 0.4761904761904763)" class="Icon"/>
+      <text id="ce81a-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(18.5,13)">
+        <tspan x="0" y="0">H+</tspan>
+      </text>
+    </a>
     <a id="d32" class="SingleFreeNode DataNode SGD_S000003509 GeneProduct CompactIdentifier_sgd_S000003509 YGR277C Ensembl_YGR277C Entrez_Gene_853194 UniProt_P53332" color="#000000" name="YGR277C" transform="translate(460,1016.6666666666667)" xlink:href="https://bioregistry.io/sgd:S000003509" target="_blank">
       <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="d32-icon" width="66.66666666666667px" x="0" y="0" transform="matrix(0.9852216748768473, 0, 0, 0.9523809523809523, 0.49261083743841994, 0.4761904761904763)" class="Icon"/>
       <text id="d32-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(33.333333333333336,13)">
@@ -812,7 +833,7 @@
         <tspan x="0" y="0">pyrophosphate</tspan>
       </text>
     </a>
-    <a id="dd2" class="SingleFreeNode DataNode SGD_S000001105 GeneProduct CompactIdentifier_sgd_S000001105 PAN5 Ensembl_YHR063C Entrez_Gene_856460 UniProt_P38787" color="#000000" name="PAN5" transform="translate(183.33333333333334,303.3333333333333)" xlink:href="https://bioregistry.io/sgd:S000001105" target="_blank">
+    <a id="dd2" class="SingleFreeNode DataNode SGD_S000001105 GeneProduct CompactIdentifier_sgd_S000001105 PAN5 Ensembl_YHR063C Entrez_Gene_856460 UniProt_P38787" color="#000000" name="PAN5" transform="translate(216.33333333333334,295.3333333333333)" xlink:href="https://bioregistry.io/sgd:S000001105" target="_blank">
       <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="dd2-icon" width="40px" x="0" y="0" transform="matrix(0.975609756097561, 0, 0, 0.9523809523809523, 0.4878048780487809, 0.4761904761904763)" class="Icon"/>
       <text id="dd2-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(20,13)">
         <tspan x="0" y="0">PAN5</tspan>
@@ -872,7 +893,7 @@
         <tspan x="0" y="0">YIL083C</tspan>
       </text>
     </a>
-    <a id="fc2" class="SingleFreeNode DataNode SGD_S000000380 GeneProduct CompactIdentifier_sgd_S000000380 ECM31 Ensembl_YBR176W Entrez_Gene_852474 UniProt_P38122" color="#000000" name="ECM31" transform="translate(183.33333333333331,156.66666666666666)" xlink:href="https://bioregistry.io/sgd:S000000380" target="_blank">
+    <a id="fc2" class="SingleFreeNode DataNode SGD_S000000380 GeneProduct CompactIdentifier_sgd_S000000380 ECM31 Ensembl_YBR176W Entrez_Gene_852474 UniProt_P38122" color="#000000" name="ECM31" transform="translate(219.3333333333333,145.66666666666666)" xlink:href="https://bioregistry.io/sgd:S000000380" target="_blank">
       <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="fc2-icon" width="46.666666666666664px" x="0" y="0" transform="matrix(0.9790209790209791, 0, 0, 0.9523809523809523, 0.48951048951049003, 0.4761904761904763)" class="Icon"/>
       <text id="fc2-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(23.333333333333332,13)">
         <tspan x="0" y="0">ECM31</tspan>
@@ -884,9 +905,21 @@
         <tspan x="0" y="0">ATP</tspan>
       </text>
     </a>
+    <a id="c2e47" class="SingleFreeNode DataNode HMDB_HMDB02111 Metabolite CompactIdentifier_hmdb_HMDB02111 H2O Wikidata_Q283 ChEBI_15377 InChI_XLYOFNOQVPJJNP-UHFFFAOYSA-N PubChem_22247451 PubChem_962 ChemSpider_937 HMDB_HMDB0002111 KEGG_C00001" color="#0000ff" name="H2O" transform="translate(683.1666666666667,140.16666666666666)" xlink:href="https://bioregistry.io/hmdb:HMDB02111" target="_blank">
+      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="c2e47-icon" width="38.333333333333336px" x="0" y="0" transform="matrix(0.9745762711864406, 0, 0, 0.95, 0.4872881355932215, 0.47499999999999964)" class="Icon"/>
+      <text id="c2e47-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(19.166666666666668,13.5)">
+        <tspan x="0" y="0">H2O</tspan>
+      </text>
+    </a>
+    <a id="e7e6e" class="SingleFreeNode DataNode HMDB_HMDB02111 Metabolite CompactIdentifier_hmdb_HMDB02111 H2O Wikidata_Q283 ChEBI_15377 InChI_XLYOFNOQVPJJNP-UHFFFAOYSA-N PubChem_22247451 PubChem_962 ChemSpider_937 HMDB_HMDB0002111 KEGG_C00001" color="#0000ff" name="H2O" transform="translate(676.1666666666667,285.16666666666663)" xlink:href="https://bioregistry.io/hmdb:HMDB02111" target="_blank">
+      <rect fill="#ffffff" stroke="#0000ff" stroke-width="1" fill-opacity="1" height="19px" id="e7e6e-icon" width="38.333333333333336px" x="0" y="0" transform="matrix(0.9745762711864406, 0, 0, 0.95, 0.4872881355932215, 0.47499999999999964)" class="Icon"/>
+      <text id="e7e6e-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(19.166666666666668,13.5)">
+        <tspan x="0" y="0">H2O</tspan>
+      </text>
+    </a>
     <text id="WP462-text" class="Text" direction="ltr" dominant-baseline="central" fill="black" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" overflow="visible" stroke="white" stroke-width="0px" text-anchor="start" transform="translate(5,36)">
       <tspan x="0" y="-18">Name: Pantothenate and coenzyme A biosynthesis</tspan>
-      <tspan x="0" y="0">Last Modified: 20230612014017</tspan>
+      <tspan x="0" y="0">Last Modified: 20241018012700</tspan>
       <tspan x="0" y="18">Organism: Saccharomyces cerevisiae</tspan>
     </text>
   </g>
