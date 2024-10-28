@@ -4,16 +4,16 @@
 ]]></style>
   <defs>
     <g id="jit-defs">
+      <filter id="kaaviodoubletrue3filter" width="200%" height="200%" x="-50%" y="-50%">
+        <feMorphology in="SourceGraphic" result="in2Double" operator="dilate" radius="3"/>
+        <feMorphology in="SourceGraphic" result="inDouble" operator="erode" radius="3"/>
+        <feComposite in="inDouble" in2="in2Double" operator="atop" result="doubleResult"/>
+      </filter>
       <filter id="kaaviodoublefalse3filter" width="200%" height="200%" x="-50%" y="-50%">
         <feComposite in="SourceGraphic" in2="SourceGraphic" operator="over" result="doubleDark"/>
         <feMorphology in="doubleDark" result="in2Double" operator="dilate" radius="0.16666666666666666"/>
         <feMorphology in="SourceGraphic" result="inDouble" operator="dilate" radius="3"/>
         <feComposite in="inDouble" in2="in2Double" operator="out" result="doubleResult"/>
-      </filter>
-      <filter id="kaaviodoubletrue3filter" width="200%" height="200%" x="-50%" y="-50%">
-        <feMorphology in="SourceGraphic" result="in2Double" operator="dilate" radius="3"/>
-        <feMorphology in="SourceGraphic" result="inDouble" operator="erode" radius="3"/>
-        <feComposite in="inDouble" in2="in2Double" operator="atop" result="doubleResult"/>
       </filter>
       <filter x="0" y="0" height="1529.6745308068823" width="2562.148653034735" id="kaaviowhitetofffffffilter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -1                  0  1  0 0 -1                  0  0  1 0 -1                  0  0  0 1 0"/>
@@ -27,17 +27,17 @@
       <filter x="0" y="0" height="1529.6745308068823" width="2562.148653034735" id="kaavioblackto14961efilter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0.0784313725490196                   0  -1   0 0 0.5882352941176471                   0   0  -1 0 0.11764705882352941                   0   0   0 1 0"/>
       </filter>
-      <filter x="0" y="0" height="1529.6745308068823" width="2562.148653034735" id="kaaviowhitetoc0c0c0filter" filterUnits="userSpaceOnUse">
-        <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0.7529411764705882                  0  1  0 0 -0.7529411764705882                  0  0  1 0 -0.7529411764705882                  0  0  0 1 0"/>
-      </filter>
-      <filter x="0" y="0" height="1529.6745308068823" width="2562.148653034735" id="kaavioblacktoc0c0c0filter" filterUnits="userSpaceOnUse">
-        <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0.7529411764705882                   0  -1   0 0 0.7529411764705882                   0   0  -1 0 0.7529411764705882                   0   0   0 1 0"/>
-      </filter>
       <filter x="0" y="0" height="1529.6745308068823" width="2562.148653034735" id="kaaviowhiteto000000filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0                  0  1  0 0 -0                  0  0  1 0 -0                  0  0  0 1 0"/>
       </filter>
       <filter x="0" y="0" height="1529.6745308068823" width="2562.148653034735" id="kaavioblackto000000filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0                   0  -1   0 0 0                   0   0  -1 0 0                   0   0   0 1 0"/>
+      </filter>
+      <filter x="0" y="0" height="1529.6745308068823" width="2562.148653034735" id="kaaviowhitetoc0c0c0filter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0.7529411764705882                  0  1  0 0 -0.7529411764705882                  0  0  1 0 -0.7529411764705882                  0  0  0 1 0"/>
+      </filter>
+      <filter x="0" y="0" height="1529.6745308068823" width="2562.148653034735" id="kaavioblacktoc0c0c0filter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0.7529411764705882                   0  -1   0 0 0.7529411764705882                   0   0  -1 0 0.7529411764705882                   0   0   0 1 0"/>
       </filter>
       <filter x="0" y="0" height="1529.6745308068823" width="2562.148653034735" id="kaaviowhitetofff5e5filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -1                  0  1  0 0 -0.9607843137254902                  0  0  1 0 -0.8980392156862745                  0  0  0 1 0"/>
@@ -489,8 +489,16 @@
       </symbol>
     </g>
   </defs>
-  <g id="WP5323" class="Viewport" color="black" name="Name: Fatty acid and lipoprotein transport in hepatocytes Last Modified: 20241004124559 Organism: Homo sapiens">
+  <g id="WP5323" class="Viewport" color="black" name="Name: Fatty acid and lipoprotein transport in hepatocytes Last Modified: 20241027164019 Organism: Homo sapiens">
     <rect fill="white" stroke="black" stroke-width="0" fill-opacity="1" height="1529.6745308068823px" id="WP5323-icon" width="2562.148653034735px" x="0" y="0" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+    <g id="ca10" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#000000" name="Lysosome" transform="translate(1499.2340676201359,395.1666666666671)">
+      <g filter="url(#kaaviodoubletrue3filter)" fill="#ffffff" stroke="#000000" stroke-width="3" fill-opacity="1">
+        <rect style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" height="186.12899336949974px" id="ca10-icon" width="477.93259904652496px" x="0" y="0" transform="matrix(0.9755068349741298, 0, 0, 0.9394333974249763, 5.853041009844787, 5.636600384549851)" class="Icon"/>
+      </g>
+      <text id="ca10-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(238.96629952326248,175.52899336949974)">
+        <tspan x="0" y="0">Lysosome</tspan>
+      </text>
+    </g>
     <g id="edf38" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#c0c0c0" transform="translate(19.5,233.5)">
       <g filter="url(#kaaviodoublefalse3filter)" fill="transparent" fill-opacity="0" stroke="#c0c0c0" stroke-width="3">
         <rect style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" height="848px" id="edf38-icon" rx="15" ry="15" width="2508.666666666667px" x="0" y="0" transform="matrix(0.9952393546680772, 0, 0, 0.986046511627907, 5.971436128008463, 5.916279069767427)" class="Icon"/>
@@ -524,14 +532,6 @@
     <g id="ca20" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#ccba9b" transform="translate(1060.352824485161,1151.840486741485)">
       <use fill="#fff5e5" stroke="#ccba9b" stroke-width="2" fill-opacity="1" height="225px" id="ca20-icon" width="225px" x="0" y="0" xlink:href="#Ellipse" transform="matrix(0.9911894273127754, 0, 0, 0.9911894273127754, 0.9911894273127757, 0.9911894273127757)" class="Icon"/>
     </g>
-    <g id="ca10" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#000000" name="Lysosome" transform="translate(1500.2340676201359,390.1666666666671)">
-      <g filter="url(#kaaviodoubletrue3filter)" fill="#ffffff" stroke="#000000" stroke-width="3" fill-opacity="1">
-        <rect style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" height="186.12899336949974px" id="ca10-icon" width="477.93259904652496px" x="0" y="0" transform="matrix(0.9755068349741298, 0, 0, 0.9394333974249763, 5.853041009844787, 5.636600384549851)" class="Icon"/>
-      </g>
-      <text id="ca10-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(238.96629952326248,175.52899336949974)">
-        <tspan x="0" y="0">Lysosome</tspan>
-      </text>
-    </g>
     <g id="ca23" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#ccba9b" transform="translate(1872.405063291153,1162.2360091295475)">
       <use fill="#fff5e5" stroke="#ccba9b" stroke-width="2" fill-opacity="1" height="150px" id="ca23-icon" width="150px" x="0" y="0" xlink:href="#Ellipse" transform="matrix(0.9868421052631579, 0, 0, 0.9868421052631579, 0.9868421052631646, 0.9868421052631646)" class="Icon"/>
     </g>
@@ -547,7 +547,7 @@
     <g id="ca19" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#ccba9b" transform="translate(822.4050632911357,1168.4860091295466)">
       <use fill="#fff5e5" stroke="#ccba9b" stroke-width="2" fill-opacity="1" height="150px" id="ca19-icon" width="150px" x="0" y="0" xlink:href="#Ellipse" transform="matrix(0.9868421052631579, 0, 0, 0.9868421052631579, 0.9868421052631646, 0.9868421052631646)" class="Icon"/>
     </g>
-    <g id="ca9" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#000000" name="Endosome" transform="translate(2011.1666666666706,438.50000000000034)">
+    <g id="ca9" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#000000" name="Endosome" transform="translate(2013.6666666666706,439.75000000000034)">
       <g filter="url(#kaaviodoubletrue3filter)" fill="#ffffff" stroke="#000000" stroke-width="3" fill-opacity="1">
         <rect style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" height="142.86708860759495px" id="ca9-icon" width="419px" x="0" y="0" transform="matrix(0.9721577726218097, 0, 0, 0.9225142016428951, 5.8329466357308775, 5.535085209857371)" class="Icon"/>
       </g>
@@ -1760,7 +1760,7 @@
         <tspan x="0" y="7.700000000000001">remnant</tspan>
       </text>
     </g>
-    <g id="csa45" class="Group Complex GroupComplex" color="#808080" name="APOB:LDLR:LDLRAP1" transform="translate(2205.071729957812,244.36708860759478)">
+    <g id="csa45" class="Group Complex GroupComplex" color="#808080" transform="translate(2205.071729957812,244.36708860759478)">
       <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="84px" id="csa45-icon" width="84px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9882352941176471, 0, 0, 0.9882352941176471, 0.4941176470588218, 0.4941176470588218)" class="Icon"/>
       <a id="sa185" class="SingleFreeNode DataNode Ensembl_ENSG00000157978 Protein CompactIdentifier_ensembl_ENSG00000157978 LDLRAP1 Entrez_Gene_26119 HGNC_LDLRAP1 UniProt_Q5SW96" color="#000000" name="LDLRAP1" transform="translate(12,52)" xlink:href="https://bioregistry.io/ensembl:ENSG00000157978" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="sa185-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
@@ -1780,11 +1780,8 @@
           <tspan x="0" y="0">LDLR</tspan>
         </text>
       </a>
-      <text id="csa45-text" class="Text" direction="ltr" fill="#808080" font-family="'Liberation Sans', Arial, sans-serif" font-size="1px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(42,42)">
-        <tspan x="0" y="0">APOB:LDLR:LDLRAP1</tspan>
-      </text>
     </g>
-    <g id="csa30" class="Group Complex GroupComplex" color="#808080" name="LDLR" transform="translate(1965.0717299578105,289.3670886075949)">
+    <g id="csa30" class="Group Complex GroupComplex" color="#808080" transform="translate(1965.0717299578105,289.3670886075949)">
       <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="64px" id="csa30-icon" width="84px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9882352941176471, 0, 0, 0.9846153846153847, 0.4941176470588218, 0.49230769230769056)" class="Icon"/>
       <a id="sa194" class="SingleFreeNode DataNode HGNC_LDLR Protein CompactIdentifier_hgnc_symbol_LDLR LDLR Ensembl_ENSG00000130164 Entrez_Gene_3949 UniProt_H0YMQ3 UniProt_J3KMZ9 UniProt_H0YMD1 UniProt_H0YM92 UniProt_A0A024R7D5 UniProt_P01130" color="#000000" name="LDLR" transform="translate(12,12)" xlink:href="https://bioregistry.io/hgnc_symbol:LDLR" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="sa194-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
@@ -1798,11 +1795,8 @@
           <tspan x="0" y="0">PCSK9</tspan>
         </text>
       </a>
-      <text id="csa30-text" class="Text" direction="ltr" fill="#808080" font-family="'Liberation Sans', Arial, sans-serif" font-size="1px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(42,32)">
-        <tspan x="0" y="0">LDLR</tspan>
-      </text>
     </g>
-    <g id="csa38" class="Group Complex GroupComplex" color="#808080" name="APOE:LRP1" transform="translate(1542.4050632911353,272.3670886075948)">
+    <g id="csa38" class="Group Complex GroupComplex" color="#808080" transform="translate(1542.4050632911353,272.3670886075948)">
       <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="63.999999999999886px" id="csa38-icon" width="84px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9882352941176471, 0, 0, 0.9846153846153846, 0.4941176470588218, 0.4923076923076941)" class="Icon"/>
       <a id="sa181" class="SingleFreeNode DataNode Ensembl_ENSG00000130203 Protein CompactIdentifier_ensembl_ENSG00000130203 APOE Entrez_Gene_348 HGNC_APOE UniProt_H0Y7L5 UniProt_A0A0S2Z3D5 UniProt_P02649 UniProt_E7ERP7 UniProt_E9PEV4" color="#000000" name="APOE" transform="translate(12,12)" xlink:href="https://bioregistry.io/ensembl:ENSG00000130203" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="sa181-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
@@ -1816,11 +1810,8 @@
           <tspan x="0" y="0">LRP1</tspan>
         </text>
       </a>
-      <text id="csa38-text" class="Text" direction="ltr" fill="#808080" font-family="'Liberation Sans', Arial, sans-serif" font-size="1px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(42,31.999999999999943)">
-        <tspan x="0" y="0">APOE:LRP1</tspan>
-      </text>
     </g>
-    <g id="csa43" class="Group Complex GroupComplex" color="#808080" name="LDLR" transform="translate(1803.7383966244706,435.8670886075953)">
+    <g id="csa43" class="Group Complex GroupComplex" color="#808080" transform="translate(1803.7383966244706,435.8670886075953)">
       <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="64px" id="csa43-icon" width="84px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9882352941176471, 0, 0, 0.9846153846153847, 0.4941176470588218, 0.49230769230769056)" class="Icon"/>
       <a id="sa238" class="SingleFreeNode DataNode HGNC_LDLR Protein CompactIdentifier_hgnc_symbol_LDLR LDLR Ensembl_ENSG00000130164 Entrez_Gene_3949 UniProt_H0YMQ3 UniProt_J3KMZ9 UniProt_H0YMD1 UniProt_H0YM92 UniProt_A0A024R7D5 UniProt_P01130" color="#000000" name="LDLR" transform="translate(12,12)" xlink:href="https://bioregistry.io/hgnc_symbol:LDLR" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="sa238-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
@@ -1834,11 +1825,8 @@
           <tspan x="0" y="0">PCSK9</tspan>
         </text>
       </a>
-      <text id="csa43-text" class="Text" direction="ltr" fill="#808080" font-family="'Liberation Sans', Arial, sans-serif" font-size="1px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(42,32)">
-        <tspan x="0" y="0">LDLR</tspan>
-      </text>
     </g>
-    <g id="csa28" class="Group Complex GroupComplex" color="#808080" name="LDLR" transform="translate(2303.071729957812,471.8670886075953)">
+    <g id="csa28" class="Group Complex GroupComplex" color="#808080" transform="translate(2303.071729957812,471.8670886075953)">
       <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="64.00000000000011px" id="csa28-icon" width="84px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9882352941176471, 0, 0, 0.9846153846153847, 0.4941176470588218, 0.49230769230769056)" class="Icon"/>
       <a id="sa192" class="SingleFreeNode DataNode HGNC_LDLR Protein CompactIdentifier_hgnc_symbol_LDLR LDLR Ensembl_ENSG00000130164 Entrez_Gene_3949 UniProt_H0YMQ3 UniProt_J3KMZ9 UniProt_H0YMD1 UniProt_H0YM92 UniProt_A0A024R7D5 UniProt_P01130" color="#000000" name="LDLR" transform="translate(12,12)" xlink:href="https://bioregistry.io/hgnc_symbol:LDLR" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="sa192-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
@@ -1852,9 +1840,6 @@
           <tspan x="0" y="0">PCSK9</tspan>
         </text>
       </a>
-      <text id="csa28-text" class="Text" direction="ltr" fill="#808080" font-family="'Liberation Sans', Arial, sans-serif" font-size="1px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(42,32.00000000000006)">
-        <tspan x="0" y="0">LDLR</tspan>
-      </text>
     </g>
     <g id="b801c" class="Group Complex GroupComplex" color="#808080" transform="translate(644.4050632911404,496.36708860759825)">
       <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="77px" id="b801c-icon" width="154px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9935483870967742, 0, 0, 0.9871794871794872, 0.49677419354839003, 0.4935897435897445)" class="Icon"/>
@@ -2075,7 +2060,7 @@
         <tspan x="0" y="0">SOAT</tspan>
       </text>
     </g>
-    <g id="bd548" class="Group Complex GroupComplex" color="#808080" name="VDAC1:STAR" transform="translate(1439.4050632911346,770.3670886075952)">
+    <g id="bd548" class="Group Complex GroupComplex" color="#808080" transform="translate(1439.4050632911346,770.3670886075952)">
       <use fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-width="1" height="63.999999999999886px" id="bd548-icon" width="84px" x="0" y="0" xlink:href="#Octagon" transform="matrix(0.9882352941176471, 0, 0, 0.9846153846153846, 0.4941176470588218, 0.4923076923076941)" class="Icon"/>
       <a id="fdd37" class="SingleFreeNode DataNode Ensembl_ENSG00000213585 Protein CompactIdentifier_ensembl_ENSG00000213585 VDAC1 Entrez_Gene_7416 HGNC_VDAC1 UniProt_A0A1L1UHR1 UniProt_P21796 UniProt_C9JI87" color="#000000" name="VDAC1" transform="translate(12,12)" xlink:href="https://bioregistry.io/ensembl:ENSG00000213585" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="fdd37-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
@@ -2089,9 +2074,6 @@
           <tspan x="0" y="0">STAR</tspan>
         </text>
       </a>
-      <text id="bd548-text" class="Text" direction="ltr" fill="#808080" font-family="'Liberation Sans', Arial, sans-serif" font-size="1px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(42,31.999999999999943)">
-        <tspan x="0" y="0">VDAC1:STAR</tspan>
-      </text>
     </g>
     <a id="b9950" class="SingleFreeNode DataNode HGNC_Accession_number_1663 Protein CompactIdentifier_hgnc_1663 CD36" color="#000000" name="CD36" transform="translate(92.73839662447253,277.3670886075948)" xlink:href="https://bioregistry.io/hgnc:1663" target="_blank">
       <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="b9950-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
@@ -2211,7 +2193,7 @@
     </g>
     <text id="WP5323-text" class="Text" direction="ltr" dominant-baseline="central" fill="black" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" overflow="visible" stroke="white" stroke-width="0px" text-anchor="start" transform="translate(5,36)">
       <tspan x="0" y="-18">Name: Fatty acid and lipoprotein transport in hepatocytes</tspan>
-      <tspan x="0" y="0">Last Modified: 20241004124559</tspan>
+      <tspan x="0" y="0">Last Modified: 20241027164019</tspan>
       <tspan x="0" y="18">Organism: Homo sapiens</tspan>
     </text>
   </g>
