@@ -487,6 +487,53 @@
       "y": 616.213899264459,
       "zIndex": 16384
     },
+    "ab386": {
+      "comments": [
+        {
+          "content": "Guides the positioning of Nav1.1 on the membrane"
+        }
+      ],
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25,
+      "id": "ab386",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "SNTA1",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Ensembl:ENSG00000101400",
+        "GeneProduct",
+        "CompactIdentifier:ensembl:ENSG00000101400",
+        "SNTA1",
+        "Ensembl:ENSG00000101400",
+        "Entrez Gene:6640",
+        "HGNC:SNTA1",
+        "UniProt:Q13424"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 90,
+      "wpType": "GeneProduct",
+      "x": 239,
+      "xrefDataSource": "Ensembl",
+      "xrefIdentifier": "ENSG00000101400",
+      "y": 205.5,
+      "zIndex": 32768
+    },
     "ab8de": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -921,7 +968,7 @@
       "stroke": "#000000",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "α subunit binds \nonly two different \nβ subunits, either \na β1 or β3 and \na β2 or β4.",
+      "textContent": "Î± subunit binds \nonly two different \nÎ² subunits, either \na Î²1 or Î²3 and \na Î²2 or Î²4.",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -4439,6 +4486,76 @@
       ],
       "zIndex": 12288
     },
+    "id49cde8b1": {
+      "citations": [
+        "publicationXrefd37"
+      ],
+      "drawAs": "ElbowLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "id49cde8b1",
+      "isAttachedTo": [
+        "ab386",
+        "dacfe"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              1,
+              0.5
+            ]
+          },
+          "isAttachedTo": "ab386",
+          "orientation": [
+            1,
+            0
+          ],
+          "x": 329,
+          "y": 218
+        },
+        {
+          "x": 377,
+          "y": 182.67630597014926
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0,
+              0.75
+            ]
+          },
+          "isAttachedTo": "dacfe",
+          "orientation": [
+            1,
+            0
+          ],
+          "x": 379.2076802507835,
+          "y": 147.3526119402985
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12288
+    },
     "id4a6ccc2c": {
       "burrs": [
         "c01d3"
@@ -5726,7 +5843,7 @@
     "publicationXrefb1d": {
       "gpmlElementName": "PublicationXref",
       "id": "publicationXrefb1d",
-      "textContent": "10",
+      "textContent": "2",
       "type": [
         "PublicationXref",
         "PubMed:34375627"
@@ -5759,7 +5876,7 @@
       "id": "publicationXrefb23",
       "source": "J Neurosci",
       "standardName": "Mice lacking sodium channel beta1 subunits display defects in neuronal excitability, sodium channel expression, and nodal architecture.",
-      "textContent": "1",
+      "textContent": "5",
       "type": [
         "PublicationXref",
         "PubMed:15102918"
@@ -5778,7 +5895,7 @@
       "id": "publicationXrefb41",
       "source": "J Biol Chem",
       "standardName": "Identification of novel interaction sites that determine specificity between fibroblast growth factor homologous factors and voltage-gated sodium channels.",
-      "textContent": "4",
+      "textContent": "7",
       "type": [
         "PublicationXref",
         "PubMed:21566136"
@@ -5801,8 +5918,8 @@
       "gpmlElementName": "PublicationXref",
       "id": "publicationXrefb9c",
       "source": "J Neuroinflammation",
-      "standardName": "Tumor necrosis factor-α enhances voltage-gated Na⁺ currents in primary culture of mouse cortical neurons.",
-      "textContent": "6",
+      "standardName": "Tumor necrosis factor-Î± enhances voltage-gated Naâ�º currents in primary culture of mouse cortical neurons.",
+      "textContent": "9",
       "type": [
         "PublicationXref",
         "PubMed:26112872"
@@ -5821,7 +5938,7 @@
       "id": "publicationXrefc8d",
       "source": "Nat Rev Cancer",
       "standardName": "mTOR signalling and cellular metabolism are mutual determinants in cancer.",
-      "textContent": "8",
+      "textContent": "10",
       "type": [
         "PublicationXref",
         "PubMed:30425336"
@@ -5829,6 +5946,28 @@
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "30425336",
       "year": 2018
+    },
+    "publicationXrefd37": {
+      "authors": [
+        "Gee SH",
+        "Madhavan R",
+        "Levinson SR",
+        "Caldwell JH",
+        "Sealock R",
+        "Froehner SC"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefd37",
+      "source": "J Neurosci",
+      "standardName": "Interaction of muscle and brain sodium channels with multiple members of the syntrophin family of dystrophin-associated proteins.",
+      "textContent": "3",
+      "type": [
+        "PublicationXref",
+        "PubMed:9412493"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "9412493",
+      "year": 1998
     },
     "publicationXrefd3e": {
       "authors": [
@@ -5842,7 +5981,7 @@
       "id": "publicationXrefd3e",
       "source": "Neuron",
       "standardName": "Interdependence of PKC-dependent and PKC-independent pathways for presynaptic plasticity.",
-      "textContent": "3",
+      "textContent": "6",
       "type": [
         "PublicationXref",
         "PubMed:17442248"
@@ -5862,7 +6001,7 @@
       "id": "publicationXrefeb7",
       "source": "Epilepsia",
       "standardName": "Dravet syndrome as part of the clinical and genetic spectrum of sodium channel epilepsies and encephalopathies.",
-      "textContent": "9",
+      "textContent": "11",
       "type": [
         "PublicationXref",
         "PubMed:31904125"
@@ -5884,7 +6023,7 @@
       "id": "publicationXrefeb8",
       "source": "Biochem Biophys Res Commun",
       "standardName": "Calmodulin and calcium differentially regulate the neuronal Nav1.1 voltage-dependent sodium channel.",
-      "textContent": "5",
+      "textContent": "8",
       "type": [
         "PublicationXref",
         "PubMed:21726526"
@@ -5901,8 +6040,8 @@
       "gpmlElementName": "PublicationXref",
       "id": "publicationXreff19",
       "source": "Handb Exp Pharmacol",
-      "standardName": "Voltage-Gated Sodium Channel β Subunits and Their Related Diseases.",
-      "textContent": "7",
+      "standardName": "Voltage-Gated Sodium Channel Î² Subunits and Their Related Diseases.",
+      "textContent": "1",
       "type": [
         "PublicationXref",
         "PubMed:28965169"
@@ -5920,7 +6059,7 @@
       "id": "publicationXreff43",
       "source": "Oncogene",
       "standardName": "Mitogen-activated protein kinases in apoptosis regulation.",
-      "textContent": "2",
+      "textContent": "4",
       "type": [
         "PublicationXref",
         "PubMed:15077147"
@@ -5940,7 +6079,7 @@
     "author": "[MiriamBabukhian, Leadoerner, Egonw, Fehrhart, Pepinmarshall, Eweitz]",
     "comments": [
       {
-        "content": "Dravet syndrome is a rare form of epilepsy. Between 70% and 80% of patients carry sodium channel α1 subunit gene (SCN1A) loss of function mutations. Truncating mutations (early stop codon) account for about 40% and have a significant correlation with an earlier age of seizures onset. The mutations lead to haploinsufficiency of the voltage-gated sodium channel α subunit NaV1.1 in the of GABAergic inhibitory interneurons in the brain. \r\nMutations in other genes like KCNA1, CHD2, PCDH19 and STXBP1 can also lead to Dravet syndrome.",
+        "content": "Dravet syndrome is a rare form of epilepsy. Between 70% and 80% of patients carry sodium channel Î±1 subunit gene (SCN1A) loss of function mutations. Truncating mutations (early stop codon) account for about 40% and have a significant correlation with an earlier age of seizures onset. The mutations lead to haploinsufficiency of the voltage-gated sodium channel Î± subunit NaV1.1 in the of GABAergic inhibitory interneurons in the brain. \r\nMutations in other genes like KCNA1, CHD2, PCDH19 and STXBP1 can also lead to Dravet syndrome.",
         "source": "WikiPathways-description"
       }
     ],
@@ -5952,6 +6091,7 @@
       "id3098e7dc",
       "id39deca84",
       "id3ecc5d60",
+      "id49cde8b1",
       "id4a6ccc2c",
       "id4f6594fa",
       "id4fa8e7a5",
@@ -5983,6 +6123,7 @@
       "f1a83",
       "ffcb9",
       "a8a18",
+      "ab386",
       "b8838",
       "c24b9",
       "c35a6",
@@ -6040,7 +6181,7 @@
       "e8030",
       "bbbb7"
     ],
-    "dataSourceVersion": "WP5200_r134566",
+    "dataSourceVersion": "WP5200_r135747",
     "displayName": "Dravet syndrome",
     "drawAs": "rect",
     "fill": "white",
@@ -6050,7 +6191,7 @@
     "height": 864,
     "id": "WP5200",
     "kaavioType": "Group",
-    "lastModified": "20240722224907",
+    "lastModified": "20241107100307",
     "name": "Dravet syndrome",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -6059,7 +6200,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Dravet syndrome\nLast Modified: 20240722224907\nOrganism: Homo sapiens",
+    "textContent": "Name: Dravet syndrome\nLast Modified: 20241107100307\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000013"
