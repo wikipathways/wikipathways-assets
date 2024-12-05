@@ -973,6 +973,53 @@
       "y": 8,
       "zIndex": 32818
     },
+    "bab24": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25,
+      "id": "bab24",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "ROBO1",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Ensembl:ENSG00000169855",
+        "GeneProduct",
+        "CompactIdentifier:ensembl:ENSG00000169855",
+        "ROBO1",
+        "Ensembl:ENSG00000169855",
+        "Entrez Gene:6091",
+        "HGNC:ROBO1",
+        "UniProt:F8WEV8",
+        "UniProt:Q9Y6N7",
+        "UniProt:H7C545",
+        "UniProt:A0A0A0MSX4",
+        "UniProt:H7C4Y7",
+        "UniProt:A0A087WZ85"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 90,
+      "wpType": "GeneProduct",
+      "x": 45.80257762155803,
+      "xrefDataSource": "Ensembl",
+      "xrefIdentifier": "ENSG00000169855",
+      "y": 183.75073227885213,
+      "zIndex": 32768
+    },
     "bc086": {
       "comments": [
         {
@@ -3545,6 +3592,68 @@
       ],
       "zIndex": 12288
     },
+    "ida1fd92f": {
+      "citations": [
+        "publicationXrefa4a"
+      ],
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "ida1fd92f",
+      "isAttachedTo": [
+        "bab24",
+        "a7900"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "MimStimulation",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              1,
+              0.5
+            ]
+          },
+          "isAttachedTo": "bab24",
+          "orientation": [
+            1,
+            0
+          ],
+          "x": 135.80257762155804,
+          "y": 196.25073227885213
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0,
+              0.5
+            ]
+          },
+          "isAttachedTo": "a7900",
+          "orientation": [
+            1,
+            0
+          ],
+          "x": 219.51115466828594,
+          "y": 196.6158049370062
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
+      "zIndex": 12288
+    },
     "idb8c91306": {
       "citations": [
         "publicationXrefc94"
@@ -3787,6 +3896,38 @@
       ],
       "zIndex": 12288
     },
+    "publicationXrefa4a": {
+      "authors": [
+        "Rasmussen M",
+        "Sunde L",
+        "Nielsen ML",
+        "Ramsing M",
+        "Petersen A",
+        "HjortshÃ¸j TD",
+        "Olsen TE",
+        "Tabor A",
+        "Hertz JM",
+        "Johnsen I",
+        "Sperling L",
+        "Petersen OB",
+        "Jensen UB",
+        "MÃ¸ller FG",
+        "Petersen MB",
+        "Lildballe DL"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefa4a",
+      "source": "Clin Genet",
+      "standardName": "Targeted gene sequencing and whole-exome sequencing in autopsied fetuses with prenatally diagnosed kidney anomalies.",
+      "textContent": "9",
+      "type": [
+        "PublicationXref",
+        "PubMed:29194579"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "29194579",
+      "year": 2018
+    },
     "publicationXrefc1e": {
       "authors": [
         "Kozlov VM",
@@ -3796,7 +3937,7 @@
       "id": "publicationXrefc1e",
       "source": "F1000Res",
       "standardName": "Duplex kidney formation: developmental mechanisms and genetic predisposition.",
-      "textContent": "10",
+      "textContent": "11",
       "type": [
         "PublicationXref",
         "PubMed:32030122"
@@ -3816,7 +3957,7 @@
       "id": "publicationXrefc66",
       "source": "J Pathol",
       "standardName": "Expansion of the renal capsular stroma, ureteric bud branching defects and cryptorchidism in mice with Wilms tumor 1 gene deletion in the stromal compartment of the developing kidney.",
-      "textContent": "9",
+      "textContent": "10",
       "type": [
         "PublicationXref",
         "PubMed:32715478"
@@ -3947,15 +4088,15 @@
       "authors": [
         "Weber S",
         "Moriniere V",
-        "KnÃƒÆ’Ã‚Â¼ppel T",
+        "KnÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼ppel T",
         "Charbit M",
         "Dusek J",
         "Ghiggeri GM",
-        "JankauskienÃƒÆ’Ã‚Â© A",
+        "JankauskienÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â© A",
         "Mir S",
         "Montini G",
         "Peco-Antic A",
-        "WÃƒÆ’Ã‚Â¼hl E",
+        "WÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼hl E",
         "Zurowska AM",
         "Mehls O",
         "Antignac C",
@@ -3987,7 +4128,7 @@
         "Cruaud C",
         "Le Merrer M",
         "Mathieu M",
-        "KÃƒÆ’Ã‚Â¶nig R",
+        "KÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶nig R",
         "Vigneron J",
         "Weissenbach J",
         "Petit C",
@@ -4072,16 +4213,18 @@
       "af30b",
       "id8332b141",
       "d20b3",
-      "idb8c91306",
+      "ida1fd92f",
       "e4554",
-      "iddeee2b15",
+      "idb8c91306",
       "ebcb8",
+      "iddeee2b15",
       "ide9af8f7d",
       "idea3086be",
       "d52c1",
       "ab667",
       "e6a4b",
       "b1518",
+      "bab24",
       "c3e9d",
       "e940f",
       "b77ed",
@@ -4128,7 +4271,7 @@
       "c20a6",
       "fec67"
     ],
-    "dataSourceVersion": "WP4830_r135328",
+    "dataSourceVersion": "WP4830_r135960",
     "displayName": "GDNF/RET signaling axis",
     "drawAs": "rect",
     "fill": "white",
@@ -4138,7 +4281,7 @@
     "height": 709.5580110497237,
     "id": "WP4830",
     "kaavioType": "Group",
-    "lastModified": "20240822084101",
+    "lastModified": "20241204072430",
     "name": "GDNF/RET signaling axis",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -4147,7 +4290,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: GDNF/RET signaling axis\nLast Modified: 20240822084101\nOrganism: Homo sapiens",
+    "textContent": "Name: GDNF/RET signaling axis\nLast Modified: 20241204072430\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000004"
