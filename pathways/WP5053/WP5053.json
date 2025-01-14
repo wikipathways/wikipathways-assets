@@ -2362,6 +2362,53 @@
       "y": 33,
       "zIndex": 32768
     },
+    "e6b7e": {
+      "citations": [
+        "publicationXrefdbe"
+      ],
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25,
+      "id": "e6b7e",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "TGFB1",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Ensembl:ENSG00000105329",
+        "GeneProduct",
+        "CompactIdentifier:ensembl:ENSG00000105329",
+        "TGFB1",
+        "Ensembl:ENSG00000105329",
+        "Entrez Gene:7040",
+        "HGNC:TGFB1",
+        "UniProt:A0A7I2V5Z9",
+        "UniProt:A0A499FJK2",
+        "UniProt:A0A7I2YQL8"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 90,
+      "wpType": "GeneProduct",
+      "x": 723,
+      "xrefDataSource": "Ensembl",
+      "xrefIdentifier": "ENSG00000105329",
+      "y": 120.5,
+      "zIndex": 32768
+    },
     "e6ffa": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -2830,6 +2877,61 @@
       "width": 0,
       "zIndex": 12288
     },
+    "f671f": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25,
+      "id": "f671f",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "DCN",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Ensembl:ENSG00000011465",
+        "GeneProduct",
+        "CompactIdentifier:ensembl:ENSG00000011465",
+        "DCN",
+        "Ensembl:ENSG00000011465",
+        "Entrez Gene:1634",
+        "HGNC:DCN",
+        "UniProt:F8VU58",
+        "UniProt:F8VXZ8",
+        "UniProt:F8VX58",
+        "UniProt:F8VNV6",
+        "UniProt:H0YI87",
+        "UniProt:F8VWU0",
+        "UniProt:P07585",
+        "UniProt:Q6FH10",
+        "UniProt:F8VNW0",
+        "UniProt:F8VUF6",
+        "UniProt:A0A024RBG6",
+        "UniProt:A0A7I2PRI8",
+        "UniProt:F8VSI3",
+        "UniProt:H0YIH3"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 90,
+      "wpType": "GeneProduct",
+      "x": 724,
+      "xrefDataSource": "Ensembl",
+      "xrefIdentifier": "ENSG00000011465",
+      "y": 61.5,
+      "zIndex": 32768
+    },
     "f69bc": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -3103,6 +3205,16 @@
       "xrefIdentifier": "ENSG00000106571",
       "y": 304.5,
       "zIndex": 32768
+    },
+    "http://identifiers.org/cl/CL:1000497": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/cl/CL:1000497",
+      "ontology": "Cell Type",
+      "term": "kidney cell",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "CL:1000497"
     },
     "http://identifiers.org/doid/DOID:0080205": {
       "gpmlElementName": "openControlledVocabulary",
@@ -4224,6 +4336,68 @@
       ],
       "zIndex": 12288
     },
+    "id6f0a805f": {
+      "citations": [
+        "publicationXreff42"
+      ],
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "id6f0a805f",
+      "isAttachedTo": [
+        "f671f",
+        "e6b7e"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "MimStimulation",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.25,
+              1
+            ]
+          },
+          "isAttachedTo": "f671f",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 746.5,
+          "y": 86.5
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.25,
+              0
+            ]
+          },
+          "isAttachedTo": "e6b7e",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 745.5,
+          "y": 120.5
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
+      "zIndex": 12288
+    },
     "id72427a63": {
       "citations": [
         "publicationXrefb39"
@@ -4397,6 +4571,65 @@
           ],
           "x": 558.8732882362647,
           "y": 488.5467744596611
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
+      "zIndex": 12288
+    },
+    "id92f1436f": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "id92f1436f",
+      "isAttachedTo": [
+        "e6b7e",
+        "e02bc"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "MimStimulation",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "e6b7e",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 768,
+          "y": 145.5
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "e02bc",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 767.0676456030354,
+          "y": 192.20037947533456
         }
       ],
       "stroke": "#000000",
@@ -4839,6 +5072,65 @@
       "strokeWidth": 1,
       "type": [
         "GraphicalLine",
+        "Edge"
+      ],
+      "zIndex": 12288
+    },
+    "idc140ed5f": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "idc140ed5f",
+      "isAttachedTo": [
+        "f671f",
+        "e6b7e"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "MimInhibition",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.75,
+              1
+            ]
+          },
+          "isAttachedTo": "f671f",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 791.5,
+          "y": 86.5
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.75,
+              0
+            ]
+          },
+          "isAttachedTo": "e6b7e",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 790.5,
+          "y": 120.5
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
         "Edge"
       ],
       "zIndex": 12288
@@ -5302,7 +5594,7 @@
       "id": "publicationXrefa38",
       "source": "Nat Genet",
       "standardName": "Vitamin A controls epithelial/mesenchymal interactions through Ret expression.",
-      "textContent": "6",
+      "textContent": "8",
       "type": [
         "PublicationXref",
         "PubMed:11138002"
@@ -5323,7 +5615,7 @@
       "id": "publicationXrefa40",
       "source": "Mol Cell Biol",
       "standardName": "A Hox-Eya-Pax complex regulates early kidney developmental gene expression.",
-      "textContent": "20",
+      "textContent": "22",
       "type": [
         "PublicationXref",
         "PubMed:17785448"
@@ -5364,7 +5656,7 @@
       "id": "publicationXrefa43",
       "source": "Nat Genet",
       "standardName": "Fraser syndrome and mouse blebbed phenotype caused by mutations in FRAS1/Fras1 encoding a putative extracellular matrix protein.",
-      "textContent": "10",
+      "textContent": "11",
       "type": [
         "PublicationXref",
         "PubMed:12766769"
@@ -5380,7 +5672,7 @@
         "Nielsen ML",
         "Ramsing M",
         "Petersen A",
-        "HjortshÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸j TD",
+        "HjortshÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸j TD",
         "Olsen TE",
         "Tabor A",
         "Hertz JM",
@@ -5388,7 +5680,7 @@
         "Sperling L",
         "Petersen OB",
         "Jensen UB",
-        "MÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ller FG",
+        "MÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ller FG",
         "Petersen MB",
         "Lildballe DL"
       ],
@@ -5396,7 +5688,7 @@
       "id": "publicationXrefae4",
       "source": "Clin Genet",
       "standardName": "Targeted gene sequencing and whole-exome sequencing in autopsied fetuses with prenatally diagnosed kidney anomalies.",
-      "textContent": "34",
+      "textContent": "35",
       "type": [
         "PublicationXref",
         "PubMed:29194579"
@@ -5426,7 +5718,7 @@
       "id": "publicationXrefb03",
       "source": "J Med Genet",
       "standardName": "Mutations in GRIP1 cause Fraser syndrome.",
-      "textContent": "24",
+      "textContent": "25",
       "type": [
         "PublicationXref",
         "PubMed:22510445"
@@ -5461,7 +5753,7 @@
     "publicationXrefb51": {
       "authors": [
         "Michos O",
-        "GonÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§alves A",
+        "GonÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§alves A",
         "Lopez-Rios J",
         "Tiecke E",
         "Naillat F",
@@ -5474,7 +5766,7 @@
       "id": "publicationXrefb51",
       "source": "Development",
       "standardName": "Reduction of BMP4 activity by gremlin 1 enables ureteric bud outgrowth and GDNF/WNT11 feedback signalling during kidney branching morphogenesis.",
-      "textContent": "18",
+      "textContent": "19",
       "type": [
         "PublicationXref",
         "PubMed:17522159"
@@ -5493,7 +5785,7 @@
       "id": "publicationXrefbbc",
       "source": "J Am Soc Nephrol",
       "standardName": "Novel Insights into the Pathogenesis of Monogenic Congenital Anomalies of the Kidney and Urinary Tract.",
-      "textContent": "33",
+      "textContent": "34",
       "type": [
         "PublicationXref",
         "PubMed:29079659"
@@ -5513,7 +5805,7 @@
       "id": "publicationXrefbe8",
       "source": "Proc Natl Acad Sci U S A",
       "standardName": "Hoxa 11 is upstream of Integrin alpha8 expression in the developing kidney.",
-      "textContent": "8",
+      "textContent": "10",
       "type": [
         "PublicationXref",
         "PubMed:12060755"
@@ -5533,7 +5825,7 @@
       "id": "publicationXrefbfb",
       "source": "Matrix Biol",
       "standardName": "Frem3, a member of the 12 CSPG repeats-containing extracellular matrix protein family, is a basement membrane protein with tissue distribution patterns distinct from those of Fras1, Frem2, and QBRICK/Frem1.",
-      "textContent": "17",
+      "textContent": "20",
       "type": [
         "PublicationXref",
         "PubMed:17462874"
@@ -5578,7 +5870,7 @@
     "publicationXrefc4e": {
       "authors": [
         "Heidet L",
-        "MoriniÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨re V",
+        "MoriniÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨re V",
         "Henry C",
         "De Tomasi L",
         "Reilly ML",
@@ -5586,7 +5878,7 @@
         "Alibeu O",
         "Fourrage C",
         "Bole-Feysot C",
-        "NitschkÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© P",
+        "NitschkÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© P",
         "Tores F",
         "Bras M",
         "Jeanpierre M",
@@ -5607,7 +5899,7 @@
       "id": "publicationXrefc4e",
       "source": "J Am Soc Nephrol",
       "standardName": "Targeted Exome Sequencing Identifies<i>PBX1</i>as Involved in Monogenic Congenital Anomalies of the Kidney and Urinary Tract.",
-      "textContent": "29",
+      "textContent": "33",
       "type": [
         "PublicationXref",
         "PubMed:28566479"
@@ -5627,7 +5919,7 @@
       "id": "publicationXrefc57",
       "source": "Hum Mol Genet",
       "standardName": "Urogenital development in Pallister-Hall syndrome is disrupted in a cell-lineage-specific manner by constitutive expression of GLI3 repressor.",
-      "textContent": "26",
+      "textContent": "29",
       "type": [
         "PublicationXref",
         "PubMed:26604140"
@@ -5659,7 +5951,7 @@
     },
     "publicationXrefc94": {
       "authors": [
-        "BrzÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³ska HÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½",
+        "BrzÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³ska HÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½",
         "d'Esposito AM",
         "Kolatsi-Joannou M",
         "Patel V",
@@ -5675,7 +5967,7 @@
       "id": "publicationXrefc94",
       "source": "Kidney Int",
       "standardName": "Planar cell polarity genes Celsr1 and Vangl2 are necessary for kidney growth, differentiation, and rostrocaudal patterning.",
-      "textContent": "27",
+      "textContent": "28",
       "type": [
         "PublicationXref",
         "PubMed:27597235"
@@ -5694,7 +5986,7 @@
       "id": "publicationXrefc9e",
       "source": "Development",
       "standardName": "The ECM protein nephronectin promotes kidney development via integrin alpha8beta1-mediated stimulation of Gdnf expression.",
-      "textContent": "19",
+      "textContent": "21",
       "type": [
         "PublicationXref",
         "PubMed:17537792"
@@ -5713,7 +6005,7 @@
       "id": "publicationXrefce3",
       "source": "Mech Dev",
       "standardName": "The transcription factor Six2 activates expression of the Gdnf gene as well as its own promoter.",
-      "textContent": "12",
+      "textContent": "13",
       "type": [
         "PublicationXref",
         "PubMed:15327782"
@@ -5751,7 +6043,7 @@
       "id": "publicationXrefce8",
       "source": "Proc Natl Acad Sci U S A",
       "standardName": "SIX1 mutations cause branchio-oto-renal syndrome by disruption of EYA1-SIX1-DNA complexes.",
-      "textContent": "11",
+      "textContent": "14",
       "type": [
         "PublicationXref",
         "PubMed:15141091"
@@ -5770,7 +6062,7 @@
       "id": "publicationXrefcf3",
       "source": "Hum Mol Genet",
       "standardName": "Fras1, a basement membrane-associated protein mutated in Fraser syndrome, mediates both the initiation of the mammalian kidney and the integrity of renal glomeruli.",
-      "textContent": "21",
+      "textContent": "23",
       "type": [
         "PublicationXref",
         "PubMed:18787044"
@@ -5791,7 +6083,7 @@
       "id": "publicationXrefd99",
       "source": "Nat Genet",
       "standardName": "Mutations in the SALL1 putative transcription factor gene cause Townes-Brocks syndrome.",
-      "textContent": "3",
+      "textContent": "4",
       "type": [
         "PublicationXref",
         "PubMed:9425907"
@@ -5822,6 +6114,28 @@
       "xrefIdentifier": "12414726",
       "year": 2002
     },
+    "publicationXrefdbe": {
+      "authors": [
+        "Vrljicak P",
+        "Myburgh D",
+        "Ryan AK",
+        "van Rooijen MA",
+        "Mummery CL",
+        "Gupta IR"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefdbe",
+      "source": "Am J Physiol Renal Physiol",
+      "standardName": "Smad expression during kidney development.",
+      "textContent": "12",
+      "type": [
+        "PublicationXref",
+        "PubMed:14656760"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "14656760",
+      "year": 2004
+    },
     "publicationXrefde7": {
       "authors": [
         "Cain JE",
@@ -5837,7 +6151,7 @@
       "id": "publicationXrefde7",
       "source": "PLoS One",
       "standardName": "GLI3 repressor controls nephron number via regulation of Wnt11 and Ret in ureteric tip cells.",
-      "textContent": "22",
+      "textContent": "24",
       "type": [
         "PublicationXref",
         "PubMed:19809516"
@@ -5856,7 +6170,7 @@
       "id": "publicationXrefe09",
       "source": "Proc Natl Acad Sci U S A",
       "standardName": "Breakdown of the reciprocal stabilization of QBRICK/Frem1, Fras1, and Frem2 at the basement membrane provokes Fraser syndrome-like defects.",
-      "textContent": "15",
+      "textContent": "18",
       "type": [
         "PublicationXref",
         "PubMed:16880404"
@@ -5877,7 +6191,7 @@
         "Desgrange A",
         "Niel O",
         "Bole-Feysot C",
-        "NitschkÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© P",
+        "NitschkÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© P",
         "Roume J",
         "Cordier MP",
         "Pietrement C",
@@ -5903,7 +6217,7 @@
       "id": "publicationXrefe0b",
       "source": "Am J Hum Genet",
       "standardName": "Mutations in GREB1L Cause Bilateral Kidney Agenesis in Humans and Mice.",
-      "textContent": "28",
+      "textContent": "30",
       "type": [
         "PublicationXref",
         "PubMed:29100091"
@@ -5929,8 +6243,8 @@
       "gpmlElementName": "PublicationXref",
       "id": "publicationXrefe16",
       "source": "Development",
-      "standardName": "Hedgehog-GLI signaling in<i>Foxd1-</i>positive stromal cells promotes murine nephrogenesis via TGFÃƒÆ’Ã†â€™Ãƒâ€¦Ã‚Â½ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â² signaling.",
-      "textContent": "32",
+      "standardName": "Hedgehog-GLI signaling in<i>Foxd1-</i>positive stromal cells promotes murine nephrogenesis via TGFÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â² signaling.",
+      "textContent": "36",
       "type": [
         "PublicationXref",
         "PubMed:29945868"
@@ -5943,15 +6257,15 @@
       "authors": [
         "Weber S",
         "Moriniere V",
-        "KnÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ppel T",
+        "KnÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ppel T",
         "Charbit M",
         "Dusek J",
         "Ghiggeri GM",
-        "JankauskienÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© A",
+        "JankauskienÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© A",
         "Mir S",
         "Montini G",
         "Peco-Antic A",
-        "WÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼hl E",
+        "WÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼hl E",
         "Zurowska AM",
         "Mehls O",
         "Antignac C",
@@ -5962,7 +6276,7 @@
       "id": "publicationXrefe33",
       "source": "J Am Soc Nephrol",
       "standardName": "Prevalence of mutations in renal developmental genes in children with renal hypodysplasia: results of the ESCAPE study.",
-      "textContent": "14",
+      "textContent": "17",
       "type": [
         "PublicationXref",
         "PubMed:16971658"
@@ -6027,7 +6341,7 @@
       "id": "publicationXrefe9a",
       "source": "Am J Hum Genet",
       "standardName": "Exome-wide Association Study Identifies GREB1L Mutations in Congenital Kidney Malformations.",
-      "textContent": "30",
+      "textContent": "32",
       "type": [
         "PublicationXref",
         "PubMed:29100090"
@@ -6060,7 +6374,7 @@
       "authors": [
         "Schanze D",
         "Kayserili H",
-        "SatkÃ„Â±n BN",
+        "SatkÃƒÆ’Ã¢â‚¬Å¾Ãƒâ€šÃ‚Â±n BN",
         "Altunoglu U",
         "Zenker M"
       ],
@@ -6068,7 +6382,7 @@
       "id": "publicationXreff1d",
       "source": "Am J Med Genet A",
       "standardName": "Fraser syndrome due to mutations in GRIP1--clinical phenotype in two families and expansion of the mutation spectrum.",
-      "textContent": "25",
+      "textContent": "27",
       "type": [
         "PublicationXref",
         "PubMed:24357607"
@@ -6101,6 +6415,27 @@
       "xrefIdentifier": "10340754",
       "year": 1999
     },
+    "publicationXreff42": {
+      "authors": [
+        "SchÃ¶nherr E",
+        "Broszat M",
+        "Brandan E",
+        "Bruckner P",
+        "Kresse H"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXreff42",
+      "source": "Arch Biochem Biophys",
+      "standardName": "Decorin core protein fragment Leu155-Val260 interacts with TGF-beta but does not compete for decorin binding to type I collagen.",
+      "textContent": "3",
+      "type": [
+        "PublicationXref",
+        "PubMed:9675033"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "9675033",
+      "year": 1998
+    },
     "publicationXreff5a": {
       "authors": [
         "Pitera JE",
@@ -6112,7 +6447,7 @@
       "id": "publicationXreff5a",
       "source": "J Am Soc Nephrol",
       "standardName": "Sprouty1 haploinsufficiency prevents renal agenesis in a model of Fraser syndrome.",
-      "textContent": "23",
+      "textContent": "26",
       "type": [
         "PublicationXref",
         "PubMed:23064016"
@@ -6133,7 +6468,7 @@
         "Cruaud C",
         "Le Merrer M",
         "Mathieu M",
-        "KÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¶nig R",
+        "KÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¶nig R",
         "Vigneron J",
         "Weissenbach J",
         "Petit C",
@@ -6164,7 +6499,7 @@
       "id": "publicationXreffbd",
       "source": "Development",
       "standardName": "Stromal cells mediate retinoid-dependent functions essential for renal development.",
-      "textContent": "4",
+      "textContent": "6",
       "type": [
         "PublicationXref",
         "PubMed:10021334"
@@ -6196,7 +6531,7 @@
       "id": "publicationXreffde",
       "source": "Nat Genet",
       "standardName": "Identification of a new gene mutated in Fraser syndrome and mouse myelencephalic blebs.",
-      "textContent": "13",
+      "textContent": "15",
       "type": [
         "PublicationXref",
         "PubMed:15838507"
@@ -6404,7 +6739,7 @@
         "@base": "WP5053/"
       }
     ],
-    "author": "[Fehrhart, Eweitz]",
+    "author": "[Fehrhart, Eweitz, Ash iyer]",
     "comments": [
       {
         "content": "This pathway describes the gene signaling pathway active in the development of the ureteric collection system in human kidney development. Mutations in essential genes within this pathway can lead to development of CAKUT (congenital anomalies of the kidney and urinary tract).",
@@ -6422,13 +6757,16 @@
       "id56c2e2d5",
       "id584b5a3d",
       "id6d651f60",
+      "id6f0a805f",
       "id72427a63",
       "id734edbd8",
       "id77b786f5",
+      "id92f1436f",
       "id9af99ca8",
       "ida11acc17",
       "idb06538a8",
       "idbbb77d17",
+      "idc140ed5f",
       "idc373d45",
       "idd3255ac",
       "idd8cc8509",
@@ -6480,10 +6818,12 @@
       "e02bc",
       "e2c10",
       "e3325",
+      "e6b7e",
       "e79e4",
       "eaf6e",
       "eb4a2",
       "f0fd7",
+      "f671f",
       "f69bc",
       "f7577",
       "f8c2d",
@@ -6509,7 +6849,7 @@
       "b4198",
       "c44f8"
     ],
-    "dataSourceVersion": "WP5053_r135959",
+    "dataSourceVersion": "WP5053_r136210",
     "displayName": "Development of ureteric derived collecting system",
     "drawAs": "rect",
     "fill": "white",
@@ -6519,7 +6859,7 @@
     "height": 671.7926732387256,
     "id": "WP5053",
     "kaavioType": "Group",
-    "lastModified": "20241204072201",
+    "lastModified": "20250110140153",
     "name": "Development of ureteric derived collecting system",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -6528,7 +6868,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Development of ureteric derived collecting system\nLast Modified: 20241204072201\nOrganism: Homo sapiens",
+    "textContent": "Name: Development of ureteric derived collecting system\nLast Modified: 20250110140153\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000003"
