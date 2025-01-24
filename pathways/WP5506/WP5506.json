@@ -49,7 +49,7 @@
     "a1298": {
       "comments": [
         {
-          "content": "SMILES NC(=O)C1=CN2C(CC1)OC1C2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]2O[C@@H](n3cnc4c(N)ncnc43)[C@H](O)[C@@H]2O)[C@H]1O"
+          "content": "SMILES\r\nNC(=O)C1=CN2[C@@H]3O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]4O[C@@H](n5cnc6c(N)ncnc65)[C@H](O)[C@@H]4O)[C@@H](O)[C@H]3O[C@@H]2CC1"
         }
       ],
       "drawAs": "rect",
@@ -74,9 +74,9 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "InChIKey:XHATZBPBVXWMQQ-GGFUHNOESA-N",
+        "InChIKey:XHATZBPBVXWMQQ-MTKBYBFRSA-N",
         "Metabolite",
-        "CompactIdentifier:inchikey:XHATZBPBVXWMQQ-GGFUHNOESA-N",
+        "CompactIdentifier:inchikey:XHATZBPBVXWMQQ-MTKBYBFRSA-N",
         "cyclo-NADHX"
       ],
       "verticalAlign": "middle",
@@ -85,7 +85,7 @@
       "wpType": "Metabolite",
       "x": 607,
       "xrefDataSource": "InChIKey",
-      "xrefIdentifier": "XHATZBPBVXWMQQ-GGFUHNOESA-N",
+      "xrefIdentifier": "XHATZBPBVXWMQQ-MTKBYBFRSA-N",
       "y": 407.5,
       "zIndex": 32775
     },
@@ -209,6 +209,17 @@
       "zIndex": 32774
     },
     "afd58": {
+      "citations": [
+        "publicationXrefdbe"
+      ],
+      "comments": [
+        {
+          "content": "Undergoes rapic cyclization in low pH"
+        },
+        {
+          "content": "Type your comment here"
+        }
+      ],
       "drawAs": "StraightLine",
       "fill": "none",
       "gpmlElementName": "Interaction",
@@ -1499,6 +1510,14 @@
       "zIndex": 32791
     },
     "fca0e": {
+      "citations": [
+        "publicationXrefdbe"
+      ],
+      "comments": [
+        {
+          "content": "Undergoes rapid cyclization at pH < 4"
+        }
+      ],
       "drawAs": "StraightLine",
       "fill": "none",
       "gpmlElementName": "Interaction",
@@ -2418,7 +2437,7 @@
       "id": "publicationXrefabe",
       "source": "Biochemistry",
       "standardName": "Equilibrium of 5,6-hydration of NADH and mechanism of ATP-dependent dehydration.",
-      "textContent": "1",
+      "textContent": "2",
       "type": [
         "PublicationXref",
         "PubMed:3061454"
@@ -2443,7 +2462,7 @@
       "id": "publicationXrefb45",
       "source": "Mol Genet Metab",
       "standardName": "NAXE deficiency: A neurometabolic disorder of NAD(P)HX repair amenable for metabolic correction.",
-      "textContent": "5",
+      "textContent": "6",
       "type": [
         "PublicationXref",
         "PubMed:35637064"
@@ -2463,7 +2482,7 @@
       "gpmlElementName": "PublicationXref",
       "id": "publicationXrefcdb",
       "standardName": "Physician's Guide to the Diagnosis, Treatment, and Follow-Up of Inherited Metabolic Diseases",
-      "textContent": "4",
+      "textContent": "5",
       "type": [
         "PublicationXref",
         "PubMed:10.1007/978-3-030-67727-5"
@@ -2471,6 +2490,24 @@
       "xrefDataSource": "PubMed",
       "xrefIdentifier": "10.1007/978-3-030-67727-5",
       "year": 2022
+    },
+    "publicationXrefdbe": {
+      "authors": [
+        "Oppenheimer NJ",
+        "Kaplan NO"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefdbe",
+      "source": "Biochemistry",
+      "standardName": "Structure of the primary acid rearrangement product of reduced nicotinamide adenine dinucleotide (NADH).",
+      "textContent": "1",
+      "type": [
+        "PublicationXref",
+        "PubMed:4371814"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "4371814",
+      "year": 1974
     },
     "publicationXrefeca": {
       "authors": [
@@ -2495,7 +2532,7 @@
       "id": "publicationXrefeca",
       "source": "Am J Hum Genet",
       "standardName": "Bi-allelic Mutations in NADSYN1 Cause Multiple Organ Defects and Expand the Genotypic Spectrum of Congenital NAD Deficiency Disorders.",
-      "textContent": "3",
+      "textContent": "4",
       "type": [
         "PublicationXref",
         "PubMed:31883644"
@@ -2546,7 +2583,7 @@
       "id": "publicationXrefeec",
       "source": "Brain",
       "standardName": "NAD(P)HX dehydratase (NAXD) deficiency: a novel neurodegenerative disorder exacerbated by febrile illnesses.",
-      "textContent": "2",
+      "textContent": "3",
       "type": [
         "PublicationXref",
         "PubMed:30576410"
@@ -2620,7 +2657,7 @@
       "f9be5",
       "f2383"
     ],
-    "dataSourceVersion": "WP5506_r136162",
+    "dataSourceVersion": "WP5506_r136300",
     "displayName": "Disorders of NAD metabolism",
     "drawAs": "rect",
     "fill": "white",
@@ -2630,7 +2667,7 @@
     "height": 580,
     "id": "WP5506",
     "kaavioType": "Group",
-    "lastModified": "20241220164911",
+    "lastModified": "20250123143637",
     "name": "Disorders of NAD metabolism",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -2639,7 +2676,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Disorders of NAD metabolism\nLast Modified: 20241220164911\nOrganism: Homo sapiens",
+    "textContent": "Name: Disorders of NAD metabolism\nLast Modified: 20250123143637\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000013"
