@@ -24,16 +24,45 @@
         "DataNode",
         "SingleFreeNode",
         "miRBase mature sequence:MIMAT0002852",
-        "RNA"
+        "Rna"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 89.81773997569873,
-      "wpType": "RNA",
+      "wpType": "Rna",
       "x": 230.86269744836034,
       "xrefDataSource": "miRBase mature sequence",
       "xrefIdentifier": "MIMAT0002852",
       "y": 66.54921020656145,
+      "zIndex": 32768
+    },
+    "a4704": {
+      "contains": [
+        "d07b7",
+        "f31b9"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 56,
+      "id": "a4704",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 73.01093560145809,
+      "x": 114.7217496962346,
+      "y": 290.6269744835964,
       "zIndex": 32768
     },
     "a6245": {
@@ -77,35 +106,6 @@
       "xrefDataSource": "Ensembl",
       "xrefIdentifier": "ENSG00000124762",
       "y": 308.3475091130014,
-      "zIndex": 32768
-    },
-    "b1247": {
-      "contains": [
-        "d07b7",
-        "f31b9"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 56,
-      "id": "b1247",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 73.01093560145809,
-      "x": 114.7217496962346,
-      "y": 290.6269744835964,
       "zIndex": 32768
     },
     "b492b": {
@@ -180,7 +180,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "d07b7",
-      "isPartOf": "b1247",
+      "isPartOf": "a4704",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -312,7 +312,7 @@
       "gpmlElementName": "DataNode",
       "height": 19.999999999999975,
       "id": "f31b9",
-      "isPartOf": "b1247",
+      "isPartOf": "a4704",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -363,7 +363,7 @@
       "id": "id1248fdcd",
       "isAttachedTo": [
         "dc550",
-        "b1247"
+        "a4704"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -379,7 +379,6 @@
               1
             ]
           },
-          "id": "beaab",
           "isAttachedTo": "dc550",
           "orientation": [
             0,
@@ -399,8 +398,7 @@
               0
             ]
           },
-          "id": "e1617",
-          "isAttachedTo": "b1247",
+          "isAttachedTo": "a4704",
           "orientation": [
             0,
             1
@@ -444,7 +442,6 @@
               0.5
             ]
           },
-          "id": "bc5ab",
           "isAttachedTo": "a6245",
           "orientation": [
             1,
@@ -464,7 +461,6 @@
               0.5
             ]
           },
-          "id": "d5fc6",
           "isAttachedTo": "b492b",
           "orientation": [
             1,
@@ -488,7 +484,7 @@
       "gpmlElementName": "Interaction",
       "id": "id39f2e108",
       "isAttachedTo": [
-        "b1247",
+        "a4704",
         "a6245"
       ],
       "kaavioType": "Edge",
@@ -505,8 +501,7 @@
               0.5
             ]
           },
-          "id": "e420c",
-          "isAttachedTo": "b1247",
+          "isAttachedTo": "a4704",
           "orientation": [
             1,
             0
@@ -525,7 +520,6 @@
               0.5
             ]
           },
-          "id": "baa91",
           "isAttachedTo": "a6245",
           "orientation": [
             1,
@@ -566,7 +560,6 @@
               1
             ]
           },
-          "id": "f29e0",
           "isAttachedTo": "a1ea8",
           "orientation": [
             0,
@@ -590,7 +583,6 @@
               0
             ]
           },
-          "id": "a21b9",
           "isAttachedTo": "e5e24",
           "orientation": [
             0,
@@ -631,7 +623,6 @@
               1
             ]
           },
-          "id": "dbc17",
           "isAttachedTo": "a1ea8",
           "orientation": [
             0,
@@ -655,7 +646,6 @@
               0
             ]
           },
-          "id": "ccf12",
           "isAttachedTo": "dc550",
           "orientation": [
             0,
@@ -696,7 +686,6 @@
               1
             ]
           },
-          "id": "fdb6d",
           "isAttachedTo": "e5e24",
           "orientation": [
             0,
@@ -716,7 +705,6 @@
               0
             ]
           },
-          "id": "f9e0b",
           "isAttachedTo": "b7d34",
           "orientation": [
             0,
@@ -784,36 +772,36 @@
     "author": "[Khanspers, Ryanmiller, Mkutmon]",
     "comments": [
       {
-        "content": "Schematic summarizing predicted miR-517a relationships with ARCN1 and USP1.\r\n\r\nA genomewide miRNA mimic toxicity screen indicates common and selective vulnerabilities of epithelial ovarian cancer cells. miR-517a targets a common vulnerability, primarily via its target ARCN1.\r\n\r\nProteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3596 CPTAC Assay Portal].",
+        "content": "Schematic summarizing predicted miR-517a relationships with ARCN1 and USP1.\r\n\r\nA genomewide miRNA mimic toxicity screen indicates common and selective vulnerabilities of epithelial ovarian cancer cells. miR-517a targets a common vulnerability, primarily via its target ARCN1.\r\n\r\nProteins on this pathway have targeted assays available via the [Assay Portal](https://assays.cancer.gov/available_assays?wp_id=WP3596 CPTAC).",
         "source": "WikiPathways-description"
       }
     ],
     "contains": [
-      "id916949df",
-      "id53b70276",
-      "idb11c7c85",
       "id1368493e",
+      "id53b70276",
+      "id916949df",
+      "idb11c7c85",
       "id1248fdcd",
       "id39f2e108",
       "b7d34",
+      "a1ea8",
+      "a6245",
       "dc550",
       "e5e24",
-      "a6245",
-      "a1ea8",
-      "b1247",
+      "a4704",
       "b492b"
     ],
-    "dataSourceVersion": "WP3596_r105860",
+    "dataSourceVersion": "WP3596_r137164",
     "displayName": "miR-517 relationship with ARCN1 and USP1",
     "drawAs": "rect",
     "fill": "white",
     "fontSize": 12,
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
-    "height": 376.6269744835964,
+    "height": 368.6269744835964,
     "id": "WP3596",
     "kaavioType": "Group",
-    "lastModified": "20190815232020",
+    "lastModified": "20250228010345",
     "name": "miR-517 relationship with ARCN1 and USP1",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -822,7 +810,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: miR-517 relationship with ARCN1 and USP1\nLast Modified: 20190815232020\nOrganism: Homo sapiens",
+    "textContent": "Name: miR-517 relationship with ARCN1 and USP1\nLast Modified: 20250228010345\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000004"
