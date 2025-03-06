@@ -88,7 +88,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "a425f",
-      "isPartOf": "c19b7",
+      "isPartOf": "bea24",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -192,7 +192,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "a706b",
-      "isPartOf": "c19b7",
+      "isPartOf": "bea24",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -365,14 +365,11 @@
         "Entrez Gene:4609",
         "HGNC:MYC",
         "UniProt:H0YBG3",
-        "UniProt:H0YBT0",
         "UniProt:Q16591",
         "UniProt:A0A494C1T8",
         "UniProt:Q14899",
         "UniProt:A0A0B4J1R1",
-        "UniProt:P01106",
-        "UniProt:A0A024R9L7",
-        "UniProt:A0A087WUS5"
+        "UniProt:P01106"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -437,7 +434,7 @@
       "gpmlElementName": "Shape",
       "height": 38.5,
       "id": "acdb7",
-      "isPartOf": "c19b7",
+      "isPartOf": "bea24",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -827,14 +824,11 @@
         "Entrez Gene:4609",
         "HGNC:MYC",
         "UniProt:H0YBG3",
-        "UniProt:H0YBT0",
         "UniProt:Q16591",
         "UniProt:A0A494C1T8",
         "UniProt:Q14899",
         "UniProt:A0A0B4J1R1",
-        "UniProt:P01106",
-        "UniProt:A0A024R9L7",
-        "UniProt:A0A087WUS5"
+        "UniProt:P01106"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -855,12 +849,10 @@
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "f9edf",
           "x": 694,
           "y": 25
         },
         {
-          "id": "bbf8f",
           "x": 752,
           "y": 25
         }
@@ -1335,12 +1327,10 @@
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "fd0f9",
           "x": 764,
           "y": 24
         },
         {
-          "id": "c67fc",
           "x": 822,
           "y": 24
         }
@@ -1401,6 +1391,38 @@
       "xrefIdentifier": "25",
       "y": 1473,
       "zIndex": 32768
+    },
+    "bea24": {
+      "contains": [
+        "acdb7",
+        "a425f",
+        "a706b",
+        "ca836",
+        "d4897"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 54.5,
+      "id": "bea24",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 623,
+      "x": 213,
+      "y": -3.5,
+      "zIndex": 16384
     },
     "bee63": {
       "drawAs": "rect",
@@ -1486,38 +1508,6 @@
       "xrefIdentifier": "ENSG00000207864",
       "y": 1361.25,
       "zIndex": 32768
-    },
-    "c19b7": {
-      "contains": [
-        "acdb7",
-        "a425f",
-        "a706b",
-        "ca836",
-        "d4897"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 54.5,
-      "id": "c19b7",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 623,
-      "x": 213,
-      "y": -3.5,
-      "zIndex": 16384
     },
     "c20c1": {
       "drawAs": "rect",
@@ -1981,7 +1971,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "ca836",
-      "isPartOf": "c19b7",
+      "isPartOf": "bea24",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2585,7 +2575,7 @@
       "gpmlElementName": "Label",
       "height": 20,
       "id": "d4897",
-      "isPartOf": "c19b7",
+      "isPartOf": "bea24",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -4232,15 +4222,13 @@
       "gpmlElementName": "GraphicalLine",
       "id": "f7af0",
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
-          "id": "dc647",
           "x": 632,
           "y": 25
         },
         {
-          "id": "cc7d7",
           "x": 690,
           "y": 25
         }
@@ -4249,7 +4237,9 @@
       "strokeWidth": 1,
       "type": [
         "GraphicalLine",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 12288
     },
@@ -4483,7 +4473,6 @@
               0.5
             ]
           },
-          "id": "e4380",
           "isAttachedTo": "ae6b3",
           "orientation": [
             1,
@@ -4503,7 +4492,6 @@
               0.5
             ]
           },
-          "id": "de9a8",
           "isAttachedTo": "d3af3",
           "orientation": [
             1,
@@ -4549,7 +4537,6 @@
               0.5
             ]
           },
-          "id": "a5738",
           "isAttachedTo": "a4fa7",
           "orientation": [
             1,
@@ -4569,7 +4556,6 @@
               0.5
             ]
           },
-          "id": "cb2e1",
           "isAttachedTo": "b475e",
           "orientation": [
             1,
@@ -4615,7 +4601,6 @@
               0.5
             ]
           },
-          "id": "c04be",
           "isAttachedTo": "c2c02",
           "orientation": [
             1,
@@ -4635,7 +4620,6 @@
               0.5
             ]
           },
-          "id": "aa767",
           "isAttachedTo": "c9123",
           "orientation": [
             1,
@@ -4684,7 +4668,6 @@
               0.5
             ]
           },
-          "id": "a20a4",
           "isAttachedTo": "c5e70",
           "orientation": [
             1,
@@ -4704,7 +4687,6 @@
               0.5
             ]
           },
-          "id": "ba7b8",
           "isAttachedTo": "daee3",
           "orientation": [
             1,
@@ -4752,7 +4734,6 @@
               0.5
             ]
           },
-          "id": "bd595",
           "isAttachedTo": "df8b2",
           "orientation": [
             1,
@@ -4772,7 +4753,6 @@
               0.5
             ]
           },
-          "id": "b903d",
           "isAttachedTo": "be324",
           "orientation": [
             1,
@@ -4816,7 +4796,6 @@
               0.5
             ]
           },
-          "id": "fa67a",
           "isAttachedTo": "c73f2",
           "orientation": [
             1,
@@ -4836,7 +4815,6 @@
               0.5
             ]
           },
-          "id": "b8a6d",
           "isAttachedTo": "bee63",
           "orientation": [
             1,
@@ -4877,7 +4855,6 @@
               0.5
             ]
           },
-          "id": "c0e4c",
           "isAttachedTo": "f1914",
           "orientation": [
             1,
@@ -4897,7 +4874,6 @@
               0.5
             ]
           },
-          "id": "e2db3",
           "isAttachedTo": "e72ed",
           "orientation": [
             1,
@@ -4943,7 +4919,6 @@
               0.5
             ]
           },
-          "id": "ee3f7",
           "isAttachedTo": "b0fb5",
           "orientation": [
             1,
@@ -4963,7 +4938,6 @@
               0.5
             ]
           },
-          "id": "cc952",
           "isAttachedTo": "d4272",
           "orientation": [
             1,
@@ -5012,7 +4986,6 @@
               0.5
             ]
           },
-          "id": "cbab5",
           "isAttachedTo": "e0961",
           "orientation": [
             1,
@@ -5032,7 +5005,6 @@
               0.5
             ]
           },
-          "id": "b29b9",
           "isAttachedTo": "e1e89",
           "orientation": [
             1,
@@ -5063,7 +5035,7 @@
         "bee63"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -5076,7 +5048,6 @@
               0.5
             ]
           },
-          "id": "e50b4",
           "isAttachedTo": "d763c",
           "orientation": [
             1,
@@ -5096,7 +5067,6 @@
               0.5
             ]
           },
-          "id": "b0b67",
           "isAttachedTo": "bee63",
           "orientation": [
             1,
@@ -5110,7 +5080,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 12288
     },
@@ -5140,7 +5112,6 @@
               0.5
             ]
           },
-          "id": "f40af",
           "isAttachedTo": "b74e5",
           "orientation": [
             1,
@@ -5160,7 +5131,6 @@
               0.5
             ]
           },
-          "id": "bb7cb",
           "isAttachedTo": "fe0f4",
           "orientation": [
             1,
@@ -5204,7 +5174,6 @@
               0.5
             ]
           },
-          "id": "cfa59",
           "isAttachedTo": "a9ac7",
           "orientation": [
             1,
@@ -5224,7 +5193,6 @@
               0.5
             ]
           },
-          "id": "f293e",
           "isAttachedTo": "d5bb9",
           "orientation": [
             1,
@@ -5265,7 +5233,6 @@
               0.5
             ]
           },
-          "id": "bb4ca",
           "isAttachedTo": "d5bb9",
           "orientation": [
             1,
@@ -5285,7 +5252,6 @@
               0.5
             ]
           },
-          "id": "b918e",
           "isAttachedTo": "b0b59",
           "orientation": [
             1,
@@ -5334,7 +5300,6 @@
               0.5
             ]
           },
-          "id": "fb051",
           "isAttachedTo": "b9d23",
           "orientation": [
             1,
@@ -5354,7 +5319,6 @@
               0.5
             ]
           },
-          "id": "c69ac",
           "isAttachedTo": "d51f1",
           "orientation": [
             1,
@@ -5398,7 +5362,6 @@
               0.5
             ]
           },
-          "id": "f3ed5",
           "isAttachedTo": "f0825",
           "orientation": [
             1,
@@ -5418,7 +5381,6 @@
               0.5
             ]
           },
-          "id": "dcecd",
           "isAttachedTo": "bee63",
           "orientation": [
             1,
@@ -5462,7 +5424,6 @@
               0.5
             ]
           },
-          "id": "fd901",
           "isAttachedTo": "a9668",
           "orientation": [
             1,
@@ -5482,7 +5443,6 @@
               0.5
             ]
           },
-          "id": "b815e",
           "isAttachedTo": "cc19d",
           "orientation": [
             1,
@@ -5530,7 +5490,6 @@
               0.5
             ]
           },
-          "id": "afb21",
           "isAttachedTo": "cb230",
           "orientation": [
             1,
@@ -5550,7 +5509,6 @@
               0.5
             ]
           },
-          "id": "ca731",
           "isAttachedTo": "efafa",
           "orientation": [
             1,
@@ -5591,7 +5549,6 @@
               0.5
             ]
           },
-          "id": "fe2f6",
           "isAttachedTo": "e74d6",
           "orientation": [
             1,
@@ -5611,7 +5568,6 @@
               0.5
             ]
           },
-          "id": "db4ec",
           "isAttachedTo": "cf284",
           "orientation": [
             1,
@@ -5657,7 +5613,6 @@
               0.5
             ]
           },
-          "id": "c76be",
           "isAttachedTo": "ed2f6",
           "orientation": [
             1,
@@ -5677,7 +5632,6 @@
               0.5
             ]
           },
-          "id": "a0e11",
           "isAttachedTo": "f27b3",
           "orientation": [
             1,
@@ -5723,7 +5677,6 @@
               0.5
             ]
           },
-          "id": "a3f6b",
           "isAttachedTo": "c453a",
           "orientation": [
             1,
@@ -5743,7 +5696,6 @@
               0.5
             ]
           },
-          "id": "cce9b",
           "isAttachedTo": "cd770",
           "orientation": [
             1,
@@ -5793,7 +5745,6 @@
               0.5
             ]
           },
-          "id": "e3b1e",
           "isAttachedTo": "a9668",
           "orientation": [
             1,
@@ -5813,7 +5764,6 @@
               0.5
             ]
           },
-          "id": "d15de",
           "isAttachedTo": "a4fa7",
           "orientation": [
             1,
@@ -5858,7 +5808,6 @@
               0.5
             ]
           },
-          "id": "d0057",
           "isAttachedTo": "fa130",
           "orientation": [
             1,
@@ -5878,7 +5827,6 @@
               0.5
             ]
           },
-          "id": "ca728",
           "isAttachedTo": "decbb",
           "orientation": [
             1,
@@ -5924,7 +5872,6 @@
               0.5
             ]
           },
-          "id": "b1aaf",
           "isAttachedTo": "daee3",
           "orientation": [
             1,
@@ -5944,7 +5891,6 @@
               0.5
             ]
           },
-          "id": "ff733",
           "isAttachedTo": "d3de4",
           "orientation": [
             1,
@@ -5990,7 +5936,6 @@
               0.5
             ]
           },
-          "id": "ca182",
           "isAttachedTo": "cc19d",
           "orientation": [
             1,
@@ -6010,7 +5955,6 @@
               0.5
             ]
           },
-          "id": "a5210",
           "isAttachedTo": "cd827",
           "orientation": [
             1,
@@ -6056,7 +6000,6 @@
               0.5
             ]
           },
-          "id": "fe0c9",
           "isAttachedTo": "f1914",
           "orientation": [
             1,
@@ -6076,7 +6019,6 @@
               0.5
             ]
           },
-          "id": "d3feb",
           "isAttachedTo": "b609a",
           "orientation": [
             1,
@@ -6125,7 +6067,6 @@
               0.5
             ]
           },
-          "id": "ab89b",
           "isAttachedTo": "a9ac7",
           "orientation": [
             1,
@@ -6145,7 +6086,6 @@
               0.5
             ]
           },
-          "id": "c77fb",
           "isAttachedTo": "e86ce",
           "orientation": [
             1,
@@ -6189,7 +6129,6 @@
               0.5
             ]
           },
-          "id": "f4df8",
           "isAttachedTo": "cedd1",
           "orientation": [
             1,
@@ -6209,7 +6148,6 @@
               0.5
             ]
           },
-          "id": "fc604",
           "isAttachedTo": "efafa",
           "orientation": [
             1,
@@ -6250,7 +6188,6 @@
               0.5
             ]
           },
-          "id": "dbdbb",
           "isAttachedTo": "d05f3",
           "orientation": [
             1,
@@ -6270,7 +6207,6 @@
               0.5
             ]
           },
-          "id": "e91bd",
           "isAttachedTo": "d97d4",
           "orientation": [
             1,
@@ -6319,7 +6255,6 @@
               0.5
             ]
           },
-          "id": "d9aec",
           "isAttachedTo": "fe6c9",
           "orientation": [
             1,
@@ -6339,7 +6274,6 @@
               0.5
             ]
           },
-          "id": "c022c",
           "isAttachedTo": "f531e",
           "orientation": [
             1,
@@ -6370,7 +6304,7 @@
         "ecca3"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -6383,7 +6317,6 @@
               0.5
             ]
           },
-          "id": "b5e2f",
           "isAttachedTo": "f0825",
           "orientation": [
             1,
@@ -6403,7 +6336,6 @@
               0.5
             ]
           },
-          "id": "c7c09",
           "isAttachedTo": "ecca3",
           "orientation": [
             1,
@@ -6417,7 +6349,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 12288
     },
@@ -6444,7 +6378,6 @@
               0.5
             ]
           },
-          "id": "f4df0",
           "isAttachedTo": "cc19d",
           "orientation": [
             1,
@@ -6464,7 +6397,6 @@
               0.5
             ]
           },
-          "id": "cf2e6",
           "isAttachedTo": "b3838",
           "orientation": [
             1,
@@ -6510,7 +6442,6 @@
               0.5
             ]
           },
-          "id": "bdd88",
           "isAttachedTo": "daee3",
           "orientation": [
             1,
@@ -6530,7 +6461,6 @@
               0.5
             ]
           },
-          "id": "a7b04",
           "isAttachedTo": "f5042",
           "orientation": [
             1,
@@ -6576,7 +6506,6 @@
               0.5
             ]
           },
-          "id": "c4719",
           "isAttachedTo": "d5bb9",
           "orientation": [
             1,
@@ -6596,7 +6525,6 @@
               0.5
             ]
           },
-          "id": "a8d2f",
           "isAttachedTo": "f6d41",
           "orientation": [
             1,
@@ -6645,7 +6573,6 @@
               0.5
             ]
           },
-          "id": "dae23",
           "isAttachedTo": "a9ac7",
           "orientation": [
             1,
@@ -6665,7 +6592,6 @@
               0.5
             ]
           },
-          "id": "bed8e",
           "isAttachedTo": "b76ec",
           "orientation": [
             1,
@@ -6709,7 +6635,6 @@
               0.5
             ]
           },
-          "id": "bab9d",
           "isAttachedTo": "e04d7",
           "orientation": [
             1,
@@ -6729,7 +6654,6 @@
               0.5
             ]
           },
-          "id": "f4d4f",
           "isAttachedTo": "b506f",
           "orientation": [
             1,
@@ -6770,7 +6694,6 @@
               0.5
             ]
           },
-          "id": "aab48",
           "isAttachedTo": "b76ec",
           "orientation": [
             1,
@@ -6790,7 +6713,6 @@
               0.5
             ]
           },
-          "id": "f1193",
           "isAttachedTo": "b6fc4",
           "orientation": [
             1,
@@ -6836,7 +6758,6 @@
               0.5
             ]
           },
-          "id": "eaac1",
           "isAttachedTo": "a4fa7",
           "orientation": [
             1,
@@ -6856,7 +6777,6 @@
               0.5
             ]
           },
-          "id": "e2f7d",
           "isAttachedTo": "cf4b5",
           "orientation": [
             1,
@@ -6902,7 +6822,6 @@
               0.5
             ]
           },
-          "id": "adb95",
           "isAttachedTo": "d06a5",
           "orientation": [
             1,
@@ -6922,7 +6841,6 @@
               0.5
             ]
           },
-          "id": "df654",
           "isAttachedTo": "ee28a",
           "orientation": [
             1,
@@ -6971,7 +6889,6 @@
               0.5
             ]
           },
-          "id": "eb447",
           "isAttachedTo": "a9668",
           "orientation": [
             1,
@@ -6991,7 +6908,6 @@
               0.5
             ]
           },
-          "id": "dda10",
           "isAttachedTo": "d5bb9",
           "orientation": [
             1,
@@ -7036,7 +6952,6 @@
               0.5
             ]
           },
-          "id": "ebb54",
           "isAttachedTo": "b0fb5",
           "orientation": [
             1,
@@ -7056,7 +6971,6 @@
               0.5
             ]
           },
-          "id": "aabf1",
           "isAttachedTo": "d97d4",
           "orientation": [
             1,
@@ -7106,7 +7020,6 @@
               0.5
             ]
           },
-          "id": "d8299",
           "isAttachedTo": "d3af3",
           "orientation": [
             1,
@@ -7126,7 +7039,6 @@
               0.5
             ]
           },
-          "id": "bdb1f",
           "isAttachedTo": "d15d4",
           "orientation": [
             1,
@@ -7167,7 +7079,6 @@
               0.5
             ]
           },
-          "id": "e497c",
           "isAttachedTo": "ba73b",
           "orientation": [
             1,
@@ -7187,7 +7098,6 @@
               0.5
             ]
           },
-          "id": "db18a",
           "isAttachedTo": "df8b2",
           "orientation": [
             1,
@@ -7233,7 +7143,6 @@
               0.5
             ]
           },
-          "id": "eca50",
           "isAttachedTo": "c2c02",
           "orientation": [
             1,
@@ -7253,7 +7162,6 @@
               0.5
             ]
           },
-          "id": "ab6b9",
           "isAttachedTo": "cedd1",
           "orientation": [
             1,
@@ -7302,7 +7210,6 @@
               0.5
             ]
           },
-          "id": "d69aa",
           "isAttachedTo": "b69b6",
           "orientation": [
             1,
@@ -7322,7 +7229,6 @@
               0.5
             ]
           },
-          "id": "d2be4",
           "isAttachedTo": "efafa",
           "orientation": [
             1,
@@ -7363,7 +7269,6 @@
               0.5
             ]
           },
-          "id": "c18ba",
           "isAttachedTo": "d5cbf",
           "orientation": [
             1,
@@ -7383,7 +7288,6 @@
               0.5
             ]
           },
-          "id": "b0c61",
           "isAttachedTo": "e5645",
           "orientation": [
             1,
@@ -7433,7 +7337,6 @@
               0.5
             ]
           },
-          "id": "ccfb6",
           "isAttachedTo": "f26a8",
           "orientation": [
             1,
@@ -7453,7 +7356,6 @@
               0.5
             ]
           },
-          "id": "f1f41",
           "isAttachedTo": "cac6b",
           "orientation": [
             1,
@@ -7502,7 +7404,6 @@
               0.5
             ]
           },
-          "id": "a60d3",
           "isAttachedTo": "cedd1",
           "orientation": [
             1,
@@ -7522,7 +7423,6 @@
               0.5
             ]
           },
-          "id": "ff0b0",
           "isAttachedTo": "c95d7",
           "orientation": [
             1,
@@ -7563,7 +7463,6 @@
               0.5
             ]
           },
-          "id": "a1587",
           "isAttachedTo": "a4ad8",
           "orientation": [
             1,
@@ -7583,7 +7482,6 @@
               0.5
             ]
           },
-          "id": "c072d",
           "isAttachedTo": "b6fc4",
           "orientation": [
             1,
@@ -7632,7 +7530,6 @@
               0.5
             ]
           },
-          "id": "e02e9",
           "isAttachedTo": "cedd1",
           "orientation": [
             1,
@@ -7652,7 +7549,6 @@
               0.5
             ]
           },
-          "id": "e5e3f",
           "isAttachedTo": "d93b5",
           "orientation": [
             1,
@@ -7698,7 +7594,6 @@
               0.5
             ]
           },
-          "id": "d4a6c",
           "isAttachedTo": "f26a8",
           "orientation": [
             1,
@@ -7718,7 +7613,6 @@
               0.5
             ]
           },
-          "id": "f5a98",
           "isAttachedTo": "c3fdd",
           "orientation": [
             1,
@@ -7763,7 +7657,6 @@
               0.5
             ]
           },
-          "id": "ec9c9",
           "isAttachedTo": "daee3",
           "orientation": [
             1,
@@ -7783,7 +7676,6 @@
               0.5
             ]
           },
-          "id": "dcfef",
           "isAttachedTo": "f47ca",
           "orientation": [
             1,
@@ -7829,7 +7721,6 @@
               0.5
             ]
           },
-          "id": "c2c2f",
           "isAttachedTo": "e6562",
           "orientation": [
             1,
@@ -7849,7 +7740,6 @@
               0.5
             ]
           },
-          "id": "a6f4b",
           "isAttachedTo": "b9d23",
           "orientation": [
             1,
@@ -7895,7 +7785,6 @@
               0.5
             ]
           },
-          "id": "bcf25",
           "isAttachedTo": "fa130",
           "orientation": [
             1,
@@ -7915,7 +7804,6 @@
               0.5
             ]
           },
-          "id": "a40c0",
           "isAttachedTo": "cd827",
           "orientation": [
             1,
@@ -7961,7 +7849,6 @@
               0.5
             ]
           },
-          "id": "bfb14",
           "isAttachedTo": "a4ad8",
           "orientation": [
             1,
@@ -7981,7 +7868,6 @@
               0.5
             ]
           },
-          "id": "a530e",
           "isAttachedTo": "c73f2",
           "orientation": [
             1,
@@ -8027,7 +7913,6 @@
               0.5
             ]
           },
-          "id": "f7d7d",
           "isAttachedTo": "bac39",
           "orientation": [
             1,
@@ -8047,7 +7932,6 @@
               0.5
             ]
           },
-          "id": "b400f",
           "isAttachedTo": "fe6c9",
           "orientation": [
             1,
@@ -8096,7 +7980,6 @@
               0.5
             ]
           },
-          "id": "a2043",
           "isAttachedTo": "f47ca",
           "orientation": [
             1,
@@ -8116,7 +7999,6 @@
               0.5
             ]
           },
-          "id": "d8c69",
           "isAttachedTo": "f531e",
           "orientation": [
             1,
@@ -8160,7 +8042,6 @@
               0.5
             ]
           },
-          "id": "dcae7",
           "isAttachedTo": "a9ac7",
           "orientation": [
             1,
@@ -8180,7 +8061,6 @@
               0.5
             ]
           },
-          "id": "f42f3",
           "isAttachedTo": "c2c02",
           "orientation": [
             1,
@@ -8224,7 +8104,6 @@
               0.5
             ]
           },
-          "id": "d53ea",
           "isAttachedTo": "a9668",
           "orientation": [
             1,
@@ -8244,7 +8123,6 @@
               0.5
             ]
           },
-          "id": "f63c7",
           "isAttachedTo": "a7a20",
           "orientation": [
             1,
@@ -8289,7 +8167,6 @@
               0.5
             ]
           },
-          "id": "c8a58",
           "isAttachedTo": "f71bf",
           "orientation": [
             1,
@@ -8309,7 +8186,6 @@
               0.5
             ]
           },
-          "id": "d09b5",
           "isAttachedTo": "b74e5",
           "orientation": [
             1,
@@ -8358,7 +8234,6 @@
               0.5
             ]
           },
-          "id": "b9275",
           "isAttachedTo": "f4950",
           "orientation": [
             1,
@@ -8378,7 +8253,6 @@
               0.5
             ]
           },
-          "id": "e1202",
           "isAttachedTo": "f531e",
           "orientation": [
             1,
@@ -8419,7 +8293,6 @@
               0.5
             ]
           },
-          "id": "f8ae5",
           "isAttachedTo": "c453a",
           "orientation": [
             1,
@@ -8439,7 +8312,6 @@
               0.5
             ]
           },
-          "id": "d4e5a",
           "isAttachedTo": "bc632",
           "orientation": [
             1,
@@ -8488,7 +8360,6 @@
               0.5
             ]
           },
-          "id": "e99a7",
           "isAttachedTo": "cf284",
           "orientation": [
             1,
@@ -8508,7 +8379,6 @@
               0.5
             ]
           },
-          "id": "ec887",
           "isAttachedTo": "ecca3",
           "orientation": [
             1,
@@ -8549,7 +8419,6 @@
               0.5
             ]
           },
-          "id": "e1714",
           "isAttachedTo": "d05f3",
           "orientation": [
             1,
@@ -8569,7 +8438,6 @@
               0.5
             ]
           },
-          "id": "fca94",
           "isAttachedTo": "d4272",
           "orientation": [
             1,
@@ -8615,7 +8483,6 @@
               0.5
             ]
           },
-          "id": "b1ee0",
           "isAttachedTo": "c453a",
           "orientation": [
             1,
@@ -8635,7 +8502,6 @@
               0.5
             ]
           },
-          "id": "bbd84",
           "isAttachedTo": "b69b6",
           "orientation": [
             1,
@@ -8681,7 +8547,6 @@
               0.5
             ]
           },
-          "id": "e775b",
           "isAttachedTo": "daee3",
           "orientation": [
             1,
@@ -8701,7 +8566,6 @@
               0.5
             ]
           },
-          "id": "c8642",
           "isAttachedTo": "f4950",
           "orientation": [
             1,
@@ -8750,7 +8614,6 @@
               0.5
             ]
           },
-          "id": "e5e05",
           "isAttachedTo": "ee28a",
           "orientation": [
             1,
@@ -8770,7 +8633,6 @@
               0.5
             ]
           },
-          "id": "e2d60",
           "isAttachedTo": "b027a",
           "orientation": [
             1,
@@ -8814,7 +8676,6 @@
               0.5
             ]
           },
-          "id": "e4ce1",
           "isAttachedTo": "d4272",
           "orientation": [
             1,
@@ -8834,7 +8695,6 @@
               0.5
             ]
           },
-          "id": "b30f4",
           "isAttachedTo": "d15d4",
           "orientation": [
             1,
@@ -8875,7 +8735,6 @@
               0.5
             ]
           },
-          "id": "a7460",
           "isAttachedTo": "b76ec",
           "orientation": [
             1,
@@ -8895,7 +8754,6 @@
               0.5
             ]
           },
-          "id": "dd6bf",
           "isAttachedTo": "d763c",
           "orientation": [
             1,
@@ -8944,7 +8802,6 @@
               0.5
             ]
           },
-          "id": "afdcd",
           "isAttachedTo": "e72ed",
           "orientation": [
             1,
@@ -8964,7 +8821,6 @@
               0.5
             ]
           },
-          "id": "fd444",
           "isAttachedTo": "fe0f4",
           "orientation": [
             1,
@@ -9005,7 +8861,6 @@
               0.5
             ]
           },
-          "id": "b3999",
           "isAttachedTo": "c453a",
           "orientation": [
             1,
@@ -9025,7 +8880,6 @@
               0.5
             ]
           },
-          "id": "f4941",
           "isAttachedTo": "b04f0",
           "orientation": [
             1,
@@ -9071,7 +8925,6 @@
               0.5
             ]
           },
-          "id": "ab666",
           "isAttachedTo": "a7a20",
           "orientation": [
             1,
@@ -9091,7 +8944,6 @@
               0.5
             ]
           },
-          "id": "f1f5d",
           "isAttachedTo": "f2809",
           "orientation": [
             1,
@@ -9140,7 +8992,6 @@
               0.5
             ]
           },
-          "id": "bb8cb",
           "isAttachedTo": "a9ac7",
           "orientation": [
             1,
@@ -9160,7 +9011,6 @@
               0.5
             ]
           },
-          "id": "a8bb9",
           "isAttachedTo": "daee3",
           "orientation": [
             1,
@@ -9205,7 +9055,6 @@
               0.5
             ]
           },
-          "id": "dfa05",
           "isAttachedTo": "e86ce",
           "orientation": [
             1,
@@ -9225,7 +9074,6 @@
               0.5
             ]
           },
-          "id": "f698c",
           "isAttachedTo": "cb230",
           "orientation": [
             1,
@@ -9271,7 +9119,6 @@
               0.5
             ]
           },
-          "id": "e6f02",
           "isAttachedTo": "c3fdd",
           "orientation": [
             1,
@@ -9291,7 +9138,6 @@
               0.5
             ]
           },
-          "id": "b8eb2",
           "isAttachedTo": "e0961",
           "orientation": [
             1,
@@ -9337,7 +9183,6 @@
               0.5
             ]
           },
-          "id": "d7ada",
           "isAttachedTo": "a13cf",
           "orientation": [
             1,
@@ -9357,7 +9202,6 @@
               0.5
             ]
           },
-          "id": "f1e9a",
           "isAttachedTo": "b6f69",
           "orientation": [
             1,
@@ -9403,7 +9247,6 @@
               0.5
             ]
           },
-          "id": "b23f8",
           "isAttachedTo": "a4fa7",
           "orientation": [
             1,
@@ -9423,7 +9266,6 @@
               0.5
             ]
           },
-          "id": "d9290",
           "isAttachedTo": "d6d24",
           "orientation": [
             1,
@@ -9469,7 +9311,6 @@
               0.5
             ]
           },
-          "id": "eb0de",
           "isAttachedTo": "d06a5",
           "orientation": [
             1,
@@ -9489,7 +9330,6 @@
               0.5
             ]
           },
-          "id": "c2067",
           "isAttachedTo": "bae50",
           "orientation": [
             1,
@@ -9525,7 +9365,7 @@
         "c20c1"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -9538,7 +9378,6 @@
               0.5
             ]
           },
-          "id": "e8067",
           "isAttachedTo": "f47ca",
           "orientation": [
             1,
@@ -9558,7 +9397,6 @@
               0.5
             ]
           },
-          "id": "e66b7",
           "isAttachedTo": "c20c1",
           "orientation": [
             1,
@@ -9572,7 +9410,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 12288
     },
@@ -9599,7 +9439,6 @@
               0.5
             ]
           },
-          "id": "bc028",
           "isAttachedTo": "daee3",
           "orientation": [
             1,
@@ -9619,7 +9458,6 @@
               0.5
             ]
           },
-          "id": "e4bdc",
           "isAttachedTo": "a0543",
           "orientation": [
             1,
@@ -9665,7 +9503,6 @@
               0.5
             ]
           },
-          "id": "f6d63",
           "isAttachedTo": "cc19d",
           "orientation": [
             1,
@@ -9685,7 +9522,6 @@
               0.5
             ]
           },
-          "id": "b1925",
           "isAttachedTo": "abba7",
           "orientation": [
             1,
@@ -9731,7 +9567,6 @@
               0.5
             ]
           },
-          "id": "a0cb5",
           "isAttachedTo": "a7a20",
           "orientation": [
             1,
@@ -9751,7 +9586,6 @@
               0.5
             ]
           },
-          "id": "caea2",
           "isAttachedTo": "cedd1",
           "orientation": [
             1,
@@ -9800,7 +9634,6 @@
               0.5
             ]
           },
-          "id": "a2016",
           "isAttachedTo": "b6fc4",
           "orientation": [
             1,
@@ -9820,7 +9653,6 @@
               0.5
             ]
           },
-          "id": "aa6eb",
           "isAttachedTo": "bee63",
           "orientation": [
             1,
@@ -9861,7 +9693,6 @@
               0.5
             ]
           },
-          "id": "fb641",
           "isAttachedTo": "ae6b3",
           "orientation": [
             1,
@@ -9881,7 +9712,6 @@
               0.5
             ]
           },
-          "id": "e2dfa",
           "isAttachedTo": "ed216",
           "orientation": [
             1,
@@ -9930,7 +9760,6 @@
               0.5
             ]
           },
-          "id": "e58f4",
           "isAttachedTo": "a9668",
           "orientation": [
             1,
@@ -9950,7 +9779,6 @@
               0.5
             ]
           },
-          "id": "cb3ca",
           "isAttachedTo": "daee3",
           "orientation": [
             1,
@@ -9998,7 +9826,6 @@
               0.5
             ]
           },
-          "id": "ef43a",
           "isAttachedTo": "c9123",
           "orientation": [
             1,
@@ -10018,7 +9845,6 @@
               0.5
             ]
           },
-          "id": "dc56f",
           "isAttachedTo": "ecca3",
           "orientation": [
             1,
@@ -10062,7 +9888,6 @@
               0.5
             ]
           },
-          "id": "f37ed",
           "isAttachedTo": "cedd1",
           "orientation": [
             1,
@@ -10082,7 +9907,6 @@
               0.5
             ]
           },
-          "id": "a0ca1",
           "isAttachedTo": "ecca3",
           "orientation": [
             1,
@@ -10123,7 +9947,6 @@
               0.5
             ]
           },
-          "id": "e88cd",
           "isAttachedTo": "ed2f6",
           "orientation": [
             1,
@@ -10143,7 +9966,6 @@
               0.5
             ]
           },
-          "id": "c6fa7",
           "isAttachedTo": "b9d23",
           "orientation": [
             1,
@@ -10189,7 +10011,6 @@
               0.5
             ]
           },
-          "id": "ddd67",
           "isAttachedTo": "e6562",
           "orientation": [
             1,
@@ -10209,7 +10030,6 @@
               0.5
             ]
           },
-          "id": "a07f3",
           "isAttachedTo": "b47de",
           "orientation": [
             1,
@@ -10258,7 +10078,6 @@
               0.5
             ]
           },
-          "id": "b5a83",
           "isAttachedTo": "b6f69",
           "orientation": [
             1,
@@ -10278,7 +10097,6 @@
               0.5
             ]
           },
-          "id": "edf12",
           "isAttachedTo": "f531e",
           "orientation": [
             1,
@@ -10319,7 +10137,6 @@
               0.5
             ]
           },
-          "id": "c2dbb",
           "isAttachedTo": "c453a",
           "orientation": [
             1,
@@ -10339,7 +10156,6 @@
               0.5
             ]
           },
-          "id": "b3284",
           "isAttachedTo": "c9d2a",
           "orientation": [
             1,
@@ -10385,7 +10201,6 @@
               0.5
             ]
           },
-          "id": "f8023",
           "isAttachedTo": "cac6b",
           "orientation": [
             1,
@@ -10405,7 +10220,6 @@
               0.5
             ]
           },
-          "id": "a771f",
           "isAttachedTo": "c33ae",
           "orientation": [
             1,
@@ -10454,7 +10268,6 @@
               0.5
             ]
           },
-          "id": "a2bd2",
           "isAttachedTo": "b475e",
           "orientation": [
             1,
@@ -10474,7 +10287,6 @@
               0.5
             ]
           },
-          "id": "db24b",
           "isAttachedTo": "c20c1",
           "orientation": [
             1,
@@ -10515,7 +10327,6 @@
               0.5
             ]
           },
-          "id": "bda73",
           "isAttachedTo": "daee3",
           "orientation": [
             1,
@@ -10535,7 +10346,6 @@
               0.5
             ]
           },
-          "id": "dd12b",
           "isAttachedTo": "e1424",
           "orientation": [
             1,
@@ -10585,7 +10395,6 @@
               0.5
             ]
           },
-          "id": "f43e7",
           "isAttachedTo": "ed216",
           "orientation": [
             1,
@@ -10605,7 +10414,6 @@
               0.5
             ]
           },
-          "id": "fb0e6",
           "isAttachedTo": "d15d4",
           "orientation": [
             1,
@@ -10646,7 +10454,6 @@
               0.5
             ]
           },
-          "id": "d3d2b",
           "isAttachedTo": "e6562",
           "orientation": [
             1,
@@ -10666,7 +10473,6 @@
               0.5
             ]
           },
-          "id": "c15d9",
           "isAttachedTo": "bf55b",
           "orientation": [
             1,
@@ -10712,7 +10518,6 @@
               0.5
             ]
           },
-          "id": "c2574",
           "isAttachedTo": "e6562",
           "orientation": [
             1,
@@ -10732,7 +10537,6 @@
               0.5
             ]
           },
-          "id": "d9bc9",
           "isAttachedTo": "ef529",
           "orientation": [
             1,
@@ -10778,7 +10582,6 @@
               0.5
             ]
           },
-          "id": "cf0f2",
           "isAttachedTo": "e86ce",
           "orientation": [
             1,
@@ -10798,7 +10601,6 @@
               0.5
             ]
           },
-          "id": "e4839",
           "isAttachedTo": "ebd2c",
           "orientation": [
             1,
@@ -10844,7 +10646,6 @@
               0.5
             ]
           },
-          "id": "bedf0",
           "isAttachedTo": "c3fdd",
           "orientation": [
             1,
@@ -10864,7 +10665,6 @@
               0.5
             ]
           },
-          "id": "ec44c",
           "isAttachedTo": "e7c66",
           "orientation": [
             1,
@@ -10910,7 +10710,6 @@
               0.5
             ]
           },
-          "id": "ba40a",
           "isAttachedTo": "cac6b",
           "orientation": [
             1,
@@ -10930,7 +10729,6 @@
               0.5
             ]
           },
-          "id": "d3f79",
           "isAttachedTo": "e04d7",
           "orientation": [
             1,
@@ -10976,7 +10774,6 @@
               0.5
             ]
           },
-          "id": "a2160",
           "isAttachedTo": "d5bb9",
           "orientation": [
             1,
@@ -10996,7 +10793,6 @@
               0.5
             ]
           },
-          "id": "f7577",
           "isAttachedTo": "f0825",
           "orientation": [
             1,
@@ -11042,7 +10838,6 @@
               0.5
             ]
           },
-          "id": "b839d",
           "isAttachedTo": "ed2f6",
           "orientation": [
             1,
@@ -11062,7 +10857,6 @@
               0.5
             ]
           },
-          "id": "ff014",
           "isAttachedTo": "c7719",
           "orientation": [
             1,
@@ -11108,7 +10902,6 @@
               0.5
             ]
           },
-          "id": "f0f08",
           "isAttachedTo": "d5cbf",
           "orientation": [
             1,
@@ -11128,7 +10921,6 @@
               0.5
             ]
           },
-          "id": "fa090",
           "isAttachedTo": "cd827",
           "orientation": [
             1,
@@ -11174,7 +10966,6 @@
               0.5
             ]
           },
-          "id": "b6bb4",
           "isAttachedTo": "f1914",
           "orientation": [
             1,
@@ -11194,7 +10985,6 @@
               0.5
             ]
           },
-          "id": "ca5bb",
           "isAttachedTo": "a7ee5",
           "orientation": [
             1,
@@ -11243,7 +11033,6 @@
               0.5
             ]
           },
-          "id": "d8b9b",
           "isAttachedTo": "a9ac7",
           "orientation": [
             1,
@@ -11263,7 +11052,6 @@
               0.5
             ]
           },
-          "id": "ecf45",
           "isAttachedTo": "cc19d",
           "orientation": [
             1,
@@ -11319,7 +11107,7 @@
       "id": "publicationXrefa64",
       "source": "EMBO J",
       "standardName": "MicroRNA-mediated gene silencing modulates the UV-induced DNA-damage response.",
-      "textContent": "20",
+      "textContent": "14",
       "type": [
         "PublicationXref",
         "PubMed:19536137"
@@ -11344,7 +11132,7 @@
       "id": "publicationXrefa81",
       "source": "Nat Struct Mol Biol",
       "standardName": "miR-24-mediated downregulation of H2AX suppresses DNA repair in terminally differentiated blood cells.",
-      "textContent": "16",
+      "textContent": "18",
       "type": [
         "PublicationXref",
         "PubMed:19377482"
@@ -11372,7 +11160,7 @@
       "id": "publicationXrefb2c",
       "source": "J Cell Biol",
       "standardName": "A cyclin D1/microRNA 17/20 regulatory feedback loop in control of breast cancer cell proliferation.",
-      "textContent": "6",
+      "textContent": "12",
       "type": [
         "PublicationXref",
         "PubMed:18695042"
@@ -11395,7 +11183,7 @@
       "id": "publicationXrefb86",
       "source": "Genes Dev",
       "standardName": "miR-449a and miR-449b are direct transcriptional targets of E2F1 and negatively regulate pRb-E2F1 activity through a feedback loop by targeting CDK6 and CDC25A.",
-      "textContent": "17",
+      "textContent": "23",
       "type": [
         "PublicationXref",
         "PubMed:19833767"
@@ -11453,7 +11241,7 @@
       "id": "publicationXrefc1b",
       "source": "Blood",
       "standardName": "microRNA expression profile and identification of miR-29 as a prognostic marker and pathogenetic factor by targeting CDK6 in mantle cell lymphoma.",
-      "textContent": "24",
+      "textContent": "29",
       "type": [
         "PublicationXref",
         "PubMed:20086245"
@@ -11478,7 +11266,7 @@
       "id": "publicationXrefc49",
       "source": "Nat Genet",
       "standardName": "Widespread microRNA repression by Myc contributes to tumorigenesis.",
-      "textContent": "8",
+      "textContent": "13",
       "type": [
         "PublicationXref",
         "PubMed:18066065"
@@ -11500,7 +11288,7 @@
       "id": "publicationXrefcab",
       "source": "Mol Cell Biol",
       "standardName": "Multiple E2F-induced microRNAs prevent replicative stress in response to mitogenic signaling.",
-      "textContent": "25",
+      "textContent": "24",
       "type": [
         "PublicationXref",
         "PubMed:20404092"
@@ -11525,7 +11313,7 @@
       "id": "publicationXrefd19",
       "source": "Proc Natl Acad Sci U S A",
       "standardName": "p53 represses c-Myc through induction of the tumor suppressor miR-145.",
-      "textContent": "19",
+      "textContent": "22",
       "type": [
         "PublicationXref",
         "PubMed:19202062"
@@ -11546,7 +11334,7 @@
       "id": "publicationXrefd32",
       "source": "Cancer Res",
       "standardName": "MicroRNA-34b and MicroRNA-34c are targets of p53 and cooperate in control of cell proliferation and adhesion-independent growth.",
-      "textContent": "3",
+      "textContent": "5",
       "type": [
         "PublicationXref",
         "PubMed:17823410"
@@ -11573,7 +11361,7 @@
       "id": "publicationXrefd8c",
       "source": "Oncogene",
       "standardName": "MiR-221 controls CDKN1C/p57 and CDKN1B/p27 expression in human hepatocellular carcinoma.",
-      "textContent": "11",
+      "textContent": "6",
       "type": [
         "PublicationXref",
         "PubMed:18521080"
@@ -11608,7 +11396,7 @@
       "id": "publicationXrefd8f",
       "source": "Mol Syst Biol",
       "standardName": "p53-Repressed miRNAs are involved with E2F in a feed-forward loop promoting proliferation.",
-      "textContent": "10",
+      "textContent": "11",
       "type": [
         "PublicationXref",
         "PubMed:19034270"
@@ -11682,7 +11470,7 @@
       "id": "publicationXrefdba",
       "source": "Oncogene",
       "standardName": "MicroRNA-330 acts as tumor suppressor and induces apoptosis of prostate cancer cells through E2F1-mediated suppression of Akt phosphorylation.",
-      "textContent": "18",
+      "textContent": "19",
       "type": [
         "PublicationXref",
         "PubMed:19597470"
@@ -11706,7 +11494,7 @@
       "id": "publicationXrefdfa",
       "source": "J Biol Chem",
       "standardName": "An E2F/miR-20a autoregulatory feedback loop.",
-      "textContent": "4",
+      "textContent": "3",
       "type": [
         "PublicationXref",
         "PubMed:17135249"
@@ -11726,7 +11514,7 @@
       "id": "publicationXrefe84",
       "source": "Cancer Res",
       "standardName": "miR-34b targets cyclic AMP-responsive element binding protein in acute myeloid leukemia.",
-      "textContent": "14",
+      "textContent": "20",
       "type": [
         "PublicationXref",
         "PubMed:19258499"
@@ -11785,7 +11573,7 @@
       "id": "publicationXrefebc",
       "source": "Cell Cycle",
       "standardName": "MiR-34, SIRT1 and p53: the feedback loop.",
-      "textContent": "21",
+      "textContent": "17",
       "type": [
         "PublicationXref",
         "PubMed:19221490"
@@ -11809,7 +11597,7 @@
       "id": "publicationXrefed2",
       "source": "Cancer Res",
       "standardName": "The miR-17-92 microRNA polycistron regulates MLL leukemia stem cell potential by modulating p21 expression.",
-      "textContent": "29",
+      "textContent": "27",
       "type": [
         "PublicationXref",
         "PubMed:20406979"
@@ -11852,7 +11640,7 @@
       "id": "publicationXrefee6",
       "source": "J Biol Chem",
       "standardName": "Direct regulation of an oncogenic micro-RNA cluster by E2F transcription factors.",
-      "textContent": "5",
+      "textContent": "4",
       "type": [
         "PublicationXref",
         "PubMed:17135268"
@@ -11877,7 +11665,7 @@
       "id": "publicationXreff0d",
       "source": "Cancer Cell",
       "standardName": "Genetic and epigenetic silencing of microRNA-203 enhances ABL1 and BCR-ABL1 oncogene expression.",
-      "textContent": "7",
+      "textContent": "8",
       "type": [
         "PublicationXref",
         "PubMed:18538733"
@@ -11905,7 +11693,7 @@
       "id": "publicationXreff46",
       "source": "Mol Cell Biol",
       "standardName": "MicroRNAs in the miR-106b family regulate p21/CDKN1A and promote cell cycle progression.",
-      "textContent": "13",
+      "textContent": "7",
       "type": [
         "PublicationXref",
         "PubMed:18212054"
@@ -11924,7 +11712,7 @@
       "id": "publicationXreff9c",
       "source": "Mol Cell Biol",
       "standardName": "miR-181a regulates cap-dependent translation of p27(kip1) mRNA in myeloid cells.",
-      "textContent": "23",
+      "textContent": "16",
       "type": [
         "PublicationXref",
         "PubMed:19273599"
@@ -11947,7 +11735,7 @@
       "id": "publicationXreffd7",
       "source": "J Clin Invest",
       "standardName": "MicroRNA15a modulates expression of the cell-cycle regulator Cdc25A and affects hepatic cystogenesis in a rat model of polycystic kidney disease.",
-      "textContent": "12",
+      "textContent": "10",
       "type": [
         "PublicationXref",
         "PubMed:18949056"
@@ -11973,7 +11761,7 @@
       "id": "publicationXreffd9",
       "source": "Cancer Res",
       "standardName": "microRNA-21 negatively regulates Cdc25A and cell cycle progression in colon cancer cells.",
-      "textContent": "22",
+      "textContent": "21",
       "type": [
         "PublicationXref",
         "PubMed:19826040"
@@ -11993,7 +11781,7 @@
       "id": "publicationXreffff",
       "source": "J Cell Biol",
       "standardName": "MicroRNA control of podosome formation in vascular smooth muscle cells in vivo and in vitro.",
-      "textContent": "27",
+      "textContent": "25",
       "type": [
         "PublicationXref",
         "PubMed:20351064"
@@ -12013,11 +11801,11 @@
     "author": "[J.krumeich, Khanspers, MaintBot, MartijnVanIersel, Andra, Mkutmon, Egonw, Susan]",
     "comments": [
       {
-        "content": "MicroRNA clusters involved in de DNA damage response. Genes they regulated and genes that regulate them. All genes presented in this pathway can also be found in the pathway \"DNA damage response(Homo sapiens)\". More info can be found there.\r\n\r\nProteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP1545 CPTAC Assay Portal].",
-        "source": "WikiPathways-description"
+        "content": "This pathway show all microRNA gene cluster involed in the wikipathway pathway \"DNA damage response (Homo sapiens)\". More info can be found there."
       },
       {
-        "content": "This pathway show all microRNA gene cluster involed in the wikipathway pathway \"DNA damage response (Homo sapiens)\". More info can be found there."
+        "content": "MicroRNA clusters involved in de DNA damage response. Genes they regulated and genes that regulate them. All genes presented in this pathway can also be found in the pathway \"DNA damage response(Homo sapiens)\". More info can be found there.\r\n\r\nProteins on this pathway have targeted assays available via the [CPTAC Assay Portal](https://assays.cancer.gov/available_assays?wp_id=WP1545).",
+        "source": "WikiPathways-description"
       }
     ],
     "contains": [
@@ -12128,7 +11916,7 @@
       "idf8e4e151",
       "idfcb7f4cf",
       "idff933f78",
-      "c19b7",
+      "bea24",
       "d839b",
       "f8704",
       "fed36",
@@ -12231,7 +12019,7 @@
       "fe0f4",
       "fe6c9"
     ],
-    "dataSourceVersion": "WP1545_r118363",
+    "dataSourceVersion": "WP1545_r137606",
     "displayName": "miRNAs involved in DNA damage response",
     "drawAs": "rect",
     "fill": "white",
@@ -12241,7 +12029,7 @@
     "height": 1579.25,
     "id": "WP1545",
     "kaavioType": "Group",
-    "lastModified": "20210527134309",
+    "lastModified": "20250305175627",
     "name": "miRNAs involved in DNA damage response",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -12250,14 +12038,14 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: miRNAs involved in DNA damage response\nLast Modified: 20210527134309\nOrganism: Homo sapiens",
+    "textContent": "Name: miRNAs involved in DNA damage response\nLast Modified: 20250305175627\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000099",
       "http://identifiers.org/pw/PW:0000808"
     ],
     "verticalAlign": "top",
-    "width": 866,
+    "width": 858,
     "x": 0,
     "y": 0,
     "zIndex": 0
