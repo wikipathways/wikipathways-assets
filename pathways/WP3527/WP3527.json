@@ -839,8 +839,10 @@
         "Entrez Gene:3159",
         "HGNC:HMGA1",
         "UniProt:A0A669KAX1",
+        "UniProt:A0A994J434",
         "UniProt:P17096",
-        "UniProt:Q5T6U8"
+        "UniProt:Q5T6U8",
+        "UniProt:A0A994J705"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1881,10 +1883,10 @@
         "UniProt:Q53YC7",
         "UniProt:H0YLF5",
         "UniProt:H0YLB0",
+        "UniProt:A0A8V8TPF7",
         "UniProt:H0YLD4",
         "UniProt:H0YLT4",
         "UniProt:S4R377",
-        "UniProt:A0A0A0MTI0",
         "UniProt:A1MJ41",
         "UniProt:H0YLM3",
         "UniProt:H0YKH1"
@@ -3593,6 +3595,7 @@
         "HGNC:GATA3",
         "UniProt:P23771",
         "UniProt:A0A2R8Y4T2",
+        "UniProt:A0A994J6H6",
         "UniProt:A0A2R8Y2A9"
       ],
       "verticalAlign": "middle",
@@ -3962,6 +3965,7 @@
         "UniProt:A0A2R8YFK5",
         "UniProt:A0A2R8Y7R0",
         "UniProt:A0A2R8YDA1",
+        "UniProt:A0A994J4Z2",
         "UniProt:A0A2R8Y4P4",
         "UniProt:A0A2R8Y4R6",
         "UniProt:A0A2R8Y6N0",
@@ -3969,6 +3973,7 @@
         "UniProt:A0A2R8YF80",
         "UniProt:A0A2R8Y5K3",
         "UniProt:A0A2R8YCY3",
+        "UniProt:A0A994J6Y9",
         "UniProt:K7EQF0",
         "UniProt:A0A2R8Y4C5",
         "UniProt:A0A2R8YGP5",
@@ -5488,6 +5493,9 @@
         "HGNC:GATA2",
         "UniProt:A0A1D5RMQ8",
         "UniProt:P23769",
+        "UniProt:A0A8Q3WMC3",
+        "UniProt:A0A8Q3WLD0",
+        "UniProt:A0A8Q3SJG7",
         "UniProt:C9J965"
       ],
       "verticalAlign": "middle",
@@ -5937,7 +5945,9 @@
         "Entrez Gene:3662",
         "HGNC:IRF4",
         "UniProt:F2Z3D5",
-        "UniProt:Q15306"
+        "UniProt:Q15306",
+        "UniProt:A0A8Q3WLL3",
+        "UniProt:A0A8Q3WLQ3"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -6198,7 +6208,9 @@
         "Ensembl:ENSG00000178928",
         "Entrez Gene:284355",
         "HGNC:TPRX1",
-        "UniProt:D2CFI5"
+        "UniProt:D2CFI5",
+        "UniProt:A0A8V8TM49",
+        "UniProt:A0A8V8TMK4"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -8014,7 +8026,7 @@
     "author": "[Nsalomonis, Mkutmon, Khanspers, Susan, MaintBot, Fehrhart, Marvin M2, Eweitz]",
     "comments": [
       {
-        "content": "The source of this pathway is RNA-Seq data from single-cell pre-implantation embryos, Supplemental Table 1 from [http://www.nature.com/nsmb/journal/v20/n9/full/nsmb.2660.html Yan et al.]\r\n\r\nAnalysis options for running the single-cell analysis workflow in AltAnalyze (ICGS):\r\n* For optimal filtering (not too restrictive), change the Fold change filter cutoff from 10 to 100 and the Minimum number of samples differing from 3 to 2.\r\n* Change the Select the column clustering method to hopach.\r\n* The final ICGS cell cluster groups (hopach) were further analyzed to identify genes with restricted expression in one of the identified sub-populations using the MarkerFinder algorithm in AltAnalyze (RPKM>1). \r\n* MarkerFinder identified genes for each sub-population (e.g., 8-cell pattern 1) were further filtered for DNA-binding and RNA-binding factors, that are reported in this pathway.\r\n\r\nProteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3527 CPTAC Assay Portal]",
+        "content": "The source of this pathway is RNA-Seq data from single-cell pre-implantation embryos, Supplemental Table 1 from [Yan et al.](http://www.nature.com/nsmb/journal/v20/n9/full/nsmb.2660.html).\r\n\r\nAnalysis options for running the single-cell analysis workflow in AltAnalyze (ICGS):\r\n* For optimal filtering (not too restrictive), change the Fold change filter cutoff from 10 to 100 and the Minimum number of samples differing from 3 to 2.\r\n* Change the Select the column clustering method to hopach.\r\n* The final ICGS cell cluster groups (hopach) were further analyzed to identify genes with restricted expression in one of the identified sub-populations using the MarkerFinder algorithm in AltAnalyze (RPKM>1). \r\n* MarkerFinder identified genes for each sub-population (e.g., 8-cell pattern 1) were further filtered for DNA-binding and RNA-binding factors, that are reported in this pathway.\r\n\r\nProteins on this pathway have targeted assays available via the [CPTAC Assay Portal](https://assays.cancer.gov/available_assays?wp_id=WP3527).",
         "source": "WikiPathways-description"
       }
     ],
@@ -8220,7 +8232,7 @@
       "d2f3b",
       "e6b82"
     ],
-    "dataSourceVersion": "WP3527_r126527",
+    "dataSourceVersion": "WP3527_r137760",
     "displayName": "Pre-implantation embryo",
     "drawAs": "rect",
     "fill": "white",
@@ -8230,7 +8242,7 @@
     "height": 623,
     "id": "WP3527",
     "kaavioType": "Group",
-    "lastModified": "20230524195137",
+    "lastModified": "20250307183350",
     "name": "Pre-implantation embryo",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -8239,11 +8251,11 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Pre-implantation embryo\nLast Modified: 20230524195137\nOrganism: Homo sapiens",
+    "textContent": "Name: Pre-implantation embryo\nLast Modified: 20250307183350\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0000004",
-      "http://identifiers.org/pw/PW:0000650"
+      "http://identifiers.org/pw/PW:0000650",
+      "http://identifiers.org/pw/PW:0000004"
     ],
     "verticalAlign": "top",
     "width": 1296.3333333333323,
