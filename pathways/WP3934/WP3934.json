@@ -1,27 +1,5 @@
 {
   "entitiesById": {
-    "766288": {
-      "__HighlandStream__": true,
-      "_can_drain": false,
-      "_consume_waiting_for_next": false,
-      "_consumers": [],
-      "_delegate": null,
-      "_destructors": [],
-      "_events": {},
-      "_eventsCount": 2,
-      "_in_consume_cb": false,
-      "_incoming": [],
-      "_is_observer": false,
-      "_nil_pushed": false,
-      "_observers": [],
-      "_outgoing": [],
-      "_repeat_resume": false,
-      "_send_events": false,
-      "id": "766288",
-      "paused": true,
-      "source": null,
-      "writable": true
-    },
     "a0e5a": {
       "burrs": [
         "c0729"
@@ -48,7 +26,6 @@
               0.5
             ]
           },
-          "id": "ff18d",
           "isAttachedTo": "c7407",
           "orientation": [
             -1,
@@ -68,7 +45,6 @@
               0.5
             ]
           },
-          "id": "ea5d5",
           "isAttachedTo": "b99a3",
           "orientation": [
             -1,
@@ -97,11 +73,11 @@
       "gpmlElementName": "Interaction",
       "id": "a609c",
       "isAttachedTo": [
-        "bd2d8",
+        "e8407",
         "d931c"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -114,8 +90,7 @@
               1
             ]
           },
-          "id": "cf4cb",
-          "isAttachedTo": "bd2d8",
+          "isAttachedTo": "e8407",
           "orientation": [
             0,
             1
@@ -134,7 +109,6 @@
               0
             ]
           },
-          "id": "aef42",
           "isAttachedTo": "d931c",
           "orientation": [
             0,
@@ -148,7 +122,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 12288
     },
@@ -284,7 +260,6 @@
               1
             ]
           },
-          "id": "b3fee",
           "isAttachedTo": "d931c",
           "orientation": [
             0,
@@ -305,7 +280,6 @@
               0
             ]
           },
-          "id": "dabc7",
           "isAttachedTo": "ac231",
           "orientation": [],
           "x": 529,
@@ -330,7 +304,7 @@
         "e683e"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -343,7 +317,6 @@
               1
             ]
           },
-          "id": "c55a6",
           "isAttachedTo": "fe4e5",
           "orientation": [
             0,
@@ -363,7 +336,6 @@
               0.5
             ]
           },
-          "id": "e2e24",
           "isAttachedTo": "e683e",
           "orientation": [
             -1,
@@ -377,7 +349,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 12288
     },
@@ -423,36 +397,6 @@
       "y": 610,
       "zIndex": 32768
     },
-    "bd2d8": {
-      "contains": [
-        "bd895",
-        "be7c2",
-        "e197d"
-      ],
-      "drawAs": "Octagon",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 84,
-      "id": "bd2d8",
-      "kaavioType": "Group",
-      "padding": 11,
-      "stroke": "#808080",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "Complex",
-        "GroupComplex"
-      ],
-      "verticalAlign": "middle",
-      "width": 104,
-      "x": 477,
-      "y": 288,
-      "zIndex": 32768
-    },
     "bd895": {
       "comments": [
         {
@@ -469,7 +413,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "bd895",
-      "isPartOf": "bd2d8",
+      "isPartOf": "e8407",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -519,7 +463,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "be7c2",
-      "isPartOf": "bd2d8",
+      "isPartOf": "e8407",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -607,7 +551,6 @@
               0.5
             ]
           },
-          "id": "e1424",
           "isAttachedTo": "de8e5",
           "orientation": [
             1,
@@ -627,7 +570,6 @@
               0.5
             ]
           },
-          "id": "f80a5",
           "isAttachedTo": "fe4e5",
           "orientation": [
             1,
@@ -656,7 +598,7 @@
       "id": "c4106",
       "isAttachedTo": [
         "e4d8f",
-        "bd2d8"
+        "e8407"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -672,7 +614,6 @@
               1
             ]
           },
-          "id": "b367a",
           "isAttachedTo": "e4d8f",
           "orientation": [
             0,
@@ -692,8 +633,7 @@
               0.5
             ]
           },
-          "id": "c4b94",
-          "isAttachedTo": "bd2d8",
+          "isAttachedTo": "e8407",
           "orientation": [
             1,
             0
@@ -911,7 +851,6 @@
               1
             ]
           },
-          "id": "c76ef",
           "isAttachedTo": "f9953",
           "orientation": [
             0,
@@ -931,7 +870,6 @@
               0
             ]
           },
-          "id": "c9665",
           "isAttachedTo": "c7cbc",
           "orientation": [
             0,
@@ -960,7 +898,7 @@
       "id": "ce400",
       "isAttachedTo": [
         "c7cbc",
-        "bd2d8"
+        "e8407"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -976,7 +914,6 @@
               1
             ]
           },
-          "id": "eaf1e",
           "isAttachedTo": "c7cbc",
           "orientation": [
             0,
@@ -996,8 +933,7 @@
               0
             ]
           },
-          "id": "d2310",
-          "isAttachedTo": "bd2d8",
+          "isAttachedTo": "e8407",
           "orientation": [
             0,
             1
@@ -1025,7 +961,7 @@
       "id": "d844c",
       "isAttachedTo": [
         "b383b",
-        "bd2d8"
+        "e8407"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -1041,7 +977,6 @@
               1
             ]
           },
-          "id": "e086a",
           "isAttachedTo": "b383b",
           "orientation": [
             0,
@@ -1061,8 +996,7 @@
               0
             ]
           },
-          "id": "bc14d",
-          "isAttachedTo": "bd2d8",
+          "isAttachedTo": "e8407",
           "orientation": [
             0,
             1
@@ -1106,7 +1040,6 @@
               1
             ]
           },
-          "id": "cdb11",
           "isAttachedTo": "e683e",
           "orientation": [
             0,
@@ -1127,7 +1060,6 @@
               0
             ]
           },
-          "id": "d3991",
           "isAttachedTo": "c0729",
           "orientation": [],
           "x": 526,
@@ -1223,7 +1155,6 @@
               0.5
             ]
           },
-          "id": "de146",
           "isAttachedTo": "b99a3",
           "orientation": [
             -1,
@@ -1243,7 +1174,6 @@
               1
             ]
           },
-          "id": "cac32",
           "isAttachedTo": "afcbe",
           "orientation": [
             0,
@@ -1288,7 +1218,6 @@
               1
             ]
           },
-          "id": "df8b2",
           "isAttachedTo": "c4eeb",
           "orientation": [
             0,
@@ -1308,7 +1237,6 @@
               0
             ]
           },
-          "id": "d8866",
           "isAttachedTo": "e4d8f",
           "orientation": [
             0,
@@ -1353,7 +1281,6 @@
               1
             ]
           },
-          "id": "f7d6d",
           "isAttachedTo": "f9953",
           "orientation": [
             0,
@@ -1373,7 +1300,6 @@
               0
             ]
           },
-          "id": "b1fa2",
           "isAttachedTo": "b383b",
           "orientation": [
             0,
@@ -1488,7 +1414,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "e197d",
-      "isPartOf": "bd2d8",
+      "isPartOf": "e8407",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1635,6 +1561,36 @@
       "y": 576,
       "zIndex": 32768
     },
+    "e8407": {
+      "contains": [
+        "bd895",
+        "be7c2",
+        "e197d"
+      ],
+      "drawAs": "Octagon",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 84,
+      "id": "e8407",
+      "kaavioType": "Group",
+      "padding": 11,
+      "stroke": "#808080",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "Complex",
+        "GroupComplex"
+      ],
+      "verticalAlign": "middle",
+      "width": 104,
+      "x": 477,
+      "y": 288,
+      "zIndex": 32768
+    },
     "f8abd": {
       "drawAs": "none",
       "fill": "transparent",
@@ -1763,6 +1719,16 @@
       "y": 460,
       "zIndex": 32768
     },
+    "http://identifiers.org/doid/DOID:4194": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/doid/DOID:4194",
+      "ontology": "Disease",
+      "term": "glucose metabolism disease",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "DOID:4194"
+    },
     "http://identifiers.org/pw/PW:0000363": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000363",
@@ -1813,7 +1779,7 @@
     "author": "[Khanspers, MaintBot]",
     "comments": [
       {
-        "content": "Proposed mechanism by which leptin and adiponectin stimulate fatty acid oxidation. Adapted from fig 1 in [http://www.ncbi.nlm.nih.gov/pubmed/16497175 Dyck et al.].\r\n\r\n\r\nProteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3934 CPTAC Assay Portal]",
+        "content": "Proposed mechanism by which leptin and adiponectin stimulate fatty acid oxidation. Adapted from fig 1 in [Dyck et al.](http://www.ncbi.nlm.nih.gov/pubmed/16497175).\r\n\r\n\r\nProteins on this pathway have targeted assays available via the [CPTAC Assay Portal](https://assays.cancer.gov/available_assays?wp_id=WP3934).",
         "source": "WikiPathways-description"
       },
       {
@@ -1848,11 +1814,11 @@
       "e683e",
       "f9953",
       "fe4e5",
-      "bd2d8",
+      "e8407",
       "b4625",
       "d8581"
     ],
-    "dataSourceVersion": "WP3934_r107151",
+    "dataSourceVersion": "WP3934_r137956",
     "displayName": "Leptin and adiponectin",
     "drawAs": "rect",
     "fill": "white",
@@ -1862,7 +1828,7 @@
     "height": 703,
     "id": "WP3934",
     "kaavioType": "Group",
-    "lastModified": "20190917142341",
+    "lastModified": "20250310205402",
     "name": "Leptin and adiponectin",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -1871,10 +1837,12 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Leptin and adiponectin\nLast Modified: 20190917142341\nOrganism: Homo sapiens",
+    "textContent": "Name: Leptin and adiponectin\nLast Modified: 20250310205402\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000363",
+      "http://identifiers.org/pw/PW:0000363",
+      "http://identifiers.org/pw/PW:0000563",
       "http://identifiers.org/pw/PW:0000563"
     ],
     "verticalAlign": "top",

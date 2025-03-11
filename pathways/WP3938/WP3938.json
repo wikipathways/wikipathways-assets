@@ -1,27 +1,5 @@
 {
   "entitiesById": {
-    "286915": {
-      "__HighlandStream__": true,
-      "_can_drain": false,
-      "_consume_waiting_for_next": false,
-      "_consumers": [],
-      "_delegate": null,
-      "_destructors": [],
-      "_events": {},
-      "_eventsCount": 2,
-      "_in_consume_cb": false,
-      "_incoming": [],
-      "_is_observer": false,
-      "_nil_pushed": false,
-      "_observers": [],
-      "_outgoing": [],
-      "_repeat_resume": false,
-      "_send_events": false,
-      "id": "286915",
-      "paused": true,
-      "source": null,
-      "writable": true
-    },
     "a0d43": {
       "drawAs": "none",
       "fill": "transparent",
@@ -59,11 +37,11 @@
       "gpmlElementName": "Interaction",
       "id": "a82f4",
       "isAttachedTo": [
-        "ec3fe",
+        "e55ef",
         "a0d43"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -76,8 +54,7 @@
               1
             ]
           },
-          "id": "a916b",
-          "isAttachedTo": "ec3fe",
+          "isAttachedTo": "e55ef",
           "orientation": [
             0,
             1
@@ -100,7 +77,6 @@
               0
             ]
           },
-          "id": "cd083",
           "isAttachedTo": "a0d43",
           "orientation": [
             0,
@@ -115,7 +91,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 32770
     },
@@ -160,7 +138,7 @@
         "a0d43"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -173,7 +151,6 @@
               1
             ]
           },
-          "id": "e01d6",
           "isAttachedTo": "eada6",
           "orientation": [
             0,
@@ -193,7 +170,6 @@
               0
             ]
           },
-          "id": "d8cb2",
           "isAttachedTo": "a0d43",
           "orientation": [
             0,
@@ -208,7 +184,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 32769
     },
@@ -294,6 +272,35 @@
       "y": 152.66666666666674,
       "zIndex": 28672
     },
+    "e55ef": {
+      "contains": [
+        "ee50c",
+        "f37b0"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 56,
+      "id": "e55ef",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 96,
+      "x": 435.33333333333326,
+      "y": 323.3333333333336,
+      "zIndex": 32768
+    },
     "eada6": {
       "comments": [
         {
@@ -347,35 +354,6 @@
       "y": 329.0000000000003,
       "zIndex": 32768
     },
-    "ec3fe": {
-      "contains": [
-        "ee50c",
-        "f37b0"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 56,
-      "id": "ec3fe",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 96,
-      "x": 435.33333333333326,
-      "y": 323.3333333333336,
-      "zIndex": 32768
-    },
     "ee50c": {
       "comments": [
         {
@@ -392,7 +370,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "ee50c",
-      "isPartOf": "ec3fe",
+      "isPartOf": "e55ef",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -494,12 +472,12 @@
         "DataNode",
         "SingleFreeNode",
         "miRBase Sequence:MI0000299",
-        "RNA"
+        "Rna"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 65.3333333333332,
-      "wpType": "RNA",
+      "wpType": "Rna",
       "x": 291.99999999999966,
       "xrefDataSource": "miRBase Sequence",
       "xrefIdentifier": "MI0000299",
@@ -522,7 +500,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "f37b0",
-      "isPartOf": "ec3fe",
+      "isPartOf": "e55ef",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -561,6 +539,16 @@
       "y": 8,
       "zIndex": 32768
     },
+    "http://identifiers.org/cl/CL:0000746": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/cl/CL:0000746",
+      "ontology": "Cell Type",
+      "term": "cardiac muscle cell",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "CL:0000746"
+    },
     "http://identifiers.org/pw/PW:0000004": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000004",
@@ -591,7 +579,7 @@
         "da55b"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -604,7 +592,6 @@
               1
             ]
           },
-          "id": "f1c7e",
           "isAttachedTo": "f0c6a",
           "orientation": [
             0,
@@ -628,7 +615,6 @@
               0
             ]
           },
-          "id": "d9b40",
           "isAttachedTo": "da55b",
           "orientation": [
             0,
@@ -642,7 +628,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 12288
     },
@@ -656,7 +644,7 @@
         "a0d43"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -669,7 +657,6 @@
               1
             ]
           },
-          "id": "fafb4",
           "isAttachedTo": "da55b",
           "orientation": [
             0,
@@ -679,7 +666,6 @@
           "y": 351.33333333333354
         },
         {
-          "id": "f46da",
           "x": 218.8333333333333,
           "y": 397.3333333333333
         },
@@ -694,7 +680,6 @@
               0
             ]
           },
-          "id": "dd502",
           "isAttachedTo": "a0d43",
           "orientation": [
             0,
@@ -709,7 +694,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 12288
     },
@@ -720,10 +707,10 @@
       "id": "id7ae14f91",
       "isAttachedTo": [
         "f0c6a",
-        "ec3fe"
+        "e55ef"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -736,7 +723,6 @@
               1
             ]
           },
-          "id": "f7399",
           "isAttachedTo": "f0c6a",
           "orientation": [
             0,
@@ -760,8 +746,7 @@
               0
             ]
           },
-          "id": "e9632",
-          "isAttachedTo": "ec3fe",
+          "isAttachedTo": "e55ef",
           "orientation": [
             0,
             1
@@ -774,7 +759,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 12288
     },
@@ -801,7 +788,6 @@
               1
             ]
           },
-          "id": "e6476",
           "isAttachedTo": "aa48c",
           "orientation": [
             0,
@@ -821,7 +807,6 @@
               0
             ]
           },
-          "id": "bc3a2",
           "isAttachedTo": "f0c6a",
           "orientation": [
             0,
@@ -853,7 +838,7 @@
         "eada6"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -866,7 +851,6 @@
               1
             ]
           },
-          "id": "a6e95",
           "isAttachedTo": "f0c6a",
           "orientation": [
             0,
@@ -886,7 +870,6 @@
               0
             ]
           },
-          "id": "c4de1",
           "isAttachedTo": "eada6",
           "orientation": [
             0,
@@ -900,7 +883,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 12288
     },
@@ -944,7 +929,7 @@
     "author": "[Khanspers, AMTan, Eweitz]",
     "comments": [
       {
-        "content": "miR-222 is necessary for exercise-induced cardiac growth and protects against pathological cardiac remodeling.\r\n\r\nProteins on this pathway have targeted assays available via the [https://assays.cancer.gov/available_assays?wp_id=WP3938 CPTAC Assay Portal].",
+        "content": "miR-222 is necessary for exercise-induced cardiac growth and protects against pathological cardiac remodeling.\r\n\r\nProteins on this pathway have targeted assays available via the [CPTAC Assay Portal](https://assays.cancer.gov/available_assays?wp_id=WP3938).",
         "source": "WikiPathways-description"
       },
       {
@@ -965,11 +950,11 @@
       "da55b",
       "eada6",
       "f0c6a",
-      "ec3fe",
+      "e55ef",
       "ac720",
       "a82f4"
     ],
-    "dataSourceVersion": "WP3938_r120650",
+    "dataSourceVersion": "WP3938_r137954",
     "displayName": "miR-222 in exercise-induced cardiac growth",
     "drawAs": "rect",
     "fill": "white",
@@ -979,7 +964,7 @@
     "height": 502.6666666666666,
     "id": "WP3938",
     "kaavioType": "Group",
-    "lastModified": "20211222181404",
+    "lastModified": "20250310205310",
     "name": "miR-222 in exercise-induced cardiac growth",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -988,7 +973,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: miR-222 in exercise-induced cardiac growth\nLast Modified: 20211222181404\nOrganism: Homo sapiens",
+    "textContent": "Name: miR-222 in exercise-induced cardiac growth\nLast Modified: 20250310205310\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000808",
