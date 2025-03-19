@@ -997,6 +997,11 @@
       "zIndex": 12288
     },
     "b7503": {
+      "comments": [
+        {
+          "content": "\"ERBB1\" originally"
+        }
+      ],
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -1013,7 +1018,7 @@
       "stroke": "#000000",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "ERBB1",
+      "textContent": "EGFR",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -1021,8 +1026,8 @@
         "SingleFreeNode",
         "Entrez Gene:1956",
         "GeneProduct",
-        "CompactIdentifier:ncbigene:1956",
-        "ERBB1",
+        "CompactIdentifier:ensembl:ENSG00000146648",
+        "EGFR",
         "Ensembl:ENSG00000146648",
         "Entrez Gene:1956",
         "HGNC:EGFR",
@@ -2374,14 +2379,12 @@
         "DataNode",
         "SingleFreeNode",
         "Enzyme Nomenclature:2.7.11.24",
-        "GeneProduct",
-        "CompactIdentifier:eccode:2.7.11.24",
-        "MAPK"
+        "Unknown"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 45,
-      "wpType": "GeneProduct",
+      "wpType": "Unknown",
       "x": 175.5,
       "xrefDataSource": "Enzyme Nomenclature",
       "xrefIdentifier": "2.7.11.24",
@@ -3328,19 +3331,34 @@
       "stroke": "#000000",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "USF",
+      "textContent": "USF1",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "GeneProduct"
+        "Ensembl:ENSG00000158773",
+        "GeneProduct",
+        "CompactIdentifier:ensembl:ENSG00000158773",
+        "USF1",
+        "Ensembl:ENSG00000158773",
+        "Entrez Gene:7391",
+        "HGNC:USF1",
+        "UniProt:E9PJ52",
+        "UniProt:A0A0S2Z4U5",
+        "UniProt:P22415",
+        "UniProt:B1AQP1",
+        "UniProt:E9PME6",
+        "UniProt:H0YD59",
+        "UniProt:E9PQA2"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 45,
       "wpType": "GeneProduct",
       "x": 568.2294372294373,
+      "xrefDataSource": "Ensembl",
+      "xrefIdentifier": "ENSG00000158773",
       "y": 566.3571428571429,
       "zIndex": 32768
     },
@@ -4298,24 +4316,50 @@
       "stroke": "#000000",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "EIF4G",
+      "textContent": "EIF4G1",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "InterPro:IPR036211",
+        "Ensembl:ENSG00000114867",
         "GeneProduct",
-        "CompactIdentifier:interpro:IPR036211",
-        "EIF4G"
+        "CompactIdentifier:ensembl:ENSG00000114867",
+        "EIF4G1",
+        "Ensembl:ENSG00000114867",
+        "Entrez Gene:1981",
+        "HGNC:EIF4G1",
+        "UniProt:A0A6Q8PG29",
+        "UniProt:E9PGM1",
+        "UniProt:C9J2Z7",
+        "UniProt:C9JWW9",
+        "UniProt:F8WCF2",
+        "UniProt:A0A6Q8PFB2",
+        "UniProt:C9J556",
+        "UniProt:C9JIH5",
+        "UniProt:C9JSU8",
+        "UniProt:Q04637",
+        "UniProt:H7C044",
+        "UniProt:H7C0V6",
+        "UniProt:C9J987",
+        "UniProt:C9J6B6",
+        "UniProt:C9JHW9",
+        "UniProt:E7EUU4",
+        "UniProt:E7EX73",
+        "UniProt:F8WB97",
+        "UniProt:C9K073",
+        "UniProt:C9JWH7",
+        "UniProt:C9JF13",
+        "UniProt:C9JWH9",
+        "UniProt:A0A7I2Y1C3"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 45,
       "wpType": "GeneProduct",
       "x": 643.9350649350645,
-      "xrefDataSource": "InterPro",
-      "xrefIdentifier": "IPR036211",
+      "xrefDataSource": "Ensembl",
+      "xrefIdentifier": "ENSG00000114867",
       "y": 618.9397424609301,
       "zIndex": 32768
     },
@@ -9059,7 +9103,7 @@
       "id": "publicationXrefe04",
       "source": "Development",
       "standardName": "Developmental stage determines the effects of MYC in the mammary epithelium.",
-      "textContent": "3",
+      "textContent": "4",
       "type": [
         "PublicationXref",
         "PubMed:15689376"
@@ -9102,7 +9146,7 @@
       "id": "publicationXrefef8",
       "source": "Nat Rev Mol Cell Biol",
       "standardName": "Information networks in the mammary gland.",
-      "textContent": "4",
+      "textContent": "3",
       "type": [
         "PublicationXref",
         "PubMed:16231422"
@@ -9122,7 +9166,7 @@
     "author": "[Biodados, Khanspers, Jmelius, DeSl, Egonw, Mkutmon, Finterly, Eweitz]",
     "comments": [
       {
-        "content": "The secondary mammary gland can be inactive or active. It becomes active during pregnancy and lactation, when there is a formation of alveoli, the structure responsible for milk production. \r\nThere are four signal inputs for the mammary gland development during pregnancy and lactation: (1) prolactin receptor (PRLR), (2) epidermal growth factor receptors (ERBB1, ERBB2, ERBB3 and ERBB4), (3) estrogen receptors (ESR1 and ESR2) and (4) progesterone receptor (PGR).\r\nIn the first case, PRL binds to PRLR, allowing its phosphorylation by JAK2, and the consequent coupling of STAT5 [1](https://www.ncbi.nlm.nih.gov/pubmed/16231422). JAK2 phosphorylates STAT5, allowing its migration to nucleus. STAT5 target genes are related to proliferation (TNFSF11, CCND1), differentiation (CSN2, WFDC, ELF5, GJB2) and survival (BCL2L1) [1](https://www.ncbi.nlm.nih.gov/pubmed/16231422). CEBPA and CEBPB are related to the balance between proliferation and differentiation of epithelial cells [2](https://www.ncbi.nlm.nih.gov/pubmed/9513715). The TNFSF11/ TNFRSF11A pathway is associated with proliferation [1](https://www.ncbi.nlm.nih.gov/pubmed/16231422). MYC, galanin and PTPN1 are regulators of the JAK2/STAT5 pathway and UFS are implicated in cell cycle control [1](https://www.ncbi.nlm.nih.gov/pubmed/16231422) [3](https://www.ncbi.nlm.nih.gov/pubmed/15689376) [4](http://www.ncbi.nlm.nih.gov/pubmed/12907752) [5](https://www.ncbi.nlm.nih.gov/pubmed/23154416).\r\nIn the second case, NRG binds to one of its receptors (ERBB1, ERBB2, ERBB3 or ERBB4) and the signal is transmitted  by ERBB4  to  STAT5, from where it follows as described above [1](https://www.ncbi.nlm.nih.gov/pubmed/16231422). ERBB4 substitutes JAK2 by phosphorylating STAT5.\r\nFinally, in the last two cases, estrogen binds to its receptors, ESR1 and ESR2, and stimulates PGR [1](https://www.ncbi.nlm.nih.gov/pubmed/16231422). ESR1, ESR2 and PGR are associated with proliferation. ESR1 also affects adhesion through induction of TTC9, which interacts with TPM3 (a protein associated with actin filaments), playing a role in involution [6](https://www.ncbi.nlm.nih.gov/pubmed/22917536).\r\nPNCK appears to negatively regulate EGFR and MAPK signaling during pregnancy [7](https://www.ncbi.nlm.nih.gov/pubmed/18562482). ATP2C2 is co-expressed with the component of calcium influx channel encoded by ORAI1.  Together, they regulate Ca2+ uptake, influencing differentiation and supporting the large calcium transport requirements for milk secretion during lactation [8](https://www.ncbi.nlm.nih.gov/pubmed/23840669).",
+        "content": "The secondary mammary gland can be inactive or active. It becomes active during pregnancy and lactation, when there is a formation of alveoli, the structure responsible for milk production. \r\nThere are four signal inputs for the mammary gland development during pregnancy and lactation: (1) prolactin receptor (PRLR), (2) epidermal growth factor receptors (EGFR aka ERBB1, ERBB2, ERBB3 and ERBB4), (3) estrogen receptors (ESR1 and ESR2) and (4) progesterone receptor (PGR).\r\nIn the first case, PRL binds to PRLR, allowing its phosphorylation by JAK2, and the consequent coupling of STAT5 [1](https://www.ncbi.nlm.nih.gov/pubmed/16231422). JAK2 phosphorylates STAT5, allowing its migration to nucleus. STAT5 target genes are related to proliferation (TNFSF11, CCND1), differentiation (CSN2, WFDC, ELF5, GJB2) and survival (BCL2L1) [1](https://www.ncbi.nlm.nih.gov/pubmed/16231422). CEBPA and CEBPB are related to the balance between proliferation and differentiation of epithelial cells [2](https://www.ncbi.nlm.nih.gov/pubmed/9513715). The TNFSF11/ TNFRSF11A pathway is associated with proliferation [1](https://www.ncbi.nlm.nih.gov/pubmed/16231422). MYC, galanin and PTPN1 are regulators of the JAK2/STAT5 pathway and UFS are implicated in cell cycle control [1](https://www.ncbi.nlm.nih.gov/pubmed/16231422) [3](https://www.ncbi.nlm.nih.gov/pubmed/15689376) [4](http://www.ncbi.nlm.nih.gov/pubmed/12907752) [5](https://www.ncbi.nlm.nih.gov/pubmed/23154416).\r\nIn the second case, NRG binds to one of its receptors (ERBB1, ERBB2, ERBB3 or ERBB4) and the signal is transmitted  by ERBB4  to  STAT5, from where it follows as described above [1](https://www.ncbi.nlm.nih.gov/pubmed/16231422). ERBB4 substitutes JAK2 by phosphorylating STAT5.\r\nFinally, in the last two cases, estrogen binds to its receptors, ESR1 and ESR2, and stimulates PGR [1](https://www.ncbi.nlm.nih.gov/pubmed/16231422). ESR1, ESR2 and PGR are associated with proliferation. ESR1 also affects adhesion through induction of TTC9, which interacts with TPM3 (a protein associated with actin filaments), playing a role in involution [6](https://www.ncbi.nlm.nih.gov/pubmed/22917536).\r\nPNCK appears to negatively regulate EGFR and MAPK signaling during pregnancy [7](https://www.ncbi.nlm.nih.gov/pubmed/18562482). ATP2C2 is co-expressed with the component of calcium influx channel encoded by ORAI1.  Together, they regulate Ca2+ uptake, influencing differentiation and supporting the large calcium transport requirements for milk secretion during lactation [8](https://www.ncbi.nlm.nih.gov/pubmed/23840669).",
         "source": "WikiPathways-description"
       }
     ],
@@ -9284,7 +9328,7 @@
       "d4676",
       "d1282"
     ],
-    "dataSourceVersion": "WP2817_r138017",
+    "dataSourceVersion": "WP2817_r138147",
     "displayName": "Mammary gland development: pregnancy and lactation - stage 3 of 4",
     "drawAs": "rect",
     "fill": "white",
@@ -9294,7 +9338,7 @@
     "height": 757,
     "id": "WP2817",
     "kaavioType": "Group",
-    "lastModified": "20250311125033",
+    "lastModified": "20250318110312",
     "name": "Mammary gland development: pregnancy and lactation - stage 3 of 4",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -9303,7 +9347,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Mammary gland development: pregnancy and lactation - stage 3 of 4\nLast Modified: 20250311125033\nOrganism: Homo sapiens",
+    "textContent": "Name: Mammary gland development: pregnancy and lactation - stage 3 of 4\nLast Modified: 20250318110312\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000004"
