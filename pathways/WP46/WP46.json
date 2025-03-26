@@ -959,6 +959,16 @@
       "y": 8,
       "zIndex": 32771
     },
+    "http://identifiers.org/pw/PW:0000002": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000002",
+      "ontology": "Pathway Ontology",
+      "term": "classic metabolic pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000002"
+    },
     "http://identifiers.org/pw/PW:0001302": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0001302",
@@ -1579,12 +1589,12 @@
       "id": "publicationXrefbb1",
       "source": "YeastPathways",
       "standardName": "YeastPathways",
-      "textContent": "1",
+      "textContent": "2",
       "type": [
         "PublicationXref",
-        "PubMed:https://pathway.yeastgenome.org/"
+        "URL:https://pathway.yeastgenome.org/"
       ],
-      "xrefDataSource": "PubMed",
+      "xrefDataSource": "URL",
       "xrefIdentifier": "https://pathway.yeastgenome.org/"
     },
     "publicationXrefdcf": {
@@ -1592,12 +1602,12 @@
       "id": "publicationXrefdcf",
       "source": "KEGG",
       "standardName": "Cysteine and methionine metabolism",
-      "textContent": "2",
+      "textContent": "1",
       "type": [
         "PublicationXref",
-        "PubMed:https://www.genome.jp/pathway/sce00270"
+        "URL:https://www.genome.jp/pathway/sce00270"
       ],
-      "xrefDataSource": "PubMed",
+      "xrefDataSource": "URL",
       "xrefIdentifier": "https://www.genome.jp/pathway/sce00270"
     }
   },
@@ -1609,6 +1619,12 @@
       }
     ],
     "author": "[J.Heckman, MaintBot, Egonw, Ddigles, DeSl, AlexanderPico, Eweitz, Khanspers]",
+    "comments": [
+      {
+        "content": "Cysteine and methionine are sulfur-containing amino acids. Cysteine is synthesized from serine through different pathways in different organism groups. In bacteria and plants, cysteine is converted from serine (via acetylserine) by transfer of hydrogen sulfide. In animals, methionine-derived homocysteine is used as sulfur source and its condensation product with serine (cystathionine) is converted to cysteine. Cysteine is metabolized to pyruvate in multiple routes. Methionine is an essential amino acid, which animals cannot synthesize. \r\n\r\nDescription from [KEGG](https://www.kegg.jp/entry/map00270).",
+        "source": "WikiPathways-description"
+      }
+    ],
     "contains": [
       "id53d49d93",
       "id116f2a96",
@@ -1634,7 +1650,7 @@
       "f918c",
       "d95a4"
     ],
-    "dataSourceVersion": "WP46_r138193",
+    "dataSourceVersion": "WP46_r138225",
     "displayName": "Methionine degradation",
     "drawAs": "rect",
     "fill": "white",
@@ -1644,7 +1660,7 @@
     "height": 461,
     "id": "WP46",
     "kaavioType": "Group",
-    "lastModified": "20250321235827",
+    "lastModified": "20250325195151",
     "name": "Methionine degradation",
     "organism": "Saccharomyces cerevisiae",
     "padding": 5,
@@ -1653,9 +1669,10 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Methionine degradation\nLast Modified: 20250321235827\nOrganism: Saccharomyces cerevisiae",
+    "textContent": "Name: Methionine degradation\nLast Modified: 20250325195151\nOrganism: Saccharomyces cerevisiae",
     "type": [
       "Pathway",
+      "http://identifiers.org/pw/PW:0000002",
       "http://identifiers.org/pw/PW:0001302"
     ],
     "verticalAlign": "top",
