@@ -10,7 +10,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a0b0c",
-      "isPartOf": "pvjsgeneratedidff8d1",
+      "isPartOf": "pvjsgeneratedidff8d0",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -200,7 +200,7 @@
       "fontFamily": "Arial",
       "fontSize": 12,
       "fontStyle": "normal",
-      "fontWeight": "normal",
+      "fontWeight": "bold",
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a55f2",
@@ -356,7 +356,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a6c08",
-      "isPartOf": "pvjsgeneratedidff8d1",
+      "isPartOf": "pvjsgeneratedidff8d0",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -509,7 +509,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a7cbb",
-      "isPartOf": "pvjsgeneratedidff8d0",
+      "isPartOf": "c93a8",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1780,6 +1780,69 @@
       ],
       "zIndex": 32878
     },
+    "bb578": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "bb578",
+      "isAttachedTo": [
+        "af2ed",
+        "c93a8"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "af2ed",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 538,
+          "y": 463
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0,
+              0.25
+            ]
+          },
+          "isAttachedTo": "c93a8",
+          "orientation": [
+            1,
+            0
+          ],
+          "x": 586,
+          "y": 562
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 32889
+    },
     "bc7c2": {
       "cellularComponent": "Cell",
       "drawAs": "rect",
@@ -2557,6 +2620,35 @@
       ],
       "zIndex": 32886
     },
+    "c93a8": {
+      "contains": [
+        "d4be8",
+        "a7cbb"
+      ],
+      "drawAs": "Octagon",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 64,
+      "id": "c93a8",
+      "kaavioType": "Group",
+      "padding": 11,
+      "stroke": "#808080",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "Complex",
+        "GroupComplex"
+      ],
+      "verticalAlign": "middle",
+      "width": 84,
+      "x": 586,
+      "y": 546,
+      "zIndex": 32848
+    },
     "cb4b2": {
       "drawAs": "StraightLine",
       "fill": "none",
@@ -3297,7 +3389,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "d4be8",
-      "isPartOf": "pvjsgeneratedidff8d0",
+      "isPartOf": "c93a8",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -5656,35 +5748,6 @@
     },
     "pvjsgeneratedidff8d0": {
       "contains": [
-        "d4be8",
-        "a7cbb"
-      ],
-      "drawAs": "Octagon",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 64,
-      "id": "pvjsgeneratedidff8d0",
-      "kaavioType": "Group",
-      "padding": 11,
-      "stroke": "#808080",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "Complex",
-        "GroupComplex"
-      ],
-      "verticalAlign": "middle",
-      "width": 84,
-      "x": 586,
-      "y": 546,
-      "zIndex": 32848
-    },
-    "pvjsgeneratedidff8d1": {
-      "contains": [
         "a6c08",
         "a0b0c"
       ],
@@ -5695,7 +5758,7 @@
       "fontWeight": "bold",
       "gpmlElementName": "Group",
       "height": 64,
-      "id": "pvjsgeneratedidff8d1",
+      "id": "pvjsgeneratedidff8d0",
       "kaavioType": "Group",
       "padding": 11,
       "stroke": "#808080",
@@ -5791,10 +5854,10 @@
       "dc3b0",
       "a89c0",
       "af2ed",
-      "pvjsgeneratedidff8d0",
+      "c93a8",
       "d04dd",
       "d02e5",
-      "pvjsgeneratedidff8d1",
+      "pvjsgeneratedidff8d0",
       "d5c14",
       "ab41b",
       "a980b",
@@ -5825,9 +5888,10 @@
       "cb4b2",
       "c7976",
       "fa2af",
-      "d0d46"
+      "d0d46",
+      "bb578"
     ],
-    "dataSourceVersion": "WP5532_r138357",
+    "dataSourceVersion": "WP5532_r138396",
     "displayName": "Retinoid metabolism in retina: healthy vs. RLBP1-deficient",
     "drawAs": "rect",
     "fill": "white",
@@ -5837,7 +5901,7 @@
     "height": 658,
     "id": "WP5532",
     "kaavioType": "Group",
-    "lastModified": "20250331234609",
+    "lastModified": "20250405202325",
     "name": "Retinoid metabolism in retina: healthy vs. RLBP1-deficient",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -5846,7 +5910,7 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Retinoid metabolism in retina: healthy vs. RLBP1-deficient\nLast Modified: 20250331234609\nOrganism: Homo sapiens",
+    "textContent": "Name: Retinoid metabolism in retina: healthy vs. RLBP1-deficient\nLast Modified: 20250405202325\nOrganism: Homo sapiens",
     "type": [
       "Pathway"
     ],
