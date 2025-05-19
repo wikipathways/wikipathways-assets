@@ -136,8 +136,8 @@
       "zIndex": 32827
     },
     "a2ff9": {
-      "drawAs": "none",
-      "fill": "transparent",
+      "drawAs": "rect",
+      "fill": "#ffffff",
       "fontFamily": "Arial",
       "fontSize": 12,
       "fontStyle": "normal",
@@ -149,8 +149,10 @@
       "lineHeight": 1.1,
       "overflow": "hidden",
       "padding": 8,
+      "rx": 15,
+      "ry": 15,
       "stroke": "#14961e",
-      "strokeWidth": 0,
+      "strokeWidth": 1,
       "textAlign": "center",
       "textContent": "tRNA Aminoacylation",
       "textDecoration": "none",
@@ -496,13 +498,16 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Complex"
+        "Complex Portal:CPX-480",
+        "Complex",
+        "CompactIdentifier:complex portal:CPX-480"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 90,
       "wpType": "Complex",
       "x": 12,
+      "xrefDataSource": "Complex Portal",
       "xrefIdentifier": "CPX-480",
       "y": 12,
       "zIndex": 32768
@@ -2177,13 +2182,16 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Complex"
+        "Complex Portal:CPX-480",
+        "Complex",
+        "CompactIdentifier:complex portal:CPX-480"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 90,
       "wpType": "Complex",
       "x": 12.000000000000227,
+      "xrefDataSource": "Complex Portal",
       "xrefIdentifier": "CPX-480",
       "y": 12,
       "zIndex": 32837
@@ -2291,13 +2299,16 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Complex"
+        "Complex Portal:CPX-2395",
+        "Complex",
+        "CompactIdentifier:complex portal:CPX-2395"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 90,
       "wpType": "Complex",
       "x": 12,
+      "xrefDataSource": "Complex Portal",
       "xrefIdentifier": "CPX-2395",
       "y": 12,
       "zIndex": 32768
@@ -2437,8 +2448,8 @@
       "zIndex": 32780
     },
     "fced6": {
-      "drawAs": "none",
-      "fill": "transparent",
+      "drawAs": "rect",
+      "fill": "#ffffff",
       "fontFamily": "Arial",
       "fontSize": 12,
       "fontStyle": "normal",
@@ -2450,8 +2461,10 @@
       "lineHeight": 1.1,
       "overflow": "hidden",
       "padding": 8,
+      "rx": 15,
+      "ry": 15,
       "stroke": "#14961e",
-      "strokeWidth": 0,
+      "strokeWidth": 1,
       "textAlign": "center",
       "textContent": "ATP-sensitive potassium channels pathway",
       "textDecoration": "none",
@@ -2472,6 +2485,26 @@
       "xrefIdentifier": "WP2669",
       "y": 864.8303333136264,
       "zIndex": 32820
+    },
+    "http://identifiers.org/doid/DOID:10595": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/doid/DOID:10595",
+      "ontology": "Disease",
+      "term": "Charcot-Marie-Tooth disease",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "DOID:10595"
+    },
+    "http://identifiers.org/pw/PW:0000013": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000013",
+      "ontology": "Pathway Ontology",
+      "term": "disease pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000013"
     },
     "id1fd95566": {
       "citations": [
@@ -3936,7 +3969,7 @@
         "@base": "WP5523/"
       }
     ],
-    "author": "[Julen van Ham, Eweitz]",
+    "author": "[Julen van Ham, Eweitz, Egonw]",
     "comments": [
       {
         "content": "HINT1 is a protein that can be mutated in charcot marie tooth disease.",
@@ -3990,7 +4023,7 @@
       "b18ce",
       "d4739"
     ],
-    "dataSourceVersion": "WP5523_r139006",
+    "dataSourceVersion": "WP5523_r139066",
     "displayName": "HINT1 pathway",
     "drawAs": "rect",
     "fill": "white",
@@ -4000,7 +4033,7 @@
     "height": 931.8303333136264,
     "id": "WP5523",
     "kaavioType": "Group",
-    "lastModified": "20250510202256",
+    "lastModified": "20250518070212",
     "name": "HINT1 pathway",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -4009,9 +4042,10 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: HINT1 pathway\nLast Modified: 20250510202256\nOrganism: Homo sapiens",
+    "textContent": "Name: HINT1 pathway\nLast Modified: 20250518070212\nOrganism: Homo sapiens",
     "type": [
-      "Pathway"
+      "Pathway",
+      "http://identifiers.org/pw/PW:0000013"
     ],
     "verticalAlign": "top",
     "width": 1203,
