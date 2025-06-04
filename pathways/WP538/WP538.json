@@ -366,9 +366,8 @@
         "SingleFreeNode",
         "ChEBI:CHEBI:36242",
         "Metabolite",
-        "CompactIdentifier:Metabolite",
+        "CompactIdentifier:chebi:36242",
         "3-(4-hydroxyphenyl)pyruvate",
-        "",
         "Wikidata:Q27104348",
         "ChEBI:36242",
         "InChI:KKADPXVIOXHVKN-UHFFFAOYSA-M",
@@ -729,10 +728,20 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "ChEBI:CHEBI:I57972",
+        "ChEBI:CHEBI:57972",
         "Metabolite",
-        "CompactIdentifier:chebi:I57972",
-        "L-alanine"
+        "CompactIdentifier:chebi:57972",
+        "L-alanine",
+        "Wikidata:Q218642",
+        "Wikidata:Q106345485",
+        "ChEBI:16977",
+        "ChEBI:57972",
+        "InChI:QNAYBMKLOCPYGJ-REOHCLBHSA-N",
+        "PubChem:5950",
+        "PubChem:7311724",
+        "ChemSpider:5735",
+        "HMDB:HMDB0000161",
+        "KEGG:C00041"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -740,7 +749,7 @@
       "wpType": "Metabolite",
       "x": 871.6202023257358,
       "xrefDataSource": "ChEBI",
-      "xrefIdentifier": "CHEBI:I57972",
+      "xrefIdentifier": "CHEBI:57972",
       "y": 220.9536364858506,
       "zIndex": 32768
     },
@@ -1671,7 +1680,7 @@
       "id": "publicationXrefcb9",
       "source": "YeastPathways",
       "standardName": "tyrosine biosynthesis",
-      "textContent": "3",
+      "textContent": "1",
       "type": [
         "PublicationXref",
         "URL:https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?type=PATHWAY&object=PWY3O-4120"
@@ -1690,7 +1699,7 @@
       "id": "publicationXrefd9x",
       "source": "Mol Gen Genet",
       "standardName": "Phenylalanine- and tyrosine-auxotrophic mutants of Saccharomyces cerevisiae impaired in transamination.",
-      "textContent": "2",
+      "textContent": "3",
       "type": [
         "PublicationXref",
         "PubMed:9491082"
@@ -1707,7 +1716,7 @@
       "id": "publicationXreft71",
       "source": "Microbiol Rev",
       "standardName": "Aromatic amino acid biosynthesis in the yeast Saccharomyces cerevisiae: a model system for the regulation of a eukaryotic biosynthetic pathway.",
-      "textContent": "1",
+      "textContent": "2",
       "type": [
         "PublicationXref",
         "PubMed:1943992"
@@ -1724,7 +1733,7 @@
         "@base": "WP538/"
       }
     ],
-    "author": "[M.Braymer, MaintBot, Ddigles, Egonw, Khanspers, Eweitz]",
+    "author": "[M.Braymer, MaintBot, Ddigles, Egonw, Khanspers, Eweitz, Sikeda]",
     "comments": [
       {
         "content": "Biosynthesis of the aromatic amino acids tyrosine, phenylalanine, and tryptophan proceeds via a common pathway to chorismate, at which point the pathway branches(https://www.yeastgenome.org/reference/S000070200, http://www.ncbi.nlm.nih.gov/pubmed/1943992). One branch proceeds to tyrosine and phenylalanine, and the other to tryptophan (https://www.yeastgenome.org/reference/S000070200). The series of reactions to chorismate, called the shikimate pathway, and the series of reactions from chorismate to tryptophan have been found to be common to all eukaryotes and prokaryotes studied thus far (http://www.ncbi.nlm.nih.gov/pubmed/1943992). In contrast, there appears to be two separate routes for tyrosine and phenylalanine biosynthesis from chorismate, only one of which has been found in S. cerevisiae (http://www.ncbi.nlm.nih.gov/pubmed/1943992). S. cerevisiae, similar to E. coli, synthesize tyrosine and phenylalanine via the intermediate 4-hydroxyphenylpyruvate and phenylpyruvate, respectively, whereas some other organisms synthesize them via arogenate (http://www.ncbi.nlm.nih.gov/pubmed/1943992). Aromatic amino acid biosynthesis in S. cerevisiae is controlled by a combination of feedback inhibition, activation of enzyme activity, and regulation of enzyme synthesis (https://www.yeastgenome.org/reference/S000070200, http://www.ncbi.nlm.nih.gov/pubmed/1943992). The carbon flow through the pathways is regulated primarily at the initial step and the branching points by the terminal end-products. The initial step of chorismate biosynthesis can be catalyzed by two isoenzymes Aro3p or Aro4p, whereby Aro3p is inhibited by phenylalanine, and Aro4p by tyrosine (https://www.yeastgenome.org/reference/S000070200, http://www.ncbi.nlm.nih.gov/pubmed/1943992). The first step in the phenylalanine-tyrosine branch is feedback inhibited by tyrosine and activated by tryptophan, and the first step in the tryptophan branch is feedback inhibited by tryptophan (http://www.ncbi.nlm.nih.gov/pubmed/1943992). The transcriptional activator GCN4 regulates most of the genes encoding for the aromatic amino acid biosynthetic enzymes; however, no GCN4 regulation was found for TYR1 of the tyrosine branch, ARO7 of the tyrosine and phenylalanine branch or TRP1 of the tryptophan branch (http://www.ncbi.nlm.nih.gov/pubmed/1943992). \r\nSOURCE: SGD pathways, http://pathway.yeastgenome.org/server.html",
@@ -1761,7 +1770,7 @@
       "bf23c",
       "c3092"
     ],
-    "dataSourceVersion": "WP538_r135665",
+    "dataSourceVersion": "WP538_r139338",
     "displayName": "Tyrosine biosynthesis",
     "drawAs": "rect",
     "fill": "white",
@@ -1771,7 +1780,7 @@
     "height": 405.96282852725756,
     "id": "WP538",
     "kaavioType": "Group",
-    "lastModified": "20241018193129",
+    "lastModified": "20250603093622",
     "name": "Tyrosine biosynthesis",
     "organism": "Saccharomyces cerevisiae",
     "padding": 5,
@@ -1780,7 +1789,6 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Tyrosine biosynthesis\nLast Modified: 20241018193129\nOrganism: Saccharomyces cerevisiae",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000002",
