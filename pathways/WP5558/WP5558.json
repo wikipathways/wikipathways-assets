@@ -1025,6 +1025,35 @@
       "y": 32,
       "zIndex": 32810
     },
+    "b869c": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "GraphicalLine",
+      "id": "b869c",
+      "kaavioType": "Edge",
+      "markerStart": "Arrow",
+      "points": [
+        {
+          "x": 495,
+          "y": 543
+        },
+        {
+          "x": 896,
+          "y": 543
+        }
+      ],
+      "stroke": "#cc5555",
+      "strokeWidth": 1,
+      "type": [
+        "GraphicalLine",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 32838
+    },
     "b9650": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -1464,7 +1493,7 @@
       "width": 497.5,
       "x": 430,
       "y": 468.5,
-      "zIndex": -4
+      "zIndex": -33
     },
     "c7d4d": {
       "attachmentDisplay": {
@@ -1848,13 +1877,24 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Metabolite"
+        "ChEBI:CHEBI:29101",
+        "Metabolite",
+        "CompactIdentifier:chebi:29101",
+        "Na+",
+        "Wikidata:Q3154110",
+        "ChEBI:29101",
+        "InChI:FKNQFGJONOIPTF-UHFFFAOYSA-N",
+        "PubChem:923",
+        "ChemSpider:899",
+        "HMDB:HMDB0000588",
+        "KEGG:C01330"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 30,
       "wpType": "Metabolite",
       "x": 680,
+      "xrefDataSource": "ChEBI",
       "xrefIdentifier": "CHEBI:29101",
       "y": 139,
       "zIndex": 32792
@@ -1927,6 +1967,35 @@
       "xrefIdentifier": "CHEBI:29101",
       "y": 363,
       "zIndex": 32828
+    },
+    "d6d25": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "GraphicalLine",
+      "id": "d6d25",
+      "kaavioType": "Edge",
+      "markerStart": "Arrow",
+      "points": [
+        {
+          "x": 495,
+          "y": 207
+        },
+        {
+          "x": 896,
+          "y": 207
+        }
+      ],
+      "stroke": "#cc5555",
+      "strokeWidth": 3,
+      "type": [
+        "GraphicalLine",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12292
     },
     "d7de3": {
       "drawAs": "rect",
@@ -2508,35 +2577,6 @@
       "x": 420.625,
       "y": 70.75,
       "zIndex": 32844
-    },
-    "eac5e": {
-      "drawAs": "StraightLine",
-      "fill": "none",
-      "gpmlElementName": "Interaction",
-      "id": "eac5e",
-      "kaavioType": "Edge",
-      "markerStart": "Arrow",
-      "points": [
-        {
-          "x": 495,
-          "y": 543
-        },
-        {
-          "x": 896,
-          "y": 543
-        }
-      ],
-      "stroke": "#cc5555",
-      "strokeWidth": 1,
-      "type": [
-        "Interaction",
-        "Edge",
-        "SBO:0000167",
-        "SBO:0000393",
-        "SBO:0000394",
-        "DirectedInteraction"
-      ],
-      "zIndex": 32838
     },
     "ec24a": {
       "attachmentDisplay": {
@@ -3163,13 +3203,18 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Metabolite"
+        "DrugBank:DB18927",
+        "Metabolite",
+        "CompactIdentifier:drugbank:DB18927",
+        "Suzetrigine"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "Metabolite",
       "x": 17,
+      "xrefDataSource": "DrugBank",
+      "xrefIdentifier": "DB18927",
       "y": 12,
       "zIndex": 32864
     },
@@ -3632,35 +3677,6 @@
       ],
       "zIndex": 12290
     },
-    "ide830cf18": {
-      "drawAs": "StraightLine",
-      "fill": "none",
-      "gpmlElementName": "Interaction",
-      "id": "ide830cf18",
-      "kaavioType": "Edge",
-      "markerStart": "Arrow",
-      "points": [
-        {
-          "x": 495,
-          "y": 207
-        },
-        {
-          "x": 896,
-          "y": 207
-        }
-      ],
-      "stroke": "#cc5555",
-      "strokeWidth": 3,
-      "type": [
-        "Interaction",
-        "Edge",
-        "SBO:0000167",
-        "SBO:0000393",
-        "SBO:0000394",
-        "DirectedInteraction"
-      ],
-      "zIndex": 12292
-    },
     "idfb47b92f": {
       "drawAs": "StraightLine",
       "fill": "none",
@@ -3699,9 +3715,11 @@
       "standardName": "Suzetrigine for moderate to severe acute pain",
       "textContent": "1",
       "type": [
-        "PublicationXref"
+        "PublicationXref",
+        "PubMed:40133193"
       ],
       "xrefDataSource": "PubMed",
+      "xrefIdentifier": "40133193",
       "year": 2025
     },
     "pvjsgeneratedidff6ac": {
@@ -3770,7 +3788,7 @@
         "@base": "WP5558/"
       }
     ],
-    "author": "[Eweitz]",
+    "author": "[Eweitz, Egonw, Khanspers]",
     "comments": [
       {
         "content": "Suzetrigine (trade name Journavx) is an oral medication used to manage moderate to severe acute pain. It is a non-opioid, small-molecule analgesic that functions by selectively inhibiting Nav1.8-dependent pain signaling pathways in the peripheral nervous system. Unlike opioids, suzetrigine is non-addictive.\r\n\r\nInspired by Figure 2 in [Cho et al. (2025)](https://www.cell.com/trends/pharmacological-sciences/abstract/S0165-6147(25)00028-8).",
@@ -3778,6 +3796,7 @@
       }
     ],
     "contains": [
+      "c3235",
       "dfc1a",
       "c2b9b",
       "e618d",
@@ -3789,11 +3808,10 @@
       "eeb43",
       "ba425",
       "fedcf",
-      "c3235",
       "a67ea",
       "id6f639c8b",
       "id79ae9acd",
-      "ide830cf18",
+      "d6d25",
       "idfb47b92f",
       "e9d62",
       "b068f",
@@ -3833,7 +3851,7 @@
       "adb4a",
       "b2cf5",
       "a9e14",
-      "eac5e",
+      "b869c",
       "dcf21",
       "e9da0",
       "fb67e",
@@ -3866,7 +3884,7 @@
       "e541f",
       "a8990"
     ],
-    "dataSourceVersion": "WP5558_r139161",
+    "dataSourceVersion": "WP5558_r139384",
     "displayName": "Suzetrigine mechanism for pain relief",
     "drawAs": "rect",
     "fill": "white",
@@ -3876,7 +3894,7 @@
     "height": 646,
     "id": "WP5558",
     "kaavioType": "Group",
-    "lastModified": "20250524020356",
+    "lastModified": "20250611174528",
     "name": "Suzetrigine mechanism for pain relief",
     "organism": "Homo sapiens",
     "padding": 5,
