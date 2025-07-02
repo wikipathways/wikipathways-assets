@@ -45,6 +45,37 @@
       "y": 86.99999999999994,
       "zIndex": 32768
     },
+    "a1abf": {
+      "drawAs": "none",
+      "fill": "transparent",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "Label",
+      "height": 25,
+      "id": "a1abf",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#000000",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "textContent": "Member of complex",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "Label",
+        "SingleFreeNode"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 118.74074074074116,
+      "x": 111.25925925925884,
+      "y": 780.3888888888888,
+      "zIndex": 33531
+    },
     "a263d": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -144,7 +175,7 @@
       "gpmlElementName": "Interaction",
       "id": "a416d",
       "isAttachedTo": [
-        "d0d5e",
+        "c1815",
         "e0b98"
       ],
       "kaavioType": "Edge",
@@ -158,16 +189,16 @@
             ],
             "position": [
               1,
-              0.5
+              0.25
             ]
           },
-          "isAttachedTo": "d0d5e",
+          "isAttachedTo": "c1815",
           "orientation": [
             1,
             0
           ],
-          "x": 149.37614847482388,
-          "y": 467.3575891216464
+          "x": 149.75,
+          "y": 460.5
         },
         {
           "attachmentDisplay": {
@@ -177,7 +208,7 @@
             ],
             "position": [
               0,
-              0.5
+              0.25
             ]
           },
           "isAttachedTo": "e0b98",
@@ -186,7 +217,7 @@
             0
           ],
           "x": 256.8761484748246,
-          "y": 467.1525174568173
+          "y": 460.9025174568173
         }
       ],
       "stroke": "#000000",
@@ -592,6 +623,53 @@
       "y": 157.99999999999991,
       "zIndex": 33090
     },
+    "ab183": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "ab183",
+      "isAttachedTo": [
+        "a1abf"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "x": 48,
+          "y": 793
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0,
+              0.5
+            ]
+          },
+          "isAttachedTo": "a1abf",
+          "orientation": [
+            1,
+            0
+          ],
+          "x": 111.25925925925884,
+          "y": 792.8888888888888
+        }
+      ],
+      "stroke": "#ff0000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 33530
+    },
     "ac653": {
       "burrs": [
         "c2fae"
@@ -720,7 +798,7 @@
             0
           ],
           "x": 109.25925925925884,
-          "y": 763.8888888888888
+          "y": 762.8888888888888
         }
       ],
       "stroke": "#3366ff",
@@ -956,7 +1034,7 @@
       "whiteSpace": "pre",
       "width": 85.27777777777806,
       "x": 109.25925925925884,
-      "y": 751.3888888888888,
+      "y": 750.3888888888888,
       "zIndex": 33529
     },
     "b3e88": {
@@ -1364,20 +1442,24 @@
       "stroke": "#14961e",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "Transcription elongation",
+      "textContent": "RNA-polymerase II \nTranscription Elongation",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Pathway"
+        "Reactome:R-HSA-75955",
+        "Pathway",
+        "CompactIdentifier:reactome:R-HSA-75955"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 146.68866633998937,
+      "width": 153.1238515251746,
       "wpType": "Pathway",
-      "x": 803.542815141492,
-      "y": 265.38399893829876,
+      "x": 806.8761484748254,
+      "xrefDataSource": "Reactome",
+      "xrefIdentifier": "R-HSA-75955",
+      "y": 264.27288782718756,
       "zIndex": 32768
     },
     "b94ad": {
@@ -1633,6 +1715,102 @@
       "x": 12,
       "y": 12,
       "zIndex": 28672
+    },
+    "c13e3": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "c13e3",
+      "isAttachedTo": [
+        "e0b98",
+        "c1815"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0,
+              0.75
+            ]
+          },
+          "isAttachedTo": "e0b98",
+          "orientation": [
+            -1,
+            0
+          ],
+          "x": 256.8761484748246,
+          "y": 473.4025174568173
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              1,
+              0.75
+            ]
+          },
+          "isAttachedTo": "c1815",
+          "orientation": [
+            -1,
+            0
+          ],
+          "x": 149.75,
+          "y": 473
+        }
+      ],
+      "stroke": "#ff0000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 33532
+    },
+    "c1815": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25,
+      "id": "c1815",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "TFIID Complex",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Complex"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 90,
+      "wpType": "Complex",
+      "x": 59.75,
+      "y": 454.25,
+      "zIndex": 32768
     },
     "c2176": {
       "drawAs": "none",
@@ -1921,8 +2099,8 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 279,
-      "x": 22.722222222222285,
-      "y": 517.7777777777774,
+      "x": 21.61111111111117,
+      "y": 513.333333333333,
       "zIndex": 28672
     },
     "c4490": {
@@ -2468,52 +2646,6 @@
       "xrefIdentifier": "ENSG00000120656",
       "y": 307.9999999999999,
       "zIndex": 33042
-    },
-    "d0d5e": {
-      "drawAs": "rect",
-      "fill": "#ffffff",
-      "fontFamily": "Arial",
-      "fontSize": 12,
-      "fontStyle": "normal",
-      "fontWeight": "normal",
-      "gpmlElementName": "DataNode",
-      "height": 25,
-      "id": "d0d5e",
-      "kaavioType": "SingleFreeNode",
-      "lineHeight": 1.1,
-      "overflow": "hidden",
-      "padding": 8,
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "textContent": "TFIID",
-      "textDecoration": "none",
-      "textOverflow": "clip",
-      "type": [
-        "DataNode",
-        "SingleFreeNode",
-        "Ensembl:ENSG00000112592",
-        "GeneProduct",
-        "CompactIdentifier:ensembl:ENSG00000112592",
-        "TFIID",
-        "Ensembl:ENSG00000112592",
-        "Entrez Gene:6908",
-        "HGNC:TBP",
-        "UniProt:A0A1B0GVC6",
-        "UniProt:H0Y6D8",
-        "UniProt:P20226",
-        "UniProt:Q7Z6S4",
-        "UniProt:Q7Z6S5"
-      ],
-      "verticalAlign": "middle",
-      "whiteSpace": "pre",
-      "width": 90,
-      "wpType": "GeneProduct",
-      "x": 59.37614847482388,
-      "xrefDataSource": "Ensembl",
-      "xrefIdentifier": "ENSG00000112592",
-      "y": 454.8575891216464,
-      "zIndex": 32836
     },
     "d0fae": {
       "drawAs": "rect",
@@ -3228,8 +3360,8 @@
       "whiteSpace": "pre",
       "width": 129.75,
       "wpType": "Unknown",
-      "x": 47.333333333333286,
-      "y": 821.3611111111111,
+      "x": 46.333333333333286,
+      "y": 848.3611111111111,
       "zIndex": 32768
     },
     "e0226": {
@@ -3504,7 +3636,7 @@
       "width": 202,
       "wpType": "Unknown",
       "x": 47.66666666666649,
-      "y": 785.6111111111117,
+      "y": 811.6111111111117,
       "zIndex": 32768
     },
     "e4e96": {
@@ -4764,7 +4896,7 @@
       "fontStyle": "normal",
       "fontWeight": "normal",
       "gpmlElementName": "Shape",
-      "height": 333.3333333333335,
+      "height": 364.66666666666697,
       "id": "fac01",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
@@ -4789,8 +4921,8 @@
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 247.77777777777783,
-      "x": 36.66666666666663,
-      "y": 523.3333333333331,
+      "x": 35.555555555555515,
+      "y": 516.6666666666665,
       "zIndex": 16384
     },
     "fdb11": {
@@ -5177,8 +5309,8 @@
             1,
             0
           ],
-          "x": 803.542815141492,
-          "y": 277.88399893829876
+          "x": 806.8761484748254,
+          "y": 276.77288782718756
         }
       ],
       "stroke": "#339900",
@@ -6137,7 +6269,7 @@
       "gpmlElementName": "Interaction",
       "id": "idd7c3eedb",
       "isAttachedTo": [
-        "d0d5e",
+        "c1815",
         "b216f"
       ],
       "kaavioType": "Edge",
@@ -6154,13 +6286,13 @@
               0
             ]
           },
-          "isAttachedTo": "d0d5e",
+          "isAttachedTo": "c1815",
           "orientation": [
             0,
             -1
           ],
-          "x": 104.37614847482388,
-          "y": 454.8575891216464
+          "x": 104.75,
+          "y": 454.25
         },
         {
           "attachmentDisplay": {
@@ -6371,6 +6503,69 @@
       ],
       "zIndex": 12288
     },
+    "ide8500859": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "ide8500859",
+      "isAttachedTo": [
+        "b216f",
+        "c1815"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.25,
+              1
+            ]
+          },
+          "isAttachedTo": "b216f",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 82.20948180815861,
+          "y": 396.31918412348404
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.25,
+              0
+            ]
+          },
+          "isAttachedTo": "c1815",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 82.25,
+          "y": 454.25
+        }
+      ],
+      "stroke": "#ff0000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12288
+    },
     "idec00f37": {
       "drawAs": "StraightLine",
       "fill": "none",
@@ -6485,7 +6680,7 @@
       "id": "publicationXrefa26",
       "source": "Subcell Biochem",
       "standardName": "Basic mechanisms in RNA polymerase I transcription of the ribosomal RNA genes.",
-      "textContent": "13",
+      "textContent": "14",
       "type": [
         "PublicationXref",
         "PubMed:23150253"
@@ -6513,7 +6708,7 @@
       "id": "publicationXrefa6b",
       "source": "Eur J Med Genet",
       "standardName": "Mutation pattern and genotype-phenotype correlations of SETD2 in neurodevelopmental disorders.",
-      "textContent": "35",
+      "textContent": "33",
       "type": [
         "PublicationXref",
         "PubMed:33766796"
@@ -6552,7 +6747,7 @@
       "id": "publicationXrefac3",
       "source": "Nature",
       "standardName": "Sporadic autism exomes reveal a highly interconnected protein network of de novo mutations.",
-      "textContent": "10",
+      "textContent": "12",
       "type": [
         "PublicationXref",
         "PubMed:22495309"
@@ -6575,7 +6770,7 @@
       "id": "publicationXrefac8",
       "source": "Prenat Diagn",
       "standardName": "Exome sequencing improves genetic diagnosis of fetal increased nuchal translucency.",
-      "textContent": "27",
+      "textContent": "30",
       "type": [
         "PublicationXref",
         "PubMed:32668055"
@@ -6647,7 +6842,7 @@
       "id": "publicationXrefb0f",
       "source": "Nat Commun",
       "standardName": "Functional interplay between TFIIH and KAT2A regulates higher-order chromatin structure and class II gene expression.",
-      "textContent": "23",
+      "textContent": "25",
       "type": [
         "PublicationXref",
         "PubMed:30894545"
@@ -6674,7 +6869,7 @@
       "id": "publicationXrefb14",
       "source": "J Med Genet",
       "standardName": "Mutations in SETD2 cause a novel overgrowth condition.",
-      "textContent": "15",
+      "textContent": "16",
       "type": [
         "PublicationXref",
         "PubMed:24852293"
@@ -6694,7 +6889,7 @@
       "id": "publicationXrefb1a",
       "source": "Nat Rev Mol Cell Biol",
       "standardName": "The Mediator complex as a master regulator of transcription by RNA polymerase II.",
-      "textContent": "37",
+      "textContent": "36",
       "type": [
         "PublicationXref",
         "PubMed:35725906"
@@ -6726,7 +6921,7 @@
       "id": "publicationXrefb20",
       "source": "Sci Rep",
       "standardName": "Nap1 stimulates homologous recombination by RAD51 and RAD54 in higher-ordered chromatin containing histone H1.",
-      "textContent": "16",
+      "textContent": "15",
       "type": [
         "PublicationXref",
         "PubMed:24798879"
@@ -6862,7 +7057,7 @@
       "id": "publicationXrefc3d",
       "source": "Mol Cell",
       "standardName": "Reconstitution of the transcription factor TFIIH: assignment of functions for the three enzymatic subunits, XPB, XPD, and cdk7.",
-      "textContent": "5",
+      "textContent": "3",
       "type": [
         "PublicationXref",
         "PubMed:10024882"
@@ -6904,7 +7099,7 @@
       "id": "publicationXrefc42",
       "source": "Science",
       "standardName": "Multiplex targeted sequencing identifies recurrently mutated genes in autism spectrum disorders.",
-      "textContent": "12",
+      "textContent": "11",
       "type": [
         "PublicationXref",
         "PubMed:23160955"
@@ -6924,7 +7119,7 @@
       "id": "publicationXrefc73",
       "source": "Nat Commun",
       "standardName": "Fcp1-dependent dephosphorylation is required for M-phase-promoting factor inactivation at mitosis exit.",
-      "textContent": "11",
+      "textContent": "10",
       "type": [
         "PublicationXref",
         "PubMed:22692537"
@@ -6990,7 +7185,7 @@
       "id": "publicationXrefcd8",
       "source": "Nucleic Acids Res",
       "standardName": "Histone methyltransferase SETD2 coordinates FACT recruitment with nucleosome dynamics during transcription.",
-      "textContent": "14",
+      "textContent": "13",
       "type": [
         "PublicationXref",
         "PubMed:23325844"
@@ -7052,7 +7247,7 @@
       "id": "publicationXrefcf4",
       "source": "Am J Hum Genet",
       "standardName": "Recessive Rare Variants in Deoxyhypusine Synthase, an Enzyme Involved in the Synthesis of Hypusine, Are Associated with a Neurodevelopmental Disorder.",
-      "textContent": "24",
+      "textContent": "23",
       "type": [
         "PublicationXref",
         "PubMed:30661771"
@@ -7162,7 +7357,7 @@
       "id": "publicationXrefd59",
       "source": "Am J Hum Genet",
       "standardName": "Redefining the Etiologic Landscape of Cerebellar Malformations.",
-      "textContent": "25",
+      "textContent": "24",
       "type": [
         "PublicationXref",
         "PubMed:31474318"
@@ -7268,7 +7463,7 @@
       "id": "publicationXrefdd3",
       "source": "Neurogenetics",
       "standardName": "Neurodevelopmental phenotype associated with CHD8-SUPT16H duplication.",
-      "textContent": "30",
+      "textContent": "28",
       "type": [
         "PublicationXref",
         "PubMed:31823155"
@@ -7325,7 +7520,7 @@
       "id": "publicationXrefde1",
       "source": "Am J Med Genet A",
       "standardName": "Genotype-phenotype correlation at codon 1740 of SETD2.",
-      "textContent": "28",
+      "textContent": "27",
       "type": [
         "PublicationXref",
         "PubMed:32710489"
@@ -7346,7 +7541,7 @@
       "id": "publicationXrefde5",
       "source": "Genes Dev",
       "standardName": "Integrated molecular mechanism directing nucleosome reorganization by human FACT.",
-      "textContent": "20",
+      "textContent": "21",
       "type": [
         "PublicationXref",
         "PubMed:26966247"
@@ -7373,7 +7568,7 @@
       "id": "publicationXrefdec",
       "source": "J Biol Chem",
       "standardName": "Structure/Function Analysis of Recurrent Mutations in SETD2 Protein Reveals a Critical and Conserved Role for a SET Domain Residue in Maintaining Protein Stability and Histone H3 Lys-36 Trimethylation.",
-      "textContent": "19",
+      "textContent": "20",
       "type": [
         "PublicationXref",
         "PubMed:27528607"
@@ -7397,7 +7592,7 @@
       "id": "publicationXrefe0d",
       "source": "J Biol Chem",
       "standardName": "The Cdk8 kinase module regulates interaction of the mediator complex with RNA polymerase II.",
-      "textContent": "33",
+      "textContent": "34",
       "type": [
         "PublicationXref",
         "PubMed:33933450"
@@ -7452,7 +7647,7 @@
       "id": "publicationXrefeff",
       "source": "Cell Discov",
       "standardName": "Cryo-EM structure of SETD2/Set2 methyltransferase bound to a nucleosome containing oncohistone mutations.",
-      "textContent": "34",
+      "textContent": "35",
       "type": [
         "PublicationXref",
         "PubMed:33972509"
@@ -7476,7 +7671,7 @@
       "id": "publicationXreff23",
       "source": "Science",
       "standardName": "Structures of +1 nucleosome-bound PIC-Mediator complex.",
-      "textContent": "36",
+      "textContent": "37",
       "type": [
         "PublicationXref",
         "PubMed:36201575"
@@ -7502,7 +7697,7 @@
       "id": "publicationXreff88",
       "source": "Mol Cell",
       "standardName": "Identity between TRAP and SMCC complexes indicates novel pathways for the function of nuclear receptors and diverse mammalian activators.",
-      "textContent": "3",
+      "textContent": "5",
       "type": [
         "PublicationXref",
         "PubMed:10198638"
@@ -7524,7 +7719,7 @@
       "id": "publicationXreffe5",
       "source": "Nature",
       "standardName": "Structure of promoter-bound TFIID and model of human pre-initiation complex assembly.",
-      "textContent": "21",
+      "textContent": "19",
       "type": [
         "PublicationXref",
         "PubMed:27007846"
@@ -7743,6 +7938,7 @@
       "id8fb672bb",
       "ida3dbedbc",
       "ide49a5b4f",
+      "ide8500859",
       "idec00f37",
       "idf06e2bd8",
       "id3a9a7c70",
@@ -7766,6 +7962,7 @@
       "a80c8",
       "f143b",
       "b8646",
+      "c1815",
       "da3c1",
       "dd0a6",
       "dfe23",
@@ -7774,7 +7971,6 @@
       "pvjsgeneratedidffca0",
       "pvjsgeneratedidffca1",
       "dad9d",
-      "d0d5e",
       "e0b98",
       "e4e96",
       "c65f7",
@@ -7797,19 +7993,22 @@
       "c2176",
       "bccbb",
       "afba5",
-      "b3c1b"
+      "b3c1b",
+      "ab183",
+      "a1abf",
+      "c13e3"
     ],
-    "dataSourceVersion": "WP5563_r139627",
+    "dataSourceVersion": "WP5563_r139711",
     "displayName": "RNA-polymerase II transcription: the preinitiation complex",
     "drawAs": "rect",
     "fill": "white",
     "fontSize": 12,
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
-    "height": 886.6666666666666,
+    "height": 911.3333333333335,
     "id": "WP5563",
     "kaavioType": "Group",
-    "lastModified": "20250624100534",
+    "lastModified": "20250701102430",
     "name": "RNA-polymerase II transcription: the preinitiation complex",
     "organism": "Homo sapiens",
     "padding": 5,
