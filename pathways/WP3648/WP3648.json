@@ -1,27 +1,5 @@
 {
   "entitiesById": {
-    "110997": {
-      "__HighlandStream__": true,
-      "_can_drain": false,
-      "_consume_waiting_for_next": false,
-      "_consumers": [],
-      "_delegate": null,
-      "_destructors": [],
-      "_events": {},
-      "_eventsCount": 2,
-      "_in_consume_cb": false,
-      "_incoming": [],
-      "_is_observer": false,
-      "_nil_pushed": false,
-      "_observers": [],
-      "_outgoing": [],
-      "_repeat_resume": false,
-      "_send_events": false,
-      "id": "110997",
-      "paused": true,
-      "source": null,
-      "writable": true
-    },
     "a37fd": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -80,7 +58,7 @@
       "stroke": "#0000ff",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "Ca2+",
+      "textContent": "Ca²⁺",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -89,7 +67,7 @@
         "PubChem-compound:271",
         "Metabolite",
         "CompactIdentifier:pubchem.compound:271",
-        "Ca2+",
+        "Ca²⁺",
         "Wikidata:Q23905776",
         "ChEBI:29108",
         "InChI:BHPQYMZQTOCNFJ-UHFFFAOYSA-N",
@@ -200,7 +178,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "c1666",
-      "isPartOf": "d32fb",
+      "isPartOf": "fba9f",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -262,36 +240,6 @@
       "x": 579,
       "y": 342,
       "zIndex": 28672
-    },
-    "d32fb": {
-      "contains": [
-        "c1666",
-        "f60b1",
-        "f8f2d"
-      ],
-      "drawAs": "Octagon",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 84,
-      "id": "d32fb",
-      "kaavioType": "Group",
-      "padding": 11,
-      "stroke": "#808080",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "Complex",
-        "GroupComplex"
-      ],
-      "verticalAlign": "middle",
-      "width": 104.75,
-      "x": 577,
-      "y": 189,
-      "zIndex": 32768
     },
     "d38df": {
       "drawAs": "none",
@@ -382,7 +330,7 @@
       "stroke": "#0000ff",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "H+",
+      "textContent": "H⁺",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -391,7 +339,7 @@
         "PubChem-compound:1038",
         "Metabolite",
         "CompactIdentifier:pubchem.compound:1038",
-        "H+",
+        "H⁺",
         "Wikidata:Q506710",
         "ChEBI:15378",
         "InChI:GPRLSGONYQIRFK-UHFFFAOYSA-N",
@@ -427,7 +375,7 @@
       "stroke": "#000000",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "Increase in intracellular [Ca2+]",
+      "textContent": "Increase in intracellular [Ca²⁺]",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -602,7 +550,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "f60b1",
-      "isPartOf": "d32fb",
+      "isPartOf": "fba9f",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -644,7 +592,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "f8f2d",
-      "isPartOf": "d32fb",
+      "isPartOf": "fba9f",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -674,6 +622,36 @@
       "xrefDataSource": "Ensembl",
       "xrefIdentifier": "WBGene00000217",
       "y": 52,
+      "zIndex": 32768
+    },
+    "fba9f": {
+      "contains": [
+        "c1666",
+        "f60b1",
+        "f8f2d"
+      ],
+      "drawAs": "Octagon",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 84,
+      "id": "fba9f",
+      "kaavioType": "Group",
+      "padding": 11,
+      "stroke": "#808080",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "Complex",
+        "GroupComplex"
+      ],
+      "verticalAlign": "middle",
+      "width": 104.75,
+      "x": 577,
+      "y": 189,
       "zIndex": 32768
     },
     "fd1b5": {
@@ -716,6 +694,16 @@
       "xrefIdentifier": "WBGene00006606",
       "y": 209,
       "zIndex": 32768
+    },
+    "http://identifiers.org/doid/DOID:9159": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/doid/DOID:9159",
+      "ontology": "Disease",
+      "term": "gas gangrene",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "DOID:9159"
     },
     "http://identifiers.org/pw/PW:0000003": {
       "gpmlElementName": "openControlledVocabulary",
@@ -760,7 +748,6 @@
               0.5
             ]
           },
-          "id": "a5f74",
           "isAttachedTo": "bb1f4",
           "orientation": [
             1,
@@ -780,7 +767,6 @@
               0
             ]
           },
-          "id": "a7a67",
           "isAttachedTo": "e14eb",
           "orientation": [
             0,
@@ -825,7 +811,6 @@
               1
             ]
           },
-          "id": "a2fff",
           "isAttachedTo": "f08f8",
           "orientation": [
             0,
@@ -845,7 +830,6 @@
               0
             ]
           },
-          "id": "df4b7",
           "isAttachedTo": "a37fd",
           "orientation": [
             0,
@@ -886,7 +870,6 @@
               0
             ]
           },
-          "id": "b970b",
           "isAttachedTo": "da060",
           "orientation": [
             0,
@@ -906,7 +889,6 @@
               1
             ]
           },
-          "id": "eed8c",
           "isAttachedTo": "bb1f4",
           "orientation": [
             0,
@@ -934,7 +916,7 @@
       "gpmlElementName": "Interaction",
       "id": "id41ff0960",
       "isAttachedTo": [
-        "d32fb",
+        "fba9f",
         "bf0ec"
       ],
       "kaavioType": "Edge",
@@ -951,8 +933,7 @@
               1
             ]
           },
-          "id": "e21e4",
-          "isAttachedTo": "d32fb",
+          "isAttachedTo": "fba9f",
           "orientation": [
             0,
             1
@@ -971,7 +952,6 @@
               0
             ]
           },
-          "id": "b6b82",
           "isAttachedTo": "bf0ec",
           "orientation": [
             0,
@@ -1016,7 +996,6 @@
               0
             ]
           },
-          "id": "b2925",
           "isAttachedTo": "f1657",
           "orientation": [
             0,
@@ -1036,7 +1015,6 @@
               0.5
             ]
           },
-          "id": "b9f0c",
           "isAttachedTo": "bb1f4",
           "orientation": [
             1,
@@ -1081,7 +1059,6 @@
               0.5
             ]
           },
-          "id": "fd8b4",
           "isAttachedTo": "fd1b5",
           "orientation": [
             1,
@@ -1101,7 +1078,6 @@
               0.5
             ]
           },
-          "id": "b999c",
           "isAttachedTo": "da060",
           "orientation": [
             1,
@@ -1146,7 +1122,6 @@
               0.5
             ]
           },
-          "id": "ef59d",
           "isAttachedTo": "abed4",
           "orientation": [
             1,
@@ -1166,7 +1141,6 @@
               0.5
             ]
           },
-          "id": "b5316",
           "isAttachedTo": "fd1b5",
           "orientation": [
             1,
@@ -1191,7 +1165,7 @@
       "id": "idd8d55e95",
       "isAttachedTo": [
         "e14eb",
-        "d32fb"
+        "fba9f"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -1207,7 +1181,6 @@
               1
             ]
           },
-          "id": "fd3b6",
           "isAttachedTo": "e14eb",
           "orientation": [
             0,
@@ -1227,8 +1200,7 @@
               0.25
             ]
           },
-          "id": "cf113",
-          "isAttachedTo": "d32fb",
+          "isAttachedTo": "fba9f",
           "orientation": [
             1,
             0
@@ -1272,7 +1244,6 @@
               1
             ]
           },
-          "id": "eacff",
           "isAttachedTo": "a37fd",
           "orientation": [
             0,
@@ -1292,7 +1263,6 @@
               0
             ]
           },
-          "id": "aca61",
           "isAttachedTo": "abed4",
           "orientation": [
             0,
@@ -1353,10 +1323,10 @@
         "@base": "WP3648/"
       }
     ],
-    "author": "[AAR&Co, Elisa, Khanspers, MaintBot, Eweitz]",
+    "author": "[AAR&Co, Elisa, Khanspers, MaintBot, Eweitz, Egonw]",
     "comments": [
       {
-        "content": "This pathway is modeled on a description provided in Zhang et al. under the title \"A deficiency in the necrosis pathway confers tolerance to Cry6Aa\". Cry6Aa binds to the calcium channel ITR-1 and increases intracellular Ca2+ levels. Ca2+ binds to and activates Calpain TRA-3 which promotes cysteine protease activity. Cysteine Protease activates VHA-12 that uses ATP to increase pH of the cytosol. The increase in H+ concentration signals to the ASP-1/ASP-3/ASP-4 complex which leads to activation of killer cathepsin protease and leads to cell necrosis.",
+        "content": "This pathway is modeled on a description provided in Zhang et al. under the title \"A deficiency in the necrosis pathway confers tolerance to Cry6Aa\". Cry6Aa binds to the calcium channel ITR-1 and increases intracellular Ca²⁺ levels. Ca²⁺ binds to and activates Calpain TRA-3 which promotes cysteine protease activity. Cysteine Protease activates VHA-12 that uses ATP to increase pH of the cytosol. The increase in H+ concentration signals to the ASP-1/ASP-3/ASP-4 complex which leads to activation of killer cathepsin protease and leads to cell necrosis.",
         "source": "WikiPathways-description"
       }
     ],
@@ -1384,9 +1354,9 @@
       "f08f8",
       "f1657",
       "fd1b5",
-      "d32fb"
+      "fba9f"
     ],
-    "dataSourceVersion": "WP3648_r118060",
+    "dataSourceVersion": "WP3648_r139785",
     "displayName": "Crystal toxin triggered necrosis pathway",
     "drawAs": "rect",
     "fill": "white",
@@ -1396,7 +1366,7 @@
     "height": 404,
     "id": "WP3648",
     "kaavioType": "Group",
-    "lastModified": "20210524103740",
+    "lastModified": "20250705071103",
     "name": "Crystal toxin triggered necrosis pathway",
     "organism": "Caenorhabditis elegans",
     "padding": 5,
@@ -1405,7 +1375,6 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Crystal toxin triggered necrosis pathway\nLast Modified: 20210524103740\nOrganism: Caenorhabditis elegans",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000003",
