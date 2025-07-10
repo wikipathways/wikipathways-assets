@@ -1,26 +1,33 @@
 {
   "entitiesById": {
-    "436522": {
-      "__HighlandStream__": true,
-      "_can_drain": false,
-      "_consume_waiting_for_next": false,
-      "_consumers": [],
-      "_delegate": null,
-      "_destructors": [],
-      "_events": {},
-      "_eventsCount": 2,
-      "_in_consume_cb": false,
-      "_incoming": [],
-      "_is_observer": false,
-      "_nil_pushed": false,
-      "_observers": [],
-      "_outgoing": [],
-      "_repeat_resume": false,
-      "_send_events": false,
-      "id": "436522",
-      "paused": true,
-      "source": null,
-      "writable": true
+    "ae22d": {
+      "contains": [
+        "bc3",
+        "fd0"
+      ],
+      "drawAs": "Octagon",
+      "fill": "#b4b464",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 64,
+      "id": "ae22d",
+      "kaavioType": "Group",
+      "padding": 11,
+      "stroke": "#808080",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "Complex",
+        "GroupComplex"
+      ],
+      "verticalAlign": "middle",
+      "width": 104,
+      "x": 552,
+      "y": 65,
+      "zIndex": 32768
     },
     "b2d25": {
       "drawAs": "Ellipse",
@@ -39,7 +46,7 @@
       "stroke": "#0000ff",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "Ca2+",
+      "textContent": "Ca²⁺",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -48,7 +55,7 @@
         "PubChem-compound:271",
         "Metabolite",
         "CompactIdentifier:pubchem.compound:271",
-        "Ca2+",
+        "Ca²⁺",
         "Wikidata:Q23905776",
         "ChEBI:29108",
         "InChI:BHPQYMZQTOCNFJ-UHFFFAOYSA-N",
@@ -206,7 +213,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "bc3",
-      "isPartOf": "ebf27",
+      "isPartOf": "ae22d",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -498,7 +505,7 @@
       "stroke": "#0000ff",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "Ca2+",
+      "textContent": "Ca²⁺",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -507,7 +514,7 @@
         "PubChem-compound:271",
         "Metabolite",
         "CompactIdentifier:pubchem.compound:271",
-        "Ca2+",
+        "Ca²⁺",
         "Wikidata:Q23905776",
         "ChEBI:29108",
         "InChI:BHPQYMZQTOCNFJ-UHFFFAOYSA-N",
@@ -893,35 +900,6 @@
       "y": 308,
       "zIndex": 32768
     },
-    "ebf27": {
-      "contains": [
-        "bc3",
-        "fd0"
-      ],
-      "drawAs": "Octagon",
-      "fill": "#b4b464",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 64,
-      "id": "ebf27",
-      "kaavioType": "Group",
-      "padding": 11,
-      "stroke": "#808080",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "Complex",
-        "GroupComplex"
-      ],
-      "verticalAlign": "middle",
-      "width": 104,
-      "x": 552,
-      "y": 65,
-      "zIndex": 32768
-    },
     "ed298": {
       "drawAs": "Ellipse",
       "fill": "#ffffff",
@@ -1303,7 +1281,6 @@
               1
             ]
           },
-          "id": "cab0a",
           "isAttachedTo": "f00",
           "orientation": [
             0,
@@ -1323,7 +1300,6 @@
               0
             ]
           },
-          "id": "f7c2c",
           "isAttachedTo": "ee596",
           "orientation": [
             0,
@@ -1583,7 +1559,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "fd0",
-      "isPartOf": "ebf27",
+      "isPartOf": "ae22d",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1616,6 +1592,16 @@
       "xrefIdentifier": "ENSBTAG00000021697",
       "y": 12,
       "zIndex": 32768
+    },
+    "http://identifiers.org/cl/CL:0000092": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/cl/CL:0000092",
+      "ontology": "Cell Type",
+      "term": "osteoclast",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "CL:0000092"
     },
     "http://identifiers.org/pw/PW:0000003": {
       "gpmlElementName": "openControlledVocabulary",
@@ -1660,7 +1646,6 @@
               1
             ]
           },
-          "id": "c6bc2",
           "isAttachedTo": "c68",
           "orientation": [
             0,
@@ -1680,7 +1665,6 @@
               0
             ]
           },
-          "id": "f0d75",
           "isAttachedTo": "f00",
           "orientation": [
             0,
@@ -1710,12 +1694,10 @@
       "kaavioType": "Edge",
       "points": [
         {
-          "id": "f8c1f",
           "x": 34,
           "y": 318
         },
         {
-          "id": "f0e37",
           "x": 843,
           "y": 318
         }
@@ -1751,7 +1733,6 @@
               1
             ]
           },
-          "id": "e1897",
           "isAttachedTo": "fbe",
           "orientation": [
             0,
@@ -1771,7 +1752,6 @@
               0
             ]
           },
-          "id": "c5e09",
           "isAttachedTo": "bdf",
           "orientation": [
             0,
@@ -1816,7 +1796,6 @@
               1
             ]
           },
-          "id": "b87b0",
           "isAttachedTo": "f080e",
           "orientation": [
             0,
@@ -1836,7 +1815,6 @@
               0
             ]
           },
-          "id": "d19db",
           "isAttachedTo": "d2e",
           "orientation": [
             0,
@@ -1881,7 +1859,6 @@
               1
             ]
           },
-          "id": "ed939",
           "isAttachedTo": "e2f",
           "orientation": [
             0,
@@ -1901,7 +1878,6 @@
               0
             ]
           },
-          "id": "dce0f",
           "isAttachedTo": "f27",
           "orientation": [
             0,
@@ -1946,7 +1922,6 @@
               0
             ]
           },
-          "id": "fc665",
           "isAttachedTo": "ed298",
           "orientation": [
             0,
@@ -1966,7 +1941,6 @@
               1
             ]
           },
-          "id": "f65b9",
           "isAttachedTo": "ef6",
           "orientation": [
             0,
@@ -2011,7 +1985,6 @@
               1
             ]
           },
-          "id": "e1e62",
           "isAttachedTo": "cf3",
           "orientation": [
             0,
@@ -2031,7 +2004,6 @@
               0
             ]
           },
-          "id": "c6005",
           "isAttachedTo": "fbe",
           "orientation": [
             0,
@@ -2076,7 +2048,6 @@
               1
             ]
           },
-          "id": "e6ca4",
           "isAttachedTo": "d7366",
           "orientation": [
             0,
@@ -2096,7 +2067,6 @@
               0
             ]
           },
-          "id": "e6541",
           "isAttachedTo": "f78",
           "orientation": [
             0,
@@ -2141,7 +2111,6 @@
               1
             ]
           },
-          "id": "baea1",
           "isAttachedTo": "e918b",
           "orientation": [
             0,
@@ -2161,7 +2130,6 @@
               0
             ]
           },
-          "id": "d0331",
           "isAttachedTo": "c3b03",
           "orientation": [
             0,
@@ -2193,7 +2161,7 @@
         "c68"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -2206,7 +2174,6 @@
               0.45
             ]
           },
-          "id": "b109b",
           "isAttachedTo": "b5e",
           "orientation": [
             0,
@@ -2226,7 +2193,6 @@
               0
             ]
           },
-          "id": "f28eb",
           "isAttachedTo": "c68",
           "orientation": [
             0,
@@ -2240,7 +2206,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 12288
     },
@@ -2267,7 +2235,6 @@
               1
             ]
           },
-          "id": "c2766",
           "isAttachedTo": "b96e7",
           "orientation": [
             0,
@@ -2287,7 +2254,6 @@
               0
             ]
           },
-          "id": "bd158",
           "isAttachedTo": "d02b2",
           "orientation": [
             0,
@@ -2332,7 +2298,6 @@
               0
             ]
           },
-          "id": "c4813",
           "isAttachedTo": "cc086",
           "orientation": [
             0,
@@ -2352,7 +2317,6 @@
               1
             ]
           },
-          "id": "e4b0a",
           "isAttachedTo": "b2d25",
           "orientation": [
             0,
@@ -2397,7 +2361,6 @@
               1
             ]
           },
-          "id": "c2f33",
           "isAttachedTo": "f00",
           "orientation": [
             0,
@@ -2417,7 +2380,6 @@
               0
             ]
           },
-          "id": "ccb80",
           "isAttachedTo": "d062f",
           "orientation": [
             0,
@@ -2449,9 +2411,6 @@
     ],
     "author": "[MaintBot, Andra, Egonw, Mkutmon, Eweitz]",
     "comments": [
-      {
-        "source": "WikiPathways-description"
-      },
       {
         "content": "This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP12_r78593 WP12(78593)]  with a 100.0% conversion rate.",
         "source": "HomologyConvert"
@@ -2503,10 +2462,10 @@
       "f78",
       "fbe",
       "fc5",
-      "ebf27",
+      "ae22d",
       "f49c2"
     ],
-    "dataSourceVersion": "WP1007_r117578",
+    "dataSourceVersion": "WP1007_r139893",
     "displayName": "Osteoclast signaling",
     "drawAs": "rect",
     "fill": "white",
@@ -2516,7 +2475,7 @@
     "height": 549,
     "id": "WP1007",
     "kaavioType": "Group",
-    "lastModified": "20210521112330",
+    "lastModified": "20250710044255",
     "name": "Osteoclast signaling",
     "organism": "Bos taurus",
     "padding": 5,
@@ -2525,11 +2484,10 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Osteoclast signaling\nLast Modified: 20210521112330\nOrganism: Bos taurus",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0000650",
-      "http://identifiers.org/pw/PW:0000003"
+      "http://identifiers.org/pw/PW:0000003",
+      "http://identifiers.org/pw/PW:0000650"
     ],
     "verticalAlign": "top",
     "width": 873,
