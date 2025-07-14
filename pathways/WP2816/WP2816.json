@@ -93,7 +93,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "bd51b",
-      "isPartOf": "f370e",
+      "isPartOf": "e0305",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -180,7 +180,8 @@
         "DataNode",
         "SingleFreeNode",
         "Chemspider:184751",
-        "Metabolite"
+        "Metabolite",
+        "CompactIdentifier:chemspider:184751"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -202,7 +203,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "ceb78",
-      "isPartOf": "e1790",
+      "isPartOf": "fff35",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -327,10 +328,10 @@
       "width": 0,
       "zIndex": 12288
     },
-    "e1790": {
+    "e0305": {
       "contains": [
-        "fb29a",
-        "ceb78"
+        "bd51b",
+        "f590e"
       ],
       "drawAs": "none",
       "fill": "transparent",
@@ -339,7 +340,7 @@
       "fontWeight": "bold",
       "gpmlElementName": "Group",
       "height": 56,
-      "id": "e1790",
+      "id": "e0305",
       "kaavioType": "Group",
       "padding": 8,
       "stroke": "#808080",
@@ -352,9 +353,9 @@
       ],
       "verticalAlign": "middle",
       "width": 96,
-      "x": 78,
-      "y": 303,
-      "zIndex": 32771
+      "x": 76,
+      "y": 184,
+      "zIndex": 32768
     },
     "ea7d2": {
       "drawAs": "rect",
@@ -380,7 +381,8 @@
         "DataNode",
         "SingleFreeNode",
         "PubChem-compound:3025746",
-        "Metabolite"
+        "Metabolite",
+        "CompactIdentifier:pubchem-compound:3025746"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -416,7 +418,8 @@
         "DataNode",
         "SingleFreeNode",
         "PubChem-compound:21350391",
-        "Metabolite"
+        "Metabolite",
+        "CompactIdentifier:pubchem-compound:21350391"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -498,35 +501,6 @@
       "width": 0,
       "zIndex": 12288
     },
-    "f370e": {
-      "contains": [
-        "bd51b",
-        "f590e"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 56,
-      "id": "f370e",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 96,
-      "x": 76,
-      "y": 184,
-      "zIndex": 32768
-    },
     "f590e": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -537,7 +511,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "f590e",
-      "isPartOf": "f370e",
+      "isPartOf": "e0305",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -584,7 +558,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "fb29a",
-      "isPartOf": "e1790",
+      "isPartOf": "fff35",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -711,6 +685,35 @@
       "y": 264,
       "zIndex": 32768
     },
+    "fff35": {
+      "contains": [
+        "fb29a",
+        "ceb78"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 56,
+      "id": "fff35",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 96,
+      "x": 78,
+      "y": 303,
+      "zIndex": 32771
+    },
     "http://identifiers.org/pw/PW:0000923": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000923",
@@ -737,7 +740,7 @@
       "gpmlElementName": "Interaction",
       "id": "id1a196c0b",
       "isAttachedTo": [
-        "f370e",
+        "e0305",
         "ida2793a37"
       ],
       "kaavioType": "Edge",
@@ -754,8 +757,7 @@
               0.5
             ]
           },
-          "id": "e162a",
-          "isAttachedTo": "f370e",
+          "isAttachedTo": "e0305",
           "orientation": [
             1,
             0
@@ -775,7 +777,6 @@
               0
             ]
           },
-          "id": "c7883",
           "isAttachedTo": "cf006",
           "orientation": [],
           "x": 241.6999969482422,
@@ -813,7 +814,6 @@
               1
             ]
           },
-          "id": "b56a3",
           "isAttachedTo": "af4ea",
           "orientation": [
             0,
@@ -834,7 +834,6 @@
               0
             ]
           },
-          "id": "f60e5",
           "isAttachedTo": "becec",
           "orientation": [],
           "x": 612,
@@ -875,7 +874,6 @@
               0.5
             ]
           },
-          "id": "c6fe6",
           "isAttachedTo": "fd836",
           "orientation": [
             1,
@@ -895,7 +893,6 @@
               0.5
             ]
           },
-          "id": "de6ec",
           "isAttachedTo": "c6700",
           "orientation": [
             1,
@@ -919,7 +916,7 @@
       "gpmlElementName": "Interaction",
       "id": "id4ed85011",
       "isAttachedTo": [
-        "e1790",
+        "fff35",
         "idb9efe33e"
       ],
       "kaavioType": "Edge",
@@ -936,8 +933,7 @@
               0.5
             ]
           },
-          "id": "e6e90",
-          "isAttachedTo": "e1790",
+          "isAttachedTo": "fff35",
           "orientation": [
             1,
             0
@@ -957,7 +953,6 @@
               0
             ]
           },
-          "id": "a42d4",
           "isAttachedTo": "f0f5c",
           "orientation": [],
           "x": 241.6999969482422,
@@ -995,7 +990,6 @@
               1
             ]
           },
-          "id": "a571f",
           "isAttachedTo": "d506d",
           "orientation": [
             0,
@@ -1016,7 +1010,6 @@
               0
             ]
           },
-          "id": "c7eb7",
           "isAttachedTo": "d54f7",
           "orientation": [],
           "x": 853,
@@ -1054,7 +1047,6 @@
               0
             ]
           },
-          "id": "c0807",
           "isAttachedTo": "ed054",
           "orientation": [
             0,
@@ -1074,7 +1066,6 @@
               1
             ]
           },
-          "id": "f58ea",
           "isAttachedTo": "a51f4",
           "orientation": [
             0,
@@ -1118,7 +1109,6 @@
               0
             ]
           },
-          "id": "b69c1",
           "isAttachedTo": "fd836",
           "orientation": [
             0,
@@ -1138,7 +1128,6 @@
               1
             ]
           },
-          "id": "e207c",
           "isAttachedTo": "fcf5a",
           "orientation": [
             0,
@@ -1182,7 +1171,6 @@
               1
             ]
           },
-          "id": "abf18",
           "isAttachedTo": "fd836",
           "orientation": [
             0,
@@ -1202,7 +1190,6 @@
               0
             ]
           },
-          "id": "c1848",
           "isAttachedTo": "f01c5",
           "orientation": [
             0,
@@ -1246,7 +1233,6 @@
               0.5
             ]
           },
-          "id": "c69bd",
           "isAttachedTo": "ed054",
           "orientation": [
             1,
@@ -1266,7 +1252,6 @@
               0.5
             ]
           },
-          "id": "bae8e",
           "isAttachedTo": "ea7d2",
           "orientation": [
             1,
@@ -1310,7 +1295,6 @@
               0.5
             ]
           },
-          "id": "c19ce",
           "isAttachedTo": "c6700",
           "orientation": [
             1,
@@ -1330,7 +1314,6 @@
               0.5
             ]
           },
-          "id": "f9cb2",
           "isAttachedTo": "ed054",
           "orientation": [
             1,
@@ -1401,7 +1384,7 @@
     "author": "[Egonw, Khanspers, Mkutmon, MaintBot, Eweitz]",
     "comments": [
       {
-        "content": "CYP metabolism of felbamate.",
+        "content": "CYP metabolism of felbamate, with the metabolites 2-hydroxyfelbamate, p-hydroxyfelbamate, and 3-Hydroxy-2-phenylpropylcarbamate. The last further metabolizes to 3-carbamoyl-2-phenylpropionaldehyde, atropaldehyde, and 3-carbamoyl-2-phenylpropionic acid.",
         "source": "WikiPathways-description"
       }
     ],
@@ -1424,11 +1407,11 @@
       "ed054",
       "fcf5a",
       "fd836",
-      "f370e",
-      "e1790",
+      "e0305",
+      "fff35",
       "f01c5"
     ],
-    "dataSourceVersion": "WP2816_r117724",
+    "dataSourceVersion": "WP2816_r139962",
     "displayName": "Felbamate metabolism",
     "drawAs": "rect",
     "fill": "white",
@@ -1438,7 +1421,7 @@
     "height": 450,
     "id": "WP2816",
     "kaavioType": "Group",
-    "lastModified": "20210522123423",
+    "lastModified": "20250713103852",
     "name": "Felbamate metabolism",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -1447,11 +1430,10 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Felbamate metabolism\nLast Modified: 20210522123423\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0000923",
-      "http://identifiers.org/pw/PW:0001229"
+      "http://identifiers.org/pw/PW:0001229",
+      "http://identifiers.org/pw/PW:0000923"
     ],
     "verticalAlign": "top",
     "width": 1057,

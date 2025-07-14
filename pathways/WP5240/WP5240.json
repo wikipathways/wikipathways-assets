@@ -1,27 +1,5 @@
 {
   "entitiesById": {
-    "588475": {
-      "__HighlandStream__": true,
-      "_can_drain": false,
-      "_consume_waiting_for_next": false,
-      "_consumers": [],
-      "_delegate": null,
-      "_destructors": [],
-      "_events": {},
-      "_eventsCount": 2,
-      "_in_consume_cb": false,
-      "_incoming": [],
-      "_is_observer": false,
-      "_nil_pushed": false,
-      "_observers": [],
-      "_outgoing": [],
-      "_repeat_resume": false,
-      "_send_events": false,
-      "id": "588475",
-      "paused": true,
-      "source": null,
-      "writable": true
-    },
     "a4f78": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -138,7 +116,6 @@
               1
             ]
           },
-          "id": "a3e20",
           "isAttachedTo": "f2148",
           "orientation": [
             0,
@@ -159,7 +136,6 @@
               0
             ]
           },
-          "id": "f7497",
           "isAttachedTo": "eefef",
           "orientation": [],
           "x": 286,
@@ -240,7 +216,6 @@
               1
             ]
           },
-          "id": "e1db6",
           "isAttachedTo": "a5f82",
           "orientation": [
             0,
@@ -261,7 +236,6 @@
               0
             ]
           },
-          "id": "c6092",
           "isAttachedTo": "d77d3",
           "orientation": [],
           "x": 506.5820895522386,
@@ -361,7 +335,6 @@
               0.5
             ]
           },
-          "id": "a404a",
           "isAttachedTo": "a4f78",
           "orientation": [
             1,
@@ -382,7 +355,6 @@
               0
             ]
           },
-          "id": "f65ac",
           "isAttachedTo": "eefef",
           "orientation": [],
           "x": 286,
@@ -426,7 +398,6 @@
               0.5
             ]
           },
-          "id": "cb52d",
           "isAttachedTo": "c484a",
           "orientation": [
             1,
@@ -446,7 +417,6 @@
               0.5
             ]
           },
-          "id": "a198e",
           "isAttachedTo": "fcf48",
           "orientation": [
             1,
@@ -606,7 +576,6 @@
               0.5
             ]
           },
-          "id": "b57e4",
           "isAttachedTo": "fcf48",
           "orientation": [
             1,
@@ -626,7 +595,6 @@
               0.5
             ]
           },
-          "id": "e74da",
           "isAttachedTo": "ef6b4",
           "orientation": [
             1,
@@ -689,6 +657,16 @@
       "y": 174.5,
       "zIndex": 32768
     },
+    "http://identifiers.org/doid/DOID:9970": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/doid/DOID:9970",
+      "ontology": "Disease",
+      "term": "obesity",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "DOID:9970"
+    },
     "http://identifiers.org/pw/PW:0000002": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000002",
@@ -710,26 +688,76 @@
       "xrefIdentifier": "PW:0000003"
     },
     "publicationXrefd3508": {
+      "authors": [
+        "Jansen RS",
+        "Addie R",
+        "Merkx R",
+        "Fish A",
+        "Mahakena S",
+        "Bleijerveld OB",
+        "Altelaar M",
+        "IJlst L",
+        "Wanders RJ",
+        "Borst P",
+        "van de Wetering K"
+      ],
       "gpmlElementName": "PublicationXref",
       "id": "publicationXrefd3508",
+      "source": "Proc Natl Acad Sci U S A",
+      "standardName": "N-lactoyl-amino acids are ubiquitous metabolites that originate from CNDP2-mediated reverse proteolysis of lactate and amino acids.",
       "textContent": "1",
       "type": [
         "PublicationXref",
         "PubMed:25964343"
       ],
       "xrefDataSource": "PubMed",
-      "xrefIdentifier": "25964343"
+      "xrefIdentifier": "25964343",
+      "year": 2015
     },
     "publicationXrefd611e": {
+      "authors": [
+        "Li VL",
+        "He Y",
+        "Contrepois K",
+        "Liu H",
+        "Kim JT",
+        "Wiggenhorn AL",
+        "Tanzo JT",
+        "Tung AS",
+        "Lyu X",
+        "Zushin PH",
+        "Jansen RS",
+        "Michael B",
+        "Loh KY",
+        "Yang AC",
+        "Carl CS",
+        "Voldstedlund CT",
+        "Wei W",
+        "Terrell SM",
+        "Moeller BC",
+        "Arthur RM",
+        "Wallis GA",
+        "van de Wetering K",
+        "Stahl A",
+        "Kiens B",
+        "Richter EA",
+        "Banik SM",
+        "Snyder MP",
+        "Xu Y",
+        "Long JZ"
+      ],
       "gpmlElementName": "PublicationXref",
       "id": "publicationXrefd611e",
+      "source": "Nature",
+      "standardName": "An exercise-inducible metabolite that suppresses feeding and obesity.",
       "textContent": "2",
       "type": [
         "PublicationXref",
         "PubMed:35705806"
       ],
       "xrefDataSource": "PubMed",
-      "xrefIdentifier": "35705806"
+      "xrefIdentifier": "35705806",
+      "year": 2022
     }
   },
   "pathway": {
@@ -741,6 +769,10 @@
     ],
     "author": "[Egonw, Eweitz]",
     "comments": [
+      {
+        "content": "Lac-Phe is formed by Cndp2 and exported outside the cell, into the blood circulation by Abcc5. It is linked to food intake and obesity, where it is increased after exercise and suppresses food intake. \r\n\r\nHomology converted from [https://www.wikipathways.org/index.php/Pathway:WP5239 WP5239]",
+        "source": "WikiPathways-description"
+      },
       {
         "content": "Mouse Lac-Phe pathway",
         "source": "WikiPathways-description"
@@ -760,7 +792,7 @@
       "f2148",
       "fcf48"
     ],
-    "dataSourceVersion": "WP5240_r124561",
+    "dataSourceVersion": "WP5240_r139967",
     "displayName": "Lac-Phe pathway",
     "drawAs": "rect",
     "fill": "white",
@@ -770,7 +802,7 @@
     "height": 353.01740812379114,
     "id": "WP5240",
     "kaavioType": "Group",
-    "lastModified": "20221109004909",
+    "lastModified": "20250713172250",
     "name": "Lac-Phe pathway",
     "organism": "Mus musculus",
     "padding": 5,
@@ -779,7 +811,6 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Lac-Phe pathway\nLast Modified: 20221109004909\nOrganism: Mus musculus",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000002",
