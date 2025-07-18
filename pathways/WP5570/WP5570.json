@@ -3300,39 +3300,6 @@
       "y": 1349.7485591482673,
       "zIndex": 32884
     },
-    "da803": {
-      "drawAs": "rect",
-      "fill": "#ffcc66",
-      "fontFamily": "Arial",
-      "fontSize": 20,
-      "fontStyle": "normal",
-      "fontWeight": "normal",
-      "gpmlElementName": "Label",
-      "height": 89.2330967904596,
-      "id": "da803",
-      "kaavioType": "SingleFreeNode",
-      "lineHeight": 1.1,
-      "overflow": "hidden",
-      "padding": 8,
-      "rx": 15,
-      "ry": 15,
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "textContent": "Unclear which enzyme \ncatalyzes this reaction in \nHomo sapiens",
-      "textDecoration": "none",
-      "textOverflow": "clip",
-      "type": [
-        "Label",
-        "SingleFreeNode"
-      ],
-      "verticalAlign": "middle",
-      "whiteSpace": "pre",
-      "width": 287.6820102939272,
-      "x": 1920.7578874042824,
-      "y": 991.0485933503837,
-      "zIndex": 28672
-    },
     "daa15": {
       "drawAs": "StraightLine",
       "fill": "none",
@@ -4906,6 +4873,44 @@
       "y": 197.08605675476218,
       "zIndex": 32854
     },
+    "f0d73": {
+      "comments": [
+        {
+          "content": "unable to identify the corresponding enzyme to the Rhea reaction. Did find kinetic data for this reaction on Sabio-RK for Homo Sapiens but not sure whether it is accurate. (UniProt: P05091 and PMID 170276)"
+        }
+      ],
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 20,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 87.12871287128682,
+      "id": "f0d73",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#ff0000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Unclear which enzyme \ncatalyzes this reaction in \nHomo sapiens",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Protein"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 250.00495049504735,
+      "wpType": "Protein",
+      "x": 1942.0742574257438,
+      "y": 1000.0000000000003,
+      "zIndex": 32768
+    },
     "f0e42": {
       "burrs": [
         "b174e"
@@ -5085,6 +5090,31 @@
       "xrefIdentifier": "P60174",
       "y": 1636.593071923124,
       "zIndex": 32893
+    },
+    "f318a": {
+      "attachmentDisplay": {
+        "offset": [
+          0,
+          0
+        ],
+        "position": [
+          0.4752956738599537,
+          0
+        ]
+      },
+      "drawAs": "none",
+      "gpmlElementName": "Anchor",
+      "height": 0,
+      "id": "f318a",
+      "isAttachedTo": "idbc55c365",
+      "kaavioType": "Burr",
+      "strokeWidth": 0,
+      "type": [
+        "Anchor",
+        "Burr"
+      ],
+      "width": 0,
+      "zIndex": 12288
     },
     "f4e5b": {
       "attachmentDisplay": {
@@ -8081,49 +8111,6 @@
       ],
       "zIndex": 12288
     },
-    "id960950d": {
-      "drawAs": "StraightLine",
-      "fill": "none",
-      "gpmlElementName": "Interaction",
-      "id": "id960950d",
-      "isAttachedTo": [
-        "da803"
-      ],
-      "kaavioType": "Edge",
-      "points": [
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0.5,
-              1
-            ]
-          },
-          "isAttachedTo": "da803",
-          "orientation": [
-            0,
-            1
-          ],
-          "x": 2064.598892551246,
-          "y": 1080.2816901408432
-        },
-        {
-          "x": 2066.187899344253,
-          "y": 1162.5187863815872
-        }
-      ],
-      "stroke": "#000000",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 1,
-      "type": [
-        "Interaction",
-        "Edge"
-      ],
-      "zIndex": 12288
-    },
     "id9bb81c44": {
       "burrs": [
         "aa31b"
@@ -8679,7 +8666,7 @@
     },
     "idbc55c365": {
       "burrs": [
-        "pvjsgeneratedidff76a"
+        "f318a"
       ],
       "drawAs": "StraightLine",
       "fill": "none",
@@ -9602,6 +9589,63 @@
       "xrefIdentifier": "23595",
       "zIndex": 12288
     },
+    "ideb2040b3": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "ideb2040b3",
+      "isAttachedTo": [
+        "f0d73",
+        "idbc55c365"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "MimCatalysis",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "f0d73",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 2067.0767326732675,
+          "y": 1087.1287128712872
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [],
+            "position": [
+              0.4752956738599537,
+              0
+            ],
+            "relativeOffset": [
+              0,
+              0
+            ]
+          },
+          "isAttachedTo": "f318a",
+          "orientation": [],
+          "x": 2066.187899344253,
+          "y": 1162.5187863815872
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
+      "zIndex": 12288
+    },
     "ideb5c3712": {
       "drawAs": "StraightLine",
       "fill": "none",
@@ -9983,7 +10027,7 @@
       "id": "publicationXrefa51",
       "source": "Invest Ophthalmol Vis Sci",
       "standardName": "A missense mutation in HK1 leads to autosomal dominant retinitis pigmentosa.",
-      "textContent": "21",
+      "textContent": "22",
       "type": [
         "PublicationXref",
         "PubMed:25316723"
@@ -10020,7 +10064,7 @@
       "id": "publicationXrefab3",
       "source": "J Mol Endocrinol",
       "standardName": "Metabolic impact of the glycerol channels AQP7 and AQP9 in adipose tissue and liver.",
-      "textContent": "20",
+      "textContent": "21",
       "type": [
         "PublicationXref",
         "PubMed:24463099"
@@ -10637,7 +10681,7 @@
       "id": "publicationXrefee4",
       "source": "Protein Sci",
       "standardName": "The critical role of the loops of triosephosphate isomerase for its oligomerization, dynamics, and functionality.",
-      "textContent": "22",
+      "textContent": "20",
       "type": [
         "PublicationXref",
         "PubMed:24318986"
@@ -10787,31 +10831,6 @@
       ],
       "width": 4,
       "zIndex": 12288
-    },
-    "pvjsgeneratedidff76a": {
-      "attachmentDisplay": {
-        "offset": [
-          0,
-          0
-        ],
-        "position": [
-          0.4752956738599537,
-          0
-        ]
-      },
-      "drawAs": "rect",
-      "gpmlElementName": "Anchor",
-      "height": 4,
-      "id": "pvjsgeneratedidff76a",
-      "isAttachedTo": "idbc55c365",
-      "kaavioType": "Burr",
-      "strokeWidth": 0,
-      "type": [
-        "Anchor",
-        "Burr"
-      ],
-      "width": 4,
-      "zIndex": 12288
     }
   },
   "pathway": {
@@ -10855,7 +10874,6 @@
       "id7c108df",
       "id45d4d75",
       "id870287d3",
-      "id960950d",
       "id9bb81c44",
       "id2e6d3ea",
       "id9c6f8980",
@@ -10890,6 +10908,7 @@
       "id2aae4eb6",
       "iddfff6510",
       "id342c1814",
+      "ideb2040b3",
       "ideb5c3712",
       "ideced8b21",
       "idf138708d",
@@ -10902,7 +10921,6 @@
       "b2e98",
       "d1cf7",
       "f07f5",
-      "da803",
       "a1874",
       "a4289",
       "add19",
@@ -10921,6 +10939,7 @@
       "e6c66",
       "ea8d2",
       "ed1be",
+      "f0d73",
       "fe2e1",
       "fe4ec",
       "eaaad",
@@ -11002,7 +11021,7 @@
       "dec56",
       "cdead"
     ],
-    "dataSourceVersion": "WP5570_r139983",
+    "dataSourceVersion": "WP5570_r140007",
     "displayName": "Glycerol metabolism including linked IMDs",
     "drawAs": "rect",
     "fill": "white",
@@ -11012,7 +11031,7 @@
     "height": 2069.1459074733093,
     "id": "WP5570",
     "kaavioType": "Group",
-    "lastModified": "20250715090342",
+    "lastModified": "20250717140717",
     "name": "Glycerol metabolism including linked IMDs",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -11023,9 +11042,9 @@
     "textAlign": "left",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0000002",
       "http://identifiers.org/pw/PW:0002018",
-      "http://identifiers.org/pw/PW:0000013"
+      "http://identifiers.org/pw/PW:0000013",
+      "http://identifiers.org/pw/PW:0000002"
     ],
     "verticalAlign": "top",
     "width": 3121.122211122211,
