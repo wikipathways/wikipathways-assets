@@ -1,71 +1,5 @@
 {
   "entitiesById": {
-    "387324": {
-      "__HighlandStream__": true,
-      "_can_drain": false,
-      "_consume_waiting_for_next": false,
-      "_consumers": [],
-      "_delegate": null,
-      "_destructors": [],
-      "_events": {},
-      "_eventsCount": 2,
-      "_in_consume_cb": false,
-      "_incoming": [],
-      "_is_observer": false,
-      "_nil_pushed": false,
-      "_observers": [],
-      "_outgoing": [],
-      "_repeat_resume": false,
-      "_send_events": false,
-      "id": "387324",
-      "paused": true,
-      "source": null,
-      "writable": true
-    },
-    "732977": {
-      "__HighlandStream__": true,
-      "_can_drain": false,
-      "_consume_waiting_for_next": false,
-      "_consumers": [],
-      "_delegate": null,
-      "_destructors": [],
-      "_events": {},
-      "_eventsCount": 2,
-      "_in_consume_cb": false,
-      "_incoming": [],
-      "_is_observer": false,
-      "_nil_pushed": false,
-      "_observers": [],
-      "_outgoing": [],
-      "_repeat_resume": false,
-      "_send_events": false,
-      "id": "732977",
-      "paused": true,
-      "source": null,
-      "writable": true
-    },
-    "797884": {
-      "__HighlandStream__": true,
-      "_can_drain": false,
-      "_consume_waiting_for_next": false,
-      "_consumers": [],
-      "_delegate": null,
-      "_destructors": [],
-      "_events": {},
-      "_eventsCount": 2,
-      "_in_consume_cb": false,
-      "_incoming": [],
-      "_is_observer": false,
-      "_nil_pushed": false,
-      "_observers": [],
-      "_outgoing": [],
-      "_repeat_resume": false,
-      "_send_events": false,
-      "id": "797884",
-      "paused": true,
-      "source": null,
-      "writable": true
-    },
     "a0308": {
       "drawAs": "none",
       "fill": "transparent",
@@ -136,13 +70,13 @@
       "zIndex": 16384
     },
     "a6cdd": {
-      "drawAs": "none",
-      "fill": "transparent",
+      "drawAs": "rect",
+      "fill": "#ffffff",
       "fontFamily": "Arial",
       "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "normal",
-      "gpmlElementName": "Label",
+      "gpmlElementName": "DataNode",
       "height": 25,
       "id": "a6cdd",
       "kaavioType": "SingleFreeNode",
@@ -150,19 +84,25 @@
       "overflow": "hidden",
       "padding": 8,
       "stroke": "#000000",
-      "strokeWidth": 0,
+      "strokeWidth": 1,
       "textAlign": "center",
       "textContent": "High fat diet",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
-        "Label",
-        "SingleFreeNode"
+        "DataNode",
+        "SingleFreeNode",
+        "Wikidata:Q60342938",
+        "Unknown",
+        "CompactIdentifier:wikidata:Q60342938"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 90,
+      "wpType": "Unknown",
       "x": 164,
+      "xrefDataSource": "Wikidata",
+      "xrefIdentifier": "Q60342938",
       "y": 75.5,
       "zIndex": 28672
     },
@@ -216,12 +156,10 @@
       "kaavioType": "Edge",
       "points": [
         {
-          "id": "ba677",
           "x": 454,
           "y": 14
         },
         {
-          "id": "b5393",
           "x": 454,
           "y": 363
         }
@@ -257,13 +195,17 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Metabolite"
+        "ChEBI:CHEBI:25212",
+        "Metabolite",
+        "CompactIdentifier:chebi:CHEBI:25212"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 77,
       "wpType": "Metabolite",
       "x": 489,
+      "xrefDataSource": "ChEBI",
+      "xrefIdentifier": "CHEBI:25212",
       "y": 292.5,
       "zIndex": 32768
     },
@@ -339,71 +281,6 @@
       "y": 130,
       "zIndex": 32768
     },
-    "dc1f6": {
-      "drawAs": "StraightLine",
-      "fill": "none",
-      "gpmlElementName": "Interaction",
-      "id": "dc1f6",
-      "isAttachedTo": [
-        "a6cdd",
-        "abbd7"
-      ],
-      "kaavioType": "Edge",
-      "markerEnd": "Arrow",
-      "points": [
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0.5,
-              1
-            ]
-          },
-          "id": "eb3eb",
-          "isAttachedTo": "a6cdd",
-          "orientation": [
-            0,
-            1
-          ],
-          "x": 209,
-          "y": 100.5
-        },
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0.5,
-              0
-            ]
-          },
-          "id": "ce74d",
-          "isAttachedTo": "abbd7",
-          "orientation": [
-            0,
-            1
-          ],
-          "x": 209.5,
-          "y": 148
-        }
-      ],
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "type": [
-        "Interaction",
-        "Edge",
-        "SBO:0000167",
-        "SBO:0000393",
-        "SBO:0000394",
-        "DirectedInteraction"
-      ],
-      "zIndex": 12288
-    },
     "e8550": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -433,7 +310,8 @@
         "insulin",
         "Ensembl:ENSRNOG00000020405",
         "Entrez Gene:24506",
-        "UniProt:P01323"
+        "UniProt:P01323",
+        "UniProt:A0A8I6G4B8"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -646,6 +524,36 @@
       "y": 148,
       "zIndex": 32768
     },
+    "http://identifiers.org/cl/CL:0000236": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/cl/CL:0000236",
+      "ontology": "Cell Type",
+      "term": "B cell",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "CL:0000236"
+    },
+    "http://identifiers.org/cl/CL:0011102": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/cl/CL:0011102",
+      "ontology": "Cell Type",
+      "term": "parasympathetic neuron",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "CL:0011102"
+    },
+    "http://identifiers.org/doid/DOID:0060158": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/doid/DOID:0060158",
+      "ontology": "Disease",
+      "term": "acquired metabolic disease",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "DOID:0060158"
+    },
     "http://identifiers.org/pw/PW:0000013": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000013",
@@ -679,7 +587,6 @@
               0.5
             ]
           },
-          "id": "bbf4a",
           "isAttachedTo": "eb774",
           "orientation": [
             1,
@@ -699,7 +606,6 @@
               0.5
             ]
           },
-          "id": "b65f8",
           "isAttachedTo": "b0b95",
           "orientation": [
             1,
@@ -740,7 +646,6 @@
               0.5
             ]
           },
-          "id": "e634d",
           "isAttachedTo": "b6e3e",
           "orientation": [
             1,
@@ -760,7 +665,6 @@
               0.5
             ]
           },
-          "id": "d3254",
           "isAttachedTo": "e8550",
           "orientation": [
             1,
@@ -778,17 +682,17 @@
       ],
       "zIndex": 12288
     },
-    "id337e762": {
+    "id260ede37": {
       "drawAs": "StraightLine",
       "fill": "none",
       "gpmlElementName": "Interaction",
-      "id": "id337e762",
+      "id": "id260ede37",
       "isAttachedTo": [
-        "abbd7",
-        "edc1b"
+        "a6cdd",
+        "abbd7"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimConversion",
+      "markerEnd": "Arrow",
       "points": [
         {
           "attachmentDisplay": {
@@ -801,7 +705,68 @@
               1
             ]
           },
-          "id": "a8b83",
+          "isAttachedTo": "a6cdd",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 209,
+          "y": 100.5
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "abbd7",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 209.5,
+          "y": 148
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12288
+    },
+    "id337e762": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "id337e762",
+      "isAttachedTo": [
+        "abbd7",
+        "edc1b"
+      ],
+      "kaavioType": "Edge",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
           "isAttachedTo": "abbd7",
           "orientation": [
             0,
@@ -821,7 +786,6 @@
               0
             ]
           },
-          "id": "fbdcf",
           "isAttachedTo": "edc1b",
           "orientation": [
             0,
@@ -862,7 +826,6 @@
               1
             ]
           },
-          "id": "f52a8",
           "isAttachedTo": "ffae7",
           "orientation": [
             0,
@@ -882,7 +845,6 @@
               0
             ]
           },
-          "id": "df24b",
           "isAttachedTo": "edc1b",
           "orientation": [
             0,
@@ -908,12 +870,10 @@
       "kaavioType": "Edge",
       "points": [
         {
-          "id": "bb020",
           "x": 336,
           "y": 14
         },
         {
-          "id": "c7d22",
           "x": 336,
           "y": 363
         }
@@ -949,7 +909,6 @@
               1
             ]
           },
-          "id": "e12a3",
           "isAttachedTo": "edc1b",
           "orientation": [
             0,
@@ -969,7 +928,6 @@
               0
             ]
           },
-          "id": "aa7e6",
           "isAttachedTo": "eebe1",
           "orientation": [
             0,
@@ -997,7 +955,6 @@
         "eb774"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "Arrow",
       "points": [
         {
           "attachmentDisplay": {
@@ -1010,7 +967,6 @@
               0.5
             ]
           },
-          "id": "e4635",
           "isAttachedTo": "eebe1",
           "orientation": [
             1,
@@ -1030,7 +986,6 @@
               0.5
             ]
           },
-          "id": "d660e",
           "isAttachedTo": "eb774",
           "orientation": [
             1,
@@ -1044,11 +999,7 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge",
-        "SBO:0000167",
-        "SBO:0000393",
-        "SBO:0000394",
-        "DirectedInteraction"
+        "Edge"
       ],
       "zIndex": 12288
     },
@@ -1075,7 +1026,6 @@
               0
             ]
           },
-          "id": "bc2e6",
           "isAttachedTo": "b0b95",
           "orientation": [
             0,
@@ -1095,7 +1045,6 @@
               1
             ]
           },
-          "id": "b0e6a",
           "isAttachedTo": "b6e3e",
           "orientation": [
             0,
@@ -1155,18 +1104,18 @@
       }
     ],
     "contains": [
-      "dc1f6",
-      "id5b34c8f1",
       "id178b2def",
+      "id5b34c8f1",
       "id1be35cad",
+      "id260ede37",
       "id337e762",
       "id5258b26d",
       "id5f2bd57f",
       "id79f12e1e",
       "idc5c77f4d",
       "a569f",
-      "a0308",
       "a6cdd",
+      "a0308",
       "b39ec",
       "ecaee",
       "abbd7",
@@ -1179,17 +1128,17 @@
       "eb774",
       "aec92"
     ],
-    "dataSourceVersion": "WP3650_r110699",
+    "dataSourceVersion": "WP3650_r140067",
     "displayName": "Acetate mediated promotion of metabolic syndrome",
     "drawAs": "rect",
     "fill": "white",
     "fontSize": 12,
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
-    "height": 409,
+    "height": 408,
     "id": "WP3650",
     "kaavioType": "Group",
-    "lastModified": "20200528140647",
+    "lastModified": "20250721151129",
     "name": "Acetate mediated promotion of metabolic syndrome",
     "organism": "Rattus norvegicus",
     "padding": 5,
@@ -1198,13 +1147,12 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Acetate mediated promotion of metabolic syndrome\nLast Modified: 20200528140647\nOrganism: Rattus norvegicus",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000013"
     ],
     "verticalAlign": "top",
-    "width": 732,
+    "width": 617,
     "x": 0,
     "y": 0,
     "zIndex": 0
