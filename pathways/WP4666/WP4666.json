@@ -6597,8 +6597,8 @@
       "zIndex": 33830
     },
     "c0f05": {
-      "drawAs": "none",
-      "fill": "transparent",
+      "drawAs": "rect",
+      "fill": "#ffffff",
       "fontFamily": "Arial",
       "fontSize": 12,
       "fontStyle": "normal",
@@ -6610,8 +6610,10 @@
       "lineHeight": 1.1,
       "overflow": "hidden",
       "padding": 8,
+      "rx": 15,
+      "ry": 15,
       "stroke": "#14961e",
-      "strokeWidth": 0,
+      "strokeWidth": 1,
       "textAlign": "center",
       "textContent": "ESCRT Pathway",
       "textDecoration": "none",
@@ -24502,7 +24504,7 @@
       "id": "publicationXrefb9a",
       "source": "https://www.kegg.jp/dbget-bin/www_bget?pathway+hsa05161",
       "standardName": "KEGG Hepatitis B Pathway",
-      "textContent": "3",
+      "textContent": "1",
       "type": [
         "PublicationXref",
         "KEGG Pathway:hsa05161"
@@ -24520,7 +24522,7 @@
       "id": "publicationXrefd6c",
       "source": "Hepatoma Res",
       "standardName": "Hepatitis B virus molecular biology and pathogenesis.",
-      "textContent": "2",
+      "textContent": "3",
       "type": [
         "PublicationXref",
         "PubMed:28042609"
@@ -24542,7 +24544,7 @@
       "id": "publicationXreffd8",
       "source": "Nucleic Acids Res",
       "standardName": "PhosphoSitePlus, 2014: mutations, PTMs and recalibrations.",
-      "textContent": "1",
+      "textContent": "2",
       "type": [
         "PublicationXref",
         "PubMed:25514926"
@@ -24622,7 +24624,7 @@
     "author": "[Khanspers, Finterly, Egonw, Mkutmon, Eweitz, Ash iyer]",
     "comments": [
       {
-        "content": "The bepatitis B virus (HBV) is a virus in the Hepadnaviridae family which infects hepatocytes in the liver. It causes both acute and chronic infections, and prolonged chronic infection can lead to complications such as cirrhosis and an increased risk of hepatocellular carcinoma (HCC). \r\nThe left side of the pathway describes the pathogenesis of HBV. The virus binds NTCP (SLC10A1) and is subsequently endocytosed. It is transported to the nucleus where viral polymerase creates covalently closed circular DNA (cccDNA). Using the host RNA polymerase, this is transcribed into viral mRNAs. Viral DNA polymerase then synthesizes viral DNA via its reverse transcriptase activity. Assembled viral particles exit the cell via the ESCRT pathway.\r\n\r\nThe HBV regulatory protein HBx interferes with many cellular processes including transcription, signal transduction, cell cycle progress, protein degradation, apoptosis and chromosomal stability. \r\nThis pathway was developed based on [https://www.kegg.jp/dbget-bin/www_bget?pathway+hsa05161 hsa05161] pathway. Protein phosphorylation sites were added based on information from PhosphoSitePlus (R), www.phosphosite.org",
+        "content": "The bepatitis B virus (HBV) is a virus in the Hepadnaviridae family which infects hepatocytes in the liver. It causes both acute and chronic infections, and prolonged chronic infection can lead to complications such as cirrhosis and an increased risk of hepatocellular carcinoma (HCC).\r\n\r\nThe left side of the pathway describes the pathogenesis of HBV. The virus binds NTCP (SLC10A1) and is subsequently endocytosed. It is transported to the nucleus where viral polymerase creates covalently closed circular DNA (cccDNA). Using the host RNA polymerase, this is transcribed into viral mRNAs. Viral DNA polymerase then synthesizes viral DNA via its reverse transcriptase activity. Assembled viral particles exit the cell via the ESCRT pathway.\r\n\r\nThe HBV regulatory protein HBx interferes with many cellular processes including transcription, signal transduction, cell cycle progress, protein degradation, apoptosis and chromosomal stability. \r\n\r\nThis pathway was developed based on [hsa05161](https://www.kegg.jp/dbget-bin/www_bget?pathway+hsa05161) pathway. Protein phosphorylation sites were added based on information from [PhosphoSitePlus (R)](https://www.phosphosite.org).",
         "source": "WikiPathways-description"
       }
     ],
@@ -24916,7 +24918,7 @@
       "e60d7",
       "b19d7"
     ],
-    "dataSourceVersion": "WP4666_r140164",
+    "dataSourceVersion": "WP4666_r140171",
     "displayName": "Hepatitis B infection",
     "drawAs": "rect",
     "fill": "white",
@@ -24926,7 +24928,7 @@
     "height": 1670.3129231284072,
     "id": "WP4666",
     "kaavioType": "Group",
-    "lastModified": "20250802152014",
+    "lastModified": "20250803060817",
     "name": "Hepatitis B infection",
     "organism": "Homo sapiens",
     "padding": 5,
