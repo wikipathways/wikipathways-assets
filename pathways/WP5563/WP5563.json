@@ -2901,6 +2901,39 @@
       "y": 133,
       "zIndex": 32986
     },
+    "d68bb": {
+      "drawAs": "none",
+      "fill": "transparent",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "bold",
+      "gpmlElementName": "DataNode",
+      "height": 30.52507836990594,
+      "id": "d68bb",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#14961e",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "textContent": "Transcriptional activation",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Pathway"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 160.9874608150462,
+      "wpType": "Pathway",
+      "x": 777.8840125391855,
+      "y": 712.4216300940437,
+      "zIndex": 32768
+    },
     "d7886": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -2989,7 +3022,7 @@
       "whiteSpace": "pre",
       "width": 90,
       "wpType": "GeneProduct",
-      "x": 26.291666666667197,
+      "x": 26.29166666666697,
       "xrefDataSource": "Ensembl",
       "xrefIdentifier": "ENSG00000136146",
       "y": 58.00000000000003,
@@ -3236,7 +3269,7 @@
             1,
             0
           ],
-          "x": 1019.5972222222206,
+          "x": 1020.3809212817819,
           "y": 112.41666666666663
         }
       ],
@@ -3363,6 +3396,49 @@
       "x": 46.333333333333286,
       "y": 848.3611111111111,
       "zIndex": 32768
+    },
+    "e00d4": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25,
+      "id": "e00d4",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#ff3300",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "MED23",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Ensembl:ENSG00000112282",
+        "GeneProduct",
+        "CompactIdentifier:ensembl:ENSG00000112282",
+        "MED23",
+        "Ensembl:ENSG00000112282",
+        "Entrez Gene:9439",
+        "HGNC:MED23",
+        "UniProt:Q9ULK4",
+        "UniProt:Q5JWT2"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 90,
+      "wpType": "GeneProduct",
+      "x": 620.5063131313112,
+      "xrefDataSource": "Ensembl",
+      "xrefIdentifier": "ENSG00000112282",
+      "y": 716.1078892372001,
+      "zIndex": 33533
     },
     "e0226": {
       "drawAs": "rect",
@@ -3990,7 +4066,7 @@
       "whiteSpace": "pre",
       "width": 21,
       "x": 87.68518518518522,
-      "y": 20.84259259259278,
+      "y": 22.409990711715523,
       "zIndex": 33522
     },
     "e9643": {
@@ -4875,7 +4951,7 @@
             1,
             0
           ],
-          "x": 1019.5972222222206,
+          "x": 1020.3809212817819,
           "y": 312.4166666666675
         }
       ],
@@ -5679,7 +5755,7 @@
             1,
             0
           ],
-          "x": 1019.5972222222201,
+          "x": 1020.3809212817814,
           "y": 62.41666666666663
         }
       ],
@@ -5865,6 +5941,68 @@
         "DirectedInteraction"
       ],
       "zIndex": 12320
+    },
+    "id6eac48bd": {
+      "citations": [
+        "publicationXrefd2d"
+      ],
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "id6eac48bd",
+      "isAttachedTo": [
+        "e00d4",
+        "d68bb"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "MimStimulation",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              1,
+              0.5
+            ]
+          },
+          "isAttachedTo": "e00d4",
+          "orientation": [
+            1,
+            0
+          ],
+          "x": 710.5063131313112,
+          "y": 728.6078892372001
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0,
+              0.5
+            ]
+          },
+          "isAttachedTo": "d68bb",
+          "orientation": [
+            1,
+            0
+          ],
+          "x": 777.8840125391855,
+          "y": 727.6841692789967
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
+      "zIndex": 12288
     },
     "id7b025aa4": {
       "citations": [
@@ -6619,7 +6757,7 @@
       "id": "idf06e2bd8",
       "isAttachedTo": [
         "b2050",
-        "bb2e4"
+        "e00d4"
       ],
       "kaavioType": "Edge",
       "markerEnd": "MimBinding",
@@ -6640,8 +6778,8 @@
             1,
             0
           ],
-          "x": 971.8888888888898,
-          "y": 487.333333333334
+          "x": 518.1271334029964,
+          "y": 729.4963427377221
         },
         {
           "attachmentDisplay": {
@@ -6654,13 +6792,13 @@
               0.5
             ]
           },
-          "isAttachedTo": "bb2e4",
+          "isAttachedTo": "e00d4",
           "orientation": [
             1,
             0
           ],
-          "x": 1019.5972222222206,
-          "y": 487.41666666666765
+          "x": 620.5063131313112,
+          "y": 728.6078892372001
         }
       ],
       "stroke": "#000000",
@@ -6708,7 +6846,7 @@
       "id": "publicationXrefa6b",
       "source": "Eur J Med Genet",
       "standardName": "Mutation pattern and genotype-phenotype correlations of SETD2 in neurodevelopmental disorders.",
-      "textContent": "33",
+      "textContent": "31",
       "type": [
         "PublicationXref",
         "PubMed:33766796"
@@ -6747,7 +6885,7 @@
       "id": "publicationXrefac3",
       "source": "Nature",
       "standardName": "Sporadic autism exomes reveal a highly interconnected protein network of de novo mutations.",
-      "textContent": "12",
+      "textContent": "11",
       "type": [
         "PublicationXref",
         "PubMed:22495309"
@@ -6795,7 +6933,7 @@
       "id": "publicationXrefaf2",
       "source": "EMBO J",
       "standardName": "Structural basis of nucleosome dynamics modulation by histone variants H2A.B and H2A.Z.2.2.",
-      "textContent": "32",
+      "textContent": "33",
       "type": [
         "PublicationXref",
         "PubMed:33073403"
@@ -6869,7 +7007,7 @@
       "id": "publicationXrefb14",
       "source": "J Med Genet",
       "standardName": "Mutations in SETD2 cause a novel overgrowth condition.",
-      "textContent": "16",
+      "textContent": "15",
       "type": [
         "PublicationXref",
         "PubMed:24852293"
@@ -6921,7 +7059,7 @@
       "id": "publicationXrefb20",
       "source": "Sci Rep",
       "standardName": "Nap1 stimulates homologous recombination by RAD51 and RAD54 in higher-ordered chromatin containing histone H1.",
-      "textContent": "15",
+      "textContent": "16",
       "type": [
         "PublicationXref",
         "PubMed:24798879"
@@ -7057,7 +7195,7 @@
       "id": "publicationXrefc3d",
       "source": "Mol Cell",
       "standardName": "Reconstitution of the transcription factor TFIIH: assignment of functions for the three enzymatic subunits, XPB, XPD, and cdk7.",
-      "textContent": "3",
+      "textContent": "5",
       "type": [
         "PublicationXref",
         "PubMed:10024882"
@@ -7099,7 +7237,7 @@
       "id": "publicationXrefc42",
       "source": "Science",
       "standardName": "Multiplex targeted sequencing identifies recurrently mutated genes in autism spectrum disorders.",
-      "textContent": "11",
+      "textContent": "12",
       "type": [
         "PublicationXref",
         "PubMed:23160955"
@@ -7209,7 +7347,7 @@
       "id": "publicationXrefce5",
       "source": "Cell",
       "standardName": "NELF, a multisubunit complex containing RD, cooperates with DSIF to repress RNA polymerase II elongation.",
-      "textContent": "4",
+      "textContent": "3",
       "type": [
         "PublicationXref",
         "PubMed:10199401"
@@ -7418,7 +7556,7 @@
       "id": "publicationXrefda8",
       "source": "Ann Neurol",
       "standardName": "MED27 Variants Cause Developmental Delay, Dystonia, and Cerebellar Hypoplasia.",
-      "textContent": "31",
+      "textContent": "35",
       "type": [
         "PublicationXref",
         "PubMed:33443317"
@@ -7541,7 +7679,7 @@
       "id": "publicationXrefde5",
       "source": "Genes Dev",
       "standardName": "Integrated molecular mechanism directing nucleosome reorganization by human FACT.",
-      "textContent": "21",
+      "textContent": "20",
       "type": [
         "PublicationXref",
         "PubMed:26966247"
@@ -7568,7 +7706,7 @@
       "id": "publicationXrefdec",
       "source": "J Biol Chem",
       "standardName": "Structure/Function Analysis of Recurrent Mutations in SETD2 Protein Reveals a Critical and Conserved Role for a SET Domain Residue in Maintaining Protein Stability and Histone H3 Lys-36 Trimethylation.",
-      "textContent": "20",
+      "textContent": "21",
       "type": [
         "PublicationXref",
         "PubMed:27528607"
@@ -7647,7 +7785,7 @@
       "id": "publicationXrefeff",
       "source": "Cell Discov",
       "standardName": "Cryo-EM structure of SETD2/Set2 methyltransferase bound to a nucleosome containing oncohistone mutations.",
-      "textContent": "35",
+      "textContent": "32",
       "type": [
         "PublicationXref",
         "PubMed:33972509"
@@ -7697,7 +7835,7 @@
       "id": "publicationXreff88",
       "source": "Mol Cell",
       "standardName": "Identity between TRAP and SMCC complexes indicates novel pathways for the function of nuclear receptors and diverse mammalian activators.",
-      "textContent": "5",
+      "textContent": "4",
       "type": [
         "PublicationXref",
         "PubMed:10198638"
@@ -7839,7 +7977,7 @@
       ],
       "verticalAlign": "middle",
       "width": 142.58333333333394,
-      "x": 993.3055555555532,
+      "x": 994.0892546151144,
       "y": 16.91666666666663,
       "zIndex": -2
     },
@@ -7894,7 +8032,7 @@
       "fontSize": 1,
       "fontWeight": "bold",
       "gpmlElementName": "Group",
-      "height": 53.84259259259278,
+      "height": 55.40999071171552,
       "id": "pvjsgeneratedidffca1",
       "kaavioType": "Group",
       "padding": 8,
@@ -7908,8 +8046,8 @@
       ],
       "verticalAlign": "middle",
       "width": 116.68518518518522,
-      "x": 873.8888888888898,
-      "y": 466.833333333334,
+      "x": 420.1271334029964,
+      "y": 708.9963427377221,
       "zIndex": 32768
     }
   },
@@ -7920,7 +8058,7 @@
         "@base": "WP5563/"
       }
     ],
-    "author": "[Jmlohmann, Egonw, Khanspers]",
+    "author": "[Jmlohmann, Egonw, Khanspers, Duan]",
     "comments": [
       {
         "content": "RNA Polymerase II transcription: the preinitiation complex.",
@@ -7935,6 +8073,7 @@
       "id595fb11c",
       "id5c5bc86d",
       "id5d5fc736",
+      "id6eac48bd",
       "id8fb672bb",
       "ida3dbedbc",
       "ide49a5b4f",
@@ -7963,6 +8102,7 @@
       "f143b",
       "b8646",
       "c1815",
+      "d68bb",
       "da3c1",
       "dd0a6",
       "dfe23",
@@ -7996,9 +8136,10 @@
       "b3c1b",
       "ab183",
       "a1abf",
-      "c13e3"
+      "c13e3",
+      "e00d4"
     ],
-    "dataSourceVersion": "WP5563_r139711",
+    "dataSourceVersion": "WP5563_r140196",
     "displayName": "RNA-polymerase II transcription: the preinitiation complex",
     "drawAs": "rect",
     "fill": "white",
@@ -8008,7 +8149,7 @@
     "height": 911.3333333333335,
     "id": "WP5563",
     "kaavioType": "Group",
-    "lastModified": "20250701102430",
+    "lastModified": "20250806083242",
     "name": "RNA-polymerase II transcription: the preinitiation complex",
     "organism": "Homo sapiens",
     "padding": 5,
