@@ -62,7 +62,7 @@
       "stroke": "#0000ff",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "Na+",
+      "textContent": "Na⁺",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -71,7 +71,7 @@
         "ChEBI:CHEBI:29101",
         "Metabolite",
         "CompactIdentifier:chebi:29101",
-        "Na+",
+        "Na⁺",
         "Wikidata:Q3154110",
         "ChEBI:29101",
         "InChI:FKNQFGJONOIPTF-UHFFFAOYSA-N",
@@ -107,7 +107,7 @@
       "stroke": "#0000ff",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "Na+",
+      "textContent": "Na⁺",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -116,7 +116,7 @@
         "ChEBI:CHEBI:29101",
         "Metabolite",
         "CompactIdentifier:chebi:29101",
-        "Na+",
+        "Na⁺",
         "Wikidata:Q3154110",
         "ChEBI:29101",
         "InChI:FKNQFGJONOIPTF-UHFFFAOYSA-N",
@@ -921,6 +921,46 @@
       ],
       "verticalAlign": "middle",
       "width": 15
+    },
+    "be739": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25,
+      "id": "be739",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#0000ff",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Ligands",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "ChEBI:CHEBI:52214",
+        "Metabolite",
+        "CompactIdentifier:chebi:52214",
+        "Ligands",
+        "Wikidata:Q193161",
+        "ChEBI:52214"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 90,
+      "wpType": "Metabolite",
+      "x": 563,
+      "xrefDataSource": "ChEBI",
+      "xrefIdentifier": "CHEBI:52214",
+      "y": 64.5,
+      "zIndex": 28672
     },
     "c2920": {
       "drawAs": "rect",
@@ -2266,37 +2306,6 @@
       "verticalAlign": "middle",
       "width": 15
     },
-    "ee795": {
-      "drawAs": "none",
-      "fill": "transparent",
-      "fontFamily": "Arial",
-      "fontSize": 12,
-      "fontStyle": "normal",
-      "fontWeight": "bold",
-      "gpmlElementName": "Label",
-      "height": 25,
-      "id": "ee795",
-      "kaavioType": "SingleFreeNode",
-      "lineHeight": 1.1,
-      "overflow": "hidden",
-      "padding": 8,
-      "stroke": "#000000",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "textContent": "Ligands",
-      "textDecoration": "none",
-      "textOverflow": "clip",
-      "type": [
-        "Label",
-        "SingleFreeNode"
-      ],
-      "verticalAlign": "middle",
-      "whiteSpace": "pre",
-      "width": 90,
-      "x": 563,
-      "y": 64.5,
-      "zIndex": 28672
-    },
     "f0a4a": {
       "attachmentDisplay": {
         "offset": [
@@ -3275,7 +3284,6 @@
         "f0daa"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "Arrow",
       "points": [
         {
           "attachmentDisplay": {
@@ -3320,11 +3328,7 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge",
-        "SBO:0000167",
-        "SBO:0000393",
-        "SBO:0000394",
-        "DirectedInteraction"
+        "Edge"
       ],
       "zIndex": 12288
     },
@@ -3404,7 +3408,6 @@
         "a0dc5"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimConversion",
       "points": [
         {
           "attachmentDisplay": {
@@ -3694,7 +3697,6 @@
         "c2920"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "Arrow",
       "points": [
         {
           "attachmentDisplay": {
@@ -3739,11 +3741,7 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge",
-        "SBO:0000167",
-        "SBO:0000393",
-        "SBO:0000394",
-        "DirectedInteraction"
+        "Edge"
       ],
       "zIndex": 12288
     },
@@ -3816,7 +3814,7 @@
       "gpmlElementName": "Interaction",
       "id": "id9e106184",
       "isAttachedTo": [
-        "ee795",
+        "be739",
         "e086b"
       ],
       "kaavioType": "Edge",
@@ -3833,7 +3831,7 @@
               1
             ]
           },
-          "isAttachedTo": "ee795",
+          "isAttachedTo": "be739",
           "orientation": [
             0,
             1
@@ -4057,7 +4055,6 @@
         "e50db"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "Arrow",
       "points": [
         {
           "attachmentDisplay": {
@@ -4102,11 +4099,7 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge",
-        "SBO:0000167",
-        "SBO:0000393",
-        "SBO:0000394",
-        "DirectedInteraction"
+        "Edge"
       ],
       "zIndex": 12288
     },
@@ -4244,7 +4237,6 @@
         "ac242"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "Arrow",
       "points": [
         {
           "attachmentDisplay": {
@@ -4289,11 +4281,7 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge",
-        "SBO:0000167",
-        "SBO:0000393",
-        "SBO:0000394",
-        "DirectedInteraction"
+        "Edge"
       ],
       "zIndex": 12288
     },
@@ -4310,7 +4298,6 @@
         "d01a5"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "Arrow",
       "points": [
         {
           "attachmentDisplay": {
@@ -4355,11 +4342,7 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge",
-        "SBO:0000167",
-        "SBO:0000393",
-        "SBO:0000394",
-        "DirectedInteraction"
+        "Edge"
       ],
       "zIndex": 12288
     },
@@ -4547,7 +4530,7 @@
       "id1afa65cc",
       "a7fa4",
       "pvjsgeneratedidffaf2",
-      "ee795",
+      "be739",
       "a25ca",
       "a962f",
       "ab132",
@@ -4581,7 +4564,7 @@
       "cfc2d",
       "a0dc5"
     ],
-    "dataSourceVersion": "WP4760_r140101",
+    "dataSourceVersion": "WP4760_r140525",
     "displayName": "PKC-gamma calcium signaling in ataxia",
     "drawAs": "rect",
     "fill": "white",
@@ -4591,7 +4574,7 @@
     "height": 665,
     "id": "WP4760",
     "kaavioType": "Group",
-    "lastModified": "20250727065017",
+    "lastModified": "20250907133537",
     "name": "PKC-gamma calcium signaling in ataxia",
     "organism": "Homo sapiens",
     "padding": 5,
