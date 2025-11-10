@@ -30,7 +30,9 @@
         "Cyp2e1",
         "Ensembl:ENSRNOG00000012458",
         "Entrez Gene:25086",
-        "UniProt:P05182",
+        "UniProt:A0A8I5ZS79",
+        "UniProt:A0A8I5ZXI6",
+        "UniProt:A0A8L2Q8J4",
         "UniProt:A0A0G2K5X9"
       ],
       "verticalAlign": "middle",
@@ -82,6 +84,96 @@
       "y": 240,
       "zIndex": 32768
     },
+    "b21d7": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "bold",
+      "gpmlElementName": "DataNode",
+      "height": 19,
+      "id": "b21d7",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#0000ff",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "HO-CH-(CH2)10-COO-",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "ChEBI:CHEBI:39567",
+        "Metabolite",
+        "CompactIdentifier:chebi:39567",
+        "HO-CH-(CH2)10-COO-",
+        "Wikidata:Q27070761",
+        "ChEBI:39567",
+        "InChI:ZDHCZVWCTKTBRY-UHFFFAOYSA-N",
+        "PubChem:79034",
+        "ChemSpider:71366",
+        "HMDB:HMDB0002059",
+        "KEGG:C08317",
+        "LipidMaps:LMFA01050039"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 170.33333333333334,
+      "wpType": "Metabolite",
+      "x": 231.5,
+      "xrefDataSource": "ChEBI",
+      "xrefIdentifier": "CHEBI:39567",
+      "y": 403.8333333333333,
+      "zIndex": 28672
+    },
+    "b85f7": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "bold",
+      "gpmlElementName": "DataNode",
+      "height": 19,
+      "id": "b85f7",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#0000ff",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "HOC-(CH2)10-COO-",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "PubChem-compound:3084276",
+        "Protein",
+        "CompactIdentifier:pubchem.compound:3084276",
+        "HOC-(CH2)10-COO-",
+        "Wikidata:Q27146732",
+        "ChEBI:77168",
+        "InChI:JOSXCARTDOQGLV-UHFFFAOYSA-N",
+        "PubChem:3084276",
+        "ChemSpider:2341369",
+        "LipidMaps:LMFA01050044"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 153.33333333333334,
+      "wpType": "Protein",
+      "x": 240,
+      "xrefDataSource": "PubChem-compound",
+      "xrefIdentifier": "3084276",
+      "y": 607.1666666666666,
+      "zIndex": 28672
+    },
     "bb0": {
       "backpageHead": "CYP3A4 | cytochrome P450 family 3 subfamily A...",
       "drawAs": "rect",
@@ -112,7 +204,8 @@
         "Cyp3a2",
         "Ensembl:ENSRNOG00000032560",
         "Entrez Gene:266682",
-        "UniProt:Q06884",
+        "UniProt:A0A8I6AL74",
+        "UniProt:A0A8I5ZZ45",
         "UniProt:A0A0G2JT98"
       ],
       "verticalAlign": "middle",
@@ -124,37 +217,6 @@
       "xrefIdentifier": "266682",
       "y": 260,
       "zIndex": 32768
-    },
-    "bc9": {
-      "drawAs": "none",
-      "fill": "transparent",
-      "fontFamily": "Arial",
-      "fontSize": 12,
-      "fontStyle": "normal",
-      "fontWeight": "bold",
-      "gpmlElementName": "Label",
-      "height": 19,
-      "id": "bc9",
-      "kaavioType": "SingleFreeNode",
-      "lineHeight": 1.1,
-      "overflow": "hidden",
-      "padding": 8,
-      "stroke": "#000000",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "textContent": "HO-CH-(CH2)10-COO-",
-      "textDecoration": "none",
-      "textOverflow": "clip",
-      "type": [
-        "Label",
-        "SingleFreeNode"
-      ],
-      "verticalAlign": "middle",
-      "whiteSpace": "pre",
-      "width": 170.33333333333334,
-      "x": 231.5,
-      "y": 403.8333333333333,
-      "zIndex": 28672
     },
     "c42": {
       "backpageHead": "CYP2D6 | cytochrome P450 family 2 subfamily D...",
@@ -201,8 +263,8 @@
       "gpmlElementName": "Interaction",
       "id": "c922c",
       "isAttachedTo": [
-        "bc9",
-        "ccd"
+        "b21d7",
+        "b85f7"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -218,8 +280,7 @@
               1
             ]
           },
-          "id": "d39cd",
-          "isAttachedTo": "bc9",
+          "isAttachedTo": "b21d7",
           "orientation": [
             0,
             1
@@ -238,8 +299,7 @@
               0
             ]
           },
-          "id": "eb51e",
-          "isAttachedTo": "ccd",
+          "isAttachedTo": "b85f7",
           "orientation": [
             0,
             1
@@ -266,8 +326,8 @@
       "gpmlElementName": "Interaction",
       "id": "cba5d",
       "isAttachedTo": [
-        "dfb",
-        "bc9"
+        "dffc8",
+        "b21d7"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -283,8 +343,7 @@
               1
             ]
           },
-          "id": "bbe62",
-          "isAttachedTo": "dfb",
+          "isAttachedTo": "dffc8",
           "orientation": [
             0,
             1
@@ -303,8 +362,7 @@
               0
             ]
           },
-          "id": "f2c48",
-          "isAttachedTo": "bc9",
+          "isAttachedTo": "b21d7",
           "orientation": [
             0,
             1
@@ -324,37 +382,6 @@
         "DirectedInteraction"
       ],
       "zIndex": 12288
-    },
-    "ccd": {
-      "drawAs": "none",
-      "fill": "transparent",
-      "fontFamily": "Arial",
-      "fontSize": 12,
-      "fontStyle": "normal",
-      "fontWeight": "bold",
-      "gpmlElementName": "Label",
-      "height": 19,
-      "id": "ccd",
-      "kaavioType": "SingleFreeNode",
-      "lineHeight": 1.1,
-      "overflow": "hidden",
-      "padding": 8,
-      "stroke": "#000000",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "textContent": "HOC-(CH2)10-COO-",
-      "textDecoration": "none",
-      "textOverflow": "clip",
-      "type": [
-        "Label",
-        "SingleFreeNode"
-      ],
-      "verticalAlign": "middle",
-      "whiteSpace": "pre",
-      "width": 153.33333333333334,
-      "x": 240,
-      "y": 607.1666666666666,
-      "zIndex": 28672
     },
     "cdc": {
       "backpageHead": "ADH6 | alcohol dehydrogenase 6 (class V)",
@@ -386,7 +413,10 @@
         "Adh6",
         "Ensembl:ENSRNOG00000069176",
         "Entrez Gene:310903",
-        "UniProt:Q5XI95"
+        "UniProt:A0A8L2QGL3",
+        "UniProt:A0A8I6A108",
+        "UniProt:A0A8I5ZLG2",
+        "UniProt:A0A8I6ATS6"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -429,7 +459,7 @@
         "Ensembl:ENSRNOG00000012436",
         "Entrez Gene:24172",
         "UniProt:P06757",
-        "UniProt:A0A0G2JW98"
+        "UniProt:A0A8L2R817"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -472,7 +502,7 @@
         "Ensembl:ENSRNOG00000012436",
         "Entrez Gene:24172",
         "UniProt:P06757",
-        "UniProt:A0A0G2JW98"
+        "UniProt:A0A8L2R817"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -561,34 +591,49 @@
       "y": 466.6666666666667,
       "zIndex": 32768
     },
-    "dfb": {
-      "drawAs": "none",
-      "fill": "transparent",
+    "dffc8": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
       "fontFamily": "Arial",
       "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "bold",
-      "gpmlElementName": "Label",
+      "gpmlElementName": "DataNode",
       "height": 19,
-      "id": "dfb",
+      "id": "dffc8",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
       "padding": 8,
-      "stroke": "#000000",
-      "strokeWidth": 0,
+      "stroke": "#0000ff",
+      "strokeWidth": 1,
       "textAlign": "center",
       "textContent": "CH3-(CH2)10-COO-",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
-        "Label",
-        "SingleFreeNode"
+        "DataNode",
+        "SingleFreeNode",
+        "ChEBI:CHEBI:30805",
+        "Metabolite",
+        "CompactIdentifier:chebi:30805",
+        "CH3-(CH2)10-COO-",
+        "Wikidata:Q422627",
+        "ChEBI:30805",
+        "InChI:POULHZVOKOAJMA-UHFFFAOYSA-N",
+        "PubChem:3893",
+        "ChemSpider:3756",
+        "HMDB:HMDB0000638",
+        "KEGG:C02679",
+        "LipidMaps:LMFA01010012"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 150.33333333333334,
+      "wpType": "Metabolite",
       "x": 241.5,
+      "xrefDataSource": "ChEBI",
+      "xrefIdentifier": "CHEBI:30805",
       "y": 150.5,
       "zIndex": 28672
     },
@@ -598,8 +643,8 @@
       "gpmlElementName": "Interaction",
       "id": "e0735",
       "isAttachedTo": [
-        "ccd",
-        "f53"
+        "b85f7",
+        "f2f5d"
       ],
       "kaavioType": "Edge",
       "markerEnd": "Arrow",
@@ -615,8 +660,7 @@
               1
             ]
           },
-          "id": "fc54a",
-          "isAttachedTo": "ccd",
+          "isAttachedTo": "b85f7",
           "orientation": [
             0,
             1
@@ -635,8 +679,7 @@
               0
             ]
           },
-          "id": "ca4ee",
-          "isAttachedTo": "f53",
+          "isAttachedTo": "f2f5d",
           "orientation": [
             0,
             1
@@ -689,6 +732,7 @@
         "Entrez Gene:100145871",
         "Entrez Gene:29646",
         "UniProt:Q7TQ90",
+        "UniProt:F7F9U1",
         "UniProt:P12711",
         "UniProt:A1L128"
       ],
@@ -732,7 +776,8 @@
         "Aldh1a1",
         "Ensembl:ENSRNOG00000017619",
         "Entrez Gene:24188",
-        "UniProt:A0A0H2UHP1"
+        "UniProt:A0A0H2UHP1",
+        "UniProt:A0A8I6AP49"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -774,7 +819,8 @@
         "Adh7",
         "Ensembl:ENSRNOG00000032959",
         "Entrez Gene:171178",
-        "UniProt:G3V7J9"
+        "UniProt:G3V7J9",
+        "UniProt:A0A8I5ZKA5"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -851,34 +897,46 @@
       "y": 820.5,
       "zIndex": 28672
     },
-    "f53": {
-      "drawAs": "none",
-      "fill": "transparent",
+    "f2f5d": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
       "fontFamily": "Arial",
       "fontSize": 12,
       "fontStyle": "normal",
       "fontWeight": "bold",
-      "gpmlElementName": "Label",
+      "gpmlElementName": "DataNode",
       "height": 19,
-      "id": "f53",
+      "id": "f2f5d",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
       "padding": 8,
-      "stroke": "#000000",
-      "strokeWidth": 0,
+      "stroke": "#0000ff",
+      "strokeWidth": 1,
       "textAlign": "center",
       "textContent": "-OOC-(CH2)10-COO-",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
-        "Label",
-        "SingleFreeNode"
+        "DataNode",
+        "SingleFreeNode",
+        "ChEBI:CHEBI:76273",
+        "Metabolite",
+        "CompactIdentifier:chebi:76273",
+        "-OOC-(CH2)10-COO-",
+        "Wikidata:Q27145844",
+        "ChEBI:76273",
+        "InChI:TVIDDXQYHWJXFK-UHFFFAOYSA-L",
+        "PubChem:6991984",
+        "ChemSpider:5360150"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 158.33333333333334,
+      "wpType": "Metabolite",
       "x": 237.5,
+      "xrefDataSource": "ChEBI",
+      "xrefIdentifier": "CHEBI:76273",
       "y": 737.1666666666666,
       "zIndex": 28672
     },
@@ -888,7 +946,7 @@
       "gpmlElementName": "Interaction",
       "id": "f6476",
       "isAttachedTo": [
-        "f53",
+        "f2f5d",
         "f28"
       ],
       "kaavioType": "Edge",
@@ -905,8 +963,7 @@
               1
             ]
           },
-          "id": "f8964",
-          "isAttachedTo": "f53",
+          "isAttachedTo": "f2f5d",
           "orientation": [
             0,
             1
@@ -925,7 +982,6 @@
               0
             ]
           },
-          "id": "fdb10",
           "isAttachedTo": "f28",
           "orientation": [
             0,
@@ -981,8 +1037,11 @@
         "Entrez Gene:29539",
         "UniProt:F1LN88",
         "UniProt:M0R6F2",
+        "UniProt:A0A8I6AVL2",
+        "UniProt:A0A8I6AGW1",
+        "UniProt:A0A8I6AV92",
         "UniProt:B5DEF6",
-        "UniProt:F1LSP2"
+        "UniProt:A0A8I6A4Z6"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1064,18 +1123,11 @@
         "@base": "WP133/"
       }
     ],
-    "author": "[Evelo, MaintBot, Thomas, Cizar, Christine Chichester, Youssefwalid, Eweitz]",
+    "author": "[Evelo, MaintBot, Thomas, Cizar, Christine Chichester, Youssefwalid, Eweitz, Egonw]",
     "comments": [
       {
+        "content": "Dodecanoate, or lauric acid, is found in the fats and oils of both plants and animals, especially coconut and palm kernel oil. This pathway shows the degradation of dodecanoate leading to beta oxidation.",
         "source": "WikiPathways-description"
-      },
-      {
-        "content": "Created by Magali Jaillard, Marijke Vermeer, Michiel Adrieans, Ron Schormans and Chris Evelo, see website.",
-        "source": "GenMAPP notes"
-      },
-      {
-        "content": "http://www.bigcat.unimaas.nl/mapps/",
-        "source": "GenMAPP remarks"
       }
     ],
     "contains": [
@@ -1083,11 +1135,11 @@
       "cba5d",
       "e0735",
       "f6476",
-      "bc9",
-      "ccd",
-      "dfb",
+      "b21d7",
       "f28",
-      "f53",
+      "b85f7",
+      "dffc8",
+      "f2f5d",
       "ad6",
       "b16",
       "bb0",
@@ -1104,7 +1156,7 @@
       "f73",
       "fdb"
     ],
-    "dataSourceVersion": "WP133_r116963",
+    "dataSourceVersion": "WP133_r141322",
     "displayName": "Fatty acid omega-oxidation",
     "drawAs": "rect",
     "fill": "white",
@@ -1114,7 +1166,7 @@
     "height": 869.5,
     "id": "WP133",
     "kaavioType": "Group",
-    "lastModified": "20210516101336",
+    "lastModified": "20251109160944",
     "name": "Fatty acid omega-oxidation",
     "organism": "Rattus norvegicus",
     "padding": 5,
@@ -1123,14 +1175,13 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Fatty acid omega-oxidation\nLast Modified: 20210516101336\nOrganism: Rattus norvegicus",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000642",
       "http://identifiers.org/pw/PW:0001253"
     ],
     "verticalAlign": "top",
-    "width": 630,
+    "width": 431.83333333333337,
     "x": 0,
     "y": 0,
     "zIndex": 0
