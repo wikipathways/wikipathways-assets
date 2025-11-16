@@ -1194,69 +1194,6 @@
       "y": 268.5,
       "zIndex": 32856
     },
-    "b9688": {
-      "drawAs": "StraightLine",
-      "fill": "none",
-      "gpmlElementName": "Interaction",
-      "id": "b9688",
-      "isAttachedTo": [
-        "aff26",
-        "c2d93"
-      ],
-      "kaavioType": "Edge",
-      "markerEnd": "Arrow",
-      "points": [
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0,
-              0.5
-            ]
-          },
-          "isAttachedTo": "aff26",
-          "orientation": [
-            -1,
-            0
-          ],
-          "x": 714,
-          "y": 469
-        },
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              1,
-              0.5
-            ]
-          },
-          "isAttachedTo": "c2d93",
-          "orientation": [
-            -1,
-            0
-          ],
-          "x": 613,
-          "y": 469
-        }
-      ],
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "type": [
-        "Interaction",
-        "Edge",
-        "SBO:0000167",
-        "SBO:0000393",
-        "SBO:0000394",
-        "DirectedInteraction"
-      ],
-      "zIndex": 32895
-    },
     "b9ce5": {
       "drawAs": "none",
       "fill": "transparent",
@@ -1515,19 +1452,18 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "ChEBI:CHEBI:29016",
+        "ChEBI:CHEBI:16467",
         "Metabolite",
-        "CompactIdentifier:chebi:29016",
+        "CompactIdentifier:chebi:16467",
         "Arginine",
-        "Wikidata:Q27104032",
-        "ChEBI:29016",
-        "InChI:ODKSFYDXXFIFQN-UHFFFAOYSA-N",
-        "PubChem:59119146",
-        "PubChem:232",
-        "PubChem:5246487",
-        "ChemSpider:227",
-        "HMDB:HMDB0251511",
-        "KEGG:C02385"
+        "Wikidata:Q173670",
+        "ChEBI:16467",
+        "InChI:ODKSFYDXXFIFQN-BYPYZUCNSA-N",
+        "PubChem:6322",
+        "PubChem:28782",
+        "ChemSpider:6082",
+        "HMDB:HMDB0000517",
+        "KEGG:C00062"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1535,7 +1471,7 @@
       "wpType": "Metabolite",
       "x": 704,
       "xrefDataSource": "ChEBI",
-      "xrefIdentifier": "CHEBI:29016",
+      "xrefIdentifier": "CHEBI:16467",
       "y": 393,
       "zIndex": 32873
     },
@@ -1915,8 +1851,8 @@
       "zIndex": 32861
     },
     "c66d4": {
-      "drawAs": "none",
-      "fill": "transparent",
+      "drawAs": "rect",
+      "fill": "#ffffff",
       "fontFamily": "Arial",
       "fontSize": 12,
       "fontStyle": "normal",
@@ -1928,22 +1864,28 @@
       "lineHeight": 1.1,
       "overflow": "hidden",
       "padding": 8,
+      "rx": 15,
+      "ry": 15,
       "stroke": "#14961e",
-      "strokeWidth": 0,
+      "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "Myosin-actin\ninteraction",
+      "textContent": "Myosin-actin interaction",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Pathway"
+        "WikiPathways:WP4962",
+        "Pathway",
+        "CompactIdentifier:wikipathways:WP4962"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 90,
+      "width": 150,
       "wpType": "Pathway",
-      "x": 72,
+      "x": 42,
+      "xrefDataSource": "WikiPathways",
+      "xrefIdentifier": "WP4962",
       "y": 525.5,
       "zIndex": 32768
     },
@@ -2976,6 +2918,69 @@
       "y": 48,
       "zIndex": 32814
     },
+    "e2e67": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "GraphicalLine",
+      "id": "e2e67",
+      "isAttachedTo": [
+        "aff26",
+        "c2d93"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0,
+              0.5
+            ]
+          },
+          "isAttachedTo": "aff26",
+          "orientation": [
+            -1,
+            0
+          ],
+          "x": 714,
+          "y": 469
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              1,
+              0.5
+            ]
+          },
+          "isAttachedTo": "c2d93",
+          "orientation": [
+            -1,
+            0
+          ],
+          "x": 613,
+          "y": 469
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "GraphicalLine",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 32905
+    },
     "e2f9e": {
       "drawAs": "rect",
       "fill": "#ffffff",
@@ -3944,13 +3949,13 @@
         "DataNode",
         "SingleFreeNode",
         "Wikidata:Q14859627",
-        "Unknown",
+        "BiologicalProcess",
         "CompactIdentifier:wikidata:Q14859627"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 110,
-      "wpType": "Unknown",
+      "wpType": "BiologicalProcess",
       "x": 275,
       "xrefDataSource": "Wikidata",
       "xrefIdentifier": "Q14859627",
@@ -4307,7 +4312,7 @@
             1,
             0
           ],
-          "x": 162,
+          "x": 192,
           "y": 538
         },
         {
@@ -4694,69 +4699,6 @@
         "Edge"
       ],
       "zIndex": 12290
-    },
-    "id81ccc18f": {
-      "drawAs": "StraightLine",
-      "fill": "none",
-      "gpmlElementName": "Interaction",
-      "id": "id81ccc18f",
-      "isAttachedTo": [
-        "ee50f",
-        "c3209"
-      ],
-      "kaavioType": "Edge",
-      "markerEnd": "Arrow",
-      "points": [
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0.5,
-              1
-            ]
-          },
-          "isAttachedTo": "ee50f",
-          "orientation": [
-            0,
-            1
-          ],
-          "x": 730,
-          "y": 229
-        },
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0.5,
-              0
-            ]
-          },
-          "isAttachedTo": "c3209",
-          "orientation": [
-            0,
-            1
-          ],
-          "x": 730,
-          "y": 308
-        }
-      ],
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "type": [
-        "Interaction",
-        "Edge",
-        "SBO:0000167",
-        "SBO:0000393",
-        "SBO:0000394",
-        "DirectedInteraction"
-      ],
-      "zIndex": 12288
     },
     "id88b2168b": {
       "burrs": [
@@ -5170,6 +5112,69 @@
       ],
       "zIndex": 12292
     },
+    "ide5c6ab3b": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "GraphicalLine",
+      "id": "ide5c6ab3b",
+      "isAttachedTo": [
+        "ee50f",
+        "c3209"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "ee50f",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 730,
+          "y": 229
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "c3209",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 730,
+          "y": 308
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "GraphicalLine",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12288
+    },
     "idf9b25cb3": {
       "drawAs": "StraightLine",
       "fill": "none",
@@ -5264,9 +5269,9 @@
     ],
     "contains": [
       "id20866781",
+      "ide5c6ab3b",
       "id2a392563",
       "id409c05bc",
-      "id81ccc18f",
       "id88b2168b",
       "idaecc58c",
       "id20faf09",
@@ -5333,7 +5338,6 @@
       "b5ede",
       "ee50f",
       "c2d93",
-      "b9688",
       "fb72e",
       "e639c",
       "a1ccb",
@@ -5342,9 +5346,10 @@
       "bb98b",
       "bcca5",
       "f0135",
-      "b1f34"
+      "b1f34",
+      "e2e67"
     ],
-    "dataSourceVersion": "WP5601_r141405",
+    "dataSourceVersion": "WP5601_r141489",
     "displayName": "Caffeine in blood vessels",
     "drawAs": "rect",
     "fill": "white",
@@ -5354,7 +5359,7 @@
     "height": 624,
     "id": "WP5601",
     "kaavioType": "Group",
-    "lastModified": "20251112020357",
+    "lastModified": "20251116003444",
     "name": "Caffeine in blood vessels",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -5365,8 +5370,8 @@
     "textAlign": "left",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0002317",
-      "http://identifiers.org/pw/PW:0001153"
+      "http://identifiers.org/pw/PW:0001153",
+      "http://identifiers.org/pw/PW:0002317"
     ],
     "verticalAlign": "top",
     "width": 922,
