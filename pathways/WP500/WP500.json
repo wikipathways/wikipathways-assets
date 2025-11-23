@@ -525,36 +525,36 @@
       ],
       "zIndex": 12288
     },
-    "a84a3": {
-      "contains": [
-        "b99a6",
-        "ea53e",
-        "faf39",
-        "fd0fa"
-      ],
+    "a6a5f": {
       "drawAs": "none",
       "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 116,
-      "id": "a84a3",
-      "kaavioType": "Group",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "Label",
+      "height": 20,
+      "id": "a6a5f",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
       "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
+      "stroke": "#000000",
       "strokeWidth": 0,
-      "textAlign": "center",
+      "textAlign": "left",
+      "textContent": "Muscle",
+      "textDecoration": "none",
+      "textOverflow": "clip",
       "type": [
-        "Group",
-        "GroupGroup"
+        "Label",
+        "SingleFreeNode"
       ],
       "verticalAlign": "middle",
-      "width": 180,
-      "x": 50,
-      "y": 688.5,
-      "zIndex": 32768
+      "whiteSpace": "pre",
+      "width": 60,
+      "x": 169,
+      "y": 486,
+      "zIndex": 32777
     },
     "a8f": {
       "drawAs": "none",
@@ -573,7 +573,7 @@
       "stroke": "#000000",
       "strokeWidth": 0,
       "textAlign": "center",
-      "textContent": "Phosphorylase \nKinase",
+      "textContent": "Phosphorylase \nkinase",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -1186,6 +1186,37 @@
       "y": 49.000000000000114,
       "zIndex": 32768
     },
+    "b667e": {
+      "contains": [
+        "b99a6",
+        "ea53e",
+        "faf39",
+        "fd0fa"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 116,
+      "id": "b667e",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 76,
+      "x": 101,
+      "y": 450.5,
+      "zIndex": 32768
+    },
     "b6f": {
       "backpageHead": "UGP2 | UDP-glucose pyrophosphorylase 2",
       "drawAs": "rect",
@@ -1335,7 +1366,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "b99a6",
-      "isPartOf": "a84a3",
+      "isPartOf": "b667e",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1343,7 +1374,7 @@
       "stroke": "#000000",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "Putative hexokinase HKDC1",
+      "textContent": "HKDC1",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -1352,7 +1383,7 @@
         "Uniprot-TrEMBL:Q2TB90",
         "Protein",
         "CompactIdentifier:uniprot:Q2TB90",
-        "Putative hexokinase HKDC1",
+        "HKDC1",
         "Ensembl:ENSG00000156510",
         "Entrez Gene:80201",
         "HGNC:HKDC1",
@@ -1360,7 +1391,7 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 164,
+      "width": 60,
       "wpType": "Protein",
       "x": 8,
       "xrefDataSource": "Uniprot-TrEMBL",
@@ -1800,6 +1831,37 @@
       "xrefIdentifier": "808",
       "y": 68.99999999999993,
       "zIndex": 32768
+    },
+    "c3750": {
+      "drawAs": "none",
+      "fill": "transparent",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "Label",
+      "height": 20,
+      "id": "c3750",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#000000",
+      "strokeWidth": 0,
+      "textAlign": "left",
+      "textContent": "Brain",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "Label",
+        "SingleFreeNode"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 60,
+      "x": 169,
+      "y": 461,
+      "zIndex": 28672
     },
     "c42": {
       "backpageHead": "PPP2R5E | protein phosphatase 2 regulatory sub...",
@@ -2478,7 +2540,7 @@
       "gpmlElementName": "Interaction",
       "id": "d311b",
       "isAttachedTo": [
-        "e65d7",
+        "b667e",
         "ida1160cf"
       ],
       "kaavioType": "Edge",
@@ -2495,13 +2557,13 @@
               0
             ]
           },
-          "isAttachedTo": "e65d7",
+          "isAttachedTo": "b667e",
           "orientation": [
             0,
             -1
           ],
-          "x": 140,
-          "y": 470.6666666666663
+          "x": 139,
+          "y": 450.5
         },
         {
           "attachmentDisplay": {
@@ -2577,37 +2639,6 @@
       "xrefIdentifier": "5528",
       "y": 89.0000000000017,
       "zIndex": 32768
-    },
-    "d4d41": {
-      "drawAs": "none",
-      "fill": "transparent",
-      "fontFamily": "Arial",
-      "fontSize": 12,
-      "fontStyle": "normal",
-      "fontWeight": "normal",
-      "gpmlElementName": "Label",
-      "height": 25,
-      "id": "d4d41",
-      "kaavioType": "SingleFreeNode",
-      "lineHeight": 1.1,
-      "overflow": "hidden",
-      "padding": 8,
-      "stroke": "#000000",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "textContent": "Different forms",
-      "textDecoration": "none",
-      "textOverflow": "clip",
-      "type": [
-        "Label",
-        "SingleFreeNode"
-      ],
-      "verticalAlign": "middle",
-      "whiteSpace": "pre",
-      "width": 90,
-      "x": 32,
-      "y": 664.5,
-      "zIndex": 28672
     },
     "d5a": {
       "backpageHead": "PPP2R2B | protein phosphatase 2 (formerly 2A) ...",
@@ -2860,6 +2891,37 @@
       ],
       "width": 0,
       "zIndex": 12288
+    },
+    "ddcfe": {
+      "drawAs": "none",
+      "fill": "transparent",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "bold",
+      "gpmlElementName": "Label",
+      "height": 20,
+      "id": "ddcfe",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#000000",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "textContent": "Hexokinase",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "Label",
+        "SingleFreeNode"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 90,
+      "x": 92.75,
+      "y": 558.9166666666666,
+      "zIndex": 32776
     },
     "dea4e": {
       "contains": [
@@ -3422,7 +3484,8 @@
         "DataNode",
         "SingleFreeNode",
         "WikiPathways:WP534",
-        "Pathway"
+        "Pathway",
+        "CompactIdentifier:wikipathways:WP534"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -3433,50 +3496,6 @@
       "xrefIdentifier": "WP534",
       "y": 489.99999999999994,
       "zIndex": 32768
-    },
-    "e65d7": {
-      "backpageHead": "GBE1 | glucan (14-alpha-) branching enzyme 1 ...",
-      "comments": [
-        {
-          "content": "glycogen phosphorylase"
-        }
-      ],
-      "drawAs": "rect",
-      "fill": "#ffffff",
-      "fontFamily": "Arial",
-      "fontSize": 10,
-      "fontStyle": "normal",
-      "fontWeight": "normal",
-      "gpmlElementName": "DataNode",
-      "height": 20,
-      "id": "e65d7",
-      "kaavioType": "SingleFreeNode",
-      "lineHeight": 1.1,
-      "overflow": "hidden",
-      "padding": 8,
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "textContent": "hexokinase",
-      "textDecoration": "none",
-      "textOverflow": "clip",
-      "type": [
-        "DataNode",
-        "SingleFreeNode",
-        "Enzyme Nomenclature:2.7.1.1",
-        "GeneProduct",
-        "CompactIdentifier:eccode:2.7.1.1",
-        "hexokinase"
-      ],
-      "verticalAlign": "middle",
-      "whiteSpace": "pre",
-      "width": 60,
-      "wpType": "GeneProduct",
-      "x": 110,
-      "xrefDataSource": "Enzyme Nomenclature",
-      "xrefIdentifier": "2.7.1.1",
-      "y": 470.6666666666663,
-      "zIndex": 32771
     },
     "e7e9d": {
       "drawAs": "StraightLine",
@@ -3690,6 +3709,11 @@
       "zIndex": 32768
     },
     "ea53e": {
+      "comments": [
+        {
+          "content": "\"Hexokinase-1 (Brain)\" originally"
+        }
+      ],
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -3699,7 +3723,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "ea53e",
-      "isPartOf": "a84a3",
+      "isPartOf": "b667e",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -3707,7 +3731,7 @@
       "stroke": "#000000",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "Hexokinase-1 (Brain)",
+      "textContent": "HK1",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -3716,7 +3740,7 @@
         "Uniprot-TrEMBL:P19367",
         "Protein",
         "CompactIdentifier:uniprot:P19367",
-        "Hexokinase-1 (Brain)",
+        "HK1",
         "Ensembl:ENSG00000156515",
         "Entrez Gene:3098",
         "HGNC:HK1",
@@ -3744,7 +3768,7 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 164,
+      "width": 60,
       "wpType": "Protein",
       "x": 8,
       "xrefDataSource": "Uniprot-TrEMBL",
@@ -4660,6 +4684,11 @@
       "zIndex": 12288
     },
     "faf39": {
+      "comments": [
+        {
+          "content": "\"Hexokinase-2 (muscle)\" originally"
+        }
+      ],
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -4669,7 +4698,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "faf39",
-      "isPartOf": "a84a3",
+      "isPartOf": "b667e",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -4677,7 +4706,7 @@
       "stroke": "#000000",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "Hexokinase-2 (muscle)",
+      "textContent": "HK2",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
@@ -4686,7 +4715,7 @@
         "Uniprot-TrEMBL:P52789",
         "Protein",
         "CompactIdentifier:uniprot:P52789",
-        "Hexokinase-2 (muscle)",
+        "HK2",
         "Ensembl:ENSG00000159399",
         "Entrez Gene:3099",
         "HGNC:HK2",
@@ -4695,7 +4724,7 @@
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 164,
+      "width": 60,
       "wpType": "Protein",
       "x": 8,
       "xrefDataSource": "Uniprot-TrEMBL",
@@ -4706,7 +4735,7 @@
     "fd0fa": {
       "comments": [
         {
-          "content": "predominant hexokinase in myeloid cells, particularly granulocytes"
+          "content": "predominant hexokinase in myeloid cells, particularly granulocytes.  \"Hexokinase-3\" originally."
         }
       ],
       "drawAs": "rect",
@@ -4718,7 +4747,7 @@
       "gpmlElementName": "DataNode",
       "height": 25,
       "id": "fd0fa",
-      "isPartOf": "a84a3",
+      "isPartOf": "b667e",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -4726,18 +4755,28 @@
       "stroke": "#000000",
       "strokeWidth": 1,
       "textAlign": "center",
-      "textContent": "Hexokinase-3",
+      "textContent": "HK3",
       "textDecoration": "none",
       "textOverflow": "clip",
       "type": [
         "DataNode",
         "SingleFreeNode",
         "Uniprot-TrEMBL:P52790",
-        "Protein"
+        "Protein",
+        "CompactIdentifier:uniprot:P52790",
+        "HK3",
+        "Ensembl:ENSG00000160883",
+        "Entrez Gene:3101",
+        "HGNC:HK3",
+        "UniProt:H0YAG4",
+        "UniProt:H0Y9N6",
+        "UniProt:H0Y8U9",
+        "UniProt:P52790",
+        "UniProt:A0A024R7R1"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
-      "width": 164,
+      "width": 60,
       "wpType": "Protein",
       "x": 8,
       "xrefDataSource": "Uniprot-TrEMBL",
@@ -4994,69 +5033,6 @@
       "type": [
         "Interaction",
         "Edge"
-      ],
-      "zIndex": 12288
-    },
-    "id968909f8": {
-      "drawAs": "StraightLine",
-      "fill": "none",
-      "gpmlElementName": "Interaction",
-      "id": "id968909f8",
-      "isAttachedTo": [
-        "e65d7",
-        "a84a3"
-      ],
-      "kaavioType": "Edge",
-      "markerEnd": "Arrow",
-      "points": [
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0.5,
-              1
-            ]
-          },
-          "isAttachedTo": "e65d7",
-          "orientation": [
-            0,
-            1
-          ],
-          "x": 140,
-          "y": 490.6666666666663
-        },
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0.5,
-              0
-            ]
-          },
-          "isAttachedTo": "a84a3",
-          "orientation": [
-            0,
-            1
-          ],
-          "x": 140,
-          "y": 688.5
-        }
-      ],
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "type": [
-        "Interaction",
-        "Edge",
-        "SBO:0000167",
-        "SBO:0000393",
-        "SBO:0000394",
-        "DirectedInteraction"
       ],
       "zIndex": 12288
     },
@@ -5328,7 +5304,6 @@
       "id928e4693",
       "ida1160cf",
       "idfa0452a7",
-      "id968909f8",
       "f1a41",
       "ef204",
       "idc0592b88",
@@ -5341,7 +5316,7 @@
       "e8d28",
       "f99e1",
       "a8f",
-      "d4d41",
+      "c3750",
       "ee7",
       "f20",
       "f30",
@@ -5359,9 +5334,9 @@
       "f01",
       "f0d",
       "f2c",
-      "a84a3",
       "a9287",
       "af3bf",
+      "b667e",
       "dea4e",
       "dfd18",
       "dfe4e",
@@ -5370,21 +5345,22 @@
       "f88ec",
       "c7cc1",
       "c80b0",
-      "e65d7",
       "d311b",
-      "f4703"
+      "f4703",
+      "ddcfe",
+      "a6a5f"
     ],
-    "dataSourceVersion": "WP500_r137734",
+    "dataSourceVersion": "WP500_r141777",
     "displayName": "Glycogen synthesis and degradation",
     "drawAs": "rect",
     "fill": "white",
     "fontSize": 12,
     "fontWeight": "bold",
     "gpmlElementName": "Pathway",
-    "height": 826.5,
+    "height": 608.9166666666666,
     "id": "WP500",
     "kaavioType": "Group",
-    "lastModified": "20250307121348",
+    "lastModified": "20251123014526",
     "name": "Glycogen synthesis and degradation",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -5393,11 +5369,10 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Glycogen synthesis and degradation\nLast Modified: 20250307121348\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0000534",
-      "http://identifiers.org/pw/PW:0000533"
+      "http://identifiers.org/pw/PW:0000533",
+      "http://identifiers.org/pw/PW:0000534"
     ],
     "verticalAlign": "top",
     "width": 1333,
