@@ -1,61 +1,73 @@
 <?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="wp313-svg" version="1.1" baseProfile="full" preserveAspectRatio="xMidYMid" color="black" class="Diagram" viewBox="0 0 810.1666666666667 705" width="800px" height="600px" vocab="http://vocabularies.wikipathways.org/wp#">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="wp313-svg" version="1.1" baseProfile="full" preserveAspectRatio="xMidYMid" color="black" class="Diagram" viewBox="0 0 824 705" width="800px" height="600px" vocab="http://vocabularies.wikipathways.org/wp#">
   <style type="text/css"><![CDATA[
 ]]></style>
   <defs>
     <g id="jit-defs">
-      <filter x="0" y="0" height="705" width="810.1666666666667" id="kaaviowhitetofffffffilter" filterUnits="userSpaceOnUse">
+      <filter id="kaaviodoublefalse3filter" width="200%" height="200%" x="-50%" y="-50%">
+        <feComposite in="SourceGraphic" in2="SourceGraphic" operator="over" result="doubleDark"/>
+        <feMorphology in="doubleDark" result="in2Double" operator="dilate" radius="0.16666666666666666"/>
+        <feMorphology in="SourceGraphic" result="inDouble" operator="dilate" radius="3"/>
+        <feComposite in="inDouble" in2="in2Double" operator="out" result="doubleResult"/>
+      </filter>
+      <filter x="0" y="0" height="705" width="824" id="kaaviowhitetofffffffilter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -1                  0  1  0 0 -1                  0  0  1 0 -1                  0  0  0 1 0"/>
       </filter>
-      <filter x="0" y="0" height="705" width="810.1666666666667" id="kaavioblacktofffffffilter" filterUnits="userSpaceOnUse">
+      <filter x="0" y="0" height="705" width="824" id="kaavioblacktofffffffilter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 1                   0  -1   0 0 1                   0   0  -1 0 1                   0   0   0 1 0"/>
       </filter>
-      <filter x="0" y="0" height="705" width="810.1666666666667" id="kaaviowhiteto000000filter" filterUnits="userSpaceOnUse">
+      <filter x="0" y="0" height="705" width="824" id="kaaviowhiteto000000filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0                  0  1  0 0 -0                  0  0  1 0 -0                  0  0  0 1 0"/>
       </filter>
-      <filter x="0" y="0" height="705" width="810.1666666666667" id="kaavioblackto000000filter" filterUnits="userSpaceOnUse">
+      <filter x="0" y="0" height="705" width="824" id="kaavioblackto000000filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0                   0  -1   0 0 0                   0   0  -1 0 0                   0   0   0 1 0"/>
       </filter>
-      <filter x="0" y="0" height="705" width="810.1666666666667" id="kaaviowhiteto0000fffilter" filterUnits="userSpaceOnUse">
+      <filter x="0" y="0" height="705" width="824" id="kaaviowhitetoc0c0c0filter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0.7529411764705882                  0  1  0 0 -0.7529411764705882                  0  0  1 0 -0.7529411764705882                  0  0  0 1 0"/>
+      </filter>
+      <filter x="0" y="0" height="705" width="824" id="kaavioblacktoc0c0c0filter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0.7529411764705882                   0  -1   0 0 0.7529411764705882                   0   0  -1 0 0.7529411764705882                   0   0   0 1 0"/>
+      </filter>
+      <filter x="0" y="0" height="705" width="824" id="kaaviowhiteto888888filter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0.5333333333333333                  0  1  0 0 -0.5333333333333333                  0  0  1 0 -0.5333333333333333                  0  0  0 1 0"/>
+      </filter>
+      <filter x="0" y="0" height="705" width="824" id="kaavioblackto888888filter" filterUnits="userSpaceOnUse">
+        <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0.5333333333333333                   0  -1   0 0 0.5333333333333333                   0   0  -1 0 0.5333333333333333                   0   0   0 1 0"/>
+      </filter>
+      <filter x="0" y="0" height="705" width="824" id="kaaviowhiteto0000fffilter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0                  0  1  0 0 -0                  0  0  1 0 -1                  0  0  0 1 0"/>
       </filter>
-      <filter x="0" y="0" height="705" width="810.1666666666667" id="kaavioblackto0000fffilter" filterUnits="userSpaceOnUse">
+      <filter x="0" y="0" height="705" width="824" id="kaavioblackto0000fffilter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0                   0  -1   0 0 0                   0   0  -1 0 1                   0   0   0 1 0"/>
       </filter>
-      <filter x="0" y="0" height="705" width="810.1666666666667" id="kaaviowhitetoefefeffilter" filterUnits="userSpaceOnUse">
+      <filter x="0" y="0" height="705" width="824" id="kaaviowhitetoefefeffilter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0.9372549019607843                  0  1  0 0 -0.9372549019607843                  0  0  1 0 -0.9372549019607843                  0  0  0 1 0"/>
       </filter>
-      <filter x="0" y="0" height="705" width="810.1666666666667" id="kaavioblacktoefefeffilter" filterUnits="userSpaceOnUse">
+      <filter x="0" y="0" height="705" width="824" id="kaavioblacktoefefeffilter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0.9372549019607843                   0  -1   0 0 0.9372549019607843                   0   0  -1 0 0.9372549019607843                   0   0   0 1 0"/>
       </filter>
-      <filter x="0" y="0" height="705" width="810.1666666666667" id="kaaviowhiteto008000filter" filterUnits="userSpaceOnUse">
+      <filter x="0" y="0" height="705" width="824" id="kaaviowhiteto008000filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0                  0  1  0 0 -0.5019607843137255                  0  0  1 0 -0                  0  0  0 1 0"/>
       </filter>
-      <filter x="0" y="0" height="705" width="810.1666666666667" id="kaavioblackto008000filter" filterUnits="userSpaceOnUse">
+      <filter x="0" y="0" height="705" width="824" id="kaavioblackto008000filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0                   0  -1   0 0 0.5019607843137255                   0   0  -1 0 0                   0   0   0 1 0"/>
       </filter>
-      <filter x="0" y="0" height="705" width="810.1666666666667" id="kaaviowhitetoff0000filter" filterUnits="userSpaceOnUse">
+      <filter x="0" y="0" height="705" width="824" id="kaaviowhitetoff0000filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -1                  0  1  0 0 -0                  0  0  1 0 -0                  0  0  0 1 0"/>
       </filter>
-      <filter x="0" y="0" height="705" width="810.1666666666667" id="kaavioblacktoff0000filter" filterUnits="userSpaceOnUse">
+      <filter x="0" y="0" height="705" width="824" id="kaavioblacktoff0000filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 1                   0  -1   0 0 0                   0   0  -1 0 0                   0   0   0 1 0"/>
       </filter>
-      <filter x="0" y="0" height="705" width="810.1666666666667" id="kaaviowhitetoccccccfilter" filterUnits="userSpaceOnUse">
-        <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0.8                  0  1  0 0 -0.8                  0  0  1 0 -0.8                  0  0  0 1 0"/>
-      </filter>
-      <filter x="0" y="0" height="705" width="810.1666666666667" id="kaavioblacktoccccccfilter" filterUnits="userSpaceOnUse">
-        <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0.8                   0  -1   0 0 0.8                   0   0  -1 0 0.8                   0   0   0 1 0"/>
-      </filter>
-      <filter x="0" y="0" height="705" width="810.1666666666667" id="kaaviowhitetob4b464filter" filterUnits="userSpaceOnUse">
+      <filter x="0" y="0" height="705" width="824" id="kaaviowhitetob4b464filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0.7058823529411765                  0  1  0 0 -0.7058823529411765                  0  0  1 0 -0.39215686274509803                  0  0  0 1 0"/>
       </filter>
-      <filter x="0" y="0" height="705" width="810.1666666666667" id="kaavioblacktob4b464filter" filterUnits="userSpaceOnUse">
+      <filter x="0" y="0" height="705" width="824" id="kaavioblacktob4b464filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0.7058823529411765                   0  -1   0 0 0.7058823529411765                   0   0  -1 0 0.39215686274509803                   0   0   0 1 0"/>
       </filter>
-      <filter x="0" y="0" height="705" width="810.1666666666667" id="kaaviowhiteto808080filter" filterUnits="userSpaceOnUse">
+      <filter x="0" y="0" height="705" width="824" id="kaaviowhiteto808080filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="1  0  0 0 -0.5019607843137255                  0  1  0 0 -0.5019607843137255                  0  0  1 0 -0.5019607843137255                  0  0  0 1 0"/>
       </filter>
-      <filter x="0" y="0" height="705" width="810.1666666666667" id="kaavioblackto808080filter" filterUnits="userSpaceOnUse">
+      <filter x="0" y="0" height="705" width="824" id="kaavioblackto808080filter" filterUnits="userSpaceOnUse">
         <feColorMatrix type="matrix" in="SourceGraphic" values="-1   0   0 0 0.5019607843137255                   0  -1   0 0 0.5019607843137255                   0   0  -1 0 0.5019607843137255                   0   0   0 1 0"/>
       </filter>
     </g>
@@ -472,13 +484,8 @@
       </symbol>
     </g>
   </defs>
-  <g id="WP313" class="Viewport" color="black" name="Name: Hepatocyte growth factor receptor signaling Last Modified: 20250227225238 Organism: Homo sapiens">
-    <rect fill="white" stroke="black" stroke-width="0" fill-opacity="1" height="705px" id="WP313-icon" width="810.1666666666667px" x="0" y="0" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-    <g id="c091c" class="Edge GraphicalLine" color="#cccccc">
-      <g filter="url(#kaavioblacktoccccccfilter)" color="#cccccc" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="771.597, 0" stroke-width="3">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="c091c-path" d="M780,103.48739495798313L8.403,103.48739495798313" class="EdgeBody"/>
-      </g>
-    </g>
+  <g id="WP313" class="Viewport" color="black">
+    <rect fill="white" stroke="black" stroke-width="0" fill-opacity="1" height="705px" id="WP313-icon" width="824px" x="0" y="0" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
     <g id="c4960" class="Edge Interaction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="0, 1, 25.66666666666667, 0" stroke-width="1">
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="c4960-path" d="M306.6666666666667,86.66666666666667L306.66666666666663,60" marker-start="url(#markerStartMimBinding)" class="EdgeBody"/>
@@ -495,8 +502,8 @@
       </g>
     </g>
     <g id="c564b" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
-      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="70.69999999999989, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="c564b-path" d="M684.6666666666667,316.6666666666667L736.6666666666666,316.6666666666667L736.6666666666666,341.1666666666667" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="68.78333333333326, 5.8" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="c564b-path" d="M684.6666666666667,316.6666666666667L734.75,316.6666666666667L734.75,341.1666666666667" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
     <g id="ca8e5" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
@@ -574,11 +581,6 @@
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="d6903-path" d="M543,455.66666666666663L616.0833333333334,548" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
-    <g id="idf9cf04dd" class="Edge GraphicalLine" color="#cccccc">
-      <g filter="url(#kaavioblacktoccccccfilter)" color="#cccccc" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="771.597, 0" stroke-width="3">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="idf9cf04dd-path" d="M780,87.18487394957975L8.403,87.18487394957975" class="EdgeBody"/>
-      </g>
-    </g>
     <g id="d59ad" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="88.06751893552483, 5.8" stroke-width="1">
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="d59ad-path" d="M540,110L630,136.66666666666666" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
@@ -636,8 +638,8 @@
       </g>
     </g>
     <g id="d7e05" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
-      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="104.33883284291686, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="d7e05-path" d="M736,471L657.2500000000001,548" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="107.94010946011957, 5.8" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="d7e05-path" d="M734.75,464.75L657.2500000000001,548" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
     <g id="c26e7" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
@@ -645,14 +647,19 @@
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="c26e7-path" d="M270,230L270,350" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
       </g>
     </g>
-    <g id="d1075" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
-      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="36.70522843656354, 5.8" stroke-width="1">
-        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="d1075-path" d="M736.6666666666666,397.1666666666667L736,439.66666666666674" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+    <g id="d1075" class="Edge Interaction" color="#000000">
+      <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="36.583333333333314, 11" stroke-width="1">
+        <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="d1075-path" d="M734.75,397.1666666666667L734.75,444.75" marker-end="url(#markerEndMimTranscriptionTranslation)" class="EdgeBody"/>
       </g>
     </g>
     <g id="ce3ac" class="Edge Interaction SBO_0000167 SBO_0000393 SBO_0000394 DirectedInteraction" color="#000000">
       <g filter="url(#kaavioblackto000000filter)" color="#000000" fill="transparent" fill-opacity="0" stroke="black" stroke-dasharray="41.99847742809856, 5.8" stroke-width="1">
         <path style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" id="ce3ac-path" d="M276.1666666666667,472L249.99999999999997,512" marker-end="url(#markerEndArrow)" class="EdgeBody"/>
+      </g>
+    </g>
+    <g id="c81d7" class="SingleFreeNode Shape PhysicalEntity CellularComponent Cell" color="#c0c0c0" transform="translate(4.5,94.5)">
+      <g filter="url(#kaaviodoublefalse3filter)" fill="transparent" fill-opacity="0" stroke="#c0c0c0" stroke-width="3">
+        <rect style="color:inherit;fill:inherit;fill-opacity:inherit;stroke:inherit;stroke-width:inherit" height="488px" id="c81d7-icon" rx="15" ry="15" width="791px" x="0" y="0" transform="matrix(0.9850560398505604, 0, 0, 0.976, 5.910336239103344, 5.8559999999999945)" class="Icon"/>
       </g>
     </g>
     <g id="fee" class="SingleFreeNode Shape" color="#000000" transform="translate(233.33333333333331,436.6666666666667)">
@@ -661,23 +668,28 @@
     <g id="e34" class="SingleFreeNode Shape" color="#000000" transform="translate(306.66666666666663,103.33333333333333)">
       <rect fill="#efefef" stroke="#000000" stroke-width="1" fill-opacity="1" height="33.333333333333336px" id="e34-icon" width="13.333333333333334px" x="0" y="0" transform="matrix(0.9302325581395349, 0, 0, 0.970873786407767, 0.4651162790697674, 0.4854368932038824)" class="Icon"/>
     </g>
+    <g id="a5856" class="SingleFreeNode Label" color="#888888" name="Hepatocyte" transform="translate(693,102.5)">
+      <use fill="transparent" fill-opacity="0" stroke="#888888" stroke-width="0" height="25px" id="a5856-icon" width="90px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <text id="a5856-text" class="Text" direction="ltr" fill="#888888" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="black" stroke-width="0px" text-anchor="middle" transform="translate(45,16.5)">
+        <tspan x="0" y="0">Hepatocyte</tspan>
+      </text>
+    </g>
     <g id="ae7" class="SingleFreeNode Label" color="#0000ff" name="Transcription" transform="translate(228.83333333333334,404.5)">
       <use fill="transparent" fill-opacity="0" stroke="#0000ff" stroke-width="0" height="16px" id="ae7-icon" width="82.33333333333333px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
       <text id="ae7-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="bold" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(41.166666666666664,11)">
         <tspan x="0" y="0">Transcription</tspan>
       </text>
     </g>
+    <g id="c8905" class="SingleFreeNode Label" color="#000000" name="COX-2" transform="translate(726,469)">
+      <use fill="transparent" fill-opacity="0" stroke="#000000" stroke-width="0" height="20px" id="c8905-icon" width="50px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
+      <text id="c8905-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(25,14)">
+        <tspan x="0" y="0">COX-2</tspan>
+      </text>
+    </g>
     <g id="a16" class="SingleFreeNode Label" color="#008000" name="AKT pathway" transform="translate(79.16666666666669,349.6666666666667)">
       <use fill="transparent" fill-opacity="0" stroke="#008000" stroke-width="0" height="19px" id="a16-icon" width="108.33333333333333px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
       <text id="a16-text" class="Text" direction="ltr" fill="#008000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(54.166666666666664,13.5)">
         <tspan x="0" y="0">AKT pathway</tspan>
-      </text>
-    </g>
-    <g id="dd4" class="SingleFreeNode Label" color="#0000ff" name="Transcription of Cox2" transform="translate(691.8333333333334,439.6666666666667)">
-      <use fill="transparent" fill-opacity="0" stroke="#0000ff" stroke-width="0" height="31.333333333333332px" id="dd4-icon" width="88.33333333333333px" x="0" y="0" xlink:href="#none" transform="matrix(1, 0, 0, 1, 0, 0)" class="Icon"/>
-      <text id="dd4-text" class="Text" direction="ltr" fill="#0000ff" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="bold" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(44.166666666666664,18.666666666666666)">
-        <tspan x="0" y="-5.5">Transcription</tspan>
-        <tspan x="0" y="5.5">of Cox2</tspan>
       </text>
     </g>
     <g id="d16" class="SingleFreeNode Label" color="#000000" name="Cytoplasm" transform="translate(23.16666666666668,542)">
@@ -783,7 +795,13 @@
         <tspan x="0" y="6.6000000000000005">pathway</tspan>
       </text>
     </g>
-    <g id="c506b" class="Group GroupNone" color="#808080" transform="translate(707.6666666666666,340.1666666666667)">
+    <a id="d33f5" class="SingleFreeNode DataNode Entrez_Gene_5743 GeneProduct CompactIdentifier_ncbigene_5743 PTGS2 Ensembl_ENSG00000073756 HGNC_PTGS2 UniProt_P35354 UniProt_Q6ZYK7 UniProt_A0A7P0T828" color="#000000" name="PTGS2" transform="translate(704.75,444.75)" xlink:href="https://bioregistry.io/ncbigene:5743" target="_blank">
+      <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="d33f5-icon" width="60px" x="0" y="0" transform="matrix(0.9836065573770492, 0, 0, 0.9523809523809523, 0.4918032786885256, 0.4761904761904763)" class="Icon"/>
+      <text id="d33f5-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(30,14)">
+        <tspan x="0" y="0">PTGS2</tspan>
+      </text>
+    </a>
+    <g id="c506b" class="Group GroupNone" color="#808080" transform="translate(705.75,340.1666666666667)">
       <rect fill="#b4b464" fill-opacity="0.1" stroke="#808080" stroke-dasharray="5,3" stroke-width="1" height="58px" id="c506b-icon" width="58px" x="0" y="0" transform="matrix(0.9830508474576272, 0, 0, 0.9830508474576272, 0.49152542372881314, 0.49152542372881314)" class="Icon"/>
       <a id="ffb" class="SingleFreeNode DataNode Entrez_Gene_2353 GeneProduct CompactIdentifier_ncbigene_2353 FOS Ensembl_ENSG00000170345 HGNC_FOS UniProt_G3V5N7 UniProt_H0YJM3 UniProt_G3V5N9 UniProt_Q6FG41 UniProt_G3V5J9 UniProt_G3V289 UniProt_G3V2V7 UniProt_P01100" color="#000000" name="FOS" transform="translate(9,29)" xlink:href="https://bioregistry.io/ncbigene:2353" target="_blank">
         <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="ffb-icon" width="40px" x="0" y="0" transform="matrix(0.975609756097561, 0, 0, 0.9523809523809523, 0.4878048780487809, 0.4761904761904763)" class="Icon"/>
@@ -867,10 +885,10 @@
         <tspan x="0" y="0">MAPK8</tspan>
       </text>
     </a>
-    <a id="c41" class="SingleFreeNode DataNode Entrez_Gene_4233 GeneProduct CompactIdentifier_ncbigene_4233 Met Ensembl_ENSG00000105976 HGNC_MET UniProt_A0A024R759 UniProt_P08581 UniProt_A0A024R728 UniProt_C9JKM5 UniProt_E6Y365 UniProt_H7C130 UniProt_H7C174" color="#000000" name="Met" transform="translate(286.6666666666667,86.66666666666667)" xlink:href="https://bioregistry.io/ncbigene:4233" target="_blank">
+    <a id="c41" class="SingleFreeNode DataNode Entrez_Gene_4233 GeneProduct CompactIdentifier_ncbigene_4233 MET Ensembl_ENSG00000105976 HGNC_MET UniProt_A0A024R759 UniProt_P08581 UniProt_A0A024R728 UniProt_C9JKM5 UniProt_E6Y365 UniProt_H7C130 UniProt_H7C174" color="#000000" name="MET" transform="translate(286.6666666666667,86.66666666666667)" xlink:href="https://bioregistry.io/ncbigene:4233" target="_blank">
       <rect fill="#ffffff" stroke="#000000" stroke-width="1" fill-opacity="1" height="20px" id="c41-icon" width="40px" x="0" y="0" transform="matrix(0.975609756097561, 0, 0, 0.9523809523809523, 0.4878048780487809, 0.4761904761904763)" class="Icon"/>
       <text id="c41-text" class="Text" direction="ltr" fill="#000000" font-family="'Liberation Sans', Arial, sans-serif" font-size="10px" font-style="normal" font-weight="normal" stroke="white" stroke-width="0px" text-anchor="middle" transform="translate(20,13)">
-        <tspan x="0" y="0">Met</tspan>
+        <tspan x="0" y="0">MET</tspan>
       </text>
     </a>
     <a id="c28" class="SingleFreeNode DataNode Entrez_Gene_2185 GeneProduct CompactIdentifier_ncbigene_2185 PTK2B Ensembl_ENSG00000120899 HGNC_PTK2B UniProt_H0YB74 UniProt_E5RJ77 UniProt_E5RK84 UniProt_Q14289 UniProt_E5RHL2 UniProt_C9JHV9" color="#000000" name="PTK2B" transform="translate(286.6666666666667,173.33333333333334)" xlink:href="https://bioregistry.io/ncbigene:2185" target="_blank">
@@ -1005,10 +1023,5 @@
         <tspan x="0" y="0">SOS1</tspan>
       </text>
     </a>
-    <text id="WP313-text" class="Text" direction="ltr" dominant-baseline="central" fill="black" font-family="'Liberation Sans', Arial, sans-serif" font-size="12px" font-style="normal" font-weight="bold" overflow="visible" stroke="white" stroke-width="0px" text-anchor="start" transform="translate(5,36)">
-      <tspan x="0" y="-18">Name: Hepatocyte growth factor receptor signaling</tspan>
-      <tspan x="0" y="0">Last Modified: 20250227225238</tspan>
-      <tspan x="0" y="18">Organism: Homo sapiens</tspan>
-    </text>
   </g>
 </svg>
