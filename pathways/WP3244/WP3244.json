@@ -1,27 +1,5 @@
 {
   "entitiesById": {
-    "200158": {
-      "__HighlandStream__": true,
-      "_can_drain": false,
-      "_consume_waiting_for_next": false,
-      "_consumers": [],
-      "_delegate": null,
-      "_destructors": [],
-      "_events": {},
-      "_eventsCount": 2,
-      "_in_consume_cb": false,
-      "_incoming": [],
-      "_is_observer": false,
-      "_nil_pushed": false,
-      "_observers": [],
-      "_outgoing": [],
-      "_repeat_resume": false,
-      "_send_events": false,
-      "id": "200158",
-      "paused": true,
-      "source": null,
-      "writable": true
-    },
     "a2653": {
       "comments": [
         {
@@ -256,7 +234,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "a85be",
-      "isPartOf": "ea867",
+      "isPartOf": "b47ba",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -270,12 +248,12 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "RNA"
+        "Rna"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 60.416666666666664,
-      "wpType": "RNA",
+      "wpType": "Rna",
       "x": 8,
       "y": 47.9999999999999,
       "zIndex": 32768
@@ -502,7 +480,7 @@
       "gpmlElementName": "Label",
       "height": 30.092592592592617,
       "id": "adb88",
-      "isPartOf": "bc08f",
+      "isPartOf": "d91ae",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -608,12 +586,8 @@
         "ATR",
         "Ensembl:ENSBTAG00000011529",
         "Entrez Gene:504869",
-        "UniProt:A0A3Q1N762",
         "UniProt:A0A3Q1M8V1",
-        "UniProt:A0A3Q1M9V0",
-        "UniProt:F1MLY7",
-        "UniProt:A0A3Q1LG63",
-        "UniProt:A0A3Q1MFN0"
+        "UniProt:F1MLY7"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -672,6 +646,36 @@
       "xrefDataSource": "Ensembl",
       "xrefIdentifier": "ENSBTAG00000004021",
       "y": 617.7017017017017,
+      "zIndex": 32768
+    },
+    "b47ba": {
+      "contains": [
+        "a85be",
+        "b5b51",
+        "eaeca"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 75.9999999999999,
+      "id": "b47ba",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 76.41666666666667,
+      "x": 99.7916666666669,
+      "y": 64.6666666666667,
       "zIndex": 32768
     },
     "b598c": {
@@ -737,7 +741,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "b5b51",
-      "isPartOf": "ea867",
+      "isPartOf": "b47ba",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -751,12 +755,12 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "RNA"
+        "Rna"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 60.41666666666664,
-      "wpType": "RNA",
+      "wpType": "Rna",
       "x": 8.000000000000014,
       "y": 27.9999999999999,
       "zIndex": 32768
@@ -907,40 +911,6 @@
       "y": 753.2794117647057,
       "zIndex": 32768
     },
-    "bc08f": {
-      "contains": [
-        "adb88",
-        "f7367",
-        "dfa64",
-        "dd2ac",
-        "f08a5",
-        "c2530",
-        "efb71"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 162.2129629629631,
-      "id": "bc08f",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 103.96296296296327,
-      "x": 469.324074074074,
-      "y": 20.601851851851816,
-      "zIndex": 28672
-    },
     "c2530": {
       "comments": [
         {
@@ -957,7 +927,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "c2530",
-      "isPartOf": "bc08f",
+      "isPartOf": "d91ae",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1390,6 +1360,40 @@
       "y": 303.7211328976033,
       "zIndex": 32768
     },
+    "d91ae": {
+      "contains": [
+        "adb88",
+        "c2530",
+        "dd2ac",
+        "dfa64",
+        "efb71",
+        "f08a5",
+        "f7367"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 162.2129629629631,
+      "id": "d91ae",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 103.96296296296327,
+      "x": 469.324074074074,
+      "y": 20.601851851851816,
+      "zIndex": 28672
+    },
     "d9e82": {
       "comments": [
         {
@@ -1528,8 +1532,7 @@
         "SMAD3",
         "Ensembl:ENSBTAG00000012599",
         "Entrez Gene:515125",
-        "UniProt:F1MUZ3",
-        "UniProt:A0A3Q1MVU4"
+        "UniProt:F1MUZ3"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1590,7 +1593,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "dd2ac",
-      "isPartOf": "bc08f",
+      "isPartOf": "d91ae",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1688,7 +1691,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "dfa64",
-      "isPartOf": "bc08f",
+      "isPartOf": "d91ae",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1811,8 +1814,7 @@
         "Entrez Gene:540378",
         "UniProt:A0A3Q1M8F0",
         "UniProt:F1MYE6",
-        "UniProt:A0A3Q1M7B0",
-        "UniProt:A0A3Q1MPN4"
+        "UniProt:A0A3Q1M7B0"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1822,36 +1824,6 @@
       "xrefDataSource": "Ensembl",
       "xrefIdentifier": "ENSBTAG00000010422",
       "y": 464.9722222222223,
-      "zIndex": 32768
-    },
-    "ea867": {
-      "contains": [
-        "eaeca",
-        "b5b51",
-        "a85be"
-      ],
-      "drawAs": "none",
-      "fill": "transparent",
-      "fillOpacity": 0.1,
-      "fontSize": 1,
-      "fontWeight": "bold",
-      "gpmlElementName": "Group",
-      "height": 75.9999999999999,
-      "id": "ea867",
-      "kaavioType": "Group",
-      "padding": 8,
-      "stroke": "#808080",
-      "strokeDasharray": "5,3",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "type": [
-        "Group",
-        "GroupGroup"
-      ],
-      "verticalAlign": "middle",
-      "width": 76.41666666666667,
-      "x": 99.7916666666669,
-      "y": 64.6666666666667,
       "zIndex": 32768
     },
     "eaeca": {
@@ -1864,7 +1836,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "eaeca",
-      "isPartOf": "ea867",
+      "isPartOf": "b47ba",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -1878,12 +1850,12 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "RNA"
+        "Rna"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 60.416666666666664,
-      "wpType": "RNA",
+      "wpType": "Rna",
       "x": 8,
       "y": 8,
       "zIndex": 32768
@@ -2077,8 +2049,7 @@
         "Ensembl:ENSBTAG00000013340",
         "Entrez Gene:280730",
         "UniProt:A0A3Q1MT88",
-        "UniProt:O02703",
-        "UniProt:A0A3Q1MN40"
+        "UniProt:O02703"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -2106,7 +2077,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "efb71",
-      "isPartOf": "bc08f",
+      "isPartOf": "d91ae",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2172,7 +2143,7 @@
         "CompactIdentifier:ensembl:ENSBTAG00000048029",
         "MMP1",
         "Ensembl:ENSBTAG00000048029",
-        "Entrez Gene:281308",
+        "Entrez Gene:112441463",
         "UniProt:F1MT97"
       ],
       "verticalAlign": "middle",
@@ -2195,7 +2166,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "f08a5",
-      "isPartOf": "bc08f",
+      "isPartOf": "d91ae",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2348,12 +2319,13 @@
         "DataNode",
         "SingleFreeNode",
         "Ensembl:ENSBTAG00000029897",
-        "RNA"
+        "Rna",
+        "CompactIdentifier:ensembl:ENSBTAG00000029897"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 53,
-      "wpType": "RNA",
+      "wpType": "Rna",
       "x": 29,
       "xrefDataSource": "Ensembl",
       "xrefIdentifier": "ENSBTAG00000029897",
@@ -2467,7 +2439,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "f7367",
-      "isPartOf": "bc08f",
+      "isPartOf": "d91ae",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -2685,6 +2657,16 @@
       "y": 212.58333333333331,
       "zIndex": 32768
     },
+    "http://identifiers.org/doid/DOID:162": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/doid/DOID:162",
+      "ontology": "Disease",
+      "term": "cancer",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "DOID:162"
+    },
     "http://identifiers.org/pw/PW:0000605": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000605",
@@ -2718,7 +2700,6 @@
               1
             ]
           },
-          "id": "f836c",
           "isAttachedTo": "f8914",
           "orientation": [
             0,
@@ -2738,7 +2719,6 @@
               0
             ]
           },
-          "id": "fe5f2",
           "isAttachedTo": "a4487",
           "orientation": [
             0,
@@ -2779,7 +2759,6 @@
               0.5
             ]
           },
-          "id": "c831b",
           "isAttachedTo": "eb85c",
           "orientation": [
             1,
@@ -2799,7 +2778,6 @@
               0
             ]
           },
-          "id": "a0d12",
           "isAttachedTo": "f8914",
           "orientation": [
             0,
@@ -2840,7 +2818,6 @@
               1
             ]
           },
-          "id": "b53b1",
           "isAttachedTo": "db772",
           "orientation": [
             0,
@@ -2860,7 +2837,6 @@
               0
             ]
           },
-          "id": "c9298",
           "isAttachedTo": "a47b9",
           "orientation": [
             0,
@@ -2901,7 +2877,6 @@
               1
             ]
           },
-          "id": "d06da",
           "isAttachedTo": "f8914",
           "orientation": [
             0,
@@ -2921,7 +2896,6 @@
               0
             ]
           },
-          "id": "b1152",
           "isAttachedTo": "a2653",
           "orientation": [
             0,
@@ -2962,7 +2936,6 @@
               0
             ]
           },
-          "id": "e7ea8",
           "isAttachedTo": "db9fe",
           "orientation": [
             0,
@@ -2982,7 +2955,6 @@
               1
             ]
           },
-          "id": "b40ec",
           "isAttachedTo": "e2391",
           "orientation": [
             0,
@@ -3023,7 +2995,6 @@
               0.5
             ]
           },
-          "id": "a93c9",
           "isAttachedTo": "a9159",
           "orientation": [
             1,
@@ -3043,7 +3014,6 @@
               0
             ]
           },
-          "id": "ae51f",
           "isAttachedTo": "eb85c",
           "orientation": [
             0,
@@ -3068,7 +3038,7 @@
       "id": "id350f4197",
       "isAttachedTo": [
         "f8914",
-        "bc08f"
+        "d91ae"
       ],
       "kaavioType": "Edge",
       "markerEnd": "MimStimulation",
@@ -3084,7 +3054,6 @@
               0
             ]
           },
-          "id": "c15c4",
           "isAttachedTo": "f8914",
           "orientation": [
             0,
@@ -3104,8 +3073,7 @@
               1
             ]
           },
-          "id": "dba44",
-          "isAttachedTo": "bc08f",
+          "isAttachedTo": "d91ae",
           "orientation": [
             0,
             -1
@@ -3145,7 +3113,6 @@
               0
             ]
           },
-          "id": "ed96f",
           "isAttachedTo": "dd420",
           "orientation": [
             0,
@@ -3165,7 +3132,6 @@
               1
             ]
           },
-          "id": "ae1df",
           "isAttachedTo": "e2391",
           "orientation": [
             0,
@@ -3206,7 +3172,6 @@
               0
             ]
           },
-          "id": "f2b22",
           "isAttachedTo": "b7db0",
           "orientation": [
             0,
@@ -3226,7 +3191,6 @@
               1
             ]
           },
-          "id": "e979c",
           "isAttachedTo": "f0b4c",
           "orientation": [
             0,
@@ -3267,7 +3231,6 @@
               0
             ]
           },
-          "id": "bd0a5",
           "isAttachedTo": "a9159",
           "orientation": [
             0,
@@ -3287,7 +3250,6 @@
               0.5
             ]
           },
-          "id": "bd965",
           "isAttachedTo": "c2641",
           "orientation": [
             1,
@@ -3328,7 +3290,6 @@
               1
             ]
           },
-          "id": "f0032",
           "isAttachedTo": "c2641",
           "orientation": [
             0,
@@ -3348,7 +3309,6 @@
               0
             ]
           },
-          "id": "e3407",
           "isAttachedTo": "f8914",
           "orientation": [
             0,
@@ -3389,7 +3349,6 @@
               0.5
             ]
           },
-          "id": "c339e",
           "isAttachedTo": "d3eb5",
           "orientation": [
             -1,
@@ -3409,7 +3368,6 @@
               1
             ]
           },
-          "id": "feeef",
           "isAttachedTo": "b7db0",
           "orientation": [
             0,
@@ -3450,7 +3408,6 @@
               1
             ]
           },
-          "id": "a82b7",
           "isAttachedTo": "e0a89",
           "orientation": [
             0,
@@ -3470,7 +3427,6 @@
               0
             ]
           },
-          "id": "e924f",
           "isAttachedTo": "eff7e",
           "orientation": [
             0,
@@ -3511,7 +3467,6 @@
               0
             ]
           },
-          "id": "ef411",
           "isAttachedTo": "afa56",
           "orientation": [
             0,
@@ -3531,7 +3486,6 @@
               1
             ]
           },
-          "id": "ba297",
           "isAttachedTo": "d3eb5",
           "orientation": [
             0,
@@ -3572,7 +3526,6 @@
               0.5
             ]
           },
-          "id": "ce0de",
           "isAttachedTo": "f8914",
           "orientation": [
             -1,
@@ -3592,7 +3545,6 @@
               0.5
             ]
           },
-          "id": "e52c7",
           "isAttachedTo": "d3eb5",
           "orientation": [
             -1,
@@ -3633,7 +3585,6 @@
               0.5
             ]
           },
-          "id": "cbca1",
           "isAttachedTo": "e0a89",
           "orientation": [
             -1,
@@ -3653,7 +3604,6 @@
               0
             ]
           },
-          "id": "ea088",
           "isAttachedTo": "efb2d",
           "orientation": [
             0,
@@ -3694,7 +3644,6 @@
               0
             ]
           },
-          "id": "ecf74",
           "isAttachedTo": "b941a",
           "orientation": [
             0,
@@ -3714,7 +3663,6 @@
               1
             ]
           },
-          "id": "d54af",
           "isAttachedTo": "e0a89",
           "orientation": [
             0,
@@ -3755,7 +3703,6 @@
               1
             ]
           },
-          "id": "eeddc",
           "isAttachedTo": "a9159",
           "orientation": [
             0,
@@ -3775,7 +3722,6 @@
               0
             ]
           },
-          "id": "ea438",
           "isAttachedTo": "b7db0",
           "orientation": [
             0,
@@ -3816,7 +3762,6 @@
               1
             ]
           },
-          "id": "c2f69",
           "isAttachedTo": "db772",
           "orientation": [
             0,
@@ -3836,7 +3781,6 @@
               0
             ]
           },
-          "id": "a8c5c",
           "isAttachedTo": "f1eae",
           "orientation": [
             0,
@@ -3877,7 +3821,6 @@
               0
             ]
           },
-          "id": "cfe1f",
           "isAttachedTo": "a47b9",
           "orientation": [
             0,
@@ -3897,7 +3840,6 @@
               1
             ]
           },
-          "id": "d3436",
           "isAttachedTo": "a5677",
           "orientation": [
             0,
@@ -3938,7 +3880,6 @@
               0.5
             ]
           },
-          "id": "a0de9",
           "isAttachedTo": "a47b9",
           "orientation": [
             1,
@@ -3962,7 +3903,6 @@
               0.5
             ]
           },
-          "id": "d96c0",
           "isAttachedTo": "b1378",
           "orientation": [
             1,
@@ -4003,7 +3943,6 @@
               1
             ]
           },
-          "id": "bfa4c",
           "isAttachedTo": "aded6",
           "orientation": [
             0,
@@ -4023,7 +3962,6 @@
               0
             ]
           },
-          "id": "f0e70",
           "isAttachedTo": "cbc51",
           "orientation": [
             0,
@@ -4064,7 +4002,6 @@
               0.5
             ]
           },
-          "id": "f45a2",
           "isAttachedTo": "a9159",
           "orientation": [
             -1,
@@ -4084,7 +4021,6 @@
               0.5
             ]
           },
-          "id": "ad4e2",
           "isAttachedTo": "aaefd",
           "orientation": [
             -1,
@@ -4125,7 +4061,6 @@
               1
             ]
           },
-          "id": "bdf46",
           "isAttachedTo": "d3eb5",
           "orientation": [
             0,
@@ -4145,7 +4080,6 @@
               0
             ]
           },
-          "id": "b3333",
           "isAttachedTo": "b6c28",
           "orientation": [
             0,
@@ -4186,7 +4120,6 @@
               0.5
             ]
           },
-          "id": "d9555",
           "isAttachedTo": "f8914",
           "orientation": [
             -1,
@@ -4206,7 +4139,6 @@
               0.5
             ]
           },
-          "id": "c76c9",
           "isAttachedTo": "b7db0",
           "orientation": [
             -1,
@@ -4247,7 +4179,6 @@
               1
             ]
           },
-          "id": "af572",
           "isAttachedTo": "f8914",
           "orientation": [
             0,
@@ -4267,7 +4198,6 @@
               0.5
             ]
           },
-          "id": "fb3e5",
           "isAttachedTo": "cf938",
           "orientation": [
             1,
@@ -4308,7 +4238,6 @@
               0.5
             ]
           },
-          "id": "bc3f2",
           "isAttachedTo": "d1a95",
           "orientation": [
             -1,
@@ -4328,7 +4257,6 @@
               0.5
             ]
           },
-          "id": "bd692",
           "isAttachedTo": "e0a89",
           "orientation": [
             -1,
@@ -4369,7 +4297,6 @@
               1
             ]
           },
-          "id": "e1c05",
           "isAttachedTo": "f8914",
           "orientation": [
             0,
@@ -4389,7 +4316,6 @@
               0
             ]
           },
-          "id": "a3e3a",
           "isAttachedTo": "d9e82",
           "orientation": [
             0,
@@ -4430,7 +4356,6 @@
               1
             ]
           },
-          "id": "e034b",
           "isAttachedTo": "d3eb5",
           "orientation": [
             0,
@@ -4450,7 +4375,6 @@
               0
             ]
           },
-          "id": "d647e",
           "isAttachedTo": "a9006",
           "orientation": [
             0,
@@ -4491,7 +4415,6 @@
               1
             ]
           },
-          "id": "e6cbc",
           "isAttachedTo": "eb85c",
           "orientation": [
             0,
@@ -4511,7 +4434,6 @@
               0
             ]
           },
-          "id": "ae56e",
           "isAttachedTo": "a9006",
           "orientation": [
             0,
@@ -4552,7 +4474,6 @@
               0.5
             ]
           },
-          "id": "ba3c4",
           "isAttachedTo": "eb85c",
           "orientation": [
             -1,
@@ -4572,7 +4493,6 @@
               0
             ]
           },
-          "id": "cd2d0",
           "isAttachedTo": "b7db0",
           "orientation": [
             0,
@@ -4613,7 +4533,6 @@
               0
             ]
           },
-          "id": "bb72f",
           "isAttachedTo": "db23b",
           "orientation": [
             0,
@@ -4633,7 +4552,6 @@
               0.5
             ]
           },
-          "id": "e8c04",
           "isAttachedTo": "fb6c4",
           "orientation": [
             -1,
@@ -4674,7 +4592,6 @@
               0.5
             ]
           },
-          "id": "e7fab",
           "isAttachedTo": "a9159",
           "orientation": [
             1,
@@ -4694,7 +4611,6 @@
               0
             ]
           },
-          "id": "c64fa",
           "isAttachedTo": "f8914",
           "orientation": [
             0,
@@ -4735,7 +4651,6 @@
               0.5
             ]
           },
-          "id": "ea03d",
           "isAttachedTo": "f8914",
           "orientation": [
             1,
@@ -4755,7 +4670,6 @@
               0.5
             ]
           },
-          "id": "a197f",
           "isAttachedTo": "fef30",
           "orientation": [
             1,
@@ -4796,7 +4710,6 @@
               0.5
             ]
           },
-          "id": "a1fd4",
           "isAttachedTo": "acb10",
           "orientation": [
             -1,
@@ -4816,7 +4729,6 @@
               0.5
             ]
           },
-          "id": "b04e8",
           "isAttachedTo": "febe1",
           "orientation": [
             -1,
@@ -4857,7 +4769,6 @@
               1
             ]
           },
-          "id": "f5a7e",
           "isAttachedTo": "a9cfd",
           "orientation": [
             0,
@@ -4877,7 +4788,6 @@
               0
             ]
           },
-          "id": "dfca5",
           "isAttachedTo": "cbc51",
           "orientation": [
             0,
@@ -4908,7 +4818,7 @@
         "b6c28"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -4921,7 +4831,6 @@
               0.5
             ]
           },
-          "id": "d20a6",
           "isAttachedTo": "f103c",
           "orientation": [
             -1,
@@ -4945,7 +4854,6 @@
               0.5
             ]
           },
-          "id": "cfb33",
           "isAttachedTo": "b6c28",
           "orientation": [
             1,
@@ -4959,7 +4867,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 12288
     },
@@ -4986,7 +4896,6 @@
               1
             ]
           },
-          "id": "c6d93",
           "isAttachedTo": "f8914",
           "orientation": [
             0,
@@ -5006,7 +4915,6 @@
               0
             ]
           },
-          "id": "b1d9f",
           "isAttachedTo": "eaf4e",
           "orientation": [
             0,
@@ -5047,7 +4955,6 @@
               0
             ]
           },
-          "id": "b5e79",
           "isAttachedTo": "a5677",
           "orientation": [
             0,
@@ -5067,7 +4974,6 @@
               1
             ]
           },
-          "id": "a6469",
           "isAttachedTo": "cf938",
           "orientation": [
             0,
@@ -5108,7 +5014,6 @@
               1
             ]
           },
-          "id": "fbe88",
           "isAttachedTo": "db772",
           "orientation": [
             0,
@@ -5128,7 +5033,6 @@
               0
             ]
           },
-          "id": "fbb9b",
           "isAttachedTo": "f66da",
           "orientation": [
             0,
@@ -5169,7 +5073,6 @@
               0
             ]
           },
-          "id": "b4b59",
           "isAttachedTo": "cf938",
           "orientation": [
             0,
@@ -5189,7 +5092,6 @@
               1
             ]
           },
-          "id": "a7c84",
           "isAttachedTo": "fb6c4",
           "orientation": [
             0,
@@ -5217,11 +5119,11 @@
       "gpmlElementName": "Interaction",
       "id": "idd8b5abc7",
       "isAttachedTo": [
-        "ea867",
+        "b47ba",
         "f0b4c"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -5234,14 +5136,13 @@
               1
             ]
           },
-          "id": "ff9d7",
-          "isAttachedTo": "ea867",
+          "isAttachedTo": "b47ba",
           "orientation": [
             0,
             1
           ],
           "x": 138.00000000000023,
-          "y": 140.66666666666663
+          "y": 140.6666666666666
         },
         {
           "attachmentDisplay": {
@@ -5254,7 +5155,6 @@
               0.5
             ]
           },
-          "id": "e115f",
           "isAttachedTo": "f0b4c",
           "orientation": [
             -1,
@@ -5268,7 +5168,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 12288
     },
@@ -5295,7 +5197,6 @@
               0.5
             ]
           },
-          "id": "fe3bc",
           "isAttachedTo": "e2391",
           "orientation": [
             -1,
@@ -5319,7 +5220,6 @@
               0.5
             ]
           },
-          "id": "a0eec",
           "isAttachedTo": "b7db0",
           "orientation": [
             1,
@@ -5350,7 +5250,7 @@
         "f0b4c"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -5363,7 +5263,6 @@
               1
             ]
           },
-          "id": "f170b",
           "isAttachedTo": "f103c",
           "orientation": [
             0,
@@ -5383,7 +5282,6 @@
               0
             ]
           },
-          "id": "d32be",
           "isAttachedTo": "f0b4c",
           "orientation": [
             0,
@@ -5397,7 +5295,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 12288
     },
@@ -5424,7 +5324,6 @@
               0
             ]
           },
-          "id": "d44b8",
           "isAttachedTo": "f08ca",
           "orientation": [
             0,
@@ -5444,7 +5343,6 @@
               1
             ]
           },
-          "id": "e6920",
           "isAttachedTo": "d11be",
           "orientation": [
             0,
@@ -5472,7 +5370,7 @@
         "d38c2"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimConversion",
+      "markerEnd": "MimModification",
       "points": [
         {
           "attachmentDisplay": {
@@ -5485,7 +5383,6 @@
               1
             ]
           },
-          "id": "b98e9",
           "isAttachedTo": "f8914",
           "orientation": [
             0,
@@ -5505,7 +5402,6 @@
               0
             ]
           },
-          "id": "eec7a",
           "isAttachedTo": "d38c2",
           "orientation": [
             0,
@@ -5546,7 +5442,6 @@
               0.5
             ]
           },
-          "id": "ba06f",
           "isAttachedTo": "dd420",
           "orientation": [
             1,
@@ -5566,7 +5461,6 @@
               0
             ]
           },
-          "id": "ff1b6",
           "isAttachedTo": "c5d43",
           "orientation": [
             0,
@@ -5607,7 +5501,6 @@
               0.5
             ]
           },
-          "id": "e6a98",
           "isAttachedTo": "f8914",
           "orientation": [
             1,
@@ -5627,7 +5520,6 @@
               0.5
             ]
           },
-          "id": "b3e1a",
           "isAttachedTo": "fb6c4",
           "orientation": [
             1,
@@ -5669,7 +5561,6 @@
               1
             ]
           },
-          "id": "bb34f",
           "isAttachedTo": "b7db0",
           "orientation": [
             0,
@@ -5689,7 +5580,6 @@
               0
             ]
           },
-          "id": "c190a",
           "isAttachedTo": "e2391",
           "orientation": [
             0,
@@ -5730,7 +5620,6 @@
               1
             ]
           },
-          "id": "c3fb1",
           "isAttachedTo": "a47b9",
           "orientation": [
             0,
@@ -5740,7 +5629,6 @@
           "y": 587.1764705882345
         },
         {
-          "id": "de2d9",
           "x": 671.6397058823533,
           "y": 645
         },
@@ -5755,7 +5643,6 @@
               0
             ]
           },
-          "id": "f339a",
           "isAttachedTo": "b598c",
           "orientation": [
             0,
@@ -5796,7 +5683,6 @@
               0.5
             ]
           },
-          "id": "b14e3",
           "isAttachedTo": "f8914",
           "orientation": [
             1,
@@ -5816,7 +5702,6 @@
               0.5
             ]
           },
-          "id": "f751c",
           "isAttachedTo": "eaed8",
           "orientation": [
             1,
@@ -5936,9 +5821,10 @@
         "@base": "WP3244/"
       }
     ],
-    "author": "[Mkutmon, Eweitz]",
+    "author": "[Mkutmon, Eweitz, Khanspers]",
     "comments": [
       {
+        "content": "This integrated cancer pathway describes the key mechanisms involved in the development of cancer containing the key prognostic markers and pathogenetic factors.",
         "source": "WikiPathways-description"
       },
       {
@@ -5947,108 +5833,108 @@
       }
     ],
     "contains": [
-      "id313b7ec8",
-      "id43001476",
-      "id7ccc30b1",
-      "id5df05699",
-      "id1a41bd3e",
-      "id44777b46",
-      "idca292b8b",
-      "id28bf493f",
-      "idf3d26d2b",
-      "id85a0911b",
-      "id4fba0b0f",
-      "id9687715a",
-      "id82c56792",
       "id15c802ce",
-      "idb093f009",
-      "ide96d117b",
-      "idfeabdadc",
-      "id4c4c2616",
-      "ida281123d",
-      "idf2a60a03",
-      "id3a4c98ff",
-      "iddace5cb7",
-      "idcccc118b",
-      "idce6b612f",
-      "id2e254c03",
-      "idaf1668f3",
+      "id1a41bd3e",
       "id26b14c21",
-      "idcd9bfeb1",
-      "id6169b66e",
-      "id877b223e",
+      "id28bf493f",
+      "id2e254c03",
+      "id313b7ec8",
+      "id3a4c98ff",
+      "id3cb3380",
+      "id43001476",
+      "id44777b46",
+      "id44ec5a8c",
+      "id484e6038",
+      "id4c4c2616",
+      "id4fba0b0f",
       "id5b3ed043",
       "id5c29c4a",
-      "id484e6038",
-      "idaf2cd1c1",
+      "id5df05699",
+      "id6169b66e",
+      "id6371039b",
+      "id6629731f",
+      "id6ddbfd0c",
+      "id7ccc30b1",
       "id7f4241bb",
+      "id82c56792",
+      "id85a0911b",
+      "id877b223e",
+      "id9687715a",
       "id9d902bfd",
       "id9f909379",
-      "idfbde3e3",
+      "ida281123d",
+      "idaf1668f3",
+      "idaf2cd1c1",
+      "idb093f009",
       "idb37222aa",
-      "ide428f724",
-      "id44ec5a8c",
-      "id6629731f",
-      "id6371039b",
-      "id6ddbfd0c",
-      "id3cb3380",
       "idba5537fd",
-      "idf7df1010",
-      "iddbbb45d2",
       "idc098f5ab",
-      "id350f4197",
+      "idca292b8b",
+      "idcccc118b",
+      "idcd9bfeb1",
+      "idce6b612f",
+      "iddace5cb7",
+      "iddbbb45d2",
+      "ide428f724",
+      "ide96d117b",
+      "idf2a60a03",
+      "idf3d26d2b",
+      "idf7df1010",
+      "idfbde3e3",
+      "idfeabdadc",
       "idd8b5abc7",
-      "bc08f",
-      "a9159",
-      "eb85c",
-      "c2641",
-      "aaefd",
-      "b7db0",
-      "f8914",
-      "eaf4e",
+      "id350f4197",
+      "d91ae",
       "a2653",
-      "fb6c4",
+      "a4487",
+      "a47b9",
+      "a5677",
+      "a7db2",
+      "a9006",
+      "a9159",
+      "a9cfd",
+      "aaefd",
+      "acb10",
+      "aded6",
+      "afa56",
+      "b1378",
+      "b598c",
+      "b6c28",
+      "b7db0",
+      "b941a",
+      "c2641",
+      "c5d43",
+      "c920f",
+      "cbc51",
       "cf938",
+      "d11be",
+      "d1a95",
+      "d38c2",
       "d3eb5",
       "d9e82",
-      "a4487",
-      "fef30",
-      "d38c2",
-      "eaed8",
-      "c920f",
-      "afa56",
-      "dd420",
-      "c5d43",
-      "e2391",
-      "a5677",
-      "db9fe",
       "db23b",
       "db772",
-      "a47b9",
-      "f66da",
-      "f1eae",
+      "db9fe",
+      "dd420",
       "e0a89",
-      "d1a95",
+      "e2391",
+      "eaed8",
+      "eaf4e",
+      "eb85c",
       "efb2d",
-      "b941a",
-      "a7db2",
       "eff7e",
-      "b6c28",
-      "a9006",
-      "b598c",
-      "febe1",
-      "acb10",
       "f08ca",
-      "d11be",
-      "b1378",
-      "aded6",
-      "cbc51",
       "f0b4c",
-      "a9cfd",
       "f103c",
-      "ea867"
+      "f1eae",
+      "f66da",
+      "f8914",
+      "fb6c4",
+      "febe1",
+      "fef30",
+      "b47ba"
     ],
-    "dataSourceVersion": "WP3244_r117557",
+    "dataSourceVersion": "WP3244_r142134",
     "displayName": "Integrated cancer pathway",
     "drawAs": "rect",
     "fill": "white",
@@ -6058,7 +5944,7 @@
     "height": 834.6911764705883,
     "id": "WP3244",
     "kaavioType": "Group",
-    "lastModified": "20210521111846",
+    "lastModified": "20251205001943",
     "name": "Integrated cancer pathway",
     "organism": "Bos taurus",
     "padding": 5,
@@ -6067,7 +5953,6 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Integrated cancer pathway\nLast Modified: 20210521111846\nOrganism: Bos taurus",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000605"

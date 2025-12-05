@@ -9,12 +9,10 @@
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "cf0fc",
           "x": 624,
           "y": 163
         },
         {
-          "id": "a91d5",
           "x": 801,
           "y": 162.99999999999997
         }
@@ -640,7 +638,6 @@
         "Entrez Gene:618684",
         "UniProt:F6QBP1",
         "UniProt:A0A3Q1MAL4",
-        "UniProt:A0A3Q1M4L2",
         "UniProt:A0A3Q1MRJ3"
       ],
       "verticalAlign": "middle",
@@ -763,12 +760,10 @@
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "ae19f",
           "x": 251,
           "y": 51
         },
         {
-          "id": "a7519",
           "x": 413,
           "y": 51.00000000000002
         }
@@ -811,7 +806,6 @@
               1
             ]
           },
-          "id": "a4d68",
           "isAttachedTo": "ec4c8",
           "orientation": [
             0,
@@ -831,7 +825,6 @@
               0
             ]
           },
-          "id": "cb9ee",
           "isAttachedTo": "f9eff",
           "orientation": [
             0,
@@ -866,7 +859,7 @@
         "c4f8f"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimInhibition",
+      "markerEnd": "TBar",
       "points": [
         {
           "attachmentDisplay": {
@@ -879,7 +872,6 @@
               0
             ]
           },
-          "id": "a2352",
           "isAttachedTo": "d67cb",
           "orientation": [
             0,
@@ -899,7 +891,6 @@
               1
             ]
           },
-          "id": "ec4a1",
           "isAttachedTo": "c4f8f",
           "orientation": [
             0,
@@ -913,7 +904,9 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000169",
+        "Inhibition"
       ],
       "zIndex": 12288
     },
@@ -926,12 +919,10 @@
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "eb83e",
           "x": 268,
           "y": 167
         },
         {
-          "id": "b9096",
           "x": 496,
           "y": 167
         }
@@ -974,7 +965,6 @@
               1
             ]
           },
-          "id": "dedf8",
           "isAttachedTo": "a4018",
           "orientation": [
             0,
@@ -994,7 +984,6 @@
               0
             ]
           },
-          "id": "cbb89",
           "isAttachedTo": "ea962",
           "orientation": [
             0,
@@ -1021,12 +1010,10 @@
       "markerEnd": "Arrow",
       "points": [
         {
-          "id": "c55fe",
           "x": 621,
           "y": 174
         },
         {
-          "id": "cf454",
           "x": 782,
           "y": 250
         }
@@ -1069,7 +1056,6 @@
               0
             ]
           },
-          "id": "d5088",
           "isAttachedTo": "c4f8f",
           "orientation": [
             0,
@@ -1089,7 +1075,6 @@
               1
             ]
           },
-          "id": "c63df",
           "isAttachedTo": "ea962",
           "orientation": [
             0,
@@ -1185,9 +1170,10 @@
         "@base": "WP3203/"
       }
     ],
-    "author": "[Mkutmon, AlexanderPico, Eweitz]",
+    "author": "[Mkutmon, AlexanderPico, Eweitz, Khanspers]",
     "comments": [
       {
+        "content": "Glial cells, consisting of microglia, astrocytes, and oligodendrocyte lineage cells as their major components, constitute a large fraction of the mammalian brain. Originally considered as purely non-functional glue for neurons, decades of research have highlighted the importance as well as further functions of glial cells. Source: [10.3389/fncel.2017.00024](https://doi.org/10.3389/fncel.2017.00024).\r\n\r\nProteins on this pathway have targeted assays available via the [CPTAC Assay Portal](https://assays.cancer.gov/available_assays?wp_id=WP2276)",
         "source": "WikiPathways-description"
       },
       {
@@ -1196,25 +1182,25 @@
       }
     ],
     "contains": [
-      "idfb49e1db",
+      "id36511c1d",
       "id52963094",
       "id6d85230c",
       "id70c61468",
-      "id92d85b32",
-      "id36511c1d",
       "id7d16b712",
+      "id92d85b32",
+      "idfb49e1db",
       "ab013",
-      "e8334",
-      "dc08e",
       "a4018",
-      "ec4c8",
-      "fa5dc",
+      "dc08e",
+      "e8334",
       "a3e3b",
-      "fe21e",
       "bff4c",
       "c4f8f",
       "d67cb",
+      "ec4c8",
       "f5f1b",
+      "fa5dc",
+      "fe21e",
       "f9eff",
       "b133b",
       "ea962",
@@ -1223,7 +1209,7 @@
       "d17af",
       "fca64"
     ],
-    "dataSourceVersion": "WP3203_r117053",
+    "dataSourceVersion": "WP3203_r142125",
     "displayName": "Glial cell differentiation",
     "drawAs": "rect",
     "fill": "white",
@@ -1233,7 +1219,7 @@
     "height": 334,
     "id": "WP3203",
     "kaavioType": "Group",
-    "lastModified": "20210516141749",
+    "lastModified": "20251204071036",
     "name": "Glial cell differentiation",
     "organism": "Bos taurus",
     "padding": 5,
@@ -1242,11 +1228,10 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Glial cell differentiation\nLast Modified: 20210516141749\nOrganism: Bos taurus",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0000650",
-      "http://identifiers.org/pw/PW:0000003"
+      "http://identifiers.org/pw/PW:0000003",
+      "http://identifiers.org/pw/PW:0000650"
     ],
     "verticalAlign": "top",
     "width": 896,
