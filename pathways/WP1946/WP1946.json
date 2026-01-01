@@ -2921,8 +2921,8 @@
       "zIndex": 12288
     },
     "d403b": {
-      "drawAs": "none",
-      "fill": "transparent",
+      "drawAs": "rect",
+      "fill": "#ffffff",
       "fontFamily": "Arial",
       "fontSize": 12,
       "fontStyle": "normal",
@@ -2934,8 +2934,10 @@
       "lineHeight": 1.1,
       "overflow": "hidden",
       "padding": 8,
+      "rx": 15,
+      "ry": 15,
       "stroke": "#14961e",
-      "strokeWidth": 0,
+      "strokeWidth": 1,
       "textAlign": "center",
       "textContent": "Glycolysis",
       "textDecoration": "none",
@@ -4925,8 +4927,8 @@
       "zIndex": 32768
     },
     "f31a7": {
-      "drawAs": "none",
-      "fill": "transparent",
+      "drawAs": "rect",
+      "fill": "#ffffff",
       "fontFamily": "Arial",
       "fontSize": 12,
       "fontStyle": "normal",
@@ -4938,8 +4940,10 @@
       "lineHeight": 1.1,
       "overflow": "hidden",
       "padding": 8,
+      "rx": 15,
+      "ry": 15,
       "stroke": "#14961e",
-      "strokeWidth": 0,
+      "strokeWidth": 1,
       "textAlign": "center",
       "textContent": "Gluconeogenesis",
       "textDecoration": "none",
@@ -5839,73 +5843,6 @@
       "type": [
         "Interaction",
         "Edge"
-      ],
-      "zIndex": 12288
-    },
-    "id2886f047": {
-      "drawAs": "ElbowLine",
-      "fill": "none",
-      "gpmlElementName": "Interaction",
-      "id": "id2886f047",
-      "isAttachedTo": [
-        "b8dd0",
-        "eb859"
-      ],
-      "kaavioType": "Edge",
-      "markerEnd": "Arrow",
-      "points": [
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              0,
-              0.5
-            ]
-          },
-          "isAttachedTo": "b8dd0",
-          "orientation": [
-            -1,
-            0
-          ],
-          "x": 347,
-          "y": 800
-        },
-        {
-          "x": 316,
-          "y": 761
-        },
-        {
-          "attachmentDisplay": {
-            "offset": [
-              0,
-              0
-            ],
-            "position": [
-              1,
-              0.5
-            ]
-          },
-          "isAttachedTo": "eb859",
-          "orientation": [
-            -1,
-            0
-          ],
-          "x": 218,
-          "y": 722
-        }
-      ],
-      "stroke": "#000000",
-      "strokeWidth": 1,
-      "type": [
-        "Interaction",
-        "Edge",
-        "SBO:0000167",
-        "SBO:0000393",
-        "SBO:0000394",
-        "DirectedInteraction"
       ],
       "zIndex": 12288
     },
@@ -7884,6 +7821,68 @@
       ],
       "zIndex": 12288
     },
+    "id97b4365a": {
+      "drawAs": "ElbowLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "id97b4365a",
+      "isAttachedTo": [
+        "b8dd0",
+        "eb859"
+      ],
+      "kaavioType": "Edge",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0,
+              0.5
+            ]
+          },
+          "isAttachedTo": "b8dd0",
+          "orientation": [
+            -1,
+            0
+          ],
+          "x": 347,
+          "y": 800
+        },
+        {
+          "x": 316,
+          "y": 761
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              1,
+              0.5
+            ]
+          },
+          "isAttachedTo": "eb859",
+          "orientation": [
+            -1,
+            0
+          ],
+          "x": 218,
+          "y": 722
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
+      "zIndex": 12288
+    },
     "id9aae22": {
       "burrs": [
         "f10a4"
@@ -9495,7 +9494,6 @@
       "id1c82607c",
       "id1c8c07cb",
       "id22288a97",
-      "id2886f047",
       "id291482ef",
       "id2af2e8fb",
       "id327866a2",
@@ -9522,6 +9520,7 @@
       "id905f7089",
       "id96e7e5e9",
       "id97accc2",
+      "id97b4365a",
       "id9aae22",
       "id9bcbd5aa",
       "id34c391f",
@@ -9658,7 +9657,7 @@
       "e481c",
       "c8099"
     ],
-    "dataSourceVersion": "WP1946_r142301",
+    "dataSourceVersion": "WP1946_r142306",
     "displayName": "Cori cycle",
     "drawAs": "rect",
     "fill": "white",
@@ -9668,7 +9667,7 @@
     "height": 904,
     "id": "WP1946",
     "kaavioType": "Group",
-    "lastModified": "20251230161455",
+    "lastModified": "20251231095549",
     "name": "Cori cycle",
     "organism": "Homo sapiens",
     "padding": 5,
