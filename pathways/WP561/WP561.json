@@ -272,13 +272,23 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Metabolite"
+        "ChEBI:CHEBI:57307",
+        "Metabolite",
+        "CompactIdentifier:chebi:57307",
+        "protoporphyrinogen IX",
+        "Wikidata:Q27124410",
+        "ChEBI:57307",
+        "InChI:UHSGPDMIQQYNAX-UHFFFAOYSA-L",
+        "PubChem:20849104",
+        "ChemSpider:20171538"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 164.33333333333334,
       "wpType": "Metabolite",
       "x": 246.0546218487395,
+      "xrefDataSource": "ChEBI",
+      "xrefIdentifier": "CHEBI:57307",
       "y": 579.8151260504202,
       "zIndex": 28672
     },
@@ -2206,11 +2216,6 @@
       "zIndex": 32768
     },
     "d789f": {
-      "comments": [
-        {
-          "content": "Type your comment here"
-        }
-      ],
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -3793,7 +3798,6 @@
         "protoheme",
         "Wikidata:Q620084",
         "ChEBI:26355",
-        "ChEBI:17627",
         "InChI:KABFMIBPWCXCRK-RGGAHWMASA-L",
         "PubChem:444098",
         "ChemSpider:16739950",
@@ -4187,6 +4191,16 @@
       ],
       "xrefIdentifier": "CL:0002092"
     },
+    "http://identifiers.org/pw/PW:0000002": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000002",
+      "ontology": "Pathway Ontology",
+      "term": "classic metabolic pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000002"
+    },
     "http://identifiers.org/pw/PW:0000218": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000218",
@@ -4297,7 +4311,7 @@
       "d103a",
       "d6a95"
     ],
-    "dataSourceVersion": "WP561_r139836",
+    "dataSourceVersion": "WP561_r142374",
     "displayName": "Heme biosynthesis",
     "drawAs": "rect",
     "fill": "white",
@@ -4307,7 +4321,7 @@
     "height": 815.8151260504202,
     "id": "WP561",
     "kaavioType": "Group",
-    "lastModified": "20250707211746",
+    "lastModified": "20260130161157",
     "name": "Heme biosynthesis",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -4318,7 +4332,8 @@
     "textAlign": "left",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0000218"
+      "http://identifiers.org/pw/PW:0000218",
+      "http://identifiers.org/pw/PW:0000002"
     ],
     "verticalAlign": "top",
     "width": 825.0546218487395,

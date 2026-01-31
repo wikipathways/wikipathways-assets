@@ -1274,7 +1274,7 @@
     },
     "b0730": {
       "contains": [
-        "fe896",
+        "d33f7",
         "a56e8",
         "ec014"
       ],
@@ -2759,6 +2759,45 @@
       "y": 448.3333333333337,
       "zIndex": 32872
     },
+    "d33f7": {
+      "comments": [
+        {
+          "content": "See https://en.wikipedia.org/wiki/Inflammatory_cytokine"
+        }
+      ],
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 20,
+      "id": "d33f7",
+      "isPartOf": "b0730",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Inflammatory cytokines",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "GeneProduct"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 130,
+      "wpType": "GeneProduct",
+      "x": 8.233333333331188,
+      "y": 28,
+      "zIndex": 32768
+    },
     "d37a7": {
       "drawAs": "none",
       "fill": "transparent",
@@ -3394,6 +3433,11 @@
       "zIndex": 32804
     },
     "df863": {
+      "comments": [
+        {
+          "content": "Assumed to be Phospholipase C"
+        }
+      ],
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -3416,13 +3460,18 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "GeneProduct"
+        "Enzyme Nomenclature:3.1.4.3",
+        "GeneProduct",
+        "CompactIdentifier:eccode:3.1.4.3",
+        "PLC"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 60,
       "wpType": "GeneProduct",
       "x": 287.9637814610189,
+      "xrefDataSource": "Enzyme Nomenclature",
+      "xrefIdentifier": "3.1.4.3",
       "y": 290.09523809523813,
       "zIndex": 32842
     },
@@ -4992,6 +5041,14 @@
       "zIndex": 32902
     },
     "fa1b3": {
+      "citations": [
+        "publicationXrefa06"
+      ],
+      "comments": [
+        {
+          "content": "Plasma membrane Ca2+-ATPases (PMCAs)"
+        }
+      ],
       "drawAs": "rect",
       "fill": "#ffffff",
       "fontFamily": "Arial",
@@ -5101,40 +5158,6 @@
       "x": 777.7666666666611,
       "y": 555.7000000000003,
       "zIndex": 28684
-    },
-    "fe896": {
-      "drawAs": "rect",
-      "fill": "#ffffff",
-      "fontFamily": "Arial",
-      "fontSize": 12,
-      "fontStyle": "normal",
-      "fontWeight": "normal",
-      "gpmlElementName": "DataNode",
-      "height": 20,
-      "id": "fe896",
-      "isPartOf": "b0730",
-      "kaavioType": "SingleFreeNode",
-      "lineHeight": 1.1,
-      "overflow": "hidden",
-      "padding": 8,
-      "stroke": "#0000ff",
-      "strokeWidth": 1,
-      "textAlign": "center",
-      "textContent": "Inflammatory cytokines",
-      "textDecoration": "none",
-      "textOverflow": "clip",
-      "type": [
-        "DataNode",
-        "SingleFreeNode",
-        "Metabolite"
-      ],
-      "verticalAlign": "middle",
-      "whiteSpace": "pre",
-      "width": 130,
-      "wpType": "Metabolite",
-      "x": 8.233333333331188,
-      "y": 28,
-      "zIndex": 32768
     },
     "fee93": {
       "drawAs": "none",
@@ -6041,14 +6064,30 @@
       "gpmlElementName": "Interaction",
       "id": "id352e9318",
       "isAttachedTo": [
+        "b7f52",
         "e182c"
       ],
       "kaavioType": "Edge",
       "markerEnd": "MimTranscriptionTranslation",
       "points": [
         {
-          "x": 647.0761886408026,
-          "y": 699.1369562499999
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "b7f52",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 631.4455184534278,
+          "y": 699.1233157586396
         },
         {
           "attachmentDisplay": {
@@ -8070,14 +8109,30 @@
       "gpmlElementName": "Interaction",
       "id": "idef44e850",
       "isAttachedTo": [
+        "f6742",
         "a7e89"
       ],
       "kaavioType": "Edge",
       "markerEnd": "MimTranscriptionTranslation",
       "points": [
         {
-          "x": 730.3017399252193,
-          "y": 781.4969285714265
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.25,
+              0
+            ]
+          },
+          "isAttachedTo": "f6742",
+          "orientation": [
+            0,
+            -1
+          ],
+          "x": 737.7225757817863,
+          "y": 781.4482989853736
         },
         {
           "attachmentDisplay": {
@@ -8354,6 +8409,30 @@
       ],
       "zIndex": 12288
     },
+    "publicationXrefa06": {
+      "authors": [
+        "Gong D",
+        "Chi X",
+        "Ren K",
+        "Huang G",
+        "Zhou G",
+        "Yan N",
+        "Lei J",
+        "Zhou Q"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefa06",
+      "source": "Nat Commun",
+      "standardName": "Structure of the human plasma membrane Ca(2+)-ATPase 1 in complex with its obligatory subunit neuroplastin.",
+      "textContent": "2",
+      "type": [
+        "PublicationXref",
+        "PubMed:30190470"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "30190470",
+      "year": 2018
+    },
     "publicationXrefc03": {
       "authors": [
         "Xuan Qin",
@@ -8363,7 +8442,7 @@
       "id": "publicationXrefc03",
       "source": "Acta Pharmaceutica Sinica B",
       "standardName": "Role of vitamin D receptor in the regulation of CYP3A gene expression",
-      "textContent": "2",
+      "textContent": "3",
       "type": [
         "PublicationXref",
         "PubMed:31867158"
@@ -8455,7 +8534,7 @@
         "@base": "WP4698/"
       }
     ],
-    "author": "[Leonievdven, Marvin M2, MaintBot, Egonw, Fehrhart, Finterly, Eweitz]",
+    "author": "[Leonievdven, Marvin M2, MaintBot, Egonw, Fehrhart, Finterly, Eweitz, DeSl]",
     "comments": [
       {
         "content": "Depression has been linked to (lack of) sunlight exposure and raised intracellular calcium levels. In this pathway, the role of the vitamin D pathway in calcium signaling in depression is shown. Active 1,25-dihydroxy-vitamin D3 is formed from 7-dehydrocholesterol by multiple conversion steps. It associates with RXR and VDR in the nucleus, which stimulates transcription of VDR target genes, resulting in lower intracellular calcium levels. Less sunlight exposure results in lower 1,25-dihydroxyvitamin D3 levels and therefore higher calcium levels.",
@@ -8594,7 +8673,7 @@
       "cf695",
       "a7718"
     ],
-    "dataSourceVersion": "WP4698_r140518",
+    "dataSourceVersion": "WP4698_r142384",
     "displayName": "Vitamin D-sensitive calcium signaling in depression",
     "drawAs": "rect",
     "fill": "white",
@@ -8604,7 +8683,7 @@
     "height": 998.25,
     "id": "WP4698",
     "kaavioType": "Group",
-    "lastModified": "20250906055613",
+    "lastModified": "20260130163918",
     "name": "Vitamin D-sensitive calcium signaling in depression",
     "organism": "Homo sapiens",
     "padding": 5,

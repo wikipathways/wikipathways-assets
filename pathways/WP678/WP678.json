@@ -138,13 +138,24 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Metabolite"
+        "PubChem-compound:6439819",
+        "Metabolite",
+        "CompactIdentifier:pubchem.compound:6439819",
+        "5,6-DiH-PGF1a",
+        "Wikidata:Q106039036",
+        "ChEBI:139312",
+        "InChI:SAAOVBGAFHJPIF-NYNACFBQSA-N",
+        "PubChem:6439819",
+        "ChemSpider:4944203",
+        "HMDB:HMDB0012109"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 88,
       "wpType": "Metabolite",
       "x": 52,
+      "xrefDataSource": "PubChem-compound",
+      "xrefIdentifier": "6439819",
       "y": 70,
       "zIndex": 32768
     },
@@ -379,8 +390,8 @@
             -1,
             0
           ],
-          "x": 385.25,
-          "y": 300.5
+          "x": 401.9166666666665,
+          "y": 301.78205128205127
         },
         {
           "attachmentDisplay": {
@@ -1441,8 +1452,8 @@
       "whiteSpace": "pre",
       "width": 46.5,
       "wpType": "GeneProduct",
-      "x": 385.25,
-      "y": 290.5,
+      "x": 401.9166666666665,
+      "y": 291.78205128205127,
       "zIndex": 32768
     },
     "d6b43": {
@@ -2529,6 +2540,26 @@
       "y": 27,
       "zIndex": 32768
     },
+    "http://identifiers.org/pw/PW:0000002": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000002",
+      "ontology": "Pathway Ontology",
+      "term": "classic metabolic pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000002"
+    },
+    "http://identifiers.org/pw/PW:0000010": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000010",
+      "ontology": "Pathway Ontology",
+      "term": "lipid metabolic pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000010"
+    },
     "http://identifiers.org/pw/PW:0000147": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000147",
@@ -2606,7 +2637,7 @@
       "id": "publicationXrefc2d",
       "source": "Circ Res",
       "standardName": "Hydrogen peroxide inhibits cytochrome p450 epoxygenases: interaction between two endothelium-derived hyperpolarizing factors.",
-      "textContent": "16",
+      "textContent": "17",
       "type": [
         "PublicationXref",
         "PubMed:17975109"
@@ -2738,7 +2769,7 @@
       "id": "publicationXrefdbf",
       "source": "Methods Enzymol",
       "standardName": "Nomenclature for mammalian soluble glutathione transferases.",
-      "textContent": "10",
+      "textContent": "11",
       "type": [
         "PublicationXref",
         "PubMed:16399376"
@@ -2859,7 +2890,7 @@
       "id": "publicationXreff0e",
       "source": "Pest Manag Sci",
       "standardName": "Gerry Brooks and epoxide hydrolases: four decades to a pharmaceutical.",
-      "textContent": "17",
+      "textContent": "16",
       "type": [
         "PublicationXref",
         "PubMed:18383502"
@@ -2916,7 +2947,7 @@
       "id": "publicationXreff90",
       "source": "Prog Lipid Res",
       "standardName": "Epoxide hydrolases: their roles and interactions with lipid metabolism.",
-      "textContent": "11",
+      "textContent": "10",
       "type": [
         "PublicationXref",
         "PubMed:15748653"
@@ -2935,12 +2966,6 @@
     ],
     "author": "[MartijnVanIersel, Evelo, Jwnewman, Thomas, AlexanderPico, MaintBot, Khanspers, Christine Chichester, DeSl, Eweitz, Egonw]",
     "comments": [
-      {
-        "content": "Fatty Acid Epoxygenase"
-      },
-      {
-        "content": "Type your comment here"
-      },
       {
         "content": "The cytochrome P450-dependent formation of polyunsaturated fatty acid epoxides is an important biochemical pathway creating mediators of inflammation and blood pressure regulation.  Once formed these compounds can be incorperated into phospholipid membrance, and released by the action of phospholipase A2.  The epoxides of arachidonic acid, i.e. the epoxyeicosatrieneoic acid or EETs, are putative endothelial derived hyperpolarization factors which increase the open state probability of Ca++ sensitive K+ channels, leading to vasodilation in arteriolar beds.  The 11(12)-EET in particular appears to have potent functions in vasodilation, and are inhibitors of NFKb dependent inflammatory signalling, and PAI-1 activity.  The 5(6)-EET appears unique, in that its metabolic transformation through cyclooxygenase activities produces potent vasoconstrictors.  With the exception of the 5(6)-EET, these epoxy fatty acids are good substrates for the soluble epoxide hydrolase.  Hydrolytic tranformation to vicinal diols eliminates vasoactive actions, however these vicinal diols have been reported to have other biological activites, including PPAR-alpha activation.  Recent development of inhibitors of the soluble epoxide hydrolase are proving to have potent anti-inflammatory, anti-hypertensive, and anti-nociceptive properties.  Reports of enzyme catalyzed glutathione-conjugates of the epoxy fatty acids have been reported, but the activity and relavance of these potential metabolic products are unknown to date.",
         "source": "WikiPathways-description"
@@ -2987,7 +3012,7 @@
       "aa04d",
       "e8f29"
     ],
-    "dataSourceVersion": "WP678_r140958",
+    "dataSourceVersion": "WP678_r142378",
     "displayName": "Arachidonate epoxygenase / epoxide hydrolase",
     "drawAs": "rect",
     "fill": "white",
@@ -2997,7 +3022,7 @@
     "height": 443,
     "id": "WP678",
     "kaavioType": "Group",
-    "lastModified": "20251030225523",
+    "lastModified": "20260130162010",
     "name": "Arachidonate epoxygenase / epoxide hydrolase",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -3009,7 +3034,9 @@
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000460",
-      "http://identifiers.org/pw/PW:0000147"
+      "http://identifiers.org/pw/PW:0000010",
+      "http://identifiers.org/pw/PW:0000147",
+      "http://identifiers.org/pw/PW:0000002"
     ],
     "verticalAlign": "top",
     "width": 658,

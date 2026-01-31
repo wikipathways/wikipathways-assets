@@ -1314,7 +1314,7 @@
               0
             ]
           },
-          "isAttachedTo": "c4949",
+          "isAttachedTo": "dc636",
           "orientation": [],
           "x": 561.1395735028846,
           "y": 406.84216193458593
@@ -2257,31 +2257,6 @@
       "xrefIdentifier": "4091",
       "y": 388.3333333333333,
       "zIndex": 32768
-    },
-    "c4949": {
-      "attachmentDisplay": {
-        "offset": [
-          0,
-          0
-        ],
-        "position": [
-          0.2509822496338766,
-          0
-        ]
-      },
-      "drawAs": "none",
-      "gpmlElementName": "Anchor",
-      "height": 0,
-      "id": "c4949",
-      "isAttachedTo": "ffa3e",
-      "kaavioType": "Burr",
-      "strokeWidth": 0,
-      "type": [
-        "Anchor",
-        "Burr"
-      ],
-      "width": 0,
-      "zIndex": 12288
     },
     "c4d4a": {
       "drawAs": "StraightLine",
@@ -3858,6 +3833,31 @@
       ],
       "zIndex": 12288
     },
+    "dc636": {
+      "attachmentDisplay": {
+        "offset": [
+          0,
+          0
+        ],
+        "position": [
+          0.2509822496338766,
+          0
+        ]
+      },
+      "drawAs": "none",
+      "gpmlElementName": "Anchor",
+      "height": 0,
+      "id": "dc636",
+      "isAttachedTo": "ffa3e",
+      "kaavioType": "Burr",
+      "strokeWidth": 0,
+      "type": [
+        "Anchor",
+        "Burr"
+      ],
+      "width": 0,
+      "zIndex": 12288
+    },
     "dc7e0": {
       "drawAs": "StraightLine",
       "fill": "none",
@@ -3957,6 +3957,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "dd5",
+      "isPartOf": "e29a0",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -3987,10 +3988,10 @@
       "whiteSpace": "pre",
       "width": 60,
       "wpType": "GeneProduct",
-      "x": 817.3333333333325,
+      "x": 8,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "2033",
-      "y": 536.6666666666666,
+      "y": 8,
       "zIndex": 32768
     },
     "de4": {
@@ -4147,6 +4148,35 @@
       "x": 940.4999999999999,
       "y": 380.6666666666666,
       "zIndex": 28672
+    },
+    "e29a0": {
+      "contains": [
+        "dd5",
+        "fcc"
+      ],
+      "drawAs": "none",
+      "fill": "transparent",
+      "fillOpacity": 0.1,
+      "fontSize": 1,
+      "fontWeight": "bold",
+      "gpmlElementName": "Group",
+      "height": 59.33333333333337,
+      "id": "e29a0",
+      "kaavioType": "Group",
+      "padding": 8,
+      "stroke": "#808080",
+      "strokeDasharray": "5,3",
+      "strokeWidth": 0,
+      "textAlign": "center",
+      "type": [
+        "Group",
+        "GroupGroup"
+      ],
+      "verticalAlign": "middle",
+      "width": 76,
+      "x": 809.3333333333325,
+      "y": 528.6666666666666,
+      "zIndex": 32768
     },
     "e2e07": {
       "burrs": [
@@ -4536,7 +4566,8 @@
       "gpmlElementName": "Interaction",
       "id": "e86e6",
       "isAttachedTo": [
-        "fe9"
+        "fe9",
+        "e49"
       ],
       "kaavioType": "Edge",
       "markerEnd": "TBar",
@@ -4561,8 +4592,23 @@
           "y": 37
         },
         {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.75,
+              0
+            ]
+          },
+          "isAttachedTo": "e49",
+          "orientation": [
+            0,
+            1
+          ],
           "x": 557.0000000000005,
-          "y": 66.66666666666667
+          "y": 67.5
         }
       ],
       "stroke": "#000000",
@@ -5429,7 +5475,8 @@
       "gpmlElementName": "Interaction",
       "id": "f5165",
       "isAttachedTo": [
-        "a16d4"
+        "a16d4",
+        "e29a0"
       ],
       "kaavioType": "Edge",
       "markerEnd": "TBar",
@@ -5454,8 +5501,23 @@
           "y": 621.6666666666666
         },
         {
-          "x": 838.9999999999991,
-          "y": 593
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "e29a0",
+          "orientation": [
+            0,
+            -1
+          ],
+          "x": 847.3333333333325,
+          "y": 588
         }
       ],
       "stroke": "#000000",
@@ -6054,6 +6116,7 @@
       "gpmlElementName": "DataNode",
       "height": 20,
       "id": "fcc",
+      "isPartOf": "e29a0",
       "kaavioType": "SingleFreeNode",
       "lineHeight": 1.1,
       "overflow": "hidden",
@@ -6085,10 +6148,10 @@
       "whiteSpace": "pre",
       "width": 60,
       "wpType": "GeneProduct",
-      "x": 817.3333333333325,
+      "x": 8,
       "xrefDataSource": "Entrez Gene",
       "xrefIdentifier": "1387",
-      "y": 560,
+      "y": 31.33333333333337,
       "zIndex": 32768
     },
     "fd52d": {
@@ -6305,7 +6368,7 @@
     },
     "ffa3e": {
       "burrs": [
-        "c4949",
+        "dc636",
         "c35c5",
         "e5571",
         "dcc8d"
@@ -6372,6 +6435,16 @@
       ],
       "zIndex": 12288
     },
+    "http://identifiers.org/pw/PW:0000003": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000003",
+      "ontology": "Pathway Ontology",
+      "term": "signaling pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000003"
+    },
     "http://identifiers.org/pw/PW:0000329": {
       "gpmlElementName": "openControlledVocabulary",
       "id": "http://identifiers.org/pw/PW:0000329",
@@ -6381,6 +6454,16 @@
         "openControlledVocabulary"
       ],
       "xrefIdentifier": "PW:0000329"
+    },
+    "http://identifiers.org/pw/PW:0000490": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000490",
+      "ontology": "Pathway Ontology",
+      "term": "transforming growth factor-beta Smad dependent signaling pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000490"
     },
     "id140f7f11": {
       "burrs": [
@@ -6690,7 +6773,7 @@
         "@base": "WP560/"
       }
     ],
-    "author": "[N.Gal, MaintBot, Thomas, AlexanderPico, MartijnVanIersel, Samuel Sklar, Khanspers, IreneHemel, Eweitz, Egonw]",
+    "author": "[N.Gal, MaintBot, Thomas, AlexanderPico, MartijnVanIersel, Samuel Sklar, Khanspers, IreneHemel, Eweitz, Egonw, Ddigles, DeSl]",
     "comments": [
       {
         "content": "The Transforming growth factor beta (TGFβ) signaling pathway is involved in many cellular processes in both the adult organism and the developing embryo including cell growth, cell differentiation, apoptosis, cellular homeostasis and other cellular functions. In spite of the wide range of cellular processes that the TGFβ signaling pathway regulates, the process is relatively simple. TGFβ superfamily ligands bind to a type II receptor, which recruits and phosphorylates a type I receptor. The type I receptor then phosphorylates receptor-regulated SMADs (R-SMADs) which can now bind the coSMAD SMAD4. R-SMAD/coSMAD complexes accumulate in the nucleus where they act as transcription factors and participate in the regulation of target gene expression. (source: [WikiPedia](http://en.wikipedia.org/wiki/TGF_beta_signaling_pathway)).\r\n\r\n\r\nProteins on this pathway have targeted assays available via the [CPTAC Assay Portal](https://assays.cancer.gov/available_assays?wp_id=WP560).",
@@ -6728,18 +6811,18 @@
       "idcac5aab1",
       "idf0cd1ce6",
       "f041b",
-      "f5165",
       "f7b1b",
       "id4186dc77",
       "ffa3e",
-      "e2e07",
-      "id140f7f11",
+      "f5165",
       "b1506",
       "b41e9",
-      "c2b40",
       "c4d4a",
-      "d7a55",
       "d8569",
+      "e2e07",
+      "id140f7f11",
+      "c2b40",
+      "d7a55",
       "e556c",
       "a12af",
       "aefea",
@@ -6784,7 +6867,6 @@
       "d0b",
       "d5c",
       "d70",
-      "dd5",
       "df4",
       "e0b",
       "e49",
@@ -6804,18 +6886,18 @@
       "f61",
       "f6a",
       "f8c",
-      "fcc",
       "fdf",
       "fe9",
       "a16d4",
       "a39fc",
       "c5e49",
+      "e29a0",
       "eb7c7",
       "ebdbe",
       "a80df",
       "f5244"
     ],
-    "dataSourceVersion": "WP560_r137105",
+    "dataSourceVersion": "WP560_r142367",
     "displayName": "TGF-beta receptor signaling",
     "drawAs": "rect",
     "fill": "white",
@@ -6825,7 +6907,7 @@
     "height": 774,
     "id": "WP560",
     "kaavioType": "Group",
-    "lastModified": "20250227225627",
+    "lastModified": "20260130154606",
     "name": "TGF-beta receptor signaling",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -6834,10 +6916,11 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: TGF-beta receptor signaling\nLast Modified: 20250227225627\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0000329"
+      "http://identifiers.org/pw/PW:0000329",
+      "http://identifiers.org/pw/PW:0000490",
+      "http://identifiers.org/pw/PW:0000003"
     ],
     "verticalAlign": "top",
     "width": 1079.333333333333,
