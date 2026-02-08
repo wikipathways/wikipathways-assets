@@ -1539,7 +1539,8 @@
         "Ensembl:ENSBTAG00000004508",
         "Entrez Gene:280758",
         "UniProt:A0A452DIM6",
-        "UniProt:E1BF17"
+        "UniProt:E1BF17",
+        "UniProt:P15101"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -1904,6 +1905,7 @@
         "ChEBI:57595",
         "ChEBI:15971",
         "InChI:HNDVDQJCIGZPNO-YFKPBYRVSA-N",
+        "PubChem:6971009",
         "PubChem:6274",
         "ChemSpider:6038",
         "HMDB:HMDB0000177",
@@ -4306,13 +4308,15 @@
       ],
       "gpmlElementName": "PublicationXref",
       "id": "publicationXrefd64",
-      "source": "http://www.ncbi.nlm.nih.gov/bookshelf/br.fcgi?book=neurosci&part=A405",
-      "standardName": "Neuroscience",
+      "source": "Neuroscience",
+      "standardName": "The Biogenic Amines",
       "textContent": "1",
       "type": [
-        "PublicationXref"
+        "PublicationXref",
+        "URL:https://www.ncbi.nlm.nih.gov/books/NBK11035/"
       ],
-      "xrefDataSource": "PubMed",
+      "xrefDataSource": "URL",
+      "xrefIdentifier": "https://www.ncbi.nlm.nih.gov/books/NBK11035/",
       "year": 2001
     }
   },
@@ -4323,10 +4327,10 @@
         "@base": "WP3168/"
       }
     ],
-    "author": "[Mkutmon, MaintBot, Eweitz]",
+    "author": "[Mkutmon, MaintBot, Eweitz, Egonw]",
     "comments": [
       {
-        "content": "Biogenic amines are one of two broad classes of classical neurotransmitters (the other being amino acids) and include: acetylcholine, serotonin, histamine, and the catecholamines epinephrine, norepinephrine, and dopamine.\n\nSource: http://www.whatislife.com/reader2/Metabolism/pathway/Neurotransmitter.html",
+        "content": "Biogenic amines are one of two broad classes of classical neurotransmitters (the other being amino acids) and include: acetylcholine, serotonin, histamine, and the catecholamines epinephrine, norepinephrine, and dopamine.\r\n\r\nSource: http://www.whatislife.com/reader2/Metabolism/pathway/Neurotransmitter.html",
         "source": "WikiPathways-description"
       },
       {
@@ -4403,7 +4407,7 @@
       "d0ba6",
       "e3e52"
     ],
-    "dataSourceVersion": "WP3168_r117480",
+    "dataSourceVersion": "WP3168_r142431",
     "displayName": "Biogenic amine synthesis",
     "drawAs": "rect",
     "fill": "white",
@@ -4413,6 +4417,7 @@
     "height": 678,
     "id": "WP3168",
     "kaavioType": "Group",
+    "lastModified": "20260207145602",
     "name": "Biogenic amine synthesis",
     "organism": "Bos taurus",
     "padding": 5,
@@ -4421,11 +4426,10 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Biogenic amine synthesis\nOrganism: Bos taurus",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0000436",
-      "http://identifiers.org/pw/PW:0001234"
+      "http://identifiers.org/pw/PW:0001234",
+      "http://identifiers.org/pw/PW:0000436"
     ],
     "verticalAlign": "top",
     "width": 837.6666666666664,
