@@ -1239,7 +1239,7 @@
         "dacc9"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimConversion",
+      "markerEnd": "Arrow",
       "points": [
         {
           "attachmentDisplay": {
@@ -1284,7 +1284,11 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
       ],
       "zIndex": 12288
     },
@@ -1678,7 +1682,7 @@
         "e5a21"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimConversion",
+      "markerEnd": "Arrow",
       "points": [
         {
           "attachmentDisplay": {
@@ -1723,7 +1727,11 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
       ],
       "zIndex": 12288
     },
@@ -1799,7 +1807,7 @@
         "dacc9"
       ],
       "kaavioType": "Edge",
-      "markerEnd": "MimConversion",
+      "markerEnd": "Arrow",
       "points": [
         {
           "attachmentDisplay": {
@@ -1844,7 +1852,11 @@
       "strokeWidth": 1,
       "type": [
         "Interaction",
-        "Edge"
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
       ],
       "zIndex": 12288
     },
@@ -2290,7 +2302,7 @@
       "id": "publicationXrefa40",
       "source": "Lancet",
       "standardName": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China.",
-      "textContent": "7",
+      "textContent": "9",
       "type": [
         "PublicationXref",
         "PubMed:31986264"
@@ -2319,7 +2331,7 @@
       "id": "publicationXrefbbe",
       "source": "Front Physiol",
       "standardName": "Angiotensin II Decreases Endothelial Nitric Oxide Synthase Phosphorylation<i>via</i>AT<sub>1</sub>R Nox/ROS/PP2A Pathway.",
-      "textContent": "9",
+      "textContent": "6",
       "type": [
         "PublicationXref",
         "PubMed:33162896"
@@ -2393,13 +2405,13 @@
       "id": "publicationXrefe03",
       "source": "J Leukoc Biol.",
       "standardName": "ICAM-1: A master regulator of cellular responses in inflammation, injury resolution, and tumorigenesis",
-      "textContent": "11",
+      "textContent": "8",
       "type": [
         "PublicationXref",
-        "PubMed Central:PMC7977775"
+        "PubMed:32182390"
       ],
-      "xrefDataSource": "PubMed Central",
-      "xrefIdentifier": "PMC7977775",
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "32182390",
       "year": 2020
     },
     "publicationXrefe87": {
@@ -2413,7 +2425,7 @@
       "id": "publicationXrefe87",
       "source": "Eur J Intern Med",
       "standardName": "The pivotal link between ACE2 deficiency and SARS-CoV-2 infection.",
-      "textContent": "8",
+      "textContent": "7",
       "type": [
         "PublicationXref",
         "PubMed:32336612"
@@ -2453,7 +2465,7 @@
       "id": "publicationXreff47",
       "source": "Cell Host Microbe",
       "standardName": "Type I and Type III Interferons - Induction, Signaling, Evasion, and Application to Combat COVID-19.",
-      "textContent": "6",
+      "textContent": "10",
       "type": [
         "PublicationXref",
         "PubMed:32464097"
@@ -2478,7 +2490,7 @@
       "id": "publicationXreff74",
       "source": "Nat Genet",
       "standardName": "Tissue-specific and interferon-inducible expression of nonfunctional ACE2 through endogenous retroelement co-option.",
-      "textContent": "10",
+      "textContent": "11",
       "type": [
         "PublicationXref",
         "PubMed:33077915"
@@ -2512,7 +2524,7 @@
     "author": "[EAD2022, Egonw, Eweitz, Khanspers, Mkutmon, Ash iyer]",
     "comments": [
       {
-        "content": "Proposed mechanism for COVID-19 induced endothelial dysfunction via ROS, as described by Ma et Al. (2022).\r\nTNF-α stimulation of NADPH oxidase leads to accumulation of reactive oxygen species (ROS). Increased levels of IFN reduces the expression of functional ACE2, which leads to increased ROS via imbalanced RAS signaling. Excessive ROS disturbs vascular tone and increases endothelial permeability.\r\n\r\nDescription modified from [Ma et. al.](https://europepmc.org/article/MED/34838588).",
+        "content": "Proposed mechanism for COVID-19 induced endothelial dysfunction via ROS, as described by Ma *et al.* (2022).\r\nTNF-α stimulation of NADPH oxidase leads to accumulation of reactive oxygen species (ROS). Increased levels of IFN reduces the expression of functional ACE2, which leads to increased ROS via imbalanced RAS signaling. Excessive ROS disturbs vascular tone and increases endothelial permeability.\r\n\r\nDescription modified from [Ma *et al.*](https://europepmc.org/article/MED/34838588).",
         "source": "WikiPathways-description"
       }
     ],
@@ -2561,7 +2573,7 @@
       "bbafd",
       "c09be"
     ],
-    "dataSourceVersion": "WP5258_r137692",
+    "dataSourceVersion": "WP5258_r142557",
     "displayName": "ROS in COVID-19 endothelial dysfunction",
     "drawAs": "rect",
     "fill": "white",
@@ -2571,7 +2583,7 @@
     "height": 524,
     "id": "WP5258",
     "kaavioType": "Group",
-    "lastModified": "20250307051809",
+    "lastModified": "20260321140815",
     "name": "ROS in COVID-19 endothelial dysfunction",
     "organism": "Homo sapiens",
     "padding": 5,
@@ -2580,11 +2592,10 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: ROS in COVID-19 endothelial dysfunction\nLast Modified: 20250307051809\nOrganism: Homo sapiens",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0001028",
-      "http://identifiers.org/pw/PW:0000013"
+      "http://identifiers.org/pw/PW:0000013",
+      "http://identifiers.org/pw/PW:0001028"
     ],
     "verticalAlign": "top",
     "width": 1060.6666666666667,
