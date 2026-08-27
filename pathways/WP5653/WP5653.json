@@ -1,0 +1,480 @@
+{
+  "entitiesById": {
+    "ebc40": {
+      "drawAs": "rect",
+      "fill": "#eef3f7",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25.5,
+      "id": "ebc40",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "KE9: Activation, 5HT2c",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "AOP-Wiki KE:9",
+        "Key Event",
+        "CompactIdentifier:aop-wiki ke:9"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 143.66,
+      "wpType": "Key Event",
+      "x": 124.89,
+      "xrefDataSource": "AOP-Wiki KE",
+      "xrefIdentifier": "9",
+      "y": 40,
+      "zIndex": 32768
+    },
+    "f33bd": {
+      "drawAs": "rect",
+      "fill": "#eef3f7",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25.5,
+      "id": "f33bd",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "KE759: Increased, Kidney Failure",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "AOP-Wiki KE:759",
+        "Key Event",
+        "CompactIdentifier:aop-wiki ke:759"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 208.96,
+      "wpType": "Key Event",
+      "x": 92.24,
+      "xrefDataSource": "AOP-Wiki KE",
+      "xrefIdentifier": "759",
+      "y": 240.4,
+      "zIndex": 32768
+    },
+    "http://identifiers.org/cl/CL:0000540": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/cl/CL:0000540",
+      "ontology": "Cell Type",
+      "term": "neuron",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "CL:0000540"
+    },
+    "http://identifiers.org/doid/DOID:1074": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/doid/DOID:1074",
+      "ontology": "Disease",
+      "term": "kidney failure",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "DOID:1074"
+    },
+    "http://identifiers.org/pw/PW:0000301": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0000301",
+      "ontology": "Pathway Ontology",
+      "term": "kidney failure pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0000301"
+    },
+    "id03933a41": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "id03933a41",
+      "isAttachedTo": [
+        "zdbd1",
+        "f33bd"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "zdbd1",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 196.72,
+          "y": 180.4
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "f33bd",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 196.72,
+          "y": 240.39999999999998
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12288
+    },
+    "id17be3983": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "id17be3983",
+      "isAttachedTo": [
+        "ebc40",
+        "y99f6"
+      ],
+      "kaavioType": "Edge",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "ebc40",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 196.72,
+          "y": 65.5
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "y99f6",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 196.72,
+          "y": 69.4
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
+      "zIndex": 12288
+    },
+    "id45192bc8": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "id45192bc8",
+      "isAttachedTo": [
+        "ebc40",
+        "zdbd1"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "ebc40",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 196.72,
+          "y": 65.5
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "zdbd1",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 196.72,
+          "y": 154.9
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12288
+    },
+    "publicationXrefe8e": {
+      "authors": [
+        "Martens M",
+        "Verbruggen T",
+        "Nymark P",
+        "Evelo CT",
+        "Willighagen EL"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefe8e",
+      "source": "Front Genet",
+      "standardName": "Introducing WikiPathways as a Data-Source to Support Adverse Outcome Pathways for Regulatory Risk Assessment of Chemicals and Nanomaterials",
+      "textContent": "1",
+      "type": [
+        "PublicationXref",
+        "PubMed:30622555"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "30622555",
+      "year": 2018
+    },
+    "publicationXrefo2f": {
+      "authors": [
+        "Martens M",
+        "Evelo CT",
+        "Willighagen EL"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefo2f",
+      "source": "Appl In Vitro Toxicol",
+      "standardName": "Providing Adverse Outcome Pathways from the AOP-Wiki in a Semantic Web Format to Increase Usability and Accessibility of the Content",
+      "textContent": "2",
+      "type": [
+        "PublicationXref",
+        "PubMed:35388368"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "35388368",
+      "year": 2022
+    },
+    "y99f6": {
+      "comments": [
+        {
+          "content": "molAOP Builder mapping: high confidence, causative connection; assessment relationship=causative, basis=known, specificity=includes, coverage=keysteps; approved 2026-07-29T17:32:16.121667",
+          "source": "molAOP-GPML"
+        }
+      ],
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "bold",
+      "gpmlElementName": "DataNode",
+      "height": 25.5,
+      "id": "y99f6",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#14961e",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Serotonin receptor 2 and ELK-SRF/GATA4 signaling",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "WikiPathways:WP732",
+        "Pathway",
+        "CompactIdentifier:wikipathways:WP732"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 313.44,
+      "wpType": "Pathway",
+      "x": 40,
+      "xrefDataSource": "WikiPathways",
+      "xrefIdentifier": "WP732",
+      "y": 69.4,
+      "zIndex": 32768
+    },
+    "zdbd1": {
+      "drawAs": "rect",
+      "fill": "#eef3f7",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25.5,
+      "id": "zdbd1",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "KE294: N/A, Unknown",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "AOP-Wiki KE:294",
+        "Key Event",
+        "CompactIdentifier:aop-wiki ke:294"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 124.07000000000001,
+      "wpType": "Key Event",
+      "x": 134.685,
+      "xrefDataSource": "AOP-Wiki KE",
+      "xrefIdentifier": "294",
+      "y": 154.9,
+      "zIndex": 32768
+    }
+  },
+  "pathway": {
+    "@context": [
+      "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
+      {
+        "@base": "WP5653/"
+      }
+    ],
+    "author": "[Marvin M2, SidraAdil]",
+    "comments": [
+      {
+        "content": "Molecular Adverse Outcome Pathway for [AOP 33](https://identifiers.org/aop/33), \"Kidney toxicity induced by activation of 5HT2C\". Key Event nodes and the relationships between them are from AOP-Wiki RDF 97191db (2026-08-01); the green pathway nodes are the molecular pathways mapped to each Key Event and approved in the molAOP Builder (snapshot 2026-08-13).",
+        "source": "WikiPathways-description"
+      },
+      {
+        "content": "WP:molAOPAnalysis - Molecular Adverse Outcome Pathways analysis",
+        "source": "WikiPathways-use-case"
+      },
+      {
+        "content": "Generated by molAOP-GPML from AOP-Wiki RDF 97191db (2026-08-01) and molAOP Builder snapshot 2026-08-13; layout backend: layered",
+        "source": "molAOP-GPML"
+      }
+    ],
+    "contains": [
+      "id03933a41",
+      "id17be3983",
+      "id45192bc8",
+      "ebc40",
+      "f33bd",
+      "y99f6",
+      "zdbd1"
+    ],
+    "dataSourceVersion": "WP5653_r20260827120000",
+    "displayName": "Kidney toxicity induced by activation of 5HT2C",
+    "drawAs": "rect",
+    "fill": "white",
+    "fontSize": 12,
+    "fontWeight": "bold",
+    "gpmlElementName": "Pathway",
+    "height": 295.9,
+    "id": "WP5653",
+    "kaavioType": "Group",
+    "lastModified": "20260827120000",
+    "name": "Kidney toxicity induced by activation of 5HT2C",
+    "organism": "Homo sapiens",
+    "padding": 5,
+    "pathwayVersion": "WP5653",
+    "standardName": "Kidney toxicity induced by activation of 5HT2C",
+    "stroke": "black",
+    "strokeWidth": 0,
+    "textAlign": "left",
+    "type": [
+      "Pathway",
+      "http://identifiers.org/pw/PW:0000301"
+    ],
+    "verticalAlign": "top",
+    "width": 383.44,
+    "x": 0,
+    "y": 0,
+    "zIndex": 0
+  }
+}

@@ -1,0 +1,1056 @@
+{
+  "entitiesById": {
+    "de5a4": {
+      "drawAs": "rect",
+      "fill": "#eef3f7",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25.5,
+      "id": "de5a4",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "KE149: Increase, Inflammation",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "AOP-Wiki KE:149",
+        "Key Event",
+        "CompactIdentifier:aop-wiki ke:149"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 189.37,
+      "wpType": "Key Event",
+      "x": 95.505,
+      "xrefDataSource": "AOP-Wiki KE",
+      "xrefIdentifier": "149",
+      "y": 211,
+      "zIndex": 32768
+    },
+    "g105e": {
+      "comments": [
+        {
+          "content": "molAOP Builder mapping: high confidence, other connection; assessment relationship=None, basis=None, specificity=None, coverage=None; approved 2026-04-13T08:09:06.437923",
+          "source": "molAOP-GPML"
+        }
+      ],
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "bold",
+      "gpmlElementName": "DataNode",
+      "height": 25.5,
+      "id": "g105e",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#14961e",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Inflammatory response pathway",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "WikiPathways:WP453",
+        "Pathway",
+        "CompactIdentifier:wikipathways:WP453"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 189.37,
+      "wpType": "Pathway",
+      "x": 95.505,
+      "xrefDataSource": "WikiPathways",
+      "xrefIdentifier": "WP453",
+      "y": 240.4,
+      "zIndex": 32768
+    },
+    "gba51": {
+      "drawAs": "rect",
+      "fill": "#eef3f7",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25.5,
+      "id": "gba51",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "KE2262:  Neuropathy target esterase, inhibited",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "AOP-Wiki KE:2262",
+        "Key Event",
+        "CompactIdentifier:aop-wiki ke:2262"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 300.38,
+      "wpType": "Key Event",
+      "x": 40,
+      "xrefDataSource": "AOP-Wiki KE",
+      "xrefIdentifier": "2262",
+      "y": 40,
+      "zIndex": 32768
+    },
+    "http://identifiers.org/cl/CL:0000128": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/cl/CL:0000128",
+      "ontology": "Cell Type",
+      "term": "oligodendrocyte",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "CL:0000128"
+    },
+    "http://identifiers.org/pw/PW:0001414": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0001414",
+      "ontology": "Pathway Ontology",
+      "term": "brain disease pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0001414"
+    },
+    "id20756b99": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "id20756b99",
+      "isAttachedTo": [
+        "gba51",
+        "u50ff"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "gba51",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 190.19,
+          "y": 65.5
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "u50ff",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 190.19,
+          "y": 125.5
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12288
+    },
+    "id346f0eb1": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "id346f0eb1",
+      "isAttachedTo": [
+        "y17a3",
+        "ja626"
+      ],
+      "kaavioType": "Edge",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "y17a3",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 190.19,
+          "y": 380.8
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "ja626",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 190.19,
+          "y": 384.7
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
+      "zIndex": 12288
+    },
+    "id51a3f6c3": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "id51a3f6c3",
+      "isAttachedTo": [
+        "de5a4",
+        "kad12"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "de5a4",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 190.19,
+          "y": 236.5
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "kad12",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 190.19,
+          "y": 470.20000000000005
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12288
+    },
+    "id52ff9c80": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "id52ff9c80",
+      "isAttachedTo": [
+        "de5a4",
+        "g105e"
+      ],
+      "kaavioType": "Edge",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "de5a4",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 190.19,
+          "y": 236.5
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "g105e",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 190.19,
+          "y": 240.39999999999998
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
+      "zIndex": 12288
+    },
+    "id53dd1198": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "id53dd1198",
+      "isAttachedTo": [
+        "y17a3",
+        "kad12"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "y17a3",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 190.19,
+          "y": 380.8
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "kad12",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 190.19,
+          "y": 470.20000000000005
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12288
+    },
+    "id5fdf44c6": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "id5fdf44c6",
+      "isAttachedTo": [
+        "de5a4",
+        "u553e"
+      ],
+      "kaavioType": "Edge",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "de5a4",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 190.19,
+          "y": 236.5
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "u553e",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 190.19,
+          "y": 269.8
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
+      "zIndex": 12288
+    },
+    "id68cf08ac": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "id68cf08ac",
+      "isAttachedTo": [
+        "kad12",
+        "md49d"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "kad12",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 190.19,
+          "y": 495.70000000000005
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "md49d",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 190.19,
+          "y": 555.7
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12288
+    },
+    "idcfc801e0": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "idcfc801e0",
+      "isAttachedTo": [
+        "u50ff",
+        "de5a4"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "u50ff",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 190.19,
+          "y": 151
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "de5a4",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 190.19,
+          "y": 211
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12288
+    },
+    "idfe01c3ac": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "idfe01c3ac",
+      "isAttachedTo": [
+        "de5a4",
+        "y17a3"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "de5a4",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 190.19,
+          "y": 236.5
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "y17a3",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 190.19,
+          "y": 355.3
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12288
+    },
+    "ja626": {
+      "comments": [
+        {
+          "content": "molAOP Builder mapping: high confidence, responsive connection; assessment relationship=responsive, basis=known, specificity=includes, coverage=keysteps; approved 2026-08-11T11:56:54.234886",
+          "source": "molAOP-GPML"
+        }
+      ],
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "bold",
+      "gpmlElementName": "DataNode",
+      "height": 25.5,
+      "id": "ja626",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#14961e",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Apoptosis modulation and signaling",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "WikiPathways:WP1772",
+        "Pathway",
+        "CompactIdentifier:wikipathways:WP1772"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 222.02,
+      "wpType": "Pathway",
+      "x": 79.17999999999999,
+      "xrefDataSource": "WikiPathways",
+      "xrefIdentifier": "WP1772",
+      "y": 384.7,
+      "zIndex": 32768
+    },
+    "kad12": {
+      "drawAs": "rect",
+      "fill": "#eef3f7",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25.5,
+      "id": "kad12",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "KE2266: Demyelination, increased",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "AOP-Wiki KE:2266",
+        "Key Event",
+        "CompactIdentifier:aop-wiki ke:2266"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 208.96,
+      "wpType": "Key Event",
+      "x": 85.71,
+      "xrefDataSource": "AOP-Wiki KE",
+      "xrefIdentifier": "2266",
+      "y": 470.20000000000005,
+      "zIndex": 32768
+    },
+    "md49d": {
+      "drawAs": "rect",
+      "fill": "#eef3f7",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25.5,
+      "id": "md49d",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "KE2267: Delayed neuropathy, increased",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "AOP-Wiki KE:2267",
+        "Key Event",
+        "CompactIdentifier:aop-wiki ke:2267"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 241.61,
+      "wpType": "Key Event",
+      "x": 69.38499999999999,
+      "xrefDataSource": "AOP-Wiki KE",
+      "xrefIdentifier": "2267",
+      "y": 555.7,
+      "zIndex": 32768
+    },
+    "publicationXrefb2f": {
+      "authors": [
+        "Martens M",
+        "Evelo CT",
+        "Willighagen EL"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefb2f",
+      "source": "Appl In Vitro Toxicol",
+      "standardName": "Providing Adverse Outcome Pathways from the AOP-Wiki in a Semantic Web Format to Increase Usability and Accessibility of the Content",
+      "textContent": "2",
+      "type": [
+        "PublicationXref",
+        "PubMed:35388368"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "35388368",
+      "year": 2022
+    },
+    "publicationXrefk6c": {
+      "authors": [
+        "Martens M",
+        "Verbruggen T",
+        "Nymark P",
+        "Evelo CT",
+        "Willighagen EL"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefk6c",
+      "source": "Front Genet",
+      "standardName": "Introducing WikiPathways as a Data-Source to Support Adverse Outcome Pathways for Regulatory Risk Assessment of Chemicals and Nanomaterials",
+      "textContent": "1",
+      "type": [
+        "PublicationXref",
+        "PubMed:30622555"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "30622555",
+      "year": 2018
+    },
+    "u50ff": {
+      "drawAs": "rect",
+      "fill": "#eef3f7",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25.5,
+      "id": "u50ff",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "KE2263:  Lysolecithin, increased",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "AOP-Wiki KE:2263",
+        "Key Event",
+        "CompactIdentifier:aop-wiki ke:2263"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 208.96,
+      "wpType": "Key Event",
+      "x": 85.71,
+      "xrefDataSource": "AOP-Wiki KE",
+      "xrefIdentifier": "2263",
+      "y": 125.5,
+      "zIndex": 32768
+    },
+    "u553e": {
+      "comments": [
+        {
+          "content": "molAOP Builder mapping: high confidence, other connection; assessment relationship=None, basis=None, specificity=None, coverage=None; approved 2026-03-03T11:59:13.592007",
+          "source": "molAOP-GPML"
+        }
+      ],
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "bold",
+      "gpmlElementName": "DataNode",
+      "height": 25.5,
+      "id": "u553e",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#14961e",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Cytokines and inflammatory response",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "WikiPathways:WP530",
+        "Pathway",
+        "CompactIdentifier:wikipathways:WP530"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 228.55,
+      "wpType": "Pathway",
+      "x": 75.91499999999999,
+      "xrefDataSource": "WikiPathways",
+      "xrefIdentifier": "WP530",
+      "y": 269.8,
+      "zIndex": 32768
+    },
+    "y17a3": {
+      "drawAs": "rect",
+      "fill": "#eef3f7",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25.5,
+      "id": "y17a3",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "KE2265:  Oligodendrocyte death, increased",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "AOP-Wiki KE:2265",
+        "Key Event",
+        "CompactIdentifier:aop-wiki ke:2265"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 267.73,
+      "wpType": "Key Event",
+      "x": 56.32499999999999,
+      "xrefDataSource": "AOP-Wiki KE",
+      "xrefIdentifier": "2265",
+      "y": 355.3,
+      "zIndex": 32768
+    }
+  },
+  "pathway": {
+    "@context": [
+      "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
+      {
+        "@base": "WP5725/"
+      }
+    ],
+    "author": "[Marvin M2, SidraAdil]",
+    "comments": [
+      {
+        "content": "Molecular Adverse Outcome Pathway for [AOP 544](https://identifiers.org/aop/544), \" Inhibition of neuropathy target esterase leading to delayed neuropathy via increased inflammation\". Key Event nodes and the relationships between them are from AOP-Wiki RDF 97191db (2026-08-01); the green pathway nodes are the molecular pathways mapped to each Key Event and approved in the molAOP Builder (snapshot 2026-08-13).",
+        "source": "WikiPathways-description"
+      },
+      {
+        "content": "WP:molAOPAnalysis - Molecular Adverse Outcome Pathways analysis",
+        "source": "WikiPathways-use-case"
+      },
+      {
+        "content": "Generated by molAOP-GPML from AOP-Wiki RDF 97191db (2026-08-01) and molAOP Builder snapshot 2026-08-13; layout backend: layered",
+        "source": "molAOP-GPML"
+      }
+    ],
+    "contains": [
+      "id20756b99",
+      "id346f0eb1",
+      "id51a3f6c3",
+      "id52ff9c80",
+      "id53dd1198",
+      "id5fdf44c6",
+      "id68cf08ac",
+      "idcfc801e0",
+      "idfe01c3ac",
+      "de5a4",
+      "g105e",
+      "gba51",
+      "ja626",
+      "kad12",
+      "md49d",
+      "u50ff",
+      "u553e",
+      "y17a3"
+    ],
+    "dataSourceVersion": "WP5725_r20260827120000",
+    "displayName": "Inhibition of neuropathy target esterase leading to delayed neuropathy via increased inflammation",
+    "drawAs": "rect",
+    "fill": "white",
+    "fontSize": 12,
+    "fontWeight": "bold",
+    "gpmlElementName": "Pathway",
+    "height": 611.2,
+    "id": "WP5725",
+    "kaavioType": "Group",
+    "lastModified": "20260827120000",
+    "name": "Inhibition of neuropathy target esterase leading to delayed neuropathy via increased inflammation",
+    "organism": "Homo sapiens",
+    "padding": 5,
+    "pathwayVersion": "WP5725",
+    "standardName": "Inhibition of neuropathy target esterase leading to delayed neuropathy via increased inflammation",
+    "stroke": "black",
+    "strokeWidth": 0,
+    "textAlign": "left",
+    "type": [
+      "Pathway",
+      "http://identifiers.org/pw/PW:0001414"
+    ],
+    "verticalAlign": "top",
+    "width": 370.38,
+    "x": 0,
+    "y": 0,
+    "zIndex": 0
+  }
+}

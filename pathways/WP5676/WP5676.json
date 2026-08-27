@@ -1,0 +1,1096 @@
+{
+  "entitiesById": {
+    "f3a0f": {
+      "comments": [
+        {
+          "content": "molAOP Builder mapping: high confidence, causative connection; assessment relationship=None, basis=None, specificity=None, coverage=None; approved 2026-03-03T08:48:33.834124",
+          "source": "molAOP-GPML"
+        }
+      ],
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "bold",
+      "gpmlElementName": "DataNode",
+      "height": 25.5,
+      "id": "f3a0f",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#14961e",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Thyroxine (thyroid hormone) production",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "WikiPathways:WP1981",
+        "Pathway",
+        "CompactIdentifier:wikipathways:WP1981"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 248.14000000000001,
+      "wpType": "Pathway",
+      "x": 75.92999999999999,
+      "xrefDataSource": "WikiPathways",
+      "xrefIdentifier": "WP1981",
+      "y": 344.2,
+      "zIndex": 32768
+    },
+    "g5934": {
+      "drawAs": "rect",
+      "fill": "#eef3f7",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 40.5,
+      "id": "g5934",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "KE961: Increased, Clearance of thyroxine from\nserum",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "AOP-Wiki KE:961",
+        "Key Event",
+        "CompactIdentifier:aop-wiki ke:961"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 320,
+      "wpType": "Key Event",
+      "x": 40,
+      "xrefDataSource": "AOP-Wiki KE",
+      "xrefIdentifier": "961",
+      "y": 169.90000000000003,
+      "zIndex": 32768
+    },
+    "http://identifiers.org/cl/CL:0002258": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/cl/CL:0002258",
+      "ontology": "Cell Type",
+      "term": "thyroid follicular cell",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "CL:0002258"
+    },
+    "http://identifiers.org/pw/PW:0001413": {
+      "gpmlElementName": "openControlledVocabulary",
+      "id": "http://identifiers.org/pw/PW:0001413",
+      "ontology": "Pathway Ontology",
+      "term": "liver disease pathway",
+      "type": [
+        "openControlledVocabulary"
+      ],
+      "xrefIdentifier": "PW:0001413"
+    },
+    "id194200e2": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "id194200e2",
+      "isAttachedTo": [
+        "r3b3c",
+        "f3a0f"
+      ],
+      "kaavioType": "Edge",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "r3b3c",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 200,
+          "y": 340.3
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "f3a0f",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 200,
+          "y": 344.2
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
+      "zIndex": 12288
+    },
+    "id4181ec21": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "id4181ec21",
+      "isAttachedTo": [
+        "g5934",
+        "q8f93"
+      ],
+      "kaavioType": "Edge",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "g5934",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 200,
+          "y": 210.40000000000003
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "q8f93",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 200,
+          "y": 214.30000000000004
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
+      "zIndex": 12288
+    },
+    "id72bdea6e": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "id72bdea6e",
+      "isAttachedTo": [
+        "y8f3b",
+        "ua389"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "y8f3b",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 200,
+          "y": 470.20000000000005
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "ua389",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 200,
+          "y": 530.2
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12288
+    },
+    "id736575eb": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "id736575eb",
+      "isAttachedTo": [
+        "s8e8a",
+        "g5934"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "s8e8a",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 200,
+          "y": 80.5
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "g5934",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 200,
+          "y": 169.90000000000003
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12288
+    },
+    "id9bfff09c": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "id9bfff09c",
+      "isAttachedTo": [
+        "r3b3c",
+        "y8f3b"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "r3b3c",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 200,
+          "y": 340.3
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "y8f3b",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 200,
+          "y": 429.70000000000005
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12288
+    },
+    "ida9a31437": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "ida9a31437",
+      "isAttachedTo": [
+        "ua389",
+        "q608f"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "ua389",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 200,
+          "y": 570.7
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "q608f",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 200,
+          "y": 630.7
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12288
+    },
+    "iddc486135": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "iddc486135",
+      "isAttachedTo": [
+        "q608f",
+        "p3e6b"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "q608f",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 200,
+          "y": 656.2
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "p3e6b",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 200,
+          "y": 716.2
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12288
+    },
+    "ide7ad9d8f": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "ide7ad9d8f",
+      "isAttachedTo": [
+        "s8e8a",
+        "n02da"
+      ],
+      "kaavioType": "Edge",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "s8e8a",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 200,
+          "y": 80.5
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "n02da",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 200,
+          "y": 84.4
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge"
+      ],
+      "zIndex": 12288
+    },
+    "idfc02c3ec": {
+      "drawAs": "StraightLine",
+      "fill": "none",
+      "gpmlElementName": "Interaction",
+      "id": "idfc02c3ec",
+      "isAttachedTo": [
+        "g5934",
+        "r3b3c"
+      ],
+      "kaavioType": "Edge",
+      "markerEnd": "Arrow",
+      "points": [
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              1
+            ]
+          },
+          "isAttachedTo": "g5934",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 200,
+          "y": 210.40000000000003
+        },
+        {
+          "attachmentDisplay": {
+            "offset": [
+              0,
+              0
+            ],
+            "position": [
+              0.5,
+              0
+            ]
+          },
+          "isAttachedTo": "r3b3c",
+          "orientation": [
+            0,
+            1
+          ],
+          "x": 200,
+          "y": 314.8
+        }
+      ],
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "type": [
+        "Interaction",
+        "Edge",
+        "SBO:0000167",
+        "SBO:0000393",
+        "SBO:0000394",
+        "DirectedInteraction"
+      ],
+      "zIndex": 12288
+    },
+    "n02da": {
+      "comments": [
+        {
+          "content": "molAOP Builder mapping: high confidence, causative connection; assessment relationship=causative, basis=known, specificity=specific, coverage=complete; approved 2026-08-10T12:03:40.763986",
+          "source": "molAOP-GPML"
+        }
+      ],
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "bold",
+      "gpmlElementName": "DataNode",
+      "height": 25.5,
+      "id": "n02da",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#14961e",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Glucuronidation",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "WikiPathways:WP698",
+        "Pathway",
+        "CompactIdentifier:wikipathways:WP698"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 108,
+      "wpType": "Pathway",
+      "x": 146,
+      "xrefDataSource": "WikiPathways",
+      "xrefIdentifier": "WP698",
+      "y": 84.4,
+      "zIndex": 32768
+    },
+    "p3e6b": {
+      "drawAs": "rect",
+      "fill": "#eef3f7",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 40.5,
+      "id": "p3e6b",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "KE741: Increase, Adenomas/carcinomas (follicular\ncell)",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "AOP-Wiki KE:741",
+        "Key Event",
+        "CompactIdentifier:aop-wiki ke:741"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 320,
+      "wpType": "Key Event",
+      "x": 40,
+      "xrefDataSource": "AOP-Wiki KE",
+      "xrefIdentifier": "741",
+      "y": 716.2,
+      "zIndex": 32768
+    },
+    "publicationXrefi2f": {
+      "authors": [
+        "Martens M",
+        "Evelo CT",
+        "Willighagen EL"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefi2f",
+      "source": "Appl In Vitro Toxicol",
+      "standardName": "Providing Adverse Outcome Pathways from the AOP-Wiki in a Semantic Web Format to Increase Usability and Accessibility of the Content",
+      "textContent": "2",
+      "type": [
+        "PublicationXref",
+        "PubMed:35388368"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "35388368",
+      "year": 2022
+    },
+    "publicationXrefn86": {
+      "authors": [
+        "Martens M",
+        "Verbruggen T",
+        "Nymark P",
+        "Evelo CT",
+        "Willighagen EL"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefn86",
+      "source": "Front Genet",
+      "standardName": "Introducing WikiPathways as a Data-Source to Support Adverse Outcome Pathways for Regulatory Risk Assessment of Chemicals and Nanomaterials",
+      "textContent": "1",
+      "type": [
+        "PublicationXref",
+        "PubMed:30622555"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "30622555",
+      "year": 2018
+    },
+    "q608f": {
+      "drawAs": "rect",
+      "fill": "#eef3f7",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25.5,
+      "id": "q608f",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "KE740: Increase, Hyperplasia (follicular cells)",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "AOP-Wiki KE:740",
+        "Key Event",
+        "CompactIdentifier:aop-wiki ke:740"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 306.91,
+      "wpType": "Key Event",
+      "x": 46.54499999999999,
+      "xrefDataSource": "AOP-Wiki KE",
+      "xrefIdentifier": "740",
+      "y": 630.7,
+      "zIndex": 32768
+    },
+    "q8f93": {
+      "comments": [
+        {
+          "content": "molAOP Builder mapping: medium confidence, undefined connection; assessment relationship=unclear, basis=likely, specificity=includes, coverage=minor; approved 2026-08-10T11:30:12.944455",
+          "source": "molAOP-GPML"
+        }
+      ],
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "bold",
+      "gpmlElementName": "DataNode",
+      "height": 40.5,
+      "id": "q8f93",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#14961e",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "Thyroid hormones production and peripheral\ndownstream signaling effects",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "WikiPathways:WP4746",
+        "Pathway",
+        "CompactIdentifier:wikipathways:WP4746"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 320,
+      "wpType": "Pathway",
+      "x": 40,
+      "xrefDataSource": "WikiPathways",
+      "xrefIdentifier": "WP4746",
+      "y": 214.30000000000004,
+      "zIndex": 32768
+    },
+    "r3b3c": {
+      "drawAs": "rect",
+      "fill": "#eef3f7",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 25.5,
+      "id": "r3b3c",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "KE281:  Thyroxine (T4) in serum, Decreased",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "AOP-Wiki KE:281",
+        "Key Event",
+        "CompactIdentifier:aop-wiki ke:281"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 274.26,
+      "wpType": "Key Event",
+      "x": 62.870000000000005,
+      "xrefDataSource": "AOP-Wiki KE",
+      "xrefIdentifier": "281",
+      "y": 314.8,
+      "zIndex": 32768
+    },
+    "s8e8a": {
+      "drawAs": "rect",
+      "fill": "#eef3f7",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 40.5,
+      "id": "s8e8a",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "KE295: Induction, Upregulation of\nglucuronyltransferase activity",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "AOP-Wiki KE:295",
+        "Key Event",
+        "CompactIdentifier:aop-wiki ke:295"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 320,
+      "wpType": "Key Event",
+      "x": 40,
+      "xrefDataSource": "AOP-Wiki KE",
+      "xrefIdentifier": "295",
+      "y": 40,
+      "zIndex": 32768
+    },
+    "ua389": {
+      "drawAs": "rect",
+      "fill": "#eef3f7",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 40.5,
+      "id": "ua389",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "KE739: Increase, Hypertrophy and proliferation\n(follicular cell)",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "AOP-Wiki KE:739",
+        "Key Event",
+        "CompactIdentifier:aop-wiki ke:739"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 320,
+      "wpType": "Key Event",
+      "x": 40,
+      "xrefDataSource": "AOP-Wiki KE",
+      "xrefIdentifier": "739",
+      "y": 530.2,
+      "zIndex": 32768
+    },
+    "y8f3b": {
+      "drawAs": "rect",
+      "fill": "#eef3f7",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 40.5,
+      "id": "y8f3b",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "rx": 15,
+      "ry": 15,
+      "stroke": "#000000",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "KE1023: Increased, Thyroid-stimulating hormone\n(TSH)",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "AOP-Wiki KE:1023",
+        "Key Event",
+        "CompactIdentifier:aop-wiki ke:1023"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 320,
+      "wpType": "Key Event",
+      "x": 40,
+      "xrefDataSource": "AOP-Wiki KE",
+      "xrefIdentifier": "1023",
+      "y": 429.70000000000005,
+      "zIndex": 32768
+    }
+  },
+  "pathway": {
+    "@context": [
+      "https://cdn.rawgit.com/wikipathways/WpVocabularies/7a46a05/contexts/pvjs.jsonld",
+      {
+        "@base": "WP5676/"
+      }
+    ],
+    "author": "[Marvin M2, SidraAdil]",
+    "comments": [
+      {
+        "content": "Molecular Adverse Outcome Pathway for [AOP 162](https://identifiers.org/aop/162), \"Enhanced hepatic clearance of thyroid hormones leading to thyroid follicular cell adenomas and carcinomas in the rat and mouse\". Key Event nodes and the relationships between them are from AOP-Wiki RDF 97191db (2026-08-01); the green pathway nodes are the molecular pathways mapped to each Key Event and approved in the molAOP Builder (snapshot 2026-08-13). The source AOP was developed in a non-human species; the mapped molecular pathways are human.",
+        "source": "WikiPathways-description"
+      },
+      {
+        "content": "WP:molAOPAnalysis - Molecular Adverse Outcome Pathways analysis",
+        "source": "WikiPathways-use-case"
+      },
+      {
+        "content": "Generated by molAOP-GPML from AOP-Wiki RDF 97191db (2026-08-01) and molAOP Builder snapshot 2026-08-13; layout backend: layered",
+        "source": "molAOP-GPML"
+      }
+    ],
+    "contains": [
+      "id194200e2",
+      "id4181ec21",
+      "id72bdea6e",
+      "id736575eb",
+      "id9bfff09c",
+      "ida9a31437",
+      "iddc486135",
+      "ide7ad9d8f",
+      "idfc02c3ec",
+      "f3a0f",
+      "g5934",
+      "n02da",
+      "p3e6b",
+      "q608f",
+      "q8f93",
+      "r3b3c",
+      "s8e8a",
+      "ua389",
+      "y8f3b"
+    ],
+    "dataSourceVersion": "WP5676_r20260827120000",
+    "displayName": "Enhanced hepatic clearance of thyroid hormones leading to thyroid follicular cell adenomas and carcinomas",
+    "drawAs": "rect",
+    "fill": "white",
+    "fontSize": 12,
+    "fontWeight": "bold",
+    "gpmlElementName": "Pathway",
+    "height": 786.7,
+    "id": "WP5676",
+    "kaavioType": "Group",
+    "lastModified": "20260827120000",
+    "name": "Enhanced hepatic clearance of thyroid hormones leading to thyroid follicular cell adenomas and carcinomas",
+    "organism": "Homo sapiens",
+    "padding": 5,
+    "pathwayVersion": "WP5676",
+    "standardName": "Enhanced hepatic clearance of thyroid hormones leading to thyroid follicular cell adenomas and carcinomas",
+    "stroke": "black",
+    "strokeWidth": 0,
+    "textAlign": "left",
+    "type": [
+      "Pathway",
+      "http://identifiers.org/pw/PW:0001413"
+    ],
+    "verticalAlign": "top",
+    "width": 390,
+    "x": 0,
+    "y": 0,
+    "zIndex": 0
+  }
+}
