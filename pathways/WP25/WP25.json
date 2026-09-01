@@ -377,8 +377,8 @@
       "zIndex": 32768
     },
     "dd90f": {
-      "drawAs": "none",
-      "fill": "transparent",
+      "drawAs": "rect",
+      "fill": "#ffffff",
       "fontFamily": "Arial",
       "fontSize": 12,
       "fontStyle": "normal",
@@ -390,8 +390,10 @@
       "lineHeight": 1.1,
       "overflow": "hidden",
       "padding": 8,
+      "rx": 15,
+      "ry": 15,
       "stroke": "#14961e",
-      "strokeWidth": 0,
+      "strokeWidth": 1,
       "textAlign": "center",
       "textContent": "TCA cycle",
       "textDecoration": "none",
@@ -399,13 +401,16 @@
       "type": [
         "DataNode",
         "SingleFreeNode",
-        "Pathway"
+        "WikiPathways:WP551",
+        "Pathway",
+        "CompactIdentifier:wikipathways:WP551"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
       "width": 80,
       "wpType": "Pathway",
       "x": 94.75,
+      "xrefDataSource": "WikiPathways",
       "xrefIdentifier": "WP551",
       "y": 603.25,
       "zIndex": 32769
@@ -441,7 +446,6 @@
       "width": 60,
       "wpType": "GeneProduct",
       "x": 103.99999999999997,
-      "xrefDataSource": "Entrez Gene",
       "y": 364.3333333333333,
       "zIndex": 32768
     },
@@ -1213,7 +1217,7 @@
       "fe0",
       "dd90f"
     ],
-    "dataSourceVersion": "WP25_r127986",
+    "dataSourceVersion": "WP25_r20260901064100",
     "displayName": "Fatty acid beta-oxidation 3",
     "drawAs": "rect",
     "fill": "white",
@@ -1223,7 +1227,7 @@
     "height": 663.3333333333334,
     "id": "WP25",
     "kaavioType": "Group",
-    "lastModified": "20240120222352",
+    "lastModified": "20260901064100",
     "name": "Fatty acid beta-oxidation 3",
     "organism": "Drosophila melanogaster",
     "padding": 5,
@@ -1232,7 +1236,6 @@
     "stroke": "black",
     "strokeWidth": 0,
     "textAlign": "left",
-    "textContent": "Name: Fatty acid beta-oxidation 3\nLast Modified: 20240120222352\nOrganism: Drosophila melanogaster",
     "type": [
       "Pathway",
       "http://identifiers.org/pw/PW:0000738"
