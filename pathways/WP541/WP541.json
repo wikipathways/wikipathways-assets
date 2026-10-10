@@ -34,7 +34,6 @@
         "PubChem:910",
         "ChemSpider:886",
         "HMDB:HMDB0001200",
-        "KEGG:C02700",
         "KEGG:C02406"
       ],
       "verticalAlign": "middle",
@@ -820,8 +819,7 @@
         "ChEBI:36559",
         "InChI:WJXSWCUQABXPFS-UHFFFAOYSA-M",
         "PubChem:54675871",
-        "ChemSpider:7822291",
-        "KEGG:C00632"
+        "ChemSpider:7822291"
       ],
       "verticalAlign": "middle",
       "whiteSpace": "pre",
@@ -832,37 +830,6 @@
       "xrefIdentifier": "CHEBI:36559",
       "y": 291.66666666666674,
       "zIndex": 32768
-    },
-    "c99": {
-      "drawAs": "none",
-      "fill": "transparent",
-      "fontFamily": "Arial",
-      "fontSize": 12,
-      "fontStyle": "normal",
-      "fontWeight": "bold",
-      "gpmlElementName": "Label",
-      "height": 19,
-      "id": "c99",
-      "kaavioType": "SingleFreeNode",
-      "lineHeight": 1.1,
-      "overflow": "hidden",
-      "padding": 8,
-      "stroke": "#000000",
-      "strokeWidth": 0,
-      "textAlign": "center",
-      "textContent": "nicotinate nucleotide",
-      "textDecoration": "none",
-      "textOverflow": "clip",
-      "type": [
-        "Label",
-        "SingleFreeNode"
-      ],
-      "verticalAlign": "middle",
-      "whiteSpace": "pre",
-      "width": 164.33333333333334,
-      "x": 473.50000000000017,
-      "y": 625.5000000000007,
-      "zIndex": 28672
     },
     "cc3": {
       "drawAs": "rect",
@@ -1252,6 +1219,39 @@
       "x": 383.33333333333303,
       "y": 216.00000000000037,
       "zIndex": 32768
+    },
+    "d4708": {
+      "drawAs": "rect",
+      "fill": "#ffffff",
+      "fontFamily": "Arial",
+      "fontSize": 12,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "gpmlElementName": "DataNode",
+      "height": 19,
+      "id": "d4708",
+      "kaavioType": "SingleFreeNode",
+      "lineHeight": 1.1,
+      "overflow": "hidden",
+      "padding": 8,
+      "stroke": "#0000ff",
+      "strokeWidth": 1,
+      "textAlign": "center",
+      "textContent": "nicotinate nucleotide",
+      "textDecoration": "none",
+      "textOverflow": "clip",
+      "type": [
+        "DataNode",
+        "SingleFreeNode",
+        "Metabolite"
+      ],
+      "verticalAlign": "middle",
+      "whiteSpace": "pre",
+      "width": 164.33333333333334,
+      "wpType": "Metabolite",
+      "x": 473.50000000000017,
+      "y": 625.5000000000007,
+      "zIndex": 28672
     },
     "d4931": {
       "drawAs": "rect",
@@ -2972,7 +2972,7 @@
       "id": "id71ee2c34",
       "isAttachedTo": [
         "e36a8",
-        "c99"
+        "d4708"
       ],
       "kaavioType": "Edge",
       "markerEnd": "MimConversion",
@@ -3007,7 +3007,7 @@
               0
             ]
           },
-          "isAttachedTo": "c99",
+          "isAttachedTo": "d4708",
           "orientation": [
             0,
             1
@@ -4031,7 +4031,7 @@
       "gpmlElementName": "Interaction",
       "id": "idec7e3d8f",
       "isAttachedTo": [
-        "c99",
+        "d4708",
         "f80c9"
       ],
       "kaavioType": "Edge",
@@ -4048,7 +4048,7 @@
               0.5
             ]
           },
-          "isAttachedTo": "c99",
+          "isAttachedTo": "d4708",
           "orientation": [
             -1,
             0
@@ -4267,6 +4267,28 @@
       ],
       "zIndex": 12288
     },
+    "publicationXrefa4e": {
+      "authors": [
+        "Belenky P",
+        "Racette FG",
+        "Bogan KL",
+        "McClure JM",
+        "Smith JS",
+        "Brenner C"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefa4e",
+      "source": "Cell",
+      "standardName": "Nicotinamide riboside promotes Sir2 silencing and extends lifespan via Nrk and Urh1/Pnp1/Meu1 pathways to NAD+.",
+      "textContent": "9",
+      "type": [
+        "PublicationXref",
+        "PubMed:17482543"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "17482543",
+      "year": 2007
+    },
     "publicationXrefa8b": {
       "gpmlElementName": "PublicationXref",
       "id": "publicationXrefa8b",
@@ -4275,10 +4297,175 @@
       "textContent": "1",
       "type": [
         "PublicationXref",
-        "URL:https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?type=NIL&object=NADSYN-PWY"
+        "PubMed:https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?type=NIL&object=NADSYN-PWY"
       ],
-      "xrefDataSource": "URL",
+      "xrefDataSource": "PubMed",
       "xrefIdentifier": "https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?type=NIL&object=NADSYN-PWY"
+    },
+    "publicationXrefad3": {
+      "authors": [
+        "Anderson RM",
+        "Bitterman KJ",
+        "Wood JG",
+        "Medvedik O",
+        "Sinclair DA"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefad3",
+      "source": "Nature",
+      "standardName": "Nicotinamide and PNC1 govern lifespan extension by calorie restriction in Saccharomyces cerevisiae.",
+      "textContent": "5",
+      "type": [
+        "PublicationXref",
+        "PubMed:12736687"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "12736687",
+      "year": 2003
+    },
+    "publicationXrefb3a": {
+      "authors": [
+        "Panozzo C",
+        "Nawara M",
+        "Suski C",
+        "Kucharczyka R",
+        "Skoneczny M",
+        "Bécam AM",
+        "Rytka J",
+        "Herbert CJ"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefb3a",
+      "source": "FEBS Lett",
+      "standardName": "Aerobic and anaerobic NAD+ metabolism in Saccharomyces cerevisiae.",
+      "textContent": "4",
+      "type": [
+        "PublicationXref",
+        "PubMed:12062417"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "12062417",
+      "year": 2002
+    },
+    "publicationXrefd7f": {
+      "authors": [
+        "Bedalov A",
+        "Hirao M",
+        "Posakony J",
+        "Nelson M",
+        "Simon JA"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefd7f",
+      "source": "Mol Cell Biol",
+      "standardName": "NAD+-dependent deacetylase Hst1p controls biosynthesis and cellular NAD+ levels in Saccharomyces cerevisiae.",
+      "textContent": "6",
+      "type": [
+        "PublicationXref",
+        "PubMed:12972620"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "12972620",
+      "year": 2003
+    },
+    "publicationXrefdb1": {
+      "authors": [
+        "Lin SJ",
+        "Guarente L"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefdb1",
+      "source": "Curr Opin Cell Biol",
+      "standardName": "Nicotinamide adenine dinucleotide, a metabolic regulator of transcription, longevity and disease.",
+      "textContent": "7",
+      "type": [
+        "PublicationXref",
+        "PubMed:12648681"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "12648681",
+      "year": 2003
+    },
+    "publicationXrefdb6": {
+      "authors": [
+        "Tempel W",
+        "Rabeh WM",
+        "Bogan KL",
+        "Belenky P",
+        "Wojcik M",
+        "Seidle HF",
+        "Nedyalkova L",
+        "Yang T",
+        "Sauve AA",
+        "Park HW",
+        "Brenner C"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefdb6",
+      "source": "PLoS Biol",
+      "standardName": "Nicotinamide riboside kinase structures reveal new pathways to NAD+.",
+      "textContent": "10",
+      "type": [
+        "PublicationXref",
+        "PubMed:17914902"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "17914902",
+      "year": 2007
+    },
+    "publicationXrefecb": {
+      "authors": [
+        "PREISS J",
+        "HANDLER P"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefecb",
+      "source": "J Biol Chem",
+      "standardName": "Biosynthesis of diphosphopyridine nucleotide. I. Identification of intermediates.",
+      "textContent": "3",
+      "type": [
+        "PublicationXref",
+        "PubMed:13563526"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "13563526",
+      "year": 1958
+    },
+    "publicationXreff62": {
+      "authors": [
+        "Bieganowski P",
+        "Brenner C"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXreff62",
+      "source": "Cell",
+      "standardName": "Discoveries of nicotinamide riboside as a nutrient and conserved NRK genes establish a Preiss-Handler independent route to NAD+ in fungi and humans.",
+      "textContent": "8",
+      "type": [
+        "PublicationXref",
+        "PubMed:15137942"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "15137942",
+      "year": 2004
+    },
+    "publicationXrefff9": {
+      "authors": [
+        "PREISS J",
+        "HANDLER P"
+      ],
+      "gpmlElementName": "PublicationXref",
+      "id": "publicationXrefff9",
+      "source": "J Biol Chem",
+      "standardName": "Enzymatic synthesis of nicotinamide mononucleotide.",
+      "textContent": "2",
+      "type": [
+        "PublicationXref",
+        "PubMed:13416279"
+      ],
+      "xrefDataSource": "PubMed",
+      "xrefIdentifier": "13416279",
+      "year": 1957
     }
   },
   "pathway": {
@@ -4328,8 +4515,8 @@
       "id92a6af4a",
       "id9e5e9b2b",
       "id97fbb7f7",
+      "d4708",
       "b9b",
-      "c99",
       "a23",
       "a93",
       "b14",
@@ -4363,7 +4550,7 @@
       "dcea9",
       "f99cf"
     ],
-    "dataSourceVersion": "WP541_r140427",
+    "dataSourceVersion": "WP541_r20261010182927",
     "displayName": "De novo NAD biosynthesis",
     "drawAs": "rect",
     "fill": "white",
@@ -4373,7 +4560,7 @@
     "height": 760.8333333333335,
     "id": "WP541",
     "kaavioType": "Group",
-    "lastModified": "20250822112153",
+    "lastModified": "20261010182927",
     "name": "De novo NAD biosynthesis",
     "organism": "Saccharomyces cerevisiae",
     "padding": 5,
@@ -4384,8 +4571,8 @@
     "textAlign": "left",
     "type": [
       "Pathway",
-      "http://identifiers.org/pw/PW:0001276",
-      "http://identifiers.org/pw/PW:0000002"
+      "http://identifiers.org/pw/PW:0000002",
+      "http://identifiers.org/pw/PW:0001276"
     ],
     "verticalAlign": "top",
     "width": 731.6666666666666,
